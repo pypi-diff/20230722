@@ -593,3 +593,141 @@
 [2023-07-22 00:24:04] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
 [2023-07-22 00:24:04] INFO root fetch - main [MainThread]: End processing [langchain]: success
 [2023-07-22 00:24:04] INFO root fetch - main [MainThread]: Store serial: [18989514]
+[2023-07-22 00:29:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18989514]
+[2023-07-22 00:29:12] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-22 00:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wwt-api-client
+[2023-07-22 00:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adafruit-circuitpython-wiznet5k
+[2023-07-22 00:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: klaviyo-for-django
+[2023-07-22 00:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elasticsearch-curator
+[2023-07-22 00:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-models-official
+[2023-07-22 00:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pdf-reports
+[2023-07-22 00:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: policyengine-us
+[2023-07-22 00:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sklearn-mlmlm
+[2023-07-22 00:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dclab
+[2023-07-22 00:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mtrain-superclient
+[2023-07-22 00:29:13] INFO root fetch - processPackages [mtrain-superclient]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-22 00:29:13] INFO root fetch - processPackages [tf-models-official]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-22 00:29:13] INFO root fetch - processPackages [wwt-api-client]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-22 00:29:13] INFO root fetch - processPackages [sklearn-mlmlm]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-07-22 00:29:13] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: New version: [5.0.0] Old Version: [4.0.0]
+[2023-07-22 00:29:13] INFO root fetch - processPackages [elasticsearch-curator]: New version: [8.0.7] Old Version: [8.0.6.post1]
+[2023-07-22 00:29:13] INFO root fetch - processPackages [policyengine-us]: New version: [0.384.0] Old Version: [0.383.0]
+[2023-07-22 00:29:13] INFO root fetch - processPackages [dclab]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-22 00:29:13] INFO root fetch - processPackages [klaviyo-for-django]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 00:29:13] INFO root fetch - processPackages [pdf-reports]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-22 00:29:13] INFO root fetch - processPackages [mtrain-superclient]: Downloading https://files.pythonhosted.org/packages/12/f8/ad2cf1ea6944bf2797eccc2f1f274e7a1a94eb7ec09179149b6e949462cc/mtrain-superclient-0.2.0.tar.gz
+[2023-07-22 00:29:13] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/da/8b/3d4bb37ff83dc88bd924784edbf53268b16ae63c9282c6b213c8dec4f3ea/sklearn_mlmlm-0.0.4.tar.gz
+[2023-07-22 00:29:13] INFO root fetch - processPackages [elasticsearch-curator]: Downloading https://files.pythonhosted.org/packages/96/ca/640bda63535e5801207eb300e3b1147fb07b7be5e62b725aed08c2a23b39/elasticsearch_curator-8.0.6.post1.tar.gz
+[2023-07-22 00:29:13] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Downloading https://files.pythonhosted.org/packages/4c/57/1f9aafb9d955acc175d37b105528ed80025b788eb735de379ec1b1a12421/adafruit-circuitpython-wiznet5k-4.0.0.tar.gz
+[2023-07-22 00:29:13] INFO root fetch - processPackages [wwt-api-client]: Downloading https://files.pythonhosted.org/packages/db/da/d041855f163e30a45829c28041ffb5938abaedff2ecae2a948353aea4caa/wwt_api_client-0.3.0.tar.gz
+[2023-07-22 00:29:13] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/71/1f/6efc1584af2623b64a31578e685a04abe00c16e9959134fb6485499470cd/policyengine-us-0.383.0.tar.gz
+[2023-07-22 00:29:13] INFO root fetch - processPackages [tf-models-official]: Downloading https://files.pythonhosted.org/packages/16/00/9f859958c2080276655078bd376e67c11e62731d4b88c9307c021ee60c29/tf-models-official-2.9.1.tar.gz
+[2023-07-22 00:29:13] INFO root fetch - processPackages [dclab]: Downloading https://files.pythonhosted.org/packages/7c/85/1e39b909a273589478001e4ea5a3df8fd5923e2dbc48bc5ded42f984a58f/dclab-0.9.0.tar.gz
+[2023-07-22 00:29:13] INFO root fetch - processPackages [klaviyo-for-django]: Downloading https://files.pythonhosted.org/packages/09/42/01f6e0cda9720c9990265d2680c31706c87a9fc737c175247cd9556bfc2a/klaviyo-for-django-0.0.3.tar.gz
+[2023-07-22 00:29:13] INFO root fetch - processPackages [pdf-reports]: Downloading https://files.pythonhosted.org/packages/64/e0/e096fa686a41a1d89ccbe8b01e44670eb6c0a6f6b801810585cf6828f822/pdf_reports-0.3.4.tar.gz
+[2023-07-22 00:29:13] INFO root fetch - processPackages [mtrain-superclient]: Downloading https://files.pythonhosted.org/packages/31/0c/8b45fbb19c40a9184238ad25ac0023a95db85b699085815491579ebefe52/mtrain-superclient-0.3.0.tar.gz
+[2023-07-22 00:29:13] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/23/e1/d309106cabfe5d2886334e285a33d3ad94f1185263b238c61a14de8fb41c/sklearn_mlmlm-0.0.6.tar.gz
+[2023-07-22 00:29:13] INFO root fetch - processPackages [elasticsearch-curator]: Downloading https://files.pythonhosted.org/packages/f8/21/db4a9d726a7794691c35fc26b50aba7573ead61dee0189e8c80dff87098c/elasticsearch_curator-8.0.7.tar.gz
+[2023-07-22 00:29:13] INFO root fetch - processPackages [mtrain-superclient]: executing diffoscope
+[2023-07-22 00:29:13] INFO root fetch - processPackages [mtrain-superclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtrain-superclient-0.2.0.tar.gz tmp/mtrain-superclient-0.3.0.tar.gz --markdown 20230722/m/mtrain-superclient/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-22 00:29:13] INFO root fetch - processPackages [sklearn-mlmlm]: executing diffoscope
+[2023-07-22 00:29:13] INFO root fetch - processPackages [sklearn-mlmlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_mlmlm-0.0.4.tar.gz tmp/sklearn_mlmlm-0.0.6.tar.gz --markdown 20230722/s/sklearn-mlmlm/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-07-22 00:29:13] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Downloading https://files.pythonhosted.org/packages/b8/7d/5e3a47713ada6c6d7089a986e3af374a8e455399a2adac8a275e2b625218/adafruit-circuitpython-wiznet5k-5.0.0.tar.gz
+[2023-07-22 00:29:14] INFO root fetch - processPackages [elasticsearch-curator]: executing diffoscope
+[2023-07-22 00:29:14] INFO root fetch - processPackages [elasticsearch-curator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticsearch_curator-8.0.6.post1.tar.gz tmp/elasticsearch_curator-8.0.7.tar.gz --markdown 20230722/e/elasticsearch-curator/8.0.6.post1-8.0.7/diff.md --exclude *.pyd
+[2023-07-22 00:29:14] INFO root fetch - processPackages [wwt-api-client]: Downloading https://files.pythonhosted.org/packages/48/06/abe713ae8496debb5cff31f7d5167b7e5f1ddeae6ddb272b7813f2ec9508/wwt_api_client-0.4.0.tar.gz
+[2023-07-22 00:29:14] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/f9/69/855ebfebfeefad930f2bc9a1ed361b346d423fee50b6eab091af7a9ed0e2/policyengine-us-0.384.0.tar.gz
+[2023-07-22 00:29:14] INFO root fetch - processPackages [klaviyo-for-django]: Downloading https://files.pythonhosted.org/packages/db/27/7bb4204ebac2a7b8921067edefbdfb791e8e93ef437a5331402bc722a47d/klaviyo-for-django-0.0.4.tar.gz
+[2023-07-22 00:29:14] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: executing diffoscope
+[2023-07-22 00:29:14] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-wiznet5k-4.0.0.tar.gz tmp/adafruit-circuitpython-wiznet5k-5.0.0.tar.gz --markdown 20230722/a/adafruit-circuitpython-wiznet5k/4.0.0-5.0.0/diff.md --exclude *.pyd
+[2023-07-22 00:29:14] INFO root fetch - processPackages [wwt-api-client]: executing diffoscope
+[2023-07-22 00:29:14] INFO root fetch - processPackages [wwt-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwt_api_client-0.3.0.tar.gz tmp/wwt_api_client-0.4.0.tar.gz --markdown 20230722/w/wwt-api-client/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-22 00:29:14] INFO root fetch - processPackages [pdf-reports]: Downloading https://files.pythonhosted.org/packages/84/ab/725a6aed9853e88082f804e40d0fb62caf17b716bd76166469974ceec38e/pdf_reports-0.3.5.tar.gz
+[2023-07-22 00:29:14] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-22 00:29:14] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.383.0.tar.gz tmp/policyengine-us-0.384.0.tar.gz --markdown 20230722/p/policyengine-us/0.383.0-0.384.0/diff.md --exclude *.pyd
+[2023-07-22 00:29:14] INFO root fetch - processPackages [tf-models-official]: Downloading https://files.pythonhosted.org/packages/d8/70/4e5fb0b35fb4fde870dec9b07b4f1468edadf302042eae0adc397e4f876d/tf-models-official-2.9.2.tar.gz
+[2023-07-22 00:29:14] INFO root fetch - processPackages [klaviyo-for-django]: executing diffoscope
+[2023-07-22 00:29:14] INFO root fetch - processPackages [klaviyo-for-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klaviyo-for-django-0.0.3.tar.gz tmp/klaviyo-for-django-0.0.4.tar.gz --markdown 20230722/k/klaviyo-for-django/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 00:29:14] INFO root fetch - processPackages [pdf-reports]: executing diffoscope
+[2023-07-22 00:29:14] INFO root fetch - processPackages [pdf-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf_reports-0.3.4.tar.gz tmp/pdf_reports-0.3.5.tar.gz --markdown 20230722/p/pdf-reports/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-22 00:29:14] INFO root fetch - processPackages [dclab]: Downloading https://files.pythonhosted.org/packages/b7/8f/20dd68d6e832776bab24a9ec17e74b4480bdf3b960f989ada95f9a4387cc/dclab-0.9.1.tar.gz
+[2023-07-22 00:29:14] INFO root fetch - processPackages [tf-models-official]: executing diffoscope
+[2023-07-22 00:29:14] INFO root fetch - processPackages [tf-models-official]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf-models-official-2.9.1.tar.gz tmp/tf-models-official-2.9.2.tar.gz --markdown 20230722/t/tf-models-official/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-22 00:29:15] INFO root fetch - processPackages [dclab]: executing diffoscope
+[2023-07-22 00:29:15] INFO root fetch - processPackages [dclab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dclab-0.9.0.tar.gz tmp/dclab-0.9.1.tar.gz --markdown 20230722/d/dclab/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-22 00:29:15] INFO root fetch - processPackages [mtrain-superclient]: Remove: archive file [/home/abi/fetcher/tmp/mtrain-superclient-0.2.0.tar.gz]
+[2023-07-22 00:29:15] INFO root fetch - processPackages [mtrain-superclient]: Remove: archive file [/home/abi/fetcher/tmp/mtrain-superclient-0.3.0.tar.gz]
+[2023-07-22 00:29:15] INFO root fetch - processPackages [mtrain-superclient]: Start processing: pypfb
+[2023-07-22 00:29:15] INFO root fetch - main [MainThread]: End processing [mtrain-superclient]: success
+[2023-07-22 00:29:15] INFO root fetch - processPackages [pypfb]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-22 00:29:15] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.4.tar.gz]
+[2023-07-22 00:29:15] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.6.tar.gz]
+[2023-07-22 00:29:15] INFO root fetch - processPackages [sklearn-mlmlm]: Start processing: ecoengine
+[2023-07-22 00:29:15] INFO root fetch - main [MainThread]: End processing [sklearn-mlmlm]: success
+[2023-07-22 00:29:15] INFO root fetch - processPackages [ecoengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 00:29:15] INFO root fetch - processPackages [pypfb]: Downloading https://files.pythonhosted.org/packages/12/fc/240b4a45f3c210775bf67979d254e3455d43c7fd544064f50a8e5ea7e73d/pypfb-0.5.8.tar.gz
+[2023-07-22 00:29:15] INFO root fetch - processPackages [klaviyo-for-django]: Remove: archive file [/home/abi/fetcher/tmp/klaviyo-for-django-0.0.3.tar.gz]
+[2023-07-22 00:29:15] INFO root fetch - processPackages [klaviyo-for-django]: Remove: archive file [/home/abi/fetcher/tmp/klaviyo-for-django-0.0.4.tar.gz]
+[2023-07-22 00:29:15] INFO root fetch - processPackages [klaviyo-for-django]: Start processing: dagster
+[2023-07-22 00:29:15] INFO root fetch - main [MainThread]: End processing [klaviyo-for-django]: success
+[2023-07-22 00:29:15] INFO root fetch - processPackages [dagster]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-22 00:29:15] INFO root fetch - processPackages [elasticsearch-curator]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_curator-8.0.6.post1.tar.gz]
+[2023-07-22 00:29:15] INFO root fetch - processPackages [elasticsearch-curator]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_curator-8.0.7.tar.gz]
+[2023-07-22 00:29:15] INFO root fetch - processPackages [elasticsearch-curator]: Start processing: dagit
+[2023-07-22 00:29:15] INFO root fetch - main [MainThread]: End processing [elasticsearch-curator]: success
+[2023-07-22 00:29:15] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/d8/e5/5b3594045f107ce24e058d4f5ac188087d76010f4389991a7c9a9ce4beb6/ecoengine-0.0.8.tar.gz
+[2023-07-22 00:29:15] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-wiznet5k-4.0.0.tar.gz]
+[2023-07-22 00:29:15] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-wiznet5k-5.0.0.tar.gz]
+[2023-07-22 00:29:15] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Start processing: dagster-graphql
+[2023-07-22 00:29:15] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-wiznet5k]: success
+[2023-07-22 00:29:15] INFO root fetch - processPackages [dagit]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-22 00:29:15] INFO root fetch - processPackages [dagster]: Downloading https://files.pythonhosted.org/packages/6d/7b/397ba6580da096bcbe973ac22ab160c74d1c5b1af6d062d061a533e5891d/dagster-1.4.1.tar.gz
+[2023-07-22 00:29:15] INFO root fetch - processPackages [dagster-graphql]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-22 00:29:16] INFO root fetch - processPackages [pdf-reports]: Remove: archive file [/home/abi/fetcher/tmp/pdf_reports-0.3.4.tar.gz]
+[2023-07-22 00:29:16] INFO root fetch - processPackages [pdf-reports]: Remove: archive file [/home/abi/fetcher/tmp/pdf_reports-0.3.5.tar.gz]
+[2023-07-22 00:29:16] INFO root fetch - main [MainThread]: End processing [pdf-reports]: success
+[2023-07-22 00:29:16] INFO root fetch - processPackages [dagit]: Downloading https://files.pythonhosted.org/packages/dc/ab/59ea4ada78e604019f288b75d2d287b75a1577bd74e510d0f87b58d93d27/dagit-1.4.1.tar.gz
+[2023-07-22 00:29:16] INFO root fetch - processPackages [wwt-api-client]: Remove: archive file [/home/abi/fetcher/tmp/wwt_api_client-0.3.0.tar.gz]
+[2023-07-22 00:29:16] INFO root fetch - processPackages [wwt-api-client]: Remove: archive file [/home/abi/fetcher/tmp/wwt_api_client-0.4.0.tar.gz]
+[2023-07-22 00:29:16] INFO root fetch - main [MainThread]: End processing [wwt-api-client]: success
+[2023-07-22 00:29:16] INFO root fetch - processPackages [dagster-graphql]: Downloading https://files.pythonhosted.org/packages/ad/70/e8aa0b740f60add4308e1e5183d7f6f68dd1568bd39f8b28f3b56e85d105/dagster-graphql-1.4.1.tar.gz
+[2023-07-22 00:29:16] INFO root fetch - processPackages [pypfb]: Downloading https://files.pythonhosted.org/packages/e7/cf/94fd33369eeba09b064f9c8567d9cf6f61d3c6c6dec6ea1c10a227222173/pypfb-0.5.9.tar.gz
+[2023-07-22 00:29:16] INFO root fetch - processPackages [dagster]: Downloading https://files.pythonhosted.org/packages/01/a7/b5e27a06f99f8ef631a8b91ea7e47edc52eea6e1e9d712dcf908b92294a1/dagster-1.4.2.tar.gz
+[2023-07-22 00:29:16] INFO root fetch - processPackages [pypfb]: executing diffoscope
+[2023-07-22 00:29:16] INFO root fetch - processPackages [pypfb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypfb-0.5.8.tar.gz tmp/pypfb-0.5.9.tar.gz --markdown 20230722/p/pypfb/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-22 00:29:16] INFO root fetch - processPackages [dagit]: Downloading https://files.pythonhosted.org/packages/29/99/4acac1d92b79cd411adcb6e3993518606c74041266988148f5e5e1e35765/dagit-1.4.2.tar.gz
+[2023-07-22 00:29:16] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/b4/06/8712491ed487422ca74801e6051cd89e398183d43abb0a99e904022af6ba/ecoengine-0.0.9.tar.gz
+[2023-07-22 00:29:16] INFO root fetch - processPackages [dagster]: executing diffoscope
+[2023-07-22 00:29:16] INFO root fetch - processPackages [dagster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-1.4.1.tar.gz tmp/dagster-1.4.2.tar.gz --markdown 20230722/d/dagster/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-22 00:29:16] INFO root fetch - processPackages [dagster-graphql]: Downloading https://files.pythonhosted.org/packages/1b/f1/1c20f6ac3d3f8cea8c2ad1466a375edd3ef27c42a485848335e5edd21670/dagster-graphql-1.4.2.tar.gz
+[2023-07-22 00:29:16] INFO root fetch - processPackages [dagit]: executing diffoscope
+[2023-07-22 00:29:16] INFO root fetch - processPackages [dagit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagit-1.4.1.tar.gz tmp/dagit-1.4.2.tar.gz --markdown 20230722/d/dagit/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-22 00:29:16] INFO root fetch - processPackages [dagster-graphql]: executing diffoscope
+[2023-07-22 00:29:16] INFO root fetch - processPackages [dagster-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-graphql-1.4.1.tar.gz tmp/dagster-graphql-1.4.2.tar.gz --markdown 20230722/d/dagster-graphql/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-22 00:29:16] INFO root fetch - processPackages [ecoengine]: executing diffoscope
+[2023-07-22 00:29:16] INFO root fetch - processPackages [ecoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoengine-0.0.8.tar.gz tmp/ecoengine-0.0.9.tar.gz --markdown 20230722/e/ecoengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 00:29:17] INFO root fetch - processPackages [dclab]: Remove: archive file [/home/abi/fetcher/tmp/dclab-0.9.0.tar.gz]
+[2023-07-22 00:29:17] INFO root fetch - processPackages [dclab]: Remove: archive file [/home/abi/fetcher/tmp/dclab-0.9.1.tar.gz]
+[2023-07-22 00:29:17] INFO root fetch - main [MainThread]: End processing [dclab]: success
+[2023-07-22 00:29:17] INFO root fetch - processPackages [dagit]: Remove: archive file [/home/abi/fetcher/tmp/dagit-1.4.1.tar.gz]
+[2023-07-22 00:29:17] INFO root fetch - processPackages [dagit]: Remove: archive file [/home/abi/fetcher/tmp/dagit-1.4.2.tar.gz]
+[2023-07-22 00:29:17] INFO root fetch - main [MainThread]: End processing [dagit]: success
+[2023-07-22 00:29:17] INFO root fetch - processPackages [pypfb]: Remove: archive file [/home/abi/fetcher/tmp/pypfb-0.5.8.tar.gz]
+[2023-07-22 00:29:17] INFO root fetch - processPackages [pypfb]: Remove: archive file [/home/abi/fetcher/tmp/pypfb-0.5.9.tar.gz]
+[2023-07-22 00:29:17] INFO root fetch - main [MainThread]: End processing [pypfb]: success
+[2023-07-22 00:29:17] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.8.tar.gz]
+[2023-07-22 00:29:17] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.9.tar.gz]
+[2023-07-22 00:29:17] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
+[2023-07-22 00:29:18] INFO root fetch - processPackages [dagster-graphql]: Remove: archive file [/home/abi/fetcher/tmp/dagster-graphql-1.4.1.tar.gz]
+[2023-07-22 00:29:18] INFO root fetch - processPackages [dagster-graphql]: Remove: archive file [/home/abi/fetcher/tmp/dagster-graphql-1.4.2.tar.gz]
+[2023-07-22 00:29:18] INFO root fetch - main [MainThread]: End processing [dagster-graphql]: success
+[2023-07-22 00:29:20] INFO root fetch - processPackages [dagster]: Remove: archive file [/home/abi/fetcher/tmp/dagster-1.4.1.tar.gz]
+[2023-07-22 00:29:20] INFO root fetch - processPackages [dagster]: Remove: archive file [/home/abi/fetcher/tmp/dagster-1.4.2.tar.gz]
+[2023-07-22 00:29:20] INFO root fetch - main [MainThread]: End processing [dagster]: success
+[2023-07-22 00:29:21] INFO root fetch - processPackages [tf-models-official]: Remove: archive file [/home/abi/fetcher/tmp/tf-models-official-2.9.1.tar.gz]
+[2023-07-22 00:29:21] INFO root fetch - processPackages [tf-models-official]: Remove: archive file [/home/abi/fetcher/tmp/tf-models-official-2.9.2.tar.gz]
+[2023-07-22 00:29:21] INFO root fetch - main [MainThread]: End processing [tf-models-official]: success
+[2023-07-22 00:29:45] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.383.0.tar.gz]
+[2023-07-22 00:29:45] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.384.0.tar.gz]
+[2023-07-22 00:29:45] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-22 00:29:45] INFO root fetch - main [MainThread]: Store serial: [18989557]
