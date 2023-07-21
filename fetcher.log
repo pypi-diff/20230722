@@ -1931,3 +1931,33 @@
 [2023-07-22 01:17:52] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-1.9.7.tar.gz]
 [2023-07-22 01:17:52] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
 [2023-07-22 01:17:52] INFO root fetch - main [MainThread]: Store serial: [18990106]
+[2023-07-22 01:22:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18990106]
+[2023-07-22 01:23:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-22 01:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plone.app.event
+[2023-07-22 01:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: errno-converter
+[2023-07-22 01:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heaserver-folders-aws-s3
+[2023-07-22 01:23:01] INFO root fetch - processPackages [errno-converter]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-22 01:23:01] INFO root fetch - processPackages [plone.app.event]: New version: [5.1.0] Old Version: [5.0.1]
+[2023-07-22 01:23:01] INFO root fetch - processPackages [errno-converter]: Downloading https://files.pythonhosted.org/packages/05/f5/e6bbe19c8bab66fc3d58939ed1b9e4c225acc1716d16bcf6adfb2fd670ea/errno_converter-0.1.5.tar.gz
+[2023-07-22 01:23:01] INFO root fetch - processPackages [heaserver-folders-aws-s3]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-22 01:23:01] INFO root fetch - processPackages [plone.app.event]: Downloading https://files.pythonhosted.org/packages/70/21/02b8931bfd41210e30764313887d31320888fd7743f9b33b4971cafd3848/plone.app.event-5.0.1.tar.gz
+[2023-07-22 01:23:02] INFO root fetch - processPackages [errno-converter]: Downloading https://files.pythonhosted.org/packages/8f/30/095ce5ed9c504a7a91cab490a204f0fd0e6abb65b372ce25ac1af1eb5ac5/errno_converter-0.1.6.tar.gz
+[2023-07-22 01:23:02] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Downloading https://files.pythonhosted.org/packages/f8/10/3a86463ed5a3cada680e1678f42cfdf2a07f27f8cdb90c8d0c3f57f9ab82/heaserver-folders-aws-s3-1.0.0a8.tar.gz
+[2023-07-22 01:23:02] INFO root fetch - processPackages [errno-converter]: executing diffoscope
+[2023-07-22 01:23:02] INFO root fetch - processPackages [errno-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/errno_converter-0.1.5.tar.gz tmp/errno_converter-0.1.6.tar.gz --markdown 20230722/e/errno-converter/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-22 01:23:02] INFO root fetch - processPackages [plone.app.event]: Downloading https://files.pythonhosted.org/packages/3b/a7/0747dce12db4463962fdd82c728d4a3d86efd530cf934b03da7b33053665/plone.app.event-5.1.0.tar.gz
+[2023-07-22 01:23:02] INFO root fetch - processPackages [plone.app.event]: executing diffoscope
+[2023-07-22 01:23:02] INFO root fetch - processPackages [plone.app.event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.event-5.0.1.tar.gz tmp/plone.app.event-5.1.0.tar.gz --markdown 20230722/p/plone.app.event/5.0.1-5.1.0/diff.md --exclude *.pyd
+[2023-07-22 01:23:02] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Downloading https://files.pythonhosted.org/packages/f0/b0/dda81eace819afe1df5d783a040e576f769b7f6834886d20e39ca1737454/heaserver-folders-aws-s3-1.0.0a9.tar.gz
+[2023-07-22 01:23:02] INFO root fetch - processPackages [errno-converter]: Remove: archive file [/home/abi/fetcher/tmp/errno_converter-0.1.5.tar.gz]
+[2023-07-22 01:23:02] INFO root fetch - processPackages [errno-converter]: Remove: archive file [/home/abi/fetcher/tmp/errno_converter-0.1.6.tar.gz]
+[2023-07-22 01:23:02] INFO root fetch - main [MainThread]: End processing [errno-converter]: success
+[2023-07-22 01:23:03] INFO root fetch - processPackages [heaserver-folders-aws-s3]: executing diffoscope
+[2023-07-22 01:23:03] INFO root fetch - processPackages [heaserver-folders-aws-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-folders-aws-s3-1.0.0a8.tar.gz tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz --markdown 20230722/h/heaserver-folders-aws-s3/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-22 01:23:03] INFO root fetch - processPackages [plone.app.event]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.event-5.0.1.tar.gz]
+[2023-07-22 01:23:03] INFO root fetch - processPackages [plone.app.event]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.event-5.1.0.tar.gz]
+[2023-07-22 01:23:03] INFO root fetch - main [MainThread]: End processing [plone.app.event]: success
+[2023-07-22 01:23:03] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-folders-aws-s3-1.0.0a8.tar.gz]
+[2023-07-22 01:23:03] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz]
+[2023-07-22 01:23:03] INFO root fetch - main [MainThread]: End processing [heaserver-folders-aws-s3]: success
+[2023-07-22 01:23:03] INFO root fetch - main [MainThread]: Store serial: [18990148]
