@@ -1,0 +1,48 @@
+[2023-07-22 00:03:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18989233]
+[2023-07-22 00:03:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 00:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certbot-dns-multi
+[2023-07-22 00:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elifecleaner
+[2023-07-22 00:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: examon-beginners-package
+[2023-07-22 00:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sklearn-mlmlm
+[2023-07-22 00:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moabdb
+[2023-07-22 00:03:06] INFO root fetch - processPackages [examon-beginners-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 00:03:06] INFO root fetch - processPackages [sklearn-mlmlm]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 00:03:06] INFO root fetch - processPackages [elifecleaner]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-22 00:03:06] INFO root fetch - processPackages [moabdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 00:03:06] INFO root fetch - processPackages [certbot-dns-multi]: New version: [4.9.1.dev0] Old Version: [4.9.1]
+[2023-07-22 00:03:06] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/eb/08/577c5b7067bde828fe326155bbca88928747f9338333c172ebad51f3e18a/sklearn_mlmlm-0.0.3.tar.gz
+[2023-07-22 00:03:06] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/96/03/58935b420c952db4961424ceeba97283a4c72fb94531da0acb864c0aa9ab/moabdb-0.1.8.tar.gz
+[2023-07-22 00:03:06] INFO root fetch - processPackages [elifecleaner]: Downloading https://files.pythonhosted.org/packages/d8/0e/4046c55d79880da671663d71e149bd71481ded59f3d48fcdbcb00ba806d5/elifecleaner-0.9.0.tar.gz
+[2023-07-22 00:03:06] INFO root fetch - processPackages [examon-beginners-package]: Downloading https://files.pythonhosted.org/packages/54/b2/19d320cd46ecaa9277572a72d62dfa3f72f5fc2a52a18fb590f0a7f9a5db/examon_beginners_package-0.0.8.tar.gz
+[2023-07-22 00:03:06] INFO root fetch - processPackages [certbot-dns-multi]: Downloading https://files.pythonhosted.org/packages/cc/f4/18f66a710e1ecf267ee6643f474609f74951c84f127f2a7bb12646e8a3aa/certbot-dns-multi-4.9.1.tar.gz
+[2023-07-22 00:03:06] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/02/5a/dc332fba4b2f9beda962be321254cf1d20a93377cc750891d55f43989ee9/moabdb-0.1.9.tar.gz
+[2023-07-22 00:03:06] INFO root fetch - processPackages [moabdb]: executing diffoscope
+[2023-07-22 00:03:06] INFO root fetch - processPackages [moabdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moabdb-0.1.8.tar.gz tmp/moabdb-0.1.9.tar.gz --markdown 20230722/m/moabdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 00:03:06] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/da/8b/3d4bb37ff83dc88bd924784edbf53268b16ae63c9282c6b213c8dec4f3ea/sklearn_mlmlm-0.0.4.tar.gz
+[2023-07-22 00:03:07] INFO root fetch - processPackages [examon-beginners-package]: Downloading https://files.pythonhosted.org/packages/b1/5c/bb51ad01796abf4a5a1d03b1169e5a511a116f2a6255d0b82fafc32da719/examon_beginners_package-0.0.9.tar.gz
+[2023-07-22 00:03:07] INFO root fetch - processPackages [sklearn-mlmlm]: executing diffoscope
+[2023-07-22 00:03:07] INFO root fetch - processPackages [sklearn-mlmlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_mlmlm-0.0.3.tar.gz tmp/sklearn_mlmlm-0.0.4.tar.gz --markdown 20230722/s/sklearn-mlmlm/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 00:03:07] INFO root fetch - processPackages [elifecleaner]: Downloading https://files.pythonhosted.org/packages/ba/d9/f14856c509de287aec8a31e76808f681383e338462e051c31edcecd1527f/elifecleaner-0.9.1.tar.gz
+[2023-07-22 00:03:07] INFO root fetch - processPackages [examon-beginners-package]: executing diffoscope
+[2023-07-22 00:03:07] INFO root fetch - processPackages [examon-beginners-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_beginners_package-0.0.8.tar.gz tmp/examon_beginners_package-0.0.9.tar.gz --markdown 20230722/e/examon-beginners-package/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 00:03:07] INFO root fetch - processPackages [certbot-dns-multi]: Downloading https://files.pythonhosted.org/packages/0b/db/5ad2d4770403ae3a748f7a984f6c03cb6dc95ab6f3302589fcda0d427b30/certbot-dns-multi-4.9.1.dev0.tar.gz
+[2023-07-22 00:03:07] INFO root fetch - processPackages [elifecleaner]: executing diffoscope
+[2023-07-22 00:03:07] INFO root fetch - processPackages [elifecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elifecleaner-0.9.0.tar.gz tmp/elifecleaner-0.9.1.tar.gz --markdown 20230722/e/elifecleaner/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-22 00:03:07] INFO root fetch - processPackages [certbot-dns-multi]: executing diffoscope
+[2023-07-22 00:03:07] INFO root fetch - processPackages [certbot-dns-multi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-multi-4.9.1.tar.gz tmp/certbot-dns-multi-4.9.1.dev0.tar.gz --markdown 20230722/c/certbot-dns-multi/4.9.1-4.9.1.dev0/diff.md --exclude *.pyd
+[2023-07-22 00:03:07] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.8.tar.gz]
+[2023-07-22 00:03:07] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.9.tar.gz]
+[2023-07-22 00:03:07] INFO root fetch - main [MainThread]: End processing [moabdb]: success
+[2023-07-22 00:03:08] INFO root fetch - processPackages [examon-beginners-package]: Remove: archive file [/home/abi/fetcher/tmp/examon_beginners_package-0.0.8.tar.gz]
+[2023-07-22 00:03:08] INFO root fetch - processPackages [examon-beginners-package]: Remove: archive file [/home/abi/fetcher/tmp/examon_beginners_package-0.0.9.tar.gz]
+[2023-07-22 00:03:08] INFO root fetch - main [MainThread]: End processing [examon-beginners-package]: success
+[2023-07-22 00:03:08] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.3.tar.gz]
+[2023-07-22 00:03:08] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.4.tar.gz]
+[2023-07-22 00:03:08] INFO root fetch - main [MainThread]: End processing [sklearn-mlmlm]: success
+[2023-07-22 00:03:08] INFO root fetch - processPackages [elifecleaner]: Remove: archive file [/home/abi/fetcher/tmp/elifecleaner-0.9.0.tar.gz]
+[2023-07-22 00:03:08] INFO root fetch - processPackages [elifecleaner]: Remove: archive file [/home/abi/fetcher/tmp/elifecleaner-0.9.1.tar.gz]
+[2023-07-22 00:03:08] INFO root fetch - main [MainThread]: End processing [elifecleaner]: success
+[2023-07-22 00:03:08] INFO root fetch - processPackages [certbot-dns-multi]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-multi-4.9.1.tar.gz]
+[2023-07-22 00:03:08] INFO root fetch - processPackages [certbot-dns-multi]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-multi-4.9.1.dev0.tar.gz]
+[2023-07-22 00:03:08] INFO root fetch - main [MainThread]: End processing [certbot-dns-multi]: success
+[2023-07-22 00:03:08] INFO root fetch - main [MainThread]: Store serial: [18989252]
