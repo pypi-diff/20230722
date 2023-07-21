@@ -2138,3 +2138,51 @@
 [2023-07-22 01:38:58] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-07-22 01:38:58] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-07-22 01:38:58] INFO root fetch - main [MainThread]: Store serial: [18990212]
+[2023-07-22 01:44:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18990212]
+[2023-07-22 01:44:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 01:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: appeal
+[2023-07-22 01:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crypto-screening
+[2023-07-22 01:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pied-poker
+[2023-07-22 01:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: np-workflows
+[2023-07-22 01:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oloren
+[2023-07-22 01:44:06] INFO root fetch - processPackages [crypto-screening]: New version: [7.5.4] Old Version: [7.5.3]
+[2023-07-22 01:44:06] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 01:44:06] INFO root fetch - processPackages [pied-poker]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-22 01:44:06] INFO root fetch - processPackages [np-workflows]: New version: [1.6.0] Old Version: [1.5.5]
+[2023-07-22 01:44:06] INFO root fetch - processPackages [appeal]: New version: [0.6.1] Old Version: [0.6]
+[2023-07-22 01:44:06] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/38/9f/a769603e045cf05f4c7adf5b0c3b64f893a6c4a1341ad053bfa7bf5f1626/crypto-screening-7.5.3.tar.gz
+[2023-07-22 01:44:06] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-22 01:44:07] INFO root fetch - processPackages [pied-poker]: Downloading https://files.pythonhosted.org/packages/4b/d0/829051b52d61b3331aea7ff169078bd92baa41022d62babff98781ae4cce/pied_poker-1.0.8.tar.gz
+[2023-07-22 01:44:07] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/db/fd/ce7c64a6ceba0b2e559e76ab6aebfc06f22e12efb303761515a36065fcde/np_workflows-1.5.5.tar.gz
+[2023-07-22 01:44:07] INFO root fetch - processPackages [appeal]: Downloading https://files.pythonhosted.org/packages/79/a9/e0e0db3c96a1403cff21d731638c0b9aeb83af44cd57b812892a8ea92367/appeal-0.6.tar.gz
+[2023-07-22 01:44:07] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/4c/d7/26f441b8318619fc80d766c78349abe52787cf09e836ef01f98802caa804/crypto-screening-7.5.4.tar.gz
+[2023-07-22 01:44:07] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-22 01:44:07] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-7.5.3.tar.gz tmp/crypto-screening-7.5.4.tar.gz --markdown 20230722/c/crypto-screening/7.5.3-7.5.4/diff.md --exclude *.pyd
+[2023-07-22 01:44:07] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/99/aa/df705e3488a169baeb5ff77b4abdea7e6f5bb9507acf08ef8264bccb3bdb/np_workflows-1.6.0.tar.gz
+[2023-07-22 01:44:07] INFO root fetch - processPackages [appeal]: Downloading https://files.pythonhosted.org/packages/9e/b4/e6b4eb59d4186c9502a1ecd634d88294ffe6d5f7f7dd774368c36495013c/appeal-0.6.1.tar.gz
+[2023-07-22 01:44:07] INFO root fetch - processPackages [pied-poker]: Downloading https://files.pythonhosted.org/packages/a2/86/6a33298467acc924806f841fec83ef2cf02aae386e567d84df4b62e16cac/pied_poker-1.0.9.tar.gz
+[2023-07-22 01:44:07] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2023-07-22 01:44:07] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.5.5.tar.gz tmp/np_workflows-1.6.0.tar.gz --markdown 20230722/n/np-workflows/1.5.5-1.6.0/diff.md --exclude *.pyd
+[2023-07-22 01:44:07] INFO root fetch - processPackages [appeal]: executing diffoscope
+[2023-07-22 01:44:07] INFO root fetch - processPackages [appeal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appeal-0.6.tar.gz tmp/appeal-0.6.1.tar.gz --markdown 20230722/a/appeal/0.6-0.6.1/diff.md --exclude *.pyd
+[2023-07-22 01:44:07] INFO root fetch - processPackages [pied-poker]: executing diffoscope
+[2023-07-22 01:44:07] INFO root fetch - processPackages [pied-poker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pied_poker-1.0.8.tar.gz tmp/pied_poker-1.0.9.tar.gz --markdown 20230722/p/pied-poker/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-22 01:44:08] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-22 01:44:08] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.5.3.tar.gz]
+[2023-07-22 01:44:08] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.5.4.tar.gz]
+[2023-07-22 01:44:08] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-22 01:44:08] INFO root fetch - processPackages [pied-poker]: Remove: archive file [/home/abi/fetcher/tmp/pied_poker-1.0.8.tar.gz]
+[2023-07-22 01:44:08] INFO root fetch - processPackages [pied-poker]: Remove: archive file [/home/abi/fetcher/tmp/pied_poker-1.0.9.tar.gz]
+[2023-07-22 01:44:08] INFO root fetch - main [MainThread]: End processing [pied-poker]: success
+[2023-07-22 01:44:08] INFO root fetch - processPackages [appeal]: Remove: archive file [/home/abi/fetcher/tmp/appeal-0.6.tar.gz]
+[2023-07-22 01:44:08] INFO root fetch - processPackages [appeal]: Remove: archive file [/home/abi/fetcher/tmp/appeal-0.6.1.tar.gz]
+[2023-07-22 01:44:08] INFO root fetch - main [MainThread]: End processing [appeal]: success
+[2023-07-22 01:44:08] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.5.5.tar.gz]
+[2023-07-22 01:44:08] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.0.tar.gz]
+[2023-07-22 01:44:08] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2023-07-22 01:44:09] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-22 01:44:09] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230722/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 01:44:13] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-22 01:44:13] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-22 01:44:13] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-22 01:44:13] INFO root fetch - main [MainThread]: Store serial: [18990227]
