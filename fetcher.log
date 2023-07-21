@@ -2090,3 +2090,51 @@
 [2023-07-22 01:33:46] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
 [2023-07-22 01:33:46] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-07-22 01:33:46] INFO root fetch - main [MainThread]: Store serial: [18990197]
+[2023-07-22 01:38:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18990197]
+[2023-07-22 01:38:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 01:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: motion-python
+[2023-07-22 01:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2023-07-22 01:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarms
+[2023-07-22 01:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crypto-screening
+[2023-07-22 01:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jag-panzer
+[2023-07-22 01:38:55] INFO root fetch - processPackages [swarms]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-22 01:38:55] INFO root fetch - processPackages [crypto-screening]: New version: [7.5.3] Old Version: [7.5.2]
+[2023-07-22 01:38:55] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-22 01:38:55] INFO root fetch - processPackages [jag-panzer]: New version: [0.1.23] Old Version: [0.1.21]
+[2023-07-22 01:38:55] INFO root fetch - processPackages [motion-python]: New version: [0.1.82] Old Version: [0.1.81]
+[2023-07-22 01:38:55] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/53/0e/56b3fbb3219bb1cb2acde6aea5e78948929797205ff12c115e46f6e1c187/crypto-screening-7.5.2.tar.gz
+[2023-07-22 01:38:55] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/0b/dc/69276ec932e3b468643a44ad77353e56d9e7c025e669618cd868651fb269/swarms-0.9.1.tar.gz
+[2023-07-22 01:38:55] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-22 01:38:55] INFO root fetch - processPackages [jag-panzer]: Downloading https://files.pythonhosted.org/packages/45/b6/ce93d22def2e85772ea2ab1ef273ee4eae85cbb966477705f776a178a020/jag-panzer-0.1.21.tar.gz
+[2023-07-22 01:38:55] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/6e/55/f2e1d35fe85e883e30464bddab664038cbe4287403fa34d8a0077db6f136/motion_python-0.1.81.tar.gz
+[2023-07-22 01:38:55] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/be/6f/974d3d6c99817c4d1526895eceee236121b10948ac761ffd53543428dd0f/swarms-0.9.2.tar.gz
+[2023-07-22 01:38:55] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/38/9f/a769603e045cf05f4c7adf5b0c3b64f893a6c4a1341ad053bfa7bf5f1626/crypto-screening-7.5.3.tar.gz
+[2023-07-22 01:38:55] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-22 01:38:55] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.9.1.tar.gz tmp/swarms-0.9.2.tar.gz --markdown 20230722/s/swarms/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-22 01:38:55] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-22 01:38:55] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-7.5.2.tar.gz tmp/crypto-screening-7.5.3.tar.gz --markdown 20230722/c/crypto-screening/7.5.2-7.5.3/diff.md --exclude *.pyd
+[2023-07-22 01:38:55] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/34/ac/3f7cfa6eb1fcd0d42147fe327e9f789023cbe563fcbb65237497ca2fc701/motion_python-0.1.82.tar.gz
+[2023-07-22 01:38:55] INFO root fetch - processPackages [jag-panzer]: Downloading https://files.pythonhosted.org/packages/39/16/76d0c7adc449dea189861af4c6fd2d3426386da438f4675daeda29e3a011/jag-panzer-0.1.23.tar.gz
+[2023-07-22 01:38:56] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-07-22 01:38:56] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.81.tar.gz tmp/motion_python-0.1.82.tar.gz --markdown 20230722/m/motion-python/0.1.81-0.1.82/diff.md --exclude *.pyd
+[2023-07-22 01:38:56] INFO root fetch - processPackages [jag-panzer]: executing diffoscope
+[2023-07-22 01:38:56] INFO root fetch - processPackages [jag-panzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jag-panzer-0.1.21.tar.gz tmp/jag-panzer-0.1.23.tar.gz --markdown 20230722/j/jag-panzer/0.1.21-0.1.23/diff.md --exclude *.pyd
+[2023-07-22 01:38:56] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-22 01:38:56] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.81.tar.gz]
+[2023-07-22 01:38:56] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.82.tar.gz]
+[2023-07-22 01:38:56] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-07-22 01:38:56] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.5.2.tar.gz]
+[2023-07-22 01:38:56] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.5.3.tar.gz]
+[2023-07-22 01:38:56] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-22 01:38:56] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.9.1.tar.gz]
+[2023-07-22 01:38:56] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.9.2.tar.gz]
+[2023-07-22 01:38:56] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-22 01:38:57] INFO root fetch - processPackages [jag-panzer]: Remove: archive file [/home/abi/fetcher/tmp/jag-panzer-0.1.21.tar.gz]
+[2023-07-22 01:38:57] INFO root fetch - processPackages [jag-panzer]: Remove: archive file [/home/abi/fetcher/tmp/jag-panzer-0.1.23.tar.gz]
+[2023-07-22 01:38:57] INFO root fetch - main [MainThread]: End processing [jag-panzer]: success
+[2023-07-22 01:38:57] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-22 01:38:57] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230722/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-22 01:38:58] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-22 01:38:58] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-22 01:38:58] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-22 01:38:58] INFO root fetch - main [MainThread]: Store serial: [18990212]
