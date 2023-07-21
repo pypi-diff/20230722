@@ -1,0 +1,1333 @@
+# Comparing `tmp/mypy-gpt-1.0.4.tar.gz` & `tmp/mypy-gpt-1.0.5.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "mypy-gpt-1.0.4.tar", last modified: Fri Jul 21 20:02:09 2023, max compression
++gzip compressed data, was "mypy-gpt-1.0.5.tar", last modified: Fri Jul 21 22:54:47 2023, max compression
+```
+
+## Comparing `mypy-gpt-1.0.4.tar` & `mypy-gpt-1.0.5.tar`
+
+### file list
+
+```diff
+@@ -1,18 +1,18 @@
+-drwxrwxrwx   0        0        0        0 2023-07-21 20:02:09.334572 mypy-gpt-1.0.4/
+--rw-rw-rw-   0        0        0    35184 2023-07-21 03:02:01.000000 mypy-gpt-1.0.4/LICENSE
+--rw-rw-rw-   0        0        0       24 2023-07-21 19:08:18.000000 mypy-gpt-1.0.4/MANIFEST.in
+--rw-rw-rw-   0        0        0      498 2023-07-21 20:02:09.334572 mypy-gpt-1.0.4/PKG-INFO
+--rw-rw-rw-   0        0        0     1234 2023-07-21 20:00:17.000000 mypy-gpt-1.0.4/README.md
+-drwxrwxrwx   0        0        0        0 2023-07-21 20:02:09.325572 mypy-gpt-1.0.4/mypy_gpt/
+--rw-rw-rw-   0        0        0        0 2023-07-21 18:55:16.000000 mypy-gpt-1.0.4/mypy_gpt/__init__.py
+--rw-rw-rw-   0        0        0       33 2023-07-21 18:55:16.000000 mypy-gpt-1.0.4/mypy_gpt/__main__.py
+--rw-rw-rw-   0        0        0    10086 2023-07-21 20:00:17.000000 mypy-gpt-1.0.4/mypy_gpt/mypygpt.py
+-drwxrwxrwx   0        0        0        0 2023-07-21 20:02:09.333571 mypy-gpt-1.0.4/mypy_gpt.egg-info/
+--rw-rw-rw-   0        0        0      498 2023-07-21 20:02:09.000000 mypy-gpt-1.0.4/mypy_gpt.egg-info/PKG-INFO
+--rw-rw-rw-   0        0        0      276 2023-07-21 20:02:09.000000 mypy-gpt-1.0.4/mypy_gpt.egg-info/SOURCES.txt
+--rw-rw-rw-   0        0        0        1 2023-07-21 20:02:09.000000 mypy-gpt-1.0.4/mypy_gpt.egg-info/dependency_links.txt
+--rw-rw-rw-   0        0        0       33 2023-07-21 20:02:09.000000 mypy-gpt-1.0.4/mypy_gpt.egg-info/requires.txt
+--rw-rw-rw-   0        0        0        9 2023-07-21 20:02:09.000000 mypy-gpt-1.0.4/mypy_gpt.egg-info/top_level.txt
+--rw-rw-rw-   0        0        0       36 2023-07-21 18:56:44.000000 mypy-gpt-1.0.4/requirements.txt
+--rw-rw-rw-   0        0        0       42 2023-07-21 20:02:09.334572 mypy-gpt-1.0.4/setup.cfg
+--rw-rw-rw-   0        0        0     1010 2023-07-21 20:01:20.000000 mypy-gpt-1.0.4/setup.py
++drwxrwxrwx   0        0        0        0 2023-07-21 22:54:47.832547 mypy-gpt-1.0.5/
++-rw-rw-rw-   0        0        0    35184 2023-07-21 03:02:01.000000 mypy-gpt-1.0.5/LICENSE
++-rw-rw-rw-   0        0        0       24 2023-07-21 19:08:18.000000 mypy-gpt-1.0.5/MANIFEST.in
++-rw-rw-rw-   0        0        0      498 2023-07-21 22:54:47.831496 mypy-gpt-1.0.5/PKG-INFO
++-rw-rw-rw-   0        0        0     1534 2023-07-21 21:44:42.000000 mypy-gpt-1.0.5/README.md
++drwxrwxrwx   0        0        0        0 2023-07-21 22:54:47.819496 mypy-gpt-1.0.5/mypy_gpt/
++-rw-rw-rw-   0        0        0        0 2023-07-21 18:55:16.000000 mypy-gpt-1.0.5/mypy_gpt/__init__.py
++-rw-rw-rw-   0        0        0       33 2023-07-21 18:55:16.000000 mypy-gpt-1.0.5/mypy_gpt/__main__.py
++-rw-rw-rw-   0        0        0    10657 2023-07-21 22:54:20.000000 mypy-gpt-1.0.5/mypy_gpt/mypygpt.py
++drwxrwxrwx   0        0        0        0 2023-07-21 22:54:47.830496 mypy-gpt-1.0.5/mypy_gpt.egg-info/
++-rw-rw-rw-   0        0        0      498 2023-07-21 22:54:47.000000 mypy-gpt-1.0.5/mypy_gpt.egg-info/PKG-INFO
++-rw-rw-rw-   0        0        0      276 2023-07-21 22:54:47.000000 mypy-gpt-1.0.5/mypy_gpt.egg-info/SOURCES.txt
++-rw-rw-rw-   0        0        0        1 2023-07-21 22:54:47.000000 mypy-gpt-1.0.5/mypy_gpt.egg-info/dependency_links.txt
++-rw-rw-rw-   0        0        0       33 2023-07-21 22:54:47.000000 mypy-gpt-1.0.5/mypy_gpt.egg-info/requires.txt
++-rw-rw-rw-   0        0        0        9 2023-07-21 22:54:47.000000 mypy-gpt-1.0.5/mypy_gpt.egg-info/top_level.txt
++-rw-rw-rw-   0        0        0       36 2023-07-21 18:56:44.000000 mypy-gpt-1.0.5/requirements.txt
++-rw-rw-rw-   0        0        0       42 2023-07-21 22:54:47.832547 mypy-gpt-1.0.5/setup.cfg
++-rw-rw-rw-   0        0        0     1010 2023-07-21 22:26:26.000000 mypy-gpt-1.0.5/setup.py
+```
+
+### Comparing `mypy-gpt-1.0.4/LICENSE` & `mypy-gpt-1.0.5/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `mypy-gpt-1.0.4/README.md` & `mypy-gpt-1.0.5/README.md`
+
+ * *Files 23% similar despite different names*
+
+```diff
+@@ -1,16 +1,34 @@
+ # mypy-gpt
+-Solve mypy errors using [guidance](https://github.com/microsoft/guidance) and espcially chatgpt.
++Solve mypy errors using [guidance](https://github.com/microsoft/guidance) and gpt API.
+ It runs mypy on targeted file and then uses gpt to try to fix the issues (espcially good for minor nagging issues).
+ Displays a diff file for the required changes and ask you if you want to apply. 
+ 
+ # Installation
+ ```
+ pip install  mypy-gpt
++
++```
++it is generally better to install the master 
++
+ ```
++pip install git+https://github.com/eyalk11/mypy-gpt.git
++```
++
++You will need openai access token for it. 
++
++In powershell:
++```
++$env:OPEN_AI_KEY = "sk-XXX"
++```
++Or 
++```
++OPEN_AI_KEY=sk-XXX python -m mypy_gpt ...
++```
++
+ 
+ # Usage
+ See 
+ ```
+ python -m mypy_gpt --help 
+ ```
+ 
+@@ -21,20 +39,21 @@
+ It then tries to get a list of fixes from the chat , prints them , and finally try to come up with an updated version of the solution. 
+ It then checks the final file again , showing you the errors after the change, and displayes a diff file. It asks you if you want to apply the changes, 
+ and reruns main if not all issues were resolved. 
+ 
+ If you want it to generate diff file, use: 
+ 
+ ```
+-python -m mypy_gpt --proj-path [PROJECT] [PYFILE] --dont-ask > myfile.diff (if you don't mind colors)
++python -m mypy_gpt --proj-path [PROJECT] --dont-ask  [PYFILE] > myfile.diff (if you don't mind colors)
+ ```
+ or 
+ ```
+-python -m mypy_gpt --proj-path [PROJECT] [PYFILE] --store-diff myfile.diff --dont-ask
++python -m mypy_gpt --store-diff --proj-path [PROJECT] [PYFILE] --dont-ask
+ ```
++(it stores by default suggestion.diff)
+ 
+ 
+ 
+ For example: 
+ 
+ ![image](https://github.com/eyalk11/mypy-gpt/assets/72234965/6b07e20f-2c9b-411b-b294-3f47a639c4d8)
+```
+
+### Comparing `mypy-gpt-1.0.4/mypy_gpt/mypygpt.py` & `mypy-gpt-1.0.5/mypy_gpt/mypygpt.py`
+
+ * *Files 7% similar despite different names*
+
+```diff
+@@ -1,232 +1,232 @@
+-00000000: 2320 5468 6973 2069 7320 6120 7361 6d70  # This is a samp
+-00000010: 6c65 2050 7974 686f 6e20 7363 7269 7074  le Python script
+-00000020: 2e0d 0a69 6d70 6f72 7420 6f73 0d0a 6672  ...import os..fr
+-00000030: 6f6d 2074 656d 7066 696c 6520 696d 706f  om tempfile impo
+-00000040: 7274 204e 616d 6564 5465 6d70 6f72 6172  rt NamedTemporar
+-00000050: 7946 696c 650d 0a0d 0a23 2050 7265 7373  yFile....# Press
+-00000060: 2053 6869 6674 2b46 3130 2074 6f20 6578   Shift+F10 to ex
+-00000070: 6563 7574 6520 6974 206f 7220 7265 706c  ecute it or repl
+-00000080: 6163 6520 6974 2077 6974 6820 796f 7572  ace it with your
+-00000090: 2063 6f64 652e 0d0a 2320 5072 6573 7320   code...# Press 
+-000000a0: 446f 7562 6c65 2053 6869 6674 2074 6f20  Double Shift to 
+-000000b0: 7365 6172 6368 2065 7665 7279 7768 6572  search everywher
+-000000c0: 6520 666f 7220 636c 6173 7365 732c 2066  e for classes, f
+-000000d0: 696c 6573 2c20 746f 6f6c 2077 696e 646f  iles, tool windo
+-000000e0: 7773 2c20 6163 7469 6f6e 732c 2061 6e64  ws, actions, and
+-000000f0: 2073 6574 7469 6e67 732e 0d0a 696d 706f   settings...impo
+-00000100: 7274 2070 616e 6461 730d 0a69 6d70 6f72  rt pandas..impor
+-00000110: 7420 6775 6964 616e 6365 0d0a 696d 706f  t guidance..impo
+-00000120: 7274 2072 650d 0a69 6d70 6f72 7420 6469  rt re..import di
+-00000130: 6666 6c69 620d 0a69 6d70 6f72 7420 6c6f  fflib..import lo
+-00000140: 6767 696e 670d 0a44 4546 4155 4c54 535f  gging..DEFAULTS_
+-00000150: 4449 4646 5f46 494c 453d 2273 7567 6765  DIFF_FILE="sugge
+-00000160: 7374 696f 6e2e 6469 6666 220d 0a6c 6f67  stion.diff"..log
+-00000170: 6765 723d 6c6f 6767 696e 672e 6765 744c  ger=logging.getL
+-00000180: 6f67 6765 7228 276d 7970 7967 7074 2729  ogger('mypygpt')
+-00000190: 0d0a 0d0a 4445 4641 554c 545f 4d4f 4445  ....DEFAULT_MODE
+-000001a0: 4c20 3d20 2267 7074 2d33 2e35 2d74 7572  L = "gpt-3.5-tur
+-000001b0: 626f 2d31 366b 220d 0a0d 0a4d 5950 5941  bo-16k"....MYPYA
+-000001c0: 5247 5320 3d20 272d 2d64 6973 616c 6c6f  RGS = '--disallo
+-000001d0: 772d 756e 7479 7065 642d 6465 6673 270d  w-untyped-defs'.
+-000001e0: 0a0d 0a6f 6c64 6572 5f70 6174 6820 3d20  ...older_path = 
+-000001f0: 7222 633a 5c67 6974 7072 6f6a 5c41 7574  r"c:\gitproj\Aut
+-00000200: 6f2d 4750 5422 0d0a 4445 4641 554c 545f  o-GPT"..DEFAULT_
+-00000210: 544f 4b45 4e53 203d 3336 3030 0d0a 4445  TOKENS =3600..DE
+-00000220: 4641 554c 545f 544f 4b45 4e53 5f50 4552  FAULT_TOKENS_PER
+-00000230: 5f46 4958 203d 3430 300d 0a69 6d70 6f72  _FIX =400..impor
+-00000240: 7420 7375 6270 726f 6365 7373 0d0a 696d  t subprocess..im
+-00000250: 706f 7274 2061 7267 7061 7273 650d 0a64  port argparse..d
+-00000260: 6566 2072 756e 5f6d 7970 7928 6669 6c65  ef run_mypy(file
+-00000270: 2c20 6d79 7079 5f61 7267 732c 206d 7970  , mypy_args, myp
+-00000280: 795f 7061 7468 2c70 726f 6a5f 7061 7468  y_path,proj_path
+-00000290: 293a 0d0a 2020 2020 2320 436f 6e73 7472  ):..    # Constr
+-000002a0: 7563 7420 7468 6520 6d79 7079 2063 6f6d  uct the mypy com
+-000002b0: 6d61 6e64 0d0a 2020 2020 636f 6d6d 616e  mand..    comman
+-000002c0: 6420 3d20 5b6d 7970 795f 7061 7468 5d20  d = [mypy_path] 
+-000002d0: 2b6d 7970 795f 6172 6773 2e73 706c 6974  +mypy_args.split
+-000002e0: 2829 202b 205b 6669 6c65 5d0d 0a20 2020  () + [file]..   
+-000002f0: 2023 2052 756e 206d 7970 7920 636f 6d6d   # Run mypy comm
+-00000300: 616e 6420 616e 6420 6361 7074 7572 6520  and and capture 
+-00000310: 7468 6520 6f75 7470 7574 0d0a 2020 2020  the output..    
+-00000320: 7265 7375 6c74 203d 2073 7562 7072 6f63  result = subproc
+-00000330: 6573 732e 7275 6e28 636f 6d6d 616e 642c  ess.run(command,
+-00000340: 2063 6170 7475 7265 5f6f 7574 7075 743d   capture_output=
+-00000350: 5472 7565 2c20 7465 7874 3d54 7275 652c  True, text=True,
+-00000360: 6377 643d 6f73 2e70 6174 682e 6162 7370  cwd=os.path.absp
+-00000370: 6174 6828 7072 6f6a 5f70 6174 6829 290d  ath(proj_path)).
+-00000380: 0a20 2020 2023 2050 7269 6e74 2074 6865  .    # Print the
+-00000390: 206f 7574 7075 740d 0a0d 0a20 2020 2023   output....    #
+-000003a0: 2044 6563 6f64 6520 7468 6520 6f75 7470   Decode the outp
+-000003b0: 7574 2066 726f 6d20 6279 7465 7320 746f  ut from bytes to
+-000003c0: 2073 7472 696e 670d 0a20 2020 206f 7574   string..    out
+-000003d0: 7075 7420 3d20 7265 7375 6c74 2e73 7464  put = result.std
+-000003e0: 6f75 740d 0a0d 0a20 2020 2023 2037 2d62  out....    # 7-b
+-000003f0: 6974 2043 3120 414e 5349 2073 6571 7565  it C1 ANSI seque
+-00000400: 6e63 6573 0d0a 2020 2020 616e 7369 5f65  nces..    ansi_e
+-00000410: 7363 6170 6520 3d20 7265 2e63 6f6d 7069  scape = re.compi
+-00000420: 6c65 2872 2727 270d 0a20 2020 2020 2020  le(r'''..       
+-00000430: 2020 2020 205c 7831 4220 2023 2045 5343       \x1B  # ESC
+-00000440: 0d0a 2020 2020 2020 2020 2020 2020 283f  ..            (?
+-00000450: 3a20 2020 2320 372d 6269 7420 4331 2046  :   # 7-bit C1 F
+-00000460: 6520 2865 7863 6570 7420 4353 4929 0d0a  e (except CSI)..
+-00000470: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00000480: 5b40 2d5a 5c5c 2d5f 5d0d 0a20 2020 2020  [@-Z\\-_]..     
+-00000490: 2020 2020 2020 207c 2020 2020 2023 206f         |     # o
+-000004a0: 7220 5b20 666f 7220 4353 492c 2066 6f6c  r [ for CSI, fol
+-000004b0: 6c6f 7765 6420 6279 2061 2063 6f6e 7472  lowed by a contr
+-000004c0: 6f6c 2073 6571 7565 6e63 650d 0a20 2020  ol sequence..   
+-000004d0: 2020 2020 2020 2020 2020 2020 205c 5b0d               \[.
+-000004e0: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-000004f0: 205b 302d 3f5d 2a20 2023 2050 6172 616d   [0-?]*  # Param
+-00000500: 6574 6572 2062 7974 6573 0d0a 2020 2020  eter bytes..    
+-00000510: 2020 2020 2020 2020 2020 2020 5b20 2d2f              [ -/
+-00000520: 5d2a 2020 2320 496e 7465 726d 6564 6961  ]*  # Intermedia
+-00000530: 7465 2062 7974 6573 0d0a 2020 2020 2020  te bytes..      
+-00000540: 2020 2020 2020 2020 2020 5b40 2d7e 5d20            [@-~] 
+-00000550: 2020 2320 4669 6e61 6c20 6279 7465 0d0a    # Final byte..
+-00000560: 2020 2020 2020 2020 2020 2020 290d 0a20              ).. 
+-00000570: 2020 2020 2020 2027 2727 2c20 7265 2e56         ''', re.V
+-00000580: 4552 424f 5345 290d 0a20 2020 2072 6573  ERBOSE)..    res
+-00000590: 756c 7420 3d20 616e 7369 5f65 7363 6170  ult = ansi_escap
+-000005a0: 652e 7375 6228 2727 2c20 6f75 7470 7574  e.sub('', output
+-000005b0: 290d 0a20 2020 2023 2050 7269 6e74 2074  )..    # Print t
+-000005c0: 6865 206f 7574 7075 740d 0a20 2020 2072  he output..    r
+-000005d0: 6574 7572 6e20 2872 6573 756c 7429 0d0a  eturn (result)..
+-000005e0: 0d0a 6465 6620 7061 7273 655f 6c69 6e65  ..def parse_line
+-000005f0: 286c 696e 6529 3a0d 0a20 2020 2069 6d70  (line):..    imp
+-00000600: 6f72 7420 7265 0d0a 2020 2020 2320 4578  ort re..    # Ex
+-00000610: 7472 6163 7469 6e67 206d 6573 7361 6765  tracting message
+-00000620: 2c20 7479 7065 2c20 616e 6420 6c69 6e65  , type, and line
+-00000630: 206e 756d 6265 7220 7573 696e 6720 7265   number using re
+-00000640: 6775 6c61 7220 6578 7072 6573 7369 6f6e  gular expression
+-00000650: 730d 0a20 2020 2070 6174 7465 726e 203d  s..    pattern =
+-00000660: 2072 2728 2e2b 293a 285c 642b 293a 2028   r'(.+):(\d+): (
+-00000670: 5c77 2b29 3a20 282e 2b29 205c 5b28 2e2a  \w+): (.+) \[(.*
+-00000680: 295c 5d27 0d0a 2020 2020 6d61 7463 6820  )\]'..    match 
+-00000690: 3d20 7265 2e6d 6174 6368 2870 6174 7465  = re.match(patte
+-000006a0: 726e 2c20 6c69 6e65 290d 0a20 2020 2023  rn, line)..    #
+-000006b0: 6966 206e 6f74 206d 6174 6368 3a0d 0a20  if not match:.. 
+-000006c0: 2020 2023 2020 2020 7061 7474 6572 6e20     #    pattern 
+-000006d0: 3d20 7227 282e 2b29 3a28 5c64 2b29 3a20  = r'(.+):(\d+): 
+-000006e0: 285c 772b 293a 2028 2e2b 2928 2927 0d0a  (\w+): (.+)()'..
+-000006f0: 2020 2020 2320 2020 206d 6174 6368 203d      #    match =
+-00000700: 2072 652e 6d61 7463 6828 7061 7474 6572   re.match(patter
+-00000710: 6e2c 206c 696e 6529 0d0a 0d0a 2020 2020  n, line)....    
+-00000720: 6966 206d 6174 6368 3a0d 0a20 2020 2020  if match:..     
+-00000730: 2020 206c 696e 656e 756d 6265 7220 3d20     linenumber = 
+-00000740: 6d61 7463 682e 6772 6f75 7028 3229 0d0a  match.group(2)..
+-00000750: 2020 2020 2020 2020 6572 726f 725f 7479          error_ty
+-00000760: 7065 203d 206d 6174 6368 2e67 726f 7570  pe = match.group
+-00000770: 2833 290d 0a20 2020 2020 2020 206d 6573  (3)..        mes
+-00000780: 7361 6765 203d 206d 6174 6368 2e67 726f  sage = match.gro
+-00000790: 7570 2834 290d 0a20 2020 2020 2020 2073  up(4)..        s
+-000007a0: 7562 5f74 7970 6520 3d20 6d61 7463 682e  ub_type = match.
+-000007b0: 6772 6f75 7028 3529 0d0a 2020 2020 2020  group(5)..      
+-000007c0: 2020 7265 7475 726e 207b 224c 696e 6520    return {"Line 
+-000007d0: 4e75 6d62 6572 223a 206c 696e 656e 756d  Number": linenum
+-000007e0: 6265 722c 2022 4572 726f 7220 5479 7065  ber, "Error Type
+-000007f0: 223a 2065 7272 6f72 5f74 7970 652c 2022  ": error_type, "
+-00000800: 4d65 7373 6167 6522 3a20 6d65 7373 6167  Message": messag
+-00000810: 652c 2022 4361 7465 676f 7279 223a 2073  e, "Category": s
+-00000820: 7562 5f74 7970 657d 0d0a 2020 2020 656c  ub_type}..    el
+-00000830: 7365 3a0d 0a20 2020 2020 2020 206c 6f67  se:..        log
+-00000840: 6765 722e 6465 6275 6728 2822 4e6f 206d  ger.debug(("No m
+-00000850: 6174 6368 2066 6f75 6e64 2e22 2c20 6c69  atch found.", li
+-00000860: 6e65 2929 0d0a 0d0a 6465 6620 6775 6964  ne))....def guid
+-00000870: 655f 666f 725f 6572 726f 7273 2861 7267  e_for_errors(arg
+-00000880: 7329 3a0d 0a20 2020 2067 7569 6461 6e63  s):..    guidanc
+-00000890: 652e 6c6c 6d20 3d20 6775 6964 616e 6365  e.llm = guidance
+-000008a0: 2e6c 6c6d 732e 4f70 656e 4149 2861 7267  .llms.OpenAI(arg
+-000008b0: 732e 6d6f 6465 6c2c 2061 7069 5f6b 6579  s.model, api_key
+-000008c0: 3d6f 732e 656e 7669 726f 6e5b 274f 5045  =os.environ['OPE
+-000008d0: 4e5f 4149 5f4b 4559 275d 290d 0a0d 0a20  N_AI_KEY']).... 
+-000008e0: 2020 2072 6574 7572 6e20 2067 7569 6461     return  guida
+-000008f0: 6e63 6528 2727 270d 0a7b 7b23 7379 7374  nce('''..{{#syst
+-00000900: 656d 7e7d 7d0d 0a20 2020 2059 6f75 2061  em~}}..    You a
+-00000910: 7265 2061 2068 656c 7066 756c 2061 7373  re a helpful ass
+-00000920: 6973 7461 6e74 2e20 596f 7520 7769 6c6c  istant. You will
+-00000930: 2062 6520 6769 7665 6e20 6120 6669 6c65   be given a file
+-00000940: 2061 6e64 2061 206c 6973 7420 6f66 2069   and a list of i
+-00000950: 7373 7565 732e 2053 6f6d 6520 6f66 2074  ssues. Some of t
+-00000960: 6865 6d20 6172 6520 6d69 6e6f 7220 6973  hem are minor is
+-00000970: 7375 6573 206c 696b 6520 6d69 736d 6174  sues like mismat
+-00000980: 6368 2074 7970 6573 2e20 2059 6f75 206e  ch types.  You n
+-00000990: 6565 6420 746f 2063 6f6d 6520 7570 2077  eed to come up w
+-000009a0: 6974 6820 6669 7865 7320 666f 7220 616c  ith fixes for al
+-000009b0: 6c20 6973 7375 6573 2c20 6576 656d 2074  l issues, evem t
+-000009c0: 6865 206d 696e 6f72 206f 6e65 732e 0d0a  he minor ones...
+-000009d0: 2020 2020 5468 6520 6669 7865 7320 7368      The fixes sh
+-000009e0: 6f75 6c64 2062 6520 6d65 7469 6375 6c6f  ould be meticulo
+-000009f0: 7573 6c79 2070 6872 6173 6564 2e20 0d0a  usly phrased. ..
+-00000a00: 2020 2020 7b7b 7e2f 7379 7374 656d 7d7d      {{~/system}}
+-00000a10: 0d0a 7b7b 7e23 7573 6572 7d7d 0d0a 4769  ..{{~#user}}..Gi
+-00000a20: 7665 6e20 7468 6973 207b 7b66 696c 656e  ven this {{filen
+-00000a30: 616d 657d 7d3a 202e 0d0a 2020 2020 2020  ame}}: ...      
+-00000a40: 2020 7b7b 6669 6c65 7d7d 2e0d 0a41 206c    {{file}}...A l
+-00000a50: 6973 7420 6f66 2069 7373 7565 7320 7769  ist of issues wi
+-00000a60: 6c6c 2062 6520 6769 7665 6e0d 0a7b 7b7e  ll be given..{{~
+-00000a70: 2f75 7365 727d 7d0d 0a0d 0a7b 7b23 6561  /user}}....{{#ea
+-00000a80: 6368 2065 7272 6f72 737d 7d0d 0a20 207b  ch errors}}..  {
+-00000a90: 7b7e 2375 7365 727d 7d0d 0a20 2057 6861  {~#user}}..  Wha
+-00000aa0: 7420 6973 2074 6865 2066 6978 2066 6f72  t is the fix for
+-00000ab0: 2074 6869 7320 6973 7375 6520 6f6e 207b   this issue on {
+-00000ac0: 7b66 696c 656e 616d 657d 7d3f 0d0a 2020  {filename}}?..  
+-00000ad0: 2020 2020 2020 2020 7b7b 7468 6973 7d7d          {{this}}
+-00000ae0: 0d0a 2020 7b7b 7e2f 7573 6572 7d7d 0d0a  ..  {{~/user}}..
+-00000af0: 2020 7b7b 2361 7373 6973 7461 6e74 7e7d    {{#assistant~}
+-00000b00: 7d0d 0a20 2020 207b 7b67 656e 2027 6669  }..    {{gen 'fi
+-00000b10: 7827 206c 6973 745f 6170 7065 6e64 3d54  x' list_append=T
+-00000b20: 7275 6520 7465 6d70 6572 6174 7572 653d  rue temperature=
+-00000b30: 302e 3720 6d61 785f 746f 6b65 6e73 3d25  0.7 max_tokens=%
+-00000b40: 647d 7d0d 0a20 2020 207b 7b7e 2f61 7373  d}}..    {{~/ass
+-00000b50: 6973 7461 6e74 7d7d 0d0a 2020 2020 0d0a  istant}}..    ..
+-00000b60: 7b7b 2f65 6163 687e 7d7d 2727 2720 2520  {{/each~}}''' % 
+-00000b70: 2861 7267 732e 6d61 785f 746f 6b65 6e73  (args.max_tokens
+-00000b80: 5f70 6572 5f66 6978 292c 206c 6f67 3d54  _per_fix), log=T
+-00000b90: 7275 6529 0d0a 0d0a 6465 6620 6775 6964  rue)....def guid
+-00000ba0: 655f 666f 725f 6669 7865 7328 6172 6773  e_for_fixes(args
+-00000bb0: 293a 200d 0a20 2020 2072 6574 7572 6e20  ): ..    return 
+-00000bc0: 6775 6964 616e 6365 2827 2727 0d0a 2020  guidance('''..  
+-00000bd0: 2020 2020 2020 7b7b 2373 7973 7465 6d7e        {{#system~
+-00000be0: 7d7d 0d0a 2020 2020 2020 2020 596f 7520  }}..        You 
+-00000bf0: 6172 6520 6120 6865 6c70 6675 6c20 6173  are a helpful as
+-00000c00: 7369 7374 616e 742e 2059 6f75 2077 696c  sistant. You wil
+-00000c10: 6c20 6265 2067 6976 656e 2061 206c 6973  l be given a lis
+-00000c20: 7420 6f66 2063 6f72 7265 6374 696f 6e73  t of corrections
+-00000c30: 2074 6f20 646f 2069 6e20 6120 6669 6c65   to do in a file
+-00000c40: 2c20 616e 6420 7769 6c6c 2075 7064 6174  , and will updat
+-00000c50: 6520 7468 6520 6669 6c65 2061 6363 6f72  e the file accor
+-00000c60: 6469 6e67 6c79 2e20 5265 706c 7920 6f6e  dingly. Reply on
+-00000c70: 6c79 2077 6974 6820 7468 6520 6675 6c6c  ly with the full
+-00000c80: 2066 696c 6520 636f 6e74 656e 7420 6166   file content af
+-00000c90: 7465 7220 7468 6520 6368 616e 6765 7320  ter the changes 
+-00000ca0: 6172 6520 6170 706c 6965 642e 200d 0a20  are applied. .. 
+-00000cb0: 2020 2020 2020 207b 7b7e 2f73 7973 7465         {{~/syste
+-00000cc0: 6d7d 7d0d 0a20 2020 2020 2020 207b 7b23  m}}..        {{#
+-00000cd0: 7573 6572 7e7d 7d0d 0a20 2020 2020 2020  user~}}..       
+-00000ce0: 2054 6869 7320 6973 2074 6865 2066 696c   This is the fil
+-00000cf0: 6520 7b7b 6669 6c65 7d7d 0d0a 2020 2020  e {{file}}..    
+-00000d00: 2020 2020 5468 6f73 6520 6172 6520 7468      Those are th
+-00000d10: 6520 6669 7865 730d 0a20 2020 2020 2020  e fixes..       
+-00000d20: 207b 7b23 6561 6368 2066 6978 6573 7d7d   {{#each fixes}}
+-00000d30: 2d20 7b7b 7468 6973 7d7d 0d0a 2020 2020  - {{this}}..    
+-00000d40: 2020 2020 2020 2020 7b7b 2f65 6163 687e          {{/each~
+-00000d50: 7d7d 0d0a 0d0a 2020 2020 2020 2020 7b7b  }}....        {{
+-00000d60: 7e2f 7573 6572 7d7d 0d0a 0d0a 2020 2020  ~/user}}....    
+-00000d70: 2020 2020 7b7b 2361 7373 6973 7461 6e74      {{#assistant
+-00000d80: 7e7d 7d0d 0a20 2020 2020 2020 207b 7b67  ~}}..        {{g
+-00000d90: 656e 2027 6669 7865 6466 696c 6527 2074  en 'fixedfile' t
+-00000da0: 656d 7065 7261 7475 7265 3d30 2e37 206d  emperature=0.7 m
+-00000db0: 6178 5f74 6f6b 656e 733d 2564 7d7d 0d0a  ax_tokens=%d}}..
+-00000dc0: 2020 2020 2020 2020 7b7b 7e2f 6173 7369          {{~/assi
+-00000dd0: 7374 616e 747e 7d7d 0d0a 2020 2020 2727  stant~}}..    ''
+-00000de0: 2720 2520 2861 7267 732e 6d61 785f 746f  ' % (args.max_to
+-00000df0: 6b65 6e73 5f66 6f72 5f66 696c 6529 2c6c  kens_for_file),l
+-00000e00: 6f67 3d54 7275 6520 290d 0a0d 0a0d 0a64  og=True )......d
++00000000: 0d0a 696d 706f 7274 206f 730d 0a69 6d70  ..import os..imp
++00000010: 6f72 7420 786d 6c0d 0a69 6d70 6f72 7420  ort xml..import 
++00000020: 7061 6e64 6173 0d0a 696d 706f 7274 2067  pandas..import g
++00000030: 7569 6461 6e63 650d 0a69 6d70 6f72 7420  uidance..import 
++00000040: 7265 0d0a 696d 706f 7274 2064 6966 666c  re..import diffl
++00000050: 6962 0d0a 696d 706f 7274 206c 6f67 6769  ib..import loggi
++00000060: 6e67 0d0a 696d 706f 7274 2078 6d6c 2e65  ng..import xml.e
++00000070: 7472 6565 2e45 6c65 6d65 6e74 5472 6565  tree.ElementTree
++00000080: 2061 7320 4554 0d0a 0d0a 6c6f 6767 6572   as ET....logger
++00000090: 3d6c 6f67 6769 6e67 2e67 6574 4c6f 6767  =logging.getLogg
++000000a0: 6572 2827 6d79 7079 6770 7427 290d 0a6c  er('mypygpt')..l
++000000b0: 6f67 6765 722e 7072 6f70 6167 6174 653d  ogger.propagate=
++000000c0: 4661 6c73 6520 0d0a 0d0a 4445 4641 554c  False ....DEFAUL
++000000d0: 545f 4d4f 4445 4c20 3d20 2267 7074 2d33  T_MODEL = "gpt-3
++000000e0: 2e35 2d74 7572 626f 2d31 366b 220d 0a0d  .5-turbo-16k"...
++000000f0: 0a4d 5950 5941 5247 5320 3d20 272d 2d64  .MYPYARGS = '--d
++00000100: 6973 616c 6c6f 772d 756e 7479 7065 642d  isallow-untyped-
++00000110: 6465 6673 270d 0a0d 0a6f 6c64 6572 5f70  defs'....older_p
++00000120: 6174 6820 3d20 7222 633a 5c67 6974 7072  ath = r"c:\gitpr
++00000130: 6f6a 5c41 7574 6f2d 4750 5422 0d0a 4445  oj\Auto-GPT"..DE
++00000140: 4641 554c 545f 544f 4b45 4e53 203d 3336  FAULT_TOKENS =36
++00000150: 3030 0d0a 4445 4641 554c 545f 544f 4b45  00..DEFAULT_TOKE
++00000160: 4e53 5f50 4552 5f46 4958 203d 3430 300d  NS_PER_FIX =400.
++00000170: 0a69 6d70 6f72 7420 7375 6270 726f 6365  .import subproce
++00000180: 7373 0d0a 696d 706f 7274 2061 7267 7061  ss..import argpa
++00000190: 7273 650d 0a64 6566 2072 756e 5f6d 7970  rse..def run_myp
++000001a0: 7928 6669 6c65 2c20 6d79 7079 5f61 7267  y(file, mypy_arg
++000001b0: 732c 206d 7970 795f 7061 7468 2c70 726f  s, mypy_path,pro
++000001c0: 6a5f 7061 7468 293a 0d0a 2020 2020 2320  j_path):..    # 
++000001d0: 436f 6e73 7472 7563 7420 7468 6520 6d79  Construct the my
++000001e0: 7079 2063 6f6d 6d61 6e64 0d0a 2020 2020  py command..    
++000001f0: 636f 6d6d 616e 6420 3d20 5b6d 7970 795f  command = [mypy_
++00000200: 7061 7468 5d20 2b6d 7970 795f 6172 6773  path] +mypy_args
++00000210: 2e73 706c 6974 2829 202b 205b 6669 6c65  .split() + [file
++00000220: 5d0d 0a20 2020 206c 6f67 6765 722e 6465  ]..    logger.de
++00000230: 6275 6728 2252 756e 6e69 6e67 206d 7970  bug("Running myp
++00000240: 7920 636f 6d6d 616e 643a 2025 7322 2c20  y command: %s", 
++00000250: 636f 6d6d 616e 6429 0d0a 2020 2020 2320  command)..    # 
++00000260: 5275 6e20 6d79 7079 2063 6f6d 6d61 6e64  Run mypy command
++00000270: 2061 6e64 2063 6170 7475 7265 2074 6865   and capture the
++00000280: 206f 7574 7075 740d 0a20 2020 2072 6573   output..    res
++00000290: 756c 7420 3d20 7375 6270 726f 6365 7373  ult = subprocess
++000002a0: 2e72 756e 2863 6f6d 6d61 6e64 2c20 6361  .run(command, ca
++000002b0: 7074 7572 655f 6f75 7470 7574 3d54 7275  pture_output=Tru
++000002c0: 652c 2074 6578 743d 5472 7565 2c63 7764  e, text=True,cwd
++000002d0: 3d6f 732e 7061 7468 2e61 6273 7061 7468  =os.path.abspath
++000002e0: 2870 726f 6a5f 7061 7468 2929 0d0a 2020  (proj_path))..  
++000002f0: 2020 2320 5072 696e 7420 7468 6520 6f75    # Print the ou
++00000300: 7470 7574 0d0a 0d0a 2020 2020 2320 4465  tput....    # De
++00000310: 636f 6465 2074 6865 206f 7574 7075 7420  code the output 
++00000320: 6672 6f6d 2062 7974 6573 2074 6f20 7374  from bytes to st
++00000330: 7269 6e67 0d0a 2020 2020 6f75 7470 7574  ring..    output
++00000340: 203d 2072 6573 756c 742e 7374 646f 7574   = result.stdout
++00000350: 0d0a 0d0a 2020 2020 2320 372d 6269 7420  ....    # 7-bit 
++00000360: 4331 2041 4e53 4920 7365 7175 656e 6365  C1 ANSI sequence
++00000370: 730d 0a20 2020 2061 6e73 695f 6573 6361  s..    ansi_esca
++00000380: 7065 203d 2072 652e 636f 6d70 696c 6528  pe = re.compile(
++00000390: 7227 2727 0d0a 2020 2020 2020 2020 2020  r'''..          
++000003a0: 2020 5c78 3142 2020 2320 4553 430d 0a20    \x1B  # ESC.. 
++000003b0: 2020 2020 2020 2020 2020 2028 3f3a 2020             (?:  
++000003c0: 2023 2037 2d62 6974 2043 3120 4665 2028   # 7-bit C1 Fe (
++000003d0: 6578 6365 7074 2043 5349 290d 0a20 2020  except CSI)..   
++000003e0: 2020 2020 2020 2020 2020 2020 205b 402d               [@-
++000003f0: 5a5c 5c2d 5f5d 0d0a 2020 2020 2020 2020  Z\\-_]..        
++00000400: 2020 2020 7c20 2020 2020 2320 6f72 205b      |     # or [
++00000410: 2066 6f72 2043 5349 2c20 666f 6c6c 6f77   for CSI, follow
++00000420: 6564 2062 7920 6120 636f 6e74 726f 6c20  ed by a control 
++00000430: 7365 7175 656e 6365 0d0a 2020 2020 2020  sequence..      
++00000440: 2020 2020 2020 2020 2020 5c5b 0d0a 2020            \[..  
++00000450: 2020 2020 2020 2020 2020 2020 2020 5b30                [0
++00000460: 2d3f 5d2a 2020 2320 5061 7261 6d65 7465  -?]*  # Paramete
++00000470: 7220 6279 7465 730d 0a20 2020 2020 2020  r bytes..       
++00000480: 2020 2020 2020 2020 205b 202d 2f5d 2a20           [ -/]* 
++00000490: 2023 2049 6e74 6572 6d65 6469 6174 6520   # Intermediate 
++000004a0: 6279 7465 730d 0a20 2020 2020 2020 2020  bytes..         
++000004b0: 2020 2020 2020 205b 402d 7e5d 2020 2023         [@-~]   #
++000004c0: 2046 696e 616c 2062 7974 650d 0a20 2020   Final byte..   
++000004d0: 2020 2020 2020 2020 2029 0d0a 2020 2020           )..    
++000004e0: 2020 2020 2727 272c 2072 652e 5645 5242      ''', re.VERB
++000004f0: 4f53 4529 0d0a 2020 2020 7265 7375 6c74  OSE)..    result
++00000500: 203d 2061 6e73 695f 6573 6361 7065 2e73   = ansi_escape.s
++00000510: 7562 2827 272c 206f 7574 7075 7429 0d0a  ub('', output)..
++00000520: 2020 2020 2320 5072 696e 7420 7468 6520      # Print the 
++00000530: 6f75 7470 7574 0d0a 2020 2020 7265 7475  output..    retu
++00000540: 726e 2028 7265 7375 6c74 290d 0a0d 0a64  rn (result)....d
++00000550: 6566 2070 6172 7365 5f6c 696e 6528 6c69  ef parse_line(li
++00000560: 6e65 293a 0d0a 2020 2020 696d 706f 7274  ne):..    import
++00000570: 2072 650d 0a20 2020 2023 2045 7874 7261   re..    # Extra
++00000580: 6374 696e 6720 6d65 7373 6167 652c 2074  cting message, t
++00000590: 7970 652c 2061 6e64 206c 696e 6520 6e75  ype, and line nu
++000005a0: 6d62 6572 2075 7369 6e67 2072 6567 756c  mber using regul
++000005b0: 6172 2065 7870 7265 7373 696f 6e73 0d0a  ar expressions..
++000005c0: 2020 2020 7061 7474 6572 6e20 3d20 7227      pattern = r'
++000005d0: 282e 2b29 3a28 5c64 2b29 3a20 285c 772b  (.+):(\d+): (\w+
++000005e0: 293a 2028 2e2b 2920 5c5b 282e 2a29 5c5d  ): (.+) \[(.*)\]
++000005f0: 270d 0a20 2020 206d 6174 6368 203d 2072  '..    match = r
++00000600: 652e 6d61 7463 6828 7061 7474 6572 6e2c  e.match(pattern,
++00000610: 206c 696e 6529 0d0a 2020 2020 6966 206e   line)..    if n
++00000620: 6f74 206d 6174 6368 3a0d 0a20 2020 2020  ot match:..     
++00000630: 2020 2070 6174 7465 726e 203d 2072 2728     pattern = r'(
++00000640: 2e2b 293a 285c 642b 293a 2028 5c77 2b29  .+):(\d+): (\w+)
++00000650: 3a20 282e 2b29 2829 270d 0a20 2020 2020  : (.+)()'..     
++00000660: 2020 206d 6174 6368 203d 2072 652e 6d61     match = re.ma
++00000670: 7463 6828 7061 7474 6572 6e2c 206c 696e  tch(pattern, lin
++00000680: 6529 0d0a 0d0a 2020 2020 6966 206d 6174  e)....    if mat
++00000690: 6368 3a0d 0a20 2020 2020 2020 206c 696e  ch:..        lin
++000006a0: 656e 756d 6265 7220 3d20 6d61 7463 682e  enumber = match.
++000006b0: 6772 6f75 7028 3229 0d0a 2020 2020 2020  group(2)..      
++000006c0: 2020 6572 726f 725f 7479 7065 203d 206d    error_type = m
++000006d0: 6174 6368 2e67 726f 7570 2833 290d 0a20  atch.group(3).. 
++000006e0: 2020 2020 2020 206d 6573 7361 6765 203d         message =
++000006f0: 206d 6174 6368 2e67 726f 7570 2834 290d   match.group(4).
++00000700: 0a20 2020 2020 2020 2073 7562 5f74 7970  .        sub_typ
++00000710: 6520 3d20 6d61 7463 682e 6772 6f75 7028  e = match.group(
++00000720: 3529 0d0a 2020 2020 2020 2020 7265 7475  5)..        retu
++00000730: 726e 207b 224c 696e 6520 4e75 6d62 6572  rn {"Line Number
++00000740: 223a 206c 696e 656e 756d 6265 722c 2022  ": linenumber, "
++00000750: 4572 726f 7220 5479 7065 223a 2065 7272  Error Type": err
++00000760: 6f72 5f74 7970 652c 2022 4d65 7373 6167  or_type, "Messag
++00000770: 6522 3a20 6d65 7373 6167 652c 2022 4361  e": message, "Ca
++00000780: 7465 676f 7279 223a 2073 7562 5f74 7970  tegory": sub_typ
++00000790: 657d 0d0a 2020 2020 656c 7365 3a0d 0a20  e}..    else:.. 
++000007a0: 2020 2020 2020 206c 6f67 6765 722e 6465         logger.de
++000007b0: 6275 6728 2822 4e6f 206d 6174 6368 2066  bug(("No match f
++000007c0: 6f75 6e64 2e22 2c20 6c69 6e65 2929 0d0a  ound.", line))..
++000007d0: 0d0a 6465 6620 6775 6964 655f 666f 725f  ..def guide_for_
++000007e0: 6572 726f 7273 2861 7267 7329 3a0d 0a20  errors(args):.. 
++000007f0: 2020 2067 7569 6461 6e63 652e 6c6c 6d20     guidance.llm 
++00000800: 3d20 6775 6964 616e 6365 2e6c 6c6d 732e  = guidance.llms.
++00000810: 4f70 656e 4149 2861 7267 732e 6d6f 6465  OpenAI(args.mode
++00000820: 6c2c 2061 7069 5f6b 6579 3d6f 732e 656e  l, api_key=os.en
++00000830: 7669 726f 6e5b 274f 5045 4e5f 4149 5f4b  viron['OPEN_AI_K
++00000840: 4559 275d 290d 0a0d 0a20 2020 2072 6574  EY'])....    ret
++00000850: 7572 6e20 2067 7569 6461 6e63 6528 2727  urn  guidance(''
++00000860: 270d 0a7b 7b23 7379 7374 656d 7e7d 7d0d  '..{{#system~}}.
++00000870: 0a20 2020 2059 6f75 2061 7265 2061 2068  .    You are a h
++00000880: 656c 7066 756c 2061 7373 6973 7461 6e74  elpful assistant
++00000890: 2e20 596f 7520 7769 6c6c 2062 6520 6769  . You will be gi
++000008a0: 7665 6e20 6120 6669 6c65 2061 6e64 2061  ven a file and a
++000008b0: 206c 6973 7420 6f66 2069 7373 7565 732e   list of issues.
++000008c0: 2053 6f6d 6520 6f66 2074 6865 6d20 6172   Some of them ar
++000008d0: 6520 6d69 6e6f 7220 6973 7375 6573 206c  e minor issues l
++000008e0: 696b 6520 6d69 736d 6174 6368 2074 7970  ike mismatch typ
++000008f0: 6573 2e20 2059 6f75 206e 6565 6420 746f  es.  You need to
++00000900: 2063 6f6d 6520 7570 2077 6974 6820 6669   come up with fi
++00000910: 7865 7320 666f 7220 616c 6c20 6973 7375  xes for all issu
++00000920: 6573 2c20 6576 656d 2074 6865 206d 696e  es, evem the min
++00000930: 6f72 206f 6e65 732e 0d0a 2020 2020 5468  or ones...    Th
++00000940: 6520 6669 7865 7320 7368 6f75 6c64 2062  e fixes should b
++00000950: 6520 6d65 7469 6375 6c6f 7573 6c79 2070  e meticulously p
++00000960: 6872 6173 6564 2e20 0d0a 2020 2020 7b7b  hrased. ..    {{
++00000970: 7e2f 7379 7374 656d 7d7d 0d0a 7b7b 7e23  ~/system}}..{{~#
++00000980: 7573 6572 7d7d 0d0a 4769 7665 6e20 7468  user}}..Given th
++00000990: 6973 207b 7b66 696c 656e 616d 657d 7d3a  is {{filename}}:
++000009a0: 202e 0d0a 2020 2020 2020 2020 7b7b 6669   ...        {{fi
++000009b0: 6c65 7d7d 2e0d 0a41 206c 6973 7420 6f66  le}}...A list of
++000009c0: 2069 7373 7565 7320 7769 6c6c 2062 6520   issues will be 
++000009d0: 6769 7665 6e0d 0a7b 7b7e 2f75 7365 727d  given..{{~/user}
++000009e0: 7d0d 0a0d 0a7b 7b23 6561 6368 2065 7272  }....{{#each err
++000009f0: 6f72 737d 7d0d 0a20 207b 7b7e 2375 7365  ors}}..  {{~#use
++00000a00: 727d 7d0d 0a20 2057 6861 7420 6973 2074  r}}..  What is t
++00000a10: 6865 2066 6978 2066 6f72 2074 6869 7320  he fix for this 
++00000a20: 6973 7375 6520 6f6e 207b 7b66 696c 656e  issue on {{filen
++00000a30: 616d 657d 7d3f 0d0a 2020 2020 2020 2020  ame}}?..        
++00000a40: 2020 7b7b 7468 6973 7d7d 0d0a 2020 7b7b    {{this}}..  {{
++00000a50: 7e2f 7573 6572 7d7d 0d0a 2020 7b7b 2361  ~/user}}..  {{#a
++00000a60: 7373 6973 7461 6e74 7e7d 7d0d 0a20 2020  ssistant~}}..   
++00000a70: 207b 7b67 656e 2027 6669 7827 206c 6973   {{gen 'fix' lis
++00000a80: 745f 6170 7065 6e64 3d54 7275 6520 7465  t_append=True te
++00000a90: 6d70 6572 6174 7572 653d 302e 3720 6d61  mperature=0.7 ma
++00000aa0: 785f 746f 6b65 6e73 3d25 647d 7d0d 0a20  x_tokens=%d}}.. 
++00000ab0: 2020 207b 7b7e 2f61 7373 6973 7461 6e74     {{~/assistant
++00000ac0: 7d7d 0d0a 2020 2020 0d0a 7b7b 2f65 6163  }}..    ..{{/eac
++00000ad0: 687e 7d7d 2727 2720 2520 2861 7267 732e  h~}}''' % (args.
++00000ae0: 6d61 785f 746f 6b65 6e73 5f70 6572 5f66  max_tokens_per_f
++00000af0: 6978 292c 206c 6f67 3d54 7275 652c 6361  ix), log=True,ca
++00000b00: 6368 696e 673d 4661 6c73 6529 0d0a 0d0a  ching=False)....
++00000b10: 6465 6620 6775 6964 655f 666f 725f 6669  def guide_for_fi
++00000b20: 7865 7328 6172 6773 293a 200d 0a20 2020  xes(args): ..   
++00000b30: 2072 6574 7572 6e20 6775 6964 616e 6365   return guidance
++00000b40: 2827 2727 0d0a 2020 2020 2020 2020 7b7b  ('''..        {{
++00000b50: 2373 7973 7465 6d7e 7d7d 0d0a 2020 2020  #system~}}..    
++00000b60: 2020 2020 596f 7520 6172 6520 6120 6865      You are a he
++00000b70: 6c70 6675 6c20 6173 7369 7374 616e 742e  lpful assistant.
++00000b80: 2059 6f75 2077 696c 6c20 6265 2067 6976   You will be giv
++00000b90: 656e 2061 206c 6973 7420 6f66 2063 6f72  en a list of cor
++00000ba0: 7265 6374 696f 6e73 2074 6f20 646f 2069  rections to do i
++00000bb0: 6e20 6120 6669 6c65 2c20 616e 6420 7769  n a file, and wi
++00000bc0: 6c6c 2075 7064 6174 6520 7468 6520 6669  ll update the fi
++00000bd0: 6c65 2061 6363 6f72 6469 6e67 6c79 2e20  le accordingly. 
++00000be0: 0d0a 2020 2020 2020 2020 5265 706c 7920  ..        Reply 
++00000bf0: 6f6e 6c79 2077 6974 6820 786d 6c20 7468  only with xml th
++00000c00: 6174 2068 6173 2074 6865 2066 6f6c 6c6f  at has the follo
++00000c10: 7769 6e67 2066 6f72 6d61 743a 2020 0d0a  wing format:  ..
++00000c20: 2020 2020 2020 2020 6060 6078 6d6c 0d0a          ```xml..
++00000c30: 2020 2020 2020 2020 3c70 7974 686f 6e66          <pythonf
++00000c40: 696c 653e 7468 6520 7570 6461 7465 6420  ile>the updated 
++00000c50: 6669 6c65 2063 6f6e 7465 6e74 2061 6674  file content aft
++00000c60: 6572 2074 6865 2063 6f72 7265 6374 696f  er the correctio
++00000c70: 6e73 2061 7265 206d 6164 653c 2f70 7974  ns are made</pyt
++00000c80: 686f 6e66 696c 653e 0d0a 2020 2020 2020  honfile>..      
++00000c90: 2020 6060 600d 0a20 2020 2020 2020 207b    ```..        {
++00000ca0: 7b7e 2f73 7973 7465 6d7d 7d0d 0a20 2020  {~/system}}..   
++00000cb0: 2020 2020 207b 7b23 7573 6572 7e7d 7d0d       {{#user~}}.
++00000cc0: 0a20 2020 2020 2020 2054 6869 7320 6973  .        This is
++00000cd0: 2074 6865 2066 696c 653a 0d0a 2020 2020   the file:..    
++00000ce0: 2020 2020 7b7b 6669 6c65 7d7d 0d0a 2020      {{file}}..  
++00000cf0: 2020 2020 2020 5468 6f73 6520 6172 6520        Those are 
++00000d00: 7468 6520 6669 7865 730d 0a20 2020 2020  the fixes..     
++00000d10: 2020 207b 7b23 6561 6368 2066 6978 6573     {{#each fixes
++00000d20: 7d7d 2d20 7b7b 7468 6973 7d7d 0d0a 2020  }}- {{this}}..  
++00000d30: 2020 2020 2020 2020 2020 7b7b 2f65 6163            {{/eac
++00000d40: 687e 7d7d 0d0a 0d0a 2020 2020 2020 2020  h~}}....        
++00000d50: 7b7b 7e2f 7573 6572 7d7d 0d0a 0d0a 2020  {{~/user}}....  
++00000d60: 2020 2020 2020 7b7b 2361 7373 6973 7461        {{#assista
++00000d70: 6e74 7e7d 7d0d 0a20 2020 2020 2020 207b  nt~}}..        {
++00000d80: 7b67 656e 2027 6669 7865 6466 696c 6527  {gen 'fixedfile'
++00000d90: 2074 656d 7065 7261 7475 7265 3d30 2e32   temperature=0.2
++00000da0: 206d 6178 5f74 6f6b 656e 733d 2564 7d7d   max_tokens=%d}}
++00000db0: 0d0a 2020 2020 2020 2020 7b7b 7e2f 6173  ..        {{~/as
++00000dc0: 7369 7374 616e 747e 7d7d 0d0a 2020 2020  sistant~}}..    
++00000dd0: 2727 2720 2520 2861 7267 732e 6d61 785f  ''' % (args.max_
++00000de0: 746f 6b65 6e73 5f66 6f72 5f66 696c 6529  tokens_for_file)
++00000df0: 2c6c 6f67 3d54 7275 6520 2c63 6163 6869  ,log=True ,cachi
++00000e00: 6e67 3d46 616c 7365 290d 0a0d 0a0d 0a64  ng=False)......d
+ 00000e10: 6566 2067 656e 6572 6174 655f 6469 6666  ef generate_diff
+ 00000e20: 286f 7269 6769 6e61 6c5f 636f 6e74 656e  (original_conten
+ 00000e30: 742c 206e 6577 5f63 6f6e 7465 6e74 2c70  t, new_content,p
+ 00000e40: 6174 6829 3a0d 0a20 2020 2074 7279 3a0d  ath):..    try:.
+ 00000e50: 0a20 2020 2020 2020 2066 726f 6d20 636f  .        from co
+ 00000e60: 6c6f 7261 6d61 2069 6d70 6f72 7420 466f  lorama import Fo
+ 00000e70: 7265 2c20 4261 636b 2c20 5374 796c 652c  re, Back, Style,
+@@ -287,345 +287,381 @@
+ 000011e0: 2727 2929 0d0a 2020 2020 7265 7475 726e  ''))..    return
+ 000011f0: 206f 732e 6c69 6e65 7365 702e 6a6f 696e   os.linesep.join
+ 00001200: 2863 6f6c 6f72 5f64 6966 6628 6469 6666  (color_diff(diff
+ 00001210: 7265 7329 292c 6f73 2e6c 696e 6573 6570  res)),os.linesep
+ 00001220: 2e6a 6f69 6e28 6469 6666 7265 7329 0d0a  .join(diffres)..
+ 00001230: 0d0a 6465 6620 6d61 696e 5f69 6e74 6572  ..def main_inter
+ 00001240: 6e61 6c28 6172 6773 293a 0d0a 2020 2020  nal(args):..    
+-00001250: 6966 2061 7267 732e 6469 6666 5f66 696c  if args.diff_fil
+-00001260: 6520 213d 2044 4546 4155 4c54 535f 4449  e != DEFAULTS_DI
+-00001270: 4646 5f46 494c 453a 0d0a 2020 2020 2020  FF_FILE:..      
+-00001280: 2020 6172 6773 2e73 746f 7265 5f64 6966    args.store_dif
+-00001290: 6620 3d20 5472 7565 0d0a 2020 2020 6c6f  f = True..    lo
+-000012a0: 6767 6572 2e73 6574 4c65 7665 6c28 6c6f  gger.setLevel(lo
+-000012b0: 6767 696e 672e 4445 4255 4720 6966 2061  gging.DEBUG if a
+-000012c0: 7267 732e 6465 6275 6720 656c 7365 206c  rgs.debug else l
+-000012d0: 6f67 6769 6e67 2e49 4e46 4f29 0d0a 2020  ogging.INFO)..  
+-000012e0: 2020 6966 2027 4f50 454e 5f41 495f 4b45    if 'OPEN_AI_KE
+-000012f0: 5927 206e 6f74 2069 6e20 6f73 2e65 6e76  Y' not in os.env
+-00001300: 6972 6f6e 3a0d 0a20 2020 2020 2020 206c  iron:..        l
+-00001310: 6f67 6765 722e 6572 726f 7228 274f 5045  ogger.error('OPE
+-00001320: 4e5f 4149 5f4b 4559 206e 6f74 2073 6574  N_AI_KEY not set
+-00001330: 2729 0d0a 2020 2020 2020 2020 7265 7475  ')..        retu
+-00001340: 726e 0d0a 2020 2020 6c6f 6767 6572 2e69  rn..    logger.i
+-00001350: 6e66 6f28 226d 7970 7920 6f75 7470 7574  nfo("mypy output
+-00001360: 3a22 290d 0a0d 0a20 2020 2065 7272 6f72  :")....    error
+-00001370: 7320 3d20 6765 745f 6572 726f 7273 5f66  s = get_errors_f
+-00001380: 726f 6d5f 6d79 7079 2861 7267 7329 0d0a  rom_mypy(args)..
+-00001390: 2020 2020 6966 206c 656e 2865 7272 6f72      if len(error
+-000013a0: 7329 3d3d 303a 0d0a 2020 2020 2020 2020  s)==0:..        
+-000013b0: 6c6f 6767 6572 2e69 6e66 6f28 276e 6f20  logger.info('no 
+-000013c0: 6572 726f 7273 2729 0d0a 2020 2020 2020  errors')..      
+-000013d0: 2020 7265 7475 726e 0d0a 0d0a 2020 2020    return....    
+-000013e0: 6572 725f 6775 6964 653d 6775 6964 655f  err_guide=guide_
+-000013f0: 666f 725f 6572 726f 7273 2861 7267 7329  for_errors(args)
+-00001400: 0d0a 2020 2020 6f72 6967 696e 616c 5f63  ..    original_c
+-00001410: 6f6e 7465 6e74 3d6f 7065 6e28 6172 6773  ontent=open(args
+-00001420: 2e66 696c 652c 2027 7274 2729 2e72 6561  .file, 'rt').rea
+-00001430: 6428 290d 0a0d 0a20 2020 2065 7272 5f72  d()....    err_r
+-00001440: 6573 203d 2065 7272 5f67 7569 6465 2866  es = err_guide(f
+-00001450: 696c 656e 616d 653d 6172 6773 2e66 696c  ilename=args.fil
+-00001460: 652c 2066 696c 653d 6f72 6967 696e 616c  e, file=original
+-00001470: 5f63 6f6e 7465 6e74 2c20 6572 726f 7273  _content, errors
+-00001480: 3d65 7272 6f72 7329 0d0a 0d0a 2020 2020  =errors)....    
+-00001490: 6966 206e 6f74 2061 7267 732e 646f 6e74  if not args.dont
+-000014a0: 5f70 7269 6e74 5f66 6978 6573 3a0d 0a20  _print_fixes:.. 
+-000014b0: 2020 2020 2020 206c 6f67 6765 722e 696e         logger.in
+-000014c0: 666f 2827 7375 6767 6573 7465 6420 6669  fo('suggested fi
+-000014d0: 7865 733a 2729 0d0a 2020 2020 2020 2020  xes:')..        
+-000014e0: 6c6f 6767 6572 2e69 6e66 6f28 275c 6e27  logger.info('\n'
+-000014f0: 2e6a 6f69 6e28 6572 725f 7265 735b 2766  .join(err_res['f
+-00001500: 6978 275d 2929 0d0a 2020 2020 6669 785f  ix']))..    fix_
+-00001510: 6775 6964 653d 6775 6964 655f 666f 725f  guide=guide_for_
+-00001520: 6669 7865 7328 6172 6773 290d 0a20 2020  fixes(args)..   
+-00001530: 2066 6978 5f72 6573 3d66 6978 5f67 7569   fix_res=fix_gui
+-00001540: 6465 2866 696c 656e 616d 653d 6172 6773  de(filename=args
+-00001550: 2e66 696c 652c 2066 696c 653d 6f72 6967  .file, file=orig
+-00001560: 696e 616c 5f63 6f6e 7465 6e74 2c20 6572  inal_content, er
+-00001570: 726f 7273 3d65 7272 6f72 732c 2066 6978  rors=errors, fix
+-00001580: 6573 3d65 7272 5f72 6573 5b27 6669 7827  es=err_res['fix'
+-00001590: 5d29 0d0a 2020 2020 6966 206e 6f74 2027  ])..    if not '
+-000015a0: 6669 7865 6466 696c 6527 2069 6e20 6669  fixedfile' in fi
+-000015b0: 785f 7265 733a 0d0a 2020 2020 2020 2020  x_res:..        
+-000015c0: 6c6f 6767 6572 2e65 7272 6f72 2827 6e6f  logger.error('no
+-000015d0: 2066 6978 6564 2066 696c 6527 290d 0a20   fixed file').. 
+-000015e0: 2020 2020 2020 2072 6574 7572 6e0d 0a20         return.. 
+-000015f0: 2020 2066 6978 6564 203d 2066 6978 5f72     fixed = fix_r
+-00001600: 6573 5b27 6669 7865 6466 696c 6527 5d0d  es['fixedfile'].
+-00001610: 0a20 2020 206c 6f67 6765 722e 6465 6275  .    logger.debu
+-00001620: 6728 6627 6669 7865 6420 6669 6c65 3a20  g(f'fixed file: 
+-00001630: 7b66 6978 6564 7d27 290d 0a20 2020 2074  {fixed}')..    t
+-00001640: 7279 3a0d 0a20 2020 2020 2020 206e 6577  ry:..        new
+-00001650: 5f63 6f6e 7465 6e74 3d66 6978 6564 5b66  _content=fixed[f
+-00001660: 6978 6564 2e69 6e64 6578 2827 6060 6070  ixed.index('```p
+-00001670: 7974 686f 6e27 2920 2b20 393a 6669 7865  ython') + 9:fixe
+-00001680: 642e 7269 6e64 6578 2827 6060 6027 295d  d.rindex('```')]
+-00001690: 0d0a 2020 2020 6578 6365 7074 3a0d 0a20  ..    except:.. 
+-000016a0: 2020 2020 2020 206c 6f67 6765 722e 7761         logger.wa
+-000016b0: 726e 2827 6661 696c 6564 2070 6172 7369  rn('failed parsi
+-000016c0: 6e67 2072 6573 7027 290d 0a20 2020 2020  ng resp')..     
+-000016d0: 2020 2069 6620 6c65 6e28 6669 7865 6429     if len(fixed)
+-000016e0: 3e30 2e35 2a6c 656e 286f 7269 6769 6e61  >0.5*len(origina
+-000016f0: 6c5f 636f 6e74 656e 7429 3a0d 0a20 2020  l_content):..   
+-00001700: 2020 2020 2020 2020 206e 6577 5f63 6f6e           new_con
+-00001710: 7465 6e74 3d66 6978 6564 0d0a 2020 2020  tent=fixed..    
+-00001720: 2020 2020 656c 7365 3a0d 0a20 2020 2020      else:..     
+-00001730: 2020 2020 2020 206c 6f67 6765 722e 6572         logger.er
+-00001740: 726f 7228 2763 616e 7420 636f 6e74 696e  ror('cant contin
+-00001750: 7565 2729 0d0a 2020 2020 2020 2020 2020  ue')..          
+-00001760: 2020 7265 7475 726e 0d0a 2020 2020 636f    return..    co
+-00001770: 6c6f 7265 645f 6469 6666 2c64 6966 663d  lored_diff,diff=
+-00001780: 2067 656e 6572 6174 655f 6469 6666 286f   generate_diff(o
+-00001790: 7269 6769 6e61 6c5f 636f 6e74 656e 742c  riginal_content,
+-000017a0: 206e 6577 5f63 6f6e 7465 6e74 2c61 7267   new_content,arg
+-000017b0: 732e 6669 6c65 2e72 6570 6c61 6365 2822  s.file.replace("
+-000017c0: 5c5c 222c 272f 2729 290d 0a0d 0a20 2020  \\",'/'))....   
+-000017d0: 2069 6620 6172 6773 2e73 746f 7265 5f66   if args.store_f
+-000017e0: 696c 653a 0d0a 2020 2020 2020 2020 6f70  ile:..        op
+-000017f0: 656e 2861 7267 732e 6e65 775f 6669 6c65  en(args.new_file
+-00001800: 5f70 6174 682c 2027 7774 2729 2e77 7269  _path, 'wt').wri
+-00001810: 7465 286e 6577 5f63 6f6e 7465 6e74 290d  te(new_content).
+-00001820: 0a20 2020 2069 6620 6172 6773 2e73 746f  .    if args.sto
+-00001830: 7265 5f64 6966 663a 0d0a 2020 2020 2020  re_diff:..      
+-00001840: 2020 6f70 656e 2861 7267 732e 6469 6666    open(args.diff
+-00001850: 5f66 696c 652c 2027 7774 2729 2e77 7269  _file, 'wt').wri
+-00001860: 7465 2864 6966 6629 0d0a 0d0a 0d0a 2020  te(diff)......  
+-00001870: 2020 7769 7468 204e 616d 6564 5465 6d70    with NamedTemp
+-00001880: 6f72 6172 7946 696c 6528 6d6f 6465 3d27  oraryFile(mode='
+-00001890: 7727 2c20 6465 6c65 7465 3d46 616c 7365  w', delete=False
+-000018a0: 2920 6173 2066 3a0d 0a20 2020 2020 2020  ) as f:..       
+-000018b0: 2066 2e77 7269 7465 286e 6577 5f63 6f6e   f.write(new_con
+-000018c0: 7465 6e74 290d 0a20 2020 2020 2020 206c  tent)..        l
+-000018d0: 6f67 6765 722e 696e 666f 2827 6f75 7470  ogger.info('outp
+-000018e0: 7574 2066 726f 6d20 6d79 7079 2061 6674  ut from mypy aft
+-000018f0: 6572 2061 7070 6c79 696e 6720 7468 6520  er applying the 
+-00001900: 6669 7865 733a 2729 0d0a 2020 2020 2020  fixes:')..      
+-00001910: 2020 6572 726f 7273 3d67 6574 5f65 7272    errors=get_err
+-00001920: 6f72 735f 6672 6f6d 5f6d 7970 7928 6172  ors_from_mypy(ar
+-00001930: 6773 2c6f 7665 7272 6964 655f 6669 6c65  gs,override_file
+-00001940: 3d66 2e6e 616d 6529 0d0a 2020 2020 7072  =f.name)..    pr
+-00001950: 696e 7428 636f 6c6f 7265 645f 6469 6666  int(colored_diff
+-00001960: 290d 0a20 2020 2075 7064 6174 653d 4661  )..    update=Fa
+-00001970: 6c73 6520 0d0a 2020 2020 0d0a 2020 2020  lse ..    ..    
+-00001980: 6966 206e 6f74 2061 7267 732e 646f 6e74  if not args.dont
+-00001990: 5f61 736b 3a0d 0a20 2020 2020 2020 2070  _ask:..        p
+-000019a0: 7269 6e74 2822 646f 2079 6f75 2077 616e  rint("do you wan
+-000019b0: 7420 746f 206f 7665 7272 6964 6520 7468  t to override th
+-000019c0: 6520 6669 6c65 3f20 2879 2f6e 2922 290d  e file? (y/n)").
+-000019d0: 0a20 2020 2020 2020 2069 6620 696e 7075  .        if inpu
+-000019e0: 7428 2920 3d3d 2027 7927 3a0d 0a20 2020  t() == 'y':..   
+-000019f0: 2020 2020 2020 2020 2075 7064 6174 653d           update=
+-00001a00: 5472 7565 200d 0a0d 0a20 2020 2069 6620  True ....    if 
+-00001a10: 286c 656e 2865 7272 6f72 7329 203d 3d20  (len(errors) == 
+-00001a20: 3020 616e 6420 6172 6773 2e61 7574 6f5f  0 and args.auto_
+-00001a30: 7570 6461 7465 2920 206f 7220 7570 6461  update)  or upda
+-00001a40: 7465 3a0d 0a20 2020 2020 2020 206f 7065  te:..        ope
+-00001a50: 6e28 6172 6773 2e66 696c 652c 2027 7774  n(args.file, 'wt
+-00001a60: 2729 2e77 7269 7465 286e 6577 5f63 6f6e  ').write(new_con
+-00001a70: 7465 6e74 290d 0a20 2020 2020 2020 2069  tent)..        i
+-00001a80: 6620 6e6f 7420 6172 6773 2e64 6f6e 745f  f not args.dont_
+-00001a90: 7265 6368 6563 6b20 616e 6420 6c65 6e28  recheck and len(
+-00001aa0: 6572 726f 7273 2920 3e30 203a 0d0a 2020  errors) >0 :..  
+-00001ab0: 2020 2020 2020 2020 2020 6d61 696e 5f69            main_i
+-00001ac0: 6e74 6572 6e61 6c28 6172 6773 290d 0a0d  nternal(args)...
+-00001ad0: 0a0d 0a64 6566 2067 6574 5f65 7272 6f72  ...def get_error
+-00001ae0: 735f 6672 6f6d 5f6d 7970 7928 6172 6773  s_from_mypy(args
+-00001af0: 2c6f 7665 7272 6964 655f 6669 6c65 3d4e  ,override_file=N
+-00001b00: 6f6e 6529 3a0d 0a0d 0a20 2020 206f 7574  one):....    out
+-00001b10: 203d 2072 756e 5f6d 7970 7928 6172 6773   = run_mypy(args
+-00001b20: 2e66 696c 6520 6966 206f 7665 7272 6964  .file if overrid
+-00001b30: 655f 6669 6c65 2069 7320 4e6f 6e65 2065  e_file is None e
+-00001b40: 6c73 6520 6f76 6572 7269 6465 5f66 696c  lse override_fil
+-00001b50: 652c 2061 7267 732e 6d79 7079 5f61 7267  e, args.mypy_arg
+-00001b60: 732c 2061 7267 732e 6d79 7079 5f70 6174  s, args.mypy_pat
+-00001b70: 682c 2061 7267 732e 7072 6f6a 5f70 6174  h, args.proj_pat
+-00001b80: 6829 0d0a 2020 2020 6c6f 6767 6572 2e69  h)..    logger.i
+-00001b90: 6e66 6f28 6f75 7429 0d0a 2020 2020 6572  nfo(out)..    er
+-00001ba0: 726f 7273 203d 205b 7061 7273 655f 6c69  rors = [parse_li
+-00001bb0: 6e65 287a 2920 666f 7220 7a20 696e 206f  ne(z) for z in o
+-00001bc0: 7574 2e73 706c 6974 2827 5c6e 2729 5d0d  ut.split('\n')].
+-00001bd0: 0a20 2020 2065 7272 6f72 7320 3d20 6c69  .    errors = li
+-00001be0: 7374 2866 696c 7465 7228 6c61 6d62 6461  st(filter(lambda
+-00001bf0: 2078 3a20 782c 2065 7272 6f72 7329 290d   x: x, errors)).
+-00001c00: 0a20 2020 2069 6620 6c65 6e28 6572 726f  .    if len(erro
+-00001c10: 7273 293d 3d30 3a0d 0a20 2020 2020 2020  rs)==0:..       
+-00001c20: 2072 6574 7572 6e20 5b5d 0d0a 2020 2020   return []..    
+-00001c30: 2348 6572 6520 7765 2075 6e69 7465 2074  #Here we unite t
+-00001c40: 6865 2065 7272 6f72 7320 6672 6f6d 2064  he errors from d
+-00001c50: 6966 6665 7265 6e74 206c 696e 6573 0d0a  ifferent lines..
+-00001c60: 2020 2020 6466 6f3d 7061 6e64 6173 2e44      dfo=pandas.D
+-00001c70: 6174 6146 7261 6d65 2865 7272 6f72 7329  ataFrame(errors)
+-00001c80: 0d0a 2020 2020 6368 616e 6765 645f 6d65  ..    changed_me
+-00001c90: 7373 6167 655f 6466 3d64 666f 2e67 726f  ssage_df=dfo.gro
+-00001ca0: 7570 6279 2827 4c69 6e65 204e 756d 6265  upby('Line Numbe
+-00001cb0: 7227 295b 274d 6573 7361 6765 275d 2e61  r')['Message'].a
+-00001cc0: 6767 286c 616d 6264 6120 783a 2027 5c6e  gg(lambda x: '\n
+-00001cd0: 272e 6a6f 696e 2878 2929 0d0a 2020 2020  '.join(x))..    
+-00001ce0: 6466 5f66 6972 7374 5f72 6f77 3d64 666f  df_first_row=dfo
+-00001cf0: 2e67 726f 7570 6279 2827 4c69 6e65 204e  .groupby('Line N
+-00001d00: 756d 6265 7227 292e 6669 7273 7428 290d  umber').first().
+-00001d10: 0a20 2020 2064 665f 6669 7273 745f 726f  .    df_first_ro
+-00001d20: 775b 274d 6573 7361 6765 275d 2e75 7064  w['Message'].upd
+-00001d30: 6174 6528 6368 616e 6765 645f 6d65 7373  ate(changed_mess
+-00001d40: 6167 655f 6466 290d 0a20 2020 2064 665f  age_df)..    df_
+-00001d50: 6669 7273 745f 726f 773d 6466 5f66 6972  first_row=df_fir
+-00001d60: 7374 5f72 6f77 2e72 6573 6574 5f69 6e64  st_row.reset_ind
+-00001d70: 6578 2829 0d0a 2020 2020 6572 726f 7273  ex()..    errors
+-00001d80: 3d20 5b64 6963 7428 725b 315d 2920 666f  = [dict(r[1]) fo
+-00001d90: 7220 7220 696e 2064 665f 6669 7273 745f  r r in df_first_
+-00001da0: 726f 772e 6974 6572 726f 7773 2829 5d0d  row.iterrows()].
+-00001db0: 0a0d 0a20 2020 2069 6620 6172 6773 2e6d  ...    if args.m
+-00001dc0: 6178 5f65 7272 6f72 733a 0d0a 2020 2020  ax_errors:..    
+-00001dd0: 2020 2020 6572 726f 7273 203d 2065 7272      errors = err
+-00001de0: 6f72 735b 3a61 7267 732e 6d61 785f 6572  ors[:args.max_er
+-00001df0: 726f 7273 5d0d 0a20 2020 2069 6620 6172  rors]..    if ar
+-00001e00: 6773 2e65 7272 6f72 5f63 6174 6567 6f72  gs.error_categor
+-00001e10: 6965 733a 0d0a 2020 2020 2020 2020 6572  ies:..        er
+-00001e20: 726f 7273 203d 205b 7a20 666f 7220 7a20  rors = [z for z 
+-00001e30: 696e 2065 7272 6f72 7320 6966 207a 5b27  in errors if z['
+-00001e40: 4361 7465 676f 7279 275d 2069 6e20 6172  Category'] in ar
+-00001e50: 6773 2e65 7272 6f72 5f63 6174 6567 6f72  gs.error_categor
+-00001e60: 6965 732e 7370 6c69 7428 272c 2729 5d0d  ies.split(',')].
+-00001e70: 0a20 2020 2072 6574 7572 6e20 6572 726f  .    return erro
+-00001e80: 7273 0d0a 0d0a 6465 6620 6d61 696e 2829  rs....def main()
+-00001e90: 3a0d 0a20 2020 2023 2043 7265 6174 6520  :..    # Create 
+-00001ea0: 7468 6520 6172 6775 6d65 6e74 2070 6172  the argument par
+-00001eb0: 7365 720d 0a20 2020 2070 6172 7365 7220  ser..    parser 
+-00001ec0: 3d20 6172 6770 6172 7365 2e41 7267 756d  = argparse.Argum
+-00001ed0: 656e 7450 6172 7365 7228 6465 7363 7269  entParser(descri
+-00001ee0: 7074 696f 6e3d 2752 756e 206d 7970 7920  ption='Run mypy 
+-00001ef0: 6f6e 2061 2050 7974 686f 6e20 6669 6c65  on a Python file
+-00001f00: 2729 0d0a 2020 2020 2320 4164 6420 7468  ')..    # Add th
+-00001f10: 6520 6172 6775 6d65 6e74 730d 0a20 2020  e arguments..   
+-00001f20: 2070 6172 7365 722e 6164 645f 6172 6775   parser.add_argu
+-00001f30: 6d65 6e74 2827 6669 6c65 272c 2068 656c  ment('file', hel
+-00001f40: 703d 2750 7974 686f 6e20 6669 6c65 2074  p='Python file t
+-00001f50: 6f20 7275 6e20 6d79 7079 206f 6e27 290d  o run mypy on').
+-00001f60: 0a20 2020 2070 6172 7365 722e 6164 645f  .    parser.add_
+-00001f70: 6172 6775 6d65 6e74 2827 6d79 7079 5f61  argument('mypy_a
+-00001f80: 7267 7327 2c20 6e61 7267 733d 273f 272c  rgs', nargs='?',
+-00001f90: 2064 6566 6175 6c74 3d4d 5950 5941 5247   default=MYPYARG
+-00001fa0: 532c 2068 656c 703d 2741 6464 6974 696f  S, help='Additio
+-00001fb0: 6e61 6c20 6f70 7469 6f6e 7320 666f 7220  nal options for 
+-00001fc0: 6d79 7079 2729 0d0a 2020 2020 7061 7273  mypy')..    pars
+-00001fd0: 6572 2e61 6464 5f61 7267 756d 656e 7428  er.add_argument(
+-00001fe0: 272d 2d6d 7970 795f 7061 7468 272c 2064  '--mypy_path', d
+-00001ff0: 6566 6175 6c74 3d27 6d79 7079 272c 2068  efault='mypy', h
+-00002000: 656c 703d 2750 6174 6820 746f 206d 7970  elp='Path to myp
+-00002010: 7920 6578 6563 7574 6162 6c65 2028 6465  y executable (de
+-00002020: 6661 756c 743a 2022 6d79 7079 2229 2729  fault: "mypy")')
+-00002030: 0d0a 2020 2020 7061 7273 6572 2e61 6464  ..    parser.add
+-00002040: 5f61 7267 756d 656e 7428 272d 2d65 7272  _argument('--err
+-00002050: 6f72 5f63 6174 6567 6f72 6965 7327 2c20  or_categories', 
+-00002060: 6163 7469 6f6e 3d27 7374 6f72 6527 2c20  action='store', 
+-00002070: 6865 6c70 3d27 5479 7065 206f 6620 6572  help='Type of er
+-00002080: 726f 7273 2074 6f20 7072 6f63 6573 7327  rors to process'
+-00002090: 290d 0a20 2020 2070 6172 7365 722e 6164  )..    parser.ad
+-000020a0: 645f 6172 6775 6d65 6e74 2827 2d2d 6d61  d_argument('--ma
+-000020b0: 785f 6572 726f 7273 272c 2061 6374 696f  x_errors', actio
+-000020c0: 6e3d 2773 746f 7265 272c 2074 7970 653d  n='store', type=
+-000020d0: 696e 742c 2064 6566 6175 6c74 3d31 302c  int, default=10,
+-000020e0: 2068 656c 703d 274d 6178 206e 756d 6265   help='Max numbe
+-000020f0: 7220 6f66 2065 7272 6f72 7320 746f 2070  r of errors to p
+-00002100: 726f 6365 7373 2729 0d0a 2020 2020 7061  rocess')..    pa
+-00002110: 7273 6572 2e61 6464 5f61 7267 756d 656e  rser.add_argumen
+-00002120: 7428 272d 2d70 726f 6a2d 7061 7468 272c  t('--proj-path',
+-00002130: 2064 6566 6175 6c74 3d27 2e27 2c20 6865   default='.', he
+-00002140: 6c70 3d27 5061 7468 2074 6f20 7072 6f6a  lp='Path to proj
+-00002150: 6563 7427 290d 0a20 2020 2070 6172 7365  ect')..    parse
+-00002160: 722e 6164 645f 6172 6775 6d65 6e74 2827  r.add_argument('
+-00002170: 2d2d 6469 6666 5f66 696c 6527 2c20 6163  --diff_file', ac
+-00002180: 7469 6f6e 3d27 7374 6f72 6527 2c20 6465  tion='store', de
+-00002190: 6661 756c 743d 4445 4641 554c 5453 5f44  fault=DEFAULTS_D
+-000021a0: 4946 465f 4649 4c45 2c20 6865 6c70 3d27  IFF_FILE, help='
+-000021b0: 5374 6f72 6520 6469 6666 2069 6e20 6669  Store diff in fi
+-000021c0: 6c65 2729 0d0a 2020 2020 7061 7273 6572  le')..    parser
+-000021d0: 2e61 6464 5f61 7267 756d 656e 7428 272d  .add_argument('-
+-000021e0: 2d6e 6577 5f66 696c 655f 7061 7468 272c  -new_file_path',
+-000021f0: 2061 6374 696f 6e3d 2773 746f 7265 272c   action='store',
+-00002200: 2064 6566 6175 6c74 3d27 7375 6767 6573   default='sugges
+-00002210: 7469 6f6e 2e70 7927 2c20 6865 6c70 3d27  tion.py', help='
+-00002220: 5374 6f72 6520 6e65 7720 636f 6e74 656e  Store new conten
+-00002230: 7420 696e 2066 696c 6527 290d 0a20 2020  t in file')..   
+-00002240: 2070 6172 7365 722e 6164 645f 6172 6775   parser.add_argu
+-00002250: 6d65 6e74 2827 2d2d 7374 6f72 655f 6669  ment('--store_fi
+-00002260: 6c65 272c 2061 6374 696f 6e3d 2773 746f  le', action='sto
+-00002270: 7265 5f74 7275 6527 2c20 6465 6661 756c  re_true', defaul
+-00002280: 743d 4661 6c73 652c 2068 656c 703d 2753  t=False, help='S
+-00002290: 746f 7265 206e 6577 2063 6f6e 7465 6e74  tore new content
+-000022a0: 2069 6e20 6669 6c65 2729 0d0a 2020 2020   in file')..    
+-000022b0: 7061 7273 6572 2e61 6464 5f61 7267 756d  parser.add_argum
+-000022c0: 656e 7428 272d 2d73 746f 7265 2d64 6966  ent('--store-dif
+-000022d0: 6627 2c20 6163 7469 6f6e 3d27 7374 6f72  f', action='stor
+-000022e0: 655f 7472 7565 272c 2064 6566 6175 6c74  e_true', default
+-000022f0: 3d46 616c 7365 2c20 6865 6c70 3d27 5374  =False, help='St
+-00002300: 6f72 6520 6469 6666 2069 6e20 6120 6669  ore diff in a fi
+-00002310: 6c65 2e20 6279 2064 6566 6175 6c74 2073  le. by default s
+-00002320: 7567 6765 7374 696f 6e2e 6469 6666 2729  uggestion.diff')
+-00002330: 0d0a 0d0a 2020 2020 7061 7273 6572 2e61  ....    parser.a
+-00002340: 6464 5f61 7267 756d 656e 7428 272d 2d64  dd_argument('--d
+-00002350: 6f6e 742d 6173 6b27 2c20 6163 7469 6f6e  ont-ask', action
+-00002360: 3d27 7374 6f72 655f 7472 7565 272c 2064  ='store_true', d
+-00002370: 6566 6175 6c74 3d46 616c 7365 2c0d 0a20  efault=False,.. 
+-00002380: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00002390: 2020 2020 2020 2068 656c 703d 2744 6f6e         help='Don
+-000023a0: 7420 6173 6b20 6966 2074 6f20 6170 706c  t ask if to appl
+-000023b0: 7920 746f 2063 6861 6e67 6573 2e20 5573  y to changes. Us
+-000023c0: 6566 756c 2066 6f72 2067 656e 6572 7469  eful for generti
+-000023d0: 6e67 2064 6966 6627 290d 0a20 2020 2070  ng diff')..    p
+-000023e0: 6172 7365 722e 6164 645f 6172 6775 6d65  arser.add_argume
+-000023f0: 6e74 2827 2d2d 6d6f 6465 6c27 2c20 6465  nt('--model', de
+-00002400: 6661 756c 743d 4445 4641 554c 545f 4d4f  fault=DEFAULT_MO
+-00002410: 4445 4c2c 2068 656c 703d 274f 7065 6e61  DEL, help='Opena
+-00002420: 6920 6d6f 6465 6c20 746f 2075 7365 2729  i model to use')
+-00002430: 0d0a 2020 2020 7061 7273 6572 2e61 6464  ..    parser.add
+-00002440: 5f61 7267 756d 656e 7428 272d 2d6d 6178  _argument('--max
+-00002450: 5f74 6f6b 656e 735f 7065 725f 6669 7827  _tokens_per_fix'
+-00002460: 2c20 6465 6661 756c 743d 4445 4641 554c  , default=DEFAUL
+-00002470: 545f 544f 4b45 4e53 5f50 4552 5f46 4958  T_TOKENS_PER_FIX
+-00002480: 2c20 6865 6c70 3d27 746f 6b65 6e73 2074  , help='tokens t
+-00002490: 6f20 7573 6520 666f 7220 6669 7865 7327  o use for fixes'
+-000024a0: 290d 0a20 2020 2070 6172 7365 722e 6164  )..    parser.ad
+-000024b0: 645f 6172 6775 6d65 6e74 2827 2d2d 6d61  d_argument('--ma
+-000024c0: 785f 746f 6b65 6e73 5f66 6f72 5f66 696c  x_tokens_for_fil
+-000024d0: 6527 2c20 6465 6661 756c 743d 4445 4641  e', default=DEFA
+-000024e0: 554c 545f 544f 4b45 4e53 2c20 6865 6c70  ULT_TOKENS, help
+-000024f0: 3d27 746f 6b65 6e73 2074 6f20 7573 6520  ='tokens to use 
+-00002500: 666f 7220 6669 6c65 2729 0d0a 2020 2020  for file')..    
+-00002510: 7061 7273 6572 2e61 6464 5f61 7267 756d  parser.add_argum
+-00002520: 656e 7428 272d 2d64 6f6e 745f 7265 6368  ent('--dont_rech
+-00002530: 6563 6b27 2c20 6163 7469 6f6e 3d27 7374  eck', action='st
+-00002540: 6f72 655f 7472 7565 272c 2064 6566 6175  ore_true', defau
+-00002550: 6c74 3d46 616c 7365 2c0d 0a20 2020 2020  lt=False,..     
+-00002560: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00002570: 2020 2068 656c 703d 2744 6f6e 7420 7265     help='Dont re
+-00002580: 6368 6563 6b20 7468 6520 6669 6c65 2061  check the file a
+-00002590: 6674 6572 2074 6865 2066 6978 6573 2729  fter the fixes')
+-000025a0: 0d0a 2020 2020 7061 7273 6572 2e61 6464  ..    parser.add
+-000025b0: 5f61 7267 756d 656e 7428 272d 2d64 6562  _argument('--deb
+-000025c0: 7567 272c 2061 6374 696f 6e3d 2773 746f  ug', action='sto
+-000025d0: 7265 5f74 7275 6527 2c20 6465 6661 756c  re_true', defaul
+-000025e0: 743d 4661 6c73 652c 2068 656c 703d 2764  t=False, help='d
+-000025f0: 6562 7567 206c 6f67 206c 6576 656c 2027  ebug log level '
+-00002600: 290d 0a20 2020 2070 6172 7365 722e 6164  )..    parser.ad
+-00002610: 645f 6172 6775 6d65 6e74 2827 2d2d 6175  d_argument('--au
+-00002620: 746f 2d75 7064 6174 6527 2c20 6163 7469  to-update', acti
+-00002630: 6f6e 3d27 7374 6f72 655f 7472 7565 272c  on='store_true',
+-00002640: 2064 6566 6175 6c74 3d46 616c 7365 2c20   default=False, 
+-00002650: 6865 6c70 3d27 6175 746f 2075 7064 6174  help='auto updat
+-00002660: 6520 6966 206e 6f20 6572 726f 7273 2027  e if no errors '
+-00002670: 290d 0a20 2020 2070 6172 7365 722e 6164  )..    parser.ad
+-00002680: 645f 6172 6775 6d65 6e74 2827 2d2d 646f  d_argument('--do
+-00002690: 6e74 2d70 7269 6e74 2d66 6978 6573 272c  nt-print-fixes',
+-000026a0: 2061 6374 696f 6e3d 2773 746f 7265 5f74   action='store_t
+-000026b0: 7275 6527 2c20 6465 6661 756c 743d 4661  rue', default=Fa
+-000026c0: 6c73 652c 2068 656c 703d 2764 6f6e 7420  lse, help='dont 
+-000026d0: 7072 696e 7420 6669 7865 7320 2729 0d0a  print fixes ')..
+-000026e0: 0d0a 2020 2020 2320 5061 7273 6520 7468  ..    # Parse th
+-000026f0: 6520 6172 6775 6d65 6e74 730d 0a20 2020  e arguments..   
+-00002700: 2061 7267 7320 3d20 7061 7273 6572 2e70   args = parser.p
+-00002710: 6172 7365 5f61 7267 7328 290d 0a20 2020  arse_args()..   
+-00002720: 206d 6169 6e5f 696e 7465 726e 616c 2861   main_internal(a
+-00002730: 7267 7329 0d0a 0d0a 0d0a 6966 205f 5f6e  rgs)......if __n
+-00002740: 616d 655f 5f20 3d3d 2027 5f5f 6d61 696e  ame__ == '__main
+-00002750: 5f5f 273a 0d0a 2020 2020 6d61 696e 2829  __':..    main()
+-00002760: 0d0a 0d0a 0d0a                           ......
++00001250: 6c6f 6767 6572 2e73 6574 4c65 7665 6c28  logger.setLevel(
++00001260: 6c6f 6767 696e 672e 4445 4255 4720 6966  logging.DEBUG if
++00001270: 2061 7267 732e 6465 6275 6720 656c 7365   args.debug else
++00001280: 206c 6f67 6769 6e67 2e49 4e46 4f29 0d0a   logging.INFO)..
++00001290: 2020 2020 6c6f 675f 666f 726d 6174 203d      log_format =
++000012a0: 2022 2528 6c65 7665 6c6e 616d 6529 7320   "%(levelname)s 
++000012b0: 2d20 2528 6d65 7373 6167 6529 7322 0d0a  - %(message)s"..
++000012c0: 2020 2020 666f 726d 6174 7465 7220 3d20      formatter = 
++000012d0: 6c6f 6767 696e 672e 466f 726d 6174 7465  logging.Formatte
++000012e0: 7228 6c6f 675f 666f 726d 6174 290d 0a20  r(log_format).. 
++000012f0: 2020 2063 6820 3d20 6c6f 6767 696e 672e     ch = logging.
++00001300: 5374 7265 616d 4861 6e64 6c65 7228 290d  StreamHandler().
++00001310: 0a20 2020 2063 682e 7365 7446 6f72 6d61  .    ch.setForma
++00001320: 7474 6572 2866 6f72 6d61 7474 6572 290d  tter(formatter).
++00001330: 0a20 2020 206c 6f67 6765 722e 6861 6e64  .    logger.hand
++00001340: 6c65 7273 203d 205b 6368 5d0d 0a0d 0a20  lers = [ch].... 
++00001350: 2020 2069 6620 274f 5045 4e5f 4149 5f4b     if 'OPEN_AI_K
++00001360: 4559 2720 6e6f 7420 696e 206f 732e 656e  EY' not in os.en
++00001370: 7669 726f 6e3a 0d0a 2020 2020 2020 2020  viron:..        
++00001380: 6c6f 6767 6572 2e65 7272 6f72 2827 4f50  logger.error('OP
++00001390: 454e 5f41 495f 4b45 5920 6e6f 7420 7365  EN_AI_KEY not se
++000013a0: 7427 290d 0a20 2020 2020 2020 2072 6574  t')..        ret
++000013b0: 7572 6e0d 0a20 2020 206c 6f67 6765 722e  urn..    logger.
++000013c0: 696e 666f 2822 6d79 7079 206f 7574 7075  info("mypy outpu
++000013d0: 743a 2229 0d0a 0d0a 2020 2020 6572 726f  t:")....    erro
++000013e0: 7273 203d 2067 6574 5f65 7272 6f72 735f  rs = get_errors_
++000013f0: 6672 6f6d 5f6d 7970 7928 6172 6773 290d  from_mypy(args).
++00001400: 0a20 2020 206c 6f67 6765 722e 6465 6275  .    logger.debu
++00001410: 6728 6572 726f 7273 290d 0a20 2020 2069  g(errors)..    i
++00001420: 6620 6c65 6e28 6572 726f 7273 293d 3d30  f len(errors)==0
++00001430: 3a0d 0a20 2020 2020 2020 206c 6f67 6765  :..        logge
++00001440: 722e 696e 666f 2827 6e6f 2065 7272 6f72  r.info('no error
++00001450: 7327 290d 0a20 2020 2020 2020 2072 6574  s')..        ret
++00001460: 7572 6e0d 0a0d 0a20 2020 2065 7272 5f67  urn....    err_g
++00001470: 7569 6465 3d67 7569 6465 5f66 6f72 5f65  uide=guide_for_e
++00001480: 7272 6f72 7328 6172 6773 290d 0a20 2020  rrors(args)..   
++00001490: 206f 7269 6769 6e61 6c5f 636f 6e74 656e   original_conten
++000014a0: 743d 6f70 656e 2861 7267 732e 6669 6c65  t=open(args.file
++000014b0: 2c20 2772 7427 292e 7265 6164 2829 0d0a  , 'rt').read()..
++000014c0: 0d0a 2020 2020 6572 725f 7265 7320 3d20  ..    err_res = 
++000014d0: 6572 725f 6775 6964 6528 6669 6c65 6e61  err_guide(filena
++000014e0: 6d65 3d61 7267 732e 6669 6c65 2c20 6669  me=args.file, fi
++000014f0: 6c65 3d6f 7269 6769 6e61 6c5f 636f 6e74  le=original_cont
++00001500: 656e 742c 2065 7272 6f72 733d 6572 726f  ent, errors=erro
++00001510: 7273 290d 0a0d 0a20 2020 2069 6620 6e6f  rs)....    if no
++00001520: 7420 6172 6773 2e64 6f6e 745f 7072 696e  t args.dont_prin
++00001530: 745f 6669 7865 733a 0d0a 2020 2020 2020  t_fixes:..      
++00001540: 2020 6c6f 6767 6572 2e69 6e66 6f28 2773    logger.info('s
++00001550: 7567 6765 7374 6564 2066 6978 6573 3a27  uggested fixes:'
++00001560: 290d 0a20 2020 2020 2020 206c 6f67 6765  )..        logge
++00001570: 722e 696e 666f 2827 5c6e 272e 6a6f 696e  r.info('\n'.join
++00001580: 2865 7272 5f72 6573 5b27 6669 7827 5d29  (err_res['fix'])
++00001590: 290d 0a0d 0a20 2020 2066 6978 5f67 7569  )....    fix_gui
++000015a0: 6465 3d67 7569 6465 5f66 6f72 5f66 6978  de=guide_for_fix
++000015b0: 6573 2861 7267 7329 0d0a 2020 2020 6669  es(args)..    fi
++000015c0: 785f 7265 733d 6669 785f 6775 6964 6528  x_res=fix_guide(
++000015d0: 6669 6c65 6e61 6d65 3d61 7267 732e 6669  filename=args.fi
++000015e0: 6c65 2c20 6669 6c65 3d6f 7269 6769 6e61  le, file=origina
++000015f0: 6c5f 636f 6e74 656e 742c 2065 7272 6f72  l_content, error
++00001600: 733d 6572 726f 7273 2c20 6669 7865 733d  s=errors, fixes=
++00001610: 6572 725f 7265 735b 2766 6978 275d 290d  err_res['fix']).
++00001620: 0a20 2020 2069 6620 6e6f 7420 2766 6978  .    if not 'fix
++00001630: 6564 6669 6c65 2720 696e 2066 6978 5f72  edfile' in fix_r
++00001640: 6573 3a0d 0a20 2020 2020 2020 206c 6f67  es:..        log
++00001650: 6765 722e 6572 726f 7228 276e 6f20 6669  ger.error('no fi
++00001660: 7865 6420 6669 6c65 2729 0d0a 2020 2020  xed file')..    
++00001670: 2020 2020 7265 7475 726e 0d0a 2020 2020      return..    
++00001680: 6669 7865 6420 3d20 6669 785f 7265 735b  fixed = fix_res[
++00001690: 2766 6978 6564 6669 6c65 275d 0d0a 2020  'fixedfile']..  
++000016a0: 2020 6c6f 6767 6572 2e64 6562 7567 2866    logger.debug(f
++000016b0: 2766 6978 6564 2066 696c 653a 207b 6669  'fixed file: {fi
++000016c0: 7865 647d 2729 0d0a 2020 2020 2362 6220  xed}')..    #bb 
++000016d0: 3d20 6a73 6f6e 2e6c 6f61 6473 2866 6978  = json.loads(fix
++000016e0: 5f72 6573 5b22 6669 7865 6466 696c 6522  _res["fixedfile"
++000016f0: 5d29 5b27 7079 7468 6f6e 6669 6c65 275d  ])['pythonfile']
++00001700: 0d0a 2020 2020 7472 793a 0d0a 2020 2020  ..    try:..    
++00001710: 2020 2020 6e65 775f 636f 6e74 656e 743d      new_content=
++00001720: 2066 6978 6564 5b66 6978 6564 2e69 6e64   fixed[fixed.ind
++00001730: 6578 2827 6060 6078 6d6c 2729 202b 2036  ex('```xml') + 6
++00001740: 3a5d 0d0a 2020 2020 2020 2020 6e65 775f  :]..        new_
++00001750: 636f 6e74 656e 743d 6e65 775f 636f 6e74  content=new_cont
++00001760: 656e 745b 3a6e 6577 5f63 6f6e 7465 6e74  ent[:new_content
++00001770: 2e72 696e 6465 7828 2760 6060 2729 5d0d  .rindex('```')].
++00001780: 0a20 2020 2065 7863 6570 743a 0d0a 2020  .    except:..  
++00001790: 2020 2020 2020 6966 206c 656e 2866 6978        if len(fix
++000017a0: 6564 293e 302e 352a 6c65 6e28 6f72 6967  ed)>0.5*len(orig
++000017b0: 696e 616c 5f63 6f6e 7465 6e74 293a 0d0a  inal_content):..
++000017c0: 2020 2020 2020 2020 2020 2020 6e65 775f              new_
++000017d0: 636f 6e74 656e 743d 6669 7865 640d 0a20  content=fixed.. 
++000017e0: 2020 2020 2020 2065 6c73 653a 0d0a 2020         else:..  
++000017f0: 2020 2020 2020 2020 2020 6c6f 6767 6572            logger
++00001800: 2e65 7272 6f72 2827 6361 6e74 2063 6f6e  .error('cant con
++00001810: 7469 6e75 6527 290d 0a20 2020 2020 2020  tinue')..       
++00001820: 2020 2020 2072 6574 7572 6e0d 0a20 2020       return..   
++00001830: 2074 7279 3a0d 0a20 2020 2020 2020 206e   try:..        n
++00001840: 6577 5f63 6f6e 7465 6e74 3d45 542e 6672  ew_content=ET.fr
++00001850: 6f6d 7374 7269 6e67 286e 6577 5f63 6f6e  omstring(new_con
++00001860: 7465 6e74 292e 7465 7874 2023 7265 6d6f  tent).text #remo
++00001870: 7665 2074 6865 2070 7974 686f 6e66 696c  ve the pythonfil
++00001880: 6520 656c 656d 656e 740d 0a20 2020 2065  e element..    e
++00001890: 7863 6570 7420 786d 6c2e 6574 7265 652e  xcept xml.etree.
++000018a0: 456c 656d 656e 7454 7265 652e 5061 7273  ElementTree.Pars
++000018b0: 6545 7272 6f72 3a0d 0a20 2020 2020 2020  eError:..       
++000018c0: 206c 6f67 6765 722e 6572 726f 7228 2262   logger.error("b
++000018d0: 6164 2066 6f72 6d61 7474 696e 6722 290d  ad formatting").
++000018e0: 0a20 2020 2020 2020 206c 6f67 6765 722e  .        logger.
++000018f0: 6465 6275 6728 6e65 775f 636f 6e74 656e  debug(new_conten
++00001900: 7429 0d0a 2020 2020 2020 2020 6966 206c  t)..        if l
++00001910: 656e 2866 6978 6564 2920 3e20 302e 3520  en(fixed) > 0.5 
++00001920: 2a20 6c65 6e28 6f72 6967 696e 616c 5f63  * len(original_c
++00001930: 6f6e 7465 6e74 293a 0d0a 2020 2020 2020  ontent):..      
++00001940: 2020 2020 2020 6c6f 6767 6572 2e77 6172        logger.war
++00001950: 6e28 2277 696c 6c20 7472 7920 616e 7977  n("will try anyw
++00001960: 6179 2229 0d0a 0d0a 0d0a 0d0a 2020 2020  ay")........    
++00001970: 636f 6c6f 7265 645f 6469 6666 2c64 6966  colored_diff,dif
++00001980: 663d 2067 656e 6572 6174 655f 6469 6666  f= generate_diff
++00001990: 286f 7269 6769 6e61 6c5f 636f 6e74 656e  (original_conten
++000019a0: 742c 206e 6577 5f63 6f6e 7465 6e74 2c61  t, new_content,a
++000019b0: 7267 732e 6669 6c65 2e72 6570 6c61 6365  rgs.file.replace
++000019c0: 2822 5c5c 222c 272f 2729 290d 0a0d 0a20  ("\\",'/')).... 
++000019d0: 2020 2069 6620 6172 6773 2e64 6966 665f     if args.diff_
++000019e0: 6669 6c65 3a0d 0a20 2020 2020 2020 206f  file:..        o
++000019f0: 7065 6e28 6172 6773 2e64 6966 665f 6669  pen(args.diff_fi
++00001a00: 6c65 2c20 2777 7427 292e 7772 6974 6528  le, 'wt').write(
++00001a10: 6469 6666 290d 0a0d 0a20 2020 2069 6620  diff)....    if 
++00001a20: 6e6f 7420 6172 6773 2e64 6f6e 745f 7265  not args.dont_re
++00001a30: 6368 6563 6b3a 0d0a 2020 2020 2020 2020  check:..        
++00001a40: 6e65 7766 696c 6520 3d20 6172 6773 2e66  newfile = args.f
++00001a50: 696c 652e 7265 706c 6163 6528 272e 7079  ile.replace('.py
++00001a60: 272c 2027 2e66 6978 6564 2e70 7927 2920  ', '.fixed.py') 
++00001a70: 236d 7573 7420 6265 2069 6e20 7468 6520  #must be in the 
++00001a80: 7361 6d65 2066 6f6c 6465 7220 7361 646c  same folder sadl
++00001a90: 792e 0d0a 2020 2020 2020 2020 6f70 656e  y...        open
++00001aa0: 286e 6577 6669 6c65 2c20 2777 7427 292e  (newfile, 'wt').
++00001ab0: 7772 6974 6528 6e65 775f 636f 6e74 656e  write(new_conten
++00001ac0: 7429 0d0a 0d0a 2020 2020 2020 2020 6c6f  t)....        lo
++00001ad0: 6767 6572 2e69 6e66 6f28 276f 7574 7075  gger.info('outpu
++00001ae0: 7420 6672 6f6d 206d 7970 7920 6166 7465  t from mypy afte
++00001af0: 7220 6170 706c 7969 6e67 2074 6865 2066  r applying the f
++00001b00: 6978 6573 3a27 290d 0a20 2020 2020 2020  ixes:')..       
++00001b10: 2074 7279 3a0d 0a20 2020 2020 2020 2020   try:..         
++00001b20: 2020 2065 7272 6f72 733d 6765 745f 6572     errors=get_er
++00001b30: 726f 7273 5f66 726f 6d5f 6d79 7079 2861  rors_from_mypy(a
++00001b40: 7267 732c 6f76 6572 7269 6465 5f66 696c  rgs,override_fil
++00001b50: 653d 6e65 7766 696c 6529 0d0a 2020 2020  e=newfile)..    
++00001b60: 2020 2020 6669 6e61 6c6c 793a 0d0a 2020      finally:..  
++00001b70: 2020 2020 2020 2020 2020 6966 206e 6f74            if not
++00001b80: 2061 7267 732e 7374 6f72 655f 6669 7865   args.store_fixe
++00001b90: 645f 6669 6c65 3a0d 0a20 2020 2020 2020  d_file:..       
++00001ba0: 2020 2020 2020 2020 2074 7279 3a0d 0a20           try:.. 
++00001bb0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00001bc0: 2020 206f 732e 7265 6d6f 7665 286e 6577     os.remove(new
++00001bd0: 6669 6c65 290d 0a20 2020 2020 2020 2020  file)..         
++00001be0: 2020 2020 2020 2065 7863 6570 743a 0d0a         except:..
++00001bf0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00001c00: 2020 2020 6c6f 6767 6572 2e65 7272 6f72      logger.error
++00001c10: 2827 636f 756c 6420 6e6f 7420 7265 6d6f  ('could not remo
++00001c20: 7665 2066 696c 6520 2573 2720 2520 6e65  ve file %s' % ne
++00001c30: 7766 696c 6529 0d0a 2020 2020 7072 696e  wfile)..    prin
++00001c40: 7428 636f 6c6f 7265 645f 6469 6666 290d  t(colored_diff).
++00001c50: 0a20 2020 2075 7064 6174 653d 4661 6c73  .    update=Fals
++00001c60: 6520 0d0a 2020 2020 0d0a 2020 2020 6966  e ..    ..    if
++00001c70: 206e 6f74 2061 7267 732e 646f 6e74 5f61   not args.dont_a
++00001c80: 736b 3a0d 0a20 2020 2020 2020 2070 7269  sk:..        pri
++00001c90: 6e74 2822 646f 2079 6f75 2077 616e 7420  nt("do you want 
++00001ca0: 746f 206f 7665 7272 6964 6520 7468 6520  to override the 
++00001cb0: 6669 6c65 3f20 2879 2f6e 2922 290d 0a20  file? (y/n)").. 
++00001cc0: 2020 2020 2020 2069 6620 696e 7075 7428         if input(
++00001cd0: 2920 3d3d 2027 7927 3a0d 0a20 2020 2020  ) == 'y':..     
++00001ce0: 2020 2020 2020 2075 7064 6174 653d 5472         update=Tr
++00001cf0: 7565 200d 0a0d 0a20 2020 2069 6620 286c  ue ....    if (l
++00001d00: 656e 2865 7272 6f72 7329 203d 3d20 3020  en(errors) == 0 
++00001d10: 616e 6420 6172 6773 2e61 7574 6f5f 7570  and args.auto_up
++00001d20: 6461 7465 2920 206f 7220 7570 6461 7465  date)  or update
++00001d30: 3a0d 0a20 2020 2020 2020 206f 7065 6e28  :..        open(
++00001d40: 6172 6773 2e66 696c 652c 2027 7774 2729  args.file, 'wt')
++00001d50: 2e77 7269 7465 286e 6577 5f63 6f6e 7465  .write(new_conte
++00001d60: 6e74 290d 0a20 2020 2020 2020 2069 6620  nt)..        if 
++00001d70: 6e6f 7420 6172 6773 2e64 6f6e 745f 7265  not args.dont_re
++00001d80: 6368 6563 6b20 616e 6420 6c65 6e28 6572  check and len(er
++00001d90: 726f 7273 2920 3e30 203a 0d0a 2020 2020  rors) >0 :..    
++00001da0: 2020 2020 2020 2020 6d61 696e 5f69 6e74          main_int
++00001db0: 6572 6e61 6c28 6172 6773 290d 0a0d 0a0d  ernal(args).....
++00001dc0: 0a64 6566 2067 6574 5f65 7272 6f72 735f  .def get_errors_
++00001dd0: 6672 6f6d 5f6d 7970 7928 6172 6773 2c6f  from_mypy(args,o
++00001de0: 7665 7272 6964 655f 6669 6c65 3d4e 6f6e  verride_file=Non
++00001df0: 6529 3a0d 0a0d 0a20 2020 206f 7574 203d  e):....    out =
++00001e00: 2072 756e 5f6d 7970 7928 6172 6773 2e66   run_mypy(args.f
++00001e10: 696c 6520 6966 206f 7665 7272 6964 655f  ile if override_
++00001e20: 6669 6c65 2069 7320 4e6f 6e65 2065 6c73  file is None els
++00001e30: 6520 6f76 6572 7269 6465 5f66 696c 652c  e override_file,
++00001e40: 2061 7267 732e 6d79 7079 5f61 7267 732c   args.mypy_args,
++00001e50: 2061 7267 732e 6d79 7079 5f70 6174 682c   args.mypy_path,
++00001e60: 2061 7267 732e 7072 6f6a 5f70 6174 6829   args.proj_path)
++00001e70: 0d0a 2020 2020 6c6f 6767 6572 2e69 6e66  ..    logger.inf
++00001e80: 6f28 6f75 7429 0d0a 2020 2020 6572 726f  o(out)..    erro
++00001e90: 7273 203d 205b 7061 7273 655f 6c69 6e65  rs = [parse_line
++00001ea0: 287a 2920 666f 7220 7a20 696e 206f 7574  (z) for z in out
++00001eb0: 2e73 706c 6974 2827 5c6e 2729 5d0d 0a20  .split('\n')].. 
++00001ec0: 2020 2065 7272 6f72 7320 3d20 6c69 7374     errors = list
++00001ed0: 2866 696c 7465 7228 6c61 6d62 6461 2078  (filter(lambda x
++00001ee0: 3a20 782c 2065 7272 6f72 7329 290d 0a20  : x, errors)).. 
++00001ef0: 2020 2069 6620 6c65 6e28 6572 726f 7273     if len(errors
++00001f00: 293d 3d30 3a0d 0a20 2020 2020 2020 2072  )==0:..        r
++00001f10: 6574 7572 6e20 5b5d 0d0a 2020 2020 2348  eturn []..    #H
++00001f20: 6572 6520 7765 2075 6e69 7465 2074 6865  ere we unite the
++00001f30: 2065 7272 6f72 7320 6672 6f6d 2064 6966   errors from dif
++00001f40: 6665 7265 6e74 206c 696e 6573 0d0a 2020  ferent lines..  
++00001f50: 2020 6466 6f3d 7061 6e64 6173 2e44 6174    dfo=pandas.Dat
++00001f60: 6146 7261 6d65 2865 7272 6f72 7329 0d0a  aFrame(errors)..
++00001f70: 2020 2020 6368 616e 6765 645f 6d65 7373      changed_mess
++00001f80: 6167 655f 6466 3d64 666f 2e67 726f 7570  age_df=dfo.group
++00001f90: 6279 2827 4c69 6e65 204e 756d 6265 7227  by('Line Number'
++00001fa0: 295b 274d 6573 7361 6765 275d 2e61 6767  )['Message'].agg
++00001fb0: 286c 616d 6264 6120 783a 2027 5c6e 272e  (lambda x: '\n'.
++00001fc0: 6a6f 696e 2878 2929 0d0a 2020 2020 6466  join(x))..    df
++00001fd0: 5f66 6972 7374 5f72 6f77 3d64 666f 2e67  _first_row=dfo.g
++00001fe0: 726f 7570 6279 2827 4c69 6e65 204e 756d  roupby('Line Num
++00001ff0: 6265 7227 292e 6669 7273 7428 290d 0a20  ber').first().. 
++00002000: 2020 2064 665f 6669 7273 745f 726f 775b     df_first_row[
++00002010: 274d 6573 7361 6765 275d 2e75 7064 6174  'Message'].updat
++00002020: 6528 6368 616e 6765 645f 6d65 7373 6167  e(changed_messag
++00002030: 655f 6466 290d 0a20 2020 2064 665f 6669  e_df)..    df_fi
++00002040: 7273 745f 726f 773d 6466 5f66 6972 7374  rst_row=df_first
++00002050: 5f72 6f77 2e72 6573 6574 5f69 6e64 6578  _row.reset_index
++00002060: 2829 0d0a 2020 2020 6572 726f 7273 3d20  ()..    errors= 
++00002070: 5b64 6963 7428 725b 315d 2920 666f 7220  [dict(r[1]) for 
++00002080: 7220 696e 2064 665f 6669 7273 745f 726f  r in df_first_ro
++00002090: 772e 6974 6572 726f 7773 2829 5d0d 0a0d  w.iterrows()]...
++000020a0: 0a20 2020 2069 6620 6172 6773 2e6d 6178  .    if args.max
++000020b0: 5f65 7272 6f72 733a 0d0a 2020 2020 2020  _errors:..      
++000020c0: 2020 6572 726f 7273 203d 2065 7272 6f72    errors = error
++000020d0: 735b 3a61 7267 732e 6d61 785f 6572 726f  s[:args.max_erro
++000020e0: 7273 5d0d 0a20 2020 2069 6620 6172 6773  rs]..    if args
++000020f0: 2e65 7272 6f72 5f63 6174 6567 6f72 6965  .error_categorie
++00002100: 733a 0d0a 2020 2020 2020 2020 6572 726f  s:..        erro
++00002110: 7273 203d 205b 7a20 666f 7220 7a20 696e  rs = [z for z in
++00002120: 2065 7272 6f72 7320 6966 207a 5b27 4361   errors if z['Ca
++00002130: 7465 676f 7279 275d 2069 6e20 6172 6773  tegory'] in args
++00002140: 2e65 7272 6f72 5f63 6174 6567 6f72 6965  .error_categorie
++00002150: 732e 7370 6c69 7428 272c 2729 5d0d 0a20  s.split(',')].. 
++00002160: 2020 2072 6574 7572 6e20 6572 726f 7273     return errors
++00002170: 0d0a 0d0a 6465 6620 6d61 696e 2829 3a0d  ....def main():.
++00002180: 0a20 2020 2023 2043 7265 6174 6520 7468  .    # Create th
++00002190: 6520 6172 6775 6d65 6e74 2070 6172 7365  e argument parse
++000021a0: 720d 0a20 2020 2070 6172 7365 7220 3d20  r..    parser = 
++000021b0: 6172 6770 6172 7365 2e41 7267 756d 656e  argparse.Argumen
++000021c0: 7450 6172 7365 7228 6465 7363 7269 7074  tParser(descript
++000021d0: 696f 6e3d 2752 756e 206d 7970 7920 6f6e  ion='Run mypy on
++000021e0: 2061 2050 7974 686f 6e20 6669 6c65 2061   a Python file a
++000021f0: 6e64 2075 7365 204f 7065 6e41 4920 4750  nd use OpenAI GP
++00002200: 5420 746f 2066 6978 2074 6865 2065 7272  T to fix the err
++00002210: 6f72 732e 2049 7420 7465 6d70 6f72 6172  ors. It temporar
++00002220: 7920 6765 6e65 7261 7465 7320 6669 6c65  y generates file
++00002230: 2e66 6978 6564 2e70 7920 6669 6c65 2074  .fixed.py file t
++00002240: 6f20 6368 6563 6b20 666f 7220 6572 726f  o check for erro
++00002250: 7273 2e27 290d 0a20 2020 2023 2041 6464  rs.')..    # Add
++00002260: 2074 6865 2061 7267 756d 656e 7473 0d0a   the arguments..
++00002270: 2020 2020 7061 7273 6572 2e61 6464 5f61      parser.add_a
++00002280: 7267 756d 656e 7428 2766 696c 6527 2c20  rgument('file', 
++00002290: 6865 6c70 3d27 5079 7468 6f6e 2066 696c  help='Python fil
++000022a0: 6520 746f 2072 756e 206d 7970 7920 6f6e  e to run mypy on
++000022b0: 2729 0d0a 2020 2020 7061 7273 6572 2e61  ')..    parser.a
++000022c0: 6464 5f61 7267 756d 656e 7428 276d 7970  dd_argument('myp
++000022d0: 795f 6172 6773 272c 206e 6172 6773 3d27  y_args', nargs='
++000022e0: 3f27 2c20 6465 6661 756c 743d 4d59 5059  ?', default=MYPY
++000022f0: 4152 4753 2c20 6865 6c70 3d27 4164 6469  ARGS, help='Addi
++00002300: 7469 6f6e 616c 206f 7074 696f 6e73 2066  tional options f
++00002310: 6f72 206d 7970 7927 290d 0a20 2020 2070  or mypy')..    p
++00002320: 6172 7365 722e 6164 645f 6172 6775 6d65  arser.add_argume
++00002330: 6e74 2827 2d2d 6d79 7079 2d70 6174 6827  nt('--mypy-path'
++00002340: 2c20 6465 6661 756c 743d 276d 7970 7927  , default='mypy'
++00002350: 2c20 6865 6c70 3d27 5061 7468 2074 6f20  , help='Path to 
++00002360: 6d79 7079 2065 7865 6375 7461 626c 6520  mypy executable 
++00002370: 2864 6566 6175 6c74 3a20 226d 7970 7922  (default: "mypy"
++00002380: 2927 290d 0a20 2020 2070 6172 7365 722e  )')..    parser.
++00002390: 6164 645f 6172 6775 6d65 6e74 2827 2d2d  add_argument('--
++000023a0: 6572 726f 725f 6361 7465 676f 7269 6573  error_categories
++000023b0: 272c 2061 6374 696f 6e3d 2773 746f 7265  ', action='store
++000023c0: 272c 2068 656c 703d 2754 7970 6520 6f66  ', help='Type of
++000023d0: 2065 7272 6f72 7320 746f 2070 726f 6365   errors to proce
++000023e0: 7373 2729 0d0a 2020 2020 7061 7273 6572  ss')..    parser
++000023f0: 2e61 6464 5f61 7267 756d 656e 7428 272d  .add_argument('-
++00002400: 2d6d 6178 5f65 7272 6f72 7327 2c20 6163  -max_errors', ac
++00002410: 7469 6f6e 3d27 7374 6f72 6527 2c20 7479  tion='store', ty
++00002420: 7065 3d69 6e74 2c20 6465 6661 756c 743d  pe=int, default=
++00002430: 3130 2c20 6865 6c70 3d27 4d61 7820 6e75  10, help='Max nu
++00002440: 6d62 6572 206f 6620 6572 726f 7273 2074  mber of errors t
++00002450: 6f20 7072 6f63 6573 7327 290d 0a20 2020  o process')..   
++00002460: 2070 6172 7365 722e 6164 645f 6172 6775   parser.add_argu
++00002470: 6d65 6e74 2827 2d2d 7072 6f6a 2d70 6174  ment('--proj-pat
++00002480: 6827 2c20 6465 6661 756c 743d 272e 272c  h', default='.',
++00002490: 2068 656c 703d 2750 6174 6820 746f 2070   help='Path to p
++000024a0: 726f 6a65 6374 2729 0d0a 2020 2020 7061  roject')..    pa
++000024b0: 7273 6572 2e61 6464 5f61 7267 756d 656e  rser.add_argumen
++000024c0: 7428 272d 2d64 6966 662d 6669 6c65 272c  t('--diff-file',
++000024d0: 2061 6374 696f 6e3d 2773 746f 7265 272c   action='store',
++000024e0: 2068 656c 703d 2753 746f 7265 2064 6966   help='Store dif
++000024f0: 6620 696e 2064 6966 6620 6669 6c65 2729  f in diff file')
++00002500: 0d0a 2020 2020 7061 7273 6572 2e61 6464  ..    parser.add
++00002510: 5f61 7267 756d 656e 7428 272d 2d73 746f  _argument('--sto
++00002520: 7265 2d66 6978 6564 2d66 696c 6527 2c20  re-fixed-file', 
++00002530: 6163 7469 6f6e 3d27 7374 6f72 655f 7472  action='store_tr
++00002540: 7565 272c 2064 6566 6175 6c74 3d46 616c  ue', default=Fal
++00002550: 7365 2c20 6865 6c70 3d27 4b65 6570 7320  se, help='Keeps 
++00002560: 6669 6c65 2e66 6978 6564 2e70 7927 290d  file.fixed.py').
++00002570: 0a0d 0a20 2020 2070 6172 7365 722e 6164  ...    parser.ad
++00002580: 645f 6172 6775 6d65 6e74 2827 2d2d 646f  d_argument('--do
++00002590: 6e74 2d61 736b 272c 2061 6374 696f 6e3d  nt-ask', action=
++000025a0: 2773 746f 7265 5f74 7275 6527 2c20 6465  'store_true', de
++000025b0: 6661 756c 743d 4661 6c73 652c 0d0a 2020  fault=False,..  
++000025c0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000025d0: 2020 2020 2020 6865 6c70 3d27 446f 6e74        help='Dont
++000025e0: 2061 736b 2069 6620 746f 2061 7070 6c79   ask if to apply
++000025f0: 2074 6f20 6368 616e 6765 732e 2055 7365   to changes. Use
++00002600: 6675 6c20 666f 7220 6765 6e65 7274 696e  ful for genertin
++00002610: 6720 6469 6666 2729 0d0a 2020 2020 7061  g diff')..    pa
++00002620: 7273 6572 2e61 6464 5f61 7267 756d 656e  rser.add_argumen
++00002630: 7428 272d 2d6d 6f64 656c 272c 2064 6566  t('--model', def
++00002640: 6175 6c74 3d44 4546 4155 4c54 5f4d 4f44  ault=DEFAULT_MOD
++00002650: 454c 2c20 6865 6c70 3d27 4f70 656e 6169  EL, help='Openai
++00002660: 206d 6f64 656c 2074 6f20 7573 6527 290d   model to use').
++00002670: 0a20 2020 2070 6172 7365 722e 6164 645f  .    parser.add_
++00002680: 6172 6775 6d65 6e74 2827 2d2d 6d61 785f  argument('--max_
++00002690: 746f 6b65 6e73 5f70 6572 5f66 6978 272c  tokens_per_fix',
++000026a0: 2064 6566 6175 6c74 3d44 4546 4155 4c54   default=DEFAULT
++000026b0: 5f54 4f4b 454e 535f 5045 525f 4649 582c  _TOKENS_PER_FIX,
++000026c0: 2068 656c 703d 2774 6f6b 656e 7320 746f   help='tokens to
++000026d0: 2075 7365 2066 6f72 2066 6978 6573 2729   use for fixes')
++000026e0: 0d0a 2020 2020 7061 7273 6572 2e61 6464  ..    parser.add
++000026f0: 5f61 7267 756d 656e 7428 272d 2d6d 6178  _argument('--max
++00002700: 5f74 6f6b 656e 735f 666f 725f 6669 6c65  _tokens_for_file
++00002710: 272c 2064 6566 6175 6c74 3d44 4546 4155  ', default=DEFAU
++00002720: 4c54 5f54 4f4b 454e 532c 2068 656c 703d  LT_TOKENS, help=
++00002730: 2774 6f6b 656e 7320 746f 2075 7365 2066  'tokens to use f
++00002740: 6f72 2066 696c 6527 290d 0a20 2020 2070  or file')..    p
++00002750: 6172 7365 722e 6164 645f 6172 6775 6d65  arser.add_argume
++00002760: 6e74 2827 2d2d 646f 6e74 5f72 6563 6865  nt('--dont_reche
++00002770: 636b 272c 2061 6374 696f 6e3d 2773 746f  ck', action='sto
++00002780: 7265 5f74 7275 6527 2c20 6465 6661 756c  re_true', defaul
++00002790: 743d 4661 6c73 652c 0d0a 2020 2020 2020  t=False,..      
++000027a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000027b0: 2020 6865 6c70 3d27 446f 6e74 2072 6563    help='Dont rec
++000027c0: 6865 636b 2074 6865 2066 696c 6520 6166  heck the file af
++000027d0: 7465 7220 7468 6520 6669 7865 7327 290d  ter the fixes').
++000027e0: 0a20 2020 2070 6172 7365 722e 6164 645f  .    parser.add_
++000027f0: 6172 6775 6d65 6e74 2827 2d2d 6465 6275  argument('--debu
++00002800: 6727 2c20 6163 7469 6f6e 3d27 7374 6f72  g', action='stor
++00002810: 655f 7472 7565 272c 2064 6566 6175 6c74  e_true', default
++00002820: 3d46 616c 7365 2c20 6865 6c70 3d27 6465  =False, help='de
++00002830: 6275 6720 6c6f 6720 6c65 7665 6c20 2729  bug log level ')
++00002840: 0d0a 2020 2020 7061 7273 6572 2e61 6464  ..    parser.add
++00002850: 5f61 7267 756d 656e 7428 272d 2d61 7574  _argument('--aut
++00002860: 6f2d 7570 6461 7465 272c 2061 6374 696f  o-update', actio
++00002870: 6e3d 2773 746f 7265 5f74 7275 6527 2c20  n='store_true', 
++00002880: 6465 6661 756c 743d 4661 6c73 652c 2068  default=False, h
++00002890: 656c 703d 2761 7574 6f20 7570 6461 7465  elp='auto update
++000028a0: 2069 6620 6e6f 2065 7272 6f72 7320 2729   if no errors ')
++000028b0: 0d0a 2020 2020 7061 7273 6572 2e61 6464  ..    parser.add
++000028c0: 5f61 7267 756d 656e 7428 272d 2d64 6f6e  _argument('--don
++000028d0: 742d 7072 696e 742d 6669 7865 7327 2c20  t-print-fixes', 
++000028e0: 6163 7469 6f6e 3d27 7374 6f72 655f 7472  action='store_tr
++000028f0: 7565 272c 2064 6566 6175 6c74 3d46 616c  ue', default=Fal
++00002900: 7365 2c20 6865 6c70 3d27 646f 6e74 2070  se, help='dont p
++00002910: 7269 6e74 2066 6978 6573 2027 290d 0a0d  rint fixes ')...
++00002920: 0a20 2020 2023 2050 6172 7365 2074 6865  .    # Parse the
++00002930: 2061 7267 756d 656e 7473 0d0a 2020 2020   arguments..    
++00002940: 6172 6773 203d 2070 6172 7365 722e 7061  args = parser.pa
++00002950: 7273 655f 6172 6773 2829 0d0a 2020 2020  rse_args()..    
++00002960: 6d61 696e 5f69 6e74 6572 6e61 6c28 6172  main_internal(ar
++00002970: 6773 290d 0a0d 0a0d 0a69 6620 5f5f 6e61  gs)......if __na
++00002980: 6d65 5f5f 203d 3d20 275f 5f6d 6169 6e5f  me__ == '__main_
++00002990: 5f27 3a0d 0a20 2020 206d 6169 6e28 290d  _':..    main().
++000029a0: 0a                                       .
+```
+
+### Comparing `mypy-gpt-1.0.4/setup.py` & `mypy-gpt-1.0.5/setup.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -11,15 +11,15 @@
+         str(requirement)
+         for requirement
+         in pkg_resources.parse_requirements(requirements_txt)
+     ]
+ 
+ setup(
+     name='mypy-gpt',
+-    version='1.0.4',
++    version='1.0.5',
+     packages=['mypy_gpt'],
+     url='https://github.com/eyalk11/mypy-gpt',
+     license=' AGPL-3.0 license',
+     author='ekarni',
+     author_email='',
+     description=desc,
+     long_description=long_desc,
+```
+

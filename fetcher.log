@@ -1473,3 +1473,117 @@
 [2023-07-22 00:51:19] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.3.9.tar.gz]
 [2023-07-22 00:51:19] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
 [2023-07-22 00:51:19] INFO root fetch - main [MainThread]: Store serial: [18989881]
+[2023-07-22 00:56:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18989881]
+[2023-07-22 00:56:34] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-22 00:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moabdb
+[2023-07-22 00:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coffeepy
+[2023-07-22 00:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chromahackerweb
+[2023-07-22 00:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mfsr-rcs
+[2023-07-22 00:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrunch
+[2023-07-22 00:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: predibase-api
+[2023-07-22 00:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: predibase
+[2023-07-22 00:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ginormal
+[2023-07-22 00:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: beir
+[2023-07-22 00:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: actuarialmath
+[2023-07-22 00:56:34] INFO root fetch - processPackages [chromahackerweb]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-22 00:56:34] WARNING root fetch - processPackages [mfsr-rcs]: Skipping, unable to determine old version
+[2023-07-22 00:56:34] INFO root fetch - processPackages [mfsr-rcs]: Start processing: mypy-gpt
+[2023-07-22 00:56:34] INFO root fetch - main [MainThread]: End processing [mfsr-rcs] error
+[2023-07-22 00:56:34] INFO root fetch - processPackages [actuarialmath]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 00:56:34] INFO root fetch - processPackages [moabdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 00:56:34] INFO root fetch - processPackages [coffeepy]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-22 00:56:34] INFO root fetch - processPackages [predibase-api]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-22 00:56:34] INFO root fetch - processPackages [ginormal]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-22 00:56:34] INFO root fetch - processPackages [beir]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-07-22 00:56:34] INFO root fetch - processPackages [predibase]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-22 00:56:34] INFO root fetch - processPackages [scrunch]: New version: [6.5.2004.post1689979930] Old Version: [6.5.2004.post1689977722]
+[2023-07-22 00:56:34] INFO root fetch - processPackages [mypy-gpt]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-22 00:56:34] INFO root fetch - processPackages [chromahackerweb]: Downloading https://files.pythonhosted.org/packages/58/6a/3db5ae790f48bb462cc5a6d5f20fb0d96fb1401107138709fe507ac2d117/chromahackerweb-0.1.1.tar.gz
+[2023-07-22 00:56:34] INFO root fetch - processPackages [predibase-api]: Downloading https://files.pythonhosted.org/packages/8e/b3/e2b24d7d65fe083c3a6dead11a4cb7a793a66f1abd7a790b0919e7a2c35f/predibase-api-2023.7.8.tar.gz
+[2023-07-22 00:56:34] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/96/03/58935b420c952db4961424ceeba97283a4c72fb94531da0acb864c0aa9ab/moabdb-0.1.8.tar.gz
+[2023-07-22 00:56:34] INFO root fetch - processPackages [predibase]: Downloading https://files.pythonhosted.org/packages/81/03/5204d43fdf7e405baf4aa7f471d947e08e9f74d7b513e93dff63550b05ca/predibase-2023.7.8.tar.gz
+[2023-07-22 00:56:34] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/da/90/736432b57acea0e8451d0632caf2fad238af50e3597bec8eedbd1f235e15/scrunch-6.5.2004.post1689977722.tar.gz
+[2023-07-22 00:56:34] INFO root fetch - processPackages [actuarialmath]: Downloading https://files.pythonhosted.org/packages/53/a7/36f4047a75aa34b0b1e6a1f3b2d2d42b27aea58160ceaf9cc8bfb746c2b2/actuarialmath-0.0.8.tar.gz
+[2023-07-22 00:56:34] INFO root fetch - processPackages [mypy-gpt]: Downloading https://files.pythonhosted.org/packages/9f/9a/d52ba90d58edd29b97173d200bf2120fd6f18e6ff4da2419da12d4f78f98/mypy-gpt-1.0.4.tar.gz
+[2023-07-22 00:56:34] INFO root fetch - processPackages [ginormal]: Downloading https://files.pythonhosted.org/packages/83/13/2b94f7735253dbf89dab9dbd11c1fe2ec92fd451f0601dd0c35c3a3af7ce/ginormal-0.0.4.tar.gz
+[2023-07-22 00:56:34] INFO root fetch - processPackages [beir]: Downloading https://files.pythonhosted.org/packages/19/50/d5d46023f4dbbc42d1a2a481cc2f12a1ab65acf00bd3b30264bee45817cc/beir-1.0.1.tar.gz
+[2023-07-22 00:56:35] INFO root fetch - processPackages [coffeepy]: Downloading https://files.pythonhosted.org/packages/0c/44/6e6187b6d434e371d9397637035a0be61ac3b7cf7c764c96e56284fbc37a/coffeepy-0.1.7.tar.gz
+[2023-07-22 00:56:35] INFO root fetch - processPackages [predibase-api]: Downloading https://files.pythonhosted.org/packages/9f/ae/51de0857e5ff767d58c2de9ea0e58fb5d4feacdf3cce78bd3cdf5f3c7e79/predibase-api-2023.7.9.tar.gz
+[2023-07-22 00:56:35] INFO root fetch - processPackages [predibase]: Downloading https://files.pythonhosted.org/packages/b4/34/dc7d11aae9589d592e34bbc1016507cc6ec38e8642ff9596e6ac643cbf53/predibase-2023.7.9.tar.gz
+[2023-07-22 00:56:35] INFO root fetch - processPackages [chromahackerweb]: Downloading https://files.pythonhosted.org/packages/c6/b8/28939f79ce8ebfab8c7541a52a66274454fb5ff50824fba6d304fd158527/chromahackerweb-0.1.2.tar.gz
+[2023-07-22 00:56:35] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/02/5a/dc332fba4b2f9beda962be321254cf1d20a93377cc750891d55f43989ee9/moabdb-0.1.9.tar.gz
+[2023-07-22 00:56:35] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/ec/5d/b97bd39cd6d56235b5402ac7f62abf74b9ace7ad07c00d6409b8fb35484d/scrunch-6.5.2004.post1689979930.tar.gz
+[2023-07-22 00:56:35] INFO root fetch - processPackages [mypy-gpt]: Downloading https://files.pythonhosted.org/packages/2d/7e/ae7a9cbe31d25435b70a1259bcfe281546b97c3c3d8af520f8264ce20e2c/mypy-gpt-1.0.5.tar.gz
+[2023-07-22 00:56:35] INFO root fetch - processPackages [ginormal]: Downloading https://files.pythonhosted.org/packages/ad/b2/2128659a2f23f165bb74e393e53980eeba9809a9931fc0381e8b17ab6f4b/ginormal-0.0.5.tar.gz
+[2023-07-22 00:56:35] INFO root fetch - processPackages [actuarialmath]: Downloading https://files.pythonhosted.org/packages/ca/fd/c80557f05d04d7de901ba58e67180085758d1bb5a0201df6f0ba957d8555/actuarialmath-0.0.9.tar.gz
+[2023-07-22 00:56:35] INFO root fetch - processPackages [predibase-api]: executing diffoscope
+[2023-07-22 00:56:35] INFO root fetch - processPackages [predibase-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predibase-api-2023.7.8.tar.gz tmp/predibase-api-2023.7.9.tar.gz --markdown 20230722/p/predibase-api/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-22 00:56:35] INFO root fetch - processPackages [chromahackerweb]: executing diffoscope
+[2023-07-22 00:56:35] INFO root fetch - processPackages [chromahackerweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromahackerweb-0.1.1.tar.gz tmp/chromahackerweb-0.1.2.tar.gz --markdown 20230722/c/chromahackerweb/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-22 00:56:35] INFO root fetch - processPackages [predibase]: executing diffoscope
+[2023-07-22 00:56:35] INFO root fetch - processPackages [predibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predibase-2023.7.8.tar.gz tmp/predibase-2023.7.9.tar.gz --markdown 20230722/p/predibase/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-22 00:56:35] INFO root fetch - processPackages [beir]: Downloading https://files.pythonhosted.org/packages/52/b0/77c3640f506503d51cc10608c05d3101f6edff3db6a27f6c02de35458a90/beir-2.0.0.tar.gz
+[2023-07-22 00:56:35] INFO root fetch - processPackages [moabdb]: executing diffoscope
+[2023-07-22 00:56:35] INFO root fetch - processPackages [moabdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moabdb-0.1.8.tar.gz tmp/moabdb-0.1.9.tar.gz --markdown 20230722/m/moabdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 00:56:35] INFO root fetch - processPackages [coffeepy]: Downloading https://files.pythonhosted.org/packages/c7/a8/c1a54f153371191622860591103697b4e843ddd9337f3d555db902e8819c/coffeepy-0.1.8.tar.gz
+[2023-07-22 00:56:35] INFO root fetch - processPackages [mypy-gpt]: executing diffoscope
+[2023-07-22 00:56:35] INFO root fetch - processPackages [mypy-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-gpt-1.0.4.tar.gz tmp/mypy-gpt-1.0.5.tar.gz --markdown 20230722/m/mypy-gpt/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-22 00:56:35] INFO root fetch - processPackages [ginormal]: executing diffoscope
+[2023-07-22 00:56:35] INFO root fetch - processPackages [ginormal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ginormal-0.0.4.tar.gz tmp/ginormal-0.0.5.tar.gz --markdown 20230722/g/ginormal/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-22 00:56:35] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-22 00:56:35] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2004.post1689977722.tar.gz tmp/scrunch-6.5.2004.post1689979930.tar.gz --markdown 20230722/s/scrunch/6.5.2004.post1689977722-6.5.2004.post1689979930/diff.md --exclude *.pyd
+[2023-07-22 00:56:35] INFO root fetch - processPackages [coffeepy]: executing diffoscope
+[2023-07-22 00:56:35] INFO root fetch - processPackages [coffeepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffeepy-0.1.7.tar.gz tmp/coffeepy-0.1.8.tar.gz --markdown 20230722/c/coffeepy/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-22 00:56:35] INFO root fetch - processPackages [beir]: executing diffoscope
+[2023-07-22 00:56:35] INFO root fetch - processPackages [beir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beir-1.0.1.tar.gz tmp/beir-2.0.0.tar.gz --markdown 20230722/b/beir/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-22 00:56:35] INFO root fetch - processPackages [actuarialmath]: executing diffoscope
+[2023-07-22 00:56:35] INFO root fetch - processPackages [actuarialmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actuarialmath-0.0.8.tar.gz tmp/actuarialmath-0.0.9.tar.gz --markdown 20230722/a/actuarialmath/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 00:56:37] INFO root fetch - processPackages [chromahackerweb]: Remove: archive file [/home/abi/fetcher/tmp/chromahackerweb-0.1.1.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - processPackages [chromahackerweb]: Remove: archive file [/home/abi/fetcher/tmp/chromahackerweb-0.1.2.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - processPackages [chromahackerweb]: Start processing: ginormal
+[2023-07-22 00:56:37] INFO root fetch - main [MainThread]: End processing [chromahackerweb]: success
+[2023-07-22 00:56:37] INFO root fetch - processPackages [predibase-api]: Remove: archive file [/home/abi/fetcher/tmp/predibase-api-2023.7.8.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - processPackages [predibase-api]: Remove: archive file [/home/abi/fetcher/tmp/predibase-api-2023.7.9.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - processPackages [predibase-api]: Start processing: liburlparser
+[2023-07-22 00:56:37] INFO root fetch - main [MainThread]: End processing [predibase-api]: success
+[2023-07-22 00:56:37] INFO root fetch - processPackages [ginormal]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-22 00:56:37] INFO root fetch - processPackages [liburlparser]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-22 00:56:37] INFO root fetch - processPackages [ginormal]: Remove: archive file [/home/abi/fetcher/tmp/ginormal-0.0.4.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - processPackages [ginormal]: Remove: archive file [/home/abi/fetcher/tmp/ginormal-0.0.5.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - main [MainThread]: End processing [ginormal]: success
+[2023-07-22 00:56:37] INFO root fetch - processPackages [mypy-gpt]: Remove: archive file [/home/abi/fetcher/tmp/mypy-gpt-1.0.4.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - processPackages [mypy-gpt]: Remove: archive file [/home/abi/fetcher/tmp/mypy-gpt-1.0.5.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - main [MainThread]: End processing [mypy-gpt]: success
+[2023-07-22 00:56:37] INFO root fetch - processPackages [coffeepy]: Remove: archive file [/home/abi/fetcher/tmp/coffeepy-0.1.7.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - processPackages [coffeepy]: Remove: archive file [/home/abi/fetcher/tmp/coffeepy-0.1.8.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - main [MainThread]: End processing [coffeepy]: success
+[2023-07-22 00:56:37] INFO root fetch - processPackages [liburlparser]: Downloading https://files.pythonhosted.org/packages/dc/82/8202c280bd1387b4971e7c3cc0bbf6cc1c0ac8861ce39e190c6fae5a0b41/liburlparser-1.0.0.tar.gz
+[2023-07-22 00:56:37] INFO root fetch - processPackages [ginormal]: Downloading https://files.pythonhosted.org/packages/ad/b2/2128659a2f23f165bb74e393e53980eeba9809a9931fc0381e8b17ab6f4b/ginormal-0.0.5.tar.gz
+[2023-07-22 00:56:37] INFO root fetch - processPackages [predibase]: Remove: archive file [/home/abi/fetcher/tmp/predibase-2023.7.8.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - processPackages [predibase]: Remove: archive file [/home/abi/fetcher/tmp/predibase-2023.7.9.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - main [MainThread]: End processing [predibase]: success
+[2023-07-22 00:56:37] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.8.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.9.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - main [MainThread]: End processing [moabdb]: success
+[2023-07-22 00:56:37] INFO root fetch - processPackages [ginormal]: executing diffoscope
+[2023-07-22 00:56:37] INFO root fetch - processPackages [ginormal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ginormal-0.0.4.tar.gz tmp/ginormal-0.0.5.tar.gz --markdown 20230722/g/ginormal/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-22 00:56:37] INFO root fetch - processPackages [beir]: Remove: archive file [/home/abi/fetcher/tmp/beir-1.0.1.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - processPackages [beir]: Remove: archive file [/home/abi/fetcher/tmp/beir-2.0.0.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - main [MainThread]: End processing [beir]: success
+[2023-07-22 00:56:37] INFO root fetch - processPackages [liburlparser]: Downloading https://files.pythonhosted.org/packages/99/ea/9f0efddedcd3a86bf404a86580cdecaee796668868ff6d181fd359eb8160/liburlparser-1.0.1.tar.gz
+[2023-07-22 00:56:37] INFO root fetch - processPackages [actuarialmath]: Remove: archive file [/home/abi/fetcher/tmp/actuarialmath-0.0.8.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - processPackages [actuarialmath]: Remove: archive file [/home/abi/fetcher/tmp/actuarialmath-0.0.9.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - main [MainThread]: End processing [actuarialmath]: success
+[2023-07-22 00:56:37] INFO root fetch - processPackages [liburlparser]: executing diffoscope
+[2023-07-22 00:56:37] INFO root fetch - processPackages [liburlparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liburlparser-1.0.0.tar.gz tmp/liburlparser-1.0.1.tar.gz --markdown 20230722/l/liburlparser/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-22 00:56:37] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2004.post1689977722.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2004.post1689979930.tar.gz]
+[2023-07-22 00:56:37] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-22 00:56:37] ERROR root fetch - processPackages [ginormal]: Diffoscope failed: time="2023-07-22T00:56:37+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/ginormal-0.0.4.tar.gz: No such file or directory
+
+[2023-07-22 00:56:37] INFO root fetch - main [MainThread]: End processing [ginormal] error
+[2023-07-22 00:56:38] INFO root fetch - processPackages [liburlparser]: Remove: archive file [/home/abi/fetcher/tmp/liburlparser-1.0.0.tar.gz]
+[2023-07-22 00:56:38] INFO root fetch - processPackages [liburlparser]: Remove: archive file [/home/abi/fetcher/tmp/liburlparser-1.0.1.tar.gz]
+[2023-07-22 00:56:38] INFO root fetch - main [MainThread]: End processing [liburlparser]: success
+[2023-07-22 00:56:38] INFO root fetch - main [MainThread]: Store serial: [18989920]
