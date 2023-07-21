@@ -1961,3 +1961,78 @@
 [2023-07-22 01:23:03] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz]
 [2023-07-22 01:23:03] INFO root fetch - main [MainThread]: End processing [heaserver-folders-aws-s3]: success
 [2023-07-22 01:23:03] INFO root fetch - main [MainThread]: Store serial: [18990148]
+[2023-07-22 01:28:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18990148]
+[2023-07-22 01:28:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-22 01:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarms
+[2023-07-22 01:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: powerbox
+[2023-07-22 01:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gncxml
+[2023-07-22 01:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lithic
+[2023-07-22 01:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: UW-RestClients-AdSel
+[2023-07-22 01:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moabdb
+[2023-07-22 01:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grooveshop-django-api
+[2023-07-22 01:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crypto-screening
+[2023-07-22 01:28:13] INFO root fetch - processPackages [swarms]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-22 01:28:13] INFO root fetch - processPackages [grooveshop-django-api]: New version: [0.8.0] Old Version: [0.6.0]
+[2023-07-22 01:28:13] INFO root fetch - processPackages [lithic]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-22 01:28:13] INFO root fetch - processPackages [gncxml]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-07-22 01:28:13] INFO root fetch - processPackages [UW-RestClients-AdSel]: New version: [1.9.1] Old Version: [1.9]
+[2023-07-22 01:28:13] INFO root fetch - processPackages [powerbox]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-22 01:28:13] INFO root fetch - processPackages [moabdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 01:28:13] INFO root fetch - processPackages [crypto-screening]: New version: [7.5.2] Old Version: [7.5.1]
+[2023-07-22 01:28:13] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/6b/23/798e47defbf6b915c1e6bc4940193801de3b56146eb2c6049bf99c0a7c7f/grooveshop_django_api-0.6.0.tar.gz
+[2023-07-22 01:28:13] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/96/03/58935b420c952db4961424ceeba97283a4c72fb94531da0acb864c0aa9ab/moabdb-0.1.8.tar.gz
+[2023-07-22 01:28:14] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/49/f4/4499e29e09892764fc6e8faf035918d7245330a2325f67ce455666a78647/crypto-screening-7.5.1.tar.gz
+[2023-07-22 01:28:14] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/0b/dc/69276ec932e3b468643a44ad77353e56d9e7c025e669618cd868651fb269/swarms-0.9.1.tar.gz
+[2023-07-22 01:28:14] INFO root fetch - processPackages [UW-RestClients-AdSel]: Downloading https://files.pythonhosted.org/packages/e1/a1/8eab779634d1cf126dbf6689f03730d7ee5c3b6dee2550b6d919205807d5/UW-RestClients-AdSel-1.9.tar.gz
+[2023-07-22 01:28:14] INFO root fetch - processPackages [gncxml]: Downloading https://files.pythonhosted.org/packages/e9/60/5e0009b33343086f1fb496d519521fb1a13753bd9a0f663bb8ac24e7ed18/gncxml-0.6.9.tar.gz
+[2023-07-22 01:28:14] INFO root fetch - processPackages [powerbox]: Downloading https://files.pythonhosted.org/packages/ff/2d/6e227990a1b574ecc047eb4b858140cf628a728794fb27133eec50cb7800/powerbox-0.7.1.tar.gz
+[2023-07-22 01:28:14] INFO root fetch - processPackages [lithic]: Downloading https://files.pythonhosted.org/packages/59/d1/4b77bd3d15afec27243035efe9cb7ec52264a7cdbb21b887c3336449dcc2/lithic-0.8.0.tar.gz
+[2023-07-22 01:28:14] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/02/5a/dc332fba4b2f9beda962be321254cf1d20a93377cc750891d55f43989ee9/moabdb-0.1.9.tar.gz
+[2023-07-22 01:28:14] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/72/9e/044ee82e610de2bbafbedb29a5307a3e37e555fa3938925d16667b4142a7/grooveshop_django_api-0.8.0.tar.gz
+[2023-07-22 01:28:14] INFO root fetch - processPackages [moabdb]: executing diffoscope
+[2023-07-22 01:28:14] INFO root fetch - processPackages [moabdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moabdb-0.1.8.tar.gz tmp/moabdb-0.1.9.tar.gz --markdown 20230722/m/moabdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 01:28:14] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/53/0e/56b3fbb3219bb1cb2acde6aea5e78948929797205ff12c115e46f6e1c187/crypto-screening-7.5.2.tar.gz
+[2023-07-22 01:28:14] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/be/6f/974d3d6c99817c4d1526895eceee236121b10948ac761ffd53543428dd0f/swarms-0.9.2.tar.gz
+[2023-07-22 01:28:14] INFO root fetch - processPackages [UW-RestClients-AdSel]: Downloading https://files.pythonhosted.org/packages/16/d8/aa150e2913238eaf5f9df064523987a41bcbf2b2529fceb1a6d069588d48/UW-RestClients-AdSel-1.9.1.tar.gz
+[2023-07-22 01:28:14] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-22 01:28:14] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.9.1.tar.gz tmp/swarms-0.9.2.tar.gz --markdown 20230722/s/swarms/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-22 01:28:14] INFO root fetch - processPackages [grooveshop-django-api]: executing diffoscope
+[2023-07-22 01:28:14] INFO root fetch - processPackages [grooveshop-django-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grooveshop_django_api-0.6.0.tar.gz tmp/grooveshop_django_api-0.8.0.tar.gz --markdown 20230722/g/grooveshop-django-api/0.6.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-22 01:28:14] INFO root fetch - processPackages [gncxml]: Downloading https://files.pythonhosted.org/packages/42/3a/5ffe8ca88c17e5e1aaa75d0d42a40746665bcf8e3cfd542c76c1d909fd6d/gncxml-0.7.0.tar.gz
+[2023-07-22 01:28:14] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-22 01:28:14] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-7.5.1.tar.gz tmp/crypto-screening-7.5.2.tar.gz --markdown 20230722/c/crypto-screening/7.5.1-7.5.2/diff.md --exclude *.pyd
+[2023-07-22 01:28:14] INFO root fetch - processPackages [lithic]: Downloading https://files.pythonhosted.org/packages/11/8d/f3dce2caf53a5809b580f08cdad352d9a928b2cf614da9fac7cff2249f1c/lithic-0.9.0.tar.gz
+[2023-07-22 01:28:14] INFO root fetch - processPackages [UW-RestClients-AdSel]: executing diffoscope
+[2023-07-22 01:28:14] INFO root fetch - processPackages [UW-RestClients-AdSel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UW-RestClients-AdSel-1.9.tar.gz tmp/UW-RestClients-AdSel-1.9.1.tar.gz --markdown 20230722/U/UW-RestClients-AdSel/1.9-1.9.1/diff.md --exclude *.pyd
+[2023-07-22 01:28:14] INFO root fetch - processPackages [gncxml]: executing diffoscope
+[2023-07-22 01:28:14] INFO root fetch - processPackages [gncxml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gncxml-0.6.9.tar.gz tmp/gncxml-0.7.0.tar.gz --markdown 20230722/g/gncxml/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-07-22 01:28:14] INFO root fetch - processPackages [lithic]: executing diffoscope
+[2023-07-22 01:28:14] INFO root fetch - processPackages [lithic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lithic-0.8.0.tar.gz tmp/lithic-0.9.0.tar.gz --markdown 20230722/l/lithic/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-22 01:28:14] INFO root fetch - processPackages [powerbox]: Downloading https://files.pythonhosted.org/packages/b7/31/00ef885e93102675aeca9e86a15795a941abc0932db61bf42c52a5c6c1c2/powerbox-0.7.2.tar.gz
+[2023-07-22 01:28:15] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.8.tar.gz]
+[2023-07-22 01:28:15] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.9.tar.gz]
+[2023-07-22 01:28:15] INFO root fetch - main [MainThread]: End processing [moabdb]: success
+[2023-07-22 01:28:15] INFO root fetch - processPackages [powerbox]: executing diffoscope
+[2023-07-22 01:28:15] INFO root fetch - processPackages [powerbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerbox-0.7.1.tar.gz tmp/powerbox-0.7.2.tar.gz --markdown 20230722/p/powerbox/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-22 01:28:15] INFO root fetch - processPackages [gncxml]: Remove: archive file [/home/abi/fetcher/tmp/gncxml-0.6.9.tar.gz]
+[2023-07-22 01:28:15] INFO root fetch - processPackages [gncxml]: Remove: archive file [/home/abi/fetcher/tmp/gncxml-0.7.0.tar.gz]
+[2023-07-22 01:28:15] INFO root fetch - main [MainThread]: End processing [gncxml]: success
+[2023-07-22 01:28:16] INFO root fetch - processPackages [UW-RestClients-AdSel]: Remove: archive file [/home/abi/fetcher/tmp/UW-RestClients-AdSel-1.9.tar.gz]
+[2023-07-22 01:28:16] INFO root fetch - processPackages [UW-RestClients-AdSel]: Remove: archive file [/home/abi/fetcher/tmp/UW-RestClients-AdSel-1.9.1.tar.gz]
+[2023-07-22 01:28:16] INFO root fetch - main [MainThread]: End processing [UW-RestClients-AdSel]: success
+[2023-07-22 01:28:16] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.9.1.tar.gz]
+[2023-07-22 01:28:16] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.9.2.tar.gz]
+[2023-07-22 01:28:16] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-22 01:28:16] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.5.1.tar.gz]
+[2023-07-22 01:28:16] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.5.2.tar.gz]
+[2023-07-22 01:28:16] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-22 01:28:16] INFO root fetch - processPackages [lithic]: Remove: archive file [/home/abi/fetcher/tmp/lithic-0.8.0.tar.gz]
+[2023-07-22 01:28:16] INFO root fetch - processPackages [lithic]: Remove: archive file [/home/abi/fetcher/tmp/lithic-0.9.0.tar.gz]
+[2023-07-22 01:28:16] INFO root fetch - main [MainThread]: End processing [lithic]: success
+[2023-07-22 01:28:17] INFO root fetch - processPackages [powerbox]: Remove: archive file [/home/abi/fetcher/tmp/powerbox-0.7.1.tar.gz]
+[2023-07-22 01:28:17] INFO root fetch - processPackages [powerbox]: Remove: archive file [/home/abi/fetcher/tmp/powerbox-0.7.2.tar.gz]
+[2023-07-22 01:28:17] INFO root fetch - main [MainThread]: End processing [powerbox]: success
+[2023-07-22 01:28:19] INFO root fetch - processPackages [grooveshop-django-api]: Remove: archive file [/home/abi/fetcher/tmp/grooveshop_django_api-0.6.0.tar.gz]
+[2023-07-22 01:28:19] INFO root fetch - processPackages [grooveshop-django-api]: Remove: archive file [/home/abi/fetcher/tmp/grooveshop_django_api-0.8.0.tar.gz]
+[2023-07-22 01:28:19] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api]: success
+[2023-07-22 01:28:19] INFO root fetch - main [MainThread]: Store serial: [18990173]
