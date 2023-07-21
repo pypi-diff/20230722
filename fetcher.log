@@ -2186,3 +2186,33 @@
 [2023-07-22 01:44:13] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-07-22 01:44:13] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-22 01:44:13] INFO root fetch - main [MainThread]: Store serial: [18990227]
+[2023-07-22 01:49:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18990227]
+[2023-07-22 01:49:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-22 01:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skyplane-nightly
+[2023-07-22 01:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oloren
+[2023-07-22 01:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agentmemory
+[2023-07-22 01:49:21] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 01:49:21] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230720] Old Version: [0.3.2.dev20230719]
+[2023-07-22 01:49:21] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-22 01:49:21] INFO root fetch - processPackages [agentmemory]: New version: [0.2.7] Old Version: [0.2.3]
+[2023-07-22 01:49:21] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/91/a6/e910b14f0bc481f0bd94bb4f702e26fbf9a4bf35493ebe279796995b69de/skyplane_nightly-0.3.2.dev20230719.tar.gz
+[2023-07-22 01:49:22] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/60/d2/c5649c1f482931f51ac9e798aec00fe445d6b73e02f8865697958b497c8f/agentmemory-0.2.3.tar.gz
+[2023-07-22 01:49:22] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/8a/31/952d8dd20f7efaf463cfa17e85ce4f5f9bbb428260a239eb00bbd27d437f/skyplane_nightly-0.3.2.dev20230720.tar.gz
+[2023-07-22 01:49:22] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-22 01:49:22] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230719.tar.gz tmp/skyplane_nightly-0.3.2.dev20230720.tar.gz --markdown 20230722/s/skyplane-nightly/0.3.2.dev20230719-0.3.2.dev20230720/diff.md --exclude *.pyd
+[2023-07-22 01:49:22] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-22 01:49:22] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/35/87/e8ce36c7ad1417e69e394b0f24133c8934f474950b51cc039cf0193ba4ed/agentmemory-0.2.7.tar.gz
+[2023-07-22 01:49:22] INFO root fetch - processPackages [agentmemory]: executing diffoscope
+[2023-07-22 01:49:22] INFO root fetch - processPackages [agentmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentmemory-0.2.3.tar.gz tmp/agentmemory-0.2.7.tar.gz --markdown 20230722/a/agentmemory/0.2.3-0.2.7/diff.md --exclude *.pyd
+[2023-07-22 01:49:22] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-22 01:49:22] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230722/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 01:49:23] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230719.tar.gz]
+[2023-07-22 01:49:23] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230720.tar.gz]
+[2023-07-22 01:49:23] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-22 01:49:23] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.2.3.tar.gz]
+[2023-07-22 01:49:23] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.2.7.tar.gz]
+[2023-07-22 01:49:23] INFO root fetch - main [MainThread]: End processing [agentmemory]: success
+[2023-07-22 01:49:26] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-22 01:49:26] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-22 01:49:27] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-22 01:49:27] INFO root fetch - main [MainThread]: Store serial: [18990257]
