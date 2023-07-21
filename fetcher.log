@@ -46,3 +46,80 @@
 [2023-07-22 00:03:08] INFO root fetch - processPackages [certbot-dns-multi]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-multi-4.9.1.dev0.tar.gz]
 [2023-07-22 00:03:08] INFO root fetch - main [MainThread]: End processing [certbot-dns-multi]: success
 [2023-07-22 00:03:08] INFO root fetch - main [MainThread]: Store serial: [18989252]
+[2023-07-22 00:08:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18989252]
+[2023-07-22 00:08:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-22 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: peacock-trame
+[2023-07-22 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: squaternion
+[2023-07-22 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chat-magics-langchain
+[2023-07-22 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-spotinst
+[2023-07-22 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chat-magics-datacopilot
+[2023-07-22 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roblox-pyc
+[2023-07-22 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastlane-bot
+[2023-07-22 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adafruit-circuitpython-wiznet5k
+[2023-07-22 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: microSWIFTtelemetry
+[2023-07-22 00:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hyfi
+[2023-07-22 00:08:16] INFO root fetch - processPackages [microSWIFTtelemetry]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-22 00:08:16] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: New version: [4.0.0] Old Version: [3.0.0]
+[2023-07-22 00:08:16] ERROR root fetch - processPackages [chat-magics-langchain]: Unable to get metadata: No such project 'chat-magics-langchain'
+[2023-07-22 00:08:16] INFO root fetch - main [MainThread]: End processing [chat-magics-langchain] error
+[2023-07-22 00:08:16] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2023-07-22 00:08:16] INFO root fetch - processPackages [peacock-trame]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-22 00:08:16] ERROR root fetch - processPackages [chat-magics-datacopilot]: Unable to get metadata: No such project 'chat-magics-datacopilot'
+[2023-07-22 00:08:16] INFO root fetch - main [MainThread]: End processing [chat-magics-datacopilot] error
+[2023-07-22 00:08:16] INFO root fetch - processPackages [squaternion]: New version: [2023.7.21] Old Version: [0.3.4]
+[2023-07-22 00:08:16] INFO root fetch - processPackages [hyfi]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-22 00:08:16] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-22 00:08:16] INFO root fetch - processPackages [fastlane-bot]: New version: [0.9.1] Old Version: [0.8.1]
+[2023-07-22 00:08:17] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2023-07-22 00:08:17] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/fa/07/1798ef60626da5772756f77a180b4a336563075959eb311df2cf4d7fa53d/fastlane_bot-0.8.1.tar.gz
+[2023-07-22 00:08:17] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-22 00:08:17] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/08/23/3883eac6bf2f951c40e32aae5d5630fd17b2fc8c5aeb31203b2c38c3c319/hyfi-1.5.3.tar.gz
+[2023-07-22 00:08:17] INFO root fetch - processPackages [microSWIFTtelemetry]: Downloading https://files.pythonhosted.org/packages/8f/1a/874728de52f5e25f489c0fd78d04271715b15f0ef35d615c0f4c7fab8a56/microSWIFTtelemetry-0.3.1.tar.gz
+[2023-07-22 00:08:17] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Downloading https://files.pythonhosted.org/packages/68/aa/eec707f9296110a63d2cf83ca7c4f9ef88168f0ecba04fb5ff6d98fc6eca/adafruit-circuitpython-wiznet5k-3.0.0.tar.gz
+[2023-07-22 00:08:17] INFO root fetch - processPackages [peacock-trame]: Downloading https://files.pythonhosted.org/packages/a5/79/0c39339cc0c4cf33ba058f55508b590980783f5014ace1a244e0671d9680/peacock-trame-0.1.0.tar.gz
+[2023-07-22 00:08:17] INFO root fetch - processPackages [squaternion]: Downloading https://files.pythonhosted.org/packages/7b/3b/fd04df49978ffe6d98b250af7e3fa5f11078516a22b4258e0bffe49155c2/squaternion-0.3.4.tar.gz
+[2023-07-22 00:08:17] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2023-07-22 00:08:17] WARNING root fetch - processPackages [peacock-trame]: Skipping package: exceeds size limit 11874905>=10485760
+[2023-07-22 00:08:17] INFO root fetch - main [MainThread]: End processing [peacock-trame] error
+[2023-07-22 00:08:17] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-22 00:08:17] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/9d/66/79e822b1bdec857d9f5f826f119690d1215b832e32058c86e65fab6651c5/fastlane_bot-0.9.1.tar.gz
+[2023-07-22 00:08:17] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/04/e7/dba110b3d9c87a86fe726f3ad0ffe2086a0a76f828d601ffa64b97a3b029/hyfi-1.5.4.tar.gz
+[2023-07-22 00:08:17] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2023-07-22 00:08:17] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20230722/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2023-07-22 00:08:17] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Downloading https://files.pythonhosted.org/packages/4c/57/1f9aafb9d955acc175d37b105528ed80025b788eb735de379ec1b1a12421/adafruit-circuitpython-wiznet5k-4.0.0.tar.gz
+[2023-07-22 00:08:17] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-22 00:08:17] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230722/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-22 00:08:17] INFO root fetch - processPackages [microSWIFTtelemetry]: Downloading https://files.pythonhosted.org/packages/9c/96/58a0465c3f26d5b9b46b36968fbaf6f1ac6848500221a353bcf430dc2f61/microSWIFTtelemetry-0.3.2.tar.gz
+[2023-07-22 00:08:17] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-07-22 00:08:17] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-0.8.1.tar.gz tmp/fastlane_bot-0.9.1.tar.gz --markdown 20230722/f/fastlane-bot/0.8.1-0.9.1/diff.md --exclude *.pyd
+[2023-07-22 00:08:17] INFO root fetch - processPackages [squaternion]: Downloading https://files.pythonhosted.org/packages/20/96/ed20a8f39271dbdd2b3acade89b5f3fb76732db41ff20d3423f947b9af14/squaternion-2023.7.21.tar.gz
+[2023-07-22 00:08:17] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-22 00:08:17] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.5.3.tar.gz tmp/hyfi-1.5.4.tar.gz --markdown 20230722/h/hyfi/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-22 00:08:17] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: executing diffoscope
+[2023-07-22 00:08:17] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-wiznet5k-3.0.0.tar.gz tmp/adafruit-circuitpython-wiznet5k-4.0.0.tar.gz --markdown 20230722/a/adafruit-circuitpython-wiznet5k/3.0.0-4.0.0/diff.md --exclude *.pyd
+[2023-07-22 00:08:17] INFO root fetch - processPackages [microSWIFTtelemetry]: executing diffoscope
+[2023-07-22 00:08:17] INFO root fetch - processPackages [microSWIFTtelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microSWIFTtelemetry-0.3.1.tar.gz tmp/microSWIFTtelemetry-0.3.2.tar.gz --markdown 20230722/m/microSWIFTtelemetry/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-22 00:08:17] INFO root fetch - processPackages [squaternion]: executing diffoscope
+[2023-07-22 00:08:17] INFO root fetch - processPackages [squaternion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squaternion-0.3.4.tar.gz tmp/squaternion-2023.7.21.tar.gz --markdown 20230722/s/squaternion/0.3.4-2023.7.21/diff.md --exclude *.pyd
+[2023-07-22 00:08:18] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-22 00:08:18] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-22 00:08:18] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-22 00:08:18] INFO root fetch - processPackages [microSWIFTtelemetry]: Remove: archive file [/home/abi/fetcher/tmp/microSWIFTtelemetry-0.3.1.tar.gz]
+[2023-07-22 00:08:18] INFO root fetch - processPackages [microSWIFTtelemetry]: Remove: archive file [/home/abi/fetcher/tmp/microSWIFTtelemetry-0.3.2.tar.gz]
+[2023-07-22 00:08:18] INFO root fetch - main [MainThread]: End processing [microSWIFTtelemetry]: success
+[2023-07-22 00:08:19] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-wiznet5k-3.0.0.tar.gz]
+[2023-07-22 00:08:19] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-wiznet5k-4.0.0.tar.gz]
+[2023-07-22 00:08:19] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-wiznet5k]: success
+[2023-07-22 00:08:19] INFO root fetch - processPackages [squaternion]: Remove: archive file [/home/abi/fetcher/tmp/squaternion-0.3.4.tar.gz]
+[2023-07-22 00:08:19] INFO root fetch - processPackages [squaternion]: Remove: archive file [/home/abi/fetcher/tmp/squaternion-2023.7.21.tar.gz]
+[2023-07-22 00:08:19] INFO root fetch - main [MainThread]: End processing [squaternion]: success
+[2023-07-22 00:08:19] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2023-07-22 00:08:19] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2023-07-22 00:08:19] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2023-07-22 00:08:19] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.8.1.tar.gz]
+[2023-07-22 00:08:19] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.9.1.tar.gz]
+[2023-07-22 00:08:19] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2023-07-22 00:08:19] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.5.3.tar.gz]
+[2023-07-22 00:08:19] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.5.4.tar.gz]
+[2023-07-22 00:08:19] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-22 00:08:19] INFO root fetch - main [MainThread]: Store serial: [18989293]
