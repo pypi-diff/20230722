@@ -2036,3 +2036,57 @@
 [2023-07-22 01:28:19] INFO root fetch - processPackages [grooveshop-django-api]: Remove: archive file [/home/abi/fetcher/tmp/grooveshop_django_api-0.8.0.tar.gz]
 [2023-07-22 01:28:19] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api]: success
 [2023-07-22 01:28:19] INFO root fetch - main [MainThread]: Store serial: [18990173]
+[2023-07-22 01:33:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18990173]
+[2023-07-22 01:33:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 01:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dasida
+[2023-07-22 01:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crypto-screening
+[2023-07-22 01:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swml-python
+[2023-07-22 01:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinyscript
+[2023-07-22 01:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acryl-datahub
+[2023-07-22 01:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acryl-datahub-airflow-plugin
+[2023-07-22 01:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easystockplot
+[2023-07-22 01:33:41] INFO root fetch - processPackages [crypto-screening]: New version: [7.5.2] Old Version: [7.5.1]
+[2023-07-22 01:33:41] INFO root fetch - processPackages [tinyscript]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-07-22 01:33:41] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-22 01:33:41] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-22 01:33:41] INFO root fetch - processPackages [dasida]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-22 01:33:41] WARNING root fetch - processPackages [swml-python]: Skipping, unable to determine old version
+[2023-07-22 01:33:41] INFO root fetch - main [MainThread]: End processing [swml-python] error
+[2023-07-22 01:33:41] WARNING root fetch - processPackages [easystockplot]: Skipping, unable to determine old version
+[2023-07-22 01:33:41] INFO root fetch - main [MainThread]: End processing [easystockplot] error
+[2023-07-22 01:33:41] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/45/d0/3393f08eca58519f8e94086418ba3efe9502ad4acb3cc377fe73b08f64ab/tinyscript-1.9.4.tar.gz
+[2023-07-22 01:33:41] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/49/f4/4499e29e09892764fc6e8faf035918d7245330a2325f67ce455666a78647/crypto-screening-7.5.1.tar.gz
+[2023-07-22 01:33:41] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-07-22 01:33:41] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-07-22 01:33:41] INFO root fetch - processPackages [dasida]: Downloading https://files.pythonhosted.org/packages/d2/ce/d140c4cc4440b88dcffe23ecab69d0d709d98956901e196f85333e190f45/dasida-2023.7.3.tar.gz
+[2023-07-22 01:33:41] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/a4/92/f1a76d3caa9d4c9a8eea462e7b0ebce18a722fc05ccdba197c2ce598db2b/tinyscript-1.9.5.tar.gz
+[2023-07-22 01:33:41] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/53/0e/56b3fbb3219bb1cb2acde6aea5e78948929797205ff12c115e46f6e1c187/crypto-screening-7.5.2.tar.gz
+[2023-07-22 01:33:41] INFO root fetch - processPackages [tinyscript]: executing diffoscope
+[2023-07-22 01:33:41] INFO root fetch - processPackages [tinyscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyscript-1.9.4.tar.gz tmp/tinyscript-1.9.5.tar.gz --markdown 20230722/t/tinyscript/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-07-22 01:33:41] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-07-22 01:33:41] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-22 01:33:41] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-7.5.1.tar.gz tmp/crypto-screening-7.5.2.tar.gz --markdown 20230722/c/crypto-screening/7.5.1-7.5.2/diff.md --exclude *.pyd
+[2023-07-22 01:33:41] INFO root fetch - processPackages [dasida]: Downloading https://files.pythonhosted.org/packages/6b/2c/a33284a4a180cead6225071714249ac6fcc0dfa7337c4242c02ea3d6ecc9/dasida-2023.7.4.tar.gz
+[2023-07-22 01:33:41] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-07-22 01:33:41] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230722/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-22 01:33:42] INFO root fetch - processPackages [dasida]: executing diffoscope
+[2023-07-22 01:33:42] INFO root fetch - processPackages [dasida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dasida-2023.7.3.tar.gz tmp/dasida-2023.7.4.tar.gz --markdown 20230722/d/dasida/2023.7.3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-22 01:33:42] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-07-22 01:33:42] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-07-22 01:33:42] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230722/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-22 01:33:42] INFO root fetch - processPackages [tinyscript]: Remove: archive file [/home/abi/fetcher/tmp/tinyscript-1.9.4.tar.gz]
+[2023-07-22 01:33:42] INFO root fetch - processPackages [tinyscript]: Remove: archive file [/home/abi/fetcher/tmp/tinyscript-1.9.5.tar.gz]
+[2023-07-22 01:33:42] INFO root fetch - main [MainThread]: End processing [tinyscript]: success
+[2023-07-22 01:33:42] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.5.1.tar.gz]
+[2023-07-22 01:33:42] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.5.2.tar.gz]
+[2023-07-22 01:33:42] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-22 01:33:43] INFO root fetch - processPackages [dasida]: Remove: archive file [/home/abi/fetcher/tmp/dasida-2023.7.3.tar.gz]
+[2023-07-22 01:33:43] INFO root fetch - processPackages [dasida]: Remove: archive file [/home/abi/fetcher/tmp/dasida-2023.7.4.tar.gz]
+[2023-07-22 01:33:43] INFO root fetch - main [MainThread]: End processing [dasida]: success
+[2023-07-22 01:33:43] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-07-22 01:33:43] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-07-22 01:33:43] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-07-22 01:33:46] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-07-22 01:33:46] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-07-22 01:33:46] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-07-22 01:33:46] INFO root fetch - main [MainThread]: Store serial: [18990197]
