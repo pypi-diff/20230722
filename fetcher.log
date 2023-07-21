@@ -1587,3 +1587,90 @@
 [2023-07-22 00:56:38] INFO root fetch - processPackages [liburlparser]: Remove: archive file [/home/abi/fetcher/tmp/liburlparser-1.0.1.tar.gz]
 [2023-07-22 00:56:38] INFO root fetch - main [MainThread]: End processing [liburlparser]: success
 [2023-07-22 00:56:38] INFO root fetch - main [MainThread]: Store serial: [18989920]
+[2023-07-22 01:01:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18989920]
+[2023-07-22 01:01:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-22 01:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hype-html
+[2023-07-22 01:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythogen
+[2023-07-22 01:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mfsr-rcs
+[2023-07-22 01:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dsspy
+[2023-07-22 01:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swarms
+[2023-07-22 01:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adafruit-circuitpython-wiznet5k
+[2023-07-22 01:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fragment-similarity
+[2023-07-22 01:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: semgrep
+[2023-07-22 01:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: context-sdk
+[2023-07-22 01:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rozipinfo
+[2023-07-22 01:01:48] INFO root fetch - processPackages [dsspy]: New version: [2.2.8] Old Version: [2.2.7]
+[2023-07-22 01:01:48] INFO root fetch - processPackages [mfsr-rcs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-22 01:01:48] INFO root fetch - processPackages [pythogen]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-22 01:01:48] INFO root fetch - processPackages [swarms]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-07-22 01:01:48] WARNING root fetch - processPackages [fragment-similarity]: Skipping, unable to determine old version
+[2023-07-22 01:01:48] INFO root fetch - processPackages [context-sdk]: New version: [0.0.1a1] Old Version: [0.0.1]
+[2023-07-22 01:01:48] INFO root fetch - main [MainThread]: End processing [fragment-similarity] error
+[2023-07-22 01:01:48] INFO root fetch - processPackages [hype-html]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-22 01:01:48] INFO root fetch - processPackages [rozipinfo]: New version: [1.0.40] Old Version: [1.0.34]
+[2023-07-22 01:01:48] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-07-22 01:01:48] INFO root fetch - processPackages [semgrep]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-22 01:01:48] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/ee/f4/62cf052bd469fceebade3f6b04b39551fd50543684a1b5d854f7b560ec11/swarms-0.8.7.tar.gz
+[2023-07-22 01:01:48] INFO root fetch - processPackages [semgrep]: Downloading https://files.pythonhosted.org/packages/e8/01/19545ddda759ac5490b06824be79cc94ba77a16ead929171b99d0a246bad/semgrep-1.8.0.tar.gz
+[2023-07-22 01:01:48] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Downloading https://files.pythonhosted.org/packages/b8/7d/5e3a47713ada6c6d7089a986e3af374a8e455399a2adac8a275e2b625218/adafruit-circuitpython-wiznet5k-5.0.0.tar.gz
+[2023-07-22 01:01:48] INFO root fetch - processPackages [rozipinfo]: Downloading https://files.pythonhosted.org/packages/a6/ae/922d52a1edad67dd8c005993964dc5756418295e395d6265fff7d200cf25/rozipinfo-1.0.34.tar.gz
+[2023-07-22 01:01:48] INFO root fetch - processPackages [dsspy]: Downloading https://files.pythonhosted.org/packages/5b/b6/c6e53fa684f26d98b63f8dd48970d1ac6cc811f55c2ea61471a109a6fda7/dsspy-2.2.7.tar.gz
+[2023-07-22 01:01:48] INFO root fetch - processPackages [mfsr-rcs]: Downloading https://files.pythonhosted.org/packages/25/59/3da791cc60837c3a83355b2b0f513602f0467fe455147ddeca06aca66ad2/mfsr_rcs-0.0.1.tar.gz
+[2023-07-22 01:01:48] INFO root fetch - processPackages [context-sdk]: Downloading https://files.pythonhosted.org/packages/43/68/a0c3740a52c3d6edf5d6545062d10b0bd7b4916aad9ade0ccd756145a6c1/context-sdk-0.0.1.tar.gz
+[2023-07-22 01:01:48] INFO root fetch - processPackages [pythogen]: Downloading https://files.pythonhosted.org/packages/16/65/4933516fb8fd9cb9236d839073125ee4bf0a87589cf81f040deb2175417c/pythogen-0.2.5.tar.gz
+[2023-07-22 01:01:48] INFO root fetch - processPackages [hype-html]: Downloading https://files.pythonhosted.org/packages/fc/da/bf60ec03eaa4deadc155564f9a4efdb163ca42c78547678ad5cbc6805a45/hype_html-2.0.1.tar.gz
+[2023-07-22 01:01:48] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/2b/ca/2564a4797702c69bb09e02f08f2e9f2d42b675ec64e366665d401a06c489/swarms-0.8.8.tar.gz
+[2023-07-22 01:01:48] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Downloading https://files.pythonhosted.org/packages/59/77/2e75c2f06d4e6fbac77ff2434a2dc1338ab667813c7311edf8d25accf282/adafruit-circuitpython-wiznet5k-5.0.1.tar.gz
+[2023-07-22 01:01:48] INFO root fetch - processPackages [context-sdk]: Downloading https://files.pythonhosted.org/packages/6f/bc/cd198e41abb2d98281d86328e5663c21cf94bb43a120da12e223da57b92d/context-sdk-0.0.1a1.tar.gz
+[2023-07-22 01:01:48] INFO root fetch - processPackages [dsspy]: Downloading https://files.pythonhosted.org/packages/0f/5d/fa1d671b0f9a96bd5ea18eda1fe3d531eb413386e2dd59b8f43ca70f1d70/dsspy-2.2.8.tar.gz
+[2023-07-22 01:01:48] INFO root fetch - processPackages [rozipinfo]: Downloading https://files.pythonhosted.org/packages/70/84/84a1ec7f817530ef064acd545333eaa1a3f60d4065bd6c70d1ee935efac7/rozipinfo-1.0.40.tar.gz
+[2023-07-22 01:01:48] INFO root fetch - processPackages [hype-html]: Downloading https://files.pythonhosted.org/packages/2e/35/54155871ac6d12954b0441ba1cd1e2a7a8c29dce6f8b8d77058987336f68/hype_html-2.0.2.tar.gz
+[2023-07-22 01:01:48] INFO root fetch - processPackages [mfsr-rcs]: Downloading https://files.pythonhosted.org/packages/bb/03/1d6abb0763626e538d2d47186711eaf0e95adcedb05df80526f0ff3a9202/mfsr_rcs-0.0.2.tar.gz
+[2023-07-22 01:01:48] INFO root fetch - processPackages [semgrep]: Downloading https://files.pythonhosted.org/packages/36/c5/83e730de608ee46ac2e59871a9d5b8ab500f02215a25a3ed6300916d796f/semgrep-1.9.0.tar.gz
+[2023-07-22 01:01:48] INFO root fetch - processPackages [pythogen]: Downloading https://files.pythonhosted.org/packages/40/c2/76fffb1caf5f672646c6196e0051800b0d94bd35c671c4e2df74883f8873/pythogen-0.2.6.tar.gz
+[2023-07-22 01:01:49] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-22 01:01:49] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.8.7.tar.gz tmp/swarms-0.8.8.tar.gz --markdown 20230722/s/swarms/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-07-22 01:01:49] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: executing diffoscope
+[2023-07-22 01:01:49] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-wiznet5k-5.0.0.tar.gz tmp/adafruit-circuitpython-wiznet5k-5.0.1.tar.gz --markdown 20230722/a/adafruit-circuitpython-wiznet5k/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-07-22 01:01:49] INFO root fetch - processPackages [context-sdk]: executing diffoscope
+[2023-07-22 01:01:49] INFO root fetch - processPackages [context-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/context-sdk-0.0.1.tar.gz tmp/context-sdk-0.0.1a1.tar.gz --markdown 20230722/c/context-sdk/0.0.1-0.0.1a1/diff.md --exclude *.pyd
+[2023-07-22 01:01:49] INFO root fetch - processPackages [dsspy]: executing diffoscope
+[2023-07-22 01:01:49] INFO root fetch - processPackages [dsspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsspy-2.2.7.tar.gz tmp/dsspy-2.2.8.tar.gz --markdown 20230722/d/dsspy/2.2.7-2.2.8/diff.md --exclude *.pyd
+[2023-07-22 01:01:49] INFO root fetch - processPackages [rozipinfo]: executing diffoscope
+[2023-07-22 01:01:49] INFO root fetch - processPackages [rozipinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rozipinfo-1.0.34.tar.gz tmp/rozipinfo-1.0.40.tar.gz --markdown 20230722/r/rozipinfo/1.0.34-1.0.40/diff.md --exclude *.pyd
+[2023-07-22 01:01:49] INFO root fetch - processPackages [hype-html]: executing diffoscope
+[2023-07-22 01:01:49] INFO root fetch - processPackages [mfsr-rcs]: executing diffoscope
+[2023-07-22 01:01:49] INFO root fetch - processPackages [hype-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hype_html-2.0.1.tar.gz tmp/hype_html-2.0.2.tar.gz --markdown 20230722/h/hype-html/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-22 01:01:49] INFO root fetch - processPackages [mfsr-rcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfsr_rcs-0.0.1.tar.gz tmp/mfsr_rcs-0.0.2.tar.gz --markdown 20230722/m/mfsr-rcs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-22 01:01:49] INFO root fetch - processPackages [pythogen]: executing diffoscope
+[2023-07-22 01:01:49] INFO root fetch - processPackages [semgrep]: executing diffoscope
+[2023-07-22 01:01:49] INFO root fetch - processPackages [pythogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythogen-0.2.5.tar.gz tmp/pythogen-0.2.6.tar.gz --markdown 20230722/p/pythogen/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-22 01:01:49] INFO root fetch - processPackages [semgrep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semgrep-1.8.0.tar.gz tmp/semgrep-1.9.0.tar.gz --markdown 20230722/s/semgrep/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-22 01:01:50] INFO root fetch - processPackages [mfsr-rcs]: Remove: archive file [/home/abi/fetcher/tmp/mfsr_rcs-0.0.1.tar.gz]
+[2023-07-22 01:01:50] INFO root fetch - processPackages [mfsr-rcs]: Remove: archive file [/home/abi/fetcher/tmp/mfsr_rcs-0.0.2.tar.gz]
+[2023-07-22 01:01:50] INFO root fetch - main [MainThread]: End processing [mfsr-rcs]: success
+[2023-07-22 01:01:50] INFO root fetch - processPackages [rozipinfo]: Remove: archive file [/home/abi/fetcher/tmp/rozipinfo-1.0.34.tar.gz]
+[2023-07-22 01:01:50] INFO root fetch - processPackages [rozipinfo]: Remove: archive file [/home/abi/fetcher/tmp/rozipinfo-1.0.40.tar.gz]
+[2023-07-22 01:01:50] INFO root fetch - main [MainThread]: End processing [rozipinfo]: success
+[2023-07-22 01:01:50] INFO root fetch - processPackages [context-sdk]: Remove: archive file [/home/abi/fetcher/tmp/context-sdk-0.0.1.tar.gz]
+[2023-07-22 01:01:50] INFO root fetch - processPackages [context-sdk]: Remove: archive file [/home/abi/fetcher/tmp/context-sdk-0.0.1a1.tar.gz]
+[2023-07-22 01:01:50] INFO root fetch - main [MainThread]: End processing [context-sdk]: success
+[2023-07-22 01:01:50] INFO root fetch - processPackages [pythogen]: Remove: archive file [/home/abi/fetcher/tmp/pythogen-0.2.5.tar.gz]
+[2023-07-22 01:01:50] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-wiznet5k-5.0.0.tar.gz]
+[2023-07-22 01:01:50] INFO root fetch - processPackages [pythogen]: Remove: archive file [/home/abi/fetcher/tmp/pythogen-0.2.6.tar.gz]
+[2023-07-22 01:01:50] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-wiznet5k-5.0.1.tar.gz]
+[2023-07-22 01:01:50] INFO root fetch - main [MainThread]: End processing [pythogen]: success
+[2023-07-22 01:01:50] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-wiznet5k]: success
+[2023-07-22 01:01:50] INFO root fetch - processPackages [hype-html]: Remove: archive file [/home/abi/fetcher/tmp/hype_html-2.0.1.tar.gz]
+[2023-07-22 01:01:50] INFO root fetch - processPackages [hype-html]: Remove: archive file [/home/abi/fetcher/tmp/hype_html-2.0.2.tar.gz]
+[2023-07-22 01:01:50] INFO root fetch - main [MainThread]: End processing [hype-html]: success
+[2023-07-22 01:01:50] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.8.7.tar.gz]
+[2023-07-22 01:01:50] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.8.8.tar.gz]
+[2023-07-22 01:01:50] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-22 01:01:51] INFO root fetch - processPackages [semgrep]: Remove: archive file [/home/abi/fetcher/tmp/semgrep-1.8.0.tar.gz]
+[2023-07-22 01:01:51] INFO root fetch - processPackages [semgrep]: Remove: archive file [/home/abi/fetcher/tmp/semgrep-1.9.0.tar.gz]
+[2023-07-22 01:01:51] INFO root fetch - main [MainThread]: End processing [semgrep]: success
+[2023-07-22 01:01:51] INFO root fetch - processPackages [dsspy]: Remove: archive file [/home/abi/fetcher/tmp/dsspy-2.2.7.tar.gz]
+[2023-07-22 01:01:51] INFO root fetch - processPackages [dsspy]: Remove: archive file [/home/abi/fetcher/tmp/dsspy-2.2.8.tar.gz]
+[2023-07-22 01:01:51] INFO root fetch - main [MainThread]: End processing [dsspy]: success
+[2023-07-22 01:01:51] INFO root fetch - main [MainThread]: Store serial: [18989975]
