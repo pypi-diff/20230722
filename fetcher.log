@@ -1832,3 +1832,102 @@
 [2023-07-22 01:12:14] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
 [2023-07-22 01:12:14] INFO root fetch - main [MainThread]: End processing [heaserver]: success
 [2023-07-22 01:12:14] INFO root fetch - main [MainThread]: Store serial: [18990036]
+[2023-07-22 01:17:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18990036]
+[2023-07-22 01:17:22] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-22 01:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: caravagene
+[2023-07-22 01:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dunderlab-djangoship
+[2023-07-22 01:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dronecan-gui-tool
+[2023-07-22 01:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Fraunhofer
+[2023-07-22 01:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dj-beatcloud
+[2023-07-22 01:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swarms
+[2023-07-22 01:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: heaserver-activity
+[2023-07-22 01:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ddtrace
+[2023-07-22 01:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lager-cli
+[2023-07-22 01:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crypto-screening
+[2023-07-22 01:17:22] INFO root fetch - processPackages [dj-beatcloud]: New version: [2.6.0b8] Old Version: [2.6.0b7]
+[2023-07-22 01:17:22] INFO root fetch - processPackages [heaserver-activity]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-22 01:17:22] INFO root fetch - processPackages [caravagene]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-22 01:17:22] INFO root fetch - processPackages [Fraunhofer]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-22 01:17:22] INFO root fetch - processPackages [dronecan-gui-tool]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-22 01:17:22] INFO root fetch - processPackages [dunderlab-djangoship]: New version: [0.1a3] Old Version: [0.1a11]
+[2023-07-22 01:17:22] INFO root fetch - processPackages [lager-cli]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-22 01:17:22] INFO root fetch - processPackages [swarms]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-22 01:17:22] INFO root fetch - processPackages [crypto-screening]: New version: [7.5.1] Old Version: [7.5.0]
+[2023-07-22 01:17:23] INFO root fetch - processPackages [ddtrace]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-07-22 01:17:23] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/c8/9a/5ae18a11c0aeeefd44d0e5368e13e0a09b1430e08263b82bfa10b2471c89/dj_beatcloud-2.6.0b7.tar.gz
+[2023-07-22 01:17:23] INFO root fetch - processPackages [Fraunhofer]: Downloading https://files.pythonhosted.org/packages/4f/63/126f2bf37bf4c46d605c7a61e886dd53e958b9c04136d3a699842df6572b/Fraunhofer-1.0.1.tar.gz
+[2023-07-22 01:17:23] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/94/95/c2c9987bfe461fe5d32a042396164f0ea387b2cbef052fbee12824cef7d1/crypto-screening-7.5.0.tar.gz
+[2023-07-22 01:17:23] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/9a/54/a74671555846dc28e2891ed52ec8ee0d0bac05fe662d5475dec2367de989/swarms-0.9.0.tar.gz
+[2023-07-22 01:17:23] INFO root fetch - processPackages [caravagene]: Downloading https://files.pythonhosted.org/packages/cb/10/bb62056f87dea896d02b2338d044791bbbbaba99987a2c033807f5b9c634/caravagene-0.1.7.tar.gz
+[2023-07-22 01:17:23] INFO root fetch - processPackages [heaserver-activity]: Downloading https://files.pythonhosted.org/packages/0d/e5/8db5ca2b11516b893253ec972df4119a1429a6b86f473f732a1eaf31b7f1/heaserver-activity-1.0.0a8.tar.gz
+[2023-07-22 01:17:23] WARNING root fetch - processPackages [Fraunhofer]: Skipping package: exceeds size limit 22018147>=10485760
+[2023-07-22 01:17:23] INFO root fetch - processPackages [Fraunhofer]: Start processing: hassfeld
+[2023-07-22 01:17:23] INFO root fetch - main [MainThread]: End processing [Fraunhofer] error
+[2023-07-22 01:17:23] INFO root fetch - processPackages [dunderlab-djangoship]: Downloading https://files.pythonhosted.org/packages/0a/21/c87f7571e370595433b4b3fbe149a60ab22b33b17c776450ecd4f6b4c5b5/dunderlab-djangoship-0.1a11.tar.gz
+[2023-07-22 01:17:23] INFO root fetch - processPackages [dronecan-gui-tool]: Downloading https://files.pythonhosted.org/packages/39/bd/be845733ee143d721d902392777220c11c4d776f137eaa6bbe9f99f51d1d/dronecan_gui_tool-1.2.7.tar.gz
+[2023-07-22 01:17:23] INFO root fetch - processPackages [hassfeld]: New version: [0.3.9a1] Old Version: [0.3.8a1]
+[2023-07-22 01:17:23] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/3a/2c/cff2a3eaa910dcd80b8323ee78c2bdc36e2d726d38ab467c65a785ce220d/ddtrace-1.9.6.tar.gz
+[2023-07-22 01:17:23] INFO root fetch - processPackages [lager-cli]: executing diffoscope
+[2023-07-22 01:17:23] INFO root fetch - processPackages [lager-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lager-cli-0.1.98.tar.gz tmp/lager-cli-0.1.99.tar.gz --markdown 20230722/l/lager-cli/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-22 01:17:23] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/49/f4/4499e29e09892764fc6e8faf035918d7245330a2325f67ce455666a78647/crypto-screening-7.5.1.tar.gz
+[2023-07-22 01:17:23] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/0b/dc/69276ec932e3b468643a44ad77353e56d9e7c025e669618cd868651fb269/swarms-0.9.1.tar.gz
+[2023-07-22 01:17:23] INFO root fetch - processPackages [hassfeld]: Downloading https://files.pythonhosted.org/packages/66/fd/fbd8e0a077b19f27446b9f404ee0630e10e9622df598b6027f7349fa4625/hassfeld-0.3.8a1.tar.gz
+[2023-07-22 01:17:23] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/4c/ae/471927809979e349758d33da70caa44472e07ecbe379983aec2d9ef1b2da/dj_beatcloud-2.6.0b8.tar.gz
+[2023-07-22 01:17:23] INFO root fetch - processPackages [caravagene]: Downloading https://files.pythonhosted.org/packages/69/af/169ac845c0f129ae8159aa681c9e37d85fb53337f552b3b02bdbae2ddacf/caravagene-0.1.8.tar.gz
+[2023-07-22 01:17:23] INFO root fetch - processPackages [dunderlab-djangoship]: Downloading https://files.pythonhosted.org/packages/3d/ae/f5fc2323b030f0c280e9ebad27ad3e7b3a1e201658b162a169a9fd95bea7/dunderlab-djangoship-0.1a3.tar.gz
+[2023-07-22 01:17:23] INFO root fetch - processPackages [heaserver-activity]: Downloading https://files.pythonhosted.org/packages/4c/3a/67c0a4c8f841993e61fe8e3a7a178d26fdf6092e5996647479b2a8459ae0/heaserver-activity-1.0.0a9.tar.gz
+[2023-07-22 01:17:23] INFO root fetch - processPackages [dronecan-gui-tool]: Downloading https://files.pythonhosted.org/packages/76/95/575838ff4802232d228ab222765c6d97e957610b9b451616d619d2b461d3/dronecan_gui_tool-1.2.8.tar.gz
+[2023-07-22 01:17:23] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-22 01:17:23] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-7.5.0.tar.gz tmp/crypto-screening-7.5.1.tar.gz --markdown 20230722/c/crypto-screening/7.5.0-7.5.1/diff.md --exclude *.pyd
+[2023-07-22 01:17:23] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-22 01:17:23] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.9.0.tar.gz tmp/swarms-0.9.1.tar.gz --markdown 20230722/s/swarms/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-22 01:17:23] INFO root fetch - processPackages [heaserver-activity]: executing diffoscope
+[2023-07-22 01:17:23] INFO root fetch - processPackages [heaserver-activity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-activity-1.0.0a8.tar.gz tmp/heaserver-activity-1.0.0a9.tar.gz --markdown 20230722/h/heaserver-activity/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-22 01:17:23] INFO root fetch - processPackages [dj-beatcloud]: executing diffoscope
+[2023-07-22 01:17:23] INFO root fetch - processPackages [dj-beatcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_beatcloud-2.6.0b7.tar.gz tmp/dj_beatcloud-2.6.0b8.tar.gz --markdown 20230722/d/dj-beatcloud/2.6.0b7-2.6.0b8/diff.md --exclude *.pyd
+[2023-07-22 01:17:23] INFO root fetch - processPackages [caravagene]: executing diffoscope
+[2023-07-22 01:17:23] INFO root fetch - processPackages [caravagene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caravagene-0.1.7.tar.gz tmp/caravagene-0.1.8.tar.gz --markdown 20230722/c/caravagene/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-22 01:17:23] INFO root fetch - processPackages [dunderlab-djangoship]: executing diffoscope
+[2023-07-22 01:17:23] INFO root fetch - processPackages [dunderlab-djangoship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dunderlab-djangoship-0.1a11.tar.gz tmp/dunderlab-djangoship-0.1a3.tar.gz --markdown 20230722/d/dunderlab-djangoship/0.1a11-0.1a3/diff.md --exclude *.pyd
+[2023-07-22 01:17:23] INFO root fetch - processPackages [dronecan-gui-tool]: executing diffoscope
+[2023-07-22 01:17:23] INFO root fetch - processPackages [dronecan-gui-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronecan_gui_tool-1.2.7.tar.gz tmp/dronecan_gui_tool-1.2.8.tar.gz --markdown 20230722/d/dronecan-gui-tool/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-22 01:17:24] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/fb/91/45e4e65746e25b4af3841c377fa6cbd72ab8b8bf10e2067f0d010acf9f12/ddtrace-1.9.7.tar.gz
+[2023-07-22 01:17:24] INFO root fetch - processPackages [ddtrace]: executing diffoscope
+[2023-07-22 01:17:24] INFO root fetch - processPackages [ddtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddtrace-1.9.6.tar.gz tmp/ddtrace-1.9.7.tar.gz --markdown 20230722/d/ddtrace/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-07-22 01:17:24] INFO root fetch - processPackages [lager-cli]: Remove: archive file [/home/abi/fetcher/tmp/lager-cli-0.1.98.tar.gz]
+[2023-07-22 01:17:24] INFO root fetch - processPackages [lager-cli]: Remove: archive file [/home/abi/fetcher/tmp/lager-cli-0.1.99.tar.gz]
+[2023-07-22 01:17:24] INFO root fetch - processPackages [lager-cli]: Start processing: swml-python
+[2023-07-22 01:17:24] INFO root fetch - main [MainThread]: End processing [lager-cli]: success
+[2023-07-22 01:17:24] INFO root fetch - processPackages [hassfeld]: Downloading https://files.pythonhosted.org/packages/f1/0a/45cd6e93141b1803bbf3553160db58082b92c9732f824e8f4dedaf59654c/hassfeld-0.3.9a1.tar.gz
+[2023-07-22 01:17:24] WARNING root fetch - processPackages [swml-python]: Skipping, unable to determine old version
+[2023-07-22 01:17:24] INFO root fetch - main [MainThread]: End processing [swml-python] error
+[2023-07-22 01:17:24] INFO root fetch - processPackages [hassfeld]: executing diffoscope
+[2023-07-22 01:17:24] INFO root fetch - processPackages [hassfeld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hassfeld-0.3.8a1.tar.gz tmp/hassfeld-0.3.9a1.tar.gz --markdown 20230722/h/hassfeld/0.3.8a1-0.3.9a1/diff.md --exclude *.pyd
+[2023-07-22 01:17:25] INFO root fetch - processPackages [dunderlab-djangoship]: Remove: archive file [/home/abi/fetcher/tmp/dunderlab-djangoship-0.1a11.tar.gz]
+[2023-07-22 01:17:25] INFO root fetch - processPackages [dunderlab-djangoship]: Remove: archive file [/home/abi/fetcher/tmp/dunderlab-djangoship-0.1a3.tar.gz]
+[2023-07-22 01:17:25] INFO root fetch - main [MainThread]: End processing [dunderlab-djangoship]: success
+[2023-07-22 01:17:25] INFO root fetch - processPackages [heaserver-activity]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-activity-1.0.0a8.tar.gz]
+[2023-07-22 01:17:25] INFO root fetch - processPackages [heaserver-activity]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-activity-1.0.0a9.tar.gz]
+[2023-07-22 01:17:25] INFO root fetch - main [MainThread]: End processing [heaserver-activity]: success
+[2023-07-22 01:17:25] INFO root fetch - processPackages [caravagene]: Remove: archive file [/home/abi/fetcher/tmp/caravagene-0.1.7.tar.gz]
+[2023-07-22 01:17:25] INFO root fetch - processPackages [caravagene]: Remove: archive file [/home/abi/fetcher/tmp/caravagene-0.1.8.tar.gz]
+[2023-07-22 01:17:25] INFO root fetch - main [MainThread]: End processing [caravagene]: success
+[2023-07-22 01:17:25] INFO root fetch - processPackages [dj-beatcloud]: Remove: archive file [/home/abi/fetcher/tmp/dj_beatcloud-2.6.0b7.tar.gz]
+[2023-07-22 01:17:25] INFO root fetch - processPackages [dj-beatcloud]: Remove: archive file [/home/abi/fetcher/tmp/dj_beatcloud-2.6.0b8.tar.gz]
+[2023-07-22 01:17:25] INFO root fetch - main [MainThread]: End processing [dj-beatcloud]: success
+[2023-07-22 01:17:25] INFO root fetch - processPackages [dronecan-gui-tool]: Remove: archive file [/home/abi/fetcher/tmp/dronecan_gui_tool-1.2.7.tar.gz]
+[2023-07-22 01:17:25] INFO root fetch - processPackages [dronecan-gui-tool]: Remove: archive file [/home/abi/fetcher/tmp/dronecan_gui_tool-1.2.8.tar.gz]
+[2023-07-22 01:17:25] INFO root fetch - main [MainThread]: End processing [dronecan-gui-tool]: success
+[2023-07-22 01:17:25] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.5.0.tar.gz]
+[2023-07-22 01:17:25] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.5.1.tar.gz]
+[2023-07-22 01:17:25] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-22 01:17:25] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.9.0.tar.gz]
+[2023-07-22 01:17:25] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.9.1.tar.gz]
+[2023-07-22 01:17:25] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-22 01:17:26] INFO root fetch - processPackages [hassfeld]: Remove: archive file [/home/abi/fetcher/tmp/hassfeld-0.3.8a1.tar.gz]
+[2023-07-22 01:17:26] INFO root fetch - processPackages [hassfeld]: Remove: archive file [/home/abi/fetcher/tmp/hassfeld-0.3.9a1.tar.gz]
+[2023-07-22 01:17:26] INFO root fetch - main [MainThread]: End processing [hassfeld]: success
+[2023-07-22 01:17:52] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-1.9.6.tar.gz]
+[2023-07-22 01:17:52] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-1.9.7.tar.gz]
+[2023-07-22 01:17:52] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
+[2023-07-22 01:17:52] INFO root fetch - main [MainThread]: Store serial: [18990106]
