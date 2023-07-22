@@ -10988,3 +10988,54 @@
 [2023-07-22 10:05:50] INFO root fetch - processPackages [scape-sc]: Remove: archive file [/home/abi/fetcher/tmp/scape-sc-0.5.2.tar.gz]
 [2023-07-22 10:05:50] INFO root fetch - main [MainThread]: End processing [scape-sc]: success
 [2023-07-22 10:05:50] INFO root fetch - main [MainThread]: Store serial: [18993577]
+[2023-07-22 10:10:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993577]
+[2023-07-22 10:10:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 10:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyglove
+[2023-07-22 10:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kyupy
+[2023-07-22 10:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finterstellar
+[2023-07-22 10:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mg-fastpurge
+[2023-07-22 10:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pollination-annual-daylight-enhanced
+[2023-07-22 10:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leaf-focus
+[2023-07-22 10:10:58] WARNING root fetch - processPackages [mg-fastpurge]: Skipping, unable to determine old version
+[2023-07-22 10:10:58] INFO root fetch - main [MainThread]: End processing [mg-fastpurge] error
+[2023-07-22 10:10:58] INFO root fetch - processPackages [pyglove]: New version: [0.4.1.dev20230721] Old Version: [0.4.1.dev20230720]
+[2023-07-22 10:10:58] INFO root fetch - processPackages [leaf-focus]: New version: [0.6.2] Old Version: [0.6.0]
+[2023-07-22 10:10:58] INFO root fetch - processPackages [pollination-annual-daylight-enhanced]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-22 10:10:58] INFO root fetch - processPackages [kyupy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 10:10:58] INFO root fetch - processPackages [finterstellar]: New version: [0.2.17] Old Version: [0.2.16]
+[2023-07-22 10:10:58] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/bb/21/594ecc59aeb890d31a476051eccbe37b4b6f1b946707e28c28ce38852f53/pyglove-0.4.1.dev20230720.tar.gz
+[2023-07-22 10:10:58] INFO root fetch - processPackages [pollination-annual-daylight-enhanced]: Downloading https://files.pythonhosted.org/packages/c2/50/31db0782c6a8f82482c8656b8e1c5b47358dee1e933e2ba097e3b55dbe93/pollination-annual-daylight-enhanced-0.0.2.tar.gz
+[2023-07-22 10:10:58] INFO root fetch - processPackages [leaf-focus]: Downloading https://files.pythonhosted.org/packages/43/10/656714a6ccd8fc55707a0c10d1b1507f376412f6ac0b1fc7268adf7d4876/leaf-focus-0.6.0.tar.gz
+[2023-07-22 10:10:59] INFO root fetch - processPackages [kyupy]: Downloading https://files.pythonhosted.org/packages/48/99/8ae52a3c428905f1285a4e719ce10d98f0fdacc442193e76446a71279074/kyupy-0.0.3-py3-none-any.whl
+[2023-07-22 10:10:59] INFO root fetch - processPackages [finterstellar]: Downloading https://files.pythonhosted.org/packages/61/61/3631b7987ffa97d8738af5399a4c4d3289e7f4a6e8638e1850333269ea33/finterstellar-0.2.16-py3-none-any.whl
+[2023-07-22 10:10:59] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/a8/11/5a35f40c9d75bc9ec53cd57c13113fb6630f3e35df5a166e4922bf1ab54c/pyglove-0.4.1.dev20230721.tar.gz
+[2023-07-22 10:10:59] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-22 10:10:59] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.1.dev20230720.tar.gz tmp/pyglove-0.4.1.dev20230721.tar.gz --markdown 20230722/p/pyglove/0.4.1.dev20230720-0.4.1.dev20230721/diff.md --exclude *.pyd
+[2023-07-22 10:10:59] INFO root fetch - processPackages [leaf-focus]: Downloading https://files.pythonhosted.org/packages/ee/dd/ace4b960dd401e6109bfed1c4ca4a981c48c5f5fc4b61af7c9fbfd36c32c/leaf-focus-0.6.2.tar.gz
+[2023-07-22 10:10:59] INFO root fetch - processPackages [pollination-annual-daylight-enhanced]: Downloading https://files.pythonhosted.org/packages/4b/7a/48117b37c438d221cd1951869741b3491a65bce934bcc3ff8444758db4f1/pollination-annual-daylight-enhanced-0.0.3.tar.gz
+[2023-07-22 10:10:59] INFO root fetch - processPackages [kyupy]: Downloading https://files.pythonhosted.org/packages/d0/1a/06521e8b8d832f19bdbab96daa487e8e0c8db984b59ee9de5b14aadce549/kyupy-0.0.4-py3-none-any.whl
+[2023-07-22 10:10:59] INFO root fetch - processPackages [pollination-annual-daylight-enhanced]: executing diffoscope
+[2023-07-22 10:10:59] INFO root fetch - processPackages [pollination-annual-daylight-enhanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-annual-daylight-enhanced-0.0.2.tar.gz tmp/pollination-annual-daylight-enhanced-0.0.3.tar.gz --markdown 20230722/p/pollination-annual-daylight-enhanced/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-22 10:10:59] INFO root fetch - processPackages [finterstellar]: Downloading https://files.pythonhosted.org/packages/d3/52/491b578007204709551958c145b1d8663deb9392a890ff864c4591804fe2/finterstellar-0.2.17.tar.gz
+[2023-07-22 10:10:59] INFO root fetch - processPackages [leaf-focus]: executing diffoscope
+[2023-07-22 10:10:59] INFO root fetch - processPackages [leaf-focus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leaf-focus-0.6.0.tar.gz tmp/leaf-focus-0.6.2.tar.gz --markdown 20230722/l/leaf-focus/0.6.0-0.6.2/diff.md --exclude *.pyd
+[2023-07-22 10:10:59] INFO root fetch - processPackages [kyupy]: executing diffoscope
+[2023-07-22 10:10:59] INFO root fetch - processPackages [kyupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kyupy-0.0.3-py3-none-any.whl.zip tmp/kyupy-0.0.4-py3-none-any.whl.zip --markdown 20230722/k/kyupy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 10:10:59] INFO root fetch - processPackages [finterstellar]: executing diffoscope
+[2023-07-22 10:10:59] INFO root fetch - processPackages [finterstellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finterstellar-0.2.16-py3-none-any.whl.zip tmp/finterstellar-0.2.17.tar.gz --markdown 20230722/f/finterstellar/0.2.16-0.2.17/diff.md --exclude *.pyd
+[2023-07-22 10:11:00] INFO root fetch - processPackages [finterstellar]: Remove: archive file [/home/abi/fetcher/tmp/finterstellar-0.2.16-py3-none-any.whl.zip]
+[2023-07-22 10:11:00] INFO root fetch - processPackages [finterstellar]: Remove: archive file [/home/abi/fetcher/tmp/finterstellar-0.2.17.tar.gz]
+[2023-07-22 10:11:00] INFO root fetch - main [MainThread]: End processing [finterstellar]: success
+[2023-07-22 10:11:00] INFO root fetch - processPackages [pollination-annual-daylight-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight-enhanced-0.0.2.tar.gz]
+[2023-07-22 10:11:00] INFO root fetch - processPackages [pollination-annual-daylight-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight-enhanced-0.0.3.tar.gz]
+[2023-07-22 10:11:00] INFO root fetch - main [MainThread]: End processing [pollination-annual-daylight-enhanced]: success
+[2023-07-22 10:11:00] INFO root fetch - processPackages [leaf-focus]: Remove: archive file [/home/abi/fetcher/tmp/leaf-focus-0.6.0.tar.gz]
+[2023-07-22 10:11:00] INFO root fetch - processPackages [leaf-focus]: Remove: archive file [/home/abi/fetcher/tmp/leaf-focus-0.6.2.tar.gz]
+[2023-07-22 10:11:00] INFO root fetch - main [MainThread]: End processing [leaf-focus]: success
+[2023-07-22 10:11:00] INFO root fetch - processPackages [kyupy]: Remove: archive file [/home/abi/fetcher/tmp/kyupy-0.0.3-py3-none-any.whl.zip]
+[2023-07-22 10:11:00] INFO root fetch - processPackages [kyupy]: Remove: archive file [/home/abi/fetcher/tmp/kyupy-0.0.4-py3-none-any.whl.zip]
+[2023-07-22 10:11:00] INFO root fetch - main [MainThread]: End processing [kyupy]: success
+[2023-07-22 10:11:00] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230720.tar.gz]
+[2023-07-22 10:11:00] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230721.tar.gz]
+[2023-07-22 10:11:00] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-22 10:11:00] INFO root fetch - main [MainThread]: Store serial: [18993596]
