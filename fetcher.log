@@ -13596,3 +13596,36 @@
 [2023-07-22 14:07:21] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.9.0.tar.gz]
 [2023-07-22 14:07:21] INFO root fetch - main [MainThread]: End processing [aider-chat]: success
 [2023-07-22 14:07:21] INFO root fetch - main [MainThread]: Store serial: [18994719]
+[2023-07-22 14:12:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994719]
+[2023-07-22 14:12:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-22 14:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythorhead
+[2023-07-22 14:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FlyDB
+[2023-07-22 14:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: huhk
+[2023-07-22 14:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyperfast-python-template
+[2023-07-22 14:12:29] WARNING root fetch - processPackages [FlyDB]: Skipping, unable to determine old version
+[2023-07-22 14:12:29] INFO root fetch - main [MainThread]: End processing [FlyDB] error
+[2023-07-22 14:12:29] INFO root fetch - processPackages [pythorhead]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-22 14:12:29] INFO root fetch - processPackages [huhk]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-07-22 14:12:29] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/b4/78/994083643dead69cecbeb3b922620d52fd6c59623acabc4587abe2673fea/huhk-1.7.1.tar.gz
+[2023-07-22 14:12:29] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/49/15/aea378d4d4e85b3e6c2c1042b5c1f51f9328340bbc85c946e808e6c5fd1b/pythorhead-0.9.2.tar.gz
+[2023-07-22 14:12:29] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-07-22 14:12:30] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/c1/fa/85c3735e3c50c153ffc2c378a1fddb2f33d95bc334d4a415d7db6589fd8a/pythorhead-0.9.3.tar.gz
+[2023-07-22 14:12:30] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/28/e8/e6a62afa9cc555c7d38da86860ccf46d2edc0cf0ed4083d8d87029d6badc/huhk-1.7.2.tar.gz
+[2023-07-22 14:12:30] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/9c/48/0d0c1025eb41b50b1b298093dfb1cb49585ee42bf6a4229376a5d68006b1/hyperfast_python_template-0.8.8.tar.gz
+[2023-07-22 14:12:30] INFO root fetch - processPackages [pythorhead]: executing diffoscope
+[2023-07-22 14:12:30] INFO root fetch - processPackages [pythorhead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythorhead-0.9.2.tar.gz tmp/pythorhead-0.9.3.tar.gz --markdown 20230722/p/pythorhead/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-22 14:12:30] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-22 14:12:30] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.7.1.tar.gz tmp/huhk-1.7.2.tar.gz --markdown 20230722/h/huhk/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-07-22 14:12:30] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/f6/7b/80706f67cf2427dcc174b38d9ba9f40f1eca676d6c6eda0de7281b15e443/hyperfast_python_template-0.9.0.tar.gz
+[2023-07-22 14:12:30] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-07-22 14:12:30] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.8.8.tar.gz tmp/hyperfast_python_template-0.9.0.tar.gz --markdown 20230722/h/hyperfast-python-template/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-07-22 14:12:31] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.9.2.tar.gz]
+[2023-07-22 14:12:31] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.9.3.tar.gz]
+[2023-07-22 14:12:31] INFO root fetch - main [MainThread]: End processing [pythorhead]: success
+[2023-07-22 14:12:31] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.7.1.tar.gz]
+[2023-07-22 14:12:31] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.7.2.tar.gz]
+[2023-07-22 14:12:31] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-07-22 14:12:31] INFO root fetch - processPackages [hyperfast-python-template]: Remove: archive file [/home/abi/fetcher/tmp/hyperfast_python_template-0.8.8.tar.gz]
+[2023-07-22 14:12:31] INFO root fetch - processPackages [hyperfast-python-template]: Remove: archive file [/home/abi/fetcher/tmp/hyperfast_python_template-0.9.0.tar.gz]
+[2023-07-22 14:12:31] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-07-22 14:12:31] INFO root fetch - main [MainThread]: Store serial: [18994730]
