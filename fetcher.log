@@ -10456,3 +10456,27 @@
 [2023-07-22 09:13:13] INFO root fetch - processPackages [m-run-script]: Remove: archive file [/home/abi/fetcher/tmp/m-run-script-1.0.2.tar.gz]
 [2023-07-22 09:13:13] INFO root fetch - main [MainThread]: End processing [m-run-script]: success
 [2023-07-22 09:13:13] INFO root fetch - main [MainThread]: Store serial: [18993340]
+[2023-07-22 09:18:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993340]
+[2023-07-22 09:18:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-22 09:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stonefish
+[2023-07-22 09:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-aesthetics-predictor
+[2023-07-22 09:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: orthopy
+[2023-07-22 09:18:22] WARNING root fetch - processPackages [simple-aesthetics-predictor]: Skipping, unable to determine old version
+[2023-07-22 09:18:22] INFO root fetch - main [MainThread]: End processing [simple-aesthetics-predictor] error
+[2023-07-22 09:18:22] INFO root fetch - processPackages [stonefish]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 09:18:22] INFO root fetch - processPackages [orthopy]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-22 09:18:23] INFO root fetch - processPackages [stonefish]: Downloading https://files.pythonhosted.org/packages/a8/6c/c6ef70461a3438ac080f95dc6f92a6d936f5fd2bf489273959e7f2274c23/stonefish-0.3.8-py3-none-any.whl
+[2023-07-22 09:18:23] INFO root fetch - processPackages [orthopy]: Downloading https://files.pythonhosted.org/packages/ba/a3/9956824c77e0c5428c3f3c10d6dad3732114bea80ff0033b5d18c26e0b38/orthopy-0.9.7-py3-none-any.whl
+[2023-07-22 09:18:23] INFO root fetch - processPackages [orthopy]: Downloading https://files.pythonhosted.org/packages/94/3c/980a0251fe273e9bfb4359de02a7a6652dd4df36698730b8649634a470dc/orthopy-0.9.8-py3-none-any.whl
+[2023-07-22 09:18:23] INFO root fetch - processPackages [orthopy]: executing diffoscope
+[2023-07-22 09:18:23] INFO root fetch - processPackages [orthopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orthopy-0.9.7-py3-none-any.whl.zip tmp/orthopy-0.9.8-py3-none-any.whl.zip --markdown 20230722/o/orthopy/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-22 09:18:23] INFO root fetch - processPackages [stonefish]: Downloading https://files.pythonhosted.org/packages/d1/a1/3faea75bc2e483e14078f7017fb42c494d76fc44900b71482d95eec9140a/stonefish-0.3.9-py3-none-any.whl
+[2023-07-22 09:18:23] INFO root fetch - processPackages [stonefish]: executing diffoscope
+[2023-07-22 09:18:23] INFO root fetch - processPackages [stonefish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stonefish-0.3.8-py3-none-any.whl.zip tmp/stonefish-0.3.9-py3-none-any.whl.zip --markdown 20230722/s/stonefish/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 09:18:24] INFO root fetch - processPackages [orthopy]: Remove: archive file [/home/abi/fetcher/tmp/orthopy-0.9.7-py3-none-any.whl.zip]
+[2023-07-22 09:18:24] INFO root fetch - processPackages [orthopy]: Remove: archive file [/home/abi/fetcher/tmp/orthopy-0.9.8-py3-none-any.whl.zip]
+[2023-07-22 09:18:24] INFO root fetch - main [MainThread]: End processing [orthopy]: success
+[2023-07-22 09:18:24] INFO root fetch - processPackages [stonefish]: Remove: archive file [/home/abi/fetcher/tmp/stonefish-0.3.8-py3-none-any.whl.zip]
+[2023-07-22 09:18:24] INFO root fetch - processPackages [stonefish]: Remove: archive file [/home/abi/fetcher/tmp/stonefish-0.3.9-py3-none-any.whl.zip]
+[2023-07-22 09:18:24] INFO root fetch - main [MainThread]: End processing [stonefish]: success
+[2023-07-22 09:18:24] INFO root fetch - main [MainThread]: Store serial: [18993349]
