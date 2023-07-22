@@ -10894,3 +10894,46 @@
 [2023-07-22 09:55:29] INFO root fetch - processPackages [auto-everything]: Remove: archive file [/home/abi/fetcher/tmp/auto_everything-3.9.tar.gz]
 [2023-07-22 09:55:29] INFO root fetch - main [MainThread]: End processing [auto-everything]: success
 [2023-07-22 09:55:29] INFO root fetch - main [MainThread]: Store serial: [18993543]
+[2023-07-22 10:00:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993543]
+[2023-07-22 10:00:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 10:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opencv-python-rolling
+[2023-07-22 10:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: losscape
+[2023-07-22 10:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: namespace-mahdimir
+[2023-07-22 10:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: benimang
+[2023-07-22 10:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unitlab
+[2023-07-22 10:00:38] INFO root fetch - processPackages [losscape]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-22 10:00:38] INFO root fetch - processPackages [benimang]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-22 10:00:38] INFO root fetch - processPackages [unitlab]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-22 10:00:38] INFO root fetch - processPackages [namespace-mahdimir]: New version: [3.2.3] Old Version: [3.2.0]
+[2023-07-22 10:00:38] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/f4/b0/60c757916ab495312d0dc12866e0ac05d36599b5b4596e8f3575ac0a530e/losscape-1.4.2.tar.gz
+[2023-07-22 10:00:38] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/e9/d6/d8e317f6e18ec1c63f438c2c8018f7b126be9a5afa3e7436779d72c75e1c/benimang-0.4.3.tar.gz
+[2023-07-22 10:00:38] INFO root fetch - processPackages [opencv-python-rolling]: New version: [5.0.0.20221015] Old Version: [5.0.0.20221008]
+[2023-07-22 10:00:38] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/c4/5a/9f9357c50a4afaa4acd202005fd060eab305656a2f5461232e8c6f168d36/unitlab-1.9.2.tar.gz
+[2023-07-22 10:00:38] INFO root fetch - processPackages [opencv-python-rolling]: Downloading https://files.pythonhosted.org/packages/32/6b/7a25c64d9114c7637e2850826c668c26d8ede5a8c04b15aa282508321da4/opencv_python_rolling-5.0.0.20221008-cp37-abi3-macosx_11_0_arm64.whl
+[2023-07-22 10:00:38] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/e9/b4/c0383b3cd2dcad9100c9cfccc158c504c6a26972fa3f03974822b027dbc2/losscape-1.4.3.tar.gz
+[2023-07-22 10:00:38] WARNING root fetch - processPackages [opencv-python-rolling]: Skipping package: exceeds size limit 32729233>=10485760
+[2023-07-22 10:00:38] INFO root fetch - main [MainThread]: End processing [opencv-python-rolling] error
+[2023-07-22 10:00:38] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/cf/63/dfd5b6e5a1784ddf0f17122d1e5e9c32426e4e1b130d91f8e30cc8e41696/namespace_mahdimir-3.2.3.tar.gz
+[2023-07-22 10:00:38] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/29/a0/c8c0aba0ed42a541af93320d408b40e55103fd8d9ee94d59d480ccbab8d9/benimang-0.4.4.tar.gz
+[2023-07-22 10:00:38] INFO root fetch - processPackages [losscape]: executing diffoscope
+[2023-07-22 10:00:38] INFO root fetch - processPackages [losscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/losscape-1.4.2.tar.gz tmp/losscape-1.4.3.tar.gz --markdown 20230722/l/losscape/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-22 10:00:38] INFO root fetch - processPackages [namespace-mahdimir]: executing diffoscope
+[2023-07-22 10:00:38] INFO root fetch - processPackages [namespace-mahdimir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namespace_mahdimir-3.2.0.tar.gz tmp/namespace_mahdimir-3.2.3.tar.gz --markdown 20230722/n/namespace-mahdimir/3.2.0-3.2.3/diff.md --exclude *.pyd
+[2023-07-22 10:00:38] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/bc/30/20a9f93284f600cbb0604a76ee4f420ff58f1e84733aee26346d21eb9a17/unitlab-1.9.3.tar.gz
+[2023-07-22 10:00:38] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-07-22 10:00:38] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.4.3.tar.gz tmp/benimang-0.4.4.tar.gz --markdown 20230722/b/benimang/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-22 10:00:38] INFO root fetch - processPackages [unitlab]: executing diffoscope
+[2023-07-22 10:00:38] INFO root fetch - processPackages [unitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitlab-1.9.2.tar.gz tmp/unitlab-1.9.3.tar.gz --markdown 20230722/u/unitlab/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-22 10:00:39] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.4.2.tar.gz]
+[2023-07-22 10:00:39] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.4.3.tar.gz]
+[2023-07-22 10:00:39] INFO root fetch - main [MainThread]: End processing [losscape]: success
+[2023-07-22 10:00:39] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-3.2.0.tar.gz]
+[2023-07-22 10:00:39] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-3.2.3.tar.gz]
+[2023-07-22 10:00:39] INFO root fetch - main [MainThread]: End processing [namespace-mahdimir]: success
+[2023-07-22 10:00:39] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.3.tar.gz]
+[2023-07-22 10:00:39] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.4.tar.gz]
+[2023-07-22 10:00:39] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-07-22 10:00:39] INFO root fetch - processPackages [unitlab]: Remove: archive file [/home/abi/fetcher/tmp/unitlab-1.9.2.tar.gz]
+[2023-07-22 10:00:39] INFO root fetch - processPackages [unitlab]: Remove: archive file [/home/abi/fetcher/tmp/unitlab-1.9.3.tar.gz]
+[2023-07-22 10:00:39] INFO root fetch - main [MainThread]: End processing [unitlab]: success
+[2023-07-22 10:00:39] INFO root fetch - main [MainThread]: Store serial: [18993559]
