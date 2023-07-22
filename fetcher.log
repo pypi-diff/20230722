@@ -11427,3 +11427,129 @@
 [2023-07-22 10:37:17] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.20.7.tar.gz]
 [2023-07-22 10:37:17] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit]: success
 [2023-07-22 10:37:17] INFO root fetch - main [MainThread]: Store serial: [18993823]
+[2023-07-22 10:42:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993823]
+[2023-07-22 10:42:25] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-22 10:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: payload-validator
+[2023-07-22 10:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xapi-python
+[2023-07-22 10:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-estimator-nightly
+[2023-07-22 10:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: degiroasync
+[2023-07-22 10:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyroFork-dev
+[2023-07-22 10:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certifi
+[2023-07-22 10:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AISandbox
+[2023-07-22 10:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiopypiserver
+[2023-07-22 10:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finterstellar
+[2023-07-22 10:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hata
+[2023-07-22 10:42:26] INFO root fetch - processPackages [certifi]: New version: [2023.5.7] Old Version: [2022.9.24]
+[2023-07-22 10:42:26] INFO root fetch - processPackages [aiopypiserver]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-22 10:42:26] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.5.dev202307229435] Old Version: [2.2.5.dev202307226889]
+[2023-07-22 10:42:26] INFO root fetch - processPackages [finterstellar]: New version: [0.2.19] Old Version: [0.2.18]
+[2023-07-22 10:42:26] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-22 10:42:26] INFO root fetch - processPackages [xapi-python]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-22 10:42:26] INFO root fetch - processPackages [degiroasync]: New version: [0.20.0] Old Version: [0.19.0]
+[2023-07-22 10:42:26] WARNING root fetch - processPackages [AISandbox]: Skipping, unable to determine old version
+[2023-07-22 10:42:26] INFO root fetch - processPackages [AISandbox]: Start processing: Abg
+[2023-07-22 10:42:26] INFO root fetch - processPackages [payload-validator]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-22 10:42:26] INFO root fetch - main [MainThread]: End processing [AISandbox] error
+[2023-07-22 10:42:26] INFO root fetch - processPackages [finterstellar]: Downloading https://files.pythonhosted.org/packages/cd/f7/837bc9234c2470cb9f48b505b637311dca2351037982a6f36a9e6c673c30/finterstellar-0.2.18.tar.gz
+[2023-07-22 10:42:26] INFO root fetch - processPackages [hata]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-22 10:42:26] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-22 10:42:26] INFO root fetch - processPackages [certifi]: Downloading https://files.pythonhosted.org/packages/cb/a4/7de7cd59e429bd0ee6521ba58a75adaec136d32f91a761b28a11d8088d44/certifi-2022.9.24.tar.gz
+[2023-07-22 10:42:26] INFO root fetch - processPackages [aiopypiserver]: Downloading https://files.pythonhosted.org/packages/cb/cd/2ce9e77356de0f3333b9cb7ee4cf043fbc17eac63cac17c6a60da073ece1/aiopypiserver-0.0.4.tar.gz
+[2023-07-22 10:42:26] INFO root fetch - processPackages [Abg]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-07-22 10:42:26] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/67/07/4cf803213a630599fcd3dcb30d48c73532a37be2fdee94e73ec1ca4ed2e5/PyroFork-dev-2.2.5.dev202307226889.tar.gz
+[2023-07-22 10:42:26] INFO root fetch - processPackages [xapi-python]: Downloading https://files.pythonhosted.org/packages/e2/77/67abaacbcd7427c97d2cf8e4a1c7406f4bd0b7a8830e07927b7f72d364d4/xapi-python-0.1.3.tar.gz
+[2023-07-22 10:42:26] INFO root fetch - processPackages [degiroasync]: Downloading https://files.pythonhosted.org/packages/ac/82/7a6ed5254144cb1998711ef9c38ee55a5d607d90367859e58e7c3b512ec0/degiroasync-0.19.0.tar.gz
+[2023-07-22 10:42:26] INFO root fetch - processPackages [payload-validator]: Downloading https://files.pythonhosted.org/packages/75/6a/05ffc11b795da9d7e438b9ba77cf85f94649b6fc10ed731dc43ec7935c27/payload-validator-0.1.1.tar.gz
+[2023-07-22 10:42:26] INFO root fetch - processPackages [hata]: Downloading https://files.pythonhosted.org/packages/4a/f2/c0100f2b17527fd7c8a6216f876eb9b3db8fd117f96ff46478b7b23e990e/hata-1.3.8.tar.gz
+[2023-07-22 10:42:26] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-22 10:42:26] INFO root fetch - processPackages [certifi]: Downloading https://files.pythonhosted.org/packages/93/71/752f7a4dd4c20d6b12341ed1732368546bc0ca9866139fe812f6009d9ac7/certifi-2023.5.7.tar.gz
+[2023-07-22 10:42:26] INFO root fetch - processPackages [finterstellar]: Downloading https://files.pythonhosted.org/packages/f1/e4/a8d4bacd6331e1284ecd31353913cf41d756ee1611a6baeabbcc6118700c/finterstellar-0.2.19.tar.gz
+[2023-07-22 10:42:26] INFO root fetch - processPackages [aiopypiserver]: Downloading https://files.pythonhosted.org/packages/88/e2/ab7eb6d3f03955f7fad8c290ca646465660b7f94c795828eea20ebfc35c5/aiopypiserver-0.0.5.tar.gz
+[2023-07-22 10:42:26] INFO root fetch - processPackages [Abg]: Downloading https://files.pythonhosted.org/packages/43/7d/95a4b16c782eb90f78de163b75c846482d057ca07909190da9c89a51ef9d/Abg-2.3.3.tar.gz
+[2023-07-22 10:42:27] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/47/4b/cbd9d4ad0909daa0b8dc918a9609f3711e81ec80ed82bff1ddd744bfd8ba/PyroFork-dev-2.2.5.dev202307229435.tar.gz
+[2023-07-22 10:42:27] INFO root fetch - processPackages [certifi]: executing diffoscope
+[2023-07-22 10:42:27] INFO root fetch - processPackages [certifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certifi-2022.9.24.tar.gz tmp/certifi-2023.5.7.tar.gz --markdown 20230722/c/certifi/2022.9.24-2023.5.7/diff.md --exclude *.pyd
+[2023-07-22 10:42:27] INFO root fetch - processPackages [aiopypiserver]: executing diffoscope
+[2023-07-22 10:42:27] INFO root fetch - processPackages [aiopypiserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiopypiserver-0.0.4.tar.gz tmp/aiopypiserver-0.0.5.tar.gz --markdown 20230722/a/aiopypiserver/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-22 10:42:27] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-22 10:42:27] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230722/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-22 10:42:27] INFO root fetch - processPackages [finterstellar]: executing diffoscope
+[2023-07-22 10:42:27] INFO root fetch - processPackages [finterstellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finterstellar-0.2.18.tar.gz tmp/finterstellar-0.2.19.tar.gz --markdown 20230722/f/finterstellar/0.2.18-0.2.19/diff.md --exclude *.pyd
+[2023-07-22 10:42:27] INFO root fetch - processPackages [degiroasync]: Downloading https://files.pythonhosted.org/packages/9f/bd/7fe6e7e553c6a791373d25d44fc62ac24dd8d5d0e6b13d805d9ebb3405a9/degiroasync-0.20.0.tar.gz
+[2023-07-22 10:42:27] INFO root fetch - processPackages [xapi-python]: Downloading https://files.pythonhosted.org/packages/55/49/c0a60b79d678376f17dc6f203c19d66bc350abe024bb4889ce78b0c1b9cc/xapi-python-0.1.4.tar.gz
+[2023-07-22 10:42:27] INFO root fetch - processPackages [payload-validator]: Downloading https://files.pythonhosted.org/packages/d4/8a/6cdab078c69a9bd9c93b238697b6ddf5d1bd6b3048615388edb04496df5b/payload-validator-0.1.2.tar.gz
+[2023-07-22 10:42:27] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-07-22 10:42:27] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.5.dev202307226889.tar.gz tmp/PyroFork-dev-2.2.5.dev202307229435.tar.gz --markdown 20230722/P/PyroFork-dev/2.2.5.dev202307226889-2.2.5.dev202307229435/diff.md --exclude *.pyd
+[2023-07-22 10:42:27] INFO root fetch - processPackages [xapi-python]: executing diffoscope
+[2023-07-22 10:42:27] INFO root fetch - processPackages [xapi-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xapi-python-0.1.3.tar.gz tmp/xapi-python-0.1.4.tar.gz --markdown 20230722/x/xapi-python/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-22 10:42:27] INFO root fetch - processPackages [Abg]: Downloading https://files.pythonhosted.org/packages/63/8b/71a0d611727e303892aa3ce4480cf7a3961652d0cf8b2559a0b8c2dab4ed/Abg-2.3.4.tar.gz
+[2023-07-22 10:42:27] INFO root fetch - processPackages [degiroasync]: executing diffoscope
+[2023-07-22 10:42:27] INFO root fetch - processPackages [degiroasync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/degiroasync-0.19.0.tar.gz tmp/degiroasync-0.20.0.tar.gz --markdown 20230722/d/degiroasync/0.19.0-0.20.0/diff.md --exclude *.pyd
+[2023-07-22 10:42:27] INFO root fetch - processPackages [payload-validator]: executing diffoscope
+[2023-07-22 10:42:27] INFO root fetch - processPackages [payload-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payload-validator-0.1.1.tar.gz tmp/payload-validator-0.1.2.tar.gz --markdown 20230722/p/payload-validator/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-22 10:42:27] INFO root fetch - processPackages [Abg]: executing diffoscope
+[2023-07-22 10:42:27] INFO root fetch - processPackages [Abg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Abg-2.3.3.tar.gz tmp/Abg-2.3.4.tar.gz --markdown 20230722/A/Abg/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-07-22 10:42:27] INFO root fetch - processPackages [hata]: Downloading https://files.pythonhosted.org/packages/b5/e0/4cb0546a643922b80592e8b745ce9b6d33d9a414e9540b749a0e2eea2045/hata-1.3.9.tar.gz
+[2023-07-22 10:42:27] INFO root fetch - processPackages [hata]: executing diffoscope
+[2023-07-22 10:42:27] INFO root fetch - processPackages [hata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hata-1.3.8.tar.gz tmp/hata-1.3.9.tar.gz --markdown 20230722/h/hata/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-22 10:42:28] INFO root fetch - processPackages [aiopypiserver]: Remove: archive file [/home/abi/fetcher/tmp/aiopypiserver-0.0.4.tar.gz]
+[2023-07-22 10:42:28] INFO root fetch - processPackages [aiopypiserver]: Remove: archive file [/home/abi/fetcher/tmp/aiopypiserver-0.0.5.tar.gz]
+[2023-07-22 10:42:28] INFO root fetch - processPackages [aiopypiserver]: Start processing: pytk-net
+[2023-07-22 10:42:28] INFO root fetch - main [MainThread]: End processing [aiopypiserver]: success
+[2023-07-22 10:42:28] INFO root fetch - processPackages [finterstellar]: Remove: archive file [/home/abi/fetcher/tmp/finterstellar-0.2.18.tar.gz]
+[2023-07-22 10:42:28] INFO root fetch - processPackages [finterstellar]: Remove: archive file [/home/abi/fetcher/tmp/finterstellar-0.2.19.tar.gz]
+[2023-07-22 10:42:28] INFO root fetch - processPackages [finterstellar]: Start processing: drf-htmx-renderer
+[2023-07-22 10:42:28] INFO root fetch - main [MainThread]: End processing [finterstellar]: success
+[2023-07-22 10:42:28] INFO root fetch - processPackages [pytk-net]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-22 10:42:28] INFO root fetch - processPackages [certifi]: Remove: archive file [/home/abi/fetcher/tmp/certifi-2022.9.24.tar.gz]
+[2023-07-22 10:42:28] INFO root fetch - processPackages [certifi]: Remove: archive file [/home/abi/fetcher/tmp/certifi-2023.5.7.tar.gz]
+[2023-07-22 10:42:28] INFO root fetch - processPackages [certifi]: Start processing: tff-nightly
+[2023-07-22 10:42:28] INFO root fetch - main [MainThread]: End processing [certifi]: success
+[2023-07-22 10:42:28] WARNING root fetch - processPackages [drf-htmx-renderer]: Skipping, unable to determine old version
+[2023-07-22 10:42:28] INFO root fetch - processPackages [drf-htmx-renderer]: Start processing: diagrams-yaml
+[2023-07-22 10:42:28] INFO root fetch - main [MainThread]: End processing [drf-htmx-renderer] error
+[2023-07-22 10:42:28] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/17/44/82cbc938352615c506d3def719474243f9132b9b63e935193ef2ab7c6883/pytk_net-0.2.3.tar.gz
+[2023-07-22 10:42:28] INFO root fetch - processPackages [diagrams-yaml]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-22 10:42:29] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230722] Old Version: [0.0.1.dev20230721]
+[2023-07-22 10:42:29] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/a9/ce/de8fe7d934f88b87d7d2a0653563ddd903e00f641568fdc9e1fc99c2f241/diagrams-yaml-0.0.1.tar.gz
+[2023-07-22 10:42:29] INFO root fetch - processPackages [degiroasync]: Remove: archive file [/home/abi/fetcher/tmp/degiroasync-0.19.0.tar.gz]
+[2023-07-22 10:42:29] INFO root fetch - processPackages [degiroasync]: Remove: archive file [/home/abi/fetcher/tmp/degiroasync-0.20.0.tar.gz]
+[2023-07-22 10:42:29] INFO root fetch - main [MainThread]: End processing [degiroasync]: success
+[2023-07-22 10:42:29] INFO root fetch - processPackages [payload-validator]: Remove: archive file [/home/abi/fetcher/tmp/payload-validator-0.1.1.tar.gz]
+[2023-07-22 10:42:29] INFO root fetch - processPackages [payload-validator]: Remove: archive file [/home/abi/fetcher/tmp/payload-validator-0.1.2.tar.gz]
+[2023-07-22 10:42:29] INFO root fetch - main [MainThread]: End processing [payload-validator]: success
+[2023-07-22 10:42:29] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/2e/29/0334cb42237e12fc74881b3780f3cd6f8b1b91f0ff23163e4c9677f99e53/pytk_net-0.2.4.tar.gz
+[2023-07-22 10:42:29] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/31/ec/39816e965882fc492f8b89fcd2fdb7b7a4046eceffe199717974b8c9bdd2/tff_nightly-0.0.1.dev20230721-py2.py3-none-any.whl
+[2023-07-22 10:42:29] INFO root fetch - processPackages [xapi-python]: Remove: archive file [/home/abi/fetcher/tmp/xapi-python-0.1.3.tar.gz]
+[2023-07-22 10:42:29] INFO root fetch - processPackages [xapi-python]: Remove: archive file [/home/abi/fetcher/tmp/xapi-python-0.1.4.tar.gz]
+[2023-07-22 10:42:29] INFO root fetch - main [MainThread]: End processing [xapi-python]: success
+[2023-07-22 10:42:29] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/4b/03/2a3d4f6d44ab2ea8925dc3039fe168ffd755d59585c06794e97655e8dcdd/diagrams-yaml-0.0.2.tar.gz
+[2023-07-22 10:42:29] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-22 10:42:29] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-22 10:42:29] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-22 10:42:29] INFO root fetch - processPackages [pytk-net]: executing diffoscope
+[2023-07-22 10:42:29] INFO root fetch - processPackages [pytk-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytk_net-0.2.3.tar.gz tmp/pytk_net-0.2.4.tar.gz --markdown 20230722/p/pytk-net/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-22 10:42:29] INFO root fetch - processPackages [Abg]: Remove: archive file [/home/abi/fetcher/tmp/Abg-2.3.3.tar.gz]
+[2023-07-22 10:42:29] INFO root fetch - processPackages [Abg]: Remove: archive file [/home/abi/fetcher/tmp/Abg-2.3.4.tar.gz]
+[2023-07-22 10:42:29] INFO root fetch - main [MainThread]: End processing [Abg]: success
+[2023-07-22 10:42:29] INFO root fetch - processPackages [diagrams-yaml]: executing diffoscope
+[2023-07-22 10:42:29] INFO root fetch - processPackages [diagrams-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diagrams-yaml-0.0.1.tar.gz tmp/diagrams-yaml-0.0.2.tar.gz --markdown 20230722/d/diagrams-yaml/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-22 10:42:29] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/7e/99/6ea2320fe59f7defe8497a9d55cff21dc668006a830607a885c50871a23e/tff_nightly-0.0.1.dev20230722-py2.py3-none-any.whl
+[2023-07-22 10:42:30] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-22 10:42:30] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230721-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230722-py2.py3-none-any.whl.zip --markdown 20230722/t/tff-nightly/0.0.1.dev20230721-0.0.1.dev20230722/diff.md --exclude *.pyd
+[2023-07-22 10:42:30] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.1.tar.gz]
+[2023-07-22 10:42:30] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.2.tar.gz]
+[2023-07-22 10:42:30] INFO root fetch - main [MainThread]: End processing [diagrams-yaml]: success
+[2023-07-22 10:42:30] INFO root fetch - processPackages [pytk-net]: Remove: archive file [/home/abi/fetcher/tmp/pytk_net-0.2.3.tar.gz]
+[2023-07-22 10:42:30] INFO root fetch - processPackages [pytk-net]: Remove: archive file [/home/abi/fetcher/tmp/pytk_net-0.2.4.tar.gz]
+[2023-07-22 10:42:30] INFO root fetch - main [MainThread]: End processing [pytk-net]: success
+[2023-07-22 10:42:31] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.5.dev202307226889.tar.gz]
+[2023-07-22 10:42:31] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.5.dev202307229435.tar.gz]
+[2023-07-22 10:42:31] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-07-22 10:42:31] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230721-py2.py3-none-any.whl.zip]
+[2023-07-22 10:42:31] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230722-py2.py3-none-any.whl.zip]
+[2023-07-22 10:42:31] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-22 10:42:32] INFO root fetch - processPackages [hata]: Remove: archive file [/home/abi/fetcher/tmp/hata-1.3.8.tar.gz]
+[2023-07-22 10:42:32] INFO root fetch - processPackages [hata]: Remove: archive file [/home/abi/fetcher/tmp/hata-1.3.9.tar.gz]
+[2023-07-22 10:42:32] INFO root fetch - main [MainThread]: End processing [hata]: success
+[2023-07-22 10:42:32] INFO root fetch - main [MainThread]: Store serial: [18993866]
