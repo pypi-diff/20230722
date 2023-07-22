@@ -8931,3 +8931,24 @@
 [2023-07-22 06:06:10] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.1.tar.gz]
 [2023-07-22 06:06:10] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
 [2023-07-22 06:06:10] INFO root fetch - main [MainThread]: Store serial: [18992640]
+[2023-07-22 06:11:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992640]
+[2023-07-22 06:11:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-22 06:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AndroidN
+[2023-07-22 06:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gau-python
+[2023-07-22 06:11:20] INFO root fetch - processPackages [AndroidN]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 06:11:20] INFO root fetch - processPackages [AndroidN]: Downloading https://files.pythonhosted.org/packages/9b/af/695844fcbc6ebc498768fdbf4e849bd6f133438bdb6c252f4061ca631614/AndroidN-0.0.3.tar.gz
+[2023-07-22 06:11:20] INFO root fetch - processPackages [gau-python]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-22 06:11:20] INFO root fetch - processPackages [gau-python]: Downloading https://files.pythonhosted.org/packages/d1/c2/19dbae018241b6975362908bc3babf89042b817400b47492a0ea51e2d6c8/gau-python-0.1.7.tar.gz
+[2023-07-22 06:11:20] INFO root fetch - processPackages [AndroidN]: Downloading https://files.pythonhosted.org/packages/42/b8/56dc38ac669e3b45817aca4ee99c8269e7b54ac234b205187ee8a2391ea1/AndroidN-0.0.4.tar.gz
+[2023-07-22 06:11:21] INFO root fetch - processPackages [gau-python]: Downloading https://files.pythonhosted.org/packages/43/06/4977c669f4d5d0a10a7bd7c9590b97364ae5286f0c5fc8c84b21f47cd3bb/gau-python-0.1.8.tar.gz
+[2023-07-22 06:11:21] INFO root fetch - processPackages [gau-python]: executing diffoscope
+[2023-07-22 06:11:21] INFO root fetch - processPackages [gau-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gau-python-0.1.7.tar.gz tmp/gau-python-0.1.8.tar.gz --markdown 20230722/g/gau-python/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-22 06:11:21] INFO root fetch - processPackages [AndroidN]: executing diffoscope
+[2023-07-22 06:11:21] INFO root fetch - processPackages [AndroidN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AndroidN-0.0.3.tar.gz tmp/AndroidN-0.0.4.tar.gz --markdown 20230722/A/AndroidN/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 06:11:22] INFO root fetch - processPackages [gau-python]: Remove: archive file [/home/abi/fetcher/tmp/gau-python-0.1.7.tar.gz]
+[2023-07-22 06:11:22] INFO root fetch - processPackages [gau-python]: Remove: archive file [/home/abi/fetcher/tmp/gau-python-0.1.8.tar.gz]
+[2023-07-22 06:11:22] INFO root fetch - main [MainThread]: End processing [gau-python]: success
+[2023-07-22 06:11:23] INFO root fetch - processPackages [AndroidN]: Remove: archive file [/home/abi/fetcher/tmp/AndroidN-0.0.3.tar.gz]
+[2023-07-22 06:11:23] INFO root fetch - processPackages [AndroidN]: Remove: archive file [/home/abi/fetcher/tmp/AndroidN-0.0.4.tar.gz]
+[2023-07-22 06:11:23] INFO root fetch - main [MainThread]: End processing [AndroidN]: success
+[2023-07-22 06:11:23] INFO root fetch - main [MainThread]: Store serial: [18992648]
