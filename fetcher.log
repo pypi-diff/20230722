@@ -13189,3 +13189,43 @@
 [2023-07-22 13:20:39] INFO root fetch - processPackages [D47crunch]: Remove: archive file [/home/abi/fetcher/tmp/D47crunch-2.3.1.tar.gz]
 [2023-07-22 13:20:39] INFO root fetch - main [MainThread]: End processing [D47crunch]: success
 [2023-07-22 13:20:39] INFO root fetch - main [MainThread]: Store serial: [18994553]
+[2023-07-22 13:25:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994553]
+[2023-07-22 13:25:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 13:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvision
+[2023-07-22 13:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchrl-nightly
+[2023-07-22 13:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: holobench
+[2023-07-22 13:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tb-nightly
+[2023-07-22 13:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: q2gui
+[2023-07-22 13:25:48] INFO root fetch - processPackages [holobench]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-22 13:25:48] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-22 13:25:48] WARNING root fetch - processPackages [cvision]: Skipping, unable to determine old version
+[2023-07-22 13:25:48] INFO root fetch - main [MainThread]: End processing [cvision] error
+[2023-07-22 13:25:48] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/ca/d0/6922f1a0f996f4e5aafa8ca88d1c402f16e7b6c9997c5bf6ad59d92e25a3/holobench-0.0.0.tar.gz
+[2023-07-22 13:25:48] INFO root fetch - processPackages [q2gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-22 13:25:48] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-22 13:25:48] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-22 13:25:49] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/44/68/22949a86a38df9a6e2a75bd8fa96b1a6ea50cb42ad3d05c2a19056af3825/holobench-0.0.1.tar.gz
+[2023-07-22 13:25:49] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/38/33/59a88ceafbd8e349b7f261de4859c91912b883bd14249422d344f09ba9ed/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-22 13:25:49] INFO root fetch - processPackages [holobench]: executing diffoscope
+[2023-07-22 13:25:49] INFO root fetch - processPackages [holobench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holobench-0.0.0.tar.gz tmp/holobench-0.0.1.tar.gz --markdown 20230722/h/holobench/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-22 13:25:49] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2023-07-22 13:25:49] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.98.tar.gz tmp/q2gui-0.1.99.tar.gz --markdown 20230722/q/q2gui/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-22 13:25:49] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-22 13:25:49] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/22/59/298ac6427c9497e554f2b3ba5d253603250fe69672e94a74affda6a5613c/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-22 13:25:49] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-22 13:25:49] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230722/t/torchrl-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-22 13:25:49] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-22 13:25:49] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230722/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-22 13:25:50] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.98.tar.gz]
+[2023-07-22 13:25:50] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.99.tar.gz]
+[2023-07-22 13:25:50] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2023-07-22 13:25:50] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-0.0.0.tar.gz]
+[2023-07-22 13:25:50] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-0.0.1.tar.gz]
+[2023-07-22 13:25:50] INFO root fetch - main [MainThread]: End processing [holobench]: success
+[2023-07-22 13:25:51] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-22 13:25:51] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-22 13:25:51] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-22 13:25:51] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-22 13:25:51] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-22 13:25:51] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-22 13:25:51] INFO root fetch - main [MainThread]: Store serial: [18994569]
