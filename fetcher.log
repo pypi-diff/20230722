@@ -9856,3 +9856,33 @@
 [2023-07-22 08:05:41] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6922.tar.gz]
 [2023-07-22 08:05:41] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-22 08:05:41] INFO root fetch - main [MainThread]: Store serial: [18993038]
+[2023-07-22 08:10:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993038]
+[2023-07-22 08:10:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-22 08:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ijson
+[2023-07-22 08:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyfi
+[2023-07-22 08:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OneOnOne
+[2023-07-22 08:10:50] INFO root fetch - processPackages [OneOnOne]: New version: [0.6923] Old Version: [0.6922]
+[2023-07-22 08:10:50] INFO root fetch - processPackages [hyfi]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-22 08:10:50] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/f7/f0/eee433702dd376c44cdcd14012b100707e37f39dc633ae748f5ec795ed65/OneOnOne-0.6922.tar.gz
+[2023-07-22 08:10:50] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/ed/39/7a38771b37c89fc6ca421b8f0e7ba3dff9e3c51d22225c6e087fba85da9a/hyfi-1.6.0.tar.gz
+[2023-07-22 08:10:50] INFO root fetch - processPackages [ijson]: New version: [3.2.3] Old Version: [3.2.2]
+[2023-07-22 08:10:50] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/0d/52/53b98f05777b1dd64b56af4c8750c9f8f4e3a7c6c10f13f8c0e69c0c5cf2/OneOnOne-0.6923.tar.gz
+[2023-07-22 08:10:50] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/2a/80/3a01f92370978f14bf94de14f6dd48db19de0b14adac46c2f65ac3880194/hyfi-1.6.1.tar.gz
+[2023-07-22 08:10:50] INFO root fetch - processPackages [ijson]: Downloading https://files.pythonhosted.org/packages/b8/91/3ca138a2354e566dfdc5210445f490c79e7facb3ce97cdde5530fe8f885c/ijson-3.2.2.tar.gz
+[2023-07-22 08:10:50] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-22 08:10:50] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.6.0.tar.gz tmp/hyfi-1.6.1.tar.gz --markdown 20230722/h/hyfi/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-22 08:10:50] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 08:10:50] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6922.tar.gz tmp/OneOnOne-0.6923.tar.gz --markdown 20230722/O/OneOnOne/0.6922-0.6923/diff.md --exclude *.pyd
+[2023-07-22 08:10:50] INFO root fetch - processPackages [ijson]: Downloading https://files.pythonhosted.org/packages/20/58/acdd87bd1b926fa2348a7f2ee5e1e7e2c9b808db78342317fc2474c87516/ijson-3.2.3.tar.gz
+[2023-07-22 08:10:51] INFO root fetch - processPackages [ijson]: executing diffoscope
+[2023-07-22 08:10:51] INFO root fetch - processPackages [ijson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ijson-3.2.2.tar.gz tmp/ijson-3.2.3.tar.gz --markdown 20230722/i/ijson/3.2.2-3.2.3/diff.md --exclude *.pyd
+[2023-07-22 08:10:51] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.6.0.tar.gz]
+[2023-07-22 08:10:51] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.6.1.tar.gz]
+[2023-07-22 08:10:51] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-22 08:10:51] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6922.tar.gz]
+[2023-07-22 08:10:51] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6923.tar.gz]
+[2023-07-22 08:10:51] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 08:10:52] INFO root fetch - processPackages [ijson]: Remove: archive file [/home/abi/fetcher/tmp/ijson-3.2.2.tar.gz]
+[2023-07-22 08:10:52] INFO root fetch - processPackages [ijson]: Remove: archive file [/home/abi/fetcher/tmp/ijson-3.2.3.tar.gz]
+[2023-07-22 08:10:52] INFO root fetch - main [MainThread]: End processing [ijson]: success
+[2023-07-22 08:10:52] INFO root fetch - main [MainThread]: Store serial: [18993122]
