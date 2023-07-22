@@ -8465,3 +8465,47 @@
 [2023-07-22 05:24:37] INFO root fetch - processPackages [abi3info]: Remove: archive file [/home/abi/fetcher/tmp/abi3info-2023.7.21.tar.gz]
 [2023-07-22 05:24:37] INFO root fetch - main [MainThread]: End processing [abi3info]: success
 [2023-07-22 05:24:37] INFO root fetch - main [MainThread]: Store serial: [18992459]
+[2023-07-22 05:29:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992459]
+[2023-07-22 05:29:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 05:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: konfuzio-sdk
+[2023-07-22 05:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OneOnOne
+[2023-07-22 05:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: refiner
+[2023-07-22 05:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulpcore
+[2023-07-22 05:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulpcore-client
+[2023-07-22 05:29:46] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-07-22 05:29:46] INFO root fetch - processPackages [OneOnOne]: New version: [0.6914] Old Version: [0.6913]
+[2023-07-22 05:29:46] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-07-22 05:29:46] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-22 05:29:46] INFO root fetch - processPackages [refiner]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-22 05:29:46] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/bd/db/dc46012b57fa6820fb3b66927df306bd7f94999da677698ca620b88212f5/OneOnOne-0.6913.tar.gz
+[2023-07-22 05:29:46] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-07-22 05:29:46] INFO root fetch - processPackages [refiner]: Downloading https://files.pythonhosted.org/packages/29/a1/598410bfdcfdd52645ceb18850c875249e42ecbfce6c912ffba3ab6fe8d9/refiner-0.0.2.tar.gz
+[2023-07-22 05:29:46] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-07-22 05:29:46] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/e1/55/cefdc30d053e42bf57ae404987d8d46a55cf671bd1706c745799f20e271f/OneOnOne-0.6914.tar.gz
+[2023-07-22 05:29:46] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-07-22 05:29:46] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230722/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-07-22 05:29:46] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-07-22 05:29:46] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230722/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-07-22 05:29:46] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-07-22 05:29:46] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230722/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-22 05:29:46] INFO root fetch - processPackages [refiner]: Downloading https://files.pythonhosted.org/packages/21/63/1dedfc080154178a31dec0c554f5da5cc919cc74ce019aa920bd7f1a7170/refiner-0.0.3.tar.gz
+[2023-07-22 05:29:46] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 05:29:46] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6913.tar.gz tmp/OneOnOne-0.6914.tar.gz --markdown 20230722/O/OneOnOne/0.6913-0.6914/diff.md --exclude *.pyd
+[2023-07-22 05:29:47] INFO root fetch - processPackages [refiner]: executing diffoscope
+[2023-07-22 05:29:47] INFO root fetch - processPackages [refiner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refiner-0.0.2.tar.gz tmp/refiner-0.0.3.tar.gz --markdown 20230722/r/refiner/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-22 05:29:47] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz]
+[2023-07-22 05:29:47] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.1.tar.gz]
+[2023-07-22 05:29:47] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-07-22 05:29:47] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.0.tar.gz]
+[2023-07-22 05:29:47] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.1.tar.gz]
+[2023-07-22 05:29:47] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-07-22 05:29:47] INFO root fetch - processPackages [refiner]: Remove: archive file [/home/abi/fetcher/tmp/refiner-0.0.2.tar.gz]
+[2023-07-22 05:29:47] INFO root fetch - processPackages [refiner]: Remove: archive file [/home/abi/fetcher/tmp/refiner-0.0.3.tar.gz]
+[2023-07-22 05:29:47] INFO root fetch - main [MainThread]: End processing [refiner]: success
+[2023-07-22 05:29:47] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-07-22 05:29:47] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-07-22 05:29:47] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-07-22 05:29:48] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6913.tar.gz]
+[2023-07-22 05:29:48] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6914.tar.gz]
+[2023-07-22 05:29:48] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 05:29:48] INFO root fetch - main [MainThread]: Store serial: [18992473]
