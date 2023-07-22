@@ -12023,3 +12023,69 @@
 [2023-07-22 11:19:05] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-07-22 11:19:05] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-07-22 11:19:05] INFO root fetch - main [MainThread]: Store serial: [18994023]
+[2023-07-22 11:24:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994023]
+[2023-07-22 11:24:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 11:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-07-22 11:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: talkytimes-package
+[2023-07-22 11:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logger-local
+[2023-07-22 11:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-codspeed
+[2023-07-22 11:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TDCRPy
+[2023-07-22 11:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hacktools
+[2023-07-22 11:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: o2despy
+[2023-07-22 11:24:14] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 11:24:14] INFO root fetch - processPackages [logger-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 11:24:14] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 11:24:14] INFO root fetch - processPackages [o2despy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 11:24:14] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-22 11:24:14] INFO root fetch - processPackages [pytest-codspeed]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-22 11:24:14] INFO root fetch - processPackages [hacktools]: New version: [0.9.0] Old Version: [0.8.7]
+[2023-07-22 11:24:14] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-22 11:24:14] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-22 11:24:14] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/21/e1/7a45a748162f16f488c16187a0b07c25201df5531bf12da29ff61c6d7db5/logger-local-0.0.8.tar.gz
+[2023-07-22 11:24:14] INFO root fetch - processPackages [o2despy]: Downloading https://files.pythonhosted.org/packages/52/fa/c25f3f5e4996932da58fed360e31d9f0f5f8bc753883a5867d1e8d115fc9/o2despy-0.0.3.tar.gz
+[2023-07-22 11:24:14] INFO root fetch - processPackages [pytest-codspeed]: Downloading https://files.pythonhosted.org/packages/f6/e9/0b35247bb1dbdecc9036e893082cd6ece668c91f7662920a47761049a5d8/pytest_codspeed-2.0.0.tar.gz
+[2023-07-22 11:24:14] INFO root fetch - processPackages [hacktools]: Downloading https://files.pythonhosted.org/packages/e4/c3/3c280c8e98e8d2851ec6e26962dd71a2e982b607a801367380dffe1b9104/hacktools-0.8.7.tar.gz
+[2023-07-22 11:24:14] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-22 11:24:14] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-22 11:24:14] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-22 11:24:14] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/2d/a9/d7815ae572e09b03370b309ad1bf127cf7c8f4c91b3ddd26fd0043a2e559/logger-local-0.0.9.tar.gz
+[2023-07-22 11:24:14] INFO root fetch - processPackages [o2despy]: Downloading https://files.pythonhosted.org/packages/71/23/12b3c5a04a2cb5554f81960518210c6dae0487807e6113e50b32c80c5674/o2despy-0.0.4.tar.gz
+[2023-07-22 11:24:14] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-22 11:24:14] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230722/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 11:24:15] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-22 11:24:15] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230722/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 11:24:15] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2023-07-22 11:24:15] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.8.tar.gz tmp/logger-local-0.0.9.tar.gz --markdown 20230722/l/logger-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 11:24:15] INFO root fetch - processPackages [o2despy]: executing diffoscope
+[2023-07-22 11:24:15] INFO root fetch - processPackages [o2despy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/o2despy-0.0.3.tar.gz tmp/o2despy-0.0.4.tar.gz --markdown 20230722/o/o2despy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 11:24:15] INFO root fetch - processPackages [pytest-codspeed]: Downloading https://files.pythonhosted.org/packages/8a/b0/527f4fc47a6d7ee41b070552152dd4f03cb61edbef752dd764a1bbad301b/pytest_codspeed-2.0.1.tar.gz
+[2023-07-22 11:24:15] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-22 11:24:15] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-22 11:24:15] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230722/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-22 11:24:15] INFO root fetch - processPackages [pytest-codspeed]: executing diffoscope
+[2023-07-22 11:24:15] INFO root fetch - processPackages [pytest-codspeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_codspeed-2.0.0.tar.gz tmp/pytest_codspeed-2.0.1.tar.gz --markdown 20230722/p/pytest-codspeed/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-22 11:24:15] INFO root fetch - processPackages [hacktools]: Downloading https://files.pythonhosted.org/packages/b6/83/60990d272c11fd6564f42220419d25ec97bfa5d49fa5a5885d2ebd116f4b/hacktools-0.9.0.tar.gz
+[2023-07-22 11:24:15] INFO root fetch - processPackages [hacktools]: executing diffoscope
+[2023-07-22 11:24:15] INFO root fetch - processPackages [hacktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hacktools-0.8.7.tar.gz tmp/hacktools-0.9.0.tar.gz --markdown 20230722/h/hacktools/0.8.7-0.9.0/diff.md --exclude *.pyd
+[2023-07-22 11:24:16] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-22 11:24:16] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-22 11:24:16] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-22 11:24:16] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.8.tar.gz]
+[2023-07-22 11:24:16] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.9.tar.gz]
+[2023-07-22 11:24:16] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2023-07-22 11:24:16] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-22 11:24:16] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-22 11:24:16] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-22 11:24:16] INFO root fetch - processPackages [pytest-codspeed]: Remove: archive file [/home/abi/fetcher/tmp/pytest_codspeed-2.0.0.tar.gz]
+[2023-07-22 11:24:16] INFO root fetch - processPackages [pytest-codspeed]: Remove: archive file [/home/abi/fetcher/tmp/pytest_codspeed-2.0.1.tar.gz]
+[2023-07-22 11:24:16] INFO root fetch - main [MainThread]: End processing [pytest-codspeed]: success
+[2023-07-22 11:24:16] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-22 11:24:16] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-22 11:24:16] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-22 11:24:16] INFO root fetch - processPackages [o2despy]: Remove: archive file [/home/abi/fetcher/tmp/o2despy-0.0.3.tar.gz]
+[2023-07-22 11:24:16] INFO root fetch - processPackages [o2despy]: Remove: archive file [/home/abi/fetcher/tmp/o2despy-0.0.4.tar.gz]
+[2023-07-22 11:24:16] INFO root fetch - main [MainThread]: End processing [o2despy]: success
+[2023-07-22 11:24:17] INFO root fetch - processPackages [hacktools]: Remove: archive file [/home/abi/fetcher/tmp/hacktools-0.8.7.tar.gz]
+[2023-07-22 11:24:17] INFO root fetch - processPackages [hacktools]: Remove: archive file [/home/abi/fetcher/tmp/hacktools-0.9.0.tar.gz]
+[2023-07-22 11:24:17] INFO root fetch - main [MainThread]: End processing [hacktools]: success
+[2023-07-22 11:24:17] INFO root fetch - main [MainThread]: Store serial: [18994095]
