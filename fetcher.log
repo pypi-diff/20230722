@@ -7038,3 +7038,165 @@
 [2023-07-22 03:30:59] INFO root fetch - processPackages [botocore-a-la-carte]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-1.31.8.tar.gz]
 [2023-07-22 03:30:59] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte]: success
 [2023-07-22 03:30:59] INFO root fetch - main [MainThread]: Store serial: [18991744]
+[2023-07-22 03:36:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18991744]
+[2023-07-22 03:36:16] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-22 03:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tic-tac-toe-backend
+[2023-07-22 03:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ConsolePrint
+[2023-07-22 03:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-stdlib
+[2023-07-22 03:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-wordpress
+[2023-07-22 03:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pls
+[2023-07-22 03:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastestimator-nightly
+[2023-07-22 03:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lbt-ladybug
+[2023-07-22 03:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sopel-modules.stocks
+[2023-07-22 03:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gen3-util
+[2023-07-22 03:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vanna
+[2023-07-22 03:36:16] INFO root fetch - processPackages [gen3-util]: New version: [0.0.5rc1] Old Version: [0.0.4rc7]
+[2023-07-22 03:36:16] INFO root fetch - processPackages [ConsolePrint]: New version: [1.3.9] Old Version: [1.3.6]
+[2023-07-22 03:36:17] INFO root fetch - processPackages [vanna]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 03:36:17] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-22 03:36:17] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/5b/ca/cc777f9bc29b1e4fe210049e3102d56ef58add9c556bae60c14eab33dd11/vanna-0.0.8.tar.gz
+[2023-07-22 03:36:17] INFO root fetch - processPackages [sopel-modules.stocks]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-22 03:36:17] INFO root fetch - processPackages [tic-tac-toe-backend]: New version: [1.8.0] Old Version: [1.7.1]
+[2023-07-22 03:36:17] INFO root fetch - processPackages [pls]: New version: [6.0.0] Old Version: [5.4.0]
+[2023-07-22 03:36:17] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-22 03:36:17] INFO root fetch - processPackages [lbt-ladybug]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-22 03:36:17] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-07-22 03:36:17] INFO root fetch - processPackages [gen3-util]: Downloading https://files.pythonhosted.org/packages/fa/26/b8137b97d2bd3a712d43bc838bf8e1d6e43f1d73aaf472678650e1e200c6/gen3_util-0.0.4rc7.tar.gz
+[2023-07-22 03:36:17] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-22 03:36:17] INFO root fetch - processPackages [ConsolePrint]: Downloading https://files.pythonhosted.org/packages/73/b5/6e19617a230a0a225eb3c75ec3fbeb39f0a3d48dd0fb844acbee1c656998/consoleprint-1.3.6.tar.gz
+[2023-07-22 03:36:17] INFO root fetch - processPackages [fastestimator-nightly]: New version: [1.6.0.dev202307220133] Old Version: [1.6.0.dev202307191402]
+[2023-07-22 03:36:17] INFO root fetch - processPackages [sopel-modules.stocks]: Downloading https://files.pythonhosted.org/packages/43/e4/baf5f63d6e0ded8746cfbb737183021f46031ec16d07f8ff69c09c6ba6ce/sopel_modules.stocks-1.2.1.tar.gz
+[2023-07-22 03:36:17] INFO root fetch - processPackages [tic-tac-toe-backend]: Downloading https://files.pythonhosted.org/packages/99/da/3bc19d3c7fea59620b6496897a7bb93d38375a831b48d6810ed652193d5e/tic-tac-toe-backend-1.7.1.tar.gz
+[2023-07-22 03:36:17] INFO root fetch - processPackages [pls]: Downloading https://files.pythonhosted.org/packages/59/47/d1e170f8fc6daef0b99018913d16fb780b5bf82bda60667d10aa0305d697/pls-5.4.0.tar.gz
+[2023-07-22 03:36:17] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/96/fd/c03f80a50f42777698aab1db4d2a450d872752730425c9b21148e9ce116b/vanna-0.0.9.tar.gz
+[2023-07-22 03:36:17] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/e4/ac/474c600d6f495b8d63c49d7689b2b076f0c5f94c22728fe795233852a9e1/lbt-ladybug-0.8.1.tar.gz
+[2023-07-22 03:36:17] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-07-22 03:36:17] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/c7/17/fc7090b55d48c16a9759d465469a1db21804af7fc1c6e6e2651a4891fba9/fastestimator-nightly-1.6.0.dev202307191402.tar.gz
+[2023-07-22 03:36:17] INFO root fetch - processPackages [vanna]: executing diffoscope
+[2023-07-22 03:36:17] INFO root fetch - processPackages [vanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanna-0.0.8.tar.gz tmp/vanna-0.0.9.tar.gz --markdown 20230722/v/vanna/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 03:36:17] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-22 03:36:17] INFO root fetch - processPackages [gen3-util]: Downloading https://files.pythonhosted.org/packages/e5/22/7c6e086e865866103ed8616fd38c3ed9c04e176b15a810726a3dde52f2ad/gen3_util-0.0.5rc1.tar.gz
+[2023-07-22 03:36:17] INFO root fetch - processPackages [ConsolePrint]: Downloading https://files.pythonhosted.org/packages/93/54/c62537c33b6f4d34187801c3281db59604142d1f6fbea84eed216280ad3e/consoleprint-1.3.9.tar.gz
+[2023-07-22 03:36:17] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-07-22 03:36:17] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230722/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-22 03:36:17] INFO root fetch - processPackages [gen3-util]: executing diffoscope
+[2023-07-22 03:36:17] INFO root fetch - processPackages [gen3-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen3_util-0.0.4rc7.tar.gz tmp/gen3_util-0.0.5rc1.tar.gz --markdown 20230722/g/gen3-util/0.0.4rc7-0.0.5rc1/diff.md --exclude *.pyd
+[2023-07-22 03:36:17] INFO root fetch - processPackages [tic-tac-toe-backend]: Downloading https://files.pythonhosted.org/packages/db/98/bcbdc08a9bf9223a61b1c710b82ff197d5de3ea03ee04740d6efc7763a34/tic-tac-toe-backend-1.8.0.tar.gz
+[2023-07-22 03:36:17] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-22 03:36:17] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230722/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-22 03:36:17] INFO root fetch - processPackages [sopel-modules.stocks]: Downloading https://files.pythonhosted.org/packages/11/7f/c9a541978b647d25d45dfb38489d05798af60956e727e668b0765b0b2bbf/sopel_modules.stocks-1.2.2.tar.gz
+[2023-07-22 03:36:17] INFO root fetch - processPackages [ConsolePrint]: executing diffoscope
+[2023-07-22 03:36:17] INFO root fetch - processPackages [ConsolePrint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consoleprint-1.3.6.tar.gz tmp/consoleprint-1.3.9.tar.gz --markdown 20230722/C/ConsolePrint/1.3.6-1.3.9/diff.md --exclude *.pyd
+[2023-07-22 03:36:17] INFO root fetch - processPackages [pls]: Downloading https://files.pythonhosted.org/packages/08/23/4a81f6cbeaa65d542852b74936f6082ee6e24d37a3f198701538db845231/pls-6.0.0.tar.gz
+[2023-07-22 03:36:18] INFO root fetch - processPackages [tic-tac-toe-backend]: executing diffoscope
+[2023-07-22 03:36:18] INFO root fetch - processPackages [tic-tac-toe-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tic-tac-toe-backend-1.7.1.tar.gz tmp/tic-tac-toe-backend-1.8.0.tar.gz --markdown 20230722/t/tic-tac-toe-backend/1.7.1-1.8.0/diff.md --exclude *.pyd
+[2023-07-22 03:36:18] INFO root fetch - processPackages [sopel-modules.stocks]: executing diffoscope
+[2023-07-22 03:36:18] INFO root fetch - processPackages [sopel-modules.stocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sopel_modules.stocks-1.2.1.tar.gz tmp/sopel_modules.stocks-1.2.2.tar.gz --markdown 20230722/s/sopel-modules.stocks/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-22 03:36:18] INFO root fetch - processPackages [pls]: executing diffoscope
+[2023-07-22 03:36:18] INFO root fetch - processPackages [pls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pls-5.4.0.tar.gz tmp/pls-6.0.0.tar.gz --markdown 20230722/p/pls/5.4.0-6.0.0/diff.md --exclude *.pyd
+[2023-07-22 03:36:18] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/c8/99/36e86b55f45554a9b79fbcfeec177a7617937f86ca31e48650e86163fc27/fastestimator-nightly-1.6.0.dev202307220133.tar.gz
+[2023-07-22 03:36:18] INFO root fetch - processPackages [fastestimator-nightly]: executing diffoscope
+[2023-07-22 03:36:18] INFO root fetch - processPackages [fastestimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastestimator-nightly-1.6.0.dev202307191402.tar.gz tmp/fastestimator-nightly-1.6.0.dev202307220133.tar.gz --markdown 20230722/f/fastestimator-nightly/1.6.0.dev202307191402-1.6.0.dev202307220133/diff.md --exclude *.pyd
+[2023-07-22 03:36:18] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.0.8.tar.gz]
+[2023-07-22 03:36:18] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.0.9.tar.gz]
+[2023-07-22 03:36:18] INFO root fetch - processPackages [vanna]: Start processing: langchain-experimental
+[2023-07-22 03:36:18] INFO root fetch - main [MainThread]: End processing [vanna]: success
+[2023-07-22 03:36:18] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/6e/e7/a4e6dcfc6b2750475acd6dee9e849a991053471ff22a90aa8f986eaef25b/lbt-ladybug-0.9.0.tar.gz
+[2023-07-22 03:36:18] INFO root fetch - processPackages [langchain-experimental]: New version: [0.0.1rc2] Old Version: [0.0.1rc1]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [cdk-wordpress]: Start processing: bioregistry
+[2023-07-22 03:36:19] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-07-22 03:36:19] INFO root fetch - processPackages [langchain-experimental]: Downloading https://files.pythonhosted.org/packages/38/a3/5cd2979898a6ba7c5c4401675f38fd260f3a0bd35eeab110dfc63e93c16c/langchain_experimental-0.0.1rc1.tar.gz
+[2023-07-22 03:36:19] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.81]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: nbdev-numpy
+[2023-07-22 03:36:19] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-22 03:36:19] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [ConsolePrint]: Remove: archive file [/home/abi/fetcher/tmp/consoleprint-1.3.6.tar.gz]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [ConsolePrint]: Remove: archive file [/home/abi/fetcher/tmp/consoleprint-1.3.9.tar.gz]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [ConsolePrint]: Start processing: claude-api
+[2023-07-22 03:36:19] INFO root fetch - main [MainThread]: End processing [ConsolePrint]: success
+[2023-07-22 03:36:19] INFO root fetch - processPackages [tic-tac-toe-backend]: Remove: archive file [/home/abi/fetcher/tmp/tic-tac-toe-backend-1.7.1.tar.gz]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [tic-tac-toe-backend]: Remove: archive file [/home/abi/fetcher/tmp/tic-tac-toe-backend-1.8.0.tar.gz]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [tic-tac-toe-backend]: Start processing: lbt-honeybee
+[2023-07-22 03:36:19] INFO root fetch - main [MainThread]: End processing [tic-tac-toe-backend]: success
+[2023-07-22 03:36:19] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-22 03:36:19] INFO root fetch - processPackages [gen3-util]: Remove: archive file [/home/abi/fetcher/tmp/gen3_util-0.0.4rc7.tar.gz]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [gen3-util]: Remove: archive file [/home/abi/fetcher/tmp/gen3_util-0.0.5rc1.tar.gz]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [gen3-util]: Start processing: rayfed-nightly
+[2023-07-22 03:36:19] INFO root fetch - main [MainThread]: End processing [gen3-util]: success
+[2023-07-22 03:36:19] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-07-22 03:36:19] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.81.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230722/b/bioregistry/0.9.81-0.9.9/diff.md --exclude *.pyd
+[2023-07-22 03:36:19] INFO root fetch - processPackages [sopel-modules.stocks]: Remove: archive file [/home/abi/fetcher/tmp/sopel_modules.stocks-1.2.1.tar.gz]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [sopel-modules.stocks]: Remove: archive file [/home/abi/fetcher/tmp/sopel_modules.stocks-1.2.2.tar.gz]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [sopel-modules.stocks]: Start processing: nbdev-pandas
+[2023-07-22 03:36:19] INFO root fetch - main [MainThread]: End processing [sopel-modules.stocks]: success
+[2023-07-22 03:36:19] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [langchain-experimental]: Downloading https://files.pythonhosted.org/packages/f0/f9/ad54d14fa8403b4545d17edf12fa70610288160abb922e622667b816c99f/langchain_experimental-0.0.1rc2.tar.gz
+[2023-07-22 03:36:19] INFO root fetch - processPackages [claude-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [rayfed-nightly]: New version: [0.1.0b20230722.dev0] Old Version: [0.1.0b20230720.dev0]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-22 03:36:19] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-22 03:36:19] INFO root fetch - processPackages [langchain-experimental]: executing diffoscope
+[2023-07-22 03:36:19] INFO root fetch - processPackages [langchain-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_experimental-0.0.1rc1.tar.gz tmp/langchain_experimental-0.0.1rc2.tar.gz --markdown 20230722/l/langchain-experimental/0.0.1rc1-0.0.1rc2/diff.md --exclude *.pyd
+[2023-07-22 03:36:19] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-22 03:36:19] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/e3/d0/3c78897a037f888af77ecfa6d86ffd61eeebe6a7006e2f35dc69f8630f03/claude-api-1.0.8.tar.gz
+[2023-07-22 03:36:19] INFO root fetch - processPackages [pls]: Remove: archive file [/home/abi/fetcher/tmp/pls-5.4.0.tar.gz]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [pls]: Remove: archive file [/home/abi/fetcher/tmp/pls-6.0.0.tar.gz]
+[2023-07-22 03:36:19] INFO root fetch - processPackages [pls]: Start processing: deltacat
+[2023-07-22 03:36:19] INFO root fetch - main [MainThread]: End processing [pls]: success
+[2023-07-22 03:36:19] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-22 03:36:19] INFO root fetch - processPackages [rayfed-nightly]: Downloading https://files.pythonhosted.org/packages/b8/c6/1639e9bbc1afb2e9cc37077474cdeaf6303b1ddad0057eb2f645c05a097b/rayfed_nightly-0.1.0b20230720.dev0-py3-none-any.whl
+[2023-07-22 03:36:19] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230722/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-22 03:36:19] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-22 03:36:19] INFO root fetch - processPackages [deltacat]: New version: [0.1.9.dev0] Old Version: [0.1.9]
+[2023-07-22 03:36:20] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-22 03:36:20] INFO root fetch - processPackages [lbt-ladybug]: executing diffoscope
+[2023-07-22 03:36:20] INFO root fetch - processPackages [lbt-ladybug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-ladybug-0.8.1.tar.gz tmp/lbt-ladybug-0.9.0.tar.gz --markdown 20230722/l/lbt-ladybug/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-22 03:36:20] INFO root fetch - processPackages [deltacat]: Downloading https://files.pythonhosted.org/packages/65/97/d9df40b8c21392597283008b24d709501012a50d694f7b4906d937a821d7/deltacat-0.1.9.tar.gz
+[2023-07-22 03:36:20] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-22 03:36:20] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230722/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-22 03:36:20] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-22 03:36:20] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230722/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-22 03:36:20] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/90/3c/c71498f040117ed30bc1f9a4d500309ead500bfd68443f41947d18fce600/claude-api-1.0.9.tar.gz
+[2023-07-22 03:36:20] INFO root fetch - processPackages [deltacat]: Downloading https://files.pythonhosted.org/packages/e4/d7/2fc51ca29931e17ba455fc8d9c55a9f652408864963811fe0fd121d3d7f5/deltacat-0.1.9.dev0.tar.gz
+[2023-07-22 03:36:20] INFO root fetch - processPackages [rayfed-nightly]: Downloading https://files.pythonhosted.org/packages/43/32/d801ce3cb7cfae7e6e82884c7557c6effe143db1bd2d4998177dd818ac73/rayfed_nightly-0.1.0b20230722.dev0-py3-none-any.whl
+[2023-07-22 03:36:20] INFO root fetch - processPackages [deltacat]: executing diffoscope
+[2023-07-22 03:36:20] INFO root fetch - processPackages [deltacat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltacat-0.1.9.tar.gz tmp/deltacat-0.1.9.dev0.tar.gz --markdown 20230722/d/deltacat/0.1.9-0.1.9.dev0/diff.md --exclude *.pyd
+[2023-07-22 03:36:20] INFO root fetch - processPackages [claude-api]: executing diffoscope
+[2023-07-22 03:36:20] INFO root fetch - processPackages [claude-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claude-api-1.0.8.tar.gz tmp/claude-api-1.0.9.tar.gz --markdown 20230722/c/claude-api/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-22 03:36:20] INFO root fetch - processPackages [rayfed-nightly]: executing diffoscope
+[2023-07-22 03:36:20] INFO root fetch - processPackages [rayfed-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayfed_nightly-0.1.0b20230720.dev0-py3-none-any.whl.zip tmp/rayfed_nightly-0.1.0b20230722.dev0-py3-none-any.whl.zip --markdown 20230722/r/rayfed-nightly/0.1.0b20230720.dev0-0.1.0b20230722.dev0/diff.md --exclude *.pyd
+[2023-07-22 03:36:21] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-22 03:36:21] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-22 03:36:21] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-22 03:36:21] INFO root fetch - processPackages [langchain-experimental]: Remove: archive file [/home/abi/fetcher/tmp/langchain_experimental-0.0.1rc1.tar.gz]
+[2023-07-22 03:36:21] INFO root fetch - processPackages [langchain-experimental]: Remove: archive file [/home/abi/fetcher/tmp/langchain_experimental-0.0.1rc2.tar.gz]
+[2023-07-22 03:36:21] INFO root fetch - main [MainThread]: End processing [langchain-experimental]: success
+[2023-07-22 03:36:21] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-22 03:36:21] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-22 03:36:21] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-22 03:36:21] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-22 03:36:21] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-22 03:36:21] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-22 03:36:22] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.8.tar.gz]
+[2023-07-22 03:36:22] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.9.tar.gz]
+[2023-07-22 03:36:22] INFO root fetch - main [MainThread]: End processing [claude-api]: success
+[2023-07-22 03:36:22] INFO root fetch - processPackages [rayfed-nightly]: Remove: archive file [/home/abi/fetcher/tmp/rayfed_nightly-0.1.0b20230720.dev0-py3-none-any.whl.zip]
+[2023-07-22 03:36:22] INFO root fetch - processPackages [rayfed-nightly]: Remove: archive file [/home/abi/fetcher/tmp/rayfed_nightly-0.1.0b20230722.dev0-py3-none-any.whl.zip]
+[2023-07-22 03:36:22] INFO root fetch - main [MainThread]: End processing [rayfed-nightly]: success
+[2023-07-22 03:36:22] INFO root fetch - processPackages [deltacat]: Remove: archive file [/home/abi/fetcher/tmp/deltacat-0.1.9.tar.gz]
+[2023-07-22 03:36:22] INFO root fetch - processPackages [deltacat]: Remove: archive file [/home/abi/fetcher/tmp/deltacat-0.1.9.dev0.tar.gz]
+[2023-07-22 03:36:22] INFO root fetch - main [MainThread]: End processing [deltacat]: success
+[2023-07-22 03:36:22] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.8.1.tar.gz]
+[2023-07-22 03:36:22] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.9.0.tar.gz]
+[2023-07-22 03:36:22] INFO root fetch - main [MainThread]: End processing [lbt-ladybug]: success
+[2023-07-22 03:36:24] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202307191402.tar.gz]
+[2023-07-22 03:36:24] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202307220133.tar.gz]
+[2023-07-22 03:36:24] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
+[2023-07-22 03:39:19] ERROR root fetch - processPackages [bioregistry]: Timeout during execution of pkgdiff
+[2023-07-22 03:39:19] INFO root fetch - main [MainThread]: End processing [bioregistry] error
+[2023-07-22 03:39:19] INFO root fetch - main [MainThread]: Store serial: [18992043]
