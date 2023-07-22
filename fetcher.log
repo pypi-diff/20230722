@@ -9111,3 +9111,18 @@
 [2023-07-22 06:32:08] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6921.tar.gz]
 [2023-07-22 06:32:08] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-22 06:32:08] INFO root fetch - main [MainThread]: Store serial: [18992695]
+[2023-07-22 06:37:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992695]
+[2023-07-22 06:37:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-22 06:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: algoapi
+[2023-07-22 06:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: structuretoolkit
+[2023-07-22 06:37:17] WARNING root fetch - processPackages [algoapi]: Skipping, unable to determine old version
+[2023-07-22 06:37:17] INFO root fetch - main [MainThread]: End processing [algoapi] error
+[2023-07-22 06:37:17] INFO root fetch - processPackages [structuretoolkit]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-22 06:37:17] INFO root fetch - processPackages [structuretoolkit]: Downloading https://files.pythonhosted.org/packages/23/cb/1decc21a2620c417829e23088d5804b2b3ea335ca478c8f62390bf87a38d/structuretoolkit-0.0.5.tar.gz
+[2023-07-22 06:37:17] INFO root fetch - processPackages [structuretoolkit]: Downloading https://files.pythonhosted.org/packages/6a/34/0851137339503fe06ea9b30a33312cfe166f6ea4d6e1d498abf5935ea542/structuretoolkit-0.0.6.tar.gz
+[2023-07-22 06:37:17] INFO root fetch - processPackages [structuretoolkit]: executing diffoscope
+[2023-07-22 06:37:17] INFO root fetch - processPackages [structuretoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structuretoolkit-0.0.5.tar.gz tmp/structuretoolkit-0.0.6.tar.gz --markdown 20230722/s/structuretoolkit/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-22 06:37:18] INFO root fetch - processPackages [structuretoolkit]: Remove: archive file [/home/abi/fetcher/tmp/structuretoolkit-0.0.5.tar.gz]
+[2023-07-22 06:37:18] INFO root fetch - processPackages [structuretoolkit]: Remove: archive file [/home/abi/fetcher/tmp/structuretoolkit-0.0.6.tar.gz]
+[2023-07-22 06:37:18] INFO root fetch - main [MainThread]: End processing [structuretoolkit]: success
+[2023-07-22 06:37:18] INFO root fetch - main [MainThread]: Store serial: [18992704]
