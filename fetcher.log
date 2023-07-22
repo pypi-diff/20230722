@@ -14070,3 +14070,75 @@
 [2023-07-22 14:59:25] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.6.tar.gz]
 [2023-07-22 14:59:25] INFO root fetch - main [MainThread]: End processing [tablate]: success
 [2023-07-22 14:59:25] INFO root fetch - main [MainThread]: Store serial: [18994953]
+[2023-07-22 15:04:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994953]
+[2023-07-22 15:04:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-22 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lemonbar
+[2023-07-22 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: binpan
+[2023-07-22 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rfswarm-agent
+[2023-07-22 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rfswarm-manager
+[2023-07-22 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rfswarm-reporter
+[2023-07-22 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-07-22 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: schemadiffed
+[2023-07-22 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ubox
+[2023-07-22 15:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyroostermoney
+[2023-07-22 15:04:34] WARNING root fetch - processPackages [ubox]: Skipping, unable to determine old version
+[2023-07-22 15:04:34] INFO root fetch - main [MainThread]: End processing [ubox] error
+[2023-07-22 15:04:34] INFO root fetch - processPackages [lemonbar]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-07-22 15:04:34] INFO root fetch - processPackages [binpan]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-22 15:04:34] WARNING root fetch - processPackages [schemadiffed]: Skipping, unable to determine old version
+[2023-07-22 15:04:34] INFO root fetch - main [MainThread]: End processing [schemadiffed] error
+[2023-07-22 15:04:34] INFO root fetch - processPackages [rfswarm-reporter]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-22 15:04:34] INFO root fetch - processPackages [pyroostermoney]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-22 15:04:34] INFO root fetch - processPackages [rfswarm-manager]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-22 15:04:34] INFO root fetch - processPackages [lemonbar]: Downloading https://files.pythonhosted.org/packages/6e/68/f6c36d17a4dce9b5e0e2445d7dde48530e9970f66af0eb07efcc86419567/lemonbar-0.6.5.tar.gz
+[2023-07-22 15:04:34] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.7.22] Old Version: [2023.7.21]
+[2023-07-22 15:04:34] INFO root fetch - processPackages [binpan]: Downloading https://files.pythonhosted.org/packages/9a/c3/428612272a28dfbf5f1cdd8ea5a1b04925a2386a536f411087b1c492cb6b/binpan-0.4.8.tar.gz
+[2023-07-22 15:04:34] INFO root fetch - processPackages [rfswarm-agent]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-22 15:04:34] INFO root fetch - processPackages [rfswarm-reporter]: Downloading https://files.pythonhosted.org/packages/a9/8b/61e348522b5ff916177fd76eaaafde82545b59a68a52f4a5731d9a03b2f9/rfswarm-reporter-1.1.3.tar.gz
+[2023-07-22 15:04:34] INFO root fetch - processPackages [pyroostermoney]: Downloading https://files.pythonhosted.org/packages/8a/3b/44d4db260a3bd321fdd399a9df788d17eaa6e34f52abbd226c7013b79b64/pyroostermoney-0.2.2.tar.gz
+[2023-07-22 15:04:34] INFO root fetch - processPackages [rfswarm-manager]: Downloading https://files.pythonhosted.org/packages/28/03/70ff55bea14788c025be8e80a6aa7c66167f9fe4e0e8a2e17bc0bb465d4c/rfswarm-manager-1.1.3.tar.gz
+[2023-07-22 15:04:34] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/dd/55/95930d04b13447997b10272c617dafd6ea8e9b977acecef40e530b63d1ca/fbgemm_gpu_nightly_cpu-2023.7.21-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-22 15:04:34] INFO root fetch - processPackages [binpan]: Downloading https://files.pythonhosted.org/packages/a0/98/349c07c553f7bfad1d6e1c7717a411195002cd92d0fc40e3ade7867c8d7f/binpan-0.4.9.tar.gz
+[2023-07-22 15:04:34] INFO root fetch - processPackages [rfswarm-agent]: Downloading https://files.pythonhosted.org/packages/4d/52/a1ba6bf9fadab23f5e435a4bc2f8f731e0d970c568018e123cd217ee6624/rfswarm-agent-1.1.3.tar.gz
+[2023-07-22 15:04:34] INFO root fetch - processPackages [lemonbar]: Downloading https://files.pythonhosted.org/packages/10/ae/6bf78889e3a29536053f446da44fe5ae2cf4be148204ab1282b291af7361/lemonbar-0.6.6.tar.gz
+[2023-07-22 15:04:34] INFO root fetch - processPackages [binpan]: executing diffoscope
+[2023-07-22 15:04:34] INFO root fetch - processPackages [binpan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binpan-0.4.8.tar.gz tmp/binpan-0.4.9.tar.gz --markdown 20230722/b/binpan/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-22 15:04:34] INFO root fetch - processPackages [lemonbar]: executing diffoscope
+[2023-07-22 15:04:34] INFO root fetch - processPackages [lemonbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemonbar-0.6.5.tar.gz tmp/lemonbar-0.6.6.tar.gz --markdown 20230722/l/lemonbar/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-07-22 15:04:35] INFO root fetch - processPackages [pyroostermoney]: Downloading https://files.pythonhosted.org/packages/fe/02/0a3483afe7136a7f5a7c4cf7a36d4f66e1baddef5f128ada98f236e06961/pyroostermoney-0.2.3.tar.gz
+[2023-07-22 15:04:35] INFO root fetch - processPackages [rfswarm-reporter]: Downloading https://files.pythonhosted.org/packages/b5/41/b3312593b8c20946e1928e5af2518b0b056b0af7dcd86c6182e2768654a6/rfswarm-reporter-1.1.4.tar.gz
+[2023-07-22 15:04:35] INFO root fetch - processPackages [rfswarm-manager]: Downloading https://files.pythonhosted.org/packages/4b/85/093e3e59c5e6b9df7240a6cf931a8852afcbd61a2a6699f14bba22645320/rfswarm-manager-1.1.4.tar.gz
+[2023-07-22 15:04:35] INFO root fetch - processPackages [rfswarm-agent]: Downloading https://files.pythonhosted.org/packages/bb/95/a4c91b43317e0917cb5121c1334eeb98c1ae6713cb727d1987ceda1cf093/rfswarm-agent-1.1.4.tar.gz
+[2023-07-22 15:04:35] INFO root fetch - processPackages [rfswarm-reporter]: executing diffoscope
+[2023-07-22 15:04:35] INFO root fetch - processPackages [rfswarm-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfswarm-reporter-1.1.3.tar.gz tmp/rfswarm-reporter-1.1.4.tar.gz --markdown 20230722/r/rfswarm-reporter/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-22 15:04:35] INFO root fetch - processPackages [pyroostermoney]: executing diffoscope
+[2023-07-22 15:04:35] INFO root fetch - processPackages [pyroostermoney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroostermoney-0.2.2.tar.gz tmp/pyroostermoney-0.2.3.tar.gz --markdown 20230722/p/pyroostermoney/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-22 15:04:35] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f6/4b/8c47ac1a02c6524afd6f479cf8a80ec2b7b56d91e70abcd0403d59fe3f93/fbgemm_gpu_nightly_cpu-2023.7.22-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-22 15:04:35] INFO root fetch - processPackages [rfswarm-agent]: executing diffoscope
+[2023-07-22 15:04:35] INFO root fetch - processPackages [rfswarm-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfswarm-agent-1.1.3.tar.gz tmp/rfswarm-agent-1.1.4.tar.gz --markdown 20230722/r/rfswarm-agent/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-22 15:04:35] INFO root fetch - processPackages [rfswarm-manager]: executing diffoscope
+[2023-07-22 15:04:35] INFO root fetch - processPackages [rfswarm-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfswarm-manager-1.1.3.tar.gz tmp/rfswarm-manager-1.1.4.tar.gz --markdown 20230722/r/rfswarm-manager/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-22 15:04:35] INFO root fetch - processPackages [lemonbar]: Remove: archive file [/home/abi/fetcher/tmp/lemonbar-0.6.5.tar.gz]
+[2023-07-22 15:04:35] INFO root fetch - processPackages [lemonbar]: Remove: archive file [/home/abi/fetcher/tmp/lemonbar-0.6.6.tar.gz]
+[2023-07-22 15:04:35] INFO root fetch - main [MainThread]: End processing [lemonbar]: success
+[2023-07-22 15:04:36] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-07-22 15:04:36] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.7.21-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.7.22-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230722/f/fbgemm-gpu-nightly-cpu/2023.7.21-2023.7.22/diff.md --exclude *.pyd
+[2023-07-22 15:04:36] INFO root fetch - processPackages [binpan]: Remove: archive file [/home/abi/fetcher/tmp/binpan-0.4.8.tar.gz]
+[2023-07-22 15:04:36] INFO root fetch - processPackages [binpan]: Remove: archive file [/home/abi/fetcher/tmp/binpan-0.4.9.tar.gz]
+[2023-07-22 15:04:36] INFO root fetch - main [MainThread]: End processing [binpan]: success
+[2023-07-22 15:04:36] INFO root fetch - processPackages [pyroostermoney]: Remove: archive file [/home/abi/fetcher/tmp/pyroostermoney-0.2.2.tar.gz]
+[2023-07-22 15:04:36] INFO root fetch - processPackages [pyroostermoney]: Remove: archive file [/home/abi/fetcher/tmp/pyroostermoney-0.2.3.tar.gz]
+[2023-07-22 15:04:36] INFO root fetch - main [MainThread]: End processing [pyroostermoney]: success
+[2023-07-22 15:04:36] INFO root fetch - processPackages [rfswarm-reporter]: Remove: archive file [/home/abi/fetcher/tmp/rfswarm-reporter-1.1.3.tar.gz]
+[2023-07-22 15:04:36] INFO root fetch - processPackages [rfswarm-reporter]: Remove: archive file [/home/abi/fetcher/tmp/rfswarm-reporter-1.1.4.tar.gz]
+[2023-07-22 15:04:36] INFO root fetch - main [MainThread]: End processing [rfswarm-reporter]: success
+[2023-07-22 15:04:36] INFO root fetch - processPackages [rfswarm-agent]: Remove: archive file [/home/abi/fetcher/tmp/rfswarm-agent-1.1.3.tar.gz]
+[2023-07-22 15:04:36] INFO root fetch - processPackages [rfswarm-agent]: Remove: archive file [/home/abi/fetcher/tmp/rfswarm-agent-1.1.4.tar.gz]
+[2023-07-22 15:04:36] INFO root fetch - main [MainThread]: End processing [rfswarm-agent]: success
+[2023-07-22 15:04:36] INFO root fetch - processPackages [rfswarm-manager]: Remove: archive file [/home/abi/fetcher/tmp/rfswarm-manager-1.1.3.tar.gz]
+[2023-07-22 15:04:36] INFO root fetch - processPackages [rfswarm-manager]: Remove: archive file [/home/abi/fetcher/tmp/rfswarm-manager-1.1.4.tar.gz]
+[2023-07-22 15:04:36] INFO root fetch - main [MainThread]: End processing [rfswarm-manager]: success
+[2023-07-22 15:04:36] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.21-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-22 15:04:36] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.22-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-22 15:04:36] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-07-22 15:04:36] INFO root fetch - main [MainThread]: Store serial: [18994980]
