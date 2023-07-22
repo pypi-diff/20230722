@@ -8509,3 +8509,61 @@
 [2023-07-22 05:29:48] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6914.tar.gz]
 [2023-07-22 05:29:48] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-22 05:29:48] INFO root fetch - main [MainThread]: Store serial: [18992473]
+[2023-07-22 05:34:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992473]
+[2023-07-22 05:34:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 05:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulpcore
+[2023-07-22 05:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulpcore-client
+[2023-07-22 05:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moabdb
+[2023-07-22 05:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulpcore
+[2023-07-22 05:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulpcore-client
+[2023-07-22 05:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulpcore
+[2023-07-22 05:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulpcore-client
+[2023-07-22 05:34:57] INFO root fetch - processPackages [moabdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-22 05:34:57] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/96/03/58935b420c952db4961424ceeba97283a4c72fb94531da0acb864c0aa9ab/moabdb-0.1.8.tar.gz
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/bc/86/6e7f7c30116cfa30b6bd9e4cb32992d10e7c7f831ceef210610b30707023/pulpcore-client-3.9.0.dev1607297320.tar.gz
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/bc/86/6e7f7c30116cfa30b6bd9e4cb32992d10e7c7f831ceef210610b30707023/pulpcore-client-3.9.0.dev1607297320.tar.gz
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/bc/86/6e7f7c30116cfa30b6bd9e4cb32992d10e7c7f831ceef210610b30707023/pulpcore-client-3.9.0.dev1607297320.tar.gz
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/f8/1d/71d5ee5112d508faa58a8e221cf74383b6d987ca0d17c18e2703c7f42845/pulpcore-3.9.0.tar.gz
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/f8/1d/71d5ee5112d508faa58a8e221cf74383b6d987ca0d17c18e2703c7f42845/pulpcore-3.9.0.tar.gz
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/f8/1d/71d5ee5112d508faa58a8e221cf74383b6d987ca0d17c18e2703c7f42845/pulpcore-3.9.0.tar.gz
+[2023-07-22 05:34:57] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/02/5a/dc332fba4b2f9beda962be321254cf1d20a93377cc750891d55f43989ee9/moabdb-0.1.9.tar.gz
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/35/63/611a0870907086abd3a010fad88acd0236d830aac5b72032d41e66440aff/pulpcore-client-3.9.1.tar.gz
+[2023-07-22 05:34:57] INFO root fetch - processPackages [moabdb]: executing diffoscope
+[2023-07-22 05:34:57] INFO root fetch - processPackages [moabdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moabdb-0.1.8.tar.gz tmp/moabdb-0.1.9.tar.gz --markdown 20230722/m/moabdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/35/63/611a0870907086abd3a010fad88acd0236d830aac5b72032d41e66440aff/pulpcore-client-3.9.1.tar.gz
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/35/63/611a0870907086abd3a010fad88acd0236d830aac5b72032d41e66440aff/pulpcore-client-3.9.1.tar.gz
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230722/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230722/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230722/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/bb/70/24516074cc53b97be0e41b4892a3f5bcf3ac34e3b7634e49e28a6ae67a49/pulpcore-3.9.1.tar.gz
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/bb/70/24516074cc53b97be0e41b4892a3f5bcf3ac34e3b7634e49e28a6ae67a49/pulpcore-3.9.1.tar.gz
+[2023-07-22 05:34:57] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/bb/70/24516074cc53b97be0e41b4892a3f5bcf3ac34e3b7634e49e28a6ae67a49/pulpcore-3.9.1.tar.gz
+[2023-07-22 05:34:58] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-07-22 05:34:58] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230722/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-22 05:34:58] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-07-22 05:34:58] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230722/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-22 05:34:58] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-07-22 05:34:58] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230722/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-22 05:34:58] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.8.tar.gz]
+[2023-07-22 05:34:58] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.9.tar.gz]
+[2023-07-22 05:34:58] INFO root fetch - main [MainThread]: End processing [moabdb]: success
+[2023-07-22 05:34:59] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz]
+[2023-07-22 05:34:59] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.1.tar.gz]
+[2023-07-22 05:34:59] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-07-22 05:34:59] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-07-22 05:34:59] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-07-22 05:35:00] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.0.tar.gz]
+[2023-07-22 05:35:00] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.1.tar.gz]
+[2023-07-22 05:35:00] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-07-22 05:35:00] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-07-22 05:35:00] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-07-22 05:35:00] INFO root fetch - main [MainThread]: Store serial: [18992496]
