@@ -19440,3 +19440,59 @@ EOFError: EOF read where object expected
 [2023-07-22 22:17:52] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-7.0.7-py3-none-any.whl.zip]
 [2023-07-22 22:17:52] INFO root fetch - main [MainThread]: End processing [netron]: success
 [2023-07-22 22:17:52] INFO root fetch - main [MainThread]: Store serial: [18997276]
+[2023-07-22 22:22:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18997276]
+[2023-07-22 22:23:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 22:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ElisionPy
+[2023-07-22 22:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chungus
+[2023-07-22 22:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mojo-interop
+[2023-07-22 22:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-07-22 22:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-07-22 22:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pygleif
+[2023-07-22 22:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ElisionPy
+[2023-07-22 22:23:01] INFO root fetch - processPackages [mojo-interop]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 22:23:01] WARNING root fetch - processPackages [chungus]: Skipping, unable to determine old version
+[2023-07-22 22:23:01] INFO root fetch - main [MainThread]: End processing [chungus] error
+[2023-07-22 22:23:01] INFO root fetch - processPackages [ElisionPy]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-22 22:23:01] INFO root fetch - processPackages [ElisionPy]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-22 22:23:01] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-22 22:23:01] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-22 22:23:01] INFO root fetch - processPackages [pygleif]: New version: [5.0.0] Old Version: [4.0.6]
+[2023-07-22 22:23:01] INFO root fetch - processPackages [ElisionPy]: Downloading https://files.pythonhosted.org/packages/14/2d/330026f086aae425bee4bfb364b17c05aba240e539680d9c52ade29bb701/ElisionPy-0.0.5.tar.gz
+[2023-07-22 22:23:01] INFO root fetch - processPackages [ElisionPy]: Downloading https://files.pythonhosted.org/packages/14/2d/330026f086aae425bee4bfb364b17c05aba240e539680d9c52ade29bb701/ElisionPy-0.0.5.tar.gz
+[2023-07-22 22:23:02] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-22 22:23:02] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/55/36/9f539ca328591858e08e09e01710b5923e4b5fe2e60213684f9eb88bbee1/mojo_interop-0.0.8.tar.gz
+[2023-07-22 22:23:02] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-22 22:23:02] INFO root fetch - processPackages [pygleif]: Downloading https://files.pythonhosted.org/packages/1a/d2/91db03b929c7cd9444955cb496913cb1bbe739befca76eb775d1b490a9cf/pygleif-4.0.6.tar.gz
+[2023-07-22 22:23:02] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-22 22:23:02] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-22 22:23:02] INFO root fetch - processPackages [ElisionPy]: Downloading https://files.pythonhosted.org/packages/fe/85/1998d4e59aaed56216c960ae8f729e5e635d7dca421064852ba7af8549a2/ElisionPy-0.0.6.tar.gz
+[2023-07-22 22:23:02] INFO root fetch - processPackages [ElisionPy]: Downloading https://files.pythonhosted.org/packages/fe/85/1998d4e59aaed56216c960ae8f729e5e635d7dca421064852ba7af8549a2/ElisionPy-0.0.6.tar.gz
+[2023-07-22 22:23:02] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-22 22:23:02] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230722/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-22 22:23:02] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-22 22:23:02] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230722/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-22 22:23:02] INFO root fetch - processPackages [ElisionPy]: executing diffoscope
+[2023-07-22 22:23:02] INFO root fetch - processPackages [ElisionPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ElisionPy-0.0.5.tar.gz tmp/ElisionPy-0.0.6.tar.gz --markdown 20230722/E/ElisionPy/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-22 22:23:02] INFO root fetch - processPackages [ElisionPy]: executing diffoscope
+[2023-07-22 22:23:02] INFO root fetch - processPackages [ElisionPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ElisionPy-0.0.5.tar.gz tmp/ElisionPy-0.0.6.tar.gz --markdown 20230722/E/ElisionPy/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-22 22:23:02] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/ea/70/9e09838bffe5311c4accab6c3c9f2293ee5a591bd45e9bf64ebb9a01b20d/mojo_interop-0.0.9.tar.gz
+[2023-07-22 22:23:02] INFO root fetch - processPackages [pygleif]: Downloading https://files.pythonhosted.org/packages/6f/6d/9cbd145debd59b4efa8d51aa4fe3e647add8d2315ad2b8def5b2f127d4d2/pygleif-5.0.0.tar.gz
+[2023-07-22 22:23:02] INFO root fetch - processPackages [mojo-interop]: executing diffoscope
+[2023-07-22 22:23:02] INFO root fetch - processPackages [mojo-interop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_interop-0.0.8.tar.gz tmp/mojo_interop-0.0.9.tar.gz --markdown 20230722/m/mojo-interop/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 22:23:02] INFO root fetch - processPackages [pygleif]: executing diffoscope
+[2023-07-22 22:23:02] INFO root fetch - processPackages [pygleif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygleif-4.0.6.tar.gz tmp/pygleif-5.0.0.tar.gz --markdown 20230722/p/pygleif/4.0.6-5.0.0/diff.md --exclude *.pyd
+[2023-07-22 22:23:03] INFO root fetch - processPackages [ElisionPy]: Remove: archive file [/home/abi/fetcher/tmp/ElisionPy-0.0.5.tar.gz]
+[2023-07-22 22:23:03] INFO root fetch - processPackages [ElisionPy]: Remove: archive file [/home/abi/fetcher/tmp/ElisionPy-0.0.6.tar.gz]
+[2023-07-22 22:23:03] INFO root fetch - main [MainThread]: End processing [ElisionPy]: success
+[2023-07-22 22:23:03] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-22 22:23:03] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-22 22:23:03] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-22 22:23:03] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-22 22:23:03] INFO root fetch - main [MainThread]: End processing [ElisionPy]: success
+[2023-07-22 22:23:03] INFO root fetch - processPackages [pygleif]: Remove: archive file [/home/abi/fetcher/tmp/pygleif-4.0.6.tar.gz]
+[2023-07-22 22:23:03] INFO root fetch - processPackages [pygleif]: Remove: archive file [/home/abi/fetcher/tmp/pygleif-5.0.0.tar.gz]
+[2023-07-22 22:23:03] INFO root fetch - main [MainThread]: End processing [pygleif]: success
+[2023-07-22 22:23:05] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.8.tar.gz]
+[2023-07-22 22:23:05] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.9.tar.gz]
+[2023-07-22 22:23:05] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
+[2023-07-22 22:23:05] INFO root fetch - main [MainThread]: Store serial: [18997303]
