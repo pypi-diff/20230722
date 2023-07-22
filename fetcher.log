@@ -11207,3 +11207,110 @@
 [2023-07-22 10:21:33] INFO root fetch - processPackages [Fragmenstein]: Remove: archive file [/home/abi/fetcher/tmp/Fragmenstein-0.9.9.tar.gz]
 [2023-07-22 10:21:33] INFO root fetch - main [MainThread]: End processing [Fragmenstein]: success
 [2023-07-22 10:21:33] INFO root fetch - main [MainThread]: Store serial: [18993749]
+[2023-07-22 10:26:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993749]
+[2023-07-22 10:26:44] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-22 10:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: talkytimes-package
+[2023-07-22 10:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyroFork-dev
+[2023-07-22 10:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talkytrend
+[2023-07-22 10:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finterstellar
+[2023-07-22 10:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vhmap
+[2023-07-22 10:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-model-optimization-nightly
+[2023-07-22 10:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Fragmenstein
+[2023-07-22 10:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: payload-validator
+[2023-07-22 10:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dd8
+[2023-07-22 10:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scraid
+[2023-07-22 10:26:44] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 10:26:44] INFO root fetch - processPackages [finterstellar]: New version: [0.2.18] Old Version: [0.2.17]
+[2023-07-22 10:26:44] INFO root fetch - processPackages [Fragmenstein]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-22 10:26:44] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.5.dev202307229435] Old Version: [2.2.5.dev202307219555]
+[2023-07-22 10:26:44] INFO root fetch - processPackages [Fragmenstein]: Downloading https://files.pythonhosted.org/packages/0b/a4/e04b08babef0f3451bb90c887398610b7d4708a622bbe7261a90ced49075/Fragmenstein-0.9.8.tar.gz
+[2023-07-22 10:26:44] INFO root fetch - processPackages [scraid]: New version: [0.12] Old Version: [0.11]
+[2023-07-22 10:26:44] WARNING root fetch - processPackages [payload-validator]: Skipping, unable to determine old version
+[2023-07-22 10:26:44] INFO root fetch - processPackages [payload-validator]: Start processing: terminal-manager
+[2023-07-22 10:26:44] INFO root fetch - main [MainThread]: End processing [payload-validator] error
+[2023-07-22 10:26:44] INFO root fetch - processPackages [dd8]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 10:26:44] INFO root fetch - processPackages [vhmap]: New version: [4.0.0] Old Version: [3.0.2]
+[2023-07-22 10:26:44] INFO root fetch - processPackages [talkytrend]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-22 10:26:44] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230722] Old Version: [0.7.5.dev20230720]
+[2023-07-22 10:26:44] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-22 10:26:44] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/15/79/d60838163171217117dc7f75369888f901dc9b151762d70f13d2b8a8b6b6/PyroFork-dev-2.2.5.dev202307219555.tar.gz
+[2023-07-22 10:26:44] INFO root fetch - processPackages [terminal-manager]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-22 10:26:44] INFO root fetch - processPackages [finterstellar]: Downloading https://files.pythonhosted.org/packages/d3/52/491b578007204709551958c145b1d8663deb9392a890ff864c4591804fe2/finterstellar-0.2.17.tar.gz
+[2023-07-22 10:26:44] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/b3/2a/df5c9d000e8fcbdd635725414c4ac1202b9379d0f044654bb2819c93d332/terminal_manager-0.8.3.tar.gz
+[2023-07-22 10:26:44] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/06/54/2a5f3e3733b3addea1cdecaa5eb5b1e5762a24f002d1e7b5c9674b1437c4/tf_model_optimization_nightly-0.7.5.dev20230720-py2.py3-none-any.whl
+[2023-07-22 10:26:44] INFO root fetch - processPackages [scraid]: Downloading https://files.pythonhosted.org/packages/fe/14/e9b695a07006ed93daecf12d893dccb3161ebb92f77097c072e42d362873/scraid-0.11.tar.gz
+[2023-07-22 10:26:44] INFO root fetch - processPackages [dd8]: Downloading https://files.pythonhosted.org/packages/90/22/61643b792c55a61680e4f212b8ac0a05fb4a9e38c45307f97737c57df0e1/dd8-0.0.8.tar.gz
+[2023-07-22 10:26:44] INFO root fetch - processPackages [vhmap]: Downloading https://files.pythonhosted.org/packages/8d/a0/4335e483a9dcd5cd385c48dfc5d8a04b8824c5e312d04033f944cc01a357/vhmap-3.0.2.tar.gz
+[2023-07-22 10:26:44] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/7f/a0/91a5588b9d502eb6a2c4294ea61ada8eabb439cc70ea9da33f160db69eca/talkytrend-1.9.1.tar.gz
+[2023-07-22 10:26:44] INFO root fetch - processPackages [Fragmenstein]: Downloading https://files.pythonhosted.org/packages/a8/d1/92821094f67e3e54cb4100ad5d2af3885b2d5fe6173dbdffc5619b1790ff/Fragmenstein-0.9.9.tar.gz
+[2023-07-22 10:26:44] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/47/4b/cbd9d4ad0909daa0b8dc918a9609f3711e81ec80ed82bff1ddd744bfd8ba/PyroFork-dev-2.2.5.dev202307229435.tar.gz
+[2023-07-22 10:26:45] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-22 10:26:45] WARNING root fetch - processPackages [vhmap]: Skipping package: exceeds size limit 27311033>=10485760
+[2023-07-22 10:26:45] INFO root fetch - processPackages [vhmap]: Start processing: dd8
+[2023-07-22 10:26:45] INFO root fetch - main [MainThread]: End processing [vhmap] error
+[2023-07-22 10:26:45] INFO root fetch - processPackages [Fragmenstein]: executing diffoscope
+[2023-07-22 10:26:45] INFO root fetch - processPackages [Fragmenstein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fragmenstein-0.9.8.tar.gz tmp/Fragmenstein-0.9.9.tar.gz --markdown 20230722/F/Fragmenstein/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-22 10:26:45] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/e6/34/a4d093c5bfd780ed601312a493da7004705507ba7273cd9c826d97ce8ab8/terminal_manager-0.8.4.tar.gz
+[2023-07-22 10:26:45] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-22 10:26:45] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230722/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 10:26:45] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-07-22 10:26:45] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.5.dev202307219555.tar.gz tmp/PyroFork-dev-2.2.5.dev202307229435.tar.gz --markdown 20230722/P/PyroFork-dev/2.2.5.dev202307219555-2.2.5.dev202307229435/diff.md --exclude *.pyd
+[2023-07-22 10:26:45] INFO root fetch - processPackages [dd8]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 10:26:45] INFO root fetch - processPackages [finterstellar]: Downloading https://files.pythonhosted.org/packages/cd/f7/837bc9234c2470cb9f48b505b637311dca2351037982a6f36a9e6c673c30/finterstellar-0.2.18.tar.gz
+[2023-07-22 10:26:45] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/53/e2/c2d707a4626f26e1fb1d80f4d9aecf86510b8faeec72a12f2d8b0d9e9ba3/talkytrend-1.9.2.tar.gz
+[2023-07-22 10:26:45] INFO root fetch - processPackages [scraid]: Downloading https://files.pythonhosted.org/packages/a9/f6/2ba61c9a1e938660f11d2a3225ba749967841829c32da1d2f309ebf3f234/scraid-0.12.tar.gz
+[2023-07-22 10:26:45] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/01/e1/4c91ff59e49889eca21a9cf3292072ef3196c7da74991b1a5909afb6ad23/tf_model_optimization_nightly-0.7.5.dev20230722-py2.py3-none-any.whl
+[2023-07-22 10:26:45] INFO root fetch - processPackages [dd8]: Downloading https://files.pythonhosted.org/packages/d4/b4/e348d6b4bac1a04838f7530033ea58b4f1b7612caeb5f5fde2086227eae2/dd8-0.0.9.tar.gz
+[2023-07-22 10:26:45] INFO root fetch - processPackages [terminal-manager]: executing diffoscope
+[2023-07-22 10:26:45] INFO root fetch - processPackages [terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_manager-0.8.3.tar.gz tmp/terminal_manager-0.8.4.tar.gz --markdown 20230722/t/terminal-manager/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-22 10:26:45] INFO root fetch - processPackages [finterstellar]: executing diffoscope
+[2023-07-22 10:26:45] INFO root fetch - processPackages [finterstellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finterstellar-0.2.17.tar.gz tmp/finterstellar-0.2.18.tar.gz --markdown 20230722/f/finterstellar/0.2.17-0.2.18/diff.md --exclude *.pyd
+[2023-07-22 10:26:45] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-07-22 10:26:45] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.9.1.tar.gz tmp/talkytrend-1.9.2.tar.gz --markdown 20230722/t/talkytrend/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-22 10:26:45] INFO root fetch - processPackages [dd8]: Downloading https://files.pythonhosted.org/packages/d4/b4/e348d6b4bac1a04838f7530033ea58b4f1b7612caeb5f5fde2086227eae2/dd8-0.0.9.tar.gz
+[2023-07-22 10:26:45] INFO root fetch - processPackages [dd8]: executing diffoscope
+[2023-07-22 10:26:45] INFO root fetch - processPackages [dd8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dd8-0.0.8.tar.gz tmp/dd8-0.0.9.tar.gz --markdown 20230722/d/dd8/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 10:26:45] INFO root fetch - processPackages [scraid]: executing diffoscope
+[2023-07-22 10:26:45] INFO root fetch - processPackages [scraid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scraid-0.11.tar.gz tmp/scraid-0.12.tar.gz --markdown 20230722/s/scraid/0.11-0.12/diff.md --exclude *.pyd
+[2023-07-22 10:26:45] INFO root fetch - processPackages [dd8]: executing diffoscope
+[2023-07-22 10:26:45] INFO root fetch - processPackages [dd8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dd8-0.0.8.tar.gz tmp/dd8-0.0.9.tar.gz --markdown 20230722/d/dd8/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 10:26:45] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-07-22 10:26:45] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230720-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230722-py2.py3-none-any.whl.zip --markdown 20230722/t/tf-model-optimization-nightly/0.7.5.dev20230720-0.7.5.dev20230722/diff.md --exclude *.pyd
+[2023-07-22 10:26:46] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-22 10:26:46] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-22 10:26:46] INFO root fetch - processPackages [talkytimes-package]: Start processing: ssh-terminal-manager
+[2023-07-22 10:26:46] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-22 10:26:46] INFO root fetch - processPackages [ssh-terminal-manager]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-22 10:26:46] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/df/11/76b01e64bd4ca5a900d22bddb6d277f6dd9f8b3a46e236921fa58018e14b/ssh_terminal_manager-0.8.3.tar.gz
+[2023-07-22 10:26:46] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/17/99/007dcc063b1cff03e6ad83e99f8ecaace8aca51efeb562f613b89dd6169c/ssh_terminal_manager-0.8.4.tar.gz
+[2023-07-22 10:26:47] INFO root fetch - processPackages [ssh-terminal-manager]: executing diffoscope
+[2023-07-22 10:26:47] INFO root fetch - processPackages [ssh-terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_terminal_manager-0.8.3.tar.gz tmp/ssh_terminal_manager-0.8.4.tar.gz --markdown 20230722/s/ssh-terminal-manager/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-22 10:26:47] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.8.3.tar.gz]
+[2023-07-22 10:26:47] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.8.4.tar.gz]
+[2023-07-22 10:26:47] INFO root fetch - main [MainThread]: End processing [terminal-manager]: success
+[2023-07-22 10:26:47] INFO root fetch - processPackages [finterstellar]: Remove: archive file [/home/abi/fetcher/tmp/finterstellar-0.2.17.tar.gz]
+[2023-07-22 10:26:47] INFO root fetch - processPackages [finterstellar]: Remove: archive file [/home/abi/fetcher/tmp/finterstellar-0.2.18.tar.gz]
+[2023-07-22 10:26:47] INFO root fetch - main [MainThread]: End processing [finterstellar]: success
+[2023-07-22 10:26:47] INFO root fetch - processPackages [dd8]: Remove: archive file [/home/abi/fetcher/tmp/dd8-0.0.8.tar.gz]
+[2023-07-22 10:26:47] INFO root fetch - processPackages [dd8]: Remove: archive file [/home/abi/fetcher/tmp/dd8-0.0.9.tar.gz]
+[2023-07-22 10:26:47] INFO root fetch - main [MainThread]: End processing [dd8]: success
+[2023-07-22 10:26:47] INFO root fetch - processPackages [scraid]: Remove: archive file [/home/abi/fetcher/tmp/scraid-0.11.tar.gz]
+[2023-07-22 10:26:47] INFO root fetch - processPackages [scraid]: Remove: archive file [/home/abi/fetcher/tmp/scraid-0.12.tar.gz]
+[2023-07-22 10:26:47] INFO root fetch - main [MainThread]: End processing [scraid]: success
+[2023-07-22 10:26:47] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.9.1.tar.gz]
+[2023-07-22 10:26:47] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.9.2.tar.gz]
+[2023-07-22 10:26:47] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-07-22 10:26:47] INFO root fetch - main [MainThread]: End processing [dd8]: success
+[2023-07-22 10:26:47] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230720-py2.py3-none-any.whl.zip]
+[2023-07-22 10:26:47] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230722-py2.py3-none-any.whl.zip]
+[2023-07-22 10:26:47] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-07-22 10:26:47] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.8.3.tar.gz]
+[2023-07-22 10:26:47] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.8.4.tar.gz]
+[2023-07-22 10:26:47] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager]: success
+[2023-07-22 10:26:49] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.5.dev202307219555.tar.gz]
+[2023-07-22 10:26:49] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.5.dev202307229435.tar.gz]
+[2023-07-22 10:26:49] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-07-22 10:26:50] INFO root fetch - processPackages [Fragmenstein]: Remove: archive file [/home/abi/fetcher/tmp/Fragmenstein-0.9.8.tar.gz]
+[2023-07-22 10:26:50] INFO root fetch - processPackages [Fragmenstein]: Remove: archive file [/home/abi/fetcher/tmp/Fragmenstein-0.9.9.tar.gz]
+[2023-07-22 10:26:50] INFO root fetch - main [MainThread]: End processing [Fragmenstein]: success
+[2023-07-22 10:26:50] INFO root fetch - main [MainThread]: Store serial: [18993787]
