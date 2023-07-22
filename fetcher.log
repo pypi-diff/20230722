@@ -17562,3 +17562,84 @@ EOFError: EOF read where object expected
 [2023-07-22 19:28:34] INFO root fetch - processPackages [dxitemspy]: Remove: archive file [/home/abi/fetcher/tmp/dxitemspy-0.0.4.tar.gz]
 [2023-07-22 19:28:34] INFO root fetch - main [MainThread]: End processing [dxitemspy]: success
 [2023-07-22 19:28:34] INFO root fetch - main [MainThread]: Store serial: [18996568]
+[2023-07-22 19:33:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996568]
+[2023-07-22 19:33:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-22 19:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsversioner
+[2023-07-22 19:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OneOnOne
+[2023-07-22 19:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heaserver-activity
+[2023-07-22 19:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pikpakapi
+[2023-07-22 19:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c-l-testing
+[2023-07-22 19:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: missouri
+[2023-07-22 19:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odooless
+[2023-07-22 19:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: firefox-bookmarks
+[2023-07-22 19:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: guify
+[2023-07-22 19:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bren
+[2023-07-22 19:33:43] INFO root fetch - processPackages [odooless]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-22 19:33:43] INFO root fetch - processPackages [missouri]: New version: [0.2.0] Old Version: [0.1.0a1]
+[2023-07-22 19:33:43] INFO root fetch - processPackages [bren]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-22 19:33:44] INFO root fetch - processPackages [OneOnOne]: New version: [0.693] Old Version: [0.6929]
+[2023-07-22 19:33:44] INFO root fetch - processPackages [guify]: New version: [0.3.0a1] Old Version: [0.2.9]
+[2023-07-22 19:33:44] WARNING root fetch - processPackages [firefox-bookmarks]: Skipping, unable to determine old version
+[2023-07-22 19:33:44] INFO root fetch - main [MainThread]: End processing [firefox-bookmarks] error
+[2023-07-22 19:33:44] INFO root fetch - processPackages [dsversioner]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-22 19:33:44] INFO root fetch - processPackages [bren]: Downloading https://files.pythonhosted.org/packages/49/34/b1ced8838c13d9d19a6503163805bb17f3e14bf3a8a13e8311f390d4be34/bren-0.1.3.tar.gz
+[2023-07-22 19:33:44] INFO root fetch - processPackages [heaserver-activity]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-22 19:33:44] WARNING root fetch - processPackages [c-l-testing]: Skipping, unable to determine old version
+[2023-07-22 19:33:44] INFO root fetch - main [MainThread]: End processing [c-l-testing] error
+[2023-07-22 19:33:44] INFO root fetch - processPackages [pikpakapi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-22 19:33:44] INFO root fetch - processPackages [odooless]: Downloading https://files.pythonhosted.org/packages/89/c4/63e3de7fa239f7d77b32936d167963d5909021c5c359bb9ba2c2106c74ba/odooless-0.1.4.tar.gz
+[2023-07-22 19:33:44] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/b1/9c/10706a21e75844465af6ac2e4dd6f9d0a1f364134a48a6700811521ca152/guify-0.2.9.tar.gz
+[2023-07-22 19:33:44] INFO root fetch - processPackages [missouri]: Downloading https://files.pythonhosted.org/packages/e9/38/21c650f4252cacb3ca5d0d3e95354a99c7b8eed01a007d88078463dbc9aa/missouri-0.1.0a1.tar.gz
+[2023-07-22 19:33:44] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/fb/31/50cda5f616c07c9139274420f944f0203054901611cd94cf0cf500b619d6/OneOnOne-0.6929.tar.gz
+[2023-07-22 19:33:44] INFO root fetch - processPackages [heaserver-activity]: Downloading https://files.pythonhosted.org/packages/0d/e5/8db5ca2b11516b893253ec972df4119a1429a6b86f473f732a1eaf31b7f1/heaserver-activity-1.0.0a8.tar.gz
+[2023-07-22 19:33:44] INFO root fetch - processPackages [pikpakapi]: Downloading https://files.pythonhosted.org/packages/bb/b8/4f6295d62bcee399f67847456e1b6a4b04cce72f4f479498153175102fe2/pikpakapi-0.1.1.tar.gz
+[2023-07-22 19:33:44] INFO root fetch - processPackages [dsversioner]: Downloading https://files.pythonhosted.org/packages/c6/54/8eefc6947aef572a3159b5ee3ecbe11d9af6e1d11c4850f53e54771908b3/dsversioner-0.9.4.tar.gz
+[2023-07-22 19:33:44] INFO root fetch - processPackages [missouri]: Downloading https://files.pythonhosted.org/packages/f6/f6/f44e181e954dc0485346a019345c0250d92a0f12aa0fb58ffb29ae84e5d1/missouri-0.2.0.tar.gz
+[2023-07-22 19:33:44] INFO root fetch - processPackages [odooless]: Downloading https://files.pythonhosted.org/packages/23/ec/883532a5ac7ee4a4e6b36acb7197aa5851f0fe51b2d9b72169b46d4e57c3/odooless-0.1.5.tar.gz
+[2023-07-22 19:33:44] INFO root fetch - processPackages [bren]: Downloading https://files.pythonhosted.org/packages/6b/95/417855a998f9ce7ccb3f32c92be84e76200dc60a5d4b44ebbdd4fe200b9f/bren-0.1.4.tar.gz
+[2023-07-22 19:33:44] INFO root fetch - processPackages [missouri]: executing diffoscope
+[2023-07-22 19:33:44] INFO root fetch - processPackages [missouri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/missouri-0.1.0a1.tar.gz tmp/missouri-0.2.0.tar.gz --markdown 20230722/m/missouri/0.1.0a1-0.2.0/diff.md --exclude *.pyd
+[2023-07-22 19:33:44] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/eb/3f/10d1ea76d9dd38b6d5e6aeb22df62c9d527eb1fd2ec6c466e6d06d1190c1/guify-0.3.0a1.tar.gz
+[2023-07-22 19:33:44] INFO root fetch - processPackages [odooless]: executing diffoscope
+[2023-07-22 19:33:44] INFO root fetch - processPackages [odooless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odooless-0.1.4.tar.gz tmp/odooless-0.1.5.tar.gz --markdown 20230722/o/odooless/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-22 19:33:44] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/28/46/b9355d4a95982dc515ba6c5c48c6be7e7b5f1de34d08061781a70b2173d8/OneOnOne-0.693.tar.gz
+[2023-07-22 19:33:44] INFO root fetch - processPackages [bren]: executing diffoscope
+[2023-07-22 19:33:44] INFO root fetch - processPackages [bren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bren-0.1.3.tar.gz tmp/bren-0.1.4.tar.gz --markdown 20230722/b/bren/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-22 19:33:44] INFO root fetch - processPackages [heaserver-activity]: Downloading https://files.pythonhosted.org/packages/4c/3a/67c0a4c8f841993e61fe8e3a7a178d26fdf6092e5996647479b2a8459ae0/heaserver-activity-1.0.0a9.tar.gz
+[2023-07-22 19:33:44] INFO root fetch - processPackages [dsversioner]: Downloading https://files.pythonhosted.org/packages/b3/c9/ae60e7dd6d274c005ec6153ad74299a02e426e447da08c7c4f81daab0f69/dsversioner-0.9.5.tar.gz
+[2023-07-22 19:33:44] INFO root fetch - processPackages [pikpakapi]: Downloading https://files.pythonhosted.org/packages/2a/37/12db523d83cedbefa57c97234caf925b2006349a80b07b1e8f35bfe4be7d/pikpakapi-0.1.2.tar.gz
+[2023-07-22 19:33:44] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-07-22 19:33:44] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.2.9.tar.gz tmp/guify-0.3.0a1.tar.gz --markdown 20230722/g/guify/0.2.9-0.3.0a1/diff.md --exclude *.pyd
+[2023-07-22 19:33:45] INFO root fetch - processPackages [heaserver-activity]: executing diffoscope
+[2023-07-22 19:33:45] INFO root fetch - processPackages [heaserver-activity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-activity-1.0.0a8.tar.gz tmp/heaserver-activity-1.0.0a9.tar.gz --markdown 20230722/h/heaserver-activity/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-22 19:33:45] INFO root fetch - processPackages [dsversioner]: executing diffoscope
+[2023-07-22 19:33:45] INFO root fetch - processPackages [dsversioner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsversioner-0.9.4.tar.gz tmp/dsversioner-0.9.5.tar.gz --markdown 20230722/d/dsversioner/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-22 19:33:45] INFO root fetch - processPackages [pikpakapi]: executing diffoscope
+[2023-07-22 19:33:45] INFO root fetch - processPackages [pikpakapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pikpakapi-0.1.1.tar.gz tmp/pikpakapi-0.1.2.tar.gz --markdown 20230722/p/pikpakapi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-22 19:33:45] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 19:33:45] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6929.tar.gz tmp/OneOnOne-0.693.tar.gz --markdown 20230722/O/OneOnOne/0.6929-0.693/diff.md --exclude *.pyd
+[2023-07-22 19:33:45] INFO root fetch - processPackages [odooless]: Remove: archive file [/home/abi/fetcher/tmp/odooless-0.1.4.tar.gz]
+[2023-07-22 19:33:45] INFO root fetch - processPackages [odooless]: Remove: archive file [/home/abi/fetcher/tmp/odooless-0.1.5.tar.gz]
+[2023-07-22 19:33:45] INFO root fetch - main [MainThread]: End processing [odooless]: success
+[2023-07-22 19:33:45] INFO root fetch - processPackages [missouri]: Remove: archive file [/home/abi/fetcher/tmp/missouri-0.1.0a1.tar.gz]
+[2023-07-22 19:33:45] INFO root fetch - processPackages [missouri]: Remove: archive file [/home/abi/fetcher/tmp/missouri-0.2.0.tar.gz]
+[2023-07-22 19:33:45] INFO root fetch - main [MainThread]: End processing [missouri]: success
+[2023-07-22 19:33:46] INFO root fetch - processPackages [heaserver-activity]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-activity-1.0.0a8.tar.gz]
+[2023-07-22 19:33:46] INFO root fetch - processPackages [heaserver-activity]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-activity-1.0.0a9.tar.gz]
+[2023-07-22 19:33:46] INFO root fetch - main [MainThread]: End processing [heaserver-activity]: success
+[2023-07-22 19:33:46] INFO root fetch - processPackages [pikpakapi]: Remove: archive file [/home/abi/fetcher/tmp/pikpakapi-0.1.1.tar.gz]
+[2023-07-22 19:33:46] INFO root fetch - processPackages [pikpakapi]: Remove: archive file [/home/abi/fetcher/tmp/pikpakapi-0.1.2.tar.gz]
+[2023-07-22 19:33:46] INFO root fetch - main [MainThread]: End processing [pikpakapi]: success
+[2023-07-22 19:33:46] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.2.9.tar.gz]
+[2023-07-22 19:33:46] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.3.0a1.tar.gz]
+[2023-07-22 19:33:46] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-07-22 19:33:46] INFO root fetch - processPackages [dsversioner]: Remove: archive file [/home/abi/fetcher/tmp/dsversioner-0.9.4.tar.gz]
+[2023-07-22 19:33:46] INFO root fetch - processPackages [dsversioner]: Remove: archive file [/home/abi/fetcher/tmp/dsversioner-0.9.5.tar.gz]
+[2023-07-22 19:33:46] INFO root fetch - main [MainThread]: End processing [dsversioner]: success
+[2023-07-22 19:33:46] INFO root fetch - processPackages [bren]: Remove: archive file [/home/abi/fetcher/tmp/bren-0.1.3.tar.gz]
+[2023-07-22 19:33:46] INFO root fetch - processPackages [bren]: Remove: archive file [/home/abi/fetcher/tmp/bren-0.1.4.tar.gz]
+[2023-07-22 19:33:46] INFO root fetch - main [MainThread]: End processing [bren]: success
+[2023-07-22 19:33:46] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6929.tar.gz]
+[2023-07-22 19:33:46] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.693.tar.gz]
+[2023-07-22 19:33:46] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 19:33:46] INFO root fetch - main [MainThread]: Store serial: [18996601]
