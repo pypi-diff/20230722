@@ -7958,3 +7958,24 @@
 [2023-07-22 04:58:27] INFO root fetch - processPackages [odoo-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_business_requirement-16.0.1.0.0.5-py3-none-any.whl.zip]
 [2023-07-22 04:58:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-business-requirement]: success
 [2023-07-22 04:58:27] INFO root fetch - main [MainThread]: Store serial: [18992321]
+[2023-07-22 05:03:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992321]
+[2023-07-22 05:03:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-22 05:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AndroidN
+[2023-07-22 05:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omni-pro
+[2023-07-22 05:03:35] INFO root fetch - processPackages [omni-pro]: New version: [0.1.19] Old Version: [0.1.18]
+[2023-07-22 05:03:35] INFO root fetch - processPackages [AndroidN]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-22 05:03:35] INFO root fetch - processPackages [AndroidN]: Downloading https://files.pythonhosted.org/packages/e0/4a/1b8f123ebe4f69dcb0d68b568e84cc69441f3a76ee1cb73da1003216449c/AndroidN-0.0.2.tar.gz
+[2023-07-22 05:03:35] INFO root fetch - processPackages [omni-pro]: Downloading https://files.pythonhosted.org/packages/48/e6/948c99897ad7e64664231fa07ab8bbae746069e983cdcacd3d0a915167fe/omni-pro-0.1.18.tar.gz
+[2023-07-22 05:03:35] INFO root fetch - processPackages [omni-pro]: Downloading https://files.pythonhosted.org/packages/92/00/55d6901cb351641b4f16835c466b8a347df589965408fec62844da087570/omni-pro-0.1.19.tar.gz
+[2023-07-22 05:03:36] INFO root fetch - processPackages [AndroidN]: Downloading https://files.pythonhosted.org/packages/9b/af/695844fcbc6ebc498768fdbf4e849bd6f133438bdb6c252f4061ca631614/AndroidN-0.0.3.tar.gz
+[2023-07-22 05:03:36] INFO root fetch - processPackages [omni-pro]: executing diffoscope
+[2023-07-22 05:03:36] INFO root fetch - processPackages [omni-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni-pro-0.1.18.tar.gz tmp/omni-pro-0.1.19.tar.gz --markdown 20230722/o/omni-pro/0.1.18-0.1.19/diff.md --exclude *.pyd
+[2023-07-22 05:03:36] INFO root fetch - processPackages [AndroidN]: executing diffoscope
+[2023-07-22 05:03:36] INFO root fetch - processPackages [AndroidN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AndroidN-0.0.2.tar.gz tmp/AndroidN-0.0.3.tar.gz --markdown 20230722/A/AndroidN/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-22 05:03:38] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.18.tar.gz]
+[2023-07-22 05:03:38] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.19.tar.gz]
+[2023-07-22 05:03:38] INFO root fetch - main [MainThread]: End processing [omni-pro]: success
+[2023-07-22 05:03:38] INFO root fetch - processPackages [AndroidN]: Remove: archive file [/home/abi/fetcher/tmp/AndroidN-0.0.2.tar.gz]
+[2023-07-22 05:03:38] INFO root fetch - processPackages [AndroidN]: Remove: archive file [/home/abi/fetcher/tmp/AndroidN-0.0.3.tar.gz]
+[2023-07-22 05:03:38] INFO root fetch - main [MainThread]: End processing [AndroidN]: success
+[2023-07-22 05:03:38] INFO root fetch - main [MainThread]: Store serial: [18992327]
