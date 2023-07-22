@@ -13885,3 +13885,107 @@
 [2023-07-22 14:43:50] INFO root fetch - processPackages [aplr]: Remove: archive file [/home/abi/fetcher/tmp/aplr-6.5.1.tar.gz]
 [2023-07-22 14:43:50] INFO root fetch - main [MainThread]: End processing [aplr]: success
 [2023-07-22 14:43:50] INFO root fetch - main [MainThread]: Store serial: [18994879]
+[2023-07-22 14:48:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994879]
+[2023-07-22 14:48:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-22 14:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: manticore
+[2023-07-22 14:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selenium-driverless
+[2023-07-22 14:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: schemadiffed
+[2023-07-22 14:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydnst
+[2023-07-22 14:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: n-sam
+[2023-07-22 14:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: degiro-cli
+[2023-07-22 14:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fedex-sdk
+[2023-07-22 14:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vollseg
+[2023-07-22 14:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tensorcircuit-nightly
+[2023-07-22 14:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: elias
+[2023-07-22 14:48:59] WARNING root fetch - processPackages [n-sam]: Skipping, unable to determine old version
+[2023-07-22 14:48:59] INFO root fetch - processPackages [n-sam]: Start processing: gspot-django-auth
+[2023-07-22 14:48:59] INFO root fetch - main [MainThread]: End processing [n-sam] error
+[2023-07-22 14:48:59] INFO root fetch - processPackages [selenium-driverless]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-22 14:48:59] INFO root fetch - processPackages [degiro-cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-22 14:48:59] INFO root fetch - processPackages [fedex-sdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-22 14:48:59] INFO root fetch - processPackages [elias]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-07-22 14:48:59] INFO root fetch - processPackages [selenium-driverless]: Downloading https://files.pythonhosted.org/packages/ee/06/22a874dad71e763658eaa5437682bc9dfe02c22224c54c2e3255b0c1e7e3/selenium_driverless-1.0.1.tar.gz
+[2023-07-22 14:48:59] INFO root fetch - processPackages [pydnst]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-22 14:48:59] WARNING root fetch - processPackages [schemadiffed]: Skipping, unable to determine old version
+[2023-07-22 14:48:59] INFO root fetch - processPackages [schemadiffed]: Start processing: mimosa
+[2023-07-22 14:48:59] INFO root fetch - main [MainThread]: End processing [schemadiffed] error
+[2023-07-22 14:48:59] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/ab/4f/dc384b2740a1716ac5a6e8e6bf06fda6d84e2c4ebd129887aec4e925e338/fedex-sdk-0.0.5.tar.gz
+[2023-07-22 14:48:59] INFO root fetch - processPackages [gspot-django-auth]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-22 14:48:59] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-07-22 14:48:59] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-07-22 14:48:59] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230722] Old Version: [0.3.8.dev230721]
+[2023-07-22 14:48:59] INFO root fetch - processPackages [mimosa]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-22 14:48:59] INFO root fetch - processPackages [degiro-cli]: Downloading https://files.pythonhosted.org/packages/92/f6/15f18fd50fc49fffb76505b5e3b24a7068d98409316fd4c0f7163e299392/degiro-cli-0.1.0.tar.gz
+[2023-07-22 14:48:59] INFO root fetch - processPackages [elias]: Downloading https://files.pythonhosted.org/packages/c7/97/4e82277d3b08a2532ab8b415fcfb9dbef29d96c18e465107b362755ed868/elias-0.2.7.tar.gz
+[2023-07-22 14:49:00] INFO root fetch - processPackages [pydnst]: Downloading https://files.pythonhosted.org/packages/99/25/59325bc4532decb30db8fea3ddc10a17fc1dbf5daa79d4303e87a2bc2ae4/pydnst-1.0.1.tar.gz
+[2023-07-22 14:49:00] INFO root fetch - processPackages [selenium-driverless]: Downloading https://files.pythonhosted.org/packages/30/48/92a7d3fe2af653bdab0fc331b94d56b8aeaddec72427e1763aeeb719d561/selenium_driverless-1.0.2.tar.gz
+[2023-07-22 14:49:00] INFO root fetch - processPackages [gspot-django-auth]: Downloading https://files.pythonhosted.org/packages/84/3c/6ca7825576acb40bfc8c4cae90fe945bca77634e0faaa5d92ab948a55eea/gspot_django_auth-0.1.4.tar.gz
+[2023-07-22 14:49:00] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-07-22 14:49:00] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-07-22 14:49:00] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/df/dc/8c743dff0a41ee09334832c2497bec4fac3300e5acd9aa16477b0655d35b/manticore-0.3.8.dev230721.tar.gz
+[2023-07-22 14:49:00] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/0f/d7/92dc39bab7d9e6013b1c54402f47e09ff39044ace5971471993cc78517d2/fedex-sdk-0.0.6.tar.gz
+[2023-07-22 14:49:00] INFO root fetch - processPackages [mimosa]: Downloading https://files.pythonhosted.org/packages/8a/f5/4cfbb3d5e2cecdc6206fa4bbcb4134d8a2f64f6cb91153e832c400fc66be/mimosa-0.1.3.tar.gz
+[2023-07-22 14:49:00] INFO root fetch - processPackages [selenium-driverless]: executing diffoscope
+[2023-07-22 14:49:00] INFO root fetch - processPackages [selenium-driverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_driverless-1.0.1.tar.gz tmp/selenium_driverless-1.0.2.tar.gz --markdown 20230722/s/selenium-driverless/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-22 14:49:00] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-07-22 14:49:00] INFO root fetch - processPackages [vollseg]: Start processing: pyTasker
+[2023-07-22 14:49:00] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-07-22 14:49:00] INFO root fetch - processPackages [degiro-cli]: Downloading https://files.pythonhosted.org/packages/02/c1/2cd496fa43b4e44daddf905235a2abd0e4620df5911e2fc704fc7ccd754a/degiro-cli-0.1.1.tar.gz
+[2023-07-22 14:49:00] INFO root fetch - processPackages [pyTasker]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-07-22 14:49:00] INFO root fetch - processPackages [gspot-django-auth]: Downloading https://files.pythonhosted.org/packages/b5/91/2481bb41e42214b63b7c178a16e4d1eadfbcb296d9fab2642cf2b9b077ea/gspot_django_auth-0.1.5.tar.gz
+[2023-07-22 14:49:00] INFO root fetch - processPackages [fedex-sdk]: executing diffoscope
+[2023-07-22 14:49:00] INFO root fetch - processPackages [fedex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedex-sdk-0.0.5.tar.gz tmp/fedex-sdk-0.0.6.tar.gz --markdown 20230722/f/fedex-sdk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-22 14:49:00] INFO root fetch - processPackages [elias]: Downloading https://files.pythonhosted.org/packages/50/a5/75c9224e32274fb1c2e78022e5644fb52d3573f91c66f1f083bc2ee5ff3f/elias-0.2.9.tar.gz
+[2023-07-22 14:49:00] INFO root fetch - processPackages [pydnst]: Downloading https://files.pythonhosted.org/packages/4e/4e/aeeba6a0b9def45e27dd4017b623423a6ce31fbaa41c5ca0ad000697ab81/pydnst-1.0.2.tar.gz
+[2023-07-22 14:49:00] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-07-22 14:49:00] INFO root fetch - processPackages [mimosa]: Downloading https://files.pythonhosted.org/packages/0e/4c/34500fd732470d1a45f7bad60efe808b0daceacc7435b61b764a12406cf7/mimosa-0.1.4.tar.gz
+[2023-07-22 14:49:00] INFO root fetch - processPackages [degiro-cli]: executing diffoscope
+[2023-07-22 14:49:00] INFO root fetch - processPackages [degiro-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/degiro-cli-0.1.0.tar.gz tmp/degiro-cli-0.1.1.tar.gz --markdown 20230722/d/degiro-cli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-22 14:49:00] INFO root fetch - processPackages [gspot-django-auth]: executing diffoscope
+[2023-07-22 14:49:00] INFO root fetch - processPackages [gspot-django-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gspot_django_auth-0.1.4.tar.gz tmp/gspot_django_auth-0.1.5.tar.gz --markdown 20230722/g/gspot-django-auth/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-22 14:49:00] INFO root fetch - processPackages [pydnst]: executing diffoscope
+[2023-07-22 14:49:00] INFO root fetch - processPackages [pydnst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydnst-1.0.1.tar.gz tmp/pydnst-1.0.2.tar.gz --markdown 20230722/p/pydnst/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-22 14:49:00] INFO root fetch - processPackages [elias]: executing diffoscope
+[2023-07-22 14:49:00] INFO root fetch - processPackages [elias]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elias-0.2.7.tar.gz tmp/elias-0.2.9.tar.gz --markdown 20230722/e/elias/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-07-22 14:49:00] INFO root fetch - processPackages [pyTasker]: Downloading https://files.pythonhosted.org/packages/08/83/d40f5243ad8b3b115afabce88728d974d82049dd2731ed16eeaa4d368dc4/pyTasker-0.6.6.tar.gz
+[2023-07-22 14:49:00] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-07-22 14:49:00] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230722/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-07-22 14:49:00] INFO root fetch - processPackages [mimosa]: executing diffoscope
+[2023-07-22 14:49:00] INFO root fetch - processPackages [mimosa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimosa-0.1.3.tar.gz tmp/mimosa-0.1.4.tar.gz --markdown 20230722/m/mimosa/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-22 14:49:00] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/69/91/00641bd4eeb58491fe3beb55da55fcfba8ad7baa16fbcce25a3dabb5403c/manticore-0.3.8.dev230722.tar.gz
+[2023-07-22 14:49:01] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-22 14:49:01] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230721.tar.gz tmp/manticore-0.3.8.dev230722.tar.gz --markdown 20230722/m/manticore/0.3.8.dev230721-0.3.8.dev230722/diff.md --exclude *.pyd
+[2023-07-22 14:49:01] INFO root fetch - processPackages [pyTasker]: Downloading https://files.pythonhosted.org/packages/9a/68/5b01fa122969b5ef7710da2009d80b504b416b9bb177441e0245ab522fd4/pyTasker-0.6.7.tar.gz
+[2023-07-22 14:49:01] INFO root fetch - processPackages [selenium-driverless]: Remove: archive file [/home/abi/fetcher/tmp/selenium_driverless-1.0.1.tar.gz]
+[2023-07-22 14:49:01] INFO root fetch - processPackages [selenium-driverless]: Remove: archive file [/home/abi/fetcher/tmp/selenium_driverless-1.0.2.tar.gz]
+[2023-07-22 14:49:01] INFO root fetch - main [MainThread]: End processing [selenium-driverless]: success
+[2023-07-22 14:49:01] INFO root fetch - processPackages [pyTasker]: executing diffoscope
+[2023-07-22 14:49:01] INFO root fetch - processPackages [pyTasker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTasker-0.6.6.tar.gz tmp/pyTasker-0.6.7.tar.gz --markdown 20230722/p/pyTasker/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-07-22 14:49:01] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-0.0.5.tar.gz]
+[2023-07-22 14:49:01] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-0.0.6.tar.gz]
+[2023-07-22 14:49:01] INFO root fetch - main [MainThread]: End processing [fedex-sdk]: success
+[2023-07-22 14:49:02] INFO root fetch - processPackages [degiro-cli]: Remove: archive file [/home/abi/fetcher/tmp/degiro-cli-0.1.0.tar.gz]
+[2023-07-22 14:49:02] INFO root fetch - processPackages [degiro-cli]: Remove: archive file [/home/abi/fetcher/tmp/degiro-cli-0.1.1.tar.gz]
+[2023-07-22 14:49:02] INFO root fetch - main [MainThread]: End processing [degiro-cli]: success
+[2023-07-22 14:49:02] INFO root fetch - processPackages [pydnst]: Remove: archive file [/home/abi/fetcher/tmp/pydnst-1.0.1.tar.gz]
+[2023-07-22 14:49:02] INFO root fetch - processPackages [pydnst]: Remove: archive file [/home/abi/fetcher/tmp/pydnst-1.0.2.tar.gz]
+[2023-07-22 14:49:02] INFO root fetch - main [MainThread]: End processing [pydnst]: success
+[2023-07-22 14:49:02] INFO root fetch - processPackages [gspot-django-auth]: Remove: archive file [/home/abi/fetcher/tmp/gspot_django_auth-0.1.4.tar.gz]
+[2023-07-22 14:49:02] INFO root fetch - processPackages [gspot-django-auth]: Remove: archive file [/home/abi/fetcher/tmp/gspot_django_auth-0.1.5.tar.gz]
+[2023-07-22 14:49:02] INFO root fetch - main [MainThread]: End processing [gspot-django-auth]: success
+[2023-07-22 14:49:02] INFO root fetch - processPackages [elias]: Remove: archive file [/home/abi/fetcher/tmp/elias-0.2.7.tar.gz]
+[2023-07-22 14:49:02] INFO root fetch - processPackages [elias]: Remove: archive file [/home/abi/fetcher/tmp/elias-0.2.9.tar.gz]
+[2023-07-22 14:49:02] INFO root fetch - main [MainThread]: End processing [elias]: success
+[2023-07-22 14:49:02] INFO root fetch - processPackages [pyTasker]: Remove: archive file [/home/abi/fetcher/tmp/pyTasker-0.6.6.tar.gz]
+[2023-07-22 14:49:02] INFO root fetch - processPackages [pyTasker]: Remove: archive file [/home/abi/fetcher/tmp/pyTasker-0.6.7.tar.gz]
+[2023-07-22 14:49:02] INFO root fetch - main [MainThread]: End processing [pyTasker]: success
+[2023-07-22 14:49:02] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-07-22 14:49:02] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-07-22 14:49:02] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-07-22 14:49:03] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230721.tar.gz]
+[2023-07-22 14:49:03] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230722.tar.gz]
+[2023-07-22 14:49:03] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-22 14:49:03] INFO root fetch - processPackages [mimosa]: Remove: archive file [/home/abi/fetcher/tmp/mimosa-0.1.3.tar.gz]
+[2023-07-22 14:49:03] INFO root fetch - processPackages [mimosa]: Remove: archive file [/home/abi/fetcher/tmp/mimosa-0.1.4.tar.gz]
+[2023-07-22 14:49:03] INFO root fetch - main [MainThread]: End processing [mimosa]: success
+[2023-07-22 14:49:03] INFO root fetch - main [MainThread]: Store serial: [18994920]
