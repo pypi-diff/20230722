@@ -8753,3 +8753,112 @@
 [2023-07-22 05:55:45] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230721.tar.gz]
 [2023-07-22 05:55:45] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-07-22 05:55:45] INFO root fetch - main [MainThread]: Store serial: [18992582]
+[2023-07-22 06:00:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992582]
+[2023-07-22 06:00:53] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-22 06:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-ro-vat-on-payment
+[2023-07-22 06:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-ro-vat-on-payment
+[2023-07-22 06:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-ro-stock-report
+[2023-07-22 06:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-ro-stock-report
+[2023-07-22 06:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-ro-vat-on-payment
+[2023-07-22 06:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OneOnOne
+[2023-07-22 06:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: beanie
+[2023-07-22 06:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iranetf
+[2023-07-22 06:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: topology-deployer
+[2023-07-22 06:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anybomt
+[2023-07-22 06:00:54] INFO root fetch - processPackages [anybomt]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-22 06:00:54] INFO root fetch - processPackages [OneOnOne]: New version: [0.6917] Old Version: [0.6916]
+[2023-07-22 06:00:54] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: New version: [15.0.6.9.0] Old Version: [15.0.6.8.0]
+[2023-07-22 06:00:54] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2023-07-22 06:00:54] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2023-07-22 06:00:54] INFO root fetch - processPackages [iranetf]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-22 06:00:54] INFO root fetch - processPackages [anybomt]: Downloading https://files.pythonhosted.org/packages/6a/bc/e996fc01322a240bcc570f84b92a64da418e3b88cfe09b1a8575b07c7195/anybomt-0.0.1.tar.gz
+[2023-07-22 06:00:54] INFO root fetch - processPackages [odoo14-addon-l10n-ro-vat-on-payment]: New version: [14.0.4.5.1.dev3] Old Version: [14.0.4.5.1.dev2]
+[2023-07-22 06:00:54] INFO root fetch - processPackages [topology-deployer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-22 06:00:54] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-report]: New version: [14.0.6.7.2.dev2] Old Version: [14.0.6.7.1.dev1]
+[2023-07-22 06:00:54] INFO root fetch - processPackages [beanie]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-22 06:00:54] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Downloading https://files.pythonhosted.org/packages/82/89/cc7c98c655e3e6783cf6904559a8d7f9d378bd1a79437585ba6d37508556/odoo_addon_l10n_ro_stock_report-15.0.6.8.0-py3-none-any.whl
+[2023-07-22 06:00:54] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/bc/6f/e26d4d159cd3dca717e5e7dc0fa84496823b3791e8c9f34f659404196cdf/OneOnOne-0.6916.tar.gz
+[2023-07-22 06:00:54] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: Downloading https://files.pythonhosted.org/packages/eb/a2/a67770970c35bb85002e59de5d2582e552fea83072bd88a6569718512fc2/odoo_addon_l10n_ro_vat_on_payment-16.0.1.1.0.1-py3-none-any.whl
+[2023-07-22 06:00:54] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: Downloading https://files.pythonhosted.org/packages/eb/a2/a67770970c35bb85002e59de5d2582e552fea83072bd88a6569718512fc2/odoo_addon_l10n_ro_vat_on_payment-16.0.1.1.0.1-py3-none-any.whl
+[2023-07-22 06:00:54] INFO root fetch - processPackages [iranetf]: Downloading https://files.pythonhosted.org/packages/13/fa/ca27cb7ea77c138ca4142cbb138910ddb5f3f57bb0ace643813d498c9d0d/iranetf-0.8.1.tar.gz
+[2023-07-22 06:00:54] INFO root fetch - processPackages [anybomt]: Downloading https://files.pythonhosted.org/packages/6b/1e/8065c347c706ec206f9d62e81fe340a0735d0688ed9874347fc327c41831/anybomt-0.1.0.tar.gz
+[2023-07-22 06:00:54] INFO root fetch - processPackages [topology-deployer]: Downloading https://files.pythonhosted.org/packages/e3/73/1ef96d951b1f03a5604c3d6996aa3832174edb1e98204dcf4ad64b0dc1c9/topology-deployer-0.0.1.tar.gz
+[2023-07-22 06:00:54] INFO root fetch - processPackages [beanie]: Downloading https://files.pythonhosted.org/packages/1b/c5/1bcd1572c58cd6fb43bc4e22e3353a90af249b01bcb65c16242d7c366010/beanie-1.9.1.tar.gz
+[2023-07-22 06:00:54] INFO root fetch - processPackages [odoo14-addon-l10n-ro-vat-on-payment]: Downloading https://files.pythonhosted.org/packages/41/2b/7edc21d8ca282ab1bed5b51046695dcbf02e4173818402f57300d3a9ff84/odoo14_addon_l10n_ro_vat_on_payment-14.0.4.5.1.dev2-py3-none-any.whl
+[2023-07-22 06:00:54] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-report]: Downloading https://files.pythonhosted.org/packages/9b/c3/e42135a30b9bfd10e1b9faf6bff05d8c01fe1b137e6403f56dceaed00711/odoo14_addon_l10n_ro_stock_report-14.0.6.7.1.dev1-py3-none-any.whl
+[2023-07-22 06:00:54] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Downloading https://files.pythonhosted.org/packages/35/69/ccf837e92013ca23149fcd6828f57c58eca69c45f9a7327aef007a35ddcb/odoo_addon_l10n_ro_stock_report-15.0.6.9.0-py3-none-any.whl
+[2023-07-22 06:00:54] INFO root fetch - processPackages [anybomt]: executing diffoscope
+[2023-07-22 06:00:54] INFO root fetch - processPackages [anybomt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anybomt-0.0.1.tar.gz tmp/anybomt-0.1.0.tar.gz --markdown 20230722/a/anybomt/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-22 06:00:55] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/e2/66/2ca92f67c280fd4f080472c52e96411484b9497da2d32d42658807667bd2/OneOnOne-0.6917.tar.gz
+[2023-07-22 06:00:55] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: executing diffoscope
+[2023-07-22 06:00:55] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_report-15.0.6.8.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_report-15.0.6.9.0-py3-none-any.whl.zip --markdown 20230722/o/odoo-addon-l10n-ro-stock-report/15.0.6.8.0-15.0.6.9.0/diff.md --exclude *.pyd
+[2023-07-22 06:00:55] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: Downloading https://files.pythonhosted.org/packages/4e/41/cffbe7f657d9f2a152e9fcafcf75bfcd62c5a9d512d918807f38a365b38e/odoo_addon_l10n_ro_vat_on_payment-16.0.1.1.0.2-py3-none-any.whl
+[2023-07-22 06:00:55] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: Downloading https://files.pythonhosted.org/packages/4e/41/cffbe7f657d9f2a152e9fcafcf75bfcd62c5a9d512d918807f38a365b38e/odoo_addon_l10n_ro_vat_on_payment-16.0.1.1.0.2-py3-none-any.whl
+[2023-07-22 06:00:55] INFO root fetch - processPackages [topology-deployer]: Downloading https://files.pythonhosted.org/packages/98/cb/9f0aee82a4e3eb53a2281213dab342a785682b0b30e4ee7114bcd6ca9d19/topology-deployer-0.0.2.tar.gz
+[2023-07-22 06:00:55] INFO root fetch - processPackages [iranetf]: Downloading https://files.pythonhosted.org/packages/de/32/2fd33eafec94b14d144edffe2e00b0d68221076651e8f8cd029b26311acd/iranetf-0.9.0.tar.gz
+[2023-07-22 06:00:55] INFO root fetch - processPackages [odoo14-addon-l10n-ro-vat-on-payment]: Downloading https://files.pythonhosted.org/packages/28/65/f97a442aca14e89aba4004af485fc84c7186cb88a575128cd046ab53ea70/odoo14_addon_l10n_ro_vat_on_payment-14.0.4.5.1.dev3-py3-none-any.whl
+[2023-07-22 06:00:55] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: executing diffoscope
+[2023-07-22 06:00:55] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_vat_on_payment-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_vat_on_payment-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230722/o/odoo-addon-l10n-ro-vat-on-payment/16.0.1.1.0.1-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-07-22 06:00:55] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: executing diffoscope
+[2023-07-22 06:00:55] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_vat_on_payment-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_vat_on_payment-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230722/o/odoo-addon-l10n-ro-vat-on-payment/16.0.1.1.0.1-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-07-22 06:00:55] INFO root fetch - processPackages [beanie]: Downloading https://files.pythonhosted.org/packages/15/f6/48e3215c8c778c536fdd8326c67e9d6a9e20c5e9f721cc66ecf07f8299b8/beanie-1.9.2.tar.gz
+[2023-07-22 06:00:55] INFO root fetch - processPackages [topology-deployer]: executing diffoscope
+[2023-07-22 06:00:55] INFO root fetch - processPackages [topology-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topology-deployer-0.0.1.tar.gz tmp/topology-deployer-0.0.2.tar.gz --markdown 20230722/t/topology-deployer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-22 06:00:55] INFO root fetch - processPackages [iranetf]: executing diffoscope
+[2023-07-22 06:00:55] INFO root fetch - processPackages [iranetf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iranetf-0.8.1.tar.gz tmp/iranetf-0.9.0.tar.gz --markdown 20230722/i/iranetf/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-22 06:00:55] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-report]: Downloading https://files.pythonhosted.org/packages/bb/3c/8852a260fc03885814a55917985b766dda7294bf54fc7010d092737ae2ba/odoo14_addon_l10n_ro_stock_report-14.0.6.7.2.dev2-py3-none-any.whl
+[2023-07-22 06:00:55] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 06:00:55] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6916.tar.gz tmp/OneOnOne-0.6917.tar.gz --markdown 20230722/O/OneOnOne/0.6916-0.6917/diff.md --exclude *.pyd
+[2023-07-22 06:00:55] INFO root fetch - processPackages [beanie]: executing diffoscope
+[2023-07-22 06:00:55] INFO root fetch - processPackages [beanie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beanie-1.9.1.tar.gz tmp/beanie-1.9.2.tar.gz --markdown 20230722/b/beanie/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-22 06:00:55] INFO root fetch - processPackages [odoo14-addon-l10n-ro-vat-on-payment]: executing diffoscope
+[2023-07-22 06:00:55] INFO root fetch - processPackages [odoo14-addon-l10n-ro-vat-on-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ro_vat_on_payment-14.0.4.5.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ro_vat_on_payment-14.0.4.5.1.dev3-py3-none-any.whl.zip --markdown 20230722/o/odoo14-addon-l10n-ro-vat-on-payment/14.0.4.5.1.dev2-14.0.4.5.1.dev3/diff.md --exclude *.pyd
+[2023-07-22 06:00:55] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-report]: executing diffoscope
+[2023-07-22 06:00:55] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ro_stock_report-14.0.6.7.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ro_stock_report-14.0.6.7.2.dev2-py3-none-any.whl.zip --markdown 20230722/o/odoo14-addon-l10n-ro-stock-report/14.0.6.7.1.dev1-14.0.6.7.2.dev2/diff.md --exclude *.pyd
+[2023-07-22 06:00:55] INFO root fetch - processPackages [anybomt]: Remove: archive file [/home/abi/fetcher/tmp/anybomt-0.0.1.tar.gz]
+[2023-07-22 06:00:55] INFO root fetch - processPackages [anybomt]: Remove: archive file [/home/abi/fetcher/tmp/anybomt-0.1.0.tar.gz]
+[2023-07-22 06:00:55] INFO root fetch - processPackages [anybomt]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-22 06:00:55] INFO root fetch - main [MainThread]: End processing [anybomt]: success
+[2023-07-22 06:00:56] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.6.0] Old Version: [0.3.9.5.9]
+[2023-07-22 06:00:56] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/7a/e5/e35771d094325b6c306e9d8785431127bf0e9e18ce7c75d57420ffbe4251/nonebot_plugin_stable_diffusion_diao-0.3.9.5.9.tar.gz
+[2023-07-22 06:00:56] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/fa/aa/e46be6653776074bc1274a8bb64846049413faabab5252bb227db901c6b0/nonebot_plugin_stable_diffusion_diao-0.3.9.6.0.tar.gz
+[2023-07-22 06:00:56] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_report-15.0.6.8.0-py3-none-any.whl.zip]
+[2023-07-22 06:00:56] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_report-15.0.6.9.0-py3-none-any.whl.zip]
+[2023-07-22 06:00:56] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Start processing: evals-nightly
+[2023-07-22 06:00:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-report]: success
+[2023-07-22 06:00:56] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230720] Old Version: [1.0.3.dev20230719]
+[2023-07-22 06:00:56] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-22 06:00:56] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.9.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.0.tar.gz --markdown 20230722/n/nonebot-plugin-stable-diffusion-diao/0.3.9.5.9-0.3.9.6.0/diff.md --exclude *.pyd
+[2023-07-22 06:00:56] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/4a/ab/e012af806ab602f7321f2bf53a834cd4066d3b15dac9e79f71427a23cf19/evals-nightly-1.0.3.dev20230719.tar.gz
+[2023-07-22 06:00:56] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/94/e4/dc33e5009c82c26463d897279e9ab315d11e8a80f61f68c97383f8ee5a5b/evals-nightly-1.0.3.dev20230720.tar.gz
+[2023-07-22 06:00:57] INFO root fetch - processPackages [iranetf]: Remove: archive file [/home/abi/fetcher/tmp/iranetf-0.8.1.tar.gz]
+[2023-07-22 06:00:57] INFO root fetch - processPackages [iranetf]: Remove: archive file [/home/abi/fetcher/tmp/iranetf-0.9.0.tar.gz]
+[2023-07-22 06:00:57] INFO root fetch - main [MainThread]: End processing [iranetf]: success
+[2023-07-22 06:00:57] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-22 06:00:57] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230719.tar.gz tmp/evals-nightly-1.0.3.dev20230720.tar.gz --markdown 20230722/e/evals-nightly/1.0.3.dev20230719-1.0.3.dev20230720/diff.md --exclude *.pyd
+[2023-07-22 06:00:57] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_stock_report-14.0.6.7.1.dev1-py3-none-any.whl.zip]
+[2023-07-22 06:00:57] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_stock_report-14.0.6.7.2.dev2-py3-none-any.whl.zip]
+[2023-07-22 06:00:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-stock-report]: success
+[2023-07-22 06:00:57] INFO root fetch - processPackages [topology-deployer]: Remove: archive file [/home/abi/fetcher/tmp/topology-deployer-0.0.1.tar.gz]
+[2023-07-22 06:00:57] INFO root fetch - processPackages [topology-deployer]: Remove: archive file [/home/abi/fetcher/tmp/topology-deployer-0.0.2.tar.gz]
+[2023-07-22 06:00:57] INFO root fetch - main [MainThread]: End processing [topology-deployer]: success
+[2023-07-22 06:00:57] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6916.tar.gz]
+[2023-07-22 06:00:57] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6917.tar.gz]
+[2023-07-22 06:00:57] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 06:00:57] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_vat_on_payment-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-07-22 06:00:57] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_vat_on_payment-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-07-22 06:00:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-vat-on-payment]: success
+[2023-07-22 06:00:57] INFO root fetch - processPackages [beanie]: Remove: archive file [/home/abi/fetcher/tmp/beanie-1.9.1.tar.gz]
+[2023-07-22 06:00:57] INFO root fetch - processPackages [beanie]: Remove: archive file [/home/abi/fetcher/tmp/beanie-1.9.2.tar.gz]
+[2023-07-22 06:00:57] INFO root fetch - main [MainThread]: End processing [beanie]: success
+[2023-07-22 06:00:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-vat-on-payment]: success
+[2023-07-22 06:00:57] INFO root fetch - processPackages [odoo14-addon-l10n-ro-vat-on-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_vat_on_payment-14.0.4.5.1.dev2-py3-none-any.whl.zip]
+[2023-07-22 06:00:57] INFO root fetch - processPackages [odoo14-addon-l10n-ro-vat-on-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_vat_on_payment-14.0.4.5.1.dev3-py3-none-any.whl.zip]
+[2023-07-22 06:00:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-vat-on-payment]: success
+[2023-07-22 06:00:57] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.9.tar.gz]
+[2023-07-22 06:00:57] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.0.tar.gz]
+[2023-07-22 06:00:57] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-22 06:00:58] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230719.tar.gz]
+[2023-07-22 06:00:58] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230720.tar.gz]
+[2023-07-22 06:00:58] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-22 06:00:58] INFO root fetch - main [MainThread]: Store serial: [18992612]
