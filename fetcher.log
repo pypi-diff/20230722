@@ -11622,3 +11622,58 @@
 [2023-07-22 10:52:57] INFO root fetch - processPackages [finterstellar]: Remove: archive file [/home/abi/fetcher/tmp/finterstellar-0.2.20.tar.gz]
 [2023-07-22 10:52:57] INFO root fetch - main [MainThread]: End processing [finterstellar]: success
 [2023-07-22 10:52:57] INFO root fetch - main [MainThread]: Store serial: [18993883]
+[2023-07-22 10:58:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993883]
+[2023-07-22 10:58:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 10:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-tbase-post-product
+[2023-07-22 10:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LineDetect
+[2023-07-22 10:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volvopy
+[2023-07-22 10:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyracer
+[2023-07-22 10:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: talkytimes-package
+[2023-07-22 10:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcnum
+[2023-07-22 10:58:06] INFO root fetch - processPackages [LineDetect]: New version: [0.11] Old Version: [0.1]
+[2023-07-22 10:58:06] INFO root fetch - processPackages [django-tbase-post-product]: New version: [2023.7.716887389] Old Version: [2023.7.716887386]
+[2023-07-22 10:58:06] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 10:58:06] INFO root fetch - processPackages [volvopy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 10:58:06] INFO root fetch - processPackages [pyracer]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-22 10:58:06] INFO root fetch - processPackages [dcnum]: New version: [0.11.3] Old Version: [0.11.2]
+[2023-07-22 10:58:06] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/69/ba/bf2c8c1a83462dd2fae7b6981f8a8fcf812bf14b73ac755f5395e3ee4557/django_tbase_post_product-2023.7.716887386.tar.gz
+[2023-07-22 10:58:06] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-22 10:58:06] INFO root fetch - processPackages [LineDetect]: Downloading https://files.pythonhosted.org/packages/71/b5/f8ec7508e1bc2411dcf09e1e99d504654847de705fe4fe18d0dd48c0067c/LineDetect-0.1.tar.gz
+[2023-07-22 10:58:06] INFO root fetch - processPackages [pyracer]: Downloading https://files.pythonhosted.org/packages/c2/11/3b28c5041e174f2d4b9816507d8f0c19ffddbaed26945b7197c3febf443d/pyracer-1.1.1.tar.gz
+[2023-07-22 10:58:06] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-22 10:58:06] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/bf/35/9170a5b3562d19fc5fd825d8358226029e6a4a5d87fdfc516b155e0e6338/dcnum-0.11.2.tar.gz
+[2023-07-22 10:58:06] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-22 10:58:06] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230722/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 10:58:06] INFO root fetch - processPackages [volvopy]: executing diffoscope
+[2023-07-22 10:58:06] INFO root fetch - processPackages [volvopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volvopy-0.1.8.tar.gz tmp/volvopy-0.1.9.tar.gz --markdown 20230722/v/volvopy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 10:58:06] INFO root fetch - processPackages [LineDetect]: Downloading https://files.pythonhosted.org/packages/c8/0b/fbddd031ce013ab0378940f5de441a8a6bba7caba64b87307e828ba6a70c/LineDetect-0.11.tar.gz
+[2023-07-22 10:58:06] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/b2/1c/662b7a63c26b1775ed703f7609bdfe40ea00728d0a5543ce6498d553c4a7/django_tbase_post_product-2023.7.716887389.tar.gz
+[2023-07-22 10:58:06] INFO root fetch - processPackages [pyracer]: Downloading https://files.pythonhosted.org/packages/0a/a6/b7631608d988e10c6cff8e70ea67fed2f8f80c68050e2f890e1e20ca29ee/pyracer-1.1.2.tar.gz
+[2023-07-22 10:58:06] INFO root fetch - processPackages [LineDetect]: executing diffoscope
+[2023-07-22 10:58:06] INFO root fetch - processPackages [LineDetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LineDetect-0.1.tar.gz tmp/LineDetect-0.11.tar.gz --markdown 20230722/L/LineDetect/0.1-0.11/diff.md --exclude *.pyd
+[2023-07-22 10:58:06] INFO root fetch - processPackages [django-tbase-post-product]: executing diffoscope
+[2023-07-22 10:58:06] INFO root fetch - processPackages [django-tbase-post-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tbase_post_product-2023.7.716887386.tar.gz tmp/django_tbase_post_product-2023.7.716887389.tar.gz --markdown 20230722/d/django-tbase-post-product/2023.7.716887386-2023.7.716887389/diff.md --exclude *.pyd
+[2023-07-22 10:58:07] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/83/62/b3061ccb72a3b37cb0d55e473f4dcba68f5c8d732eabcf410b6d50d1d4b1/dcnum-0.11.3.tar.gz
+[2023-07-22 10:58:07] INFO root fetch - processPackages [pyracer]: executing diffoscope
+[2023-07-22 10:58:07] INFO root fetch - processPackages [pyracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyracer-1.1.1.tar.gz tmp/pyracer-1.1.2.tar.gz --markdown 20230722/p/pyracer/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-22 10:58:07] INFO root fetch - processPackages [dcnum]: executing diffoscope
+[2023-07-22 10:58:07] INFO root fetch - processPackages [dcnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcnum-0.11.2.tar.gz tmp/dcnum-0.11.3.tar.gz --markdown 20230722/d/dcnum/0.11.2-0.11.3/diff.md --exclude *.pyd
+[2023-07-22 10:58:07] INFO root fetch - processPackages [volvopy]: Remove: archive file [/home/abi/fetcher/tmp/volvopy-0.1.8.tar.gz]
+[2023-07-22 10:58:07] INFO root fetch - processPackages [volvopy]: Remove: archive file [/home/abi/fetcher/tmp/volvopy-0.1.9.tar.gz]
+[2023-07-22 10:58:07] INFO root fetch - main [MainThread]: End processing [volvopy]: success
+[2023-07-22 10:58:07] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-22 10:58:07] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-22 10:58:07] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-22 10:58:07] INFO root fetch - processPackages [LineDetect]: Remove: archive file [/home/abi/fetcher/tmp/LineDetect-0.1.tar.gz]
+[2023-07-22 10:58:07] INFO root fetch - processPackages [LineDetect]: Remove: archive file [/home/abi/fetcher/tmp/LineDetect-0.11.tar.gz]
+[2023-07-22 10:58:07] INFO root fetch - main [MainThread]: End processing [LineDetect]: success
+[2023-07-22 10:58:08] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.7.716887386.tar.gz]
+[2023-07-22 10:58:08] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.7.716887389.tar.gz]
+[2023-07-22 10:58:08] INFO root fetch - main [MainThread]: End processing [django-tbase-post-product]: success
+[2023-07-22 10:58:08] INFO root fetch - processPackages [pyracer]: Remove: archive file [/home/abi/fetcher/tmp/pyracer-1.1.1.tar.gz]
+[2023-07-22 10:58:08] INFO root fetch - processPackages [pyracer]: Remove: archive file [/home/abi/fetcher/tmp/pyracer-1.1.2.tar.gz]
+[2023-07-22 10:58:08] INFO root fetch - main [MainThread]: End processing [pyracer]: success
+[2023-07-22 10:58:08] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.11.2.tar.gz]
+[2023-07-22 10:58:08] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.11.3.tar.gz]
+[2023-07-22 10:58:08] INFO root fetch - main [MainThread]: End processing [dcnum]: success
+[2023-07-22 10:58:08] INFO root fetch - main [MainThread]: Store serial: [18993900]
