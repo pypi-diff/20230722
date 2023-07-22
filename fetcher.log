@@ -9545,3 +9545,55 @@
 [2023-07-22 07:34:21] INFO root fetch - processPackages [EclipsingBinaries]: Remove: archive file [/home/abi/fetcher/tmp/EclipsingBinaries-3.1.9.tar.gz]
 [2023-07-22 07:34:21] INFO root fetch - main [MainThread]: End processing [EclipsingBinaries]: success
 [2023-07-22 07:34:21] INFO root fetch - main [MainThread]: Store serial: [18992885]
+[2023-07-22 07:39:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992885]
+[2023-07-22 07:39:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 07:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medimageaugment
+[2023-07-22 07:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adgodfhkdfh
+[2023-07-22 07:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyfi-template
+[2023-07-22 07:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aksharify
+[2023-07-22 07:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: talkytimes-package
+[2023-07-22 07:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coconut-develop
+[2023-07-22 07:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adgodfhkdfh
+[2023-07-22 07:39:30] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 07:39:30] INFO root fetch - processPackages [adgodfhkdfh]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-22 07:39:30] INFO root fetch - processPackages [adgodfhkdfh]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-22 07:39:30] WARNING root fetch - processPackages [medimageaugment]: Skipping, unable to determine old version
+[2023-07-22 07:39:30] INFO root fetch - main [MainThread]: End processing [medimageaugment] error
+[2023-07-22 07:39:30] WARNING root fetch - processPackages [aksharify]: Skipping, unable to determine old version
+[2023-07-22 07:39:30] INFO root fetch - main [MainThread]: End processing [aksharify] error
+[2023-07-22 07:39:30] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev9] Old Version: [3.0.2.post0.dev8]
+[2023-07-22 07:39:30] INFO root fetch - processPackages [hyfi-template]: New version: [0.5.0] Old Version: [0.4.8]
+[2023-07-22 07:39:30] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-22 07:39:30] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/76/ba/83f4a7e45967086c125a6525e086526f469362e3a1327a44f8df15d67400/coconut-develop-3.0.2.post0.dev8.tar.gz
+[2023-07-22 07:39:30] INFO root fetch - processPackages [adgodfhkdfh]: Downloading https://files.pythonhosted.org/packages/2e/5a/9d0e78159769bf8d5ce388ab024e088d2f7080db54db010bee40fcc39d97/adgodfhkdfh-0.0.1.tar.gz
+[2023-07-22 07:39:30] INFO root fetch - processPackages [adgodfhkdfh]: Downloading https://files.pythonhosted.org/packages/2e/5a/9d0e78159769bf8d5ce388ab024e088d2f7080db54db010bee40fcc39d97/adgodfhkdfh-0.0.1.tar.gz
+[2023-07-22 07:39:30] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/81/7e/5d9caeb79edd61e2c57aeddff3a5562db283aad88e3460401c1d51b50680/hyfi_template-0.4.8.tar.gz
+[2023-07-22 07:39:30] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-22 07:39:31] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/d7/8d/949a59bb813ee853bbb1d03d15a3f5a3de89562602ada8e1a9cca581a8d5/coconut-develop-3.0.2.post0.dev9.tar.gz
+[2023-07-22 07:39:31] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-22 07:39:31] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230722/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 07:39:31] INFO root fetch - processPackages [adgodfhkdfh]: Downloading https://files.pythonhosted.org/packages/ae/ea/5a67c3110d2dda49c4fefa071274812c8f3d78daeeddb5cb2e0fd63aaf09/adgodfhkdfh-0.0.2.tar.gz
+[2023-07-22 07:39:31] INFO root fetch - processPackages [adgodfhkdfh]: Downloading https://files.pythonhosted.org/packages/ae/ea/5a67c3110d2dda49c4fefa071274812c8f3d78daeeddb5cb2e0fd63aaf09/adgodfhkdfh-0.0.2.tar.gz
+[2023-07-22 07:39:31] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/b4/82/a5807d54af854556a297a9ffd9e7289bbc1886e73ae1684119c7a11d4001/hyfi_template-0.5.0.tar.gz
+[2023-07-22 07:39:31] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-07-22 07:39:31] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev8.tar.gz tmp/coconut-develop-3.0.2.post0.dev9.tar.gz --markdown 20230722/c/coconut-develop/3.0.2.post0.dev8-3.0.2.post0.dev9/diff.md --exclude *.pyd
+[2023-07-22 07:39:31] INFO root fetch - processPackages [adgodfhkdfh]: executing diffoscope
+[2023-07-22 07:39:31] INFO root fetch - processPackages [adgodfhkdfh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adgodfhkdfh-0.0.1.tar.gz tmp/adgodfhkdfh-0.0.2.tar.gz --markdown 20230722/a/adgodfhkdfh/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-22 07:39:31] INFO root fetch - processPackages [adgodfhkdfh]: executing diffoscope
+[2023-07-22 07:39:31] INFO root fetch - processPackages [adgodfhkdfh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adgodfhkdfh-0.0.1.tar.gz tmp/adgodfhkdfh-0.0.2.tar.gz --markdown 20230722/a/adgodfhkdfh/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-22 07:39:31] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-07-22 07:39:31] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.4.8.tar.gz tmp/hyfi_template-0.5.0.tar.gz --markdown 20230722/h/hyfi-template/0.4.8-0.5.0/diff.md --exclude *.pyd
+[2023-07-22 07:39:31] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-22 07:39:31] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-22 07:39:31] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-22 07:39:32] INFO root fetch - processPackages [adgodfhkdfh]: Remove: archive file [/home/abi/fetcher/tmp/adgodfhkdfh-0.0.1.tar.gz]
+[2023-07-22 07:39:32] INFO root fetch - processPackages [adgodfhkdfh]: Remove: archive file [/home/abi/fetcher/tmp/adgodfhkdfh-0.0.2.tar.gz]
+[2023-07-22 07:39:32] INFO root fetch - main [MainThread]: End processing [adgodfhkdfh]: success
+[2023-07-22 07:39:32] INFO root fetch - main [MainThread]: End processing [adgodfhkdfh]: success
+[2023-07-22 07:39:32] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.4.8.tar.gz]
+[2023-07-22 07:39:32] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.5.0.tar.gz]
+[2023-07-22 07:39:32] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-07-22 07:39:32] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev8.tar.gz]
+[2023-07-22 07:39:32] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
+[2023-07-22 07:39:32] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-07-22 07:39:32] INFO root fetch - main [MainThread]: Store serial: [18992907]
