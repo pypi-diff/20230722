@@ -11677,3 +11677,63 @@
 [2023-07-22 10:58:08] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.11.3.tar.gz]
 [2023-07-22 10:58:08] INFO root fetch - main [MainThread]: End processing [dcnum]: success
 [2023-07-22 10:58:08] INFO root fetch - main [MainThread]: Store serial: [18993900]
+[2023-07-22 11:03:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993900]
+[2023-07-22 11:03:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 11:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: newpreProcessingGEP
+[2023-07-22 11:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: create-fastapi
+[2023-07-22 11:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ExpoSeq
+[2023-07-22 11:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-aesthetics-predictor
+[2023-07-22 11:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: htagweb
+[2023-07-22 11:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edgeimpulse-api
+[2023-07-22 11:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: volvopy
+[2023-07-22 11:03:17] WARNING root fetch - processPackages [newpreProcessingGEP]: Skipping, unable to determine old version
+[2023-07-22 11:03:17] INFO root fetch - main [MainThread]: End processing [newpreProcessingGEP] error
+[2023-07-22 11:03:17] INFO root fetch - processPackages [simple-aesthetics-predictor]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-22 11:03:17] INFO root fetch - processPackages [create-fastapi]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 11:03:17] INFO root fetch - processPackages [volvopy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 11:03:17] INFO root fetch - processPackages [htagweb]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-22 11:03:17] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.25.33] Old Version: [1.25.32]
+[2023-07-22 11:03:17] INFO root fetch - processPackages [ExpoSeq]: New version: [1.1.18] Old Version: [1.1.17]
+[2023-07-22 11:03:17] INFO root fetch - processPackages [simple-aesthetics-predictor]: Downloading https://files.pythonhosted.org/packages/63/d6/675270b046f97785ef3e5acfd36bd5ea435303283cf8362ca330bf7ee542/simple_aesthetics_predictor-0.1.0.tar.gz
+[2023-07-22 11:03:17] INFO root fetch - processPackages [create-fastapi]: Downloading https://files.pythonhosted.org/packages/d8/28/e0061e7b00b5d83c2de6e5db3abbf543d6e7ed591379c48286bd7f5b9df7/create-fastapi-0.0.3.tar.gz
+[2023-07-22 11:03:17] INFO root fetch - processPackages [volvopy]: Downloading https://files.pythonhosted.org/packages/09/80/61bd1f4ee62f2d455c9dba78d56bf9ebf309ea5f8732aa5afa30aab6f483/volvopy-0.1.8.tar.gz
+[2023-07-22 11:03:17] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/7f/05/c5a2a6b9549f84e021ca9f9663a0321c5590e11aa3033d7e9e2484d8e21e/edgeimpulse_api-1.25.32.tar.gz
+[2023-07-22 11:03:17] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/1d/05/4a58ffcb8416333215defd00e3a74f6268a9ff1fcc714b4ef4b9dc378877/htagweb-0.3.3.tar.gz
+[2023-07-22 11:03:17] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/67/e8/0d12dc2c20b0ed2e06164d1e48c3d7c2e73b10e57474f0c76faa0c6a8509/ExpoSeq-1.1.17.tar.gz
+[2023-07-22 11:03:17] INFO root fetch - processPackages [create-fastapi]: Downloading https://files.pythonhosted.org/packages/29/87/e3ba37ee624ff81803b102d3b6777c47b736f7276c4e39a63d5c7ee42b9e/create-fastapi-0.0.4.tar.gz
+[2023-07-22 11:03:17] INFO root fetch - processPackages [simple-aesthetics-predictor]: Downloading https://files.pythonhosted.org/packages/27/46/f5af884c66915332a3a3ac38b4e331324132e029f6f1d0474913bca21166/simple_aesthetics_predictor-0.1.1.tar.gz
+[2023-07-22 11:03:18] INFO root fetch - processPackages [create-fastapi]: executing diffoscope
+[2023-07-22 11:03:18] INFO root fetch - processPackages [create-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create-fastapi-0.0.3.tar.gz tmp/create-fastapi-0.0.4.tar.gz --markdown 20230722/c/create-fastapi/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 11:03:18] INFO root fetch - processPackages [volvopy]: Downloading https://files.pythonhosted.org/packages/65/63/ba8ec09cdf10dd66d13c6a803e3c55a019f7c7bff6c588035e14f79f610f/volvopy-0.1.9.tar.gz
+[2023-07-22 11:03:18] INFO root fetch - processPackages [volvopy]: executing diffoscope
+[2023-07-22 11:03:18] INFO root fetch - processPackages [volvopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volvopy-0.1.8.tar.gz tmp/volvopy-0.1.9.tar.gz --markdown 20230722/v/volvopy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 11:03:18] INFO root fetch - processPackages [simple-aesthetics-predictor]: executing diffoscope
+[2023-07-22 11:03:18] INFO root fetch - processPackages [simple-aesthetics-predictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_aesthetics_predictor-0.1.0.tar.gz tmp/simple_aesthetics_predictor-0.1.1.tar.gz --markdown 20230722/s/simple-aesthetics-predictor/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-22 11:03:18] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/f9/8b/375486c66a5ef458cfd5c81949ad6b019b5ff9d865640adfa05dbe805273/htagweb-0.4.0.tar.gz
+[2023-07-22 11:03:18] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/e0/39/ba6ea585bd7a7a5f8c209d7ca6c8505efdc8a2bf1e084a9368ade4d65e03/edgeimpulse_api-1.25.33.tar.gz
+[2023-07-22 11:03:18] INFO root fetch - processPackages [htagweb]: executing diffoscope
+[2023-07-22 11:03:18] INFO root fetch - processPackages [htagweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htagweb-0.3.3.tar.gz tmp/htagweb-0.4.0.tar.gz --markdown 20230722/h/htagweb/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-22 11:03:18] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2023-07-22 11:03:18] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.25.32.tar.gz tmp/edgeimpulse_api-1.25.33.tar.gz --markdown 20230722/e/edgeimpulse-api/1.25.32-1.25.33/diff.md --exclude *.pyd
+[2023-07-22 11:03:18] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/96/55/53a50be9853bcb179f649aa999bd57acfbd749121647b32f03b34c888943/ExpoSeq-1.1.18.tar.gz
+[2023-07-22 11:03:19] INFO root fetch - processPackages [create-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/create-fastapi-0.0.3.tar.gz]
+[2023-07-22 11:03:19] INFO root fetch - processPackages [create-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/create-fastapi-0.0.4.tar.gz]
+[2023-07-22 11:03:19] INFO root fetch - main [MainThread]: End processing [create-fastapi]: success
+[2023-07-22 11:03:19] INFO root fetch - processPackages [simple-aesthetics-predictor]: Remove: archive file [/home/abi/fetcher/tmp/simple_aesthetics_predictor-0.1.0.tar.gz]
+[2023-07-22 11:03:19] INFO root fetch - processPackages [simple-aesthetics-predictor]: Remove: archive file [/home/abi/fetcher/tmp/simple_aesthetics_predictor-0.1.1.tar.gz]
+[2023-07-22 11:03:19] INFO root fetch - main [MainThread]: End processing [simple-aesthetics-predictor]: success
+[2023-07-22 11:03:19] INFO root fetch - processPackages [volvopy]: Remove: archive file [/home/abi/fetcher/tmp/volvopy-0.1.8.tar.gz]
+[2023-07-22 11:03:19] INFO root fetch - processPackages [volvopy]: Remove: archive file [/home/abi/fetcher/tmp/volvopy-0.1.9.tar.gz]
+[2023-07-22 11:03:19] INFO root fetch - main [MainThread]: End processing [volvopy]: success
+[2023-07-22 11:03:19] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.3.3.tar.gz]
+[2023-07-22 11:03:19] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.4.0.tar.gz]
+[2023-07-22 11:03:19] INFO root fetch - main [MainThread]: End processing [htagweb]: success
+[2023-07-22 11:03:19] INFO root fetch - processPackages [ExpoSeq]: executing diffoscope
+[2023-07-22 11:03:19] INFO root fetch - processPackages [ExpoSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpoSeq-1.1.17.tar.gz tmp/ExpoSeq-1.1.18.tar.gz --markdown 20230722/E/ExpoSeq/1.1.17-1.1.18/diff.md --exclude *.pyd
+[2023-07-22 11:03:21] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.17.tar.gz]
+[2023-07-22 11:03:21] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.18.tar.gz]
+[2023-07-22 11:03:21] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
+[2023-07-22 11:03:23] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.25.32.tar.gz]
+[2023-07-22 11:03:23] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.25.33.tar.gz]
+[2023-07-22 11:03:23] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2023-07-22 11:03:23] INFO root fetch - main [MainThread]: Store serial: [18993921]
