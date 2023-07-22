@@ -7412,3 +7412,49 @@
 [2023-07-22 03:55:14] INFO root fetch - processPackages [emlvp]: Remove: archive file [/home/abi/fetcher/tmp/emlvp-0.0.6.tar.gz]
 [2023-07-22 03:55:14] INFO root fetch - main [MainThread]: End processing [emlvp]: success
 [2023-07-22 03:55:14] INFO root fetch - main [MainThread]: Store serial: [18992122]
+[2023-07-22 04:00:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992122]
+[2023-07-22 04:00:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 04:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TheSilent
+[2023-07-22 04:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-us
+[2023-07-22 04:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: benimang
+[2023-07-22 04:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TheSilent
+[2023-07-22 04:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: potato-annotation
+[2023-07-22 04:00:25] INFO root fetch - processPackages [benimang]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-22 04:00:25] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-22 04:00:25] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-22 04:00:25] INFO root fetch - processPackages [policyengine-us]: New version: [0.385.0] Old Version: [0.384.0]
+[2023-07-22 04:00:25] INFO root fetch - processPackages [potato-annotation]: New version: [1.2.0.9] Old Version: [1.2.0.8]
+[2023-07-22 04:00:25] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-22 04:00:25] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-22 04:00:25] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/01/11/8ecfa400ab1f3c601354b9c87919cee0a890790d2e531bf6f23895f19a72/benimang-0.4.1.tar.gz
+[2023-07-22 04:00:25] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/f9/69/855ebfebfeefad930f2bc9a1ed361b346d423fee50b6eab091af7a9ed0e2/policyengine-us-0.384.0.tar.gz
+[2023-07-22 04:00:25] INFO root fetch - processPackages [potato-annotation]: Downloading https://files.pythonhosted.org/packages/97/11/7b938befc793f6c05a732849dfb983a399f427fd5dd70339b2cbc3dff92b/potato-annotation-1.2.0.8.tar.gz
+[2023-07-22 04:00:25] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-22 04:00:25] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-22 04:00:25] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-22 04:00:25] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230722/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-22 04:00:25] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-22 04:00:25] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230722/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-22 04:00:25] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/df/f8/6627d1751ed081f90cfd83ea4d33b2dab513ab57712152d5e0f1a79de3e0/benimang-0.4.2.tar.gz
+[2023-07-22 04:00:25] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/e9/ff/787efbae436a4fb6d0f39088136f0e19401cd644ad6f2640f104191f1db2/policyengine-us-0.385.0.tar.gz
+[2023-07-22 04:00:25] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-07-22 04:00:25] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.4.1.tar.gz tmp/benimang-0.4.2.tar.gz --markdown 20230722/b/benimang/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-22 04:00:26] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-22 04:00:26] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.384.0.tar.gz tmp/policyengine-us-0.385.0.tar.gz --markdown 20230722/p/policyengine-us/0.384.0-0.385.0/diff.md --exclude *.pyd
+[2023-07-22 04:00:26] INFO root fetch - processPackages [potato-annotation]: Downloading https://files.pythonhosted.org/packages/9d/d7/657ca751047cfdbe61f3eb4d71e0f6516d6f57ec0b107ab14280493f8c9a/potato-annotation-1.2.0.9.tar.gz
+[2023-07-22 04:00:26] INFO root fetch - processPackages [potato-annotation]: executing diffoscope
+[2023-07-22 04:00:26] INFO root fetch - processPackages [potato-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/potato-annotation-1.2.0.8.tar.gz tmp/potato-annotation-1.2.0.9.tar.gz --markdown 20230722/p/potato-annotation/1.2.0.8-1.2.0.9/diff.md --exclude *.pyd
+[2023-07-22 04:00:26] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-22 04:00:26] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-22 04:00:26] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-22 04:00:26] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-22 04:00:26] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.1.tar.gz]
+[2023-07-22 04:00:26] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.2.tar.gz]
+[2023-07-22 04:00:26] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-07-22 04:00:27] INFO root fetch - processPackages [potato-annotation]: Remove: archive file [/home/abi/fetcher/tmp/potato-annotation-1.2.0.8.tar.gz]
+[2023-07-22 04:00:27] INFO root fetch - processPackages [potato-annotation]: Remove: archive file [/home/abi/fetcher/tmp/potato-annotation-1.2.0.9.tar.gz]
+[2023-07-22 04:00:27] INFO root fetch - main [MainThread]: End processing [potato-annotation]: success
+[2023-07-22 04:00:54] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.384.0.tar.gz]
+[2023-07-22 04:00:54] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.385.0.tar.gz]
+[2023-07-22 04:00:54] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-22 04:00:54] INFO root fetch - main [MainThread]: Store serial: [18992136]
