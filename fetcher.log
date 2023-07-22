@@ -10144,3 +10144,30 @@
 [2023-07-22 08:36:53] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.3.tar.gz]
 [2023-07-22 08:36:53] INFO root fetch - main [MainThread]: End processing [benimang]: success
 [2023-07-22 08:36:53] INFO root fetch - main [MainThread]: Store serial: [18993206]
+[2023-07-22 08:41:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993206]
+[2023-07-22 08:42:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-22 08:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: git-timemachine
+[2023-07-22 08:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openslide-python
+[2023-07-22 08:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: groundingdino-stk
+[2023-07-22 08:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: commandchat
+[2023-07-22 08:42:01] WARNING root fetch - processPackages [git-timemachine]: Skipping, unable to determine old version
+[2023-07-22 08:42:01] INFO root fetch - main [MainThread]: End processing [git-timemachine] error
+[2023-07-22 08:42:01] INFO root fetch - processPackages [commandchat]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-22 08:42:01] WARNING root fetch - processPackages [groundingdino-stk]: Skipping, unable to determine old version
+[2023-07-22 08:42:01] INFO root fetch - main [MainThread]: End processing [groundingdino-stk] error
+[2023-07-22 08:42:01] INFO root fetch - processPackages [openslide-python]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-22 08:42:01] INFO root fetch - processPackages [openslide-python]: Downloading https://files.pythonhosted.org/packages/e7/35/794fe55d5789c6f4ed98dfecfb5b8516eb619b0f6dec18d03c653590de71/openslide-python-1.2.0.tar.gz
+[2023-07-22 08:42:01] INFO root fetch - processPackages [commandchat]: Downloading https://files.pythonhosted.org/packages/97/fd/3b2879608204447388d37bcc7fca710e5f1330785972f5e82edea83e0499/commandchat-0.0.2-py3-none-any.whl
+[2023-07-22 08:42:02] INFO root fetch - processPackages [commandchat]: Downloading https://files.pythonhosted.org/packages/36/d4/dbdbefb027fc7640b111c8fe1c296805412365d9231b2b84b48ec2ca18f9/commandchat-0.0.4.tar.gz
+[2023-07-22 08:42:02] INFO root fetch - processPackages [openslide-python]: Downloading https://files.pythonhosted.org/packages/76/57/fd8dadcb84e3d8f66697eee6e76c8e67246a0ff5c80037a9c844eabed833/openslide-python-1.3.0.tar.gz
+[2023-07-22 08:42:02] INFO root fetch - processPackages [commandchat]: executing diffoscope
+[2023-07-22 08:42:02] INFO root fetch - processPackages [commandchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commandchat-0.0.2-py3-none-any.whl.zip tmp/commandchat-0.0.4.tar.gz --markdown 20230722/c/commandchat/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 08:42:02] INFO root fetch - processPackages [openslide-python]: executing diffoscope
+[2023-07-22 08:42:02] INFO root fetch - processPackages [openslide-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openslide-python-1.2.0.tar.gz tmp/openslide-python-1.3.0.tar.gz --markdown 20230722/o/openslide-python/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-22 08:42:02] INFO root fetch - processPackages [commandchat]: Remove: archive file [/home/abi/fetcher/tmp/commandchat-0.0.2-py3-none-any.whl.zip]
+[2023-07-22 08:42:02] INFO root fetch - processPackages [commandchat]: Remove: archive file [/home/abi/fetcher/tmp/commandchat-0.0.4.tar.gz]
+[2023-07-22 08:42:02] INFO root fetch - main [MainThread]: End processing [commandchat]: success
+[2023-07-22 08:42:06] INFO root fetch - processPackages [openslide-python]: Remove: archive file [/home/abi/fetcher/tmp/openslide-python-1.2.0.tar.gz]
+[2023-07-22 08:42:06] INFO root fetch - processPackages [openslide-python]: Remove: archive file [/home/abi/fetcher/tmp/openslide-python-1.3.0.tar.gz]
+[2023-07-22 08:42:06] INFO root fetch - main [MainThread]: End processing [openslide-python]: success
+[2023-07-22 08:42:06] INFO root fetch - main [MainThread]: Store serial: [18993226]
