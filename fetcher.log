@@ -3509,3 +3509,56 @@
 [2023-07-22 02:52:58] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.3.tar.gz]
 [2023-07-22 02:52:58] INFO root fetch - main [MainThread]: End processing [airbyte]: success
 [2023-07-22 02:52:58] INFO root fetch - main [MainThread]: Store serial: [18990802]
+[2023-07-22 02:58:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18990802]
+[2023-07-22 02:58:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-22 02:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarms
+[2023-07-22 02:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-databrew-cicd
+[2023-07-22 02:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-comprehend-s3olap
+[2023-07-22 02:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EnergyCapSdk
+[2023-07-22 02:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-ndn
+[2023-07-22 02:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asdff
+[2023-07-22 02:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: asdff
+[2023-07-22 02:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mcfetch
+[2023-07-22 02:58:06] WARNING root fetch - processPackages [asdff]: Skipping, unable to determine old version
+[2023-07-22 02:58:06] INFO root fetch - main [MainThread]: End processing [asdff] error
+[2023-07-22 02:58:06] WARNING root fetch - processPackages [asdff]: Skipping, unable to determine old version
+[2023-07-22 02:58:06] INFO root fetch - main [MainThread]: End processing [asdff] error
+[2023-07-22 02:58:06] INFO root fetch - processPackages [swarms]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-22 02:58:06] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-22 02:58:06] WARNING root fetch - processPackages [mcfetch]: Skipping, unable to determine old version
+[2023-07-22 02:58:06] INFO root fetch - main [MainThread]: End processing [mcfetch] error
+[2023-07-22 02:58:06] INFO root fetch - processPackages [python-ndn]: New version: [0.4] Old Version: [0.3a1.post4]
+[2023-07-22 02:58:06] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/33/42/f1fdf0ac558a830aea89bb9933436487be011ded18ae3ac8fb1056809ac2/swarms-0.9.5.tar.gz
+[2023-07-22 02:58:07] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-07-22 02:58:07] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-22 02:58:07] INFO root fetch - processPackages [EnergyCapSdk]: New version: [8.2304.4673] Old Version: [8.2304.4667]
+[2023-07-22 02:58:07] INFO root fetch - processPackages [python-ndn]: Downloading https://files.pythonhosted.org/packages/eb/09/8a63fb7b5cc7b1b0914f6e4ab98f5cbfd32771161cd8b49e9dc84b7025f5/python-ndn-0.3a1.post4.tar.gz
+[2023-07-22 02:58:07] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/48/48/b85c572b40a0588d4438aa9e75c38c4b59b1d0089812e4ddd22f0181e999/EnergyCapSdk-8.2304.4667.tar.gz
+[2023-07-22 02:58:07] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-22 02:58:07] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/0f/16/61bd26292c0e6712e4d72197283f3aac0c9e2a2022c04a2c6bc12fe0e725/swarms-0.9.6.tar.gz
+[2023-07-22 02:58:07] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-22 02:58:07] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-22 02:58:07] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-07-22 02:58:07] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-22 02:58:07] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.9.5.tar.gz tmp/swarms-0.9.6.tar.gz --markdown 20230722/s/swarms/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-22 02:58:07] INFO root fetch - processPackages [python-ndn]: Downloading https://files.pythonhosted.org/packages/e4/5e/f324c6c348fbbe6a5c47a0235f7e620be555d46712c513008c5a69d4d837/python_ndn-0.4.tar.gz
+[2023-07-22 02:58:07] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/ae/f9/3b4dff644bf7417cf2a06db95a250e0cfe7f68a0288e8731395889b0c66f/EnergyCapSdk-8.2304.4673.tar.gz
+[2023-07-22 02:58:07] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-07-22 02:58:07] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230722/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-22 02:58:07] INFO root fetch - processPackages [python-ndn]: executing diffoscope
+[2023-07-22 02:58:07] INFO root fetch - processPackages [python-ndn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-ndn-0.3a1.post4.tar.gz tmp/python_ndn-0.4.tar.gz --markdown 20230722/p/python-ndn/0.3a1.post4-0.4/diff.md --exclude *.pyd
+[2023-07-22 02:58:07] INFO root fetch - processPackages [EnergyCapSdk]: executing diffoscope
+[2023-07-22 02:58:07] INFO root fetch - processPackages [EnergyCapSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnergyCapSdk-8.2304.4667.tar.gz tmp/EnergyCapSdk-8.2304.4673.tar.gz --markdown 20230722/E/EnergyCapSdk/8.2304.4667-8.2304.4673/diff.md --exclude *.pyd
+[2023-07-22 02:58:08] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-07-22 02:58:08] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-07-22 02:58:08] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-07-22 02:58:08] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.9.5.tar.gz]
+[2023-07-22 02:58:08] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.9.6.tar.gz]
+[2023-07-22 02:58:08] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-22 02:58:09] INFO root fetch - processPackages [python-ndn]: Remove: archive file [/home/abi/fetcher/tmp/python-ndn-0.3a1.post4.tar.gz]
+[2023-07-22 02:58:09] INFO root fetch - processPackages [python-ndn]: Remove: archive file [/home/abi/fetcher/tmp/python_ndn-0.4.tar.gz]
+[2023-07-22 02:58:09] INFO root fetch - main [MainThread]: End processing [python-ndn]: success
+[2023-07-22 02:58:20] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4667.tar.gz]
+[2023-07-22 02:58:20] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4673.tar.gz]
+[2023-07-22 02:58:20] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
+[2023-07-22 02:58:20] INFO root fetch - main [MainThread]: Store serial: [18990830]
