@@ -1148,7 +1148,7 @@
 
  * *Files 18% similar despite different names*
 
-#### Comparing `/tmp/diffoscope_ip9i4n2g_/tmprglf_6lf_TarContainer/0/22` & `/tmp/diffoscope_ip9i4n2g_/tmptwrbse32_TarContainer/0/22`
+#### Comparing `/tmp/diffoscope_jar2v12d_/tmppvmj21f1_TarContainer/0/22` & `/tmp/diffoscope_jar2v12d_/tmpkca4ac6c_TarContainer/0/22`
 
 ```diff
 @@ -5,5435 +5,5435 @@

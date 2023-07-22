@@ -17032,3 +17032,84 @@ EOFError: EOF read where object expected
 [2023-07-22 18:46:51] INFO root fetch - processPackages [pydiff-planetarium-assignment]: Remove: archive file [/home/abi/fetcher/tmp/pydiff-planetarium-assignment-0.0.7.tar.gz]
 [2023-07-22 18:46:51] INFO root fetch - main [MainThread]: End processing [pydiff-planetarium-assignment]: success
 [2023-07-22 18:46:51] INFO root fetch - main [MainThread]: Store serial: [18996262]
+[2023-07-22 18:51:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996262]
+[2023-07-22 18:52:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-22 18:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scsd
+[2023-07-22 18:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cvision
+[2023-07-22 18:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loq0
+[2023-07-22 18:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grooveshop-django-api
+[2023-07-22 18:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odooless
+[2023-07-22 18:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fidel
+[2023-07-22 18:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: selfcord.py
+[2023-07-22 18:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tidy3d
+[2023-07-22 18:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: termynal
+[2023-07-22 18:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: neuralpit
+[2023-07-22 18:52:00] INFO root fetch - processPackages [odooless]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-22 18:52:00] INFO root fetch - processPackages [fidel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 18:52:00] INFO root fetch - processPackages [neuralpit]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-22 18:52:00] WARNING root fetch - processPackages [cvision]: Skipping, unable to determine old version
+[2023-07-22 18:52:00] INFO root fetch - processPackages [grooveshop-django-api]: New version: [0.8.5] Old Version: [0.8.1]
+[2023-07-22 18:52:00] INFO root fetch - main [MainThread]: End processing [cvision] error
+[2023-07-22 18:52:00] INFO root fetch - processPackages [scsd]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-22 18:52:00] WARNING root fetch - processPackages [loq0]: Skipping, unable to determine old version
+[2023-07-22 18:52:00] INFO root fetch - main [MainThread]: End processing [loq0] error
+[2023-07-22 18:52:00] INFO root fetch - processPackages [tidy3d]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-22 18:52:00] INFO root fetch - processPackages [selfcord.py]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-22 18:52:00] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/14/c5/4341df052259f0634c957a0398b6fba268219142a79d5303dcaa2a4f128c/grooveshop_django_api-0.8.1.tar.gz
+[2023-07-22 18:52:00] INFO root fetch - processPackages [termynal]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-22 18:52:00] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/56/58/bb03618390059b6d129f2de5cd391ec42364984c951277841e024e78d46e/neuralpit-2.0.8.tar.gz
+[2023-07-22 18:52:00] INFO root fetch - processPackages [fidel]: Downloading https://files.pythonhosted.org/packages/4b/ec/b9658be0b81860f377458fcfa24444673298c4213f6843adba33116ea49b/fidel-0.0.8.tar.gz
+[2023-07-22 18:52:00] INFO root fetch - processPackages [odooless]: Downloading https://files.pythonhosted.org/packages/94/11/9917c0f607555b64f835c1ea419a554c74e927eb8f8387c75827c4513fcb/odooless-0.1.0.tar.gz
+[2023-07-22 18:52:00] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/ac/17/337cb25f0f71ec432dbb4bf39eed6d2a4dafd21d01d2144a5cb8372c5985/scsd-0.0.7.tar.gz
+[2023-07-22 18:52:01] INFO root fetch - processPackages [selfcord.py]: Downloading https://files.pythonhosted.org/packages/2a/ca/84ee90c6a61509d56747559867444e9a0a84a1e89b746b495e0e1802f2a6/selfcord.py-0.2.3.tar.gz
+[2023-07-22 18:52:01] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/8d/d4/cdca716e9f1023aaa975149951886336025da24ab787ef5b10e974341df6/neuralpit-2.0.9.tar.gz
+[2023-07-22 18:52:01] INFO root fetch - processPackages [tidy3d]: Downloading https://files.pythonhosted.org/packages/2e/d8/09982ff8ea4ba6ebde6f9d3b9a7aba18f0e065cebe81215344886a4aac7e/tidy3d-2.3.1.tar.gz
+[2023-07-22 18:52:01] INFO root fetch - processPackages [termynal]: Downloading https://files.pythonhosted.org/packages/5b/63/ee34d2e6d4ea73b57ab7dcb2bf1eecc55ec2f2713728df5c0d465262b681/termynal-0.4.0.tar.gz
+[2023-07-22 18:52:01] INFO root fetch - processPackages [fidel]: Downloading https://files.pythonhosted.org/packages/31/d8/a9f9df9e3652f0e7a47815f736ca161c269731cbced64ae9959da31420cc/fidel-0.0.9.tar.gz
+[2023-07-22 18:52:01] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/73/23/a235ab52743256110c9399a7cd5232cd00d2be18aa57ea724b20fde057b3/scsd-0.0.8.tar.gz
+[2023-07-22 18:52:01] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-07-22 18:52:01] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-2.0.8.tar.gz tmp/neuralpit-2.0.9.tar.gz --markdown 20230722/n/neuralpit/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-22 18:52:01] INFO root fetch - processPackages [odooless]: Downloading https://files.pythonhosted.org/packages/a2/ff/163ada4fda56b0f54e6df7b19ec33e1061fb556c47dcfcfdaa6cdaa7487f/odooless-0.1.1.tar.gz
+[2023-07-22 18:52:01] INFO root fetch - processPackages [selfcord.py]: Downloading https://files.pythonhosted.org/packages/47/31/403aadb36d5a10717518739e7abd75cc1d706af3f9fdb192c5298c883053/selfcord.py-0.2.4.tar.gz
+[2023-07-22 18:52:01] INFO root fetch - processPackages [scsd]: executing diffoscope
+[2023-07-22 18:52:01] INFO root fetch - processPackages [scsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scsd-0.0.7.tar.gz tmp/scsd-0.0.8.tar.gz --markdown 20230722/s/scsd/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-22 18:52:01] INFO root fetch - processPackages [odooless]: executing diffoscope
+[2023-07-22 18:52:01] INFO root fetch - processPackages [odooless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odooless-0.1.0.tar.gz tmp/odooless-0.1.1.tar.gz --markdown 20230722/o/odooless/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-22 18:52:01] INFO root fetch - processPackages [termynal]: Downloading https://files.pythonhosted.org/packages/78/11/c708dac5ba97f7250906859c7259c02057cebc4ccbe0f6167524b7c12864/termynal-0.5.0.tar.gz
+[2023-07-22 18:52:01] INFO root fetch - processPackages [fidel]: executing diffoscope
+[2023-07-22 18:52:01] INFO root fetch - processPackages [fidel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fidel-0.0.8.tar.gz tmp/fidel-0.0.9.tar.gz --markdown 20230722/f/fidel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 18:52:01] INFO root fetch - processPackages [selfcord.py]: executing diffoscope
+[2023-07-22 18:52:01] INFO root fetch - processPackages [selfcord.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfcord.py-0.2.3.tar.gz tmp/selfcord.py-0.2.4.tar.gz --markdown 20230722/s/selfcord.py/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-22 18:52:01] INFO root fetch - processPackages [termynal]: executing diffoscope
+[2023-07-22 18:52:01] INFO root fetch - processPackages [termynal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termynal-0.4.0.tar.gz tmp/termynal-0.5.0.tar.gz --markdown 20230722/t/termynal/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-22 18:52:01] INFO root fetch - processPackages [tidy3d]: Downloading https://files.pythonhosted.org/packages/f7/51/ebfed5a977eb70b0dee9dd1afe40e257592bfb4e4b70a86968fd9df78b33/tidy3d-2.3.2.tar.gz
+[2023-07-22 18:52:02] INFO root fetch - processPackages [tidy3d]: executing diffoscope
+[2023-07-22 18:52:02] INFO root fetch - processPackages [tidy3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidy3d-2.3.1.tar.gz tmp/tidy3d-2.3.2.tar.gz --markdown 20230722/t/tidy3d/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-22 18:52:02] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/fb/df/8226300d476a83a512c3f12293ffc7b47fc482097791fb706f22e3f3f9bb/grooveshop_django_api-0.8.5.tar.gz
+[2023-07-22 18:52:02] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.8.tar.gz]
+[2023-07-22 18:52:02] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.9.tar.gz]
+[2023-07-22 18:52:02] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-07-22 18:52:02] INFO root fetch - processPackages [odooless]: Remove: archive file [/home/abi/fetcher/tmp/odooless-0.1.0.tar.gz]
+[2023-07-22 18:52:02] INFO root fetch - processPackages [odooless]: Remove: archive file [/home/abi/fetcher/tmp/odooless-0.1.1.tar.gz]
+[2023-07-22 18:52:02] INFO root fetch - main [MainThread]: End processing [odooless]: success
+[2023-07-22 18:52:02] INFO root fetch - processPackages [scsd]: Remove: archive file [/home/abi/fetcher/tmp/scsd-0.0.7.tar.gz]
+[2023-07-22 18:52:02] INFO root fetch - processPackages [scsd]: Remove: archive file [/home/abi/fetcher/tmp/scsd-0.0.8.tar.gz]
+[2023-07-22 18:52:02] INFO root fetch - main [MainThread]: End processing [scsd]: success
+[2023-07-22 18:52:02] INFO root fetch - processPackages [fidel]: Remove: archive file [/home/abi/fetcher/tmp/fidel-0.0.8.tar.gz]
+[2023-07-22 18:52:02] INFO root fetch - processPackages [fidel]: Remove: archive file [/home/abi/fetcher/tmp/fidel-0.0.9.tar.gz]
+[2023-07-22 18:52:02] INFO root fetch - main [MainThread]: End processing [fidel]: success
+[2023-07-22 18:52:02] INFO root fetch - processPackages [termynal]: Remove: archive file [/home/abi/fetcher/tmp/termynal-0.4.0.tar.gz]
+[2023-07-22 18:52:02] INFO root fetch - processPackages [termynal]: Remove: archive file [/home/abi/fetcher/tmp/termynal-0.5.0.tar.gz]
+[2023-07-22 18:52:02] INFO root fetch - main [MainThread]: End processing [termynal]: success
+[2023-07-22 18:52:02] INFO root fetch - processPackages [selfcord.py]: Remove: archive file [/home/abi/fetcher/tmp/selfcord.py-0.2.3.tar.gz]
+[2023-07-22 18:52:02] INFO root fetch - processPackages [selfcord.py]: Remove: archive file [/home/abi/fetcher/tmp/selfcord.py-0.2.4.tar.gz]
+[2023-07-22 18:52:02] INFO root fetch - main [MainThread]: End processing [selfcord.py]: success
+[2023-07-22 18:52:03] INFO root fetch - processPackages [grooveshop-django-api]: executing diffoscope
+[2023-07-22 18:52:03] INFO root fetch - processPackages [grooveshop-django-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grooveshop_django_api-0.8.1.tar.gz tmp/grooveshop_django_api-0.8.5.tar.gz --markdown 20230722/g/grooveshop-django-api/0.8.1-0.8.5/diff.md --exclude *.pyd
+[2023-07-22 18:52:03] INFO root fetch - processPackages [tidy3d]: Remove: archive file [/home/abi/fetcher/tmp/tidy3d-2.3.1.tar.gz]
+[2023-07-22 18:52:03] INFO root fetch - processPackages [tidy3d]: Remove: archive file [/home/abi/fetcher/tmp/tidy3d-2.3.2.tar.gz]
+[2023-07-22 18:52:03] INFO root fetch - main [MainThread]: End processing [tidy3d]: success
+[2023-07-22 18:52:07] INFO root fetch - processPackages [grooveshop-django-api]: Remove: archive file [/home/abi/fetcher/tmp/grooveshop_django_api-0.8.1.tar.gz]
+[2023-07-22 18:52:07] INFO root fetch - processPackages [grooveshop-django-api]: Remove: archive file [/home/abi/fetcher/tmp/grooveshop_django_api-0.8.5.tar.gz]
+[2023-07-22 18:52:07] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api]: success
+[2023-07-22 18:52:07] INFO root fetch - main [MainThread]: Store serial: [18996290]
