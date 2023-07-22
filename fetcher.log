@@ -18016,3 +18016,75 @@ EOFError: EOF read where object expected
 [2023-07-22 20:10:12] INFO root fetch - processPackages [quadpy]: Remove: archive file [/home/abi/fetcher/tmp/quadpy-0.17.7-py3-none-any.whl.zip]
 [2023-07-22 20:10:12] INFO root fetch - main [MainThread]: End processing [quadpy]: success
 [2023-07-22 20:10:12] INFO root fetch - main [MainThread]: Store serial: [18996739]
+[2023-07-22 20:15:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996739]
+[2023-07-22 20:15:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-22 20:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OneOnOne
+[2023-07-22 20:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aocd-example-parser
+[2023-07-22 20:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: utz
+[2023-07-22 20:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ctmd5
+[2023-07-22 20:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tendril-utils-db
+[2023-07-22 20:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cade-task
+[2023-07-22 20:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kubitdb
+[2023-07-22 20:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pathgenmap
+[2023-07-22 20:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gammarer.aws-secure-cloudfront-origin-bucket
+[2023-07-22 20:15:21] WARNING root fetch - processPackages [aocd-example-parser]: Skipping, unable to determine old version
+[2023-07-22 20:15:21] INFO root fetch - main [MainThread]: End processing [aocd-example-parser] error
+[2023-07-22 20:15:21] INFO root fetch - processPackages [cade-task]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-22 20:15:21] INFO root fetch - processPackages [pathgenmap]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-22 20:15:21] INFO root fetch - processPackages [utz]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 20:15:21] INFO root fetch - processPackages [OneOnOne]: New version: [0.6935] Old Version: [0.6933]
+[2023-07-22 20:15:21] INFO root fetch - processPackages [cade-task]: Downloading https://files.pythonhosted.org/packages/ab/fd/29e0d700e98fe8e63e7002399cffe8b8ec97183767e779643c2d17fdfe7b/cade_task-0.2.1.tar.gz
+[2023-07-22 20:15:21] INFO root fetch - processPackages [tendril-utils-db]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-22 20:15:21] WARNING root fetch - processPackages [kubitdb]: Skipping, unable to determine old version
+[2023-07-22 20:15:21] INFO root fetch - main [MainThread]: End processing [kubitdb] error
+[2023-07-22 20:15:21] INFO root fetch - processPackages [ctmd5]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-22 20:15:21] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-22 20:15:21] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/19/f4/c89139b9669e4cd6d9cf8372ca0aa1df8b8bec59d5810a544b4e9fd7c401/pathgenmap-0.1.1.tar.gz
+[2023-07-22 20:15:21] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Downloading https://files.pythonhosted.org/packages/e3/4e/c757fa562b209659a33cd055dc2ae30db7876e64ac29906f37ecd50c885a/gammarer.aws-secure-cloudfront-origin-bucket-0.6.3.tar.gz
+[2023-07-22 20:15:21] INFO root fetch - processPackages [utz]: Downloading https://files.pythonhosted.org/packages/80/5f/632b487240e81298c96f27358e4e8fc33b1e968a339752086cd6a4018782/utz-0.3.8.tar.gz
+[2023-07-22 20:15:21] INFO root fetch - processPackages [ctmd5]: Downloading https://files.pythonhosted.org/packages/53/79/856c2d5ca68329a88f55d05c093f76ce639c63ae7916a753244690ed3113/ctmd5-0.1.1-py2.py3-none-any.whl
+[2023-07-22 20:15:21] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/b3/0f/73275b4e8bf2923683eb4fbda95b694015c786314b8706a3e994c4f6d3cf/OneOnOne-0.6933.tar.gz
+[2023-07-22 20:15:21] INFO root fetch - processPackages [tendril-utils-db]: Downloading https://files.pythonhosted.org/packages/40/2d/ea74acdf8c94bf8dd7924eded338b00c3ab37d2aff33a65527eef43a3417/tendril-utils-db-0.5.3.tar.gz
+[2023-07-22 20:15:22] INFO root fetch - processPackages [cade-task]: Downloading https://files.pythonhosted.org/packages/9e/00/6e0dad5a085c552186089f857b44d0f8ff3872bba6f6c4450f84c6fe4478/cade_task-0.3.0.tar.gz
+[2023-07-22 20:15:22] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/1c/89/ec75daed71f8282425e76898b6165ef1ed33dac16a2f919d9f3b17141c2e/pathgenmap-0.1.2.tar.gz
+[2023-07-22 20:15:22] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-22 20:15:22] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.1.1.tar.gz tmp/pathgenmap-0.1.2.tar.gz --markdown 20230722/p/pathgenmap/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-22 20:15:22] INFO root fetch - processPackages [cade-task]: executing diffoscope
+[2023-07-22 20:15:22] INFO root fetch - processPackages [cade-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cade_task-0.2.1.tar.gz tmp/cade_task-0.3.0.tar.gz --markdown 20230722/c/cade-task/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-22 20:15:22] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Downloading https://files.pythonhosted.org/packages/7f/39/3eaa2ff2d408ced36277394379d5bd6f9bdab519ed986f812b5add6a44a4/gammarer.aws-secure-cloudfront-origin-bucket-0.6.4.tar.gz
+[2023-07-22 20:15:22] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/93/32/cb5cdf7a880d6f3fdd22119228e1eae589f08ece43cfbfbef499e8786fd7/OneOnOne-0.6935.tar.gz
+[2023-07-22 20:15:22] INFO root fetch - processPackages [ctmd5]: Downloading https://files.pythonhosted.org/packages/0c/b7/4f5729c6a44dc6985c199541d4b3ceafba8f87e58b7163d700fba57a2044/ctmd5-0.1.2.tar.gz
+[2023-07-22 20:15:22] INFO root fetch - processPackages [utz]: Downloading https://files.pythonhosted.org/packages/88/0b/8af56a1053a885d3e989d8a3bb2f4d2042bf37cbce047607a41d2b89d5d3/utz-0.3.9.tar.gz
+[2023-07-22 20:15:22] INFO root fetch - processPackages [tendril-utils-db]: Downloading https://files.pythonhosted.org/packages/4e/4c/69b09785aeacd596c8dec38a65c40c0f5d1fbcf7004083ab64ec930040c7/tendril-utils-db-0.5.4.tar.gz
+[2023-07-22 20:15:22] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: executing diffoscope
+[2023-07-22 20:15:22] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.3.tar.gz tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.4.tar.gz --markdown 20230722/g/gammarer.aws-secure-cloudfront-origin-bucket/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-22 20:15:22] INFO root fetch - processPackages [ctmd5]: executing diffoscope
+[2023-07-22 20:15:22] INFO root fetch - processPackages [ctmd5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctmd5-0.1.1-py2.py3-none-any.whl.zip tmp/ctmd5-0.1.2.tar.gz --markdown 20230722/c/ctmd5/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-22 20:15:22] INFO root fetch - processPackages [utz]: executing diffoscope
+[2023-07-22 20:15:22] INFO root fetch - processPackages [utz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utz-0.3.8.tar.gz tmp/utz-0.3.9.tar.gz --markdown 20230722/u/utz/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 20:15:22] INFO root fetch - processPackages [tendril-utils-db]: executing diffoscope
+[2023-07-22 20:15:22] INFO root fetch - processPackages [tendril-utils-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-utils-db-0.5.3.tar.gz tmp/tendril-utils-db-0.5.4.tar.gz --markdown 20230722/t/tendril-utils-db/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-22 20:15:23] INFO root fetch - processPackages [cade-task]: Remove: archive file [/home/abi/fetcher/tmp/cade_task-0.2.1.tar.gz]
+[2023-07-22 20:15:23] INFO root fetch - processPackages [cade-task]: Remove: archive file [/home/abi/fetcher/tmp/cade_task-0.3.0.tar.gz]
+[2023-07-22 20:15:23] INFO root fetch - main [MainThread]: End processing [cade-task]: success
+[2023-07-22 20:15:23] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.1.1.tar.gz]
+[2023-07-22 20:15:23] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.1.2.tar.gz]
+[2023-07-22 20:15:23] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-22 20:15:23] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.3.tar.gz]
+[2023-07-22 20:15:23] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.4.tar.gz]
+[2023-07-22 20:15:23] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-cloudfront-origin-bucket]: success
+[2023-07-22 20:15:23] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 20:15:23] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6933.tar.gz tmp/OneOnOne-0.6935.tar.gz --markdown 20230722/O/OneOnOne/0.6933-0.6935/diff.md --exclude *.pyd
+[2023-07-22 20:15:23] INFO root fetch - processPackages [ctmd5]: Remove: archive file [/home/abi/fetcher/tmp/ctmd5-0.1.1-py2.py3-none-any.whl.zip]
+[2023-07-22 20:15:23] INFO root fetch - processPackages [ctmd5]: Remove: archive file [/home/abi/fetcher/tmp/ctmd5-0.1.2.tar.gz]
+[2023-07-22 20:15:23] INFO root fetch - main [MainThread]: End processing [ctmd5]: success
+[2023-07-22 20:15:23] INFO root fetch - processPackages [tendril-utils-db]: Remove: archive file [/home/abi/fetcher/tmp/tendril-utils-db-0.5.3.tar.gz]
+[2023-07-22 20:15:23] INFO root fetch - processPackages [tendril-utils-db]: Remove: archive file [/home/abi/fetcher/tmp/tendril-utils-db-0.5.4.tar.gz]
+[2023-07-22 20:15:23] INFO root fetch - main [MainThread]: End processing [tendril-utils-db]: success
+[2023-07-22 20:15:23] INFO root fetch - processPackages [utz]: Remove: archive file [/home/abi/fetcher/tmp/utz-0.3.8.tar.gz]
+[2023-07-22 20:15:23] INFO root fetch - processPackages [utz]: Remove: archive file [/home/abi/fetcher/tmp/utz-0.3.9.tar.gz]
+[2023-07-22 20:15:23] INFO root fetch - main [MainThread]: End processing [utz]: success
+[2023-07-22 20:15:24] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6933.tar.gz]
+[2023-07-22 20:15:24] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6935.tar.gz]
+[2023-07-22 20:15:24] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 20:15:24] INFO root fetch - main [MainThread]: Store serial: [18996766]
