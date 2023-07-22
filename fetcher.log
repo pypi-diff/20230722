@@ -11601,3 +11601,24 @@
 [2023-07-22 10:47:47] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-22 10:47:47] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-22 10:47:47] INFO root fetch - main [MainThread]: Store serial: [18993878]
+[2023-07-22 10:52:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993878]
+[2023-07-22 10:52:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-22 10:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: talkytimes-package
+[2023-07-22 10:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finterstellar
+[2023-07-22 10:52:56] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 10:52:56] INFO root fetch - processPackages [finterstellar]: New version: [0.2.20] Old Version: [0.2.19]
+[2023-07-22 10:52:56] INFO root fetch - processPackages [finterstellar]: Downloading https://files.pythonhosted.org/packages/f1/e4/a8d4bacd6331e1284ecd31353913cf41d756ee1611a6baeabbcc6118700c/finterstellar-0.2.19.tar.gz
+[2023-07-22 10:52:56] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-22 10:52:56] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-22 10:52:56] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-22 10:52:56] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230722/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 10:52:56] INFO root fetch - processPackages [finterstellar]: Downloading https://files.pythonhosted.org/packages/bd/2e/83bf96c0f5aac169ab85c15c3d1e3f3bdb6fec3ad2b86e65a7f6b3115bbd/finterstellar-0.2.20.tar.gz
+[2023-07-22 10:52:56] INFO root fetch - processPackages [finterstellar]: executing diffoscope
+[2023-07-22 10:52:56] INFO root fetch - processPackages [finterstellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finterstellar-0.2.19.tar.gz tmp/finterstellar-0.2.20.tar.gz --markdown 20230722/f/finterstellar/0.2.19-0.2.20/diff.md --exclude *.pyd
+[2023-07-22 10:52:57] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-22 10:52:57] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-22 10:52:57] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-22 10:52:57] INFO root fetch - processPackages [finterstellar]: Remove: archive file [/home/abi/fetcher/tmp/finterstellar-0.2.19.tar.gz]
+[2023-07-22 10:52:57] INFO root fetch - processPackages [finterstellar]: Remove: archive file [/home/abi/fetcher/tmp/finterstellar-0.2.20.tar.gz]
+[2023-07-22 10:52:57] INFO root fetch - main [MainThread]: End processing [finterstellar]: success
+[2023-07-22 10:52:57] INFO root fetch - main [MainThread]: Store serial: [18993883]
