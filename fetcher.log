@@ -13493,3 +13493,46 @@
 [2023-07-22 13:56:57] INFO root fetch - processPackages [horn-py]: Remove: archive file [/home/abi/fetcher/tmp/horn_py-0.6.4-py3-none-any.whl.zip]
 [2023-07-22 13:56:57] INFO root fetch - main [MainThread]: End processing [horn-py]: success
 [2023-07-22 13:56:57] INFO root fetch - main [MainThread]: Store serial: [18994678]
+[2023-07-22 14:02:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994678]
+[2023-07-22 14:02:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 14:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: horn-py
+[2023-07-22 14:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tendril-filestore
+[2023-07-22 14:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shadowhash
+[2023-07-22 14:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: degiro-cli
+[2023-07-22 14:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: horn-py
+[2023-07-22 14:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uk-bin-collection
+[2023-07-22 14:02:06] INFO root fetch - processPackages [tendril-filestore]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-22 14:02:06] WARNING root fetch - processPackages [degiro-cli]: Skipping, unable to determine old version
+[2023-07-22 14:02:06] INFO root fetch - main [MainThread]: End processing [degiro-cli] error
+[2023-07-22 14:02:06] INFO root fetch - processPackages [uk-bin-collection]: New version: [0.5.0] Old Version: [0.2.0]
+[2023-07-22 14:02:06] INFO root fetch - processPackages [horn-py]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-22 14:02:06] INFO root fetch - processPackages [horn-py]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-22 14:02:06] INFO root fetch - processPackages [tendril-filestore]: Downloading https://files.pythonhosted.org/packages/ff/96/4aad9c3007b27a6e75538624bc0864be73be018aab0bc08e2fae5027d615/tendril-filestore-0.2.8.tar.gz
+[2023-07-22 14:02:06] WARNING root fetch - processPackages [shadowhash]: Skipping, unable to determine old version
+[2023-07-22 14:02:06] INFO root fetch - main [MainThread]: End processing [shadowhash] error
+[2023-07-22 14:02:06] INFO root fetch - processPackages [uk-bin-collection]: Downloading https://files.pythonhosted.org/packages/5d/03/2dd2ab5d99dc5618e29367eb5e189a5b3f9adfc22d12f8ead20275c09859/uk_bin_collection-0.2.0.tar.gz
+[2023-07-22 14:02:06] INFO root fetch - processPackages [horn-py]: Downloading https://files.pythonhosted.org/packages/0f/0f/46193b49ad821eb64ea20756315bd13b476cd7cd03aa8227a84e9d40b67b/horn_py-0.6.4.tar.gz
+[2023-07-22 14:02:06] INFO root fetch - processPackages [horn-py]: Downloading https://files.pythonhosted.org/packages/0f/0f/46193b49ad821eb64ea20756315bd13b476cd7cd03aa8227a84e9d40b67b/horn_py-0.6.4.tar.gz
+[2023-07-22 14:02:06] INFO root fetch - processPackages [uk-bin-collection]: Downloading https://files.pythonhosted.org/packages/b2/9c/e0db9790c2a08d2ab51d8deaa2bbea47cd26ea2f3f37aaf97bb3ee5518cb/uk_bin_collection-0.5.0.tar.gz
+[2023-07-22 14:02:06] INFO root fetch - processPackages [uk-bin-collection]: executing diffoscope
+[2023-07-22 14:02:06] INFO root fetch - processPackages [uk-bin-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uk_bin_collection-0.2.0.tar.gz tmp/uk_bin_collection-0.5.0.tar.gz --markdown 20230722/u/uk-bin-collection/0.2.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-22 14:02:06] INFO root fetch - processPackages [tendril-filestore]: Downloading https://files.pythonhosted.org/packages/d9/1e/d54f6db51c670a79d285b3c3d863de03484e3747b5637814806029bf69b5/tendril-filestore-0.2.9.tar.gz
+[2023-07-22 14:02:07] INFO root fetch - processPackages [tendril-filestore]: executing diffoscope
+[2023-07-22 14:02:07] INFO root fetch - processPackages [tendril-filestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-filestore-0.2.8.tar.gz tmp/tendril-filestore-0.2.9.tar.gz --markdown 20230722/t/tendril-filestore/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-22 14:02:07] INFO root fetch - processPackages [horn-py]: Downloading https://files.pythonhosted.org/packages/14/90/fad6f6256d74a04c74002b157617a8509a05ac20783f0d339588634f4a8d/horn_py-0.6.5.tar.gz
+[2023-07-22 14:02:07] INFO root fetch - processPackages [horn-py]: Downloading https://files.pythonhosted.org/packages/14/90/fad6f6256d74a04c74002b157617a8509a05ac20783f0d339588634f4a8d/horn_py-0.6.5.tar.gz
+[2023-07-22 14:02:07] INFO root fetch - processPackages [horn-py]: executing diffoscope
+[2023-07-22 14:02:07] INFO root fetch - processPackages [horn-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horn_py-0.6.4.tar.gz tmp/horn_py-0.6.5.tar.gz --markdown 20230722/h/horn-py/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-22 14:02:07] INFO root fetch - processPackages [horn-py]: executing diffoscope
+[2023-07-22 14:02:07] INFO root fetch - processPackages [horn-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horn_py-0.6.4.tar.gz tmp/horn_py-0.6.5.tar.gz --markdown 20230722/h/horn-py/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-22 14:02:08] INFO root fetch - processPackages [tendril-filestore]: Remove: archive file [/home/abi/fetcher/tmp/tendril-filestore-0.2.8.tar.gz]
+[2023-07-22 14:02:08] INFO root fetch - processPackages [tendril-filestore]: Remove: archive file [/home/abi/fetcher/tmp/tendril-filestore-0.2.9.tar.gz]
+[2023-07-22 14:02:08] INFO root fetch - main [MainThread]: End processing [tendril-filestore]: success
+[2023-07-22 14:02:08] INFO root fetch - processPackages [uk-bin-collection]: Remove: archive file [/home/abi/fetcher/tmp/uk_bin_collection-0.2.0.tar.gz]
+[2023-07-22 14:02:08] INFO root fetch - processPackages [uk-bin-collection]: Remove: archive file [/home/abi/fetcher/tmp/uk_bin_collection-0.5.0.tar.gz]
+[2023-07-22 14:02:08] INFO root fetch - main [MainThread]: End processing [uk-bin-collection]: success
+[2023-07-22 14:02:10] INFO root fetch - processPackages [horn-py]: Remove: archive file [/home/abi/fetcher/tmp/horn_py-0.6.4.tar.gz]
+[2023-07-22 14:02:10] INFO root fetch - processPackages [horn-py]: Remove: archive file [/home/abi/fetcher/tmp/horn_py-0.6.5.tar.gz]
+[2023-07-22 14:02:10] INFO root fetch - main [MainThread]: End processing [horn-py]: success
+[2023-07-22 14:02:10] INFO root fetch - main [MainThread]: End processing [horn-py]: success
+[2023-07-22 14:02:10] INFO root fetch - main [MainThread]: Store serial: [18994697]
