@@ -8997,3 +8997,78 @@
 [2023-07-22 06:21:46] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6919.tar.gz]
 [2023-07-22 06:21:46] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-22 06:21:46] INFO root fetch - main [MainThread]: Store serial: [18992662]
+[2023-07-22 06:26:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992662]
+[2023-07-22 06:26:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-22 06:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imat
+[2023-07-22 06:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: entelecheia
+[2023-07-22 06:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codefast
+[2023-07-22 06:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-22 06:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymino
+[2023-07-22 06:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aify
+[2023-07-22 06:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cccs-yara
+[2023-07-22 06:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dompare
+[2023-07-22 06:26:54] INFO root fetch - processPackages [aify]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 06:26:54] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.6.2] Old Version: [0.3.9.6.1]
+[2023-07-22 06:26:54] INFO root fetch - processPackages [imat]: New version: [3.1] Old Version: [3.0]
+[2023-07-22 06:26:54] INFO root fetch - processPackages [pymino]: New version: [1.2.3.9] Old Version: [1.2.3.8]
+[2023-07-22 06:26:54] INFO root fetch - processPackages [cccs-yara]: New version: [2.1] Old Version: [2.0]
+[2023-07-22 06:26:54] INFO root fetch - processPackages [entelecheia]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-22 06:26:54] INFO root fetch - processPackages [dompare]: New version: [0.2.0] Old Version: [0.1.100]
+[2023-07-22 06:26:54] INFO root fetch - processPackages [codefast]: New version: [23.7.22.4] Old Version: [23.7.14.11]
+[2023-07-22 06:26:54] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/48/70/7dc6a7b7c76ac97a5d112fca94e641d9dade27cf0708bdb0162e5ee3edae/aify-0.1.8-py3-none-any.whl
+[2023-07-22 06:26:54] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/58/e8/bd4385e08c1db0955fd601ce359acc5e0cb552be4075a3cfab8af693bd9c/nonebot_plugin_stable_diffusion_diao-0.3.9.6.1.tar.gz
+[2023-07-22 06:26:54] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/81/66/d21e43a69f96efa4f2b75ba3e01ee8fbf9c395dd21caf1e615c74ecff6b7/pymino-1.2.3.8.tar.gz
+[2023-07-22 06:26:55] INFO root fetch - processPackages [imat]: Downloading https://files.pythonhosted.org/packages/ba/45/8d546f90cc7900fff32144b902422172f10670834245feb78aa5003a6e97/imat-3.0.tar.gz
+[2023-07-22 06:26:55] INFO root fetch - processPackages [cccs-yara]: Downloading https://files.pythonhosted.org/packages/09/5c/18c94c3d39783ae28be93512c338f17a2a869f64c12edffa5e1dc0253478/cccs-yara-2.0.tar.gz
+[2023-07-22 06:26:55] INFO root fetch - processPackages [codefast]: Downloading https://files.pythonhosted.org/packages/84/4c/d6eb6ee12d3d892fe3947d47a9a38a90e8a25601ed8fae71dd319f8a90b1/codefast-23.7.14.11.tar.gz
+[2023-07-22 06:26:55] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/3c/03/7d31baeb2cac0b3113dae73d48e3a6872cb43311edb1af1ffbfdb320a3aa/entelecheia-0.2.8.tar.gz
+[2023-07-22 06:26:55] INFO root fetch - processPackages [dompare]: Downloading https://files.pythonhosted.org/packages/b7/58/d4c27d0898601f679a65f13931f6e43d2e7ac76fe7ff6959d8ed7000a96c/dompare-0.1.100.tar.gz
+[2023-07-22 06:26:55] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/fd/27/98c9c823adfd16bc8457703aeb9c4cd06bd5c233cfed754ef7389629a3af/aify-0.1.9-py3-none-any.whl
+[2023-07-22 06:26:55] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/dd/ec/080631c7afc4c5fefdea71b835e58bc26ba61e61e53dca5f92752d31fb26/pymino-1.2.3.9.tar.gz
+[2023-07-22 06:26:55] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/75/0e/925ec4c0363f531cc3bb60d68892f424af684a52f655fac95b0329caee81/nonebot_plugin_stable_diffusion_diao-0.3.9.6.2.tar.gz
+[2023-07-22 06:26:55] INFO root fetch - processPackages [aify]: executing diffoscope
+[2023-07-22 06:26:55] INFO root fetch - processPackages [aify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aify-0.1.8-py3-none-any.whl.zip tmp/aify-0.1.9-py3-none-any.whl.zip --markdown 20230722/a/aify/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 06:26:55] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-07-22 06:26:55] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.2.3.8.tar.gz tmp/pymino-1.2.3.9.tar.gz --markdown 20230722/p/pymino/1.2.3.8-1.2.3.9/diff.md --exclude *.pyd
+[2023-07-22 06:26:55] INFO root fetch - processPackages [imat]: Downloading https://files.pythonhosted.org/packages/55/24/24b392b566669986a79892cad227f8dbb135d22a03a0c62423be4b15ecd9/imat-3.1.tar.gz
+[2023-07-22 06:26:55] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-22 06:26:55] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.1.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.2.tar.gz --markdown 20230722/n/nonebot-plugin-stable-diffusion-diao/0.3.9.6.1-0.3.9.6.2/diff.md --exclude *.pyd
+[2023-07-22 06:26:55] INFO root fetch - processPackages [cccs-yara]: Downloading https://files.pythonhosted.org/packages/a3/05/5cdad177110425b934df0454973bff49d3ded3c37a567327c891dfc26489/cccs-yara-2.1.tar.gz
+[2023-07-22 06:26:55] INFO root fetch - processPackages [codefast]: Downloading https://files.pythonhosted.org/packages/9b/d3/42beb4ae1d4aae51d7d63a5b9630c02090534f669271201949f077a7a57d/codefast-23.7.22.4.tar.gz
+[2023-07-22 06:26:55] INFO root fetch - processPackages [dompare]: Downloading https://files.pythonhosted.org/packages/bf/ae/3b88261896e52f3709126842540e6b3bcd519c5c2dfc5f2c17cbeda444be/dompare-0.2.0.tar.gz
+[2023-07-22 06:26:55] INFO root fetch - processPackages [imat]: executing diffoscope
+[2023-07-22 06:26:55] INFO root fetch - processPackages [imat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imat-3.0.tar.gz tmp/imat-3.1.tar.gz --markdown 20230722/i/imat/3.0-3.1/diff.md --exclude *.pyd
+[2023-07-22 06:26:55] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/a2/f4/4e71719ee94d6a1cb349501e5a6a0e448b5f31be80467e9b3269b7a0088d/entelecheia-0.2.9.tar.gz
+[2023-07-22 06:26:55] INFO root fetch - processPackages [cccs-yara]: executing diffoscope
+[2023-07-22 06:26:55] INFO root fetch - processPackages [cccs-yara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cccs-yara-2.0.tar.gz tmp/cccs-yara-2.1.tar.gz --markdown 20230722/c/cccs-yara/2.0-2.1/diff.md --exclude *.pyd
+[2023-07-22 06:26:56] INFO root fetch - processPackages [dompare]: executing diffoscope
+[2023-07-22 06:26:56] INFO root fetch - processPackages [dompare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dompare-0.1.100.tar.gz tmp/dompare-0.2.0.tar.gz --markdown 20230722/d/dompare/0.1.100-0.2.0/diff.md --exclude *.pyd
+[2023-07-22 06:26:56] INFO root fetch - processPackages [codefast]: executing diffoscope
+[2023-07-22 06:26:56] INFO root fetch - processPackages [codefast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codefast-23.7.14.11.tar.gz tmp/codefast-23.7.22.4.tar.gz --markdown 20230722/c/codefast/23.7.14.11-23.7.22.4/diff.md --exclude *.pyd
+[2023-07-22 06:26:56] INFO root fetch - processPackages [entelecheia]: executing diffoscope
+[2023-07-22 06:26:56] INFO root fetch - processPackages [entelecheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entelecheia-0.2.8.tar.gz tmp/entelecheia-0.2.9.tar.gz --markdown 20230722/e/entelecheia/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-22 06:26:57] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.1.tar.gz]
+[2023-07-22 06:26:57] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.2.tar.gz]
+[2023-07-22 06:26:57] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-22 06:26:57] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.8-py3-none-any.whl.zip]
+[2023-07-22 06:26:57] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.9-py3-none-any.whl.zip]
+[2023-07-22 06:26:57] INFO root fetch - main [MainThread]: End processing [aify]: success
+[2023-07-22 06:26:57] INFO root fetch - processPackages [dompare]: Remove: archive file [/home/abi/fetcher/tmp/dompare-0.1.100.tar.gz]
+[2023-07-22 06:26:57] INFO root fetch - processPackages [dompare]: Remove: archive file [/home/abi/fetcher/tmp/dompare-0.2.0.tar.gz]
+[2023-07-22 06:26:57] INFO root fetch - main [MainThread]: End processing [dompare]: success
+[2023-07-22 06:26:57] INFO root fetch - processPackages [cccs-yara]: Remove: archive file [/home/abi/fetcher/tmp/cccs-yara-2.0.tar.gz]
+[2023-07-22 06:26:57] INFO root fetch - processPackages [cccs-yara]: Remove: archive file [/home/abi/fetcher/tmp/cccs-yara-2.1.tar.gz]
+[2023-07-22 06:26:57] INFO root fetch - main [MainThread]: End processing [cccs-yara]: success
+[2023-07-22 06:26:57] INFO root fetch - processPackages [imat]: Remove: archive file [/home/abi/fetcher/tmp/imat-3.0.tar.gz]
+[2023-07-22 06:26:57] INFO root fetch - processPackages [imat]: Remove: archive file [/home/abi/fetcher/tmp/imat-3.1.tar.gz]
+[2023-07-22 06:26:57] INFO root fetch - main [MainThread]: End processing [imat]: success
+[2023-07-22 06:26:57] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.8.tar.gz]
+[2023-07-22 06:26:57] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.9.tar.gz]
+[2023-07-22 06:26:57] INFO root fetch - main [MainThread]: End processing [entelecheia]: success
+[2023-07-22 06:26:57] INFO root fetch - processPackages [codefast]: Remove: archive file [/home/abi/fetcher/tmp/codefast-23.7.14.11.tar.gz]
+[2023-07-22 06:26:57] INFO root fetch - processPackages [codefast]: Remove: archive file [/home/abi/fetcher/tmp/codefast-23.7.22.4.tar.gz]
+[2023-07-22 06:26:57] INFO root fetch - main [MainThread]: End processing [codefast]: success
+[2023-07-22 06:26:57] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.3.8.tar.gz]
+[2023-07-22 06:26:57] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.3.9.tar.gz]
+[2023-07-22 06:26:57] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-07-22 06:26:57] INFO root fetch - main [MainThread]: Store serial: [18992686]
