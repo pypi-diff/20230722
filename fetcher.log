@@ -15385,3 +15385,80 @@ EOFError: EOF read where object expected
 [2023-07-22 16:52:05] INFO root fetch - processPackages [pymeasurement]: Remove: archive file [/home/abi/fetcher/tmp/pymeasurement-1.0.9.tar.gz]
 [2023-07-22 16:52:05] INFO root fetch - main [MainThread]: End processing [pymeasurement]: success
 [2023-07-22 16:52:05] INFO root fetch - main [MainThread]: Store serial: [18995489]
+[2023-07-22 16:57:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995489]
+[2023-07-22 16:57:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-22 16:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FlyDB
+[2023-07-22 16:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydiff-planetarium-assignment
+[2023-07-22 16:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: frouros
+[2023-07-22 16:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: volsite-postgres-common
+[2023-07-22 16:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tnseq-transit
+[2023-07-22 16:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mypy-gpt
+[2023-07-22 16:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: photondemo
+[2023-07-22 16:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gigagan-pytorch
+[2023-07-22 16:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: marketwatchdata
+[2023-07-22 16:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unstac
+[2023-07-22 16:57:14] INFO root fetch - processPackages [unstac]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-22 16:57:14] INFO root fetch - processPackages [mypy-gpt]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-22 16:57:14] INFO root fetch - processPackages [volsite-postgres-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 16:57:14] INFO root fetch - processPackages [FlyDB]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-22 16:57:14] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 16:57:14] INFO root fetch - processPackages [marketwatchdata]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-22 16:57:14] INFO root fetch - processPackages [tnseq-transit]: New version: [3.2.8b0] Old Version: [3.2.8]
+[2023-07-22 16:57:14] INFO root fetch - processPackages [frouros]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-22 16:57:14] WARNING root fetch - processPackages [photondemo]: Skipping, unable to determine old version
+[2023-07-22 16:57:14] INFO root fetch - main [MainThread]: End processing [photondemo] error
+[2023-07-22 16:57:14] WARNING root fetch - processPackages [pydiff-planetarium-assignment]: Skipping, unable to determine old version
+[2023-07-22 16:57:14] INFO root fetch - main [MainThread]: End processing [pydiff-planetarium-assignment] error
+[2023-07-22 16:57:14] INFO root fetch - processPackages [unstac]: Downloading https://files.pythonhosted.org/packages/0d/6c/f9baf40b934dce28450b93b875d78a97266c03c7c63d31045126615c93f4/unstac-0.0.2.tar.gz
+[2023-07-22 16:57:14] INFO root fetch - processPackages [mypy-gpt]: Downloading https://files.pythonhosted.org/packages/9f/9a/d52ba90d58edd29b97173d200bf2120fd6f18e6ff4da2419da12d4f78f98/mypy-gpt-1.0.4.tar.gz
+[2023-07-22 16:57:14] INFO root fetch - processPackages [volsite-postgres-common]: Downloading https://files.pythonhosted.org/packages/a9/48/ece41cdd1f36d5b821f07299b965387a375ef3ddd0556318e57ad9018c7c/volsite_postgres_common-0.1.8.tar.gz
+[2023-07-22 16:57:14] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/d9/e0/b2934610f827a6e16444d91655fb41306e808620e7da2b2472801cfe1cfc/gigagan-pytorch-0.1.8.tar.gz
+[2023-07-22 16:57:14] INFO root fetch - processPackages [FlyDB]: Downloading https://files.pythonhosted.org/packages/13/d5/70501ebadb0cfbec0b9d7cbe113aa7853a956d238f0a35cc74773dc4cbce/FlyDB-0.0.1.tar.gz
+[2023-07-22 16:57:14] INFO root fetch - processPackages [tnseq-transit]: Downloading https://files.pythonhosted.org/packages/ec/55/c70bb9ffe3f0dd17828cf11017a0db74b09c60ff81e7658a6cbab07a1cab/tnseq-transit-3.2.8.tar.gz
+[2023-07-22 16:57:14] INFO root fetch - processPackages [marketwatchdata]: Downloading https://files.pythonhosted.org/packages/15/44/a23a45e78a588e92f57aa2f533b344982c7f1a523360cc8b6592c503c23b/marketwatchdata-0.0.2.tar.gz
+[2023-07-22 16:57:14] INFO root fetch - processPackages [frouros]: Downloading https://files.pythonhosted.org/packages/c7/2c/f364fb933af91ffebcab3f8580bda571db9fc4cedefefdeeb2b342f5b120/frouros-0.5.0.tar.gz
+[2023-07-22 16:57:14] WARNING root fetch - processPackages [tnseq-transit]: Skipping package: exceeds size limit 64244552>=10485760
+[2023-07-22 16:57:14] INFO root fetch - main [MainThread]: End processing [tnseq-transit] error
+[2023-07-22 16:57:14] INFO root fetch - processPackages [unstac]: Downloading https://files.pythonhosted.org/packages/d5/d3/240e02967e9e16ea32a32d98e8094371c17fefff48060416b4ed25f60576/unstac-0.0.3.tar.gz
+[2023-07-22 16:57:14] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/be/b0/4d464405e8b805823829907ca5b9cc50aac0dca80644c3147d4146d45ecb/gigagan-pytorch-0.1.9.tar.gz
+[2023-07-22 16:57:14] INFO root fetch - processPackages [mypy-gpt]: Downloading https://files.pythonhosted.org/packages/2d/7e/ae7a9cbe31d25435b70a1259bcfe281546b97c3c3d8af520f8264ce20e2c/mypy-gpt-1.0.5.tar.gz
+[2023-07-22 16:57:14] INFO root fetch - processPackages [volsite-postgres-common]: Downloading https://files.pythonhosted.org/packages/ff/03/668bfd84cd84ef92e37f65f495239d8be55d05abd92dc4bd35f340822fce/volsite_postgres_common-0.1.9.tar.gz
+[2023-07-22 16:57:14] INFO root fetch - processPackages [unstac]: executing diffoscope
+[2023-07-22 16:57:14] INFO root fetch - processPackages [unstac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstac-0.0.2.tar.gz tmp/unstac-0.0.3.tar.gz --markdown 20230722/u/unstac/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-22 16:57:14] INFO root fetch - processPackages [FlyDB]: Downloading https://files.pythonhosted.org/packages/c4/a2/cdcf89e41dc2cfd35929ffab429cc46bb01b14827c403e577b42d8e0df17/FlyDB-0.0.2.tar.gz
+[2023-07-22 16:57:14] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-22 16:57:14] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.1.8.tar.gz tmp/gigagan-pytorch-0.1.9.tar.gz --markdown 20230722/g/gigagan-pytorch/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 16:57:15] INFO root fetch - processPackages [mypy-gpt]: executing diffoscope
+[2023-07-22 16:57:15] INFO root fetch - processPackages [mypy-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-gpt-1.0.4.tar.gz tmp/mypy-gpt-1.0.5.tar.gz --markdown 20230722/m/mypy-gpt/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-22 16:57:15] INFO root fetch - processPackages [marketwatchdata]: Downloading https://files.pythonhosted.org/packages/24/59/ebd57409882b1096e7abb351dae462c819f5511a36db7dedbb6786d2ea7b/marketwatchdata-0.0.3.tar.gz
+[2023-07-22 16:57:15] INFO root fetch - processPackages [frouros]: Downloading https://files.pythonhosted.org/packages/98/88/6213006fdd2901020d26fe51b69b8b5f7223e610ee44b0ab21ec250a1c08/frouros-0.5.1.tar.gz
+[2023-07-22 16:57:15] INFO root fetch - processPackages [volsite-postgres-common]: executing diffoscope
+[2023-07-22 16:57:15] INFO root fetch - processPackages [volsite-postgres-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volsite_postgres_common-0.1.8.tar.gz tmp/volsite_postgres_common-0.1.9.tar.gz --markdown 20230722/v/volsite-postgres-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 16:57:15] INFO root fetch - processPackages [FlyDB]: executing diffoscope
+[2023-07-22 16:57:15] INFO root fetch - processPackages [FlyDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlyDB-0.0.1.tar.gz tmp/FlyDB-0.0.2.tar.gz --markdown 20230722/F/FlyDB/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-22 16:57:15] INFO root fetch - processPackages [frouros]: executing diffoscope
+[2023-07-22 16:57:15] INFO root fetch - processPackages [frouros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frouros-0.5.0.tar.gz tmp/frouros-0.5.1.tar.gz --markdown 20230722/f/frouros/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-22 16:57:15] INFO root fetch - processPackages [marketwatchdata]: executing diffoscope
+[2023-07-22 16:57:15] INFO root fetch - processPackages [marketwatchdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marketwatchdata-0.0.2.tar.gz tmp/marketwatchdata-0.0.3.tar.gz --markdown 20230722/m/marketwatchdata/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-22 16:57:16] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.8.tar.gz]
+[2023-07-22 16:57:16] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.9.tar.gz]
+[2023-07-22 16:57:16] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-22 16:57:16] INFO root fetch - processPackages [unstac]: Remove: archive file [/home/abi/fetcher/tmp/unstac-0.0.2.tar.gz]
+[2023-07-22 16:57:16] INFO root fetch - processPackages [unstac]: Remove: archive file [/home/abi/fetcher/tmp/unstac-0.0.3.tar.gz]
+[2023-07-22 16:57:16] INFO root fetch - main [MainThread]: End processing [unstac]: success
+[2023-07-22 16:57:16] INFO root fetch - processPackages [volsite-postgres-common]: Remove: archive file [/home/abi/fetcher/tmp/volsite_postgres_common-0.1.8.tar.gz]
+[2023-07-22 16:57:16] INFO root fetch - processPackages [volsite-postgres-common]: Remove: archive file [/home/abi/fetcher/tmp/volsite_postgres_common-0.1.9.tar.gz]
+[2023-07-22 16:57:16] INFO root fetch - main [MainThread]: End processing [volsite-postgres-common]: success
+[2023-07-22 16:57:16] INFO root fetch - processPackages [mypy-gpt]: Remove: archive file [/home/abi/fetcher/tmp/mypy-gpt-1.0.4.tar.gz]
+[2023-07-22 16:57:16] INFO root fetch - processPackages [mypy-gpt]: Remove: archive file [/home/abi/fetcher/tmp/mypy-gpt-1.0.5.tar.gz]
+[2023-07-22 16:57:16] INFO root fetch - main [MainThread]: End processing [mypy-gpt]: success
+[2023-07-22 16:57:16] INFO root fetch - processPackages [marketwatchdata]: Remove: archive file [/home/abi/fetcher/tmp/marketwatchdata-0.0.2.tar.gz]
+[2023-07-22 16:57:16] INFO root fetch - processPackages [marketwatchdata]: Remove: archive file [/home/abi/fetcher/tmp/marketwatchdata-0.0.3.tar.gz]
+[2023-07-22 16:57:16] INFO root fetch - main [MainThread]: End processing [marketwatchdata]: success
+[2023-07-22 16:57:16] INFO root fetch - processPackages [FlyDB]: Remove: archive file [/home/abi/fetcher/tmp/FlyDB-0.0.1.tar.gz]
+[2023-07-22 16:57:16] INFO root fetch - processPackages [FlyDB]: Remove: archive file [/home/abi/fetcher/tmp/FlyDB-0.0.2.tar.gz]
+[2023-07-22 16:57:16] INFO root fetch - main [MainThread]: End processing [FlyDB]: success
+[2023-07-22 16:57:16] INFO root fetch - processPackages [frouros]: Remove: archive file [/home/abi/fetcher/tmp/frouros-0.5.0.tar.gz]
+[2023-07-22 16:57:16] INFO root fetch - processPackages [frouros]: Remove: archive file [/home/abi/fetcher/tmp/frouros-0.5.1.tar.gz]
+[2023-07-22 16:57:16] INFO root fetch - main [MainThread]: End processing [frouros]: success
+[2023-07-22 16:57:16] INFO root fetch - main [MainThread]: Store serial: [18995522]
