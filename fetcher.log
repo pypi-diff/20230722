@@ -16687,3 +16687,54 @@ EOFError: EOF read where object expected
 [2023-07-22 18:15:43] INFO root fetch - processPackages [pywhispercpp]: Remove: archive file [/home/abi/fetcher/tmp/pywhispercpp-1.1.2.tar.gz]
 [2023-07-22 18:15:43] INFO root fetch - main [MainThread]: End processing [pywhispercpp]: success
 [2023-07-22 18:15:43] INFO root fetch - main [MainThread]: Store serial: [18996124]
+[2023-07-22 18:20:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996124]
+[2023-07-22 18:20:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 18:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mi-pyral
+[2023-07-22 18:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rikee
+[2023-07-22 18:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sklearn-mlmlm
+[2023-07-22 18:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydit-jceresearch
+[2023-07-22 18:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yandil
+[2023-07-22 18:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-dall-e
+[2023-07-22 18:20:52] INFO root fetch - processPackages [sklearn-mlmlm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 18:20:52] WARNING root fetch - processPackages [rikee]: Skipping, unable to determine old version
+[2023-07-22 18:20:52] INFO root fetch - main [MainThread]: End processing [rikee] error
+[2023-07-22 18:20:52] INFO root fetch - processPackages [mi-pyral]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-22 18:20:52] INFO root fetch - processPackages [pydit-jceresearch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 18:20:52] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/0a/98/4ddd38a1e51a088e832ba7e63522d73dc145b8cfdec3e34074d50b210372/sklearn_mlmlm-0.0.8.tar.gz
+[2023-07-22 18:20:52] INFO root fetch - processPackages [yandil]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-22 18:20:52] INFO root fetch - processPackages [nonebot-plugin-dall-e]: New version: [0.6] Old Version: [0.5]
+[2023-07-22 18:20:53] INFO root fetch - processPackages [mi-pyral]: Downloading https://files.pythonhosted.org/packages/f0/88/1b97ac330d6baa488317d24d706f60fd532abc98446ec9e4093f1ffa980d/mi-pyral-0.2.3.tar.gz
+[2023-07-22 18:20:53] INFO root fetch - processPackages [pydit-jceresearch]: Downloading https://files.pythonhosted.org/packages/cf/d5/9b0268e48e889401aa2a7918bb2a375e3c1549dd79394a0448a8504bc6e7/pydit-jceresearch-0.0.8.tar.gz
+[2023-07-22 18:20:53] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/8e/20/5b0f76a3c4ec519bdc1252725dd78ad4afcc5b17fd82f5330134186be426/sklearn_mlmlm-0.0.9.tar.gz
+[2023-07-22 18:20:53] INFO root fetch - processPackages [nonebot-plugin-dall-e]: Downloading https://files.pythonhosted.org/packages/bd/38/52ccf074fd1d2fedbbbdd1392268e56551674b0a141cdd4002fcd0fd19ae/nonebot_plugin_dall-e-0.5.tar.gz
+[2023-07-22 18:20:53] INFO root fetch - processPackages [yandil]: Downloading https://files.pythonhosted.org/packages/db/1b/0198dc85881747ae3cc7d30cd79f42b6c181956d5de43f0388108e730966/yandil-0.3.3.tar.gz
+[2023-07-22 18:20:53] INFO root fetch - processPackages [sklearn-mlmlm]: executing diffoscope
+[2023-07-22 18:20:53] INFO root fetch - processPackages [sklearn-mlmlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_mlmlm-0.0.8.tar.gz tmp/sklearn_mlmlm-0.0.9.tar.gz --markdown 20230722/s/sklearn-mlmlm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 18:20:53] INFO root fetch - processPackages [nonebot-plugin-dall-e]: Downloading https://files.pythonhosted.org/packages/ab/6f/e0bcf1daf2c65e56e41c3fbb46309cad214fc631f72d5c5f6478a849daf6/nonebot_plugin_dall_e-0.6-py3-none-any.whl
+[2023-07-22 18:20:53] INFO root fetch - processPackages [pydit-jceresearch]: Downloading https://files.pythonhosted.org/packages/70/df/4f41595b62e8897183b7362265dca6b06c653455ff4f535aa71abfd02ee9/pydit-jceresearch-0.0.9.tar.gz
+[2023-07-22 18:20:53] INFO root fetch - processPackages [mi-pyral]: Downloading https://files.pythonhosted.org/packages/0d/04/f01bb98b62ed1abb08c0bc318a9094cb5b030e14322766c50f56d75b4ad4/mi-pyral-0.2.4.tar.gz
+[2023-07-22 18:20:53] INFO root fetch - processPackages [yandil]: Downloading https://files.pythonhosted.org/packages/3a/d5/624bc3744b31ad962f216b6a15ad0d34cb314ededf316d5b9123ea835f2a/yandil-0.4.0.tar.gz
+[2023-07-22 18:20:53] INFO root fetch - processPackages [nonebot-plugin-dall-e]: executing diffoscope
+[2023-07-22 18:20:53] INFO root fetch - processPackages [nonebot-plugin-dall-e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_dall-e-0.5.tar.gz tmp/nonebot_plugin_dall_e-0.6-py3-none-any.whl.zip --markdown 20230722/n/nonebot-plugin-dall-e/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-22 18:20:53] INFO root fetch - processPackages [mi-pyral]: executing diffoscope
+[2023-07-22 18:20:53] INFO root fetch - processPackages [mi-pyral]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mi-pyral-0.2.3.tar.gz tmp/mi-pyral-0.2.4.tar.gz --markdown 20230722/m/mi-pyral/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-22 18:20:53] INFO root fetch - processPackages [pydit-jceresearch]: executing diffoscope
+[2023-07-22 18:20:53] INFO root fetch - processPackages [pydit-jceresearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydit-jceresearch-0.0.8.tar.gz tmp/pydit-jceresearch-0.0.9.tar.gz --markdown 20230722/p/pydit-jceresearch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 18:20:53] INFO root fetch - processPackages [yandil]: executing diffoscope
+[2023-07-22 18:20:53] INFO root fetch - processPackages [yandil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandil-0.3.3.tar.gz tmp/yandil-0.4.0.tar.gz --markdown 20230722/y/yandil/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-22 18:20:53] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.8.tar.gz]
+[2023-07-22 18:20:53] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.9.tar.gz]
+[2023-07-22 18:20:53] INFO root fetch - main [MainThread]: End processing [sklearn-mlmlm]: success
+[2023-07-22 18:20:54] INFO root fetch - processPackages [nonebot-plugin-dall-e]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_dall-e-0.5.tar.gz]
+[2023-07-22 18:20:54] INFO root fetch - processPackages [nonebot-plugin-dall-e]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_dall_e-0.6-py3-none-any.whl.zip]
+[2023-07-22 18:20:54] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-dall-e]: success
+[2023-07-22 18:20:54] INFO root fetch - processPackages [pydit-jceresearch]: Remove: archive file [/home/abi/fetcher/tmp/pydit-jceresearch-0.0.8.tar.gz]
+[2023-07-22 18:20:54] INFO root fetch - processPackages [pydit-jceresearch]: Remove: archive file [/home/abi/fetcher/tmp/pydit-jceresearch-0.0.9.tar.gz]
+[2023-07-22 18:20:54] INFO root fetch - main [MainThread]: End processing [pydit-jceresearch]: success
+[2023-07-22 18:20:54] INFO root fetch - processPackages [yandil]: Remove: archive file [/home/abi/fetcher/tmp/yandil-0.3.3.tar.gz]
+[2023-07-22 18:20:54] INFO root fetch - processPackages [yandil]: Remove: archive file [/home/abi/fetcher/tmp/yandil-0.4.0.tar.gz]
+[2023-07-22 18:20:54] INFO root fetch - main [MainThread]: End processing [yandil]: success
+[2023-07-22 18:20:54] INFO root fetch - processPackages [mi-pyral]: Remove: archive file [/home/abi/fetcher/tmp/mi-pyral-0.2.3.tar.gz]
+[2023-07-22 18:20:54] INFO root fetch - processPackages [mi-pyral]: Remove: archive file [/home/abi/fetcher/tmp/mi-pyral-0.2.4.tar.gz]
+[2023-07-22 18:20:54] INFO root fetch - main [MainThread]: End processing [mi-pyral]: success
+[2023-07-22 18:20:54] INFO root fetch - main [MainThread]: Store serial: [18996146]
