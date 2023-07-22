@@ -10126,3 +10126,21 @@
 [2023-07-22 08:31:43] INFO root fetch - processPackages [psyqlepg]: Remove: archive file [/home/abi/fetcher/tmp/psyqlepg-0.0.3.tar.gz]
 [2023-07-22 08:31:43] INFO root fetch - main [MainThread]: End processing [psyqlepg]: success
 [2023-07-22 08:31:43] INFO root fetch - main [MainThread]: Store serial: [18993192]
+[2023-07-22 08:36:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993192]
+[2023-07-22 08:36:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-22 08:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agentlogger
+[2023-07-22 08:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: benimang
+[2023-07-22 08:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recompose
+[2023-07-22 08:36:51] INFO root fetch - processPackages [benimang]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-22 08:36:51] WARNING root fetch - processPackages [agentlogger]: Skipping, unable to determine old version
+[2023-07-22 08:36:51] INFO root fetch - main [MainThread]: End processing [agentlogger] error
+[2023-07-22 08:36:51] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/df/f8/6627d1751ed081f90cfd83ea4d33b2dab513ab57712152d5e0f1a79de3e0/benimang-0.4.2.tar.gz
+[2023-07-22 08:36:51] WARNING root fetch - processPackages [recompose]: Skipping, unable to determine old version
+[2023-07-22 08:36:51] INFO root fetch - main [MainThread]: End processing [recompose] error
+[2023-07-22 08:36:52] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/e9/d6/d8e317f6e18ec1c63f438c2c8018f7b126be9a5afa3e7436779d72c75e1c/benimang-0.4.3.tar.gz
+[2023-07-22 08:36:52] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-07-22 08:36:52] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.4.2.tar.gz tmp/benimang-0.4.3.tar.gz --markdown 20230722/b/benimang/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-22 08:36:53] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.2.tar.gz]
+[2023-07-22 08:36:53] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.3.tar.gz]
+[2023-07-22 08:36:53] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-07-22 08:36:53] INFO root fetch - main [MainThread]: Store serial: [18993206]
