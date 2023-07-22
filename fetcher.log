@@ -19148,3 +19148,69 @@ EOFError: EOF read where object expected
 [2023-07-22 21:45:05] INFO root fetch - processPackages [jaxip]: Remove: archive file [/home/abi/fetcher/tmp/jaxip-0.7.3.tar.gz]
 [2023-07-22 21:45:05] INFO root fetch - main [MainThread]: End processing [jaxip]: success
 [2023-07-22 21:45:05] INFO root fetch - main [MainThread]: Store serial: [18997162]
+[2023-07-22 21:50:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18997162]
+[2023-07-22 21:50:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 21:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medimageaugment
+[2023-07-22 21:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-07-22 21:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parsel-get-selector-text
+[2023-07-22 21:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pillar1
+[2023-07-22 21:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2023-07-22 21:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antwerpen
+[2023-07-22 21:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: roblox-pyc
+[2023-07-22 21:50:15] INFO root fetch - processPackages [pillar1]: New version: [0.1.9.9] Old Version: [0.1.9.8]
+[2023-07-22 21:50:15] INFO root fetch - processPackages [medimageaugment]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-07-22 21:50:15] INFO root fetch - processPackages [parsel-get-selector-text]: New version: [0.7] Old Version: [0.6]
+[2023-07-22 21:50:15] INFO root fetch - processPackages [antwerpen]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-22 21:50:15] INFO root fetch - processPackages [kfish]: New version: [99.0.202307221949] Old Version: [99.0.202307211707]
+[2023-07-22 21:50:15] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-22 21:50:15] INFO root fetch - processPackages [kcli]: New version: [99.0.202307221945] Old Version: [99.0.202307211704]
+[2023-07-22 21:50:15] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/fd/c8/dc894f4393d99c54f62ae98519892157e6b0e0327ac1f0b1a261450e9868/pillar1-0.1.9.8.tar.gz
+[2023-07-22 21:50:15] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-22 21:50:15] INFO root fetch - processPackages [medimageaugment]: Downloading https://files.pythonhosted.org/packages/77/05/b28ffde4a6f479d1e07f4df1c6ab334aa0f06ef75cab36fbe524f0a02d07/medimageaugment-1.2.9.tar.gz
+[2023-07-22 21:50:15] INFO root fetch - processPackages [antwerpen]: Downloading https://files.pythonhosted.org/packages/95/1e/5eedd6dd32b4fb695cf31585de970358358d52692f05ec0dc5412f0d9ace/antwerpen-0.1.2.tar.gz
+[2023-07-22 21:50:15] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/62/5d/f027fef807a403ae289b84155ce23f430b3a2a5b26fd1cab2b569b8dce04/kfish-99.0.202307211707-py3-none-any.whl
+[2023-07-22 21:50:15] INFO root fetch - processPackages [parsel-get-selector-text]: Downloading https://files.pythonhosted.org/packages/d6/92/b579a1a269acff3ba3597c2476105a889295d402e89540d3cd83371abf34/parsel_get_selector_text-0.6-py3-none-any.whl
+[2023-07-22 21:50:15] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c2/72/7447d3190a8b59c677b2519b1af220ff3451010a8fe268635d626874d1c5/kcli-99.0.202307211704-py3-none-any.whl
+[2023-07-22 21:50:15] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/92/8d/efcf5703708adcc432230e0d510fec42756434d28ae2e4b4348f30be2eef/pillar1-0.1.9.9.tar.gz
+[2023-07-22 21:50:15] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-22 21:50:15] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-07-22 21:50:15] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.9.8.tar.gz tmp/pillar1-0.1.9.9.tar.gz --markdown 20230722/p/pillar1/0.1.9.8-0.1.9.9/diff.md --exclude *.pyd
+[2023-07-22 21:50:15] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-22 21:50:15] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230722/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-22 21:50:15] INFO root fetch - processPackages [medimageaugment]: Downloading https://files.pythonhosted.org/packages/cb/79/57caf3920a8cbc1384f2fee824132d7dbe1e63b788c0bffcf00a8728bea2/medimageaugment-1.3.0.tar.gz
+[2023-07-22 21:50:15] INFO root fetch - processPackages [antwerpen]: Downloading https://files.pythonhosted.org/packages/19/9b/f52b21cf73ba40d04b01dd8db968ecce2fb126255c9ade7f5d6963c49160/antwerpen-0.2.0.tar.gz
+[2023-07-22 21:50:15] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e3/c9/4dff2c5e19861d0b4062d8e00b7a5ffd1ba28106ef935c6dff545c354d49/kfish-99.0.202307221949-py3-none-any.whl
+[2023-07-22 21:50:16] INFO root fetch - processPackages [parsel-get-selector-text]: Downloading https://files.pythonhosted.org/packages/9e/ef/0b8c88787eb2ffa516fecbaff3b454b7877dc58c9ec80055cda35bdc3f77/parsel_get_selector_text-0.7.tar.gz
+[2023-07-22 21:50:16] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/42/fd/3dd0383982a666ab4fcab064a0405a0db46321990516e6bb7a312309fd27/kcli-99.0.202307221945-py3-none-any.whl
+[2023-07-22 21:50:16] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-22 21:50:16] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307211707-py3-none-any.whl.zip tmp/kfish-99.0.202307221949-py3-none-any.whl.zip --markdown 20230722/k/kfish/99.0.202307211707-99.0.202307221949/diff.md --exclude *.pyd
+[2023-07-22 21:50:16] INFO root fetch - processPackages [antwerpen]: executing diffoscope
+[2023-07-22 21:50:16] INFO root fetch - processPackages [antwerpen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antwerpen-0.1.2.tar.gz tmp/antwerpen-0.2.0.tar.gz --markdown 20230722/a/antwerpen/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-22 21:50:16] INFO root fetch - processPackages [medimageaugment]: executing diffoscope
+[2023-07-22 21:50:16] INFO root fetch - processPackages [medimageaugment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medimageaugment-1.2.9.tar.gz tmp/medimageaugment-1.3.0.tar.gz --markdown 20230722/m/medimageaugment/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-07-22 21:50:16] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-22 21:50:16] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307211704-py3-none-any.whl.zip tmp/kcli-99.0.202307221945-py3-none-any.whl.zip --markdown 20230722/k/kcli/99.0.202307211704-99.0.202307221945/diff.md --exclude *.pyd
+[2023-07-22 21:50:16] INFO root fetch - processPackages [parsel-get-selector-text]: executing diffoscope
+[2023-07-22 21:50:16] INFO root fetch - processPackages [parsel-get-selector-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsel_get_selector_text-0.6-py3-none-any.whl.zip tmp/parsel_get_selector_text-0.7.tar.gz --markdown 20230722/p/parsel-get-selector-text/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-22 21:50:16] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.8.tar.gz]
+[2023-07-22 21:50:16] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.9.tar.gz]
+[2023-07-22 21:50:16] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-07-22 21:50:17] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-22 21:50:17] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-22 21:50:17] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-22 21:50:17] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307211707-py3-none-any.whl.zip]
+[2023-07-22 21:50:17] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307221949-py3-none-any.whl.zip]
+[2023-07-22 21:50:17] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-22 21:50:17] INFO root fetch - processPackages [medimageaugment]: Remove: archive file [/home/abi/fetcher/tmp/medimageaugment-1.2.9.tar.gz]
+[2023-07-22 21:50:17] INFO root fetch - processPackages [medimageaugment]: Remove: archive file [/home/abi/fetcher/tmp/medimageaugment-1.3.0.tar.gz]
+[2023-07-22 21:50:17] INFO root fetch - main [MainThread]: End processing [medimageaugment]: success
+[2023-07-22 21:50:17] INFO root fetch - processPackages [antwerpen]: Remove: archive file [/home/abi/fetcher/tmp/antwerpen-0.1.2.tar.gz]
+[2023-07-22 21:50:17] INFO root fetch - processPackages [antwerpen]: Remove: archive file [/home/abi/fetcher/tmp/antwerpen-0.2.0.tar.gz]
+[2023-07-22 21:50:17] INFO root fetch - main [MainThread]: End processing [antwerpen]: success
+[2023-07-22 21:50:17] INFO root fetch - processPackages [parsel-get-selector-text]: Remove: archive file [/home/abi/fetcher/tmp/parsel_get_selector_text-0.6-py3-none-any.whl.zip]
+[2023-07-22 21:50:17] INFO root fetch - processPackages [parsel-get-selector-text]: Remove: archive file [/home/abi/fetcher/tmp/parsel_get_selector_text-0.7.tar.gz]
+[2023-07-22 21:50:17] INFO root fetch - main [MainThread]: End processing [parsel-get-selector-text]: success
+[2023-07-22 21:50:19] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307211704-py3-none-any.whl.zip]
+[2023-07-22 21:50:19] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307221945-py3-none-any.whl.zip]
+[2023-07-22 21:50:19] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-22 21:50:19] INFO root fetch - main [MainThread]: Store serial: [18997181]
