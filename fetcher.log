@@ -14554,3 +14554,90 @@
 [2023-07-22 15:44:11] INFO root fetch - processPackages [usody-sanitize]: Remove: archive file [/home/abi/fetcher/tmp/usody_sanitize-0.1.1b1.tar.gz]
 [2023-07-22 15:44:11] INFO root fetch - main [MainThread]: End processing [usody-sanitize]: success
 [2023-07-22 15:44:11] INFO root fetch - main [MainThread]: Store serial: [18995148]
+[2023-07-22 15:49:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995148]
+[2023-07-22 15:49:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-22 15:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lemonbar
+[2023-07-22 15:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shaho
+[2023-07-22 15:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: babymaycry
+[2023-07-22 15:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libtimed
+[2023-07-22 15:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: szurubooru-toolkit
+[2023-07-22 15:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eclair-cli
+[2023-07-22 15:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: holobench
+[2023-07-22 15:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mahdix
+[2023-07-22 15:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prodvana
+[2023-07-22 15:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyTheme
+[2023-07-22 15:49:20] INFO root fetch - processPackages [eclair-cli]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-22 15:49:20] INFO root fetch - processPackages [shaho]: New version: [4.0.0] Old Version: [3.0.0]
+[2023-07-22 15:49:20] INFO root fetch - processPackages [babymaycry]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-22 15:49:20] INFO root fetch - processPackages [holobench]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-22 15:49:20] INFO root fetch - processPackages [lemonbar]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-22 15:49:20] INFO root fetch - processPackages [libtimed]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-22 15:49:20] INFO root fetch - processPackages [mahdix]: New version: [0.1.4.0] Old Version: [0.1.3.9]
+[2023-07-22 15:49:20] INFO root fetch - processPackages [eclair-cli]: Downloading https://files.pythonhosted.org/packages/b3/11/d689a2b103442be1e5542d905bc70bb1e578b7eb45728bdc8310e6654d7e/eclair-cli-1.0.1.tar.gz
+[2023-07-22 15:49:20] WARNING root fetch - processPackages [PyTheme]: Skipping, unable to determine old version
+[2023-07-22 15:49:20] INFO root fetch - main [MainThread]: End processing [PyTheme] error
+[2023-07-22 15:49:20] INFO root fetch - processPackages [shaho]: Downloading https://files.pythonhosted.org/packages/da/ef/127db1ff416bc4dc3dacf5220353b6223c7684bb7f92ef2b5a9b556a631b/shaho-3.0.0.tar.gz
+[2023-07-22 15:49:20] INFO root fetch - processPackages [szurubooru-toolkit]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-22 15:49:20] INFO root fetch - processPackages [prodvana]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-22 15:49:20] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/2c/82/535890165de5a11a5591b27eea5ea87e85d6197b251bcbb6fd99bd88c2ba/holobench-0.0.2.tar.gz
+[2023-07-22 15:49:20] INFO root fetch - processPackages [babymaycry]: Downloading https://files.pythonhosted.org/packages/97/ba/ab5ce12ce8cf4c05357d9420edce3292b96708160c69c735e574bb65e2c1/babymaycry-0.0.1.tar.gz
+[2023-07-22 15:49:20] INFO root fetch - processPackages [lemonbar]: Downloading https://files.pythonhosted.org/packages/8f/fa/29ba56285a710ae1fc0f1d92244958fa7f49e1c38c006a929e363b30436b/lemonbar-0.7.1.tar.gz
+[2023-07-22 15:49:20] INFO root fetch - processPackages [mahdix]: Downloading https://files.pythonhosted.org/packages/8f/ab/d6eccc5848a13bab3f058936cc2a8cace86484d0a1dbb291e5873447ea40/mahdix-0.1.3.9.tar.gz
+[2023-07-22 15:49:20] INFO root fetch - processPackages [libtimed]: Downloading https://files.pythonhosted.org/packages/96/75/e8fb2ffd17842ca5d640fab577e472fc758014160125bee6fffc0beebcf3/libtimed-0.3.1.tar.gz
+[2023-07-22 15:49:21] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/69/06/90596fb26d2ac7ef4f64a6b7aacf20cb6a48fa7fea333d8c5b9ad537072d/prodvana-0.1.9.tar.gz
+[2023-07-22 15:49:21] INFO root fetch - processPackages [szurubooru-toolkit]: Downloading https://files.pythonhosted.org/packages/f0/ad/6ba90d64ef19214b833ab5ce41467bcde99e812e9771deeb4960a44bdb07/szurubooru_toolkit-0.9.0.tar.gz
+[2023-07-22 15:49:21] INFO root fetch - processPackages [shaho]: Downloading https://files.pythonhosted.org/packages/cd/f5/5b6d75cd0e7fbba0e604df2bc43b2f1207ac36edbb05b9ba9180087530a8/shaho-4.0.0.tar.gz
+[2023-07-22 15:49:21] INFO root fetch - processPackages [eclair-cli]: Downloading https://files.pythonhosted.org/packages/14/70/94dbe6d772ba5ebb87b976ac7b85f677fef76ff29d044f657b25937fe20e/eclair-cli-1.0.2.tar.gz
+[2023-07-22 15:49:21] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/ae/e9/a579dce57d41228eddd4840e05f53d254b775636af5224e6508c04a3d148/holobench-0.0.3.tar.gz
+[2023-07-22 15:49:21] INFO root fetch - processPackages [shaho]: executing diffoscope
+[2023-07-22 15:49:21] INFO root fetch - processPackages [shaho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaho-3.0.0.tar.gz tmp/shaho-4.0.0.tar.gz --markdown 20230722/s/shaho/3.0.0-4.0.0/diff.md --exclude *.pyd
+[2023-07-22 15:49:21] INFO root fetch - processPackages [babymaycry]: Downloading https://files.pythonhosted.org/packages/23/55/5b7b164868d04817650c96e73a2aea18d7d7d37e08e70ad1a03c639586f7/babymaycry-0.0.2.tar.gz
+[2023-07-22 15:49:21] INFO root fetch - processPackages [eclair-cli]: executing diffoscope
+[2023-07-22 15:49:21] INFO root fetch - processPackages [eclair-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eclair-cli-1.0.1.tar.gz tmp/eclair-cli-1.0.2.tar.gz --markdown 20230722/e/eclair-cli/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-22 15:49:21] INFO root fetch - processPackages [libtimed]: Downloading https://files.pythonhosted.org/packages/e5/bd/f9e1829ba0ee97e2c9e98ac9836f2ecb40ba366a963b53a45a74b0b03199/libtimed-0.3.2.tar.gz
+[2023-07-22 15:49:21] INFO root fetch - processPackages [lemonbar]: Downloading https://files.pythonhosted.org/packages/57/43/28373ac70feb3408038ab05b288cbc42cae22fdd2415f77b5b184c50fe2d/lemonbar-0.7.2.tar.gz
+[2023-07-22 15:49:21] INFO root fetch - processPackages [mahdix]: Downloading https://files.pythonhosted.org/packages/a5/d9/8ceb05a4f3517bff43f4a11594d8de8200eb6791b9c2fcad92aa92b9507e/mahdix-0.1.4.0.tar.gz
+[2023-07-22 15:49:21] INFO root fetch - processPackages [holobench]: executing diffoscope
+[2023-07-22 15:49:21] INFO root fetch - processPackages [holobench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holobench-0.0.2.tar.gz tmp/holobench-0.0.3.tar.gz --markdown 20230722/h/holobench/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-22 15:49:21] INFO root fetch - processPackages [babymaycry]: executing diffoscope
+[2023-07-22 15:49:21] INFO root fetch - processPackages [babymaycry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babymaycry-0.0.1.tar.gz tmp/babymaycry-0.0.2.tar.gz --markdown 20230722/b/babymaycry/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-22 15:49:21] INFO root fetch - processPackages [szurubooru-toolkit]: Downloading https://files.pythonhosted.org/packages/cb/19/6bcbac0033156dc6518785fbfdc4b68bb662c2a14c36ebef5f4e0311714c/szurubooru_toolkit-0.9.1.tar.gz
+[2023-07-22 15:49:21] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/4d/87/019e4f149aa24c812b790cf72986049dfd6ec405493cd1d2511763c9361f/prodvana-0.2.0.tar.gz
+[2023-07-22 15:49:21] INFO root fetch - processPackages [libtimed]: executing diffoscope
+[2023-07-22 15:49:21] INFO root fetch - processPackages [libtimed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libtimed-0.3.1.tar.gz tmp/libtimed-0.3.2.tar.gz --markdown 20230722/l/libtimed/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-22 15:49:21] INFO root fetch - processPackages [lemonbar]: executing diffoscope
+[2023-07-22 15:49:21] INFO root fetch - processPackages [lemonbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemonbar-0.7.1.tar.gz tmp/lemonbar-0.7.2.tar.gz --markdown 20230722/l/lemonbar/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-22 15:49:21] INFO root fetch - processPackages [mahdix]: executing diffoscope
+[2023-07-22 15:49:21] INFO root fetch - processPackages [mahdix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mahdix-0.1.3.9.tar.gz tmp/mahdix-0.1.4.0.tar.gz --markdown 20230722/m/mahdix/0.1.3.9-0.1.4.0/diff.md --exclude *.pyd
+[2023-07-22 15:49:21] INFO root fetch - processPackages [szurubooru-toolkit]: executing diffoscope
+[2023-07-22 15:49:21] INFO root fetch - processPackages [szurubooru-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/szurubooru_toolkit-0.9.0.tar.gz tmp/szurubooru_toolkit-0.9.1.tar.gz --markdown 20230722/s/szurubooru-toolkit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-22 15:49:21] INFO root fetch - processPackages [prodvana]: executing diffoscope
+[2023-07-22 15:49:21] INFO root fetch - processPackages [prodvana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodvana-0.1.9.tar.gz tmp/prodvana-0.2.0.tar.gz --markdown 20230722/p/prodvana/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-22 15:49:22] INFO root fetch - processPackages [eclair-cli]: Remove: archive file [/home/abi/fetcher/tmp/eclair-cli-1.0.1.tar.gz]
+[2023-07-22 15:49:22] INFO root fetch - processPackages [eclair-cli]: Remove: archive file [/home/abi/fetcher/tmp/eclair-cli-1.0.2.tar.gz]
+[2023-07-22 15:49:22] INFO root fetch - main [MainThread]: End processing [eclair-cli]: success
+[2023-07-22 15:49:22] INFO root fetch - processPackages [shaho]: Remove: archive file [/home/abi/fetcher/tmp/shaho-3.0.0.tar.gz]
+[2023-07-22 15:49:22] INFO root fetch - processPackages [shaho]: Remove: archive file [/home/abi/fetcher/tmp/shaho-4.0.0.tar.gz]
+[2023-07-22 15:49:22] INFO root fetch - main [MainThread]: End processing [shaho]: success
+[2023-07-22 15:49:22] INFO root fetch - processPackages [babymaycry]: Remove: archive file [/home/abi/fetcher/tmp/babymaycry-0.0.1.tar.gz]
+[2023-07-22 15:49:22] INFO root fetch - processPackages [babymaycry]: Remove: archive file [/home/abi/fetcher/tmp/babymaycry-0.0.2.tar.gz]
+[2023-07-22 15:49:22] INFO root fetch - main [MainThread]: End processing [babymaycry]: success
+[2023-07-22 15:49:22] INFO root fetch - processPackages [libtimed]: Remove: archive file [/home/abi/fetcher/tmp/libtimed-0.3.1.tar.gz]
+[2023-07-22 15:49:22] INFO root fetch - processPackages [libtimed]: Remove: archive file [/home/abi/fetcher/tmp/libtimed-0.3.2.tar.gz]
+[2023-07-22 15:49:22] INFO root fetch - main [MainThread]: End processing [libtimed]: success
+[2023-07-22 15:49:23] INFO root fetch - processPackages [lemonbar]: Remove: archive file [/home/abi/fetcher/tmp/lemonbar-0.7.1.tar.gz]
+[2023-07-22 15:49:23] INFO root fetch - processPackages [lemonbar]: Remove: archive file [/home/abi/fetcher/tmp/lemonbar-0.7.2.tar.gz]
+[2023-07-22 15:49:23] INFO root fetch - main [MainThread]: End processing [lemonbar]: success
+[2023-07-22 15:49:23] INFO root fetch - processPackages [mahdix]: Remove: archive file [/home/abi/fetcher/tmp/mahdix-0.1.3.9.tar.gz]
+[2023-07-22 15:49:23] INFO root fetch - processPackages [mahdix]: Remove: archive file [/home/abi/fetcher/tmp/mahdix-0.1.4.0.tar.gz]
+[2023-07-22 15:49:23] INFO root fetch - main [MainThread]: End processing [mahdix]: success
+[2023-07-22 15:49:23] INFO root fetch - processPackages [szurubooru-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/szurubooru_toolkit-0.9.0.tar.gz]
+[2023-07-22 15:49:23] INFO root fetch - processPackages [szurubooru-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/szurubooru_toolkit-0.9.1.tar.gz]
+[2023-07-22 15:49:23] INFO root fetch - main [MainThread]: End processing [szurubooru-toolkit]: success
+[2023-07-22 15:49:23] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-0.0.2.tar.gz]
+[2023-07-22 15:49:23] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-0.0.3.tar.gz]
+[2023-07-22 15:49:23] INFO root fetch - main [MainThread]: End processing [holobench]: success
+[2023-07-22 15:49:24] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.1.9.tar.gz]
+[2023-07-22 15:49:24] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.2.0.tar.gz]
+[2023-07-22 15:49:24] INFO root fetch - main [MainThread]: End processing [prodvana]: success
+[2023-07-22 15:49:24] INFO root fetch - main [MainThread]: Store serial: [18995179]
