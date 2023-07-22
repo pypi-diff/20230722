@@ -18610,3 +18610,42 @@ EOFError: EOF read where object expected
 [2023-07-22 21:03:29] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
 [2023-07-22 21:03:29] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
 [2023-07-22 21:03:29] INFO root fetch - main [MainThread]: Store serial: [18996957]
+[2023-07-22 21:08:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996957]
+[2023-07-22 21:08:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 21:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jinjanator
+[2023-07-22 21:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chatgt
+[2023-07-22 21:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opscape
+[2023-07-22 21:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pillar1
+[2023-07-22 21:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tator
+[2023-07-22 21:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: winter
+[2023-07-22 21:08:39] WARNING root fetch - processPackages [chatgt]: Skipping, unable to determine old version
+[2023-07-22 21:08:39] INFO root fetch - main [MainThread]: End processing [chatgt] error
+[2023-07-22 21:08:39] WARNING root fetch - processPackages [opscape]: Skipping, unable to determine old version
+[2023-07-22 21:08:39] INFO root fetch - main [MainThread]: End processing [opscape] error
+[2023-07-22 21:08:39] INFO root fetch - processPackages [pillar1]: New version: [0.1.9.9] Old Version: [0.1.9.8]
+[2023-07-22 21:08:39] INFO root fetch - processPackages [winter]: New version: [9.6.4] Old Version: [9.6.3]
+[2023-07-22 21:08:39] INFO root fetch - processPackages [tator]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-07-22 21:08:39] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/fd/c8/dc894f4393d99c54f62ae98519892157e6b0e0327ac1f0b1a261450e9868/pillar1-0.1.9.8.tar.gz
+[2023-07-22 21:08:39] WARNING root fetch - processPackages [jinjanator]: Skipping, unable to determine old version
+[2023-07-22 21:08:39] INFO root fetch - main [MainThread]: End processing [jinjanator] error
+[2023-07-22 21:08:39] INFO root fetch - processPackages [tator]: Downloading https://files.pythonhosted.org/packages/b8/e0/c95a6e303ac8570b0b2a4a44ab95337f01c30a64fabae90a3f6cd08e151c/tator-1.0.5.tar.gz
+[2023-07-22 21:08:39] INFO root fetch - processPackages [winter]: Downloading https://files.pythonhosted.org/packages/46/8a/816fba55ee7b4f089bab594def4e1f6d52ff11618d5c02c388eb2ca05c8e/winter-9.6.3.tar.gz
+[2023-07-22 21:08:40] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/92/8d/efcf5703708adcc432230e0d510fec42756434d28ae2e4b4348f30be2eef/pillar1-0.1.9.9.tar.gz
+[2023-07-22 21:08:40] INFO root fetch - processPackages [winter]: Downloading https://files.pythonhosted.org/packages/e8/5d/636b014ae9453463f8cd456911d870d57243f605ea0324c1f5888edb5ed6/winter-9.6.4.tar.gz
+[2023-07-22 21:08:40] INFO root fetch - processPackages [winter]: executing diffoscope
+[2023-07-22 21:08:40] INFO root fetch - processPackages [winter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winter-9.6.3.tar.gz tmp/winter-9.6.4.tar.gz --markdown 20230722/w/winter/9.6.3-9.6.4/diff.md --exclude *.pyd
+[2023-07-22 21:08:40] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-07-22 21:08:40] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.9.8.tar.gz tmp/pillar1-0.1.9.9.tar.gz --markdown 20230722/p/pillar1/0.1.9.8-0.1.9.9/diff.md --exclude *.pyd
+[2023-07-22 21:08:40] INFO root fetch - processPackages [tator]: Downloading https://files.pythonhosted.org/packages/af/e6/d6a0f18843b6a049191b2666b7bc8f7ca8a36aa8a12fbde7cc2790890a7a/tator-1.1.0.tar.gz
+[2023-07-22 21:08:40] INFO root fetch - processPackages [tator]: executing diffoscope
+[2023-07-22 21:08:40] INFO root fetch - processPackages [tator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tator-1.0.5.tar.gz tmp/tator-1.1.0.tar.gz --markdown 20230722/t/tator/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-07-22 21:08:41] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.8.tar.gz]
+[2023-07-22 21:08:41] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.9.tar.gz]
+[2023-07-22 21:08:41] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-07-22 21:08:41] INFO root fetch - processPackages [winter]: Remove: archive file [/home/abi/fetcher/tmp/winter-9.6.3.tar.gz]
+[2023-07-22 21:08:41] INFO root fetch - processPackages [winter]: Remove: archive file [/home/abi/fetcher/tmp/winter-9.6.4.tar.gz]
+[2023-07-22 21:08:41] INFO root fetch - main [MainThread]: End processing [winter]: success
+[2023-07-22 21:08:42] INFO root fetch - processPackages [tator]: Remove: archive file [/home/abi/fetcher/tmp/tator-1.0.5.tar.gz]
+[2023-07-22 21:08:42] INFO root fetch - processPackages [tator]: Remove: archive file [/home/abi/fetcher/tmp/tator-1.1.0.tar.gz]
+[2023-07-22 21:08:42] INFO root fetch - main [MainThread]: End processing [tator]: success
+[2023-07-22 21:08:42] INFO root fetch - main [MainThread]: Store serial: [18996979]
