@@ -16738,3 +16738,54 @@ EOFError: EOF read where object expected
 [2023-07-22 18:20:54] INFO root fetch - processPackages [mi-pyral]: Remove: archive file [/home/abi/fetcher/tmp/mi-pyral-0.2.4.tar.gz]
 [2023-07-22 18:20:54] INFO root fetch - main [MainThread]: End processing [mi-pyral]: success
 [2023-07-22 18:20:54] INFO root fetch - main [MainThread]: Store serial: [18996146]
+[2023-07-22 18:25:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996146]
+[2023-07-22 18:26:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 18:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hchacha
+[2023-07-22 18:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-alconna
+[2023-07-22 18:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiopegelonline
+[2023-07-22 18:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neuralpit
+[2023-07-22 18:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: missouri
+[2023-07-22 18:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: github-actions-cli
+[2023-07-22 18:26:03] INFO root fetch - processPackages [aiopegelonline]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 18:26:03] INFO root fetch - processPackages [neuralpit]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-22 18:26:03] INFO root fetch - processPackages [nonebot-plugin-alconna]: New version: [0.9.3] Old Version: [0.9.0]
+[2023-07-22 18:26:03] INFO root fetch - processPackages [aiopegelonline]: Downloading https://files.pythonhosted.org/packages/14/68/a385364bf8272a196273d5d623aba11afd05e4513b95ec37560067f24cc8/aiopegelonline-0.0.3-py3-none-any.whl
+[2023-07-22 18:26:03] WARNING root fetch - processPackages [github-actions-cli]: Skipping, unable to determine old version
+[2023-07-22 18:26:03] INFO root fetch - main [MainThread]: End processing [github-actions-cli] error
+[2023-07-22 18:26:03] INFO root fetch - processPackages [hchacha]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-22 18:26:03] INFO root fetch - processPackages [missouri]: New version: [0.2.0] Old Version: [0.1.0a1]
+[2023-07-22 18:26:03] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/c8/67/1065373af14f845f6112a3d2cb8d6187d838b4c0d90d89282ccef9f5133d/nonebot-plugin-alconna-0.9.0.tar.gz
+[2023-07-22 18:26:03] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/56/58/bb03618390059b6d129f2de5cd391ec42364984c951277841e024e78d46e/neuralpit-2.0.8.tar.gz
+[2023-07-22 18:26:03] INFO root fetch - processPackages [hchacha]: Downloading https://files.pythonhosted.org/packages/9a/a0/d51e283569695ab74c4b6a45c04e9baae0b9bcca8670f826f0a92450a493/hchacha-1.0.2.tar.gz
+[2023-07-22 18:26:03] INFO root fetch - processPackages [aiopegelonline]: Downloading https://files.pythonhosted.org/packages/81/c9/327a43995310ed9972bef091d783112af74909be2a306caf5545794adeaa/aiopegelonline-0.0.4-py3-none-any.whl
+[2023-07-22 18:26:03] INFO root fetch - processPackages [aiopegelonline]: executing diffoscope
+[2023-07-22 18:26:03] INFO root fetch - processPackages [aiopegelonline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiopegelonline-0.0.3-py3-none-any.whl.zip tmp/aiopegelonline-0.0.4-py3-none-any.whl.zip --markdown 20230722/a/aiopegelonline/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 18:26:03] INFO root fetch - processPackages [missouri]: Downloading https://files.pythonhosted.org/packages/e9/38/21c650f4252cacb3ca5d0d3e95354a99c7b8eed01a007d88078463dbc9aa/missouri-0.1.0a1.tar.gz
+[2023-07-22 18:26:04] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/f4/fd/830dd6604cd5dc44a467d959ff595e8da0a087d9b75368acaecfc83c3417/nonebot_plugin_alconna-0.9.3.tar.gz
+[2023-07-22 18:26:04] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/8d/d4/cdca716e9f1023aaa975149951886336025da24ab787ef5b10e974341df6/neuralpit-2.0.9.tar.gz
+[2023-07-22 18:26:04] INFO root fetch - processPackages [hchacha]: Downloading https://files.pythonhosted.org/packages/43/01/8f4889717ba289443e91d6b9bacdc6558bae78bfee9464b4999f5687e8cc/hchacha-1.0.3.tar.gz
+[2023-07-22 18:26:04] INFO root fetch - processPackages [nonebot-plugin-alconna]: executing diffoscope
+[2023-07-22 18:26:04] INFO root fetch - processPackages [nonebot-plugin-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-alconna-0.9.0.tar.gz tmp/nonebot_plugin_alconna-0.9.3.tar.gz --markdown 20230722/n/nonebot-plugin-alconna/0.9.0-0.9.3/diff.md --exclude *.pyd
+[2023-07-22 18:26:04] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-07-22 18:26:04] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-2.0.8.tar.gz tmp/neuralpit-2.0.9.tar.gz --markdown 20230722/n/neuralpit/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-22 18:26:04] INFO root fetch - processPackages [missouri]: Downloading https://files.pythonhosted.org/packages/f6/f6/f44e181e954dc0485346a019345c0250d92a0f12aa0fb58ffb29ae84e5d1/missouri-0.2.0.tar.gz
+[2023-07-22 18:26:04] INFO root fetch - processPackages [hchacha]: executing diffoscope
+[2023-07-22 18:26:04] INFO root fetch - processPackages [hchacha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hchacha-1.0.2.tar.gz tmp/hchacha-1.0.3.tar.gz --markdown 20230722/h/hchacha/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-22 18:26:04] INFO root fetch - processPackages [missouri]: executing diffoscope
+[2023-07-22 18:26:04] INFO root fetch - processPackages [missouri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/missouri-0.1.0a1.tar.gz tmp/missouri-0.2.0.tar.gz --markdown 20230722/m/missouri/0.1.0a1-0.2.0/diff.md --exclude *.pyd
+[2023-07-22 18:26:04] INFO root fetch - processPackages [aiopegelonline]: Remove: archive file [/home/abi/fetcher/tmp/aiopegelonline-0.0.3-py3-none-any.whl.zip]
+[2023-07-22 18:26:04] INFO root fetch - processPackages [aiopegelonline]: Remove: archive file [/home/abi/fetcher/tmp/aiopegelonline-0.0.4-py3-none-any.whl.zip]
+[2023-07-22 18:26:04] INFO root fetch - main [MainThread]: End processing [aiopegelonline]: success
+[2023-07-22 18:26:05] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.8.tar.gz]
+[2023-07-22 18:26:05] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.9.tar.gz]
+[2023-07-22 18:26:05] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-07-22 18:26:05] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-alconna-0.9.0.tar.gz]
+[2023-07-22 18:26:05] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_alconna-0.9.3.tar.gz]
+[2023-07-22 18:26:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-alconna]: success
+[2023-07-22 18:26:05] INFO root fetch - processPackages [missouri]: Remove: archive file [/home/abi/fetcher/tmp/missouri-0.1.0a1.tar.gz]
+[2023-07-22 18:26:05] INFO root fetch - processPackages [missouri]: Remove: archive file [/home/abi/fetcher/tmp/missouri-0.2.0.tar.gz]
+[2023-07-22 18:26:05] INFO root fetch - main [MainThread]: End processing [missouri]: success
+[2023-07-22 18:26:05] INFO root fetch - processPackages [hchacha]: Remove: archive file [/home/abi/fetcher/tmp/hchacha-1.0.2.tar.gz]
+[2023-07-22 18:26:05] INFO root fetch - processPackages [hchacha]: Remove: archive file [/home/abi/fetcher/tmp/hchacha-1.0.3.tar.gz]
+[2023-07-22 18:26:05] INFO root fetch - main [MainThread]: End processing [hchacha]: success
+[2023-07-22 18:26:05] INFO root fetch - main [MainThread]: Store serial: [18996165]
