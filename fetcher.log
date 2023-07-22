@@ -8687,3 +8687,24 @@
 [2023-07-22 05:45:23] INFO root fetch - processPackages [ladybug-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-grasshopper-1.9.4.tar.gz]
 [2023-07-22 05:45:23] INFO root fetch - main [MainThread]: End processing [ladybug-grasshopper]: success
 [2023-07-22 05:45:23] INFO root fetch - main [MainThread]: Store serial: [18992539]
+[2023-07-22 05:50:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992539]
+[2023-07-22 05:50:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-22 05:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ahk
+[2023-07-22 05:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ruff
+[2023-07-22 05:50:32] INFO root fetch - processPackages [ruff]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-22 05:50:32] INFO root fetch - processPackages [ahk]: New version: [1.2.0rc2] Old Version: [1.2.0rc1]
+[2023-07-22 05:50:32] INFO root fetch - processPackages [ruff]: Downloading https://files.pythonhosted.org/packages/47/03/d97ee64c6c8899eed05f51278ea3a1de7aec597d746afa99b689f7e91c3c/ruff-0.0.98.tar.gz
+[2023-07-22 05:50:32] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/ef/7c/5380f4704e483c7f3748e43127198502605972b497c191f7887c16bb150e/ahk-1.2.0rc1.tar.gz
+[2023-07-22 05:50:32] INFO root fetch - processPackages [ruff]: Downloading https://files.pythonhosted.org/packages/43/74/128be8dbfb351ff04131ec18fb5b96694cd3ca0c92c6acacfdfe8dc4235f/ruff-0.0.99.tar.gz
+[2023-07-22 05:50:32] INFO root fetch - processPackages [ruff]: executing diffoscope
+[2023-07-22 05:50:32] INFO root fetch - processPackages [ruff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruff-0.0.98.tar.gz tmp/ruff-0.0.99.tar.gz --markdown 20230722/r/ruff/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-22 05:50:32] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/27/ba/2d34ee64d87ad47c69883f0caa104561a7bb751e8062f6878827fcdc4a64/ahk-1.2.0rc2.tar.gz
+[2023-07-22 05:50:33] INFO root fetch - processPackages [ahk]: executing diffoscope
+[2023-07-22 05:50:33] INFO root fetch - processPackages [ahk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahk-1.2.0rc1.tar.gz tmp/ahk-1.2.0rc2.tar.gz --markdown 20230722/a/ahk/1.2.0rc1-1.2.0rc2/diff.md --exclude *.pyd
+[2023-07-22 05:50:33] INFO root fetch - processPackages [ahk]: Remove: archive file [/home/abi/fetcher/tmp/ahk-1.2.0rc1.tar.gz]
+[2023-07-22 05:50:33] INFO root fetch - processPackages [ahk]: Remove: archive file [/home/abi/fetcher/tmp/ahk-1.2.0rc2.tar.gz]
+[2023-07-22 05:50:33] INFO root fetch - main [MainThread]: End processing [ahk]: success
+[2023-07-22 05:50:34] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.0.98.tar.gz]
+[2023-07-22 05:50:34] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.0.99.tar.gz]
+[2023-07-22 05:50:34] INFO root fetch - main [MainThread]: End processing [ruff]: success
+[2023-07-22 05:50:34] INFO root fetch - main [MainThread]: Store serial: [18992566]
