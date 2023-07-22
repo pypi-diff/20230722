@@ -16252,3 +16252,96 @@ EOFError: EOF read where object expected
 [2023-07-22 17:49:35] INFO root fetch - processPackages [idem-aws]: Remove: archive file [/home/abi/fetcher/tmp/idem-aws-3.0.2.tar.gz]
 [2023-07-22 17:49:35] INFO root fetch - main [MainThread]: End processing [idem-aws]: success
 [2023-07-22 17:49:35] INFO root fetch - main [MainThread]: Store serial: [18995872]
+[2023-07-22 17:54:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995872]
+[2023-07-22 17:54:45] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-22 17:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marketwatchdata
+[2023-07-22 17:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gw3
+[2023-07-22 17:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TXM-Sandbox
+[2023-07-22 17:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ultibi
+[2023-07-22 17:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sklearn-mlmlm
+[2023-07-22 17:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyquiver
+[2023-07-22 17:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rikee
+[2023-07-22 17:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opentps
+[2023-07-22 17:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: advertion
+[2023-07-22 17:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pipedrive-wrapper
+[2023-07-22 17:54:45] INFO root fetch - processPackages [pipedrive-wrapper]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-22 17:54:45] INFO root fetch - processPackages [sklearn-mlmlm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 17:54:45] INFO root fetch - processPackages [advertion]: New version: [0.1.0b0] Old Version: [0.1.0a2]
+[2023-07-22 17:54:45] INFO root fetch - processPackages [marketwatchdata]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-22 17:54:45] INFO root fetch - processPackages [pipedrive-wrapper]: Downloading https://files.pythonhosted.org/packages/85/30/b31cb53a7b3307a729cd9ee5b41e68f21ef148814353c2191c7e400de35a/pipedrive-wrapper-1.0.3.tar.gz
+[2023-07-22 17:54:45] WARNING root fetch - processPackages [rikee]: Skipping, unable to determine old version
+[2023-07-22 17:54:45] WARNING root fetch - processPackages [opentps]: Skipping, unable to determine old version
+[2023-07-22 17:54:45] INFO root fetch - processPackages [rikee]: Start processing: unstac
+[2023-07-22 17:54:45] INFO root fetch - processPackages [opentps]: Start processing: swarms
+[2023-07-22 17:54:45] INFO root fetch - main [MainThread]: End processing [rikee] error
+[2023-07-22 17:54:45] INFO root fetch - main [MainThread]: End processing [opentps] error
+[2023-07-22 17:54:45] INFO root fetch - processPackages [TXM-Sandbox]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-22 17:54:45] INFO root fetch - processPackages [gw3]: New version: [0.6] Old Version: [0.5]
+[2023-07-22 17:54:45] WARNING root fetch - processPackages [pyquiver]: Skipping, unable to determine old version
+[2023-07-22 17:54:45] INFO root fetch - main [MainThread]: End processing [pyquiver] error
+[2023-07-22 17:54:45] INFO root fetch - processPackages [ultibi]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-07-22 17:54:45] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/0a/98/4ddd38a1e51a088e832ba7e63522d73dc145b8cfdec3e34074d50b210372/sklearn_mlmlm-0.0.8.tar.gz
+[2023-07-22 17:54:45] INFO root fetch - processPackages [advertion]: Downloading https://files.pythonhosted.org/packages/ac/1c/3707f392c38a08708222bad34a5ff3cd770568432198dec722e30dc9c4f8/advertion-0.1.0a2.tar.gz
+[2023-07-22 17:54:45] INFO root fetch - processPackages [unstac]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 17:54:45] INFO root fetch - processPackages [swarms]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-22 17:54:45] INFO root fetch - processPackages [marketwatchdata]: Downloading https://files.pythonhosted.org/packages/e0/23/f832c3f3dfad5583df008a825585c4b641db4a42f591f55c041bec81b8dd/marketwatchdata-0.0.7.tar.gz
+[2023-07-22 17:54:45] INFO root fetch - processPackages [unstac]: Downloading https://files.pythonhosted.org/packages/d5/d3/240e02967e9e16ea32a32d98e8094371c17fefff48060416b4ed25f60576/unstac-0.0.3.tar.gz
+[2023-07-22 17:54:45] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/b2/57/540db7a2b95df8e95b32380fbda7c1c91326d44431bf398e4dc9833e63f3/swarms-0.9.8.tar.gz
+[2023-07-22 17:54:45] INFO root fetch - processPackages [ultibi]: Downloading https://files.pythonhosted.org/packages/79/3a/38ad367e32b7ef9de8d2392127008a72aabb58aea937199aafc68f378064/ultibi-0.3.4.tar.gz
+[2023-07-22 17:54:45] INFO root fetch - processPackages [gw3]: Downloading https://files.pythonhosted.org/packages/90/97/31c9a6783e440d8320ac4217aeca0bde2645abf5e8b4c194b2fa54e4ee1b/gw3-0.5.tar.gz
+[2023-07-22 17:54:46] INFO root fetch - processPackages [TXM-Sandbox]: Downloading https://files.pythonhosted.org/packages/77/55/e8500bb0744813d538782b62a50a4083958f31e9023f6811501030423606/TXM_Sandbox-0.2.3.tar.gz
+[2023-07-22 17:54:46] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/8e/20/5b0f76a3c4ec519bdc1252725dd78ad4afcc5b17fd82f5330134186be426/sklearn_mlmlm-0.0.9.tar.gz
+[2023-07-22 17:54:46] INFO root fetch - processPackages [pipedrive-wrapper]: Downloading https://files.pythonhosted.org/packages/69/e2/96692747c153f18ff7fbed23c0633078ec9038f6c0a23da0c49c7bf26b49/pipedrive-wrapper-1.0.4.tar.gz
+[2023-07-22 17:54:46] INFO root fetch - processPackages [advertion]: Downloading https://files.pythonhosted.org/packages/41/98/eb3b2b239e1b3b2a958d8096dda4569b3e21b0e118fd652d1db4d01de93f/advertion-0.1.0b0.tar.gz
+[2023-07-22 17:54:46] INFO root fetch - processPackages [sklearn-mlmlm]: executing diffoscope
+[2023-07-22 17:54:46] INFO root fetch - processPackages [sklearn-mlmlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_mlmlm-0.0.8.tar.gz tmp/sklearn_mlmlm-0.0.9.tar.gz --markdown 20230722/s/sklearn-mlmlm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 17:54:46] INFO root fetch - processPackages [pipedrive-wrapper]: executing diffoscope
+[2023-07-22 17:54:46] INFO root fetch - processPackages [pipedrive-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipedrive-wrapper-1.0.3.tar.gz tmp/pipedrive-wrapper-1.0.4.tar.gz --markdown 20230722/p/pipedrive-wrapper/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-22 17:54:46] INFO root fetch - processPackages [advertion]: executing diffoscope
+[2023-07-22 17:54:46] INFO root fetch - processPackages [advertion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advertion-0.1.0a2.tar.gz tmp/advertion-0.1.0b0.tar.gz --markdown 20230722/a/advertion/0.1.0a2-0.1.0b0/diff.md --exclude *.pyd
+[2023-07-22 17:54:46] INFO root fetch - processPackages [marketwatchdata]: Downloading https://files.pythonhosted.org/packages/50/8a/2dd1bed76ec5ddfa93a2d3e5f12b530f95d453c15275458f4b2bdc73b41a/marketwatchdata-0.0.8.tar.gz
+[2023-07-22 17:54:46] INFO root fetch - processPackages [unstac]: Downloading https://files.pythonhosted.org/packages/50/2d/6837da6e500682906ef5937ed5863863547e98fc9d9466b559d675ccc3f6/unstac-0.0.4.tar.gz
+[2023-07-22 17:54:46] INFO root fetch - processPackages [gw3]: Downloading https://files.pythonhosted.org/packages/73/ad/86d7846bde71a2e596dde52af8b094b53a91a1c166ddc239c64c26b7675c/gw3-0.6.tar.gz
+[2023-07-22 17:54:46] INFO root fetch - processPackages [TXM-Sandbox]: Downloading https://files.pythonhosted.org/packages/e7/17/3d080a433fc355572f3fa261d23b0f8dc9603c17b5f38934dbb8158d0eab/TXM_Sandbox-0.2.4.tar.gz
+[2023-07-22 17:54:46] INFO root fetch - processPackages [ultibi]: Downloading https://files.pythonhosted.org/packages/cb/94/34ee2b815f35a7a115e4ac67ce7150cb4772125832c5e74b759e61cf3ebb/ultibi-0.4.0.tar.gz
+[2023-07-22 17:54:46] INFO root fetch - processPackages [marketwatchdata]: executing diffoscope
+[2023-07-22 17:54:46] INFO root fetch - processPackages [marketwatchdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marketwatchdata-0.0.7.tar.gz tmp/marketwatchdata-0.0.8.tar.gz --markdown 20230722/m/marketwatchdata/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-22 17:54:46] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/d5/a8/f17be4cab04c0417b378ef93101421addee15a450d8a2bd5b027b11c2eca/swarms-0.9.9.tar.gz
+[2023-07-22 17:54:46] INFO root fetch - processPackages [unstac]: executing diffoscope
+[2023-07-22 17:54:46] INFO root fetch - processPackages [unstac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstac-0.0.3.tar.gz tmp/unstac-0.0.4.tar.gz --markdown 20230722/u/unstac/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 17:54:46] INFO root fetch - processPackages [gw3]: executing diffoscope
+[2023-07-22 17:54:46] INFO root fetch - processPackages [gw3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gw3-0.5.tar.gz tmp/gw3-0.6.tar.gz --markdown 20230722/g/gw3/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-22 17:54:46] INFO root fetch - processPackages [ultibi]: executing diffoscope
+[2023-07-22 17:54:46] INFO root fetch - processPackages [ultibi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultibi-0.3.4.tar.gz tmp/ultibi-0.4.0.tar.gz --markdown 20230722/u/ultibi/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-07-22 17:54:46] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-22 17:54:46] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.9.8.tar.gz tmp/swarms-0.9.9.tar.gz --markdown 20230722/s/swarms/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-22 17:54:46] INFO root fetch - processPackages [TXM-Sandbox]: executing diffoscope
+[2023-07-22 17:54:46] INFO root fetch - processPackages [TXM-Sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TXM_Sandbox-0.2.3.tar.gz tmp/TXM_Sandbox-0.2.4.tar.gz --markdown 20230722/T/TXM-Sandbox/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-22 17:54:47] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.8.tar.gz]
+[2023-07-22 17:54:47] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.9.tar.gz]
+[2023-07-22 17:54:47] INFO root fetch - main [MainThread]: End processing [sklearn-mlmlm]: success
+[2023-07-22 17:54:47] INFO root fetch - processPackages [advertion]: Remove: archive file [/home/abi/fetcher/tmp/advertion-0.1.0a2.tar.gz]
+[2023-07-22 17:54:47] INFO root fetch - processPackages [advertion]: Remove: archive file [/home/abi/fetcher/tmp/advertion-0.1.0b0.tar.gz]
+[2023-07-22 17:54:47] INFO root fetch - main [MainThread]: End processing [advertion]: success
+[2023-07-22 17:54:47] INFO root fetch - processPackages [pipedrive-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/pipedrive-wrapper-1.0.3.tar.gz]
+[2023-07-22 17:54:47] INFO root fetch - processPackages [pipedrive-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/pipedrive-wrapper-1.0.4.tar.gz]
+[2023-07-22 17:54:47] INFO root fetch - main [MainThread]: End processing [pipedrive-wrapper]: success
+[2023-07-22 17:54:47] INFO root fetch - processPackages [gw3]: Remove: archive file [/home/abi/fetcher/tmp/gw3-0.5.tar.gz]
+[2023-07-22 17:54:47] INFO root fetch - processPackages [gw3]: Remove: archive file [/home/abi/fetcher/tmp/gw3-0.6.tar.gz]
+[2023-07-22 17:54:47] INFO root fetch - main [MainThread]: End processing [gw3]: success
+[2023-07-22 17:54:47] INFO root fetch - processPackages [marketwatchdata]: Remove: archive file [/home/abi/fetcher/tmp/marketwatchdata-0.0.7.tar.gz]
+[2023-07-22 17:54:47] INFO root fetch - processPackages [marketwatchdata]: Remove: archive file [/home/abi/fetcher/tmp/marketwatchdata-0.0.8.tar.gz]
+[2023-07-22 17:54:47] INFO root fetch - main [MainThread]: End processing [marketwatchdata]: success
+[2023-07-22 17:54:47] INFO root fetch - processPackages [unstac]: Remove: archive file [/home/abi/fetcher/tmp/unstac-0.0.3.tar.gz]
+[2023-07-22 17:54:47] INFO root fetch - processPackages [unstac]: Remove: archive file [/home/abi/fetcher/tmp/unstac-0.0.4.tar.gz]
+[2023-07-22 17:54:47] INFO root fetch - main [MainThread]: End processing [unstac]: success
+[2023-07-22 17:54:48] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.9.8.tar.gz]
+[2023-07-22 17:54:48] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.9.9.tar.gz]
+[2023-07-22 17:54:48] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-22 17:54:48] INFO root fetch - processPackages [TXM-Sandbox]: Remove: archive file [/home/abi/fetcher/tmp/TXM_Sandbox-0.2.3.tar.gz]
+[2023-07-22 17:54:48] INFO root fetch - processPackages [TXM-Sandbox]: Remove: archive file [/home/abi/fetcher/tmp/TXM_Sandbox-0.2.4.tar.gz]
+[2023-07-22 17:54:48] INFO root fetch - main [MainThread]: End processing [TXM-Sandbox]: success
+[2023-07-22 17:54:49] INFO root fetch - processPackages [ultibi]: Remove: archive file [/home/abi/fetcher/tmp/ultibi-0.3.4.tar.gz]
+[2023-07-22 17:54:49] INFO root fetch - processPackages [ultibi]: Remove: archive file [/home/abi/fetcher/tmp/ultibi-0.4.0.tar.gz]
+[2023-07-22 17:54:49] INFO root fetch - main [MainThread]: End processing [ultibi]: success
+[2023-07-22 17:54:49] INFO root fetch - main [MainThread]: Store serial: [18995922]
