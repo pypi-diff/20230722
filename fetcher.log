@@ -9072,3 +9072,42 @@
 [2023-07-22 06:26:57] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.3.9.tar.gz]
 [2023-07-22 06:26:57] INFO root fetch - main [MainThread]: End processing [pymino]: success
 [2023-07-22 06:26:57] INFO root fetch - main [MainThread]: Store serial: [18992686]
+[2023-07-22 06:32:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992686]
+[2023-07-22 06:32:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-22 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OneOnOne
+[2023-07-22 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bose
+[2023-07-22 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: erscipcard
+[2023-07-22 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmlibs.importer
+[2023-07-22 06:32:06] INFO root fetch - processPackages [bose]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-22 06:32:06] INFO root fetch - processPackages [cmlibs.importer]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-22 06:32:06] INFO root fetch - processPackages [bose]: Downloading https://files.pythonhosted.org/packages/fb/a2/8b256687327fb4807c2c68295224ca84bca13feb5b12e00d6e71d929253e/bose-2.0.8.tar.gz
+[2023-07-22 06:32:06] INFO root fetch - processPackages [OneOnOne]: New version: [0.6921] Old Version: [0.692]
+[2023-07-22 06:32:06] INFO root fetch - processPackages [erscipcard]: New version: [1.21] Old Version: [1.2]
+[2023-07-22 06:32:06] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/eb/88/f577a270b10f780d61877d2f223defda5678360f6152e6403f48f02ae6a2/erscipcard-1.2.tar.gz
+[2023-07-22 06:32:06] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/c8/60/1bd68011c1ba254546f1c31811473adf3ec0bb142670505f42530b87583c/OneOnOne-0.692.tar.gz
+[2023-07-22 06:32:06] INFO root fetch - processPackages [cmlibs.importer]: Downloading https://files.pythonhosted.org/packages/63/a8/c85174b6eb1b98c37c7a26badac85bd790eea7e9b294061859aa03951481/cmlibs.importer-0.5.0.tar.gz
+[2023-07-22 06:32:06] INFO root fetch - processPackages [bose]: Downloading https://files.pythonhosted.org/packages/02/3d/99351c9925c6d6d7dfdf932bdc8ff4c3cb7c7c58020f6528b9daad4d14f2/bose-2.0.9.tar.gz
+[2023-07-22 06:32:06] INFO root fetch - processPackages [bose]: executing diffoscope
+[2023-07-22 06:32:06] INFO root fetch - processPackages [bose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bose-2.0.8.tar.gz tmp/bose-2.0.9.tar.gz --markdown 20230722/b/bose/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-22 06:32:06] INFO root fetch - processPackages [cmlibs.importer]: Downloading https://files.pythonhosted.org/packages/05/7c/c5d777634bb4e4f948d9640a78a2819e0df896c126a7e8cb40fbc7dee7e0/cmlibs.importer-0.5.1-py3-none-any.whl
+[2023-07-22 06:32:07] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/b0/07/86a7082ec911c61b5226a8cab91a84e64ca2c96b6dc589c359eb5b11d8be/erscipcard-1.21.tar.gz
+[2023-07-22 06:32:07] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/5b/2d/c044736b65f18fc66cfa7c79732ef3a7d59be75199bb2be6c93c267c61ba/OneOnOne-0.6921.tar.gz
+[2023-07-22 06:32:07] INFO root fetch - processPackages [cmlibs.importer]: executing diffoscope
+[2023-07-22 06:32:07] INFO root fetch - processPackages [cmlibs.importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmlibs.importer-0.5.0.tar.gz tmp/cmlibs.importer-0.5.1-py3-none-any.whl.zip --markdown 20230722/c/cmlibs.importer/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-22 06:32:07] INFO root fetch - processPackages [erscipcard]: executing diffoscope
+[2023-07-22 06:32:07] INFO root fetch - processPackages [erscipcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erscipcard-1.2.tar.gz tmp/erscipcard-1.21.tar.gz --markdown 20230722/e/erscipcard/1.2-1.21/diff.md --exclude *.pyd
+[2023-07-22 06:32:07] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 06:32:07] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.692.tar.gz tmp/OneOnOne-0.6921.tar.gz --markdown 20230722/O/OneOnOne/0.692-0.6921/diff.md --exclude *.pyd
+[2023-07-22 06:32:07] INFO root fetch - processPackages [bose]: Remove: archive file [/home/abi/fetcher/tmp/bose-2.0.8.tar.gz]
+[2023-07-22 06:32:07] INFO root fetch - processPackages [bose]: Remove: archive file [/home/abi/fetcher/tmp/bose-2.0.9.tar.gz]
+[2023-07-22 06:32:07] INFO root fetch - main [MainThread]: End processing [bose]: success
+[2023-07-22 06:32:08] INFO root fetch - processPackages [cmlibs.importer]: Remove: archive file [/home/abi/fetcher/tmp/cmlibs.importer-0.5.0.tar.gz]
+[2023-07-22 06:32:08] INFO root fetch - processPackages [cmlibs.importer]: Remove: archive file [/home/abi/fetcher/tmp/cmlibs.importer-0.5.1-py3-none-any.whl.zip]
+[2023-07-22 06:32:08] INFO root fetch - main [MainThread]: End processing [cmlibs.importer]: success
+[2023-07-22 06:32:08] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.2.tar.gz]
+[2023-07-22 06:32:08] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.21.tar.gz]
+[2023-07-22 06:32:08] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
+[2023-07-22 06:32:08] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.692.tar.gz]
+[2023-07-22 06:32:08] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6921.tar.gz]
+[2023-07-22 06:32:08] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 06:32:08] INFO root fetch - main [MainThread]: Store serial: [18992695]
