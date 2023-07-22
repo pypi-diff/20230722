@@ -12610,3 +12610,33 @@
 [2023-07-22 12:11:51] INFO root fetch - processPackages [ipo-india]: Remove: archive file [/home/abi/fetcher/tmp/ipo_india-0.0.9.tar.gz]
 [2023-07-22 12:11:51] INFO root fetch - main [MainThread]: End processing [ipo-india]: success
 [2023-07-22 12:11:51] INFO root fetch - main [MainThread]: Store serial: [18994293]
+[2023-07-22 12:16:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994293]
+[2023-07-22 12:17:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-22 12:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apysc
+[2023-07-22 12:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thunno2
+[2023-07-22 12:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TDCRPy
+[2023-07-22 12:17:00] INFO root fetch - processPackages [thunno2]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-07-22 12:17:00] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 12:17:00] INFO root fetch - processPackages [thunno2]: Downloading https://files.pythonhosted.org/packages/7e/6a/79e11d048a130630c8ebabaa8537aec1d65312fab8d8410d66b92907a207/thunno2-2.2.4.tar.gz
+[2023-07-22 12:17:00] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-22 12:17:00] INFO root fetch - processPackages [apysc]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-07-22 12:17:00] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-22 12:17:00] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/46/a3/bf22495d758367094fa3f27ee7ffdf71d9ce28530e1cb352bfe50373d0de/apysc-3.3.0.tar.gz
+[2023-07-22 12:17:00] INFO root fetch - processPackages [thunno2]: Downloading https://files.pythonhosted.org/packages/47/fe/1092b4a9298be62615a04caa3c3808a12a0abfe8586333d7652076fed814/thunno2-2.2.5.tar.gz
+[2023-07-22 12:17:00] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-22 12:17:00] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230722/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 12:17:00] INFO root fetch - processPackages [thunno2]: executing diffoscope
+[2023-07-22 12:17:00] INFO root fetch - processPackages [thunno2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thunno2-2.2.4.tar.gz tmp/thunno2-2.2.5.tar.gz --markdown 20230722/t/thunno2/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-07-22 12:17:01] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/0b/b1/151377ab9bf2e0423cf5375ec6e2a89ff113939877cd2b55faa1794cffef/apysc-3.3.1.tar.gz
+[2023-07-22 12:17:01] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-07-22 12:17:01] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-3.3.0.tar.gz tmp/apysc-3.3.1.tar.gz --markdown 20230722/a/apysc/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-07-22 12:17:01] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-22 12:17:01] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-22 12:17:01] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-22 12:17:01] INFO root fetch - processPackages [thunno2]: Remove: archive file [/home/abi/fetcher/tmp/thunno2-2.2.4.tar.gz]
+[2023-07-22 12:17:01] INFO root fetch - processPackages [thunno2]: Remove: archive file [/home/abi/fetcher/tmp/thunno2-2.2.5.tar.gz]
+[2023-07-22 12:17:01] INFO root fetch - main [MainThread]: End processing [thunno2]: success
+[2023-07-22 12:17:04] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.3.0.tar.gz]
+[2023-07-22 12:17:04] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.3.1.tar.gz]
+[2023-07-22 12:17:04] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-07-22 12:17:04] INFO root fetch - main [MainThread]: Store serial: [18994301]
