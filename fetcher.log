@@ -9198,3 +9198,25 @@
 [2023-07-22 06:52:48] INFO root fetch - processPackages [auto-eval]: Remove: archive file [/home/abi/fetcher/tmp/auto-eval-0.3.0.tar.gz]
 [2023-07-22 06:52:48] INFO root fetch - main [MainThread]: End processing [auto-eval]: success
 [2023-07-22 06:52:48] INFO root fetch - main [MainThread]: Store serial: [18992724]
+[2023-07-22 06:57:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992724]
+[2023-07-22 06:57:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-22 06:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oxenai
+[2023-07-22 06:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polemarch
+[2023-07-22 06:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flashcam
+[2023-07-22 06:57:56] INFO root fetch - processPackages [oxenai]: New version: [0.1.9] Old Version: [0.1.3]
+[2023-07-22 06:57:56] INFO root fetch - processPackages [flashcam]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-22 06:57:56] INFO root fetch - processPackages [polemarch]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-07-22 06:57:56] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/9d/29/cb839f6d94c07e77bc1f17083816f3fd9b3db9e145f606acb0bacc68a3fa/flashcam-1.5.8.tar.gz
+[2023-07-22 06:57:56] INFO root fetch - processPackages [polemarch]: Downloading https://files.pythonhosted.org/packages/7f/0e/b86b4303ec7c4665da6571a4913f314f9e8993d725cf5303d1539b3c9a1d/polemarch-3.0.2.tar.gz
+[2023-07-22 06:57:57] WARNING root fetch - processPackages [polemarch]: Skipping package: exceeds size limit 12086646>=10485760
+[2023-07-22 06:57:57] INFO root fetch - main [MainThread]: End processing [polemarch] error
+[2023-07-22 06:57:57] INFO root fetch - processPackages [oxenai]: Downloading https://files.pythonhosted.org/packages/f9/07/9b84496c51d7eb0978a7122e0246eb47d8118ed65cba24367d0ffec0ae9e/oxenai-0.1.9-cp310-cp310-macosx_11_0_arm64.whl
+[2023-07-22 06:57:57] WARNING root fetch - processPackages [oxenai]: Skipping package: exceeds size limit 14827494>=10485760
+[2023-07-22 06:57:57] INFO root fetch - main [MainThread]: End processing [oxenai] error
+[2023-07-22 06:57:57] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/96/42/2781f734b5b961970dcbae981e95975f89ee4e4297f0299dbb182cc3a6d2/flashcam-1.5.9.tar.gz
+[2023-07-22 06:57:57] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2023-07-22 06:57:57] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.5.8.tar.gz tmp/flashcam-1.5.9.tar.gz --markdown 20230722/f/flashcam/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-22 06:57:58] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.8.tar.gz]
+[2023-07-22 06:57:58] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.9.tar.gz]
+[2023-07-22 06:57:58] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2023-07-22 06:57:58] INFO root fetch - main [MainThread]: Store serial: [18992738]
