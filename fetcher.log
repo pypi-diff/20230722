@@ -18328,3 +18328,90 @@ EOFError: EOF read where object expected
 [2023-07-22 20:31:13] INFO root fetch - processPackages [eznet-keras]: Remove: archive file [/home/abi/fetcher/tmp/eznet_keras-1.1.0.tar.gz]
 [2023-07-22 20:31:13] INFO root fetch - main [MainThread]: End processing [eznet-keras]: success
 [2023-07-22 20:31:13] INFO root fetch - main [MainThread]: Store serial: [18996843]
+[2023-07-22 20:36:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996843]
+[2023-07-22 20:36:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-22 20:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-fr-pos-caisse-ap-ip
+[2023-07-22 20:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: guify
+[2023-07-22 20:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlx-exec
+[2023-07-22 20:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlx-batis
+[2023-07-22 20:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ffmpeg-normalize
+[2023-07-22 20:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FastGeodis
+[2023-07-22 20:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vidgear
+[2023-07-22 20:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: advent-of-code-data
+[2023-07-22 20:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: roblox-pyc
+[2023-07-22 20:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fugue
+[2023-07-22 20:36:22] INFO root fetch - processPackages [ffmpeg-normalize]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-07-22 20:36:22] INFO root fetch - processPackages [guify]: New version: [0.3.1] Old Version: [0.3.0a1]
+[2023-07-22 20:36:22] INFO root fetch - processPackages [sqlx-exec]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-22 20:36:22] INFO root fetch - processPackages [advent-of-code-data]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-22 20:36:22] INFO root fetch - processPackages [FastGeodis]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-22 20:36:22] INFO root fetch - processPackages [vidgear]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-22 20:36:22] WARNING root fetch - processPackages [odoo-addon-l10n-fr-pos-caisse-ap-ip]: Skipping, unable to determine old version
+[2023-07-22 20:36:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-pos-caisse-ap-ip] error
+[2023-07-22 20:36:22] INFO root fetch - processPackages [sqlx-batis]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 20:36:22] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-22 20:36:22] INFO root fetch - processPackages [fugue]: New version: [0.8.6.dev2] Old Version: [0.8.6.dev1]
+[2023-07-22 20:36:22] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/eb/3f/10d1ea76d9dd38b6d5e6aeb22df62c9d527eb1fd2ec6c466e6d06d1190c1/guify-0.3.0a1.tar.gz
+[2023-07-22 20:36:22] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-22 20:36:22] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/c6/35/c8f4755199e2476deacd5131b491698dfddb1011c6e62d4d2aee71c62e5c/sqlx-exec-1.1.2.tar.gz
+[2023-07-22 20:36:22] INFO root fetch - processPackages [ffmpeg-normalize]: Downloading https://files.pythonhosted.org/packages/bb/71/48b153037de3b8679bcbd621aff3af9f5f612b99fb9a8481515bbc2eba59/ffmpeg-normalize-1.3.7.tar.gz
+[2023-07-22 20:36:22] INFO root fetch - processPackages [advent-of-code-data]: Downloading https://files.pythonhosted.org/packages/86/e5/177d7bc2868c54f3815d0397359f294f453514d339a45affb1dc1771f9ff/advent-of-code-data-2.0.0.tar.gz
+[2023-07-22 20:36:22] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/c0/24/e9038e49febac4ae556ae4f459b9e4d127e82abaf9402e4d35dedc208d5a/sqlx-batis-0.0.3.tar.gz
+[2023-07-22 20:36:22] INFO root fetch - processPackages [FastGeodis]: Downloading https://files.pythonhosted.org/packages/b9/fb/3a4d3d00912b708d6729367f77366cccfc1c095021ff34c1835bc9d2dcde/FastGeodis-1.0.3.tar.gz
+[2023-07-22 20:36:22] INFO root fetch - processPackages [fugue]: Downloading https://files.pythonhosted.org/packages/f2/c7/0f6892ae5d09db8490bdd3804f357a9945da1675bf9c9d8db916ce2fbe92/fugue-0.8.6.dev1.tar.gz
+[2023-07-22 20:36:22] INFO root fetch - processPackages [vidgear]: Downloading https://files.pythonhosted.org/packages/76/4b/93feb708152ef6cc596bcb13abb420aa492a54404c1316efae1b4b563506/vidgear-0.3.0.tar.gz
+[2023-07-22 20:36:22] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-22 20:36:23] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/86/c2/1cf2b0a54a00a09a688cd2e971b8ccc13d19316bfef4c108d050236da46a/guify-0.3.1.tar.gz
+[2023-07-22 20:36:23] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/8f/f7/fe973a70ab20b7f32fd7b24bfa316191a7b17d3ac42ac7989bfa474b04ce/sqlx-exec-1.1.3.tar.gz
+[2023-07-22 20:36:23] INFO root fetch - processPackages [advent-of-code-data]: Downloading https://files.pythonhosted.org/packages/1e/5b/ad4e02dbdadebdb27272333f30c6762989b7733b40d77a5dcb7cb5d71707/advent-of-code-data-2.0.1.tar.gz
+[2023-07-22 20:36:23] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/85/13/b6931d2cb934ea7dd7bfcdf27ee2de5255a844f58c7ebfcebbdc79b813a2/sqlx-batis-0.0.4.tar.gz
+[2023-07-22 20:36:23] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-22 20:36:23] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230722/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-22 20:36:23] INFO root fetch - processPackages [fugue]: Downloading https://files.pythonhosted.org/packages/41/8e/a44a77eefebb2825294c128f5fc1c94eec66432551f0f0f0058712a302dc/fugue-0.8.6.dev2.tar.gz
+[2023-07-22 20:36:23] INFO root fetch - processPackages [vidgear]: Downloading https://files.pythonhosted.org/packages/0c/99/71ad4c81d4db765079118f2ba51b48abd73ed675c34fc719592e88286191/vidgear-0.3.1.tar.gz
+[2023-07-22 20:36:23] INFO root fetch - processPackages [FastGeodis]: Downloading https://files.pythonhosted.org/packages/b3/c4/991423bda0cbafd59a54442baf9e09f20d8010841cbb1052622e78bf4161/FastGeodis-1.0.4.tar.gz
+[2023-07-22 20:36:23] INFO root fetch - processPackages [advent-of-code-data]: executing diffoscope
+[2023-07-22 20:36:23] INFO root fetch - processPackages [advent-of-code-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advent-of-code-data-2.0.0.tar.gz tmp/advent-of-code-data-2.0.1.tar.gz --markdown 20230722/a/advent-of-code-data/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-22 20:36:23] INFO root fetch - processPackages [sqlx-batis]: executing diffoscope
+[2023-07-22 20:36:23] INFO root fetch - processPackages [sqlx-batis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-batis-0.0.3.tar.gz tmp/sqlx-batis-0.0.4.tar.gz --markdown 20230722/s/sqlx-batis/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 20:36:23] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-07-22 20:36:23] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.3.0a1.tar.gz tmp/guify-0.3.1.tar.gz --markdown 20230722/g/guify/0.3.0a1-0.3.1/diff.md --exclude *.pyd
+[2023-07-22 20:36:23] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-22 20:36:23] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.1.2.tar.gz tmp/sqlx-exec-1.1.3.tar.gz --markdown 20230722/s/sqlx-exec/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-22 20:36:23] INFO root fetch - processPackages [vidgear]: executing diffoscope
+[2023-07-22 20:36:23] INFO root fetch - processPackages [vidgear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidgear-0.3.0.tar.gz tmp/vidgear-0.3.1.tar.gz --markdown 20230722/v/vidgear/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-22 20:36:23] INFO root fetch - processPackages [FastGeodis]: executing diffoscope
+[2023-07-22 20:36:23] INFO root fetch - processPackages [FastGeodis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FastGeodis-1.0.3.tar.gz tmp/FastGeodis-1.0.4.tar.gz --markdown 20230722/F/FastGeodis/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-22 20:36:23] INFO root fetch - processPackages [fugue]: executing diffoscope
+[2023-07-22 20:36:23] INFO root fetch - processPackages [fugue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fugue-0.8.6.dev1.tar.gz tmp/fugue-0.8.6.dev2.tar.gz --markdown 20230722/f/fugue/0.8.6.dev1-0.8.6.dev2/diff.md --exclude *.pyd
+[2023-07-22 20:36:23] INFO root fetch - processPackages [ffmpeg-normalize]: Downloading https://files.pythonhosted.org/packages/0f/5d/62e02c888cbe0b4671665346020f8acc68313e0c0c87002593547fcee1d7/ffmpeg-normalize-1.3.8.tar.gz
+[2023-07-22 20:36:24] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-22 20:36:24] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-22 20:36:24] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-22 20:36:24] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-0.0.3.tar.gz]
+[2023-07-22 20:36:24] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-0.0.4.tar.gz]
+[2023-07-22 20:36:24] INFO root fetch - main [MainThread]: End processing [sqlx-batis]: success
+[2023-07-22 20:36:24] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.1.2.tar.gz]
+[2023-07-22 20:36:24] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.1.3.tar.gz]
+[2023-07-22 20:36:24] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-22 20:36:24] INFO root fetch - processPackages [ffmpeg-normalize]: executing diffoscope
+[2023-07-22 20:36:24] INFO root fetch - processPackages [ffmpeg-normalize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg-normalize-1.3.7.tar.gz tmp/ffmpeg-normalize-1.3.8.tar.gz --markdown 20230722/f/ffmpeg-normalize/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-07-22 20:36:24] INFO root fetch - processPackages [advent-of-code-data]: Remove: archive file [/home/abi/fetcher/tmp/advent-of-code-data-2.0.0.tar.gz]
+[2023-07-22 20:36:24] INFO root fetch - processPackages [advent-of-code-data]: Remove: archive file [/home/abi/fetcher/tmp/advent-of-code-data-2.0.1.tar.gz]
+[2023-07-22 20:36:24] INFO root fetch - main [MainThread]: End processing [advent-of-code-data]: success
+[2023-07-22 20:36:24] INFO root fetch - processPackages [vidgear]: Remove: archive file [/home/abi/fetcher/tmp/vidgear-0.3.0.tar.gz]
+[2023-07-22 20:36:24] INFO root fetch - processPackages [vidgear]: Remove: archive file [/home/abi/fetcher/tmp/vidgear-0.3.1.tar.gz]
+[2023-07-22 20:36:24] INFO root fetch - main [MainThread]: End processing [vidgear]: success
+[2023-07-22 20:36:24] INFO root fetch - processPackages [FastGeodis]: Remove: archive file [/home/abi/fetcher/tmp/FastGeodis-1.0.3.tar.gz]
+[2023-07-22 20:36:24] INFO root fetch - processPackages [FastGeodis]: Remove: archive file [/home/abi/fetcher/tmp/FastGeodis-1.0.4.tar.gz]
+[2023-07-22 20:36:24] INFO root fetch - main [MainThread]: End processing [FastGeodis]: success
+[2023-07-22 20:36:25] INFO root fetch - processPackages [fugue]: Remove: archive file [/home/abi/fetcher/tmp/fugue-0.8.6.dev1.tar.gz]
+[2023-07-22 20:36:25] INFO root fetch - processPackages [fugue]: Remove: archive file [/home/abi/fetcher/tmp/fugue-0.8.6.dev2.tar.gz]
+[2023-07-22 20:36:25] INFO root fetch - main [MainThread]: End processing [fugue]: success
+[2023-07-22 20:36:28] INFO root fetch - processPackages [ffmpeg-normalize]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg-normalize-1.3.7.tar.gz]
+[2023-07-22 20:36:28] INFO root fetch - processPackages [ffmpeg-normalize]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg-normalize-1.3.8.tar.gz]
+[2023-07-22 20:36:28] INFO root fetch - main [MainThread]: End processing [ffmpeg-normalize]: success
+[2023-07-22 20:36:54] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.3.0a1.tar.gz]
+[2023-07-22 20:36:54] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.3.1.tar.gz]
+[2023-07-22 20:36:54] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-07-22 20:36:54] INFO root fetch - main [MainThread]: Store serial: [18996872]
