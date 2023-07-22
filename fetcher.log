@@ -15864,3 +15864,93 @@ EOFError: EOF read where object expected
 [2023-07-22 17:23:24] INFO root fetch - processPackages [mdtraj]: Remove: archive file [/home/abi/fetcher/tmp/mdtraj-1.9.9.tar.gz]
 [2023-07-22 17:23:24] INFO root fetch - main [MainThread]: End processing [mdtraj]: success
 [2023-07-22 17:23:24] INFO root fetch - main [MainThread]: Store serial: [18995710]
+[2023-07-22 17:28:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995710]
+[2023-07-22 17:28:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-22 17:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openepd
+[2023-07-22 17:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: musicpy
+[2023-07-22 17:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maestral
+[2023-07-22 17:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proxyllm
+[2023-07-22 17:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ktrain
+[2023-07-22 17:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: custodian
+[2023-07-22 17:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: buckaroo
+[2023-07-22 17:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyEasySQL
+[2023-07-22 17:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hytato
+[2023-07-22 17:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydiff-planetarium-assignment
+[2023-07-22 17:28:35] INFO root fetch - processPackages [ktrain]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-22 17:28:35] INFO root fetch - processPackages [pydiff-planetarium-assignment]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-22 17:28:35] INFO root fetch - processPackages [ktrain]: Downloading https://files.pythonhosted.org/packages/4c/eb/f7c8eecbaa0e06d80dbf78e1ae6b293b944d89a1f294331324c0b5262ad4/ktrain-0.9.3.tar.gz
+[2023-07-22 17:28:35] INFO root fetch - processPackages [hytato]: New version: [0.3] Old Version: [0.2]
+[2023-07-22 17:28:35] WARNING root fetch - processPackages [musicpy]: Skipping, unable to determine old version
+[2023-07-22 17:28:35] INFO root fetch - processPackages [musicpy]: Start processing: foc
+[2023-07-22 17:28:35] INFO root fetch - main [MainThread]: End processing [musicpy] error
+[2023-07-22 17:28:35] WARNING root fetch - processPackages [proxyllm]: Skipping, unable to determine old version
+[2023-07-22 17:28:35] INFO root fetch - main [MainThread]: End processing [proxyllm] error
+[2023-07-22 17:28:35] INFO root fetch - processPackages [PyEasySQL]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-07-22 17:28:35] INFO root fetch - processPackages [openepd]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-07-22 17:28:35] INFO root fetch - processPackages [maestral]: New version: [1.8.0.dev0] Old Version: [1.7.3.dev4]
+[2023-07-22 17:28:35] INFO root fetch - processPackages [custodian]: New version: [2023.7.22] Old Version: [2023.6.5]
+[2023-07-22 17:28:35] INFO root fetch - processPackages [buckaroo]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-22 17:28:35] INFO root fetch - processPackages [pydiff-planetarium-assignment]: Downloading https://files.pythonhosted.org/packages/98/f6/cbe5b56211f3626514a783bef9f15a590c88111cc51e5532a59074120a17/pydiff-planetarium-assignment-0.0.1.tar.gz
+[2023-07-22 17:28:35] INFO root fetch - processPackages [foc]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-22 17:28:35] INFO root fetch - processPackages [hytato]: Downloading https://files.pythonhosted.org/packages/a8/4e/c92772aba5a12853415727efe6db7c47f60faef732c197b3e70e030f142b/hytato-0.2.tar.gz
+[2023-07-22 17:28:35] INFO root fetch - processPackages [openepd]: Downloading https://files.pythonhosted.org/packages/60/09/c19f7b6dc54a69f97af10f9c9900c90021bce060db770be30ceac7b863b1/openepd-1.0.0.tar.gz
+[2023-07-22 17:28:35] INFO root fetch - processPackages [ktrain]: Downloading https://files.pythonhosted.org/packages/73/d5/77df174a24b752d0c7bb5a140591e2c909781b0ab6d9d73451d484a6ede2/ktrain-0.9.4.tar.gz
+[2023-07-22 17:28:35] INFO root fetch - processPackages [maestral]: Downloading https://files.pythonhosted.org/packages/f1/b4/e257a6e069d23e7e6bf4f66b15c629828a2284107a8e18cba61e4654cf13/maestral-1.7.3.dev4.tar.gz
+[2023-07-22 17:28:35] INFO root fetch - processPackages [buckaroo]: Downloading https://files.pythonhosted.org/packages/e1/16/12924f574e42e37f33ce6ee5559c5d608fdecc7b5f40530a1c34be4b6507/buckaroo-0.3.6.tar.gz
+[2023-07-22 17:28:35] INFO root fetch - processPackages [PyEasySQL]: Downloading https://files.pythonhosted.org/packages/78/bd/ac2744e09b29c2085626cb91604b0c5e3a5fa2939d64da96a4fb96c454c7/PyEasySQL-3.0.2.tar.gz
+[2023-07-22 17:28:36] INFO root fetch - processPackages [custodian]: Downloading https://files.pythonhosted.org/packages/bd/a3/2ad70dad58d70c82d7f30a872a3b2d0a4cbde4f2602e3848afe27f679f43/custodian-2023.6.5.tar.gz
+[2023-07-22 17:28:36] INFO root fetch - processPackages [foc]: Downloading https://files.pythonhosted.org/packages/f7/a4/d1b38e20b7d84faca19a88e19ef7953d0b3db6ae877d149b13125585efde/foc-0.1.7.tar.gz
+[2023-07-22 17:28:36] INFO root fetch - processPackages [ktrain]: executing diffoscope
+[2023-07-22 17:28:36] INFO root fetch - processPackages [ktrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ktrain-0.9.3.tar.gz tmp/ktrain-0.9.4.tar.gz --markdown 20230722/k/ktrain/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-22 17:28:36] INFO root fetch - processPackages [pydiff-planetarium-assignment]: Downloading https://files.pythonhosted.org/packages/b0/c2/dfb8658c436e1aa7206ae6f1c540b1539a3836a39b065983a3ff97c8c2c1/pydiff-planetarium-assignment-0.0.2.tar.gz
+[2023-07-22 17:28:36] INFO root fetch - processPackages [hytato]: Downloading https://files.pythonhosted.org/packages/9f/9a/66682c2e8ab331cdd1e6c4cdc06defe0c6bafcb6f006b0a3172b89a578c4/hytato-0.3.tar.gz
+[2023-07-22 17:28:36] INFO root fetch - processPackages [openepd]: Downloading https://files.pythonhosted.org/packages/05/20/6e7398ae259fe2ffb32f0c076fc0c3ada582663d15b801cb42727b430bdd/openepd-2.0.0.tar.gz
+[2023-07-22 17:28:36] INFO root fetch - processPackages [PyEasySQL]: Downloading https://files.pythonhosted.org/packages/50/28/e039203c65edbdbcd7b8171e7f5632d3a49394b655b5956be28525c58889/PyEasySQL-3.0.3.tar.gz
+[2023-07-22 17:28:36] INFO root fetch - processPackages [hytato]: executing diffoscope
+[2023-07-22 17:28:36] INFO root fetch - processPackages [hytato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hytato-0.2.tar.gz tmp/hytato-0.3.tar.gz --markdown 20230722/h/hytato/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-22 17:28:36] INFO root fetch - processPackages [custodian]: Downloading https://files.pythonhosted.org/packages/0f/01/80586d8662bb4ce396df1c4e091fce0d5fe1de83d13f0b3ea6bb0f5ae768/custodian-2023.7.22.tar.gz
+[2023-07-22 17:28:36] INFO root fetch - processPackages [pydiff-planetarium-assignment]: executing diffoscope
+[2023-07-22 17:28:36] INFO root fetch - processPackages [pydiff-planetarium-assignment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydiff-planetarium-assignment-0.0.1.tar.gz tmp/pydiff-planetarium-assignment-0.0.2.tar.gz --markdown 20230722/p/pydiff-planetarium-assignment/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-22 17:28:36] INFO root fetch - processPackages [openepd]: executing diffoscope
+[2023-07-22 17:28:36] INFO root fetch - processPackages [openepd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openepd-1.0.0.tar.gz tmp/openepd-2.0.0.tar.gz --markdown 20230722/o/openepd/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-22 17:28:36] INFO root fetch - processPackages [buckaroo]: Downloading https://files.pythonhosted.org/packages/1e/72/bc3409f8b7f9594c4a69bdfac7d1c92d73452f89183fc76503639876ccc0/buckaroo-0.3.7.tar.gz
+[2023-07-22 17:28:36] INFO root fetch - processPackages [foc]: Downloading https://files.pythonhosted.org/packages/8d/e9/e4a4fd84ad5dc5107cd2fd9f2e8920fb8c84d5d59db1fbdc1f1da196e771/foc-0.1.8.tar.gz
+[2023-07-22 17:28:36] INFO root fetch - processPackages [PyEasySQL]: executing diffoscope
+[2023-07-22 17:28:36] INFO root fetch - processPackages [PyEasySQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyEasySQL-3.0.2.tar.gz tmp/PyEasySQL-3.0.3.tar.gz --markdown 20230722/P/PyEasySQL/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-07-22 17:28:36] INFO root fetch - processPackages [custodian]: executing diffoscope
+[2023-07-22 17:28:36] INFO root fetch - processPackages [custodian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custodian-2023.6.5.tar.gz tmp/custodian-2023.7.22.tar.gz --markdown 20230722/c/custodian/2023.6.5-2023.7.22/diff.md --exclude *.pyd
+[2023-07-22 17:28:36] INFO root fetch - processPackages [buckaroo]: executing diffoscope
+[2023-07-22 17:28:36] INFO root fetch - processPackages [buckaroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buckaroo-0.3.6.tar.gz tmp/buckaroo-0.3.7.tar.gz --markdown 20230722/b/buckaroo/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-22 17:28:36] INFO root fetch - processPackages [foc]: executing diffoscope
+[2023-07-22 17:28:36] INFO root fetch - processPackages [foc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foc-0.1.7.tar.gz tmp/foc-0.1.8.tar.gz --markdown 20230722/f/foc/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-22 17:28:36] INFO root fetch - processPackages [maestral]: Downloading https://files.pythonhosted.org/packages/82/f9/0e02b329a09bd3b25f9a5a84d781e0dd9e54499efbca53d3a9638e3b0bce/maestral-1.8.0.dev0.tar.gz
+[2023-07-22 17:28:37] INFO root fetch - processPackages [maestral]: executing diffoscope
+[2023-07-22 17:28:37] INFO root fetch - processPackages [maestral]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestral-1.7.3.dev4.tar.gz tmp/maestral-1.8.0.dev0.tar.gz --markdown 20230722/m/maestral/1.7.3.dev4-1.8.0.dev0/diff.md --exclude *.pyd
+[2023-07-22 17:28:37] INFO root fetch - processPackages [ktrain]: Remove: archive file [/home/abi/fetcher/tmp/ktrain-0.9.3.tar.gz]
+[2023-07-22 17:28:37] INFO root fetch - processPackages [ktrain]: Remove: archive file [/home/abi/fetcher/tmp/ktrain-0.9.4.tar.gz]
+[2023-07-22 17:28:37] INFO root fetch - main [MainThread]: End processing [ktrain]: success
+[2023-07-22 17:28:37] INFO root fetch - processPackages [hytato]: Remove: archive file [/home/abi/fetcher/tmp/hytato-0.2.tar.gz]
+[2023-07-22 17:28:37] INFO root fetch - processPackages [hytato]: Remove: archive file [/home/abi/fetcher/tmp/hytato-0.3.tar.gz]
+[2023-07-22 17:28:37] INFO root fetch - main [MainThread]: End processing [hytato]: success
+[2023-07-22 17:28:37] INFO root fetch - processPackages [pydiff-planetarium-assignment]: Remove: archive file [/home/abi/fetcher/tmp/pydiff-planetarium-assignment-0.0.1.tar.gz]
+[2023-07-22 17:28:37] INFO root fetch - processPackages [pydiff-planetarium-assignment]: Remove: archive file [/home/abi/fetcher/tmp/pydiff-planetarium-assignment-0.0.2.tar.gz]
+[2023-07-22 17:28:37] INFO root fetch - main [MainThread]: End processing [pydiff-planetarium-assignment]: success
+[2023-07-22 17:28:38] INFO root fetch - processPackages [PyEasySQL]: Remove: archive file [/home/abi/fetcher/tmp/PyEasySQL-3.0.2.tar.gz]
+[2023-07-22 17:28:38] INFO root fetch - processPackages [PyEasySQL]: Remove: archive file [/home/abi/fetcher/tmp/PyEasySQL-3.0.3.tar.gz]
+[2023-07-22 17:28:38] INFO root fetch - main [MainThread]: End processing [PyEasySQL]: success
+[2023-07-22 17:28:38] INFO root fetch - processPackages [foc]: Remove: archive file [/home/abi/fetcher/tmp/foc-0.1.7.tar.gz]
+[2023-07-22 17:28:38] INFO root fetch - processPackages [foc]: Remove: archive file [/home/abi/fetcher/tmp/foc-0.1.8.tar.gz]
+[2023-07-22 17:28:38] INFO root fetch - main [MainThread]: End processing [foc]: success
+[2023-07-22 17:28:38] INFO root fetch - processPackages [openepd]: Remove: archive file [/home/abi/fetcher/tmp/openepd-1.0.0.tar.gz]
+[2023-07-22 17:28:38] INFO root fetch - processPackages [openepd]: Remove: archive file [/home/abi/fetcher/tmp/openepd-2.0.0.tar.gz]
+[2023-07-22 17:28:38] INFO root fetch - main [MainThread]: End processing [openepd]: success
+[2023-07-22 17:28:38] INFO root fetch - processPackages [custodian]: Remove: archive file [/home/abi/fetcher/tmp/custodian-2023.6.5.tar.gz]
+[2023-07-22 17:28:38] INFO root fetch - processPackages [custodian]: Remove: archive file [/home/abi/fetcher/tmp/custodian-2023.7.22.tar.gz]
+[2023-07-22 17:28:38] INFO root fetch - main [MainThread]: End processing [custodian]: success
+[2023-07-22 17:28:38] INFO root fetch - processPackages [maestral]: Remove: archive file [/home/abi/fetcher/tmp/maestral-1.7.3.dev4.tar.gz]
+[2023-07-22 17:28:38] INFO root fetch - processPackages [maestral]: Remove: archive file [/home/abi/fetcher/tmp/maestral-1.8.0.dev0.tar.gz]
+[2023-07-22 17:28:38] INFO root fetch - main [MainThread]: End processing [maestral]: success
+[2023-07-22 17:28:39] INFO root fetch - processPackages [buckaroo]: Remove: archive file [/home/abi/fetcher/tmp/buckaroo-0.3.6.tar.gz]
+[2023-07-22 17:28:39] INFO root fetch - processPackages [buckaroo]: Remove: archive file [/home/abi/fetcher/tmp/buckaroo-0.3.7.tar.gz]
+[2023-07-22 17:28:39] INFO root fetch - main [MainThread]: End processing [buckaroo]: success
+[2023-07-22 17:28:39] INFO root fetch - main [MainThread]: Store serial: [18995753]
