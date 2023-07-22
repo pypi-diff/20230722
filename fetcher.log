@@ -10373,3 +10373,42 @@
 [2023-07-22 09:02:52] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
 [2023-07-22 09:02:52] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
 [2023-07-22 09:02:52] INFO root fetch - main [MainThread]: Store serial: [18993318]
+[2023-07-22 09:07:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993318]
+[2023-07-22 09:08:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-22 09:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transformers-js-py
+[2023-07-22 09:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-hub-nightly
+[2023-07-22 09:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talkytimes-package
+[2023-07-22 09:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Louie
+[2023-07-22 09:08:01] INFO root fetch - processPackages [transformers-js-py]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-22 09:08:01] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 09:08:01] INFO root fetch - processPackages [Louie]: New version: [2.0] Old Version: [1.1]
+[2023-07-22 09:08:01] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-22 09:08:01] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-22 09:08:01] INFO root fetch - processPackages [transformers-js-py]: Downloading https://files.pythonhosted.org/packages/81/62/c3f3d49f3d49b9bf13c357d0fe252c1980e1659b9bf098caaefcc6b28592/transformers_js_py-0.1.1.tar.gz
+[2023-07-22 09:08:01] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-22 09:08:01] INFO root fetch - processPackages [Louie]: Downloading https://files.pythonhosted.org/packages/be/c5/4bc02697ffd990fb4e4750c7ddf5694c247054c031366d5ffe65b67f46bc/Louie-1.1.tar.gz
+[2023-07-22 09:08:01] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-22 09:08:01] INFO root fetch - processPackages [transformers-js-py]: Downloading https://files.pythonhosted.org/packages/92/88/56048a8cabd150c021de24805a36c6383ff3fed15488dc77002fdafa3938/transformers_js_py-0.1.2.tar.gz
+[2023-07-22 09:08:01] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-22 09:08:01] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-22 09:08:01] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230722/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 09:08:01] INFO root fetch - processPackages [transformers-js-py]: executing diffoscope
+[2023-07-22 09:08:01] INFO root fetch - processPackages [transformers-js-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers_js_py-0.1.1.tar.gz tmp/transformers_js_py-0.1.2.tar.gz --markdown 20230722/t/transformers-js-py/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-22 09:08:01] INFO root fetch - processPackages [Louie]: Downloading https://files.pythonhosted.org/packages/f2/f8/f9dfd97003f1c120dca1ed4dc9e3e16b74b583ce5bcb2d9b013142b6bee2/Louie-2.0.tar.gz
+[2023-07-22 09:08:01] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-22 09:08:01] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230722/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-22 09:08:02] INFO root fetch - processPackages [Louie]: executing diffoscope
+[2023-07-22 09:08:02] INFO root fetch - processPackages [Louie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Louie-1.1.tar.gz tmp/Louie-2.0.tar.gz --markdown 20230722/L/Louie/1.1-2.0/diff.md --exclude *.pyd
+[2023-07-22 09:08:02] INFO root fetch - processPackages [transformers-js-py]: Remove: archive file [/home/abi/fetcher/tmp/transformers_js_py-0.1.1.tar.gz]
+[2023-07-22 09:08:02] INFO root fetch - processPackages [transformers-js-py]: Remove: archive file [/home/abi/fetcher/tmp/transformers_js_py-0.1.2.tar.gz]
+[2023-07-22 09:08:02] INFO root fetch - main [MainThread]: End processing [transformers-js-py]: success
+[2023-07-22 09:08:02] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-22 09:08:02] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-22 09:08:02] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-22 09:08:02] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-22 09:08:02] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-22 09:08:02] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-22 09:08:02] INFO root fetch - processPackages [Louie]: Remove: archive file [/home/abi/fetcher/tmp/Louie-1.1.tar.gz]
+[2023-07-22 09:08:02] INFO root fetch - processPackages [Louie]: Remove: archive file [/home/abi/fetcher/tmp/Louie-2.0.tar.gz]
+[2023-07-22 09:08:02] INFO root fetch - main [MainThread]: End processing [Louie]: success
+[2023-07-22 09:08:02] INFO root fetch - main [MainThread]: Store serial: [18993329]
