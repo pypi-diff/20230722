@@ -10812,3 +10812,39 @@
 [2023-07-22 09:44:41] INFO root fetch - processPackages [ai-functions]: Remove: archive file [/home/abi/fetcher/tmp/ai_functions-0.2.0.tar.gz]
 [2023-07-22 09:44:41] INFO root fetch - main [MainThread]: End processing [ai-functions]: success
 [2023-07-22 09:44:41] INFO root fetch - main [MainThread]: Store serial: [18993502]
+[2023-07-22 09:49:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993502]
+[2023-07-22 09:49:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 09:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: groundingdino-stk
+[2023-07-22 09:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sun-position-calculator
+[2023-07-22 09:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TransCompR
+[2023-07-22 09:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keras-nightly
+[2023-07-22 09:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: losscape
+[2023-07-22 09:49:51] INFO root fetch - processPackages [losscape]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-22 09:49:51] WARNING root fetch - processPackages [TransCompR]: Skipping, unable to determine old version
+[2023-07-22 09:49:51] INFO root fetch - main [MainThread]: End processing [TransCompR] error
+[2023-07-22 09:49:51] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-22 09:49:51] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/75/1b/aefe87e748e63dd2e2b42866a160c7eb8e54787b80ac87af2c1f608d0f62/losscape-1.4.1.tar.gz
+[2023-07-22 09:49:51] INFO root fetch - processPackages [groundingdino-stk]: New version: [1.0.0.2.0.118] Old Version: [1.0.0.2.0.117]
+[2023-07-22 09:49:51] WARNING root fetch - processPackages [sun-position-calculator]: Skipping, unable to determine old version
+[2023-07-22 09:49:51] INFO root fetch - main [MainThread]: End processing [sun-position-calculator] error
+[2023-07-22 09:49:51] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-22 09:49:51] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/f4/b0/60c757916ab495312d0dc12866e0ac05d36599b5b4596e8f3575ac0a530e/losscape-1.4.2.tar.gz
+[2023-07-22 09:49:51] INFO root fetch - processPackages [groundingdino-stk]: Downloading https://files.pythonhosted.org/packages/1a/43/db77e51414c1baf3c860f5871c714e2f89a32c521806412d0d5e79c68f47/groundingdino_stk-1.0.0.2.0.117-cp39-cp39-manylinux1_x86_64.whl
+[2023-07-22 09:49:51] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-22 09:49:51] INFO root fetch - processPackages [losscape]: executing diffoscope
+[2023-07-22 09:49:51] INFO root fetch - processPackages [losscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/losscape-1.4.1.tar.gz tmp/losscape-1.4.2.tar.gz --markdown 20230722/l/losscape/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-22 09:49:51] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-22 09:49:51] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230722/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-22 09:49:52] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.4.1.tar.gz]
+[2023-07-22 09:49:52] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.4.2.tar.gz]
+[2023-07-22 09:49:52] INFO root fetch - main [MainThread]: End processing [losscape]: success
+[2023-07-22 09:49:52] INFO root fetch - processPackages [groundingdino-stk]: Downloading https://files.pythonhosted.org/packages/29/c2/88e1361a43e3006bff212e6e70c85ebe355e456c72048a4c31ab2dbef00a/groundingdino_stk-1.0.0.2.0.118-cp39-cp39-manylinux1_x86_64.whl
+[2023-07-22 09:49:52] INFO root fetch - processPackages [groundingdino-stk]: executing diffoscope
+[2023-07-22 09:49:52] INFO root fetch - processPackages [groundingdino-stk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groundingdino_stk-1.0.0.2.0.117-cp39-cp39-manylinux1_x86_64.whl.zip tmp/groundingdino_stk-1.0.0.2.0.118-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230722/g/groundingdino-stk/1.0.0.2.0.117-1.0.0.2.0.118/diff.md --exclude *.pyd
+[2023-07-22 09:49:54] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-22 09:49:54] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-22 09:49:54] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-22 09:50:15] INFO root fetch - processPackages [groundingdino-stk]: Remove: archive file [/home/abi/fetcher/tmp/groundingdino_stk-1.0.0.2.0.117-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-07-22 09:50:15] INFO root fetch - processPackages [groundingdino-stk]: Remove: archive file [/home/abi/fetcher/tmp/groundingdino_stk-1.0.0.2.0.118-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-07-22 09:50:15] INFO root fetch - main [MainThread]: End processing [groundingdino-stk]: success
+[2023-07-22 09:50:15] INFO root fetch - main [MainThread]: Store serial: [18993525]
