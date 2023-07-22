@@ -12563,3 +12563,50 @@
 [2023-07-22 12:06:40] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-22 12:06:40] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-07-22 12:06:40] INFO root fetch - main [MainThread]: Store serial: [18994276]
+[2023-07-22 12:11:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994276]
+[2023-07-22 12:11:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 12:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thunno2
+[2023-07-22 12:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chatglm-cpp
+[2023-07-22 12:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: absbox
+[2023-07-22 12:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-splatoon3
+[2023-07-22 12:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ssh-terminal-manager
+[2023-07-22 12:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipo-india
+[2023-07-22 12:11:50] INFO root fetch - processPackages [thunno2]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-07-22 12:11:50] WARNING root fetch - processPackages [chatglm-cpp]: Skipping, unable to determine old version
+[2023-07-22 12:11:50] INFO root fetch - main [MainThread]: End processing [chatglm-cpp] error
+[2023-07-22 12:11:50] INFO root fetch - processPackages [ssh-terminal-manager]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-07-22 12:11:50] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-22 12:11:50] INFO root fetch - processPackages [thunno2]: Downloading https://files.pythonhosted.org/packages/80/db/5e66f7e599b78e9b23d92d8923ce1a9225e0d1aa30a14e0f7682001ef2e6/thunno2-2.2.3.tar.gz
+[2023-07-22 12:11:50] INFO root fetch - processPackages [absbox]: New version: [0.9.3] Old Version: [0.8.9]
+[2023-07-22 12:11:50] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: Downloading https://files.pythonhosted.org/packages/1f/65/e5383f7d41f92b4b542c531b3a5cd5e5d42a6f217b9ae6db2f7e6e8b272d/nonebot_plugin_splatoon3-1.1.8.tar.gz
+[2023-07-22 12:11:50] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/17/99/007dcc063b1cff03e6ad83e99f8ecaace8aca51efeb562f613b89dd6169c/ssh_terminal_manager-0.8.4.tar.gz
+[2023-07-22 12:11:50] INFO root fetch - processPackages [ipo-india]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 12:11:50] WARNING root fetch - processPackages [nonebot-plugin-splatoon3]: Skipping package: exceeds size limit 49044951>=10485760
+[2023-07-22 12:11:50] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-splatoon3] error
+[2023-07-22 12:11:50] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/f2/f5/d913079148fbe1aebd6fc56849f3245eda346886eb6d2488747d9a978493/AbsBox-0.8.9.tar.gz
+[2023-07-22 12:11:50] INFO root fetch - processPackages [ipo-india]: Downloading https://files.pythonhosted.org/packages/8f/6b/041568162d7b83af73f0d51cdaf81d155de8f6a77390e0fbf6f3a1f737bf/ipo_india-0.0.8.tar.gz
+[2023-07-22 12:11:50] INFO root fetch - processPackages [thunno2]: Downloading https://files.pythonhosted.org/packages/7e/6a/79e11d048a130630c8ebabaa8537aec1d65312fab8d8410d66b92907a207/thunno2-2.2.4.tar.gz
+[2023-07-22 12:11:50] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/08/82/ebed2f0d9ea4bd70db3ffe22d92d4e88b55d0df53be3efa77bd1c84c920c/ssh_terminal_manager-0.8.5.tar.gz
+[2023-07-22 12:11:50] INFO root fetch - processPackages [ssh-terminal-manager]: executing diffoscope
+[2023-07-22 12:11:50] INFO root fetch - processPackages [ssh-terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_terminal_manager-0.8.4.tar.gz tmp/ssh_terminal_manager-0.8.5.tar.gz --markdown 20230722/s/ssh-terminal-manager/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-07-22 12:11:50] INFO root fetch - processPackages [thunno2]: executing diffoscope
+[2023-07-22 12:11:50] INFO root fetch - processPackages [thunno2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thunno2-2.2.3.tar.gz tmp/thunno2-2.2.4.tar.gz --markdown 20230722/t/thunno2/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-07-22 12:11:50] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/63/df/8bc5a95a40d1cc98f7aa27a8baf79a5df19fa8dc2f6836ff02171d21c08a/AbsBox-0.9.3.tar.gz
+[2023-07-22 12:11:50] INFO root fetch - processPackages [ipo-india]: Downloading https://files.pythonhosted.org/packages/98/a0/579ee7b907a9facb6deee97a613a7638ef0b47f5d0d824eadd0f17a2d6ef/ipo_india-0.0.9.tar.gz
+[2023-07-22 12:11:51] INFO root fetch - processPackages [absbox]: executing diffoscope
+[2023-07-22 12:11:51] INFO root fetch - processPackages [absbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AbsBox-0.8.9.tar.gz tmp/AbsBox-0.9.3.tar.gz --markdown 20230722/a/absbox/0.8.9-0.9.3/diff.md --exclude *.pyd
+[2023-07-22 12:11:51] INFO root fetch - processPackages [ipo-india]: executing diffoscope
+[2023-07-22 12:11:51] INFO root fetch - processPackages [ipo-india]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipo_india-0.0.8.tar.gz tmp/ipo_india-0.0.9.tar.gz --markdown 20230722/i/ipo-india/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 12:11:51] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.8.4.tar.gz]
+[2023-07-22 12:11:51] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.8.5.tar.gz]
+[2023-07-22 12:11:51] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager]: success
+[2023-07-22 12:11:51] INFO root fetch - processPackages [thunno2]: Remove: archive file [/home/abi/fetcher/tmp/thunno2-2.2.3.tar.gz]
+[2023-07-22 12:11:51] INFO root fetch - processPackages [thunno2]: Remove: archive file [/home/abi/fetcher/tmp/thunno2-2.2.4.tar.gz]
+[2023-07-22 12:11:51] INFO root fetch - main [MainThread]: End processing [thunno2]: success
+[2023-07-22 12:11:51] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.8.9.tar.gz]
+[2023-07-22 12:11:51] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.9.3.tar.gz]
+[2023-07-22 12:11:51] INFO root fetch - main [MainThread]: End processing [absbox]: success
+[2023-07-22 12:11:51] INFO root fetch - processPackages [ipo-india]: Remove: archive file [/home/abi/fetcher/tmp/ipo_india-0.0.8.tar.gz]
+[2023-07-22 12:11:51] INFO root fetch - processPackages [ipo-india]: Remove: archive file [/home/abi/fetcher/tmp/ipo_india-0.0.9.tar.gz]
+[2023-07-22 12:11:51] INFO root fetch - main [MainThread]: End processing [ipo-india]: success
+[2023-07-22 12:11:51] INFO root fetch - main [MainThread]: Store serial: [18994293]
