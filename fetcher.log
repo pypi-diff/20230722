@@ -19710,3 +19710,70 @@ EOFError: EOF read where object expected
 [2023-07-22 22:44:08] INFO root fetch - processPackages [platypush]: Remove: archive file [/home/abi/fetcher/tmp/platypush-0.9.6.tar.gz]
 [2023-07-22 22:44:08] INFO root fetch - main [MainThread]: End processing [platypush]: success
 [2023-07-22 22:44:08] INFO root fetch - main [MainThread]: Store serial: [18997395]
+[2023-07-22 22:49:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18997395]
+[2023-07-22 22:49:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-22 22:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alfred-workflow-packager
+[2023-07-22 22:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prism-ds
+[2023-07-22 22:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iitkgp-erp-login
+[2023-07-22 22:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: file-uploader
+[2023-07-22 22:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: demogpt
+[2023-07-22 22:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tendril-filestore
+[2023-07-22 22:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irene-pro
+[2023-07-22 22:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alfred-workflow-packager
+[2023-07-22 22:49:17] INFO root fetch - processPackages [irene-pro]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 22:49:17] WARNING root fetch - processPackages [file-uploader]: Skipping, unable to determine old version
+[2023-07-22 22:49:17] INFO root fetch - main [MainThread]: End processing [file-uploader] error
+[2023-07-22 22:49:17] INFO root fetch - processPackages [demogpt]: New version: [1.1.1.6] Old Version: [1.1.1.5]
+[2023-07-22 22:49:17] INFO root fetch - processPackages [prism-ds]: New version: [0.2.0rc2] Old Version: [0.2.0rc1]
+[2023-07-22 22:49:17] INFO root fetch - processPackages [alfred-workflow-packager]: New version: [3.0.0b9] Old Version: [3.0.0b8]
+[2023-07-22 22:49:17] INFO root fetch - processPackages [iitkgp-erp-login]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-22 22:49:17] INFO root fetch - processPackages [tendril-filestore]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-22 22:49:17] INFO root fetch - processPackages [alfred-workflow-packager]: New version: [3.0.0b9] Old Version: [3.0.0b8]
+[2023-07-22 22:49:18] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/46/8e/6e730d1043dbdc8f6c7827c01bb663f8fb6221931b2e45076f60fdc18f79/irene_pro-0.1.8.tar.gz
+[2023-07-22 22:49:18] INFO root fetch - processPackages [demogpt]: Downloading https://files.pythonhosted.org/packages/cf/8f/22f45b0156cc697afa71123ebe52d6cd8081e89ddddc0953871c85a5d562/demogpt-1.1.1.5.tar.gz
+[2023-07-22 22:49:18] INFO root fetch - processPackages [tendril-filestore]: Downloading https://files.pythonhosted.org/packages/ff/96/4aad9c3007b27a6e75538624bc0864be73be018aab0bc08e2fae5027d615/tendril-filestore-0.2.8.tar.gz
+[2023-07-22 22:49:18] INFO root fetch - processPackages [prism-ds]: Downloading https://files.pythonhosted.org/packages/3c/f1/e1d580b91baac6e9b8dd72f553836672b71d04e9dc35e7f0d2c0c32d303d/prism-ds-0.2.0rc1.tar.gz
+[2023-07-22 22:49:18] INFO root fetch - processPackages [alfred-workflow-packager]: Downloading https://files.pythonhosted.org/packages/e6/c2/fd3d21993f10d1cbf7453c8a65e7e75f2ecd1bc8ffe59f7e7ec829b930c8/alfred-workflow-packager-3.0.0b8.tar.gz
+[2023-07-22 22:49:18] INFO root fetch - processPackages [alfred-workflow-packager]: Downloading https://files.pythonhosted.org/packages/e6/c2/fd3d21993f10d1cbf7453c8a65e7e75f2ecd1bc8ffe59f7e7ec829b930c8/alfred-workflow-packager-3.0.0b8.tar.gz
+[2023-07-22 22:49:18] INFO root fetch - processPackages [iitkgp-erp-login]: Downloading https://files.pythonhosted.org/packages/b0/05/913d773a3af40819bbe4a464638034bc788edea89457278aba33d4270ae8/iitkgp_erp_login-2.1.1.tar.gz
+[2023-07-22 22:49:18] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/f8/06/483ee1c1417771faaa0b5e6987ea6181d55523b74640d4bac8c5fe47cd49/irene_pro-0.1.9.tar.gz
+[2023-07-22 22:49:18] INFO root fetch - processPackages [tendril-filestore]: Downloading https://files.pythonhosted.org/packages/d9/1e/d54f6db51c670a79d285b3c3d863de03484e3747b5637814806029bf69b5/tendril-filestore-0.2.9.tar.gz
+[2023-07-22 22:49:18] INFO root fetch - processPackages [demogpt]: Downloading https://files.pythonhosted.org/packages/51/88/c94ae31deda41e1e36dd0172cfc24d1abc66135162f6d3cc654357964b89/demogpt-1.1.1.6.tar.gz
+[2023-07-22 22:49:18] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-22 22:49:18] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.1.8.tar.gz tmp/irene_pro-0.1.9.tar.gz --markdown 20230722/i/irene-pro/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 22:49:18] INFO root fetch - processPackages [iitkgp-erp-login]: Downloading https://files.pythonhosted.org/packages/a5/93/5fdeff2641743ed9441603273704f5833702f41b9e4c3ee02657a6c60c3c/iitkgp_erp_login-2.1.2.tar.gz
+[2023-07-22 22:49:18] INFO root fetch - processPackages [tendril-filestore]: executing diffoscope
+[2023-07-22 22:49:18] INFO root fetch - processPackages [tendril-filestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-filestore-0.2.8.tar.gz tmp/tendril-filestore-0.2.9.tar.gz --markdown 20230722/t/tendril-filestore/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-22 22:49:18] INFO root fetch - processPackages [alfred-workflow-packager]: Downloading https://files.pythonhosted.org/packages/c3/6f/fbfbfaf845df01121cc39cc173a6ff08a7b2c5c44cc53278896f55298798/alfred-workflow-packager-3.0.0b9.tar.gz
+[2023-07-22 22:49:18] INFO root fetch - processPackages [alfred-workflow-packager]: Downloading https://files.pythonhosted.org/packages/c3/6f/fbfbfaf845df01121cc39cc173a6ff08a7b2c5c44cc53278896f55298798/alfred-workflow-packager-3.0.0b9.tar.gz
+[2023-07-22 22:49:18] INFO root fetch - processPackages [iitkgp-erp-login]: executing diffoscope
+[2023-07-22 22:49:18] INFO root fetch - processPackages [iitkgp-erp-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iitkgp_erp_login-2.1.1.tar.gz tmp/iitkgp_erp_login-2.1.2.tar.gz --markdown 20230722/i/iitkgp-erp-login/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-22 22:49:18] INFO root fetch - processPackages [demogpt]: executing diffoscope
+[2023-07-22 22:49:18] INFO root fetch - processPackages [demogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demogpt-1.1.1.5.tar.gz tmp/demogpt-1.1.1.6.tar.gz --markdown 20230722/d/demogpt/1.1.1.5-1.1.1.6/diff.md --exclude *.pyd
+[2023-07-22 22:49:18] INFO root fetch - processPackages [alfred-workflow-packager]: executing diffoscope
+[2023-07-22 22:49:18] INFO root fetch - processPackages [alfred-workflow-packager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alfred-workflow-packager-3.0.0b8.tar.gz tmp/alfred-workflow-packager-3.0.0b9.tar.gz --markdown 20230722/a/alfred-workflow-packager/3.0.0b8-3.0.0b9/diff.md --exclude *.pyd
+[2023-07-22 22:49:18] INFO root fetch - processPackages [prism-ds]: Downloading https://files.pythonhosted.org/packages/a2/83/7164053752b334fc635f407d66154b469cfe6737499e7d30ad7e509e813e/prism-ds-0.2.0rc2.tar.gz
+[2023-07-22 22:49:19] INFO root fetch - processPackages [alfred-workflow-packager]: executing diffoscope
+[2023-07-22 22:49:19] INFO root fetch - processPackages [alfred-workflow-packager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alfred-workflow-packager-3.0.0b8.tar.gz tmp/alfred-workflow-packager-3.0.0b9.tar.gz --markdown 20230722/a/alfred-workflow-packager/3.0.0b8-3.0.0b9/diff.md --exclude *.pyd
+[2023-07-22 22:49:19] INFO root fetch - processPackages [prism-ds]: executing diffoscope
+[2023-07-22 22:49:19] INFO root fetch - processPackages [prism-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prism-ds-0.2.0rc1.tar.gz tmp/prism-ds-0.2.0rc2.tar.gz --markdown 20230722/p/prism-ds/0.2.0rc1-0.2.0rc2/diff.md --exclude *.pyd
+[2023-07-22 22:49:19] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.8.tar.gz]
+[2023-07-22 22:49:19] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.9.tar.gz]
+[2023-07-22 22:49:19] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-22 22:49:19] INFO root fetch - processPackages [tendril-filestore]: Remove: archive file [/home/abi/fetcher/tmp/tendril-filestore-0.2.8.tar.gz]
+[2023-07-22 22:49:19] INFO root fetch - processPackages [tendril-filestore]: Remove: archive file [/home/abi/fetcher/tmp/tendril-filestore-0.2.9.tar.gz]
+[2023-07-22 22:49:19] INFO root fetch - main [MainThread]: End processing [tendril-filestore]: success
+[2023-07-22 22:49:19] INFO root fetch - processPackages [iitkgp-erp-login]: Remove: archive file [/home/abi/fetcher/tmp/iitkgp_erp_login-2.1.1.tar.gz]
+[2023-07-22 22:49:19] INFO root fetch - processPackages [iitkgp-erp-login]: Remove: archive file [/home/abi/fetcher/tmp/iitkgp_erp_login-2.1.2.tar.gz]
+[2023-07-22 22:49:19] INFO root fetch - main [MainThread]: End processing [iitkgp-erp-login]: success
+[2023-07-22 22:49:20] INFO root fetch - processPackages [demogpt]: Remove: archive file [/home/abi/fetcher/tmp/demogpt-1.1.1.5.tar.gz]
+[2023-07-22 22:49:20] INFO root fetch - processPackages [demogpt]: Remove: archive file [/home/abi/fetcher/tmp/demogpt-1.1.1.6.tar.gz]
+[2023-07-22 22:49:20] INFO root fetch - main [MainThread]: End processing [demogpt]: success
+[2023-07-22 22:49:20] INFO root fetch - processPackages [alfred-workflow-packager]: Remove: archive file [/home/abi/fetcher/tmp/alfred-workflow-packager-3.0.0b8.tar.gz]
+[2023-07-22 22:49:20] INFO root fetch - processPackages [alfred-workflow-packager]: Remove: archive file [/home/abi/fetcher/tmp/alfred-workflow-packager-3.0.0b9.tar.gz]
+[2023-07-22 22:49:20] INFO root fetch - main [MainThread]: End processing [alfred-workflow-packager]: success
+[2023-07-22 22:49:20] INFO root fetch - main [MainThread]: End processing [alfred-workflow-packager]: success
+[2023-07-22 22:49:21] INFO root fetch - processPackages [prism-ds]: Remove: archive file [/home/abi/fetcher/tmp/prism-ds-0.2.0rc1.tar.gz]
+[2023-07-22 22:49:21] INFO root fetch - processPackages [prism-ds]: Remove: archive file [/home/abi/fetcher/tmp/prism-ds-0.2.0rc2.tar.gz]
+[2023-07-22 22:49:21] INFO root fetch - main [MainThread]: End processing [prism-ds]: success
+[2023-07-22 22:49:21] INFO root fetch - main [MainThread]: Store serial: [18997418]
