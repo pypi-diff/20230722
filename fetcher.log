@@ -7615,3 +7615,32 @@
 [2023-07-22 04:22:01] INFO root fetch - processPackages [openram]: Remove: archive file [/home/abi/fetcher/tmp/openram-1.2.9.tar.gz]
 [2023-07-22 04:22:01] INFO root fetch - main [MainThread]: End processing [openram]: success
 [2023-07-22 04:22:01] INFO root fetch - main [MainThread]: Store serial: [18992203]
+[2023-07-22 04:27:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992203]
+[2023-07-22 04:27:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-22 04:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cashare
+[2023-07-22 04:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toRST
+[2023-07-22 04:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WaterScenes
+[2023-07-22 04:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: core-universal
+[2023-07-22 04:27:09] INFO root fetch - processPackages [toRST]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-22 04:27:09] INFO root fetch - processPackages [core-universal]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-22 04:27:09] INFO root fetch - processPackages [toRST]: Downloading https://files.pythonhosted.org/packages/2a/a4/b88d6f659c4356c7fb51d256933cb0b5f03051bf25865f03ceb887ff7526/toRST-0.0.7.tar.gz
+[2023-07-22 04:27:09] INFO root fetch - processPackages [cashare]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-22 04:27:09] INFO root fetch - processPackages [core-universal]: Downloading https://files.pythonhosted.org/packages/1e/7f/1b580dad7005f3e0a7ae1d5f43e65fbb0b6424285d2305bbaf0eb7bf9a2e/core_universal-3.6.2-py2.py3-none-win_amd64.whl
+[2023-07-22 04:27:09] WARNING root fetch - processPackages [WaterScenes]: Skipping, unable to determine old version
+[2023-07-22 04:27:09] INFO root fetch - main [MainThread]: End processing [WaterScenes] error
+[2023-07-22 04:27:09] WARNING root fetch - processPackages [core-universal]: Skipping package: exceeds size limit 24918514>=10485760
+[2023-07-22 04:27:09] INFO root fetch - main [MainThread]: End processing [core-universal] error
+[2023-07-22 04:27:10] INFO root fetch - processPackages [toRST]: Downloading https://files.pythonhosted.org/packages/92/7b/54adba7b52b95e2fa647ae8638b4c7f8b0c099becd71a60fa292889e6ea8/toRST-0.0.8.tar.gz
+[2023-07-22 04:27:10] INFO root fetch - processPackages [cashare]: Downloading https://files.pythonhosted.org/packages/a6/6f/0a58d9d4c1040bc9de3f106e827001522cb197cc7f8f2908f6c35a8554c6/cashare-0.0.5.tar.gz
+[2023-07-22 04:27:10] INFO root fetch - processPackages [toRST]: executing diffoscope
+[2023-07-22 04:27:10] INFO root fetch - processPackages [toRST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toRST-0.0.7.tar.gz tmp/toRST-0.0.8.tar.gz --markdown 20230722/t/toRST/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-22 04:27:10] INFO root fetch - processPackages [cashare]: Downloading https://files.pythonhosted.org/packages/ea/fb/a1c32e113b0bc9a36aab49f9455da9f3e691cd9d3a8901fa9dfba081e0e1/cashare-0.0.6.tar.gz
+[2023-07-22 04:27:10] INFO root fetch - processPackages [cashare]: executing diffoscope
+[2023-07-22 04:27:10] INFO root fetch - processPackages [cashare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashare-0.0.5.tar.gz tmp/cashare-0.0.6.tar.gz --markdown 20230722/c/cashare/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-22 04:27:11] INFO root fetch - processPackages [toRST]: Remove: archive file [/home/abi/fetcher/tmp/toRST-0.0.7.tar.gz]
+[2023-07-22 04:27:11] INFO root fetch - processPackages [toRST]: Remove: archive file [/home/abi/fetcher/tmp/toRST-0.0.8.tar.gz]
+[2023-07-22 04:27:11] INFO root fetch - main [MainThread]: End processing [toRST]: success
+[2023-07-22 04:27:11] INFO root fetch - processPackages [cashare]: Remove: archive file [/home/abi/fetcher/tmp/cashare-0.0.5.tar.gz]
+[2023-07-22 04:27:11] INFO root fetch - processPackages [cashare]: Remove: archive file [/home/abi/fetcher/tmp/cashare-0.0.6.tar.gz]
+[2023-07-22 04:27:11] INFO root fetch - main [MainThread]: End processing [cashare]: success
+[2023-07-22 04:27:11] INFO root fetch - main [MainThread]: Store serial: [18992219]
