@@ -7712,3 +7712,63 @@
 [2023-07-22 04:32:25] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230721.tar.gz]
 [2023-07-22 04:32:25] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-07-22 04:32:25] INFO root fetch - main [MainThread]: Store serial: [18992249]
+[2023-07-22 04:37:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992249]
+[2023-07-22 04:37:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 04:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fiftyone-devicedetection-cloud
+[2023-07-22 04:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fiftyone-devicedetection-onpremise
+[2023-07-22 04:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fiftyone-devicedetection-shared
+[2023-07-22 04:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fiftyone-devicedetection
+[2023-07-22 04:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sightvision
+[2023-07-22 04:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo11-addon-account-loan
+[2023-07-22 04:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: params-proto
+[2023-07-22 04:37:39] WARNING root fetch - processPackages [sightvision]: Skipping, unable to determine old version
+[2023-07-22 04:37:39] INFO root fetch - main [MainThread]: End processing [sightvision] error
+[2023-07-22 04:37:39] INFO root fetch - processPackages [params-proto]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-07-22 04:37:39] INFO root fetch - processPackages [odoo11-addon-account-loan]: New version: [11.0.1.2.0.99.dev7] Old Version: [11.0.1.2.0.99.dev6]
+[2023-07-22 04:37:39] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-07-22 04:37:39] INFO root fetch - processPackages [fiftyone-devicedetection]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-07-22 04:37:39] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-07-22 04:37:39] INFO root fetch - processPackages [params-proto]: Downloading https://files.pythonhosted.org/packages/0a/20/7ffbcebdd86abce1864462ec4fcf39151f39d0f8e059210862e1f42b0ee3/params_proto-2.9.6-py3-none-any.whl
+[2023-07-22 04:37:39] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-07-22 04:37:39] INFO root fetch - processPackages [odoo11-addon-account-loan]: Downloading https://files.pythonhosted.org/packages/8b/29/341f3d0121e34969bcad6598692c551071c3754f10a248f136579c6afa34/odoo11_addon_account_loan-11.0.1.2.0.99.dev6-py2.py3-none-any.whl
+[2023-07-22 04:37:39] INFO root fetch - processPackages [fiftyone-devicedetection]: Downloading https://files.pythonhosted.org/packages/78/9e/d445e0c4a0f6957a3f64eef83882b50ecf7254cd1dcfb1dd6194ac1a245c/fiftyone_devicedetection-4.4.8.tar.gz
+[2023-07-22 04:37:39] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: Downloading https://files.pythonhosted.org/packages/3c/da/2412fa4de307b569d190795bb28dec9ae811596b99043386eca33940be28/fiftyone_devicedetection_shared-4.4.8.tar.gz
+[2023-07-22 04:37:39] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: Downloading https://files.pythonhosted.org/packages/c2/05/001e319d2cfe159004ac1852e1838a815389b3339b57bf9be3291ee4e472/fiftyone_devicedetection_cloud-4.4.8.tar.gz
+[2023-07-22 04:37:39] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: Downloading https://files.pythonhosted.org/packages/b1/df/28d4ba95bd392c536fe961d8dce1e994f87aa3d48a01e55e9515d0842db3/fiftyone_devicedetection_onpremise-4.4.8.tar.gz
+[2023-07-22 04:37:39] INFO root fetch - processPackages [odoo11-addon-account-loan]: Downloading https://files.pythonhosted.org/packages/ab/a8/2d953ab342d5b071e51d463ef744e2dc9e49168ef5fdcf17f99cc9195423/odoo11_addon_account_loan-11.0.1.2.0.99.dev7-py2.py3-none-any.whl
+[2023-07-22 04:37:39] INFO root fetch - processPackages [params-proto]: Downloading https://files.pythonhosted.org/packages/d8/3c/4d8cc65883f3aae60d9d73972b9e344a55ce4c97d4130dd3848b106578ae/params_proto-2.9.7-py3-none-any.whl
+[2023-07-22 04:37:39] INFO root fetch - processPackages [odoo11-addon-account-loan]: executing diffoscope
+[2023-07-22 04:37:39] INFO root fetch - processPackages [odoo11-addon-account-loan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_account_loan-11.0.1.2.0.99.dev6-py2.py3-none-any.whl.zip tmp/odoo11_addon_account_loan-11.0.1.2.0.99.dev7-py2.py3-none-any.whl.zip --markdown 20230722/o/odoo11-addon-account-loan/11.0.1.2.0.99.dev6-11.0.1.2.0.99.dev7/diff.md --exclude *.pyd
+[2023-07-22 04:37:40] INFO root fetch - processPackages [fiftyone-devicedetection]: Downloading https://files.pythonhosted.org/packages/83/fc/34fd863cd6fbd72392513d7f5dac042f4229299394794a87719f20e1c2f7/fiftyone_devicedetection-4.4.9.tar.gz
+[2023-07-22 04:37:40] INFO root fetch - processPackages [params-proto]: executing diffoscope
+[2023-07-22 04:37:40] INFO root fetch - processPackages [params-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/params_proto-2.9.6-py3-none-any.whl.zip tmp/params_proto-2.9.7-py3-none-any.whl.zip --markdown 20230722/p/params-proto/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-07-22 04:37:40] INFO root fetch - processPackages [fiftyone-devicedetection]: executing diffoscope
+[2023-07-22 04:37:40] INFO root fetch - processPackages [fiftyone-devicedetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_devicedetection-4.4.8.tar.gz tmp/fiftyone_devicedetection-4.4.9.tar.gz --markdown 20230722/f/fiftyone-devicedetection/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-07-22 04:37:40] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: Downloading https://files.pythonhosted.org/packages/30/d5/2b4fa4cec92069e5925b2a0b23f3fd4dca0a3a23d10ee35da5d371f9980a/fiftyone_devicedetection_onpremise-4.4.9.tar.gz
+[2023-07-22 04:37:40] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: Downloading https://files.pythonhosted.org/packages/4d/c9/c5ac416a606f9b136ac2929cef7206ef6e3af77c68ec3a349cacfdc42494/fiftyone_devicedetection_cloud-4.4.9.tar.gz
+[2023-07-22 04:37:40] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: Downloading https://files.pythonhosted.org/packages/99/d4/d653c3be1089c3f8160a18a795f0c4962b77d69706332ebefdcb0e829cd5/fiftyone_devicedetection_shared-4.4.9.tar.gz
+[2023-07-22 04:37:40] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: executing diffoscope
+[2023-07-22 04:37:40] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_devicedetection_onpremise-4.4.8.tar.gz tmp/fiftyone_devicedetection_onpremise-4.4.9.tar.gz --markdown 20230722/f/fiftyone-devicedetection-onpremise/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-07-22 04:37:40] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: executing diffoscope
+[2023-07-22 04:37:40] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_devicedetection_cloud-4.4.8.tar.gz tmp/fiftyone_devicedetection_cloud-4.4.9.tar.gz --markdown 20230722/f/fiftyone-devicedetection-cloud/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-07-22 04:37:40] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: executing diffoscope
+[2023-07-22 04:37:40] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_devicedetection_shared-4.4.8.tar.gz tmp/fiftyone_devicedetection_shared-4.4.9.tar.gz --markdown 20230722/f/fiftyone-devicedetection-shared/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-07-22 04:37:41] INFO root fetch - processPackages [fiftyone-devicedetection]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection-4.4.8.tar.gz]
+[2023-07-22 04:37:41] INFO root fetch - processPackages [fiftyone-devicedetection]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection-4.4.9.tar.gz]
+[2023-07-22 04:37:41] INFO root fetch - main [MainThread]: End processing [fiftyone-devicedetection]: success
+[2023-07-22 04:37:41] INFO root fetch - processPackages [params-proto]: Remove: archive file [/home/abi/fetcher/tmp/params_proto-2.9.6-py3-none-any.whl.zip]
+[2023-07-22 04:37:41] INFO root fetch - processPackages [params-proto]: Remove: archive file [/home/abi/fetcher/tmp/params_proto-2.9.7-py3-none-any.whl.zip]
+[2023-07-22 04:37:41] INFO root fetch - main [MainThread]: End processing [params-proto]: success
+[2023-07-22 04:37:41] INFO root fetch - processPackages [odoo11-addon-account-loan]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_account_loan-11.0.1.2.0.99.dev6-py2.py3-none-any.whl.zip]
+[2023-07-22 04:37:41] INFO root fetch - processPackages [odoo11-addon-account-loan]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_account_loan-11.0.1.2.0.99.dev7-py2.py3-none-any.whl.zip]
+[2023-07-22 04:37:41] INFO root fetch - main [MainThread]: End processing [odoo11-addon-account-loan]: success
+[2023-07-22 04:37:41] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_cloud-4.4.8.tar.gz]
+[2023-07-22 04:37:41] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_cloud-4.4.9.tar.gz]
+[2023-07-22 04:37:41] INFO root fetch - main [MainThread]: End processing [fiftyone-devicedetection-cloud]: success
+[2023-07-22 04:37:41] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_shared-4.4.8.tar.gz]
+[2023-07-22 04:37:41] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_shared-4.4.9.tar.gz]
+[2023-07-22 04:37:41] INFO root fetch - main [MainThread]: End processing [fiftyone-devicedetection-shared]: success
+[2023-07-22 04:37:42] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_onpremise-4.4.8.tar.gz]
+[2023-07-22 04:37:42] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_onpremise-4.4.9.tar.gz]
+[2023-07-22 04:37:42] INFO root fetch - main [MainThread]: End processing [fiftyone-devicedetection-onpremise]: success
+[2023-07-22 04:37:42] INFO root fetch - main [MainThread]: Store serial: [18992264]
