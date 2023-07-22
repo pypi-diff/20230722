@@ -14433,3 +14433,32 @@
 [2023-07-22 15:28:39] INFO root fetch - processPackages [xlogit]: Remove: archive file [/home/abi/fetcher/tmp/xlogit-0.2.6.tar.gz]
 [2023-07-22 15:28:39] INFO root fetch - main [MainThread]: End processing [xlogit]: success
 [2023-07-22 15:28:39] INFO root fetch - main [MainThread]: Store serial: [18995099]
+[2023-07-22 15:33:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995099]
+[2023-07-22 15:33:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-22 15:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jsonlogic-rs
+[2023-07-22 15:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OneOnOne
+[2023-07-22 15:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drgpy
+[2023-07-22 15:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unstac
+[2023-07-22 15:33:48] WARNING root fetch - processPackages [unstac]: Skipping, unable to determine old version
+[2023-07-22 15:33:48] INFO root fetch - main [MainThread]: End processing [unstac] error
+[2023-07-22 15:33:48] INFO root fetch - processPackages [OneOnOne]: New version: [0.6925] Old Version: [0.6924]
+[2023-07-22 15:33:48] INFO root fetch - processPackages [jsonlogic-rs]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-22 15:33:48] INFO root fetch - processPackages [drgpy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 15:33:48] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/b0/a7/eb970c1ba329986990d7d2bdfa89f24267efc216aedf6664ed96e7b9b1fe/OneOnOne-0.6924.tar.gz
+[2023-07-22 15:33:48] INFO root fetch - processPackages [jsonlogic-rs]: Downloading https://files.pythonhosted.org/packages/4c/84/2db9170e4cdb9ef029a6acf21cdf7d751ccd252d463772ffaf2a3051a29a/jsonlogic-rs-0.2.3.tar.gz
+[2023-07-22 15:33:48] INFO root fetch - processPackages [jsonlogic-rs]: Downloading https://files.pythonhosted.org/packages/0c/3b/7ddfe7b95558dca17bccdfb5ba96bc8298247e0ce61123734c6fa0644392/jsonlogic-rs-0.3.0.tar.gz
+[2023-07-22 15:33:48] INFO root fetch - processPackages [drgpy]: Downloading https://files.pythonhosted.org/packages/2f/40/7af8cf35bc3c3af863eacc24fbb88a2dadb8eb84c13b8723948bfbe545b1/drgpy-0.0.3.tar.gz
+[2023-07-22 15:33:48] INFO root fetch - processPackages [jsonlogic-rs]: executing diffoscope
+[2023-07-22 15:33:48] INFO root fetch - processPackages [jsonlogic-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonlogic-rs-0.2.3.tar.gz tmp/jsonlogic-rs-0.3.0.tar.gz --markdown 20230722/j/jsonlogic-rs/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-22 15:33:48] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/da/8f/d441fc352abdf98a59ecd0f5454fe3da3a3787fe867c544453a747879e13/OneOnOne-0.6925.tar.gz
+[2023-07-22 15:33:49] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 15:33:49] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6924.tar.gz tmp/OneOnOne-0.6925.tar.gz --markdown 20230722/O/OneOnOne/0.6924-0.6925/diff.md --exclude *.pyd
+[2023-07-22 15:33:49] WARNING root fetch - processPackages [drgpy]: Skipping package: exceeds size limit 20534450>=10485760
+[2023-07-22 15:33:49] INFO root fetch - main [MainThread]: End processing [drgpy] error
+[2023-07-22 15:33:49] INFO root fetch - processPackages [jsonlogic-rs]: Remove: archive file [/home/abi/fetcher/tmp/jsonlogic-rs-0.2.3.tar.gz]
+[2023-07-22 15:33:49] INFO root fetch - processPackages [jsonlogic-rs]: Remove: archive file [/home/abi/fetcher/tmp/jsonlogic-rs-0.3.0.tar.gz]
+[2023-07-22 15:33:49] INFO root fetch - main [MainThread]: End processing [jsonlogic-rs]: success
+[2023-07-22 15:33:50] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6924.tar.gz]
+[2023-07-22 15:33:50] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6925.tar.gz]
+[2023-07-22 15:33:50] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 15:33:50] INFO root fetch - main [MainThread]: Store serial: [18995107]
