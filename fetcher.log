@@ -19595,3 +19595,63 @@ EOFError: EOF read where object expected
 [2023-07-22 22:33:27] INFO root fetch - processPackages [llm-client]: Remove: archive file [/home/abi/fetcher/tmp/llm_client-0.8.0.tar.gz]
 [2023-07-22 22:33:27] INFO root fetch - main [MainThread]: End processing [llm-client]: success
 [2023-07-22 22:33:27] INFO root fetch - main [MainThread]: Store serial: [18997363]
+[2023-07-22 22:38:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18997363]
+[2023-07-22 22:38:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 22:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: demogpt
+[2023-07-22 22:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vmklib
+[2023-07-22 22:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alfred-workflow-packager
+[2023-07-22 22:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: code-src
+[2023-07-22 22:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rna
+[2023-07-22 22:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finterion-investing-algorithm-framework
+[2023-07-22 22:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: platypush
+[2023-07-22 22:38:36] INFO root fetch - processPackages [alfred-workflow-packager]: New version: [3.0.0b6] Old Version: [3.0.0b5]
+[2023-07-22 22:38:36] WARNING root fetch - processPackages [code-src]: Skipping, unable to determine old version
+[2023-07-22 22:38:36] INFO root fetch - main [MainThread]: End processing [code-src] error
+[2023-07-22 22:38:36] INFO root fetch - processPackages [demogpt]: New version: [1.1.1.3] Old Version: [1.1.1.2]
+[2023-07-22 22:38:36] INFO root fetch - processPackages [vmklib]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-07-22 22:38:36] INFO root fetch - processPackages [alfred-workflow-packager]: Downloading https://files.pythonhosted.org/packages/36/db/14d1e224c299c7752382e53ab7472c253c80927c96696b14fa015025e597/alfred-workflow-packager-3.0.0b5.tar.gz
+[2023-07-22 22:38:36] INFO root fetch - processPackages [rna]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-22 22:38:36] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: New version: [0.1] Old Version: [0.0.1]
+[2023-07-22 22:38:36] INFO root fetch - processPackages [platypush]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-22 22:38:36] INFO root fetch - processPackages [demogpt]: Downloading https://files.pythonhosted.org/packages/57/0a/975d5ed31e2f826dec18d869f68399099864575ca05342ae8dbbf50743cd/demogpt-1.1.1.2.tar.gz
+[2023-07-22 22:38:36] INFO root fetch - processPackages [vmklib]: Downloading https://files.pythonhosted.org/packages/8b/2b/054d405a9582c09c7ec330574176ca84c230c0a1d3218c0c8b5e6146a2c3/vmklib-1.8.3.tar.gz
+[2023-07-22 22:38:36] INFO root fetch - processPackages [rna]: Downloading https://files.pythonhosted.org/packages/e7/5c/abf0cb118cab4f4d6b024917ba57ae16ddc9071b942730f1c385bcea19ac/rna-0.8.0-py3-none-any.whl
+[2023-07-22 22:38:36] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/d3/47/32cb8a68a466095f16b48b1e50948793859b613ae3fbd3b795fd32f6e150/finterion%20investing%20algorithm%20framework-0.0.1.tar.gz
+[2023-07-22 22:38:36] INFO root fetch - processPackages [platypush]: Downloading https://files.pythonhosted.org/packages/7e/20/6852b81c44d86537b44598fce2c91024219e509b97aef80cbf9da48e3939/platypush-0.9.5.tar.gz
+[2023-07-22 22:38:36] INFO root fetch - processPackages [alfred-workflow-packager]: Downloading https://files.pythonhosted.org/packages/ba/36/c2283cdc8317bcf59b8a063c076a527da8c7d4370014a976d4b7cf352236/alfred-workflow-packager-3.0.0b6.tar.gz
+[2023-07-22 22:38:36] INFO root fetch - processPackages [demogpt]: Downloading https://files.pythonhosted.org/packages/b8/a0/5222b578f8b785b3a0e1bc8b63c252563cd24b76702f6cce441461ee7b31/demogpt-1.1.1.3.tar.gz
+[2023-07-22 22:38:36] INFO root fetch - processPackages [demogpt]: executing diffoscope
+[2023-07-22 22:38:36] INFO root fetch - processPackages [demogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demogpt-1.1.1.2.tar.gz tmp/demogpt-1.1.1.3.tar.gz --markdown 20230722/d/demogpt/1.1.1.2-1.1.1.3/diff.md --exclude *.pyd
+[2023-07-22 22:38:36] INFO root fetch - processPackages [alfred-workflow-packager]: executing diffoscope
+[2023-07-22 22:38:36] INFO root fetch - processPackages [alfred-workflow-packager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alfred-workflow-packager-3.0.0b5.tar.gz tmp/alfred-workflow-packager-3.0.0b6.tar.gz --markdown 20230722/a/alfred-workflow-packager/3.0.0b5-3.0.0b6/diff.md --exclude *.pyd
+[2023-07-22 22:38:36] INFO root fetch - processPackages [vmklib]: Downloading https://files.pythonhosted.org/packages/f4/b0/58bb77fef5d8a0347e565208f96e8fa7f66804ac2f039ea33ac938a59f3c/vmklib-1.9.0.tar.gz
+[2023-07-22 22:38:36] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Downloading https://files.pythonhosted.org/packages/86/e2/d60c50b1efad6e274f54ae11a24e3856d582507ece8ddcb30e2a70291cb8/finterion%20investing%20algorithm%20framework-0.1.tar.gz
+[2023-07-22 22:38:36] INFO root fetch - processPackages [rna]: Downloading https://files.pythonhosted.org/packages/60/c4/324af9e9b8f8f0030190aaf26904bbe66285bf7305b9bf4a4b15874815e0/rna-0.9.0-py3-none-any.whl
+[2023-07-22 22:38:36] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: executing diffoscope
+[2023-07-22 22:38:36] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finterion investing algorithm framework-0.0.1.tar.gz tmp/finterion investing algorithm framework-0.1.tar.gz --markdown 20230722/f/finterion-investing-algorithm-framework/0.0.1-0.1/diff.md --exclude *.pyd
+[2023-07-22 22:38:37] INFO root fetch - processPackages [vmklib]: executing diffoscope
+[2023-07-22 22:38:37] INFO root fetch - processPackages [vmklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmklib-1.8.3.tar.gz tmp/vmklib-1.9.0.tar.gz --markdown 20230722/v/vmklib/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-07-22 22:38:37] INFO root fetch - processPackages [rna]: executing diffoscope
+[2023-07-22 22:38:37] INFO root fetch - processPackages [rna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rna-0.8.0-py3-none-any.whl.zip tmp/rna-0.9.0-py3-none-any.whl.zip --markdown 20230722/r/rna/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-22 22:38:37] INFO root fetch - processPackages [platypush]: Downloading https://files.pythonhosted.org/packages/7e/35/59d1ec1a6e1adbdae1077821c98c4771df412b7ffda91c342124c578d658/platypush-0.9.6.tar.gz
+[2023-07-22 22:38:37] INFO root fetch - processPackages [alfred-workflow-packager]: Remove: archive file [/home/abi/fetcher/tmp/alfred-workflow-packager-3.0.0b5.tar.gz]
+[2023-07-22 22:38:37] INFO root fetch - processPackages [alfred-workflow-packager]: Remove: archive file [/home/abi/fetcher/tmp/alfred-workflow-packager-3.0.0b6.tar.gz]
+[2023-07-22 22:38:37] INFO root fetch - main [MainThread]: End processing [alfred-workflow-packager]: success
+[2023-07-22 22:38:37] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/finterion investing algorithm framework-0.0.1.tar.gz]
+[2023-07-22 22:38:37] INFO root fetch - processPackages [finterion-investing-algorithm-framework]: Remove: archive file [/home/abi/fetcher/tmp/finterion investing algorithm framework-0.1.tar.gz]
+[2023-07-22 22:38:37] INFO root fetch - main [MainThread]: End processing [finterion-investing-algorithm-framework]: success
+[2023-07-22 22:38:37] INFO root fetch - processPackages [demogpt]: Remove: archive file [/home/abi/fetcher/tmp/demogpt-1.1.1.2.tar.gz]
+[2023-07-22 22:38:37] INFO root fetch - processPackages [demogpt]: Remove: archive file [/home/abi/fetcher/tmp/demogpt-1.1.1.3.tar.gz]
+[2023-07-22 22:38:37] INFO root fetch - main [MainThread]: End processing [demogpt]: success
+[2023-07-22 22:38:38] INFO root fetch - processPackages [vmklib]: Remove: archive file [/home/abi/fetcher/tmp/vmklib-1.8.3.tar.gz]
+[2023-07-22 22:38:38] INFO root fetch - processPackages [vmklib]: Remove: archive file [/home/abi/fetcher/tmp/vmklib-1.9.0.tar.gz]
+[2023-07-22 22:38:38] INFO root fetch - main [MainThread]: End processing [vmklib]: success
+[2023-07-22 22:38:38] INFO root fetch - processPackages [rna]: Remove: archive file [/home/abi/fetcher/tmp/rna-0.8.0-py3-none-any.whl.zip]
+[2023-07-22 22:38:38] INFO root fetch - processPackages [rna]: Remove: archive file [/home/abi/fetcher/tmp/rna-0.9.0-py3-none-any.whl.zip]
+[2023-07-22 22:38:38] INFO root fetch - main [MainThread]: End processing [rna]: success
+[2023-07-22 22:38:39] INFO root fetch - processPackages [platypush]: executing diffoscope
+[2023-07-22 22:38:39] INFO root fetch - processPackages [platypush]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platypush-0.9.5.tar.gz tmp/platypush-0.9.6.tar.gz --markdown 20230722/p/platypush/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-22 22:38:49] INFO root fetch - processPackages [platypush]: Remove: archive file [/home/abi/fetcher/tmp/platypush-0.9.5.tar.gz]
+[2023-07-22 22:38:49] INFO root fetch - processPackages [platypush]: Remove: archive file [/home/abi/fetcher/tmp/platypush-0.9.6.tar.gz]
+[2023-07-22 22:38:49] INFO root fetch - main [MainThread]: End processing [platypush]: success
+[2023-07-22 22:38:49] INFO root fetch - main [MainThread]: Store serial: [18997380]
