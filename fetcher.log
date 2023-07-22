@@ -8952,3 +8952,33 @@
 [2023-07-22 06:11:23] INFO root fetch - processPackages [AndroidN]: Remove: archive file [/home/abi/fetcher/tmp/AndroidN-0.0.4.tar.gz]
 [2023-07-22 06:11:23] INFO root fetch - main [MainThread]: End processing [AndroidN]: success
 [2023-07-22 06:11:23] INFO root fetch - main [MainThread]: Store serial: [18992648]
+[2023-07-22 06:16:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992648]
+[2023-07-22 06:16:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-22 06:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymino
+[2023-07-22 06:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tsetmc
+[2023-07-22 06:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moabdb
+[2023-07-22 06:16:34] INFO root fetch - processPackages [moabdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 06:16:34] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/96/03/58935b420c952db4961424ceeba97283a4c72fb94531da0acb864c0aa9ab/moabdb-0.1.8.tar.gz
+[2023-07-22 06:16:34] INFO root fetch - processPackages [tsetmc]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-22 06:16:34] INFO root fetch - processPackages [pymino]: New version: [1.2.3.9] Old Version: [1.2.3.8]
+[2023-07-22 06:16:34] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/02/5a/dc332fba4b2f9beda962be321254cf1d20a93377cc750891d55f43989ee9/moabdb-0.1.9.tar.gz
+[2023-07-22 06:16:34] INFO root fetch - processPackages [tsetmc]: Downloading https://files.pythonhosted.org/packages/e9/89/591bbad4fd0fe61938b4209f60e88c1fb470f266fe465ce188ca3fa4c499/tsetmc-0.9.0.tar.gz
+[2023-07-22 06:16:34] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/81/66/d21e43a69f96efa4f2b75ba3e01ee8fbf9c395dd21caf1e615c74ecff6b7/pymino-1.2.3.8.tar.gz
+[2023-07-22 06:16:34] INFO root fetch - processPackages [moabdb]: executing diffoscope
+[2023-07-22 06:16:34] INFO root fetch - processPackages [moabdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moabdb-0.1.8.tar.gz tmp/moabdb-0.1.9.tar.gz --markdown 20230722/m/moabdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 06:16:34] INFO root fetch - processPackages [tsetmc]: Downloading https://files.pythonhosted.org/packages/58/ff/602c329041abb143266ea818f96ae044114643056881f5b90ee954fa644d/tsetmc-0.9.1.tar.gz
+[2023-07-22 06:16:34] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/dd/ec/080631c7afc4c5fefdea71b835e58bc26ba61e61e53dca5f92752d31fb26/pymino-1.2.3.9.tar.gz
+[2023-07-22 06:16:34] INFO root fetch - processPackages [tsetmc]: executing diffoscope
+[2023-07-22 06:16:34] INFO root fetch - processPackages [tsetmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsetmc-0.9.0.tar.gz tmp/tsetmc-0.9.1.tar.gz --markdown 20230722/t/tsetmc/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-22 06:16:34] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-07-22 06:16:34] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.2.3.8.tar.gz tmp/pymino-1.2.3.9.tar.gz --markdown 20230722/p/pymino/1.2.3.8-1.2.3.9/diff.md --exclude *.pyd
+[2023-07-22 06:16:35] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.8.tar.gz]
+[2023-07-22 06:16:35] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.9.tar.gz]
+[2023-07-22 06:16:35] INFO root fetch - main [MainThread]: End processing [moabdb]: success
+[2023-07-22 06:16:35] INFO root fetch - processPackages [tsetmc]: Remove: archive file [/home/abi/fetcher/tmp/tsetmc-0.9.0.tar.gz]
+[2023-07-22 06:16:35] INFO root fetch - processPackages [tsetmc]: Remove: archive file [/home/abi/fetcher/tmp/tsetmc-0.9.1.tar.gz]
+[2023-07-22 06:16:35] INFO root fetch - main [MainThread]: End processing [tsetmc]: success
+[2023-07-22 06:16:36] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.3.8.tar.gz]
+[2023-07-22 06:16:36] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.3.9.tar.gz]
+[2023-07-22 06:16:36] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-07-22 06:16:36] INFO root fetch - main [MainThread]: Store serial: [18992657]
