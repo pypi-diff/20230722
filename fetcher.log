@@ -15266,3 +15266,45 @@ EOFError: EOF read where object expected
 [2023-07-22 16:36:30] INFO root fetch - processPackages [Office365-REST-Python-Client]: Remove: archive file [/home/abi/fetcher/tmp/Office365-REST-Python-Client-2.4.3.tar.gz]
 [2023-07-22 16:36:30] INFO root fetch - main [MainThread]: End processing [Office365-REST-Python-Client]: success
 [2023-07-22 16:36:30] INFO root fetch - main [MainThread]: Store serial: [18995432]
+[2023-07-22 16:41:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995432]
+[2023-07-22 16:41:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 16:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyntweb
+[2023-07-22 16:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sinol-make
+[2023-07-22 16:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zshgpt
+[2023-07-22 16:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyntweb
+[2023-07-22 16:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tnseq-transit
+[2023-07-22 16:41:39] INFO root fetch - processPackages [zshgpt]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-22 16:41:40] INFO root fetch - processPackages [pyntweb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-22 16:41:40] INFO root fetch - processPackages [pyntweb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-22 16:41:40] INFO root fetch - processPackages [tnseq-transit]: New version: [3.2.8] Old Version: [3.2.7]
+[2023-07-22 16:41:40] INFO root fetch - processPackages [sinol-make]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-22 16:41:40] INFO root fetch - processPackages [zshgpt]: Downloading https://files.pythonhosted.org/packages/87/23/d2258720e66cfb99134202cf149b925a1580f31eb2e2b05a914e0b56375b/zshgpt-0.1.2.tar.gz
+[2023-07-22 16:41:40] INFO root fetch - processPackages [sinol-make]: Downloading https://files.pythonhosted.org/packages/a9/97/ab33a20c0df85fe8d0270a9afc7b2e15b5564cca60aec09756aee445d557/sinol-make-1.3.0.tar.gz
+[2023-07-22 16:41:40] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/2e/55/9fdd0c128f6126b0e1fb8dd2733eec6f7d04710d7d70ee998115c2fa03ef/pyntweb-0.2.8.tar.gz
+[2023-07-22 16:41:40] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/2e/55/9fdd0c128f6126b0e1fb8dd2733eec6f7d04710d7d70ee998115c2fa03ef/pyntweb-0.2.8.tar.gz
+[2023-07-22 16:41:40] INFO root fetch - processPackages [tnseq-transit]: Downloading https://files.pythonhosted.org/packages/ea/e4/718f5874a3d61d8b4cf60e55113435a5fb53f55979e1174ad0aa6d974b14/tnseq-transit-3.2.7.tar.gz
+[2023-07-22 16:41:40] INFO root fetch - processPackages [zshgpt]: Downloading https://files.pythonhosted.org/packages/7b/2d/00b28c52f6c6d7da258f78fb76181475456fd1841dc16c69fe6ae4718c7e/zshgpt-0.2.0.tar.gz
+[2023-07-22 16:41:40] WARNING root fetch - processPackages [tnseq-transit]: Skipping package: exceeds size limit 34904039>=10485760
+[2023-07-22 16:41:40] INFO root fetch - main [MainThread]: End processing [tnseq-transit] error
+[2023-07-22 16:41:40] INFO root fetch - processPackages [zshgpt]: executing diffoscope
+[2023-07-22 16:41:40] INFO root fetch - processPackages [zshgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zshgpt-0.1.2.tar.gz tmp/zshgpt-0.2.0.tar.gz --markdown 20230722/z/zshgpt/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-22 16:41:40] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/68/76/9710407be69a495a5e8f803078c9a0974413ebeb4f49e1bf7b63684a43bd/pyntweb-0.2.9.tar.gz
+[2023-07-22 16:41:40] INFO root fetch - processPackages [sinol-make]: Downloading https://files.pythonhosted.org/packages/8d/86/49a628c66301f16256d767d1f396a2b5f17b94b184d1218b37b412420707/sinol-make-1.3.1.tar.gz
+[2023-07-22 16:41:40] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/68/76/9710407be69a495a5e8f803078c9a0974413ebeb4f49e1bf7b63684a43bd/pyntweb-0.2.9.tar.gz
+[2023-07-22 16:41:40] INFO root fetch - processPackages [pyntweb]: executing diffoscope
+[2023-07-22 16:41:40] INFO root fetch - processPackages [pyntweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntweb-0.2.8.tar.gz tmp/pyntweb-0.2.9.tar.gz --markdown 20230722/p/pyntweb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-22 16:41:40] INFO root fetch - processPackages [sinol-make]: executing diffoscope
+[2023-07-22 16:41:40] INFO root fetch - processPackages [sinol-make]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinol-make-1.3.0.tar.gz tmp/sinol-make-1.3.1.tar.gz --markdown 20230722/s/sinol-make/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-22 16:41:40] INFO root fetch - processPackages [pyntweb]: executing diffoscope
+[2023-07-22 16:41:40] INFO root fetch - processPackages [pyntweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntweb-0.2.8.tar.gz tmp/pyntweb-0.2.9.tar.gz --markdown 20230722/p/pyntweb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-22 16:41:41] INFO root fetch - processPackages [zshgpt]: Remove: archive file [/home/abi/fetcher/tmp/zshgpt-0.1.2.tar.gz]
+[2023-07-22 16:41:41] INFO root fetch - processPackages [zshgpt]: Remove: archive file [/home/abi/fetcher/tmp/zshgpt-0.2.0.tar.gz]
+[2023-07-22 16:41:41] INFO root fetch - main [MainThread]: End processing [zshgpt]: success
+[2023-07-22 16:41:41] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.8.tar.gz]
+[2023-07-22 16:41:41] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.9.tar.gz]
+[2023-07-22 16:41:41] INFO root fetch - main [MainThread]: End processing [pyntweb]: success
+[2023-07-22 16:41:41] INFO root fetch - main [MainThread]: End processing [pyntweb]: success
+[2023-07-22 16:41:41] INFO root fetch - processPackages [sinol-make]: Remove: archive file [/home/abi/fetcher/tmp/sinol-make-1.3.0.tar.gz]
+[2023-07-22 16:41:41] INFO root fetch - processPackages [sinol-make]: Remove: archive file [/home/abi/fetcher/tmp/sinol-make-1.3.1.tar.gz]
+[2023-07-22 16:41:41] INFO root fetch - main [MainThread]: End processing [sinol-make]: success
+[2023-07-22 16:41:41] INFO root fetch - main [MainThread]: Store serial: [18995444]
