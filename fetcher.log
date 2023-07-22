@@ -9353,3 +9353,45 @@
 [2023-07-22 07:13:33] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230721-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-22 07:13:33] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-07-22 07:13:33] INFO root fetch - main [MainThread]: Store serial: [18992788]
+[2023-07-22 07:18:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992788]
+[2023-07-22 07:18:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 07:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dev-assistant-client
+[2023-07-22 07:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-22 07:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sceptre
+[2023-07-22 07:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: usda
+[2023-07-22 07:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: france-political-plots
+[2023-07-22 07:18:42] INFO root fetch - processPackages [dev-assistant-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 07:18:42] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.6.3] Old Version: [0.3.9.6.2]
+[2023-07-22 07:18:43] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/40/24/eba4a6d89c40eac8edba09ff0530be76a03b837ea725475f46053a59f1d6/dev-assistant-client-0.1.8.tar.gz
+[2023-07-22 07:18:43] WARNING root fetch - processPackages [france-political-plots]: Skipping, unable to determine old version
+[2023-07-22 07:18:43] INFO root fetch - main [MainThread]: End processing [france-political-plots] error
+[2023-07-22 07:18:43] INFO root fetch - processPackages [usda]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-07-22 07:18:43] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/75/0e/925ec4c0363f531cc3bb60d68892f424af684a52f655fac95b0329caee81/nonebot_plugin_stable_diffusion_diao-0.3.9.6.2.tar.gz
+[2023-07-22 07:18:43] INFO root fetch - processPackages [sceptre]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-07-22 07:18:43] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/e2/63/da63c28da3956aa0b16a816ebd0f700014c4b542f8233ad78aff853dec8a/dev-assistant-client-0.1.9.tar.gz
+[2023-07-22 07:18:43] INFO root fetch - processPackages [usda]: Downloading https://files.pythonhosted.org/packages/9b/1c/5f8dd5fb0427c8de7657021a96b4bf773d760708db15a795d29cfcd051af/usda-0.0.25.tar.gz
+[2023-07-22 07:18:43] INFO root fetch - processPackages [sceptre]: Downloading https://files.pythonhosted.org/packages/ff/ec/c2266893154a31c012dd2d1170306dbfab2410898319d412da7e2da249cf/sceptre-4.2.1.tar.gz
+[2023-07-22 07:18:43] INFO root fetch - processPackages [dev-assistant-client]: executing diffoscope
+[2023-07-22 07:18:43] INFO root fetch - processPackages [dev-assistant-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-assistant-client-0.1.8.tar.gz tmp/dev-assistant-client-0.1.9.tar.gz --markdown 20230722/d/dev-assistant-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 07:18:43] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/0a/56/6f1df0a988f193e28630a108a648e78d7efa15ccf17604d30f0573b14cfd/nonebot_plugin_stable_diffusion_diao-0.3.9.6.3.tar.gz
+[2023-07-22 07:18:43] INFO root fetch - processPackages [usda]: Downloading https://files.pythonhosted.org/packages/49/76/a2b96c8c862c390cbbf149e1ce9e113d05f5f2de322d8ea55b3cd91f894c/usda-0.0.26.tar.gz
+[2023-07-22 07:18:43] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-22 07:18:43] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.2.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.3.tar.gz --markdown 20230722/n/nonebot-plugin-stable-diffusion-diao/0.3.9.6.2-0.3.9.6.3/diff.md --exclude *.pyd
+[2023-07-22 07:18:43] INFO root fetch - processPackages [sceptre]: Downloading https://files.pythonhosted.org/packages/05/cc/2ac3c8dd9323701b5ec61a58cc639a65cbada0ee539c837b4e78ccf54809/sceptre-4.2.2.tar.gz
+[2023-07-22 07:18:43] INFO root fetch - processPackages [usda]: executing diffoscope
+[2023-07-22 07:18:43] INFO root fetch - processPackages [usda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usda-0.0.25.tar.gz tmp/usda-0.0.26.tar.gz --markdown 20230722/u/usda/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-07-22 07:18:43] INFO root fetch - processPackages [sceptre]: executing diffoscope
+[2023-07-22 07:18:43] INFO root fetch - processPackages [sceptre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sceptre-4.2.1.tar.gz tmp/sceptre-4.2.2.tar.gz --markdown 20230722/s/sceptre/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2023-07-22 07:18:44] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.8.tar.gz]
+[2023-07-22 07:18:44] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.9.tar.gz]
+[2023-07-22 07:18:44] INFO root fetch - main [MainThread]: End processing [dev-assistant-client]: success
+[2023-07-22 07:18:44] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.2.tar.gz]
+[2023-07-22 07:18:44] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.3.tar.gz]
+[2023-07-22 07:18:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-22 07:18:44] INFO root fetch - processPackages [sceptre]: Remove: archive file [/home/abi/fetcher/tmp/sceptre-4.2.1.tar.gz]
+[2023-07-22 07:18:44] INFO root fetch - processPackages [sceptre]: Remove: archive file [/home/abi/fetcher/tmp/sceptre-4.2.2.tar.gz]
+[2023-07-22 07:18:44] INFO root fetch - main [MainThread]: End processing [sceptre]: success
+[2023-07-22 07:18:45] INFO root fetch - processPackages [usda]: Remove: archive file [/home/abi/fetcher/tmp/usda-0.0.25.tar.gz]
+[2023-07-22 07:18:45] INFO root fetch - processPackages [usda]: Remove: archive file [/home/abi/fetcher/tmp/usda-0.0.26.tar.gz]
+[2023-07-22 07:18:45] INFO root fetch - main [MainThread]: End processing [usda]: success
+[2023-07-22 07:18:45] INFO root fetch - main [MainThread]: Store serial: [18992805]
