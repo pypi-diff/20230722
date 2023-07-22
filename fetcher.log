@@ -7364,3 +7364,51 @@
 [2023-07-22 03:49:58] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.3.tar.gz]
 [2023-07-22 03:49:58] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2023-07-22 03:49:58] INFO root fetch - main [MainThread]: Store serial: [18992104]
+[2023-07-22 03:55:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992104]
+[2023-07-22 03:55:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 03:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssh-terminal-manager
+[2023-07-22 03:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TheSilent
+[2023-07-22 03:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlx-exec
+[2023-07-22 03:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threemystic-cloud-data-client
+[2023-07-22 03:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emlvp
+[2023-07-22 03:55:08] INFO root fetch - processPackages [sqlx-exec]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-22 03:55:08] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.28] Old Version: [0.1.27]
+[2023-07-22 03:55:08] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-22 03:55:08] INFO root fetch - processPackages [emlvp]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-22 03:55:08] INFO root fetch - processPackages [ssh-terminal-manager]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-22 03:55:08] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/9b/2d/ddc5e1225b973695adf6ef4fe2ea9e23894806666d2a5fe5e0bc4e615c52/sqlx-exec-1.0.8.tar.gz
+[2023-07-22 03:55:08] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/9f/44/61edc433a881c9366e66d6b9a44211f1f6852acd58a9264cf48eb62b650c/threemystic_cloud_data_client-0.1.27.tar.gz
+[2023-07-22 03:55:08] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-22 03:55:08] INFO root fetch - processPackages [emlvp]: Downloading https://files.pythonhosted.org/packages/d4/93/774b82a21f4acd34de9de9b31967b40ee45203f52452444e62a9d73556ba/emlvp-0.0.5.tar.gz
+[2023-07-22 03:55:08] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/df/11/76b01e64bd4ca5a900d22bddb6d277f6dd9f8b3a46e236921fa58018e14b/ssh_terminal_manager-0.8.3.tar.gz
+[2023-07-22 03:55:08] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/d1/56/c5015434f4cfedfa0c4de1732af647f1eda97cb360201363767fb9b891c0/sqlx-exec-1.0.9.tar.gz
+[2023-07-22 03:55:08] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-22 03:55:08] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/57/b5/964f3ef8aca969d2adc81898eda0d56d29b26372b2ea459f8264b834888b/threemystic_cloud_data_client-0.1.28.tar.gz
+[2023-07-22 03:55:08] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-22 03:55:08] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.0.8.tar.gz tmp/sqlx-exec-1.0.9.tar.gz --markdown 20230722/s/sqlx-exec/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-22 03:55:09] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-22 03:55:09] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230722/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-22 03:55:09] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-22 03:55:09] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.27.tar.gz tmp/threemystic_cloud_data_client-0.1.28.tar.gz --markdown 20230722/t/threemystic-cloud-data-client/0.1.27-0.1.28/diff.md --exclude *.pyd
+[2023-07-22 03:55:09] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/17/99/007dcc063b1cff03e6ad83e99f8ecaace8aca51efeb562f613b89dd6169c/ssh_terminal_manager-0.8.4.tar.gz
+[2023-07-22 03:55:09] INFO root fetch - processPackages [emlvp]: Downloading https://files.pythonhosted.org/packages/e5/20/eaad322d7d3459fe421f571dc25016d29a2ba27cabba4dae7be810cd3158/emlvp-0.0.6.tar.gz
+[2023-07-22 03:55:09] INFO root fetch - processPackages [ssh-terminal-manager]: executing diffoscope
+[2023-07-22 03:55:09] INFO root fetch - processPackages [ssh-terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_terminal_manager-0.8.3.tar.gz tmp/ssh_terminal_manager-0.8.4.tar.gz --markdown 20230722/s/ssh-terminal-manager/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-22 03:55:09] INFO root fetch - processPackages [emlvp]: executing diffoscope
+[2023-07-22 03:55:09] INFO root fetch - processPackages [emlvp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emlvp-0.0.5.tar.gz tmp/emlvp-0.0.6.tar.gz --markdown 20230722/e/emlvp/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-22 03:55:10] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.27.tar.gz]
+[2023-07-22 03:55:10] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.28.tar.gz]
+[2023-07-22 03:55:10] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-22 03:55:10] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.0.8.tar.gz]
+[2023-07-22 03:55:10] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.0.9.tar.gz]
+[2023-07-22 03:55:10] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-22 03:55:10] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-22 03:55:10] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-22 03:55:10] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-22 03:55:10] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.8.3.tar.gz]
+[2023-07-22 03:55:10] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.8.4.tar.gz]
+[2023-07-22 03:55:10] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager]: success
+[2023-07-22 03:55:14] INFO root fetch - processPackages [emlvp]: Remove: archive file [/home/abi/fetcher/tmp/emlvp-0.0.5.tar.gz]
+[2023-07-22 03:55:14] INFO root fetch - processPackages [emlvp]: Remove: archive file [/home/abi/fetcher/tmp/emlvp-0.0.6.tar.gz]
+[2023-07-22 03:55:14] INFO root fetch - main [MainThread]: End processing [emlvp]: success
+[2023-07-22 03:55:14] INFO root fetch - main [MainThread]: Store serial: [18992122]
