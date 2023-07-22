@@ -9305,3 +9305,51 @@
 [2023-07-22 07:08:21] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.32.3-py3-none-any.whl.zip]
 [2023-07-22 07:08:21] INFO root fetch - main [MainThread]: End processing [austrakka]: success
 [2023-07-22 07:08:21] INFO root fetch - main [MainThread]: Store serial: [18992763]
+[2023-07-22 07:13:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992763]
+[2023-07-22 07:13:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 07:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapid-pe
+[2023-07-22 07:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-homeassistant-custom-component
+[2023-07-22 07:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tflite-runtime-nightly
+[2023-07-22 07:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bambooai
+[2023-07-22 07:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: google-cloud-spanner
+[2023-07-22 07:13:31] INFO root fetch - processPackages [google-cloud-spanner]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-22 07:13:31] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-22 07:13:31] INFO root fetch - processPackages [google-cloud-spanner]: Downloading https://files.pythonhosted.org/packages/c0/2d/9383b183858aaf9f33a19f695d5db62abbd3750f41e5461f5d4dd68d2da2/google-cloud-spanner-3.8.0.tar.gz
+[2023-07-22 07:13:31] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 07:13:31] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230722] Old Version: [0.1.1.dev20230721]
+[2023-07-22 07:13:31] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230721] Old Version: [2.14.0.dev20230719]
+[2023-07-22 07:13:31] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/7d/a0/09d1ddae915070f459b534568ced3fbd1ed74e083745603fcb42b3bc1af1/rapid_pe-0.1.1.dev20230721.tar.gz
+[2023-07-22 07:13:31] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2023-07-22 07:13:31] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2023-07-22 07:13:31] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/4a/df/0caa620763076c7b0286f6ea5ad883b3e5446f0a3b5206641701ad34601a/tflite_runtime_nightly-2.14.0.dev20230719-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-22 07:13:31] INFO root fetch - processPackages [google-cloud-spanner]: Downloading https://files.pythonhosted.org/packages/7f/af/852f011a0e2347701621b19205ec8b0037c7a76ce4c0705f0ee8e7788671/google-cloud-spanner-3.9.0.tar.gz
+[2023-07-22 07:13:32] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/33/89/409ff23af13c3efabda82d4fc433b305979b26d5e5adcd4c57396977431c/rapid_pe-0.1.1.dev20230722.tar.gz
+[2023-07-22 07:13:32] INFO root fetch - processPackages [google-cloud-spanner]: executing diffoscope
+[2023-07-22 07:13:32] INFO root fetch - processPackages [google-cloud-spanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-spanner-3.8.0.tar.gz tmp/google-cloud-spanner-3.9.0.tar.gz --markdown 20230722/g/google-cloud-spanner/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-22 07:13:32] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2023-07-22 07:13:32] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-22 07:13:32] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230721.tar.gz tmp/rapid_pe-0.1.1.dev20230722.tar.gz --markdown 20230722/r/rapid-pe/0.1.1.dev20230721-0.1.1.dev20230722/diff.md --exclude *.pyd
+[2023-07-22 07:13:32] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2023-07-22 07:13:32] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2023-07-22 07:13:32] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20230722/b/bambooai/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 07:13:32] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2023-07-22 07:13:32] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20230722/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-22 07:13:32] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/90/68/99c1acf04d52234d796aa76b5d41f8ee589f831b66cea57c24ebfad0d819/tflite_runtime_nightly-2.14.0.dev20230721-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-22 07:13:33] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-07-22 07:13:33] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230719-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230721-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230722/t/tflite-runtime-nightly/2.14.0.dev20230719-2.14.0.dev20230721/diff.md --exclude *.pyd
+[2023-07-22 07:13:33] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230721.tar.gz]
+[2023-07-22 07:13:33] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230722.tar.gz]
+[2023-07-22 07:13:33] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-22 07:13:33] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2023-07-22 07:13:33] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2023-07-22 07:13:33] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2023-07-22 07:13:33] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2023-07-22 07:13:33] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2023-07-22 07:13:33] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2023-07-22 07:13:33] INFO root fetch - processPackages [google-cloud-spanner]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-spanner-3.8.0.tar.gz]
+[2023-07-22 07:13:33] INFO root fetch - processPackages [google-cloud-spanner]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-spanner-3.9.0.tar.gz]
+[2023-07-22 07:13:33] INFO root fetch - main [MainThread]: End processing [google-cloud-spanner]: success
+[2023-07-22 07:13:33] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230719-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-22 07:13:33] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230721-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-22 07:13:33] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-07-22 07:13:33] INFO root fetch - main [MainThread]: Store serial: [18992788]
