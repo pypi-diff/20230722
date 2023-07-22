@@ -9509,3 +9509,39 @@
 [2023-07-22 07:29:09] INFO root fetch - processPackages [beartype]: Remove: archive file [/home/abi/fetcher/tmp/beartype-0.9.1.tar.gz]
 [2023-07-22 07:29:09] INFO root fetch - main [MainThread]: End processing [beartype]: success
 [2023-07-22 07:29:09] INFO root fetch - main [MainThread]: Store serial: [18992867]
+[2023-07-22 07:34:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992867]
+[2023-07-22 07:34:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 07:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EclipsingBinaries
+[2023-07-22 07:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adgodfhkdfh
+[2023-07-22 07:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multion
+[2023-07-22 07:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: medimageaugment
+[2023-07-22 07:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: irisml-tasks-azure-computervision
+[2023-07-22 07:34:19] WARNING root fetch - processPackages [adgodfhkdfh]: Skipping, unable to determine old version
+[2023-07-22 07:34:19] INFO root fetch - main [MainThread]: End processing [adgodfhkdfh] error
+[2023-07-22 07:34:19] INFO root fetch - processPackages [EclipsingBinaries]: New version: [3.1.9] Old Version: [3.1.8a5]
+[2023-07-22 07:34:19] INFO root fetch - processPackages [multion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 07:34:20] WARNING root fetch - processPackages [medimageaugment]: Skipping, unable to determine old version
+[2023-07-22 07:34:20] INFO root fetch - main [MainThread]: End processing [medimageaugment] error
+[2023-07-22 07:34:20] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-22 07:34:20] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/37/30/154c5aa7feb05c9f41c89183ea07738347554f53313170a182e4d0e904af/EclipsingBinaries-3.1.8a5.tar.gz
+[2023-07-22 07:34:20] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/d6/43/02bc870af4fa102cebd16359306dcad5fa14e8e9c01dc9fb58766ba6d578/multion-0.1.8.tar.gz
+[2023-07-22 07:34:20] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: Downloading https://files.pythonhosted.org/packages/6b/86/0a29addd94c0d50987f77a679b42f63fb013ac4461497e634e9eec27b112/irisml-tasks-azure-computervision-0.0.6.tar.gz
+[2023-07-22 07:34:20] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: Downloading https://files.pythonhosted.org/packages/55/51/d2eb3e34434a1923e91ec32e3ccd10539f954d30c275dc7b8f3e738b945d/irisml-tasks-azure-computervision-0.0.7.tar.gz
+[2023-07-22 07:34:20] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/e5/2f/980afa9d6c01bdbb0bd9ff59f522a5ef520b0ad1456d6633ec11136cfc6c/multion-0.1.9.tar.gz
+[2023-07-22 07:34:20] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/fc/19/411e2b0ea13567c75a1a3c69bde582c4cb5101eb72514a6aa403f6098b1b/EclipsingBinaries-3.1.9.tar.gz
+[2023-07-22 07:34:20] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: executing diffoscope
+[2023-07-22 07:34:20] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-azure-computervision-0.0.6.tar.gz tmp/irisml-tasks-azure-computervision-0.0.7.tar.gz --markdown 20230722/i/irisml-tasks-azure-computervision/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-22 07:34:20] INFO root fetch - processPackages [multion]: executing diffoscope
+[2023-07-22 07:34:20] INFO root fetch - processPackages [multion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multion-0.1.8.tar.gz tmp/multion-0.1.9.tar.gz --markdown 20230722/m/multion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 07:34:20] INFO root fetch - processPackages [EclipsingBinaries]: executing diffoscope
+[2023-07-22 07:34:20] INFO root fetch - processPackages [EclipsingBinaries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EclipsingBinaries-3.1.8a5.tar.gz tmp/EclipsingBinaries-3.1.9.tar.gz --markdown 20230722/E/EclipsingBinaries/3.1.8a5-3.1.9/diff.md --exclude *.pyd
+[2023-07-22 07:34:21] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-azure-computervision-0.0.6.tar.gz]
+[2023-07-22 07:34:21] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-azure-computervision-0.0.7.tar.gz]
+[2023-07-22 07:34:21] INFO root fetch - main [MainThread]: End processing [irisml-tasks-azure-computervision]: success
+[2023-07-22 07:34:21] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-0.1.8.tar.gz]
+[2023-07-22 07:34:21] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-0.1.9.tar.gz]
+[2023-07-22 07:34:21] INFO root fetch - main [MainThread]: End processing [multion]: success
+[2023-07-22 07:34:21] INFO root fetch - processPackages [EclipsingBinaries]: Remove: archive file [/home/abi/fetcher/tmp/EclipsingBinaries-3.1.8a5.tar.gz]
+[2023-07-22 07:34:21] INFO root fetch - processPackages [EclipsingBinaries]: Remove: archive file [/home/abi/fetcher/tmp/EclipsingBinaries-3.1.9.tar.gz]
+[2023-07-22 07:34:21] INFO root fetch - main [MainThread]: End processing [EclipsingBinaries]: success
+[2023-07-22 07:34:21] INFO root fetch - main [MainThread]: Store serial: [18992885]
