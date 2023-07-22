@@ -10480,3 +10480,32 @@
 [2023-07-22 09:18:24] INFO root fetch - processPackages [stonefish]: Remove: archive file [/home/abi/fetcher/tmp/stonefish-0.3.9-py3-none-any.whl.zip]
 [2023-07-22 09:18:24] INFO root fetch - main [MainThread]: End processing [stonefish]: success
 [2023-07-22 09:18:24] INFO root fetch - main [MainThread]: Store serial: [18993349]
+[2023-07-22 09:23:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993349]
+[2023-07-22 09:23:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-22 09:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfq-nightly
+[2023-07-22 09:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cupcake-editor
+[2023-07-22 09:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: binpan
+[2023-07-22 09:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bot-lib-public
+[2023-07-22 09:23:33] INFO root fetch - processPackages [cupcake-editor]: New version: [0.5.1] Old Version: [0.25.5]
+[2023-07-22 09:23:33] WARNING root fetch - processPackages [bot-lib-public]: Skipping, unable to determine old version
+[2023-07-22 09:23:33] INFO root fetch - main [MainThread]: End processing [bot-lib-public] error
+[2023-07-22 09:23:33] INFO root fetch - processPackages [binpan]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-22 09:23:33] INFO root fetch - processPackages [cupcake-editor]: Downloading https://files.pythonhosted.org/packages/48/05/5f6115cc27a09f02474b3e9d7746b9e4df413308d26c8d9af3aa1f480c7d/cupcake_editor-0.25.5.tar.gz
+[2023-07-22 09:23:34] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230722] Old Version: [0.7.3.dev20230721]
+[2023-07-22 09:23:34] INFO root fetch - processPackages [binpan]: Downloading https://files.pythonhosted.org/packages/9a/c3/428612272a28dfbf5f1cdd8ea5a1b04925a2386a536f411087b1c492cb6b/binpan-0.4.8.tar.gz
+[2023-07-22 09:23:34] INFO root fetch - processPackages [cupcake-editor]: Downloading https://files.pythonhosted.org/packages/ed/10/82e50fe601c89fe68fafbefbd6a407bb5d79a9da1c4b8445ece8420e59c1/cupcake-editor-0.5.1.tar.gz
+[2023-07-22 09:23:34] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/06/bc/4a75be70c6d42aba83d068c4a3e99615dcc90d27f609f344aae8f2863555/tfq_nightly-0.7.3.dev20230721-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-22 09:23:34] INFO root fetch - processPackages [cupcake-editor]: executing diffoscope
+[2023-07-22 09:23:34] INFO root fetch - processPackages [cupcake-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cupcake_editor-0.25.5.tar.gz tmp/cupcake-editor-0.5.1.tar.gz --markdown 20230722/c/cupcake-editor/0.25.5-0.5.1/diff.md --exclude *.pyd
+[2023-07-22 09:23:34] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807263>=10485760
+[2023-07-22 09:23:34] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-22 09:23:34] INFO root fetch - processPackages [binpan]: Downloading https://files.pythonhosted.org/packages/a0/98/349c07c553f7bfad1d6e1c7717a411195002cd92d0fc40e3ade7867c8d7f/binpan-0.4.9.tar.gz
+[2023-07-22 09:23:34] INFO root fetch - processPackages [binpan]: executing diffoscope
+[2023-07-22 09:23:34] INFO root fetch - processPackages [binpan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binpan-0.4.8.tar.gz tmp/binpan-0.4.9.tar.gz --markdown 20230722/b/binpan/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-22 09:23:35] INFO root fetch - processPackages [cupcake-editor]: Remove: archive file [/home/abi/fetcher/tmp/cupcake_editor-0.25.5.tar.gz]
+[2023-07-22 09:23:35] INFO root fetch - processPackages [cupcake-editor]: Remove: archive file [/home/abi/fetcher/tmp/cupcake-editor-0.5.1.tar.gz]
+[2023-07-22 09:23:35] INFO root fetch - main [MainThread]: End processing [cupcake-editor]: success
+[2023-07-22 09:23:35] INFO root fetch - processPackages [binpan]: Remove: archive file [/home/abi/fetcher/tmp/binpan-0.4.8.tar.gz]
+[2023-07-22 09:23:35] INFO root fetch - processPackages [binpan]: Remove: archive file [/home/abi/fetcher/tmp/binpan-0.4.9.tar.gz]
+[2023-07-22 09:23:35] INFO root fetch - main [MainThread]: End processing [binpan]: success
+[2023-07-22 09:23:35] INFO root fetch - main [MainThread]: Store serial: [18993359]
