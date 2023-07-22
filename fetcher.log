@@ -12284,3 +12284,78 @@
 [2023-07-22 11:39:54] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-07-22 11:39:54] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-07-22 11:39:54] INFO root fetch - main [MainThread]: Store serial: [18994167]
+[2023-07-22 11:44:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994167]
+[2023-07-22 11:45:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-22 11:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: create-fastapi
+[2023-07-22 11:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: talkytimes-package
+[2023-07-22 11:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pretix-sumup
+[2023-07-22 11:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ExpoSeq
+[2023-07-22 11:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: domain-admin
+[2023-07-22 11:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-tbase-post-product
+[2023-07-22 11:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irene-pro
+[2023-07-22 11:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: location-local
+[2023-07-22 11:45:02] INFO root fetch - processPackages [django-tbase-post-product]: New version: [2023.7.716887389] Old Version: [2023.7.716887386]
+[2023-07-22 11:45:02] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 11:45:02] INFO root fetch - processPackages [location-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 11:45:02] INFO root fetch - processPackages [ExpoSeq]: New version: [1.1.18] Old Version: [1.1.17]
+[2023-07-22 11:45:02] INFO root fetch - processPackages [create-fastapi]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-22 11:45:02] INFO root fetch - processPackages [irene-pro]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 11:45:02] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/69/ba/bf2c8c1a83462dd2fae7b6981f8a8fcf812bf14b73ac755f5395e3ee4557/django_tbase_post_product-2023.7.716887386.tar.gz
+[2023-07-22 11:45:02] INFO root fetch - processPackages [domain-admin]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-22 11:45:02] INFO root fetch - processPackages [pretix-sumup]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-22 11:45:02] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-22 11:45:02] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/67/e8/0d12dc2c20b0ed2e06164d1e48c3d7c2e73b10e57474f0c76faa0c6a8509/ExpoSeq-1.1.17.tar.gz
+[2023-07-22 11:45:02] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/46/8e/6e730d1043dbdc8f6c7827c01bb663f8fb6221931b2e45076f60fdc18f79/irene_pro-0.1.8.tar.gz
+[2023-07-22 11:45:02] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/77/3e/84513fa7f778e3bfb7abbfc8120561c570ddaf040c14e8d83f25ac11bde5/domain-admin-1.5.3.tar.gz
+[2023-07-22 11:45:02] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/6d/cb/4f9cf6ceeea5b094804c76a025ff71045e7480fc2b55dfa9d5790635d306/location-local-0.0.8.tar.gz
+[2023-07-22 11:45:03] INFO root fetch - processPackages [create-fastapi]: Downloading https://files.pythonhosted.org/packages/42/a8/ee0462d3c9ecc60836874fd2056102c9a4025490993c792b4aa9d204a164/create-fastapi-0.0.5.tar.gz
+[2023-07-22 11:45:03] INFO root fetch - processPackages [pretix-sumup]: Downloading https://files.pythonhosted.org/packages/8f/b0/d24c8eaf1a6f6c54920b2c742c115fadf2b3127e1cc392c4a3248fb35794/pretix-sumup-1.0.1.tar.gz
+[2023-07-22 11:45:03] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/b2/1c/662b7a63c26b1775ed703f7609bdfe40ea00728d0a5543ce6498d553c4a7/django_tbase_post_product-2023.7.716887389.tar.gz
+[2023-07-22 11:45:03] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-22 11:45:03] INFO root fetch - processPackages [django-tbase-post-product]: executing diffoscope
+[2023-07-22 11:45:03] INFO root fetch - processPackages [django-tbase-post-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tbase_post_product-2023.7.716887386.tar.gz tmp/django_tbase_post_product-2023.7.716887389.tar.gz --markdown 20230722/d/django-tbase-post-product/2023.7.716887386-2023.7.716887389/diff.md --exclude *.pyd
+[2023-07-22 11:45:03] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/f8/06/483ee1c1417771faaa0b5e6987ea6181d55523b74640d4bac8c5fe47cd49/irene_pro-0.1.9.tar.gz
+[2023-07-22 11:45:03] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/34/2a/fb42e220a0e2df4585b42e32e07079cfefac11c203461bffdb813267c647/location-local-0.0.9.tar.gz
+[2023-07-22 11:45:03] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-22 11:45:03] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230722/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 11:45:03] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/96/55/53a50be9853bcb179f649aa999bd57acfbd749121647b32f03b34c888943/ExpoSeq-1.1.18.tar.gz
+[2023-07-22 11:45:03] INFO root fetch - processPackages [create-fastapi]: Downloading https://files.pythonhosted.org/packages/c9/1e/75d7628da1f1f8cf9b94dd90ea5cbc80fb048c95186388f7a3dc95387b9b/create-fastapi-0.0.6.tar.gz
+[2023-07-22 11:45:03] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-22 11:45:03] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.1.8.tar.gz tmp/irene_pro-0.1.9.tar.gz --markdown 20230722/i/irene-pro/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 11:45:03] INFO root fetch - processPackages [location-local]: executing diffoscope
+[2023-07-22 11:45:03] INFO root fetch - processPackages [location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/location-local-0.0.8.tar.gz tmp/location-local-0.0.9.tar.gz --markdown 20230722/l/location-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 11:45:03] INFO root fetch - processPackages [pretix-sumup]: Downloading https://files.pythonhosted.org/packages/bf/93/eca8688936a797b40c288c05660c79a27cca8b610a3b45f0559150a92fea/pretix-sumup-1.0.2.tar.gz
+[2023-07-22 11:45:03] INFO root fetch - processPackages [create-fastapi]: executing diffoscope
+[2023-07-22 11:45:03] INFO root fetch - processPackages [create-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create-fastapi-0.0.5.tar.gz tmp/create-fastapi-0.0.6.tar.gz --markdown 20230722/c/create-fastapi/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-22 11:45:03] INFO root fetch - processPackages [ExpoSeq]: executing diffoscope
+[2023-07-22 11:45:03] INFO root fetch - processPackages [ExpoSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpoSeq-1.1.17.tar.gz tmp/ExpoSeq-1.1.18.tar.gz --markdown 20230722/E/ExpoSeq/1.1.17-1.1.18/diff.md --exclude *.pyd
+[2023-07-22 11:45:03] INFO root fetch - processPackages [pretix-sumup]: executing diffoscope
+[2023-07-22 11:45:03] INFO root fetch - processPackages [pretix-sumup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-sumup-1.0.1.tar.gz tmp/pretix-sumup-1.0.2.tar.gz --markdown 20230722/p/pretix-sumup/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-22 11:45:03] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/0f/c5/80bfb459bb5571f10a94697c41c5045b1467dab3ccac776e6e159029cf03/domain-admin-1.5.4.tar.gz
+[2023-07-22 11:45:04] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-07-22 11:45:04] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.5.3.tar.gz tmp/domain-admin-1.5.4.tar.gz --markdown 20230722/d/domain-admin/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-22 11:45:04] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-22 11:45:04] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-22 11:45:04] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-22 11:45:04] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location-local-0.0.8.tar.gz]
+[2023-07-22 11:45:04] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location-local-0.0.9.tar.gz]
+[2023-07-22 11:45:04] INFO root fetch - main [MainThread]: End processing [location-local]: success
+[2023-07-22 11:45:04] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.8.tar.gz]
+[2023-07-22 11:45:04] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.9.tar.gz]
+[2023-07-22 11:45:04] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-22 11:45:04] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.7.716887386.tar.gz]
+[2023-07-22 11:45:04] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.7.716887389.tar.gz]
+[2023-07-22 11:45:04] INFO root fetch - main [MainThread]: End processing [django-tbase-post-product]: success
+[2023-07-22 11:45:04] INFO root fetch - processPackages [create-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/create-fastapi-0.0.5.tar.gz]
+[2023-07-22 11:45:04] INFO root fetch - processPackages [create-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/create-fastapi-0.0.6.tar.gz]
+[2023-07-22 11:45:04] INFO root fetch - main [MainThread]: End processing [create-fastapi]: success
+[2023-07-22 11:45:04] INFO root fetch - processPackages [pretix-sumup]: Remove: archive file [/home/abi/fetcher/tmp/pretix-sumup-1.0.1.tar.gz]
+[2023-07-22 11:45:04] INFO root fetch - processPackages [pretix-sumup]: Remove: archive file [/home/abi/fetcher/tmp/pretix-sumup-1.0.2.tar.gz]
+[2023-07-22 11:45:04] INFO root fetch - main [MainThread]: End processing [pretix-sumup]: success
+[2023-07-22 11:45:06] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.17.tar.gz]
+[2023-07-22 11:45:06] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.18.tar.gz]
+[2023-07-22 11:45:06] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
+[2023-07-22 11:45:23] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.3.tar.gz]
+[2023-07-22 11:45:23] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.4.tar.gz]
+[2023-07-22 11:45:23] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-07-22 11:45:23] INFO root fetch - main [MainThread]: Store serial: [18994194]
