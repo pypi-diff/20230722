@@ -10767,3 +10767,48 @@
 [2023-07-22 09:39:31] INFO root fetch - processPackages [inkstone]: Remove: archive file [/home/abi/fetcher/tmp/inkstone-0.2.9.tar.gz]
 [2023-07-22 09:39:31] INFO root fetch - main [MainThread]: End processing [inkstone]: success
 [2023-07-22 09:39:31] INFO root fetch - main [MainThread]: Store serial: [18993460]
+[2023-07-22 09:44:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993460]
+[2023-07-22 09:44:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-22 09:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfarmer
+[2023-07-22 09:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: groundingdino-stk
+[2023-07-22 09:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: groundingdino-stk
+[2023-07-22 09:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai-functions
+[2023-07-22 09:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: groundingdino-stk
+[2023-07-22 09:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: groundingdino-stk
+[2023-07-22 09:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: groundingdino-stk
+[2023-07-22 09:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: groundingdino-stk
+[2023-07-22 09:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: groundingdino-stk
+[2023-07-22 09:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: groundingdino-stk
+[2023-07-22 09:44:40] WARNING root fetch - processPackages [groundingdino-stk]: Skipping, unable to determine old version
+[2023-07-22 09:44:40] INFO root fetch - main [MainThread]: End processing [groundingdino-stk] error
+[2023-07-22 09:44:40] WARNING root fetch - processPackages [groundingdino-stk]: Skipping, unable to determine old version
+[2023-07-22 09:44:40] INFO root fetch - main [MainThread]: End processing [groundingdino-stk] error
+[2023-07-22 09:44:40] WARNING root fetch - processPackages [groundingdino-stk]: Skipping, unable to determine old version
+[2023-07-22 09:44:40] INFO root fetch - main [MainThread]: End processing [groundingdino-stk] error
+[2023-07-22 09:44:40] WARNING root fetch - processPackages [groundingdino-stk]: Skipping, unable to determine old version
+[2023-07-22 09:44:40] INFO root fetch - main [MainThread]: End processing [groundingdino-stk] error
+[2023-07-22 09:44:40] INFO root fetch - processPackages [pyfarmer]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-07-22 09:44:40] WARNING root fetch - processPackages [groundingdino-stk]: Skipping, unable to determine old version
+[2023-07-22 09:44:40] INFO root fetch - main [MainThread]: End processing [groundingdino-stk] error
+[2023-07-22 09:44:40] WARNING root fetch - processPackages [groundingdino-stk]: Skipping, unable to determine old version
+[2023-07-22 09:44:40] INFO root fetch - main [MainThread]: End processing [groundingdino-stk] error
+[2023-07-22 09:44:40] WARNING root fetch - processPackages [groundingdino-stk]: Skipping, unable to determine old version
+[2023-07-22 09:44:40] WARNING root fetch - processPackages [groundingdino-stk]: Skipping, unable to determine old version
+[2023-07-22 09:44:40] INFO root fetch - main [MainThread]: End processing [groundingdino-stk] error
+[2023-07-22 09:44:40] INFO root fetch - main [MainThread]: End processing [groundingdino-stk] error
+[2023-07-22 09:44:40] INFO root fetch - processPackages [ai-functions]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-22 09:44:40] INFO root fetch - processPackages [pyfarmer]: Downloading https://files.pythonhosted.org/packages/10/85/2728cfd43040350e727951a8ac7202a62adaccbbcada1aa70eccc4ea905d/pyfarmer-1.0.1.tar.gz
+[2023-07-22 09:44:40] INFO root fetch - processPackages [ai-functions]: Downloading https://files.pythonhosted.org/packages/96/86/2a0143d5fcfc3fd2021bedd6aa8eb3883c99901466cba19abf5bdc6bde52/ai_functions-0.1.0.tar.gz
+[2023-07-22 09:44:40] INFO root fetch - processPackages [pyfarmer]: Downloading https://files.pythonhosted.org/packages/a1/58/fa15cc25238a2e5970e06a63a46c18c5eea253446bbf8a23ad261822bfa3/pyfarmer-2.0.0.tar.gz
+[2023-07-22 09:44:41] INFO root fetch - processPackages [ai-functions]: Downloading https://files.pythonhosted.org/packages/f0/96/c513719790ac0ceb5f747434d57737b20a52afcc92e3acee4ce176f10904/ai_functions-0.2.0.tar.gz
+[2023-07-22 09:44:41] INFO root fetch - processPackages [pyfarmer]: executing diffoscope
+[2023-07-22 09:44:41] INFO root fetch - processPackages [pyfarmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfarmer-1.0.1.tar.gz tmp/pyfarmer-2.0.0.tar.gz --markdown 20230722/p/pyfarmer/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-22 09:44:41] INFO root fetch - processPackages [ai-functions]: executing diffoscope
+[2023-07-22 09:44:41] INFO root fetch - processPackages [ai-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_functions-0.1.0.tar.gz tmp/ai_functions-0.2.0.tar.gz --markdown 20230722/a/ai-functions/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-22 09:44:41] INFO root fetch - processPackages [pyfarmer]: Remove: archive file [/home/abi/fetcher/tmp/pyfarmer-1.0.1.tar.gz]
+[2023-07-22 09:44:41] INFO root fetch - processPackages [pyfarmer]: Remove: archive file [/home/abi/fetcher/tmp/pyfarmer-2.0.0.tar.gz]
+[2023-07-22 09:44:41] INFO root fetch - main [MainThread]: End processing [pyfarmer]: success
+[2023-07-22 09:44:41] INFO root fetch - processPackages [ai-functions]: Remove: archive file [/home/abi/fetcher/tmp/ai_functions-0.1.0.tar.gz]
+[2023-07-22 09:44:41] INFO root fetch - processPackages [ai-functions]: Remove: archive file [/home/abi/fetcher/tmp/ai_functions-0.2.0.tar.gz]
+[2023-07-22 09:44:41] INFO root fetch - main [MainThread]: End processing [ai-functions]: success
+[2023-07-22 09:44:41] INFO root fetch - main [MainThread]: Store serial: [18993502]
