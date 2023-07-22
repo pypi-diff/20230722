@@ -19364,3 +19364,79 @@ EOFError: EOF read where object expected
 [2023-07-22 22:11:00] INFO root fetch - processPackages [uploadserver]: Remove: archive file [/home/abi/fetcher/tmp/uploadserver-5.0.0.tar.gz]
 [2023-07-22 22:11:00] INFO root fetch - main [MainThread]: End processing [uploadserver]: success
 [2023-07-22 22:11:00] INFO root fetch - main [MainThread]: Store serial: [18997239]
+[2023-07-22 22:16:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18997239]
+[2023-07-22 22:16:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-22 22:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rl4co
+[2023-07-22 22:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aim-ui
+[2023-07-22 22:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ElisionPy
+[2023-07-22 22:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aim
+[2023-07-22 22:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vcorelib
+[2023-07-22 22:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: demogpt
+[2023-07-22 22:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oarepo-runtime
+[2023-07-22 22:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: EmberFactory
+[2023-07-22 22:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netron
+[2023-07-22 22:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: demogpt
+[2023-07-22 22:16:09] INFO root fetch - processPackages [ElisionPy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-22 22:16:09] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0a9] Old Version: [4.0.0a8]
+[2023-07-22 22:16:09] WARNING root fetch - processPackages [demogpt]: Skipping, unable to determine old version
+[2023-07-22 22:16:09] INFO root fetch - main [MainThread]: End processing [demogpt] error
+[2023-07-22 22:16:09] INFO root fetch - processPackages [aim]: New version: [4.0.0a9] Old Version: [4.0.0a7]
+[2023-07-22 22:16:09] INFO root fetch - processPackages [rl4co]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-07-22 22:16:09] WARNING root fetch - processPackages [demogpt]: Skipping, unable to determine old version
+[2023-07-22 22:16:09] INFO root fetch - main [MainThread]: End processing [demogpt] error
+[2023-07-22 22:16:09] INFO root fetch - processPackages [vcorelib]: New version: [2.4.0] Old Version: [2.3.1]
+[2023-07-22 22:16:09] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-22 22:16:09] INFO root fetch - processPackages [ElisionPy]: Downloading https://files.pythonhosted.org/packages/df/e4/12f5d9b330a10bd50edc3649e53f0233b748f0e441799423c21ab1d03cd8/ElisionPy-0.0.4.tar.gz
+[2023-07-22 22:16:09] INFO root fetch - processPackages [EmberFactory]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-07-22 22:16:09] INFO root fetch - processPackages [netron]: New version: [7.0.7] Old Version: [7.0.6]
+[2023-07-22 22:16:09] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/1b/27/ec8ff042712fc8f1ee017399fe7207ef06baaecaee7d6b1738df5c3467c0/aim-ui-4.0.0a8.tar.gz
+[2023-07-22 22:16:09] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 19414824>=10485760
+[2023-07-22 22:16:09] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-07-22 22:16:09] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/ee/90/668cdef5d777ae82570a5b95b243506790b0f53ace49feff6d50ef11e28f/aim-4.0.0a7.tar.gz
+[2023-07-22 22:16:09] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/f9/f5/1b8ee26c182b6edc00c19d276f2ad4c91652925c446cb5bbd6a88ad7daa7/vcorelib-2.3.1.tar.gz
+[2023-07-22 22:16:09] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/17/18/dcc7b08301454d96434492978faaaf5d8f943c96d8560d5742eb6824dfcd/oarepo-runtime-1.3.8.tar.gz
+[2023-07-22 22:16:09] INFO root fetch - processPackages [rl4co]: Downloading https://files.pythonhosted.org/packages/1b/14/40e1852f042f91cb4a7cbea56cd930cef00cddebb3abcf1f16cb309d82bb/rl4co-0.0.6.tar.gz
+[2023-07-22 22:16:09] INFO root fetch - processPackages [EmberFactory]: Downloading https://files.pythonhosted.org/packages/25/69/9aadadb18b52f2cb61a373b7e3bf98ab56e187ec9e602748e00a1a5cc0a1/EmberFactory-1.8.1-py3-none-any.whl
+[2023-07-22 22:16:09] INFO root fetch - processPackages [ElisionPy]: Downloading https://files.pythonhosted.org/packages/14/2d/330026f086aae425bee4bfb364b17c05aba240e539680d9c52ade29bb701/ElisionPy-0.0.5.tar.gz
+[2023-07-22 22:16:09] INFO root fetch - processPackages [ElisionPy]: executing diffoscope
+[2023-07-22 22:16:09] INFO root fetch - processPackages [ElisionPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ElisionPy-0.0.4.tar.gz tmp/ElisionPy-0.0.5.tar.gz --markdown 20230722/E/ElisionPy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-22 22:16:09] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/f9/f9/9cd8e1b20152389f410a7f078affc0a6015569b0c6ff075de30d4907af56/netron-7.0.7-py3-none-any.whl
+[2023-07-22 22:16:09] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/76/75/b73640f4bd9358491f91b5589abd6070bbb83f8320bfc35ef02b345b9b26/vcorelib-2.4.0.tar.gz
+[2023-07-22 22:16:09] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/c1/52/6d631d823c78de7a69774c9cb9ea8a853c3a663c3066fb47b845adc1b869/aim-4.0.0a9.tar.gz
+[2023-07-22 22:16:09] INFO root fetch - processPackages [rl4co]: Downloading https://files.pythonhosted.org/packages/0b/66/172c470729ac3a5bde4bed3bdeb85193bafc59313a016d9102fb3be55e4c/rl4co-0.1.0.tar.gz
+[2023-07-22 22:16:09] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/d4/a6/bbef3bd266677026b7d501efe81bd8f82ca65597bab5e89f9a32ef64b034/oarepo-runtime-1.3.9.tar.gz
+[2023-07-22 22:16:09] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-07-22 22:16:09] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0a7.tar.gz tmp/aim-4.0.0a9.tar.gz --markdown 20230722/a/aim/4.0.0a7-4.0.0a9/diff.md --exclude *.pyd
+[2023-07-22 22:16:10] INFO root fetch - processPackages [rl4co]: executing diffoscope
+[2023-07-22 22:16:10] INFO root fetch - processPackages [rl4co]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rl4co-0.0.6.tar.gz tmp/rl4co-0.1.0.tar.gz --markdown 20230722/r/rl4co/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-07-22 22:16:10] INFO root fetch - processPackages [vcorelib]: executing diffoscope
+[2023-07-22 22:16:10] INFO root fetch - processPackages [vcorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcorelib-2.3.1.tar.gz tmp/vcorelib-2.4.0.tar.gz --markdown 20230722/v/vcorelib/2.3.1-2.4.0/diff.md --exclude *.pyd
+[2023-07-22 22:16:10] INFO root fetch - processPackages [netron]: executing diffoscope
+[2023-07-22 22:16:10] INFO root fetch - processPackages [netron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netron-7.0.6-py3-none-any.whl.zip tmp/netron-7.0.7-py3-none-any.whl.zip --markdown 20230722/n/netron/7.0.6-7.0.7/diff.md --exclude *.pyd
+[2023-07-22 22:16:10] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-07-22 22:16:10] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.3.8.tar.gz tmp/oarepo-runtime-1.3.9.tar.gz --markdown 20230722/o/oarepo-runtime/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-22 22:16:10] INFO root fetch - processPackages [EmberFactory]: Downloading https://files.pythonhosted.org/packages/1e/e9/51e6b93a082f1b583cc5d0c2f8b8717f444ea599a0327795f6c67eef2b36/EmberFactory-1.8.2-py3-none-any.whl
+[2023-07-22 22:16:10] INFO root fetch - processPackages [ElisionPy]: Remove: archive file [/home/abi/fetcher/tmp/ElisionPy-0.0.4.tar.gz]
+[2023-07-22 22:16:10] INFO root fetch - processPackages [ElisionPy]: Remove: archive file [/home/abi/fetcher/tmp/ElisionPy-0.0.5.tar.gz]
+[2023-07-22 22:16:10] INFO root fetch - main [MainThread]: End processing [ElisionPy]: success
+[2023-07-22 22:16:10] INFO root fetch - processPackages [EmberFactory]: executing diffoscope
+[2023-07-22 22:16:10] INFO root fetch - processPackages [EmberFactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EmberFactory-1.8.1-py3-none-any.whl.zip tmp/EmberFactory-1.8.2-py3-none-any.whl.zip --markdown 20230722/E/EmberFactory/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-07-22 22:16:11] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.3.8.tar.gz]
+[2023-07-22 22:16:11] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.3.9.tar.gz]
+[2023-07-22 22:16:11] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-07-22 22:16:11] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-2.3.1.tar.gz]
+[2023-07-22 22:16:11] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-2.4.0.tar.gz]
+[2023-07-22 22:16:11] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
+[2023-07-22 22:16:11] INFO root fetch - processPackages [rl4co]: Remove: archive file [/home/abi/fetcher/tmp/rl4co-0.0.6.tar.gz]
+[2023-07-22 22:16:11] INFO root fetch - processPackages [rl4co]: Remove: archive file [/home/abi/fetcher/tmp/rl4co-0.1.0.tar.gz]
+[2023-07-22 22:16:11] INFO root fetch - main [MainThread]: End processing [rl4co]: success
+[2023-07-22 22:16:12] INFO root fetch - processPackages [EmberFactory]: Remove: archive file [/home/abi/fetcher/tmp/EmberFactory-1.8.1-py3-none-any.whl.zip]
+[2023-07-22 22:16:12] INFO root fetch - processPackages [EmberFactory]: Remove: archive file [/home/abi/fetcher/tmp/EmberFactory-1.8.2-py3-none-any.whl.zip]
+[2023-07-22 22:16:12] INFO root fetch - main [MainThread]: End processing [EmberFactory]: success
+[2023-07-22 22:16:14] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a7.tar.gz]
+[2023-07-22 22:16:14] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a9.tar.gz]
+[2023-07-22 22:16:14] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-07-22 22:17:52] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-7.0.6-py3-none-any.whl.zip]
+[2023-07-22 22:17:52] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-7.0.7-py3-none-any.whl.zip]
+[2023-07-22 22:17:52] INFO root fetch - main [MainThread]: End processing [netron]: success
+[2023-07-22 22:17:52] INFO root fetch - main [MainThread]: Store serial: [18997276]
