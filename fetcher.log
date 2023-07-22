@@ -2932,3 +2932,140 @@
 [2023-07-22 02:21:38] INFO root fetch - processPackages [colossalai-nightly]: Remove: archive file [/home/abi/fetcher/tmp/colossalai-nightly-2023.7.8.tar.gz]
 [2023-07-22 02:21:38] INFO root fetch - main [MainThread]: End processing [colossalai-nightly]: success
 [2023-07-22 02:21:38] INFO root fetch - main [MainThread]: Store serial: [18990545]
+[2023-07-22 02:26:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18990545]
+[2023-07-22 02:26:47] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-22 02:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BioSAK
+[2023-07-22 02:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-ethereum-node
+[2023-07-22 02:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Leonardo-Ai-SDK
+[2023-07-22 02:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-valheim
+[2023-07-22 02:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: writerai
+[2023-07-22 02:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: klongpy
+[2023-07-22 02:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-aurora-globaldatabase
+[2023-07-22 02:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-cr-constructs
+[2023-07-22 02:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mtrain-superclient
+[2023-07-22 02:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s-plus-26
+[2023-07-22 02:26:48] INFO root fetch - processPackages [mtrain-superclient]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-22 02:26:48] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-22 02:26:48] INFO root fetch - processPackages [mtrain-superclient]: Downloading https://files.pythonhosted.org/packages/74/11/aa2e7dd8880546d7cf5edc8e4aaada3627128422e4a1d2046512fbffc330/mtrain-superclient-0.3.2.tar.gz
+[2023-07-22 02:26:48] INFO root fetch - processPackages [writerai]: New version: [0.6.0] Old Version: [0.4.0]
+[2023-07-22 02:26:48] INFO root fetch - processPackages [klongpy]: New version: [0.4.0] Old Version: [0.3.78]
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk8s-valheim]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.5.0] Old Version: [2.4.98]
+[2023-07-22 02:26:48] INFO root fetch - processPackages [BioSAK]: New version: [1.70.0] Old Version: [1.69.7]
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk8s-valheim]: Downloading https://files.pythonhosted.org/packages/85/d8/81574b6442b1b94620aa1985afe516b2e1e0688ce1267cb3ec360aabdcd1/cdk8s-valheim-0.0.98.tar.gz
+[2023-07-22 02:26:48] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/39/76/5f4c6bc83e8b0d42d3479d25eaa5d9fb196c828420b6bd2485632e982688/Leonardo-Ai-SDK-1.9.0.tar.gz
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/d4/67/f7e303d34fd356e4c12388df0cc7968a175c8d9af1effbc319ae8e6c11ed/cdk8s-plus-26-2.4.98.tar.gz
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/fe/58/3e435ab85ca79a785db1238624c29b48fc60946bcbae9b2813fd45cb0a41/cdk-cr-constructs-2.1.98.tar.gz
+[2023-07-22 02:26:48] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/5a/f7/70bff71a6901a854d7f5e9ca018dc093a33bb03ce662e1729d02f7df141e/BioSAK-1.69.7.tar.gz
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2023-07-22 02:26:48] INFO root fetch - processPackages [klongpy]: Downloading https://files.pythonhosted.org/packages/f7/2d/333b06dcda760cc2e3169858e751264d2b922fd63242cb28ecff26f8b07d/klongpy-0.3.78.tar.gz
+[2023-07-22 02:26:48] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 12826336>=10485760
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk-cr-constructs]: Start processing: cdk-tweet-queue
+[2023-07-22 02:26:48] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2023-07-22 02:26:48] WARNING root fetch - processPackages [BioSAK]: Skipping package: exceeds size limit 21177483>=10485760
+[2023-07-22 02:26:48] INFO root fetch - processPackages [BioSAK]: Start processing: cdk-remote-stack
+[2023-07-22 02:26:48] INFO root fetch - main [MainThread]: End processing [BioSAK] error
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-22 02:26:48] INFO root fetch - processPackages [mtrain-superclient]: Downloading https://files.pythonhosted.org/packages/d0/50/36d3cf0ebaeb1b06391c2feb307957055af81629d74545e87c7bc385b4e2/mtrain-superclient-0.3.3.tar.gz
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk8s-valheim]: Downloading https://files.pythonhosted.org/packages/ce/27/b660a37e9470f74e7b0d5c589710b82fcbfc01ec4796630a81d2dabb9e17/cdk8s-valheim-0.0.99.tar.gz
+[2023-07-22 02:26:48] INFO root fetch - processPackages [writerai]: executing diffoscope
+[2023-07-22 02:26:48] INFO root fetch - processPackages [writerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/writerai-0.4.0.tar.gz tmp/writerai-0.6.0.tar.gz --markdown 20230722/w/writerai/0.4.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20230722/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk-remote-stack]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230722/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk8s-valheim]: executing diffoscope
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk8s-valheim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-valheim-0.0.98.tar.gz tmp/cdk8s-valheim-0.0.99.tar.gz --markdown 20230722/c/cdk8s-valheim/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-22 02:26:48] INFO root fetch - processPackages [cdk-remote-stack]: Downloading https://files.pythonhosted.org/packages/1e/de/45d43dc1fa4bc3424cd99914bf377237ae9ee0c29f504b3c449c461104e1/cdk-remote-stack-2.0.8.tar.gz
+[2023-07-22 02:26:48] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/1d/7e/21211f1d6e93f2854ea4ac38b0ea9833ef669da4862aebf0cb77cf1c3b95/Leonardo-Ai-SDK-1.9.1.tar.gz
+[2023-07-22 02:26:49] INFO root fetch - processPackages [mtrain-superclient]: executing diffoscope
+[2023-07-22 02:26:49] INFO root fetch - processPackages [mtrain-superclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtrain-superclient-0.3.2.tar.gz tmp/mtrain-superclient-0.3.3.tar.gz --markdown 20230722/m/mtrain-superclient/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-22 02:26:49] INFO root fetch - processPackages [klongpy]: Downloading https://files.pythonhosted.org/packages/69/2d/072ab603601ace1f41c8fd23cd224bb3f451a751d159f1fa44ce810a85ca/klongpy-0.4.0.tar.gz
+[2023-07-22 02:26:49] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2023-07-22 02:26:49] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-1.9.0.tar.gz tmp/Leonardo-Ai-SDK-1.9.1.tar.gz --markdown 20230722/L/Leonardo-Ai-SDK/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-22 02:26:49] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2023-07-22 02:26:49] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/05/77/3abaeec4ae534417b099052bd09d43744842a2701f8a40aa47bc3e875996/cdk8s-plus-26-2.5.0.tar.gz
+[2023-07-22 02:26:49] INFO root fetch - processPackages [klongpy]: executing diffoscope
+[2023-07-22 02:26:49] INFO root fetch - processPackages [klongpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klongpy-0.3.78.tar.gz tmp/klongpy-0.4.0.tar.gz --markdown 20230722/k/klongpy/0.3.78-0.4.0/diff.md --exclude *.pyd
+[2023-07-22 02:26:49] INFO root fetch - processPackages [cdk-remote-stack]: Downloading https://files.pythonhosted.org/packages/53/84/0d0362b5a5e90511d1836dad771fb231ff4adf4461322f76f2463dfdf6d3/cdk-remote-stack-2.0.9.tar.gz
+[2023-07-22 02:26:49] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2023-07-22 02:26:49] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20230722/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-22 02:26:49] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-22 02:26:49] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.98.tar.gz tmp/cdk8s-plus-26-2.5.0.tar.gz --markdown 20230722/c/cdk8s-plus-26/2.4.98-2.5.0/diff.md --exclude *.pyd
+[2023-07-22 02:26:49] INFO root fetch - processPackages [cdk-remote-stack]: executing diffoscope
+[2023-07-22 02:26:49] INFO root fetch - processPackages [cdk-remote-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-remote-stack-2.0.8.tar.gz tmp/cdk-remote-stack-2.0.9.tar.gz --markdown 20230722/c/cdk-remote-stack/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-22 02:26:49] INFO root fetch - processPackages [writerai]: Remove: archive file [/home/abi/fetcher/tmp/writerai-0.4.0.tar.gz]
+[2023-07-22 02:26:49] INFO root fetch - processPackages [writerai]: Remove: archive file [/home/abi/fetcher/tmp/writerai-0.6.0.tar.gz]
+[2023-07-22 02:26:49] INFO root fetch - processPackages [writerai]: Start processing: cloudlanguagetools
+[2023-07-22 02:26:49] INFO root fetch - main [MainThread]: End processing [writerai]: success
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cloudlanguagetools]: New version: [6.2] Old Version: [6.1]
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Start processing: cdk8s-redis
+[2023-07-22 02:26:50] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cloudlanguagetools]: Downloading https://files.pythonhosted.org/packages/27/ad/845362265393172af6db4f280264ff29538a43a7e902035a2f4ac0cb63b3/cloudlanguagetools-6.1.tar.gz
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Start processing: mtrain-superclient
+[2023-07-22 02:26:50] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cdk8s-valheim]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-valheim-0.0.98.tar.gz]
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cdk8s-valheim]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-valheim-0.0.99.tar.gz]
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cdk8s-valheim]: Start processing: bizlogic
+[2023-07-22 02:26:50] INFO root fetch - main [MainThread]: End processing [cdk8s-valheim]: success
+[2023-07-22 02:26:50] INFO root fetch - processPackages [mtrain-superclient]: Remove: archive file [/home/abi/fetcher/tmp/mtrain-superclient-0.3.2.tar.gz]
+[2023-07-22 02:26:50] INFO root fetch - processPackages [mtrain-superclient]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-22 02:26:50] INFO root fetch - processPackages [mtrain-superclient]: Remove: archive file [/home/abi/fetcher/tmp/mtrain-superclient-0.3.3.tar.gz]
+[2023-07-22 02:26:50] INFO root fetch - main [MainThread]: End processing [mtrain-superclient]: success
+[2023-07-22 02:26:50] INFO root fetch - processPackages [bizlogic]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-22 02:26:50] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/4d/06/5dc2e3752d6d558e778e8cd2faec34755c1d19245131fe6fbb5514ccf698/bizlogic-0.1.7.tar.gz
+[2023-07-22 02:26:50] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-1.9.0.tar.gz]
+[2023-07-22 02:26:50] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-1.9.1.tar.gz]
+[2023-07-22 02:26:50] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cloudlanguagetools]: Downloading https://files.pythonhosted.org/packages/9d/68/6d402d74696dcf764d5875e1bab321b1cd5a9dbf017f5fb2653887368bfc/cloudlanguagetools-6.2.tar.gz
+[2023-07-22 02:26:50] INFO root fetch - processPackages [mtrain-superclient]: Downloading https://files.pythonhosted.org/packages/a4/d6/b66c1a304ceb38df2c4b9b2748392703d64181ba02e049b9fd6ed529cef9/mtrain-superclient-0.3.4.tar.gz
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2023-07-22 02:26:50] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cloudlanguagetools]: executing diffoscope
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cloudlanguagetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudlanguagetools-6.1.tar.gz tmp/cloudlanguagetools-6.2.tar.gz --markdown 20230722/c/cloudlanguagetools/6.1-6.2/diff.md --exclude *.pyd
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230722/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-22 02:26:50] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/13/14/e746da7c6342352cb09dfd8acb0a6e2c7287cfcce20314f9667584991e62/bizlogic-0.1.8.tar.gz
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cdk-remote-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdk-remote-stack-2.0.8.tar.gz]
+[2023-07-22 02:26:50] INFO root fetch - processPackages [cdk-remote-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdk-remote-stack-2.0.9.tar.gz]
+[2023-07-22 02:26:50] INFO root fetch - main [MainThread]: End processing [cdk-remote-stack]: success
+[2023-07-22 02:26:51] INFO root fetch - processPackages [klongpy]: Remove: archive file [/home/abi/fetcher/tmp/klongpy-0.3.78.tar.gz]
+[2023-07-22 02:26:51] INFO root fetch - processPackages [klongpy]: Remove: archive file [/home/abi/fetcher/tmp/klongpy-0.4.0.tar.gz]
+[2023-07-22 02:26:51] INFO root fetch - main [MainThread]: End processing [klongpy]: success
+[2023-07-22 02:26:51] INFO root fetch - processPackages [mtrain-superclient]: Downloading https://files.pythonhosted.org/packages/cd/a9/f07cde531b8aa36d7cc2a0a4d408f3ae0876483f24fd724fe48909c33e5d/mtrain-superclient-0.3.5.tar.gz
+[2023-07-22 02:26:51] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-07-22 02:26:51] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.1.7.tar.gz tmp/bizlogic-0.1.8.tar.gz --markdown 20230722/b/bizlogic/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-22 02:26:51] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.98.tar.gz]
+[2023-07-22 02:26:51] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.5.0.tar.gz]
+[2023-07-22 02:26:51] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-22 02:26:51] INFO root fetch - processPackages [mtrain-superclient]: executing diffoscope
+[2023-07-22 02:26:51] INFO root fetch - processPackages [mtrain-superclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtrain-superclient-0.3.4.tar.gz tmp/mtrain-superclient-0.3.5.tar.gz --markdown 20230722/m/mtrain-superclient/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-22 02:26:51] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2023-07-22 02:26:51] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2023-07-22 02:26:51] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-07-22 02:26:51] INFO root fetch - processPackages [cloudlanguagetools]: Remove: archive file [/home/abi/fetcher/tmp/cloudlanguagetools-6.1.tar.gz]
+[2023-07-22 02:26:51] INFO root fetch - processPackages [cloudlanguagetools]: Remove: archive file [/home/abi/fetcher/tmp/cloudlanguagetools-6.2.tar.gz]
+[2023-07-22 02:26:51] INFO root fetch - main [MainThread]: End processing [cloudlanguagetools]: success
+[2023-07-22 02:26:52] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.1.7.tar.gz]
+[2023-07-22 02:26:52] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.1.8.tar.gz]
+[2023-07-22 02:26:52] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-07-22 02:26:52] INFO root fetch - processPackages [mtrain-superclient]: Remove: archive file [/home/abi/fetcher/tmp/mtrain-superclient-0.3.4.tar.gz]
+[2023-07-22 02:26:52] INFO root fetch - processPackages [mtrain-superclient]: Remove: archive file [/home/abi/fetcher/tmp/mtrain-superclient-0.3.5.tar.gz]
+[2023-07-22 02:26:52] INFO root fetch - main [MainThread]: End processing [mtrain-superclient]: success
+[2023-07-22 02:26:52] INFO root fetch - main [MainThread]: Store serial: [18990592]
