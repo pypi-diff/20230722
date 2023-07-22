@@ -20171,3 +20171,75 @@ EOFError: EOF read where object expected
 [2023-07-22 23:20:48] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.24.0a20230721-py2.py3-none-macosx_11_0_x86_64.whl.zip]
 [2023-07-22 23:20:48] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
 [2023-07-22 23:20:48] INFO root fetch - main [MainThread]: Store serial: [18997741]
+[2023-07-22 23:25:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18997741]
+[2023-07-22 23:25:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-22 23:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SBILib
+[2023-07-22 23:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swiftly-windows
+[2023-07-22 23:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wtfis
+[2023-07-22 23:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gvar
+[2023-07-22 23:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyfi
+[2023-07-22 23:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uniflow
+[2023-07-22 23:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sphinxcontrib-confluencebuilder
+[2023-07-22 23:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyethnicity
+[2023-07-22 23:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yambs
+[2023-07-22 23:25:57] INFO root fetch - processPackages [swiftly-windows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 23:25:57] WARNING root fetch - processPackages [uniflow]: Skipping, unable to determine old version
+[2023-07-22 23:25:57] INFO root fetch - main [MainThread]: End processing [uniflow] error
+[2023-07-22 23:25:57] INFO root fetch - processPackages [yambs]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-22 23:25:57] INFO root fetch - processPackages [SBILib]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-22 23:25:57] INFO root fetch - processPackages [hyfi]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-07-22 23:25:57] WARNING root fetch - processPackages [pyethnicity]: Skipping, unable to determine old version
+[2023-07-22 23:25:57] INFO root fetch - main [MainThread]: End processing [pyethnicity] error
+[2023-07-22 23:25:57] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/04/e8/10f1b9535e4fdd93692b69129ef019e1778c2e3b5c7f2223946cd3191776/yambs-2.0.0.tar.gz
+[2023-07-22 23:25:57] INFO root fetch - processPackages [sphinxcontrib-confluencebuilder]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-07-22 23:25:57] INFO root fetch - processPackages [swiftly-windows]: Downloading https://files.pythonhosted.org/packages/3c/76/0e32afa5916f47dd99509566836673d9087e2f5672efe382d289448eac62/swiftly-windows-0.0.8.tar.gz
+[2023-07-22 23:25:57] INFO root fetch - processPackages [wtfis]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-22 23:25:57] INFO root fetch - processPackages [gvar]: New version: [9.2.1] Old Version: [9.2]
+[2023-07-22 23:25:57] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/c4/ab/d8c924bebf7b01c9429a731e5a1d31e3d0357642a636cd4967e8677642c4/hyfi-1.7.0.tar.gz
+[2023-07-22 23:25:57] INFO root fetch - processPackages [SBILib]: Downloading https://files.pythonhosted.org/packages/f3/89/da4304abcf60687aac965370c6e2f4abcef742f433dac63089dd86d67827/SBILib-0.3.2.tar.gz
+[2023-07-22 23:25:57] INFO root fetch - processPackages [sphinxcontrib-confluencebuilder]: Downloading https://files.pythonhosted.org/packages/6d/f7/02722a018c5d52192e80c5b59af7913bfe05db0c021b37c504d7f267893a/sphinxcontrib_confluencebuilder-2.1.1.tar.gz
+[2023-07-22 23:25:57] INFO root fetch - processPackages [wtfis]: Downloading https://files.pythonhosted.org/packages/13/57/40322f3cdbbb59fb74eac9ffd40edb0a1538d033b6b7d2b33d129ecfe228/wtfis-0.6.1.tar.gz
+[2023-07-22 23:25:57] INFO root fetch - processPackages [gvar]: Downloading https://files.pythonhosted.org/packages/8e/95/4a93066de972312d08f0c313003bac02099b16ad488133863a09f6e754f3/gvar-9.2.tar.gz
+[2023-07-22 23:25:57] INFO root fetch - processPackages [swiftly-windows]: Downloading https://files.pythonhosted.org/packages/9b/27/a1cc64bc554f73c065719b011101ed5b604c821e9d802e867a71cfcec97c/swiftly-windows-0.0.9.tar.gz
+[2023-07-22 23:25:57] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/8f/37/2c9cc26c953127247cbe78b7ea9ed3845790dfef407fcf8539ae17479778/yambs-2.1.0.tar.gz
+[2023-07-22 23:25:57] INFO root fetch - processPackages [swiftly-windows]: executing diffoscope
+[2023-07-22 23:25:57] INFO root fetch - processPackages [swiftly-windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-windows-0.0.8.tar.gz tmp/swiftly-windows-0.0.9.tar.gz --markdown 20230722/s/swiftly-windows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 23:25:57] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-07-22 23:25:57] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-2.0.0.tar.gz tmp/yambs-2.1.0.tar.gz --markdown 20230722/y/yambs/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-22 23:25:57] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/43/31/98212dc651d1b4bad1fd9f63fcce665f386901fa8aa0f4752fb6ee4ccab2/hyfi-1.7.1.tar.gz
+[2023-07-22 23:25:57] INFO root fetch - processPackages [SBILib]: Downloading https://files.pythonhosted.org/packages/e1/cb/903c853bf9c9b126c4e1b474151c56ca2a786d1abe80c980021a8d515d3e/SBILib-0.3.3.tar.gz
+[2023-07-22 23:25:58] INFO root fetch - processPackages [sphinxcontrib-confluencebuilder]: Downloading https://files.pythonhosted.org/packages/b3/e7/1f8414839daef620bafd8008be245a2588bcae6e776d0f55c264c17330b0/sphinxcontrib_confluencebuilder-2.2.0.tar.gz
+[2023-07-22 23:25:58] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-22 23:25:58] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.7.0.tar.gz tmp/hyfi-1.7.1.tar.gz --markdown 20230722/h/hyfi/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-07-22 23:25:58] INFO root fetch - processPackages [sphinxcontrib-confluencebuilder]: executing diffoscope
+[2023-07-22 23:25:58] INFO root fetch - processPackages [sphinxcontrib-confluencebuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib_confluencebuilder-2.1.1.tar.gz tmp/sphinxcontrib_confluencebuilder-2.2.0.tar.gz --markdown 20230722/s/sphinxcontrib-confluencebuilder/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-07-22 23:25:58] INFO root fetch - processPackages [SBILib]: executing diffoscope
+[2023-07-22 23:25:58] INFO root fetch - processPackages [SBILib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SBILib-0.3.2.tar.gz tmp/SBILib-0.3.3.tar.gz --markdown 20230722/S/SBILib/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-22 23:25:58] INFO root fetch - processPackages [wtfis]: Downloading https://files.pythonhosted.org/packages/9b/e7/a941f1025c93e20b713dc1908cbc4b0314d884ea2e6ce04f68faf38a489c/wtfis-0.6.2.tar.gz
+[2023-07-22 23:25:58] INFO root fetch - processPackages [wtfis]: executing diffoscope
+[2023-07-22 23:25:58] INFO root fetch - processPackages [wtfis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtfis-0.6.1.tar.gz tmp/wtfis-0.6.2.tar.gz --markdown 20230722/w/wtfis/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-22 23:25:58] INFO root fetch - processPackages [swiftly-windows]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-windows-0.0.8.tar.gz]
+[2023-07-22 23:25:58] INFO root fetch - processPackages [swiftly-windows]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-windows-0.0.9.tar.gz]
+[2023-07-22 23:25:58] INFO root fetch - main [MainThread]: End processing [swiftly-windows]: success
+[2023-07-22 23:25:58] INFO root fetch - processPackages [gvar]: Downloading https://files.pythonhosted.org/packages/0d/ea/22d181b897d594da8b9baf1b60597f7b594127f83fb16f4acc9106e5a0be/gvar-9.2.1.tar.gz
+[2023-07-22 23:25:59] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-2.0.0.tar.gz]
+[2023-07-22 23:25:59] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-2.1.0.tar.gz]
+[2023-07-22 23:25:59] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-07-22 23:25:59] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.7.0.tar.gz]
+[2023-07-22 23:25:59] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.7.1.tar.gz]
+[2023-07-22 23:25:59] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-22 23:25:59] INFO root fetch - processPackages [gvar]: executing diffoscope
+[2023-07-22 23:25:59] INFO root fetch - processPackages [gvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gvar-9.2.tar.gz tmp/gvar-9.2.1.tar.gz --markdown 20230722/g/gvar/9.2-9.2.1/diff.md --exclude *.pyd
+[2023-07-22 23:25:59] INFO root fetch - processPackages [SBILib]: Remove: archive file [/home/abi/fetcher/tmp/SBILib-0.3.2.tar.gz]
+[2023-07-22 23:25:59] INFO root fetch - processPackages [SBILib]: Remove: archive file [/home/abi/fetcher/tmp/SBILib-0.3.3.tar.gz]
+[2023-07-22 23:25:59] INFO root fetch - main [MainThread]: End processing [SBILib]: success
+[2023-07-22 23:25:59] INFO root fetch - processPackages [wtfis]: Remove: archive file [/home/abi/fetcher/tmp/wtfis-0.6.1.tar.gz]
+[2023-07-22 23:25:59] INFO root fetch - processPackages [wtfis]: Remove: archive file [/home/abi/fetcher/tmp/wtfis-0.6.2.tar.gz]
+[2023-07-22 23:25:59] INFO root fetch - main [MainThread]: End processing [wtfis]: success
+[2023-07-22 23:25:59] INFO root fetch - processPackages [sphinxcontrib-confluencebuilder]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib_confluencebuilder-2.1.1.tar.gz]
+[2023-07-22 23:25:59] INFO root fetch - processPackages [sphinxcontrib-confluencebuilder]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib_confluencebuilder-2.2.0.tar.gz]
+[2023-07-22 23:25:59] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-confluencebuilder]: success
+[2023-07-22 23:26:04] INFO root fetch - processPackages [gvar]: Remove: archive file [/home/abi/fetcher/tmp/gvar-9.2.tar.gz]
+[2023-07-22 23:26:04] INFO root fetch - processPackages [gvar]: Remove: archive file [/home/abi/fetcher/tmp/gvar-9.2.1.tar.gz]
+[2023-07-22 23:26:04] INFO root fetch - main [MainThread]: End processing [gvar]: success
+[2023-07-22 23:26:04] INFO root fetch - main [MainThread]: Store serial: [18997770]
