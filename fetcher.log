@@ -10213,3 +10213,27 @@
 [2023-07-22 08:47:18] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.6.2.tar.gz]
 [2023-07-22 08:47:18] INFO root fetch - main [MainThread]: End processing [hyfi]: success
 [2023-07-22 08:47:18] INFO root fetch - main [MainThread]: Store serial: [18993243]
+[2023-07-22 08:52:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993243]
+[2023-07-22 08:52:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-22 08:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adgodfhkdfh
+[2023-07-22 08:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: image-codes
+[2023-07-22 08:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: readtime
+[2023-07-22 08:52:28] INFO root fetch - processPackages [adgodfhkdfh]: New version: [1.0.0] Old Version: [0.0.7]
+[2023-07-22 08:52:28] INFO root fetch - processPackages [adgodfhkdfh]: Downloading https://files.pythonhosted.org/packages/6b/e8/9b9a83950c53332a2c355402964e2f9eb985f5acfacce2b6fe63cdb0866e/adgodfhkdfh-0.0.7.tar.gz
+[2023-07-22 08:52:28] INFO root fetch - processPackages [readtime]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-07-22 08:52:28] WARNING root fetch - processPackages [image-codes]: Skipping, unable to determine old version
+[2023-07-22 08:52:28] INFO root fetch - main [MainThread]: End processing [image-codes] error
+[2023-07-22 08:52:28] INFO root fetch - processPackages [readtime]: Downloading https://files.pythonhosted.org/packages/14/a7/4b74e4c3b98ce61f1333ff75431beeca98bb9f48460b441e684c056e3b70/readtime-2.0.0.tar.gz
+[2023-07-22 08:52:28] INFO root fetch - processPackages [adgodfhkdfh]: Downloading https://files.pythonhosted.org/packages/41/9a/5a121a0dfd9de117dddac9603c4656251a568837b1b081ed7b7f182ac99e/adgodfhkdfh-1.0.0.tar.gz
+[2023-07-22 08:52:28] INFO root fetch - processPackages [adgodfhkdfh]: executing diffoscope
+[2023-07-22 08:52:28] INFO root fetch - processPackages [adgodfhkdfh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adgodfhkdfh-0.0.7.tar.gz tmp/adgodfhkdfh-1.0.0.tar.gz --markdown 20230722/a/adgodfhkdfh/0.0.7-1.0.0/diff.md --exclude *.pyd
+[2023-07-22 08:52:28] INFO root fetch - processPackages [readtime]: Downloading https://files.pythonhosted.org/packages/e2/9f/a8e3d08eab31d92e49ef2fe6423ce385503e74f793e0e1a81d343ea991d1/readtime-3.0.0.tar.gz
+[2023-07-22 08:52:28] INFO root fetch - processPackages [readtime]: executing diffoscope
+[2023-07-22 08:52:28] INFO root fetch - processPackages [readtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readtime-2.0.0.tar.gz tmp/readtime-3.0.0.tar.gz --markdown 20230722/r/readtime/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-22 08:52:29] INFO root fetch - processPackages [adgodfhkdfh]: Remove: archive file [/home/abi/fetcher/tmp/adgodfhkdfh-0.0.7.tar.gz]
+[2023-07-22 08:52:29] INFO root fetch - processPackages [adgodfhkdfh]: Remove: archive file [/home/abi/fetcher/tmp/adgodfhkdfh-1.0.0.tar.gz]
+[2023-07-22 08:52:29] INFO root fetch - main [MainThread]: End processing [adgodfhkdfh]: success
+[2023-07-22 08:52:29] INFO root fetch - processPackages [readtime]: Remove: archive file [/home/abi/fetcher/tmp/readtime-2.0.0.tar.gz]
+[2023-07-22 08:52:29] INFO root fetch - processPackages [readtime]: Remove: archive file [/home/abi/fetcher/tmp/readtime-3.0.0.tar.gz]
+[2023-07-22 08:52:29] INFO root fetch - main [MainThread]: End processing [readtime]: success
+[2023-07-22 08:52:29] INFO root fetch - main [MainThread]: Store serial: [18993257]
