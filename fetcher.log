@@ -7500,3 +7500,9 @@
 [2023-07-22 04:06:23] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.4.tar.gz]
 [2023-07-22 04:06:23] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-07-22 04:06:23] INFO root fetch - main [MainThread]: Store serial: [18992154]
+[2023-07-22 04:11:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992154]
+[2023-07-22 04:11:32] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-22 04:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gptree
+[2023-07-22 04:11:32] WARNING root fetch - processPackages [gptree]: Skipping, unable to determine old version
+[2023-07-22 04:11:32] INFO root fetch - main [MainThread]: End processing [gptree] error
+[2023-07-22 04:11:32] INFO root fetch - main [MainThread]: Store serial: [18992159]
