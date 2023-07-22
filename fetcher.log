@@ -9177,3 +9177,24 @@
 [2023-07-22 06:47:38] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.30.tar.gz]
 [2023-07-22 06:47:38] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
 [2023-07-22 06:47:38] INFO root fetch - main [MainThread]: Store serial: [18992716]
+[2023-07-22 06:52:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992716]
+[2023-07-22 06:52:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-22 06:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-eval
+[2023-07-22 06:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moabdb
+[2023-07-22 06:52:46] INFO root fetch - processPackages [auto-eval]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-07-22 06:52:46] INFO root fetch - processPackages [moabdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 06:52:47] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/20/2f/f31329bf7d4f1af2658a58064953aae0166d8f444a8d368a8d1fc6d50ddc/auto-eval-0.2.8.tar.gz
+[2023-07-22 06:52:47] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/96/03/58935b420c952db4961424ceeba97283a4c72fb94531da0acb864c0aa9ab/moabdb-0.1.8.tar.gz
+[2023-07-22 06:52:47] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/02/5a/dc332fba4b2f9beda962be321254cf1d20a93377cc750891d55f43989ee9/moabdb-0.1.9.tar.gz
+[2023-07-22 06:52:47] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/f8/3a/fd94a24074c54aba4b978cae18941cfff8c121c194aaf31c3b9a3f323e0b/auto-eval-0.3.0.tar.gz
+[2023-07-22 06:52:47] INFO root fetch - processPackages [moabdb]: executing diffoscope
+[2023-07-22 06:52:47] INFO root fetch - processPackages [moabdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moabdb-0.1.8.tar.gz tmp/moabdb-0.1.9.tar.gz --markdown 20230722/m/moabdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 06:52:47] INFO root fetch - processPackages [auto-eval]: executing diffoscope
+[2023-07-22 06:52:47] INFO root fetch - processPackages [auto-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-eval-0.2.8.tar.gz tmp/auto-eval-0.3.0.tar.gz --markdown 20230722/a/auto-eval/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-07-22 06:52:48] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.8.tar.gz]
+[2023-07-22 06:52:48] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.9.tar.gz]
+[2023-07-22 06:52:48] INFO root fetch - main [MainThread]: End processing [moabdb]: success
+[2023-07-22 06:52:48] INFO root fetch - processPackages [auto-eval]: Remove: archive file [/home/abi/fetcher/tmp/auto-eval-0.2.8.tar.gz]
+[2023-07-22 06:52:48] INFO root fetch - processPackages [auto-eval]: Remove: archive file [/home/abi/fetcher/tmp/auto-eval-0.3.0.tar.gz]
+[2023-07-22 06:52:48] INFO root fetch - main [MainThread]: End processing [auto-eval]: success
+[2023-07-22 06:52:48] INFO root fetch - main [MainThread]: Store serial: [18992724]
