@@ -12800,3 +12800,39 @@
 [2023-07-22 12:33:50] INFO root fetch - processPackages [ipymafs]: Remove: archive file [/home/abi/fetcher/tmp/ipymafs-0.0.2.tar.gz]
 [2023-07-22 12:33:50] INFO root fetch - main [MainThread]: End processing [ipymafs]: success
 [2023-07-22 12:33:50] INFO root fetch - main [MainThread]: Store serial: [18994382]
+[2023-07-22 12:38:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994382]
+[2023-07-22 12:38:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 12:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polyhedral-gravity
+[2023-07-22 12:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FicImageScript
+[2023-07-22 12:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oneat
+[2023-07-22 12:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ase-stubs
+[2023-07-22 12:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linovelib2epub
+[2023-07-22 12:38:58] WARNING root fetch - processPackages [ase-stubs]: Skipping, unable to determine old version
+[2023-07-22 12:38:58] INFO root fetch - main [MainThread]: End processing [ase-stubs] error
+[2023-07-22 12:38:58] INFO root fetch - processPackages [FicImageScript]: New version: [2.0.0] Old Version: [1.0.2]
+[2023-07-22 12:38:59] INFO root fetch - processPackages [linovelib2epub]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-22 12:38:59] INFO root fetch - processPackages [oneat]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-07-22 12:38:59] WARNING root fetch - processPackages [polyhedral-gravity]: Skipping, unable to determine old version
+[2023-07-22 12:38:59] INFO root fetch - main [MainThread]: End processing [polyhedral-gravity] error
+[2023-07-22 12:38:59] INFO root fetch - processPackages [FicImageScript]: Downloading https://files.pythonhosted.org/packages/5f/9e/851f7f83e330e39546bc23d6d785174013a0966fd0d3b74f1ddc70c830e9/FicImageScript-1.0.2.tar.gz
+[2023-07-22 12:38:59] INFO root fetch - processPackages [linovelib2epub]: Downloading https://files.pythonhosted.org/packages/0f/a6/8e2699dcd347479ddde4da9291abe2d1b6200dfb87844e3f0181c738a8d4/linovelib2epub-0.1.2-py3-none-any.whl
+[2023-07-22 12:38:59] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/9c/bf/658352546a4f2753c3f404f5fcad971e7b55375dbb6963ecccffba176b9e/oneat-6.0.0.tar.gz
+[2023-07-22 12:38:59] INFO root fetch - processPackages [FicImageScript]: Downloading https://files.pythonhosted.org/packages/9d/34/716bddb26b11956c0a61abd57371116526f2e43e59fa5e69797e8611b9a2/FicImageScript-2.0.0.tar.gz
+[2023-07-22 12:38:59] INFO root fetch - processPackages [linovelib2epub]: Downloading https://files.pythonhosted.org/packages/aa/48/3b943df0ec22b1280a1c7b39aa893c4ab5abf0683407b59f77682b0fc5e1/linovelib2epub-0.1.3-py3-none-any.whl
+[2023-07-22 12:38:59] INFO root fetch - processPackages [linovelib2epub]: executing diffoscope
+[2023-07-22 12:38:59] INFO root fetch - processPackages [linovelib2epub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linovelib2epub-0.1.2-py3-none-any.whl.zip tmp/linovelib2epub-0.1.3-py3-none-any.whl.zip --markdown 20230722/l/linovelib2epub/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-22 12:38:59] INFO root fetch - processPackages [FicImageScript]: executing diffoscope
+[2023-07-22 12:38:59] INFO root fetch - processPackages [FicImageScript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FicImageScript-1.0.2.tar.gz tmp/FicImageScript-2.0.0.tar.gz --markdown 20230722/F/FicImageScript/1.0.2-2.0.0/diff.md --exclude *.pyd
+[2023-07-22 12:39:00] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/2c/f4/2cc569bb2a676ef88511898b34c2bd6b6e25ce844301d071d710b8fe4f6a/oneat-6.0.1.tar.gz
+[2023-07-22 12:39:00] INFO root fetch - processPackages [linovelib2epub]: Remove: archive file [/home/abi/fetcher/tmp/linovelib2epub-0.1.2-py3-none-any.whl.zip]
+[2023-07-22 12:39:00] INFO root fetch - processPackages [linovelib2epub]: Remove: archive file [/home/abi/fetcher/tmp/linovelib2epub-0.1.3-py3-none-any.whl.zip]
+[2023-07-22 12:39:00] INFO root fetch - main [MainThread]: End processing [linovelib2epub]: success
+[2023-07-22 12:39:00] INFO root fetch - processPackages [FicImageScript]: Remove: archive file [/home/abi/fetcher/tmp/FicImageScript-1.0.2.tar.gz]
+[2023-07-22 12:39:00] INFO root fetch - processPackages [FicImageScript]: Remove: archive file [/home/abi/fetcher/tmp/FicImageScript-2.0.0.tar.gz]
+[2023-07-22 12:39:00] INFO root fetch - main [MainThread]: End processing [FicImageScript]: success
+[2023-07-22 12:39:00] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-22 12:39:00] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-6.0.0.tar.gz tmp/oneat-6.0.1.tar.gz --markdown 20230722/o/oneat/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-07-22 12:39:02] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.0.0.tar.gz]
+[2023-07-22 12:39:02] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.0.1.tar.gz]
+[2023-07-22 12:39:02] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-22 12:39:02] INFO root fetch - main [MainThread]: Store serial: [18994404]
