@@ -9820,3 +9820,39 @@
 [2023-07-22 08:00:28] INFO root fetch - processPackages [alt-profanity-check]: Remove: archive file [/home/abi/fetcher/tmp/alt-profanity-check-1.2.2.tar.gz]
 [2023-07-22 08:00:28] INFO root fetch - main [MainThread]: End processing [alt-profanity-check]: success
 [2023-07-22 08:00:28] INFO root fetch - main [MainThread]: Store serial: [18993021]
+[2023-07-22 08:05:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993021]
+[2023-07-22 08:05:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 08:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eztils
+[2023-07-22 08:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-l10n-ro-payment-to-statement
+[2023-07-22 08:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skillshare-downloader
+[2023-07-22 08:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OneOnOne
+[2023-07-22 08:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: email-phone-validator
+[2023-07-22 08:05:39] WARNING root fetch - processPackages [skillshare-downloader]: Skipping, unable to determine old version
+[2023-07-22 08:05:39] INFO root fetch - main [MainThread]: End processing [skillshare-downloader] error
+[2023-07-22 08:05:39] INFO root fetch - processPackages [OneOnOne]: New version: [0.6922] Old Version: [0.6921]
+[2023-07-22 08:05:39] INFO root fetch - processPackages [eztils]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-22 08:05:40] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/5b/2d/c044736b65f18fc66cfa7c79732ef3a7d59be75199bb2be6c93c267c61ba/OneOnOne-0.6921.tar.gz
+[2023-07-22 08:05:40] WARNING root fetch - processPackages [email-phone-validator]: Skipping, unable to determine old version
+[2023-07-22 08:05:40] INFO root fetch - main [MainThread]: End processing [email-phone-validator] error
+[2023-07-22 08:05:40] INFO root fetch - processPackages [odoo14-addon-l10n-ro-payment-to-statement]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.1.dev1]
+[2023-07-22 08:05:40] INFO root fetch - processPackages [eztils]: Downloading https://files.pythonhosted.org/packages/7a/d6/5cda360c4b2cd978b3194e1bc233f777ffcf782d416ae499ec66b388f1c2/eztils-0.4.4.tar.gz
+[2023-07-22 08:05:40] INFO root fetch - processPackages [odoo14-addon-l10n-ro-payment-to-statement]: Downloading https://files.pythonhosted.org/packages/dd/b3/7ebf13a5805b0d2d9816f9617ed918d1230bd96bae21fb5cec3d8420f1af/odoo14_addon_l10n_ro_payment_to_statement-14.0.2.8.1.dev1-py3-none-any.whl
+[2023-07-22 08:05:40] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/f7/f0/eee433702dd376c44cdcd14012b100707e37f39dc633ae748f5ec795ed65/OneOnOne-0.6922.tar.gz
+[2023-07-22 08:05:40] INFO root fetch - processPackages [eztils]: Downloading https://files.pythonhosted.org/packages/a3/87/f6577a9808a8409ca3ccfb7d28420a1846ca8a15d1769111314d5a8f8add/eztils-0.4.5.tar.gz
+[2023-07-22 08:05:40] INFO root fetch - processPackages [eztils]: executing diffoscope
+[2023-07-22 08:05:40] INFO root fetch - processPackages [eztils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eztils-0.4.4.tar.gz tmp/eztils-0.4.5.tar.gz --markdown 20230722/e/eztils/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-22 08:05:40] INFO root fetch - processPackages [odoo14-addon-l10n-ro-payment-to-statement]: Downloading https://files.pythonhosted.org/packages/c5/2d/f832efd5e797bd298562440ff8990bf88dbd7437ae88f5f0303610f03028/odoo14_addon_l10n_ro_payment_to_statement-14.0.2.9.0-py3-none-any.whl
+[2023-07-22 08:05:40] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 08:05:40] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6921.tar.gz tmp/OneOnOne-0.6922.tar.gz --markdown 20230722/O/OneOnOne/0.6921-0.6922/diff.md --exclude *.pyd
+[2023-07-22 08:05:40] INFO root fetch - processPackages [odoo14-addon-l10n-ro-payment-to-statement]: executing diffoscope
+[2023-07-22 08:05:40] INFO root fetch - processPackages [odoo14-addon-l10n-ro-payment-to-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ro_payment_to_statement-14.0.2.8.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ro_payment_to_statement-14.0.2.9.0-py3-none-any.whl.zip --markdown 20230722/o/odoo14-addon-l10n-ro-payment-to-statement/14.0.2.8.1.dev1-14.0.2.9.0/diff.md --exclude *.pyd
+[2023-07-22 08:05:41] INFO root fetch - processPackages [eztils]: Remove: archive file [/home/abi/fetcher/tmp/eztils-0.4.4.tar.gz]
+[2023-07-22 08:05:41] INFO root fetch - processPackages [eztils]: Remove: archive file [/home/abi/fetcher/tmp/eztils-0.4.5.tar.gz]
+[2023-07-22 08:05:41] INFO root fetch - main [MainThread]: End processing [eztils]: success
+[2023-07-22 08:05:41] INFO root fetch - processPackages [odoo14-addon-l10n-ro-payment-to-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_payment_to_statement-14.0.2.8.1.dev1-py3-none-any.whl.zip]
+[2023-07-22 08:05:41] INFO root fetch - processPackages [odoo14-addon-l10n-ro-payment-to-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_payment_to_statement-14.0.2.9.0-py3-none-any.whl.zip]
+[2023-07-22 08:05:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-payment-to-statement]: success
+[2023-07-22 08:05:41] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6921.tar.gz]
+[2023-07-22 08:05:41] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6922.tar.gz]
+[2023-07-22 08:05:41] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 08:05:41] INFO root fetch - main [MainThread]: Store serial: [18993038]
