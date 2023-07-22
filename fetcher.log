@@ -12158,3 +12158,63 @@
 [2023-07-22 11:29:28] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.6.tar.gz]
 [2023-07-22 11:29:28] INFO root fetch - main [MainThread]: End processing [bcmd]: success
 [2023-07-22 11:29:28] INFO root fetch - main [MainThread]: Store serial: [18994117]
+[2023-07-22 11:34:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994117]
+[2023-07-22 11:34:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 11:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osw
+[2023-07-22 11:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thunno2
+[2023-07-22 11:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyassist
+[2023-07-22 11:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: o2despy
+[2023-07-22 11:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moshpdf20230722
+[2023-07-22 11:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: binpan
+[2023-07-22 11:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crypto-screening
+[2023-07-22 11:34:37] INFO root fetch - processPackages [o2despy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-22 11:34:37] INFO root fetch - processPackages [binpan]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-22 11:34:37] INFO root fetch - processPackages [crypto-screening]: New version: [7.5.5] Old Version: [7.5.4]
+[2023-07-22 11:34:37] INFO root fetch - processPackages [thunno2]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-07-22 11:34:37] WARNING root fetch - processPackages [moshpdf20230722]: Skipping, unable to determine old version
+[2023-07-22 11:34:37] INFO root fetch - main [MainThread]: End processing [moshpdf20230722] error
+[2023-07-22 11:34:37] INFO root fetch - processPackages [pyassist]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-22 11:34:37] INFO root fetch - processPackages [osw]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-22 11:34:37] INFO root fetch - processPackages [o2despy]: Downloading https://files.pythonhosted.org/packages/71/23/12b3c5a04a2cb5554f81960518210c6dae0487807e6113e50b32c80c5674/o2despy-0.0.4.tar.gz
+[2023-07-22 11:34:37] INFO root fetch - processPackages [binpan]: Downloading https://files.pythonhosted.org/packages/9a/c3/428612272a28dfbf5f1cdd8ea5a1b04925a2386a536f411087b1c492cb6b/binpan-0.4.8.tar.gz
+[2023-07-22 11:34:37] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/4c/d7/26f441b8318619fc80d766c78349abe52787cf09e836ef01f98802caa804/crypto-screening-7.5.4.tar.gz
+[2023-07-22 11:34:37] INFO root fetch - processPackages [thunno2]: Downloading https://files.pythonhosted.org/packages/6c/a8/cf38c49476199cb64fe03c85d736ceb4ae2d13d3906e112b70441d7b2bd9/thunno2-2.2.2.tar.gz
+[2023-07-22 11:34:37] INFO root fetch - processPackages [pyassist]: Downloading https://files.pythonhosted.org/packages/4e/c2/de40b66d5f9a0b4fd5aedecc3817b4229032b58cb954299e55a03c96b275/pyassist-0.2.2.tar.gz
+[2023-07-22 11:34:37] INFO root fetch - processPackages [osw]: Downloading https://files.pythonhosted.org/packages/26/a8/326700e2a6461b1445964baa8f725eaa49b86e7d01b90acfe28e9cd8dd9c/osw-0.8.1.tar.gz
+[2023-07-22 11:34:37] INFO root fetch - processPackages [binpan]: Downloading https://files.pythonhosted.org/packages/a0/98/349c07c553f7bfad1d6e1c7717a411195002cd92d0fc40e3ade7867c8d7f/binpan-0.4.9.tar.gz
+[2023-07-22 11:34:37] INFO root fetch - processPackages [o2despy]: Downloading https://files.pythonhosted.org/packages/c3/7c/911f635d1a3dc54ee2fbf421d99c45614acd32f65da699dde89a3c8ae1bb/o2despy-0.0.5.tar.gz
+[2023-07-22 11:34:38] INFO root fetch - processPackages [binpan]: executing diffoscope
+[2023-07-22 11:34:38] INFO root fetch - processPackages [binpan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binpan-0.4.8.tar.gz tmp/binpan-0.4.9.tar.gz --markdown 20230722/b/binpan/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-22 11:34:38] INFO root fetch - processPackages [o2despy]: executing diffoscope
+[2023-07-22 11:34:38] INFO root fetch - processPackages [o2despy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/o2despy-0.0.4.tar.gz tmp/o2despy-0.0.5.tar.gz --markdown 20230722/o/o2despy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-22 11:34:38] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/5e/46/0f9f514efadceb7c7d6a914ddff9a2896d35b38a69bf7c667cf5dd2e01a7/crypto-screening-7.5.5.tar.gz
+[2023-07-22 11:34:38] INFO root fetch - processPackages [thunno2]: Downloading https://files.pythonhosted.org/packages/80/db/5e66f7e599b78e9b23d92d8923ce1a9225e0d1aa30a14e0f7682001ef2e6/thunno2-2.2.3.tar.gz
+[2023-07-22 11:34:38] INFO root fetch - processPackages [pyassist]: Downloading https://files.pythonhosted.org/packages/06/29/940e7e9b4d32cba654ea988169eaab124819d3db5d3af403a220239009b6/pyassist-0.2.3.tar.gz
+[2023-07-22 11:34:38] INFO root fetch - processPackages [osw]: Downloading https://files.pythonhosted.org/packages/13/cc/74dd2c87432fecad0abe454330808f96c0eb0589faea2daeb46dd621947a/osw-0.9.0.tar.gz
+[2023-07-22 11:34:38] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-22 11:34:38] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-7.5.4.tar.gz tmp/crypto-screening-7.5.5.tar.gz --markdown 20230722/c/crypto-screening/7.5.4-7.5.5/diff.md --exclude *.pyd
+[2023-07-22 11:34:38] INFO root fetch - processPackages [pyassist]: executing diffoscope
+[2023-07-22 11:34:38] INFO root fetch - processPackages [pyassist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyassist-0.2.2.tar.gz tmp/pyassist-0.2.3.tar.gz --markdown 20230722/p/pyassist/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-22 11:34:38] INFO root fetch - processPackages [thunno2]: executing diffoscope
+[2023-07-22 11:34:38] INFO root fetch - processPackages [thunno2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thunno2-2.2.2.tar.gz tmp/thunno2-2.2.3.tar.gz --markdown 20230722/t/thunno2/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-07-22 11:34:38] INFO root fetch - processPackages [osw]: executing diffoscope
+[2023-07-22 11:34:38] INFO root fetch - processPackages [osw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osw-0.8.1.tar.gz tmp/osw-0.9.0.tar.gz --markdown 20230722/o/osw/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-22 11:34:39] INFO root fetch - processPackages [o2despy]: Remove: archive file [/home/abi/fetcher/tmp/o2despy-0.0.4.tar.gz]
+[2023-07-22 11:34:39] INFO root fetch - processPackages [o2despy]: Remove: archive file [/home/abi/fetcher/tmp/o2despy-0.0.5.tar.gz]
+[2023-07-22 11:34:39] INFO root fetch - main [MainThread]: End processing [o2despy]: success
+[2023-07-22 11:34:39] INFO root fetch - processPackages [binpan]: Remove: archive file [/home/abi/fetcher/tmp/binpan-0.4.8.tar.gz]
+[2023-07-22 11:34:39] INFO root fetch - processPackages [binpan]: Remove: archive file [/home/abi/fetcher/tmp/binpan-0.4.9.tar.gz]
+[2023-07-22 11:34:39] INFO root fetch - main [MainThread]: End processing [binpan]: success
+[2023-07-22 11:34:39] INFO root fetch - processPackages [pyassist]: Remove: archive file [/home/abi/fetcher/tmp/pyassist-0.2.2.tar.gz]
+[2023-07-22 11:34:39] INFO root fetch - processPackages [pyassist]: Remove: archive file [/home/abi/fetcher/tmp/pyassist-0.2.3.tar.gz]
+[2023-07-22 11:34:39] INFO root fetch - main [MainThread]: End processing [pyassist]: success
+[2023-07-22 11:34:39] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.5.4.tar.gz]
+[2023-07-22 11:34:39] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.5.5.tar.gz]
+[2023-07-22 11:34:39] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-22 11:34:39] INFO root fetch - processPackages [thunno2]: Remove: archive file [/home/abi/fetcher/tmp/thunno2-2.2.2.tar.gz]
+[2023-07-22 11:34:39] INFO root fetch - processPackages [thunno2]: Remove: archive file [/home/abi/fetcher/tmp/thunno2-2.2.3.tar.gz]
+[2023-07-22 11:34:39] INFO root fetch - main [MainThread]: End processing [thunno2]: success
+[2023-07-22 11:34:39] INFO root fetch - processPackages [osw]: Remove: archive file [/home/abi/fetcher/tmp/osw-0.8.1.tar.gz]
+[2023-07-22 11:34:39] INFO root fetch - processPackages [osw]: Remove: archive file [/home/abi/fetcher/tmp/osw-0.9.0.tar.gz]
+[2023-07-22 11:34:39] INFO root fetch - main [MainThread]: End processing [osw]: success
+[2023-07-22 11:34:39] INFO root fetch - main [MainThread]: Store serial: [18994137]
