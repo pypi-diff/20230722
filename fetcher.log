@@ -19890,3 +19890,63 @@ EOFError: EOF read where object expected
 [2023-07-22 22:59:56] INFO root fetch - processPackages [iso3166-updates]: Remove: archive file [/home/abi/fetcher/tmp/iso3166-updates-1.4.2.tar.gz]
 [2023-07-22 22:59:56] INFO root fetch - main [MainThread]: End processing [iso3166-updates]: success
 [2023-07-22 22:59:56] INFO root fetch - main [MainThread]: Store serial: [18997547]
+[2023-07-22 23:05:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18997547]
+[2023-07-22 23:05:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-22 23:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataglide
+[2023-07-22 23:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dapplooker
+[2023-07-22 23:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medipt
+[2023-07-22 23:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyscylla
+[2023-07-22 23:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datawave
+[2023-07-22 23:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: catcli
+[2023-07-22 23:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nat-gateway-setup
+[2023-07-22 23:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pox
+[2023-07-22 23:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dataspiral
+[2023-07-22 23:05:05] WARNING root fetch - processPackages [datawave]: Skipping, unable to determine old version
+[2023-07-22 23:05:05] INFO root fetch - main [MainThread]: End processing [datawave] error
+[2023-07-22 23:05:05] INFO root fetch - processPackages [dapplooker]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-07-22 23:05:05] INFO root fetch - processPackages [catcli]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-22 23:05:05] INFO root fetch - processPackages [medipt]: New version: [0.0.3.8] Old Version: [0.0.1]
+[2023-07-22 23:05:05] WARNING root fetch - processPackages [dataglide]: Skipping, unable to determine old version
+[2023-07-22 23:05:05] INFO root fetch - main [MainThread]: End processing [dataglide] error
+[2023-07-22 23:05:05] INFO root fetch - processPackages [pyscylla]: New version: [0.11.1] Old Version: [0.11.0]
+[2023-07-22 23:05:05] WARNING root fetch - processPackages [nat-gateway-setup]: Skipping, unable to determine old version
+[2023-07-22 23:05:05] INFO root fetch - main [MainThread]: End processing [nat-gateway-setup] error
+[2023-07-22 23:05:05] WARNING root fetch - processPackages [dataspiral]: Skipping, unable to determine old version
+[2023-07-22 23:05:05] INFO root fetch - main [MainThread]: End processing [dataspiral] error
+[2023-07-22 23:05:05] INFO root fetch - processPackages [pox]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-22 23:05:05] INFO root fetch - processPackages [dapplooker]: Downloading https://files.pythonhosted.org/packages/79/e6/ebe9806b99ac70d48e2f2869d8740098b55d210e85544315aa48d1e81f9b/dapplooker-0.0.1.tar.gz
+[2023-07-22 23:05:05] INFO root fetch - processPackages [medipt]: Downloading https://files.pythonhosted.org/packages/b2/94/26152dbbf2621482b84ed03b315bdb8a15f13bd3b36f4b61c8a5da390a13/medipt-0.0.1.tar.gz
+[2023-07-22 23:05:05] INFO root fetch - processPackages [catcli]: Downloading https://files.pythonhosted.org/packages/84/f6/9b52f5244f1870b4c56be6ddeb7982fabc583c2f448be95b95d487cf2010/catcli-0.9.4.tar.gz
+[2023-07-22 23:05:05] INFO root fetch - processPackages [pyscylla]: Downloading https://files.pythonhosted.org/packages/1f/89/fc3c751a3a93def59cb85aedfce571a694fa02d06b64990ea8e3b1814197/pyscylla-0.11.0-cp39-cp39-win_amd64.whl
+[2023-07-22 23:05:05] INFO root fetch - processPackages [pox]: Downloading https://files.pythonhosted.org/packages/e6/91/9e0abb44af18a53b238cd3d0c707b38fa74083da3701e7599a20786b37d5/pox-0.3.2.tar.gz
+[2023-07-22 23:05:05] INFO root fetch - processPackages [dapplooker]: Downloading https://files.pythonhosted.org/packages/b3/8e/a6da31125e3ea9791e3fccc1b3a94f1e81481fd48fcdb4e2ff4230fe017f/dapplooker-0.0.3.tar.gz
+[2023-07-22 23:05:06] INFO root fetch - processPackages [medipt]: Downloading https://files.pythonhosted.org/packages/51/02/ff1f557158764754eb7c7960307f2ce488fc914b38aa95ceef57e19367e3/medipt-0.0.3.8.tar.gz
+[2023-07-22 23:05:06] INFO root fetch - processPackages [medipt]: executing diffoscope
+[2023-07-22 23:05:06] INFO root fetch - processPackages [medipt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medipt-0.0.1.tar.gz tmp/medipt-0.0.3.8.tar.gz --markdown 20230722/m/medipt/0.0.1-0.0.3.8/diff.md --exclude *.pyd
+[2023-07-22 23:05:06] INFO root fetch - processPackages [dapplooker]: executing diffoscope
+[2023-07-22 23:05:06] INFO root fetch - processPackages [dapplooker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapplooker-0.0.1.tar.gz tmp/dapplooker-0.0.3.tar.gz --markdown 20230722/d/dapplooker/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-07-22 23:05:06] INFO root fetch - processPackages [pox]: Downloading https://files.pythonhosted.org/packages/ec/4c/22beb011c819df2f70a9ae4eac0d28a90ee982b5e325f41a93351c5d852d/pox-0.3.3.tar.gz
+[2023-07-22 23:05:06] INFO root fetch - processPackages [catcli]: Downloading https://files.pythonhosted.org/packages/1e/18/ec64c8b227b0acafa22d692bf262a0af8bbd9122917a5e96385a0f2c304f/catcli-0.9.5.tar.gz
+[2023-07-22 23:05:06] INFO root fetch - processPackages [catcli]: executing diffoscope
+[2023-07-22 23:05:06] INFO root fetch - processPackages [catcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catcli-0.9.4.tar.gz tmp/catcli-0.9.5.tar.gz --markdown 20230722/c/catcli/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-22 23:05:06] INFO root fetch - processPackages [pyscylla]: Downloading https://files.pythonhosted.org/packages/16/26/4433149c6bf6d86c647d5f0b857cb9358f70f29240229670eef874141ffa/pyscylla-0.11.1-cp39-cp39-win_amd64.whl
+[2023-07-22 23:05:06] INFO root fetch - processPackages [pox]: executing diffoscope
+[2023-07-22 23:05:06] INFO root fetch - processPackages [pox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pox-0.3.2.tar.gz tmp/pox-0.3.3.tar.gz --markdown 20230722/p/pox/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-22 23:05:06] INFO root fetch - processPackages [pyscylla]: executing diffoscope
+[2023-07-22 23:05:06] INFO root fetch - processPackages [pyscylla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscylla-0.11.0-cp39-cp39-win_amd64.whl.zip tmp/pyscylla-0.11.1-cp39-cp39-win_amd64.whl.zip --markdown 20230722/p/pyscylla/0.11.0-0.11.1/diff.md --exclude *.pyd
+[2023-07-22 23:05:07] INFO root fetch - processPackages [medipt]: Remove: archive file [/home/abi/fetcher/tmp/medipt-0.0.1.tar.gz]
+[2023-07-22 23:05:07] INFO root fetch - processPackages [medipt]: Remove: archive file [/home/abi/fetcher/tmp/medipt-0.0.3.8.tar.gz]
+[2023-07-22 23:05:07] INFO root fetch - main [MainThread]: End processing [medipt]: success
+[2023-07-22 23:05:07] INFO root fetch - processPackages [dapplooker]: Remove: archive file [/home/abi/fetcher/tmp/dapplooker-0.0.1.tar.gz]
+[2023-07-22 23:05:07] INFO root fetch - processPackages [dapplooker]: Remove: archive file [/home/abi/fetcher/tmp/dapplooker-0.0.3.tar.gz]
+[2023-07-22 23:05:07] INFO root fetch - main [MainThread]: End processing [dapplooker]: success
+[2023-07-22 23:05:07] INFO root fetch - processPackages [catcli]: Remove: archive file [/home/abi/fetcher/tmp/catcli-0.9.4.tar.gz]
+[2023-07-22 23:05:07] INFO root fetch - processPackages [catcli]: Remove: archive file [/home/abi/fetcher/tmp/catcli-0.9.5.tar.gz]
+[2023-07-22 23:05:07] INFO root fetch - main [MainThread]: End processing [catcli]: success
+[2023-07-22 23:05:07] INFO root fetch - processPackages [pox]: Remove: archive file [/home/abi/fetcher/tmp/pox-0.3.2.tar.gz]
+[2023-07-22 23:05:07] INFO root fetch - processPackages [pox]: Remove: archive file [/home/abi/fetcher/tmp/pox-0.3.3.tar.gz]
+[2023-07-22 23:05:07] INFO root fetch - main [MainThread]: End processing [pox]: success
+[2023-07-22 23:05:09] INFO root fetch - processPackages [pyscylla]: Remove: archive file [/home/abi/fetcher/tmp/pyscylla-0.11.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-22 23:05:09] INFO root fetch - processPackages [pyscylla]: Remove: archive file [/home/abi/fetcher/tmp/pyscylla-0.11.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-22 23:05:09] INFO root fetch - main [MainThread]: End processing [pyscylla]: success
+[2023-07-22 23:05:09] INFO root fetch - main [MainThread]: Store serial: [18997588]
