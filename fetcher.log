@@ -2331,3 +2331,164 @@
 [2023-07-22 02:00:30] INFO root fetch - processPackages [jag-panzer]: Remove: archive file [/home/abi/fetcher/tmp/jag-panzer-0.1.23.tar.gz]
 [2023-07-22 02:00:30] INFO root fetch - main [MainThread]: End processing [jag-panzer]: success
 [2023-07-22 02:00:30] INFO root fetch - main [MainThread]: Store serial: [18990324]
+[2023-07-22 02:05:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18990324]
+[2023-07-22 02:05:38] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-22 02:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jag-panzer
+[2023-07-22 02:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dropchain-sdk
+[2023-07-22 02:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: perky
+[2023-07-22 02:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Pytdbot
+[2023-07-22 02:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agentmemory
+[2023-07-22 02:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-radiance
+[2023-07-22 02:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-github
+[2023-07-22 02:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchdatasets-nightly
+[2023-07-22 02:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: motion-python
+[2023-07-22 02:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mct-nightly
+[2023-07-22 02:05:39] INFO root fetch - processPackages [Pytdbot]: New version: [0.8.4.dev3] Old Version: [0.8.4.dev2]
+[2023-07-22 02:05:39] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-22 02:05:39] INFO root fetch - processPackages [motion-python]: New version: [0.1.82] Old Version: [0.1.81]
+[2023-07-22 02:05:39] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-22 02:05:39] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1689897798] Old Version: [1689811397]
+[2023-07-22 02:05:39] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230721.post351] Old Version: [1.9.0.20230720.post412]
+[2023-07-22 02:05:39] INFO root fetch - processPackages [dropchain-sdk]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-22 02:05:39] INFO root fetch - processPackages [perky]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-22 02:05:39] INFO root fetch - processPackages [jag-panzer]: New version: [0.1.24] Old Version: [0.1.23]
+[2023-07-22 02:05:39] INFO root fetch - processPackages [agentmemory]: New version: [0.2.7] Old Version: [0.2.3]
+[2023-07-22 02:05:39] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/dd/6c/7d5ffb363ba985b326d3b266d8eaea74bc6cc890eb733cc9e0cc127ccc55/dragonfly-radiance-0.2.8.tar.gz
+[2023-07-22 02:05:39] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/6e/55/f2e1d35fe85e883e30464bddab664038cbe4287403fa34d8a0077db6f136/motion_python-0.1.81.tar.gz
+[2023-07-22 02:05:39] INFO root fetch - processPackages [Pytdbot]: Downloading https://files.pythonhosted.org/packages/b6/5c/496733d386d17f3a85fd744b6ad28dd0e71c4259daed952310b4dfb1422c/Pytdbot-0.8.4.dev2.tar.gz
+[2023-07-22 02:05:39] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-22 02:05:39] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/0d/95/a3b976889abaf61eeef93bd07b24226a8e7715f59758a44bae78e273e4de/torchdatasets-nightly-1689811397.tar.gz
+[2023-07-22 02:05:39] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/06/c4/cf5eb64d14d365f3cd7de0103b19ead1990bf937e483fc66c83e2d712275/mct-nightly-1.9.0.20230720.post412.tar.gz
+[2023-07-22 02:05:39] INFO root fetch - processPackages [perky]: Downloading https://files.pythonhosted.org/packages/20/ce/9326c980892382b6399e4caee69ca6dcccb7b2a8e6cbd69b17ec5c4651fd/perky-0.9.1.tar.gz
+[2023-07-22 02:05:39] INFO root fetch - processPackages [jag-panzer]: Downloading https://files.pythonhosted.org/packages/39/16/76d0c7adc449dea189861af4c6fd2d3426386da438f4675daeda29e3a011/jag-panzer-0.1.23.tar.gz
+[2023-07-22 02:05:39] INFO root fetch - processPackages [dropchain-sdk]: Downloading https://files.pythonhosted.org/packages/6c/e4/e3c40c373c44c89bac17c2b2ba1899e264b4c013d98e72db65a7d0767e94/dropchain-sdk-0.1.2.tar.gz
+[2023-07-22 02:05:39] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/60/d2/c5649c1f482931f51ac9e798aec00fe445d6b73e02f8865697958b497c8f/agentmemory-0.2.3.tar.gz
+[2023-07-22 02:05:39] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-07-22 02:05:39] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/34/ac/3f7cfa6eb1fcd0d42147fe327e9f789023cbe563fcbb65237497ca2fc701/motion_python-0.1.82.tar.gz
+[2023-07-22 02:05:39] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/41/b5/6c7f5c3787f162a2489fe9f0293cc8426cb1aaa23c730d723471929d486a/torchdatasets-nightly-1689897798.tar.gz
+[2023-07-22 02:05:39] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-22 02:05:39] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/cb/57/75af22a1a40e40d226fb62f6b6b10e7496b0f5be021196c04ea5ad18e9ce/mct-nightly-1.9.0.20230721.post351.tar.gz
+[2023-07-22 02:05:39] INFO root fetch - processPackages [Pytdbot]: Downloading https://files.pythonhosted.org/packages/27/30/9c0f5d6b50ac1a42d6ca6353f9fa7266f722d73e811ddebacea637ed38ed/Pytdbot-0.8.4.dev3.tar.gz
+[2023-07-22 02:05:39] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-07-22 02:05:39] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230722/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-22 02:05:40] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-07-22 02:05:40] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.81.tar.gz tmp/motion_python-0.1.82.tar.gz --markdown 20230722/m/motion-python/0.1.81-0.1.82/diff.md --exclude *.pyd
+[2023-07-22 02:05:40] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-22 02:05:40] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1689811397.tar.gz tmp/torchdatasets-nightly-1689897798.tar.gz --markdown 20230722/t/torchdatasets-nightly/1689811397-1689897798/diff.md --exclude *.pyd
+[2023-07-22 02:05:40] INFO root fetch - processPackages [dropchain-sdk]: Downloading https://files.pythonhosted.org/packages/03/0b/281d87d77126956f203f106621aa760de92bb439ac8913e8aa3019d7e6c2/dropchain-sdk-0.2.0.tar.gz
+[2023-07-22 02:05:40] INFO root fetch - processPackages [perky]: Downloading https://files.pythonhosted.org/packages/8c/76/23ed12b215ba28fbdd95a3906d9de2b71c8f3e93b08b0f7bc27f00a77f87/perky-0.9.2.tar.gz
+[2023-07-22 02:05:40] INFO root fetch - processPackages [jag-panzer]: Downloading https://files.pythonhosted.org/packages/c9/b9/ff36ccaff6485d32df143701ff8a4900e3c7d8a5171dbcdc1193ffd5876a/jag-panzer-0.1.24.tar.gz
+[2023-07-22 02:05:40] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/35/87/e8ce36c7ad1417e69e394b0f24133c8934f474950b51cc039cf0193ba4ed/agentmemory-0.2.7.tar.gz
+[2023-07-22 02:05:40] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-22 02:05:40] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230722/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-22 02:05:40] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-22 02:05:40] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230720.post412.tar.gz tmp/mct-nightly-1.9.0.20230721.post351.tar.gz --markdown 20230722/m/mct-nightly/1.9.0.20230720.post412-1.9.0.20230721.post351/diff.md --exclude *.pyd
+[2023-07-22 02:05:40] INFO root fetch - processPackages [dropchain-sdk]: executing diffoscope
+[2023-07-22 02:05:40] INFO root fetch - processPackages [dropchain-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dropchain-sdk-0.1.2.tar.gz tmp/dropchain-sdk-0.2.0.tar.gz --markdown 20230722/d/dropchain-sdk/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-22 02:05:40] INFO root fetch - processPackages [Pytdbot]: executing diffoscope
+[2023-07-22 02:05:40] INFO root fetch - processPackages [Pytdbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pytdbot-0.8.4.dev2.tar.gz tmp/Pytdbot-0.8.4.dev3.tar.gz --markdown 20230722/P/Pytdbot/0.8.4.dev2-0.8.4.dev3/diff.md --exclude *.pyd
+[2023-07-22 02:05:40] INFO root fetch - processPackages [perky]: executing diffoscope
+[2023-07-22 02:05:40] INFO root fetch - processPackages [perky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perky-0.9.1.tar.gz tmp/perky-0.9.2.tar.gz --markdown 20230722/p/perky/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-22 02:05:40] INFO root fetch - processPackages [agentmemory]: executing diffoscope
+[2023-07-22 02:05:40] INFO root fetch - processPackages [agentmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentmemory-0.2.3.tar.gz tmp/agentmemory-0.2.7.tar.gz --markdown 20230722/a/agentmemory/0.2.3-0.2.7/diff.md --exclude *.pyd
+[2023-07-22 02:05:40] INFO root fetch - processPackages [jag-panzer]: executing diffoscope
+[2023-07-22 02:05:40] INFO root fetch - processPackages [jag-panzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jag-panzer-0.1.23.tar.gz tmp/jag-panzer-0.1.24.tar.gz --markdown 20230722/j/jag-panzer/0.1.23-0.1.24/diff.md --exclude *.pyd
+[2023-07-22 02:05:41] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.8.tar.gz]
+[2023-07-22 02:05:41] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.9.tar.gz]
+[2023-07-22 02:05:41] INFO root fetch - processPackages [dragonfly-radiance]: Start processing: skautis-py
+[2023-07-22 02:05:41] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-07-22 02:05:41] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.81.tar.gz]
+[2023-07-22 02:05:41] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.82.tar.gz]
+[2023-07-22 02:05:41] INFO root fetch - processPackages [motion-python]: Start processing: zuspec-arl-eval
+[2023-07-22 02:05:41] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-07-22 02:05:41] INFO root fetch - processPackages [skautis-py]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-22 02:05:41] INFO root fetch - processPackages [zuspec-arl-eval]: New version: [0.0.1.5627571863] Old Version: [0.0.1.5582587794]
+[2023-07-22 02:05:41] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-22 02:05:41] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-22 02:05:41] INFO root fetch - processPackages [pepperize.cdk-github]: Start processing: dragonfly-energy
+[2023-07-22 02:05:41] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-22 02:05:41] INFO root fetch - processPackages [dropchain-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dropchain-sdk-0.1.2.tar.gz]
+[2023-07-22 02:05:41] INFO root fetch - processPackages [dropchain-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dropchain-sdk-0.2.0.tar.gz]
+[2023-07-22 02:05:41] INFO root fetch - processPackages [dropchain-sdk]: Start processing: letsdns
+[2023-07-22 02:05:41] INFO root fetch - main [MainThread]: End processing [dropchain-sdk]: success
+[2023-07-22 02:05:41] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1689811397.tar.gz]
+[2023-07-22 02:05:41] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1689897798.tar.gz]
+[2023-07-22 02:05:41] INFO root fetch - processPackages [torchdatasets-nightly]: Start processing: dragonfly-uwg
+[2023-07-22 02:05:41] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-22 02:05:41] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-22 02:05:41] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.2.3.tar.gz]
+[2023-07-22 02:05:41] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.2.7.tar.gz]
+[2023-07-22 02:05:41] INFO root fetch - processPackages [agentmemory]: Start processing: lbt-dragonfly
+[2023-07-22 02:05:41] INFO root fetch - main [MainThread]: End processing [agentmemory]: success
+[2023-07-22 02:05:41] INFO root fetch - processPackages [zuspec-arl-eval]: Downloading https://files.pythonhosted.org/packages/13/ef/fb66d10844a64b342f94bfb2839545b67dbe72e22e0ec11a5fb6a48469de/zuspec_arl_eval-0.0.1.5582587794-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-22 02:05:41] INFO root fetch - processPackages [skautis-py]: Downloading https://files.pythonhosted.org/packages/6e/32/ce6ea9092884e033b335241ae7c24751dac58bacd1f55d792c131740fd63/skautis-py-1.1.8.tar.gz
+[2023-07-22 02:05:41] INFO root fetch - processPackages [perky]: Remove: archive file [/home/abi/fetcher/tmp/perky-0.9.1.tar.gz]
+[2023-07-22 02:05:41] INFO root fetch - processPackages [perky]: Remove: archive file [/home/abi/fetcher/tmp/perky-0.9.2.tar.gz]
+[2023-07-22 02:05:41] INFO root fetch - processPackages [perky]: Start processing: qick
+[2023-07-22 02:05:41] INFO root fetch - main [MainThread]: End processing [perky]: success
+[2023-07-22 02:05:41] INFO root fetch - processPackages [letsdns]: New version: [1.2.0] Old Version: [1.0rc1]
+[2023-07-22 02:05:42] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-22 02:05:42] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-07-22 02:05:42] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-22 02:05:42] INFO root fetch - processPackages [Pytdbot]: Remove: archive file [/home/abi/fetcher/tmp/Pytdbot-0.8.4.dev2.tar.gz]
+[2023-07-22 02:05:42] INFO root fetch - processPackages [Pytdbot]: Remove: archive file [/home/abi/fetcher/tmp/Pytdbot-0.8.4.dev3.tar.gz]
+[2023-07-22 02:05:42] INFO root fetch - processPackages [Pytdbot]: Start processing: jaxkern-nightly
+[2023-07-22 02:05:42] INFO root fetch - main [MainThread]: End processing [Pytdbot]: success
+[2023-07-22 02:05:42] INFO root fetch - processPackages [qick]: New version: [0.2.165] Old Version: [0.2.161]
+[2023-07-22 02:05:42] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-22 02:05:42] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-07-22 02:05:42] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-22 02:05:42] INFO root fetch - processPackages [letsdns]: Downloading https://files.pythonhosted.org/packages/90/03/1dbcde223e98f518fa9cb83c462bca0274e345e97a7343f6523ed58af483/letsdns-1.0rc1.tar.gz
+[2023-07-22 02:05:42] INFO root fetch - processPackages [jag-panzer]: Remove: archive file [/home/abi/fetcher/tmp/jag-panzer-0.1.23.tar.gz]
+[2023-07-22 02:05:42] INFO root fetch - processPackages [jag-panzer]: Remove: archive file [/home/abi/fetcher/tmp/jag-panzer-0.1.24.tar.gz]
+[2023-07-22 02:05:42] INFO root fetch - main [MainThread]: End processing [jag-panzer]: success
+[2023-07-22 02:05:42] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-22 02:05:42] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-07-22 02:05:42] INFO root fetch - processPackages [zuspec-arl-eval]: Downloading https://files.pythonhosted.org/packages/7a/47/006fc90424baa1387971fd93d1388b7212cd9ca70e6aa45e80cc333d6443/zuspec_arl_eval-0.0.1.5627571863-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-22 02:05:42] INFO root fetch - processPackages [qick]: Downloading https://files.pythonhosted.org/packages/bc/2d/a9af1e73671dba64c79ec0d08575dc92fde61cdf16bce9ffdf84a1218c16/qick-0.2.161.tar.gz
+[2023-07-22 02:05:42] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-07-22 02:05:42] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-22 02:05:42] INFO root fetch - processPackages [skautis-py]: Downloading https://files.pythonhosted.org/packages/e7/8e/aa9be011a0fd3ac817dc2c1881824c9e63ba64b2b74eaacc73fe83c9ae8f/skautis-py-1.1.9.tar.gz
+[2023-07-22 02:05:42] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-07-22 02:05:42] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230722/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-22 02:05:42] WARNING root fetch - processPackages [qick]: Skipping package: exceeds size limit 13557408>=10485760
+[2023-07-22 02:05:42] INFO root fetch - main [MainThread]: End processing [qick] error
+[2023-07-22 02:05:42] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-22 02:05:42] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-22 02:05:42] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230722/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-22 02:05:42] INFO root fetch - processPackages [letsdns]: Downloading https://files.pythonhosted.org/packages/d7/14/b68001494dbe44b6bee8cfe28ae4c087734277c98f607ca771aac639167c/letsdns-1.2.0.tar.gz
+[2023-07-22 02:05:42] INFO root fetch - processPackages [zuspec-arl-eval]: executing diffoscope
+[2023-07-22 02:05:42] INFO root fetch - processPackages [zuspec-arl-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuspec_arl_eval-0.0.1.5582587794-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/zuspec_arl_eval-0.0.1.5627571863-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230722/z/zuspec-arl-eval/0.0.1.5582587794-0.0.1.5627571863/diff.md --exclude *.pyd
+[2023-07-22 02:05:42] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-07-22 02:05:42] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230722/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-22 02:05:42] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-22 02:05:42] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230722/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-22 02:05:42] INFO root fetch - processPackages [skautis-py]: executing diffoscope
+[2023-07-22 02:05:42] INFO root fetch - processPackages [skautis-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skautis-py-1.1.8.tar.gz tmp/skautis-py-1.1.9.tar.gz --markdown 20230722/s/skautis-py/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-22 02:05:42] INFO root fetch - processPackages [letsdns]: executing diffoscope
+[2023-07-22 02:05:42] INFO root fetch - processPackages [letsdns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/letsdns-1.0rc1.tar.gz tmp/letsdns-1.2.0.tar.gz --markdown 20230722/l/letsdns/1.0rc1-1.2.0/diff.md --exclude *.pyd
+[2023-07-22 02:05:43] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-22 02:05:43] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-22 02:05:43] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-22 02:05:44] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-22 02:05:44] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-22 02:05:44] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-22 02:05:44] INFO root fetch - processPackages [skautis-py]: Remove: archive file [/home/abi/fetcher/tmp/skautis-py-1.1.8.tar.gz]
+[2023-07-22 02:05:44] INFO root fetch - processPackages [skautis-py]: Remove: archive file [/home/abi/fetcher/tmp/skautis-py-1.1.9.tar.gz]
+[2023-07-22 02:05:44] INFO root fetch - main [MainThread]: End processing [skautis-py]: success
+[2023-07-22 02:05:44] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2023-07-22 02:05:44] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2023-07-22 02:05:44] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-07-22 02:05:44] INFO root fetch - processPackages [letsdns]: Remove: archive file [/home/abi/fetcher/tmp/letsdns-1.0rc1.tar.gz]
+[2023-07-22 02:05:44] INFO root fetch - processPackages [letsdns]: Remove: archive file [/home/abi/fetcher/tmp/letsdns-1.2.0.tar.gz]
+[2023-07-22 02:05:44] INFO root fetch - main [MainThread]: End processing [letsdns]: success
+[2023-07-22 02:05:44] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2023-07-22 02:05:44] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2023-07-22 02:05:44] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-07-22 02:05:44] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230720.post412.tar.gz]
+[2023-07-22 02:05:44] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230721.post351.tar.gz]
+[2023-07-22 02:05:44] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-22 02:05:48] INFO root fetch - processPackages [zuspec-arl-eval]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_arl_eval-0.0.1.5582587794-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-22 02:05:48] INFO root fetch - processPackages [zuspec-arl-eval]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_arl_eval-0.0.1.5627571863-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-22 02:05:48] INFO root fetch - main [MainThread]: End processing [zuspec-arl-eval]: success
+[2023-07-22 02:05:48] INFO root fetch - main [MainThread]: Store serial: [18990378]
