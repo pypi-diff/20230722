@@ -13788,3 +13788,40 @@
 [2023-07-22 14:33:16] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.9.tar.gz]
 [2023-07-22 14:33:16] INFO root fetch - main [MainThread]: End processing [EasyDeL]: success
 [2023-07-22 14:33:16] INFO root fetch - main [MainThread]: Store serial: [18994788]
+[2023-07-22 14:38:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994788]
+[2023-07-22 14:38:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-22 14:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: advertion
+[2023-07-22 14:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bitcoin-qrreader
+[2023-07-22 14:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: projen
+[2023-07-22 14:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smart-meter-texas
+[2023-07-22 14:38:26] INFO root fetch - processPackages [bitcoin-qrreader]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-22 14:38:26] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-22 14:38:26] INFO root fetch - processPackages [smart-meter-texas]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-22 14:38:26] INFO root fetch - processPackages [advertion]: New version: [0.1.0b0] Old Version: [0.1.0a2]
+[2023-07-22 14:38:26] INFO root fetch - processPackages [bitcoin-qrreader]: Downloading https://files.pythonhosted.org/packages/bf/cc/025ac2fa1665716a4974a8fab876b2ed2d40afc631ba024b6a1485fe99f9/bitcoin_qrreader-0.2.2.tar.gz
+[2023-07-22 14:38:26] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-22 14:38:27] INFO root fetch - processPackages [smart-meter-texas]: Downloading https://files.pythonhosted.org/packages/8e/e7/ab208eca835e91cf758a186852bfa234f6a2ca20835a4abb9aa2c630c936/smart_meter_texas-0.5.1.tar.gz
+[2023-07-22 14:38:27] INFO root fetch - processPackages [bitcoin-qrreader]: Downloading https://files.pythonhosted.org/packages/3a/74/bb54908af36c747b1a80636ce6da4df265f12bf690267c2e5e2800cacb8a/bitcoin_qrreader-0.2.3.tar.gz
+[2023-07-22 14:38:27] INFO root fetch - processPackages [advertion]: executing diffoscope
+[2023-07-22 14:38:27] INFO root fetch - processPackages [advertion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advertion-0.1.0a2.tar.gz tmp/advertion-0.1.0b0.tar.gz --markdown 20230722/a/advertion/0.1.0a2-0.1.0b0/diff.md --exclude *.pyd
+[2023-07-22 14:38:27] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-22 14:38:27] INFO root fetch - processPackages [bitcoin-qrreader]: executing diffoscope
+[2023-07-22 14:38:27] INFO root fetch - processPackages [bitcoin-qrreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitcoin_qrreader-0.2.2.tar.gz tmp/bitcoin_qrreader-0.2.3.tar.gz --markdown 20230722/b/bitcoin-qrreader/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-22 14:38:27] INFO root fetch - processPackages [smart-meter-texas]: Downloading https://files.pythonhosted.org/packages/4b/09/651fd454deaeef4983bc923ef66b88b27e4e4483fe40d4498874fe92e854/smart_meter_texas-0.5.2.tar.gz
+[2023-07-22 14:38:27] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-22 14:38:27] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230722/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-22 14:38:27] INFO root fetch - processPackages [smart-meter-texas]: executing diffoscope
+[2023-07-22 14:38:27] INFO root fetch - processPackages [smart-meter-texas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_meter_texas-0.5.1.tar.gz tmp/smart_meter_texas-0.5.2.tar.gz --markdown 20230722/s/smart-meter-texas/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-22 14:38:28] INFO root fetch - processPackages [advertion]: Remove: archive file [/home/abi/fetcher/tmp/advertion-0.1.0a2.tar.gz]
+[2023-07-22 14:38:28] INFO root fetch - processPackages [advertion]: Remove: archive file [/home/abi/fetcher/tmp/advertion-0.1.0b0.tar.gz]
+[2023-07-22 14:38:28] INFO root fetch - main [MainThread]: End processing [advertion]: success
+[2023-07-22 14:38:28] INFO root fetch - processPackages [bitcoin-qrreader]: Remove: archive file [/home/abi/fetcher/tmp/bitcoin_qrreader-0.2.2.tar.gz]
+[2023-07-22 14:38:28] INFO root fetch - processPackages [bitcoin-qrreader]: Remove: archive file [/home/abi/fetcher/tmp/bitcoin_qrreader-0.2.3.tar.gz]
+[2023-07-22 14:38:28] INFO root fetch - main [MainThread]: End processing [bitcoin-qrreader]: success
+[2023-07-22 14:38:28] INFO root fetch - processPackages [smart-meter-texas]: Remove: archive file [/home/abi/fetcher/tmp/smart_meter_texas-0.5.1.tar.gz]
+[2023-07-22 14:38:28] INFO root fetch - processPackages [smart-meter-texas]: Remove: archive file [/home/abi/fetcher/tmp/smart_meter_texas-0.5.2.tar.gz]
+[2023-07-22 14:38:28] INFO root fetch - main [MainThread]: End processing [smart-meter-texas]: success
+[2023-07-22 14:38:29] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-22 14:38:29] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-22 14:38:29] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-22 14:38:29] INFO root fetch - main [MainThread]: Store serial: [18994803]
