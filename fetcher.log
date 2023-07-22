@@ -10313,3 +10313,63 @@
 [2023-07-22 08:57:40] INFO root fetch - processPackages [playbacker]: Remove: archive file [/home/abi/fetcher/tmp/playbacker-0.7.0.tar.gz]
 [2023-07-22 08:57:40] INFO root fetch - main [MainThread]: End processing [playbacker]: success
 [2023-07-22 08:57:40] INFO root fetch - main [MainThread]: Store serial: [18993296]
+[2023-07-22 09:02:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993296]
+[2023-07-22 09:02:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 09:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bcmd
+[2023-07-22 09:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agentlogger
+[2023-07-22 09:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recompose
+[2023-07-22 09:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nweb
+[2023-07-22 09:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-eval
+[2023-07-22 09:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyfi
+[2023-07-22 09:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seqio-nightly
+[2023-07-22 09:02:50] INFO root fetch - processPackages [agentlogger]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-22 09:02:50] INFO root fetch - processPackages [auto-eval]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-22 09:02:50] INFO root fetch - processPackages [bcmd]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-22 09:02:50] WARNING root fetch - processPackages [nweb]: Skipping, unable to determine old version
+[2023-07-22 09:02:50] INFO root fetch - main [MainThread]: End processing [nweb] error
+[2023-07-22 09:02:50] INFO root fetch - processPackages [hyfi]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-22 09:02:50] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-22 09:02:50] INFO root fetch - processPackages [recompose]: New version: [1.0.0a1] Old Version: [1.0.0a0]
+[2023-07-22 09:02:50] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/7c/89/b7581c7d4cd4a34642de15f7b22ef1b78d7d7791da41fb2e3b3d6900221e/auto-eval-0.3.1.tar.gz
+[2023-07-22 09:02:50] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/f2/2c/2cb9a2a36cac1810363dad76a4d23288d1720adb732f4cf3ac619ea7738e/bcmd-0.0.4.tar.gz
+[2023-07-22 09:02:50] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/46/0c/8643fd71702460b8cced46d37058f405384fb99829c76d988b50cbc6e02b/hyfi-1.6.2.tar.gz
+[2023-07-22 09:02:50] INFO root fetch - processPackages [agentlogger]: Downloading https://files.pythonhosted.org/packages/65/df/531ba9c655d836a063a1960fd5fe7b13e81a94c88c06ce821c14c2de03e8/agentlogger-0.1.0.tar.gz
+[2023-07-22 09:02:50] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-22 09:02:50] INFO root fetch - processPackages [recompose]: Downloading https://files.pythonhosted.org/packages/99/d0/3ff178bd7ced3dffb297c7906a6c3b031b37c4048753ae85cf01aebc37d2/recompose-1.0.0a0-py3-none-any.whl
+[2023-07-22 09:02:50] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/21/0d/54e353f05db222a626e42f52f0eedd026529c89d21a15e13bfce7578fe25/auto-eval-0.3.2.tar.gz
+[2023-07-22 09:02:50] INFO root fetch - processPackages [agentlogger]: Downloading https://files.pythonhosted.org/packages/61/83/ecb2f89fd16187ba965211542d161a8af91a2a5a0e4d64556e4e59dc60c2/agentlogger-0.1.1.tar.gz
+[2023-07-22 09:02:50] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/f3/d9/eb292ace5c7468b1044eaa6908ae541a5f8511eb05f27b14605ac0da6e3a/hyfi-1.6.3.tar.gz
+[2023-07-22 09:02:50] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/99/06/69bce200d6f503bb6ed0207a8a40b344e966530a105e6d1468f22af49b17/bcmd-0.0.5.tar.gz
+[2023-07-22 09:02:50] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-22 09:02:51] INFO root fetch - processPackages [auto-eval]: executing diffoscope
+[2023-07-22 09:02:51] INFO root fetch - processPackages [auto-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-eval-0.3.1.tar.gz tmp/auto-eval-0.3.2.tar.gz --markdown 20230722/a/auto-eval/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-22 09:02:51] INFO root fetch - processPackages [recompose]: Downloading https://files.pythonhosted.org/packages/06/25/68b8a5165a67d004387d8718d06e12f808623ed7f383a8df9d49e4a086da/recompose-1.0.0a1-py3-none-any.whl
+[2023-07-22 09:02:51] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2023-07-22 09:02:51] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.4.tar.gz tmp/bcmd-0.0.5.tar.gz --markdown 20230722/b/bcmd/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-22 09:02:51] INFO root fetch - processPackages [agentlogger]: executing diffoscope
+[2023-07-22 09:02:51] INFO root fetch - processPackages [agentlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentlogger-0.1.0.tar.gz tmp/agentlogger-0.1.1.tar.gz --markdown 20230722/a/agentlogger/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-22 09:02:51] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-22 09:02:51] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.6.2.tar.gz tmp/hyfi-1.6.3.tar.gz --markdown 20230722/h/hyfi/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-22 09:02:51] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-22 09:02:51] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230722/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-22 09:02:51] INFO root fetch - processPackages [recompose]: executing diffoscope
+[2023-07-22 09:02:51] INFO root fetch - processPackages [recompose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recompose-1.0.0a0-py3-none-any.whl.zip tmp/recompose-1.0.0a1-py3-none-any.whl.zip --markdown 20230722/r/recompose/1.0.0a0-1.0.0a1/diff.md --exclude *.pyd
+[2023-07-22 09:02:52] INFO root fetch - processPackages [agentlogger]: Remove: archive file [/home/abi/fetcher/tmp/agentlogger-0.1.0.tar.gz]
+[2023-07-22 09:02:52] INFO root fetch - processPackages [agentlogger]: Remove: archive file [/home/abi/fetcher/tmp/agentlogger-0.1.1.tar.gz]
+[2023-07-22 09:02:52] INFO root fetch - main [MainThread]: End processing [agentlogger]: success
+[2023-07-22 09:02:52] INFO root fetch - processPackages [auto-eval]: Remove: archive file [/home/abi/fetcher/tmp/auto-eval-0.3.1.tar.gz]
+[2023-07-22 09:02:52] INFO root fetch - processPackages [auto-eval]: Remove: archive file [/home/abi/fetcher/tmp/auto-eval-0.3.2.tar.gz]
+[2023-07-22 09:02:52] INFO root fetch - main [MainThread]: End processing [auto-eval]: success
+[2023-07-22 09:02:52] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.4.tar.gz]
+[2023-07-22 09:02:52] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.5.tar.gz]
+[2023-07-22 09:02:52] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2023-07-22 09:02:52] INFO root fetch - processPackages [recompose]: Remove: archive file [/home/abi/fetcher/tmp/recompose-1.0.0a0-py3-none-any.whl.zip]
+[2023-07-22 09:02:52] INFO root fetch - processPackages [recompose]: Remove: archive file [/home/abi/fetcher/tmp/recompose-1.0.0a1-py3-none-any.whl.zip]
+[2023-07-22 09:02:52] INFO root fetch - main [MainThread]: End processing [recompose]: success
+[2023-07-22 09:02:52] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.6.2.tar.gz]
+[2023-07-22 09:02:52] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.6.3.tar.gz]
+[2023-07-22 09:02:52] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-22 09:02:52] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-22 09:02:52] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-22 09:02:52] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-22 09:02:52] INFO root fetch - main [MainThread]: Store serial: [18993318]
