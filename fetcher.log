@@ -12898,3 +12898,69 @@
 [2023-07-22 12:44:22] INFO root fetch - processPackages [chia-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chia-blockchain-2.0.0rc1.tar.gz]
 [2023-07-22 12:44:22] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
 [2023-07-22 12:44:22] INFO root fetch - main [MainThread]: Store serial: [18994422]
+[2023-07-22 12:49:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994422]
+[2023-07-22 12:49:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-22 12:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: database-without-orm-local
+[2023-07-22 12:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipymafs
+[2023-07-22 12:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nagiepy
+[2023-07-22 12:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FicImageScript
+[2023-07-22 12:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-ro-vat-on-payment
+[2023-07-22 12:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlpiece
+[2023-07-22 12:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gp-libs
+[2023-07-22 12:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-gnupg
+[2023-07-22 12:49:31] INFO root fetch - processPackages [database-without-orm-local]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-07-22 12:49:31] INFO root fetch - processPackages [python-gnupg]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-07-22 12:49:31] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2023-07-22 12:49:31] INFO root fetch - processPackages [ipymafs]: New version: [0.0.5] Old Version: [0.0.2]
+[2023-07-22 12:49:31] INFO root fetch - processPackages [FicImageScript]: New version: [2.0.0] Old Version: [1.0.2]
+[2023-07-22 12:49:31] WARNING root fetch - processPackages [nagiepy]: Skipping, unable to determine old version
+[2023-07-22 12:49:31] INFO root fetch - main [MainThread]: End processing [nagiepy] error
+[2023-07-22 12:49:31] INFO root fetch - processPackages [gp-libs]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-22 12:49:31] INFO root fetch - processPackages [sqlpiece]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-22 12:49:31] INFO root fetch - processPackages [database-without-orm-local]: Downloading https://files.pythonhosted.org/packages/9b/30/d12c76e11b17d78b2ccc904b675b32798d03f76444e4dba0137c1e94f9e1/database-without-orm-local-0.0.15.tar.gz
+[2023-07-22 12:49:31] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: Downloading https://files.pythonhosted.org/packages/eb/a2/a67770970c35bb85002e59de5d2582e552fea83072bd88a6569718512fc2/odoo_addon_l10n_ro_vat_on_payment-16.0.1.1.0.1-py3-none-any.whl
+[2023-07-22 12:49:31] INFO root fetch - processPackages [ipymafs]: Downloading https://files.pythonhosted.org/packages/4a/3b/e66aa1a605ec4b22f1eb1e75f113ac7361fb4a7d9792ae4b39a40f5e7852/ipymafs-0.0.2.tar.gz
+[2023-07-22 12:49:31] INFO root fetch - processPackages [FicImageScript]: Downloading https://files.pythonhosted.org/packages/5f/9e/851f7f83e330e39546bc23d6d785174013a0966fd0d3b74f1ddc70c830e9/FicImageScript-1.0.2.tar.gz
+[2023-07-22 12:49:31] INFO root fetch - processPackages [python-gnupg]: Downloading https://files.pythonhosted.org/packages/c8/cb/46fb80639cf0dd4251aeb075a1a5e2ebbb8c9656f28ddfe9d8c99b68b6da/python-gnupg-0.4.9.tar.gz
+[2023-07-22 12:49:31] INFO root fetch - processPackages [gp-libs]: Downloading https://files.pythonhosted.org/packages/16/0f/a6bfbdbea89a3a6bb27732f02ef428c97d88154e21f95bd1e82c78e2c7fa/gp-libs-0.0.1a8.tar.gz
+[2023-07-22 12:49:31] INFO root fetch - processPackages [sqlpiece]: Downloading https://files.pythonhosted.org/packages/5f/58/1b159aedf4b0d44b5d5f0c9f1bfe0957e34dd99ddff802488ac21754e2c1/sqlpiece-0.1.0.tar.gz
+[2023-07-22 12:49:31] INFO root fetch - processPackages [FicImageScript]: Downloading https://files.pythonhosted.org/packages/9d/34/716bddb26b11956c0a61abd57371116526f2e43e59fa5e69797e8611b9a2/FicImageScript-2.0.0.tar.gz
+[2023-07-22 12:49:31] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: Downloading https://files.pythonhosted.org/packages/4e/41/cffbe7f657d9f2a152e9fcafcf75bfcd62c5a9d512d918807f38a365b38e/odoo_addon_l10n_ro_vat_on_payment-16.0.1.1.0.2-py3-none-any.whl
+[2023-07-22 12:49:31] INFO root fetch - processPackages [database-without-orm-local]: Downloading https://files.pythonhosted.org/packages/c0/87/b53b119374649c4233a47c87ad25a85368d16117b8c47ab336579fafe30b/database-without-orm-local-0.0.16.tar.gz
+[2023-07-22 12:49:32] INFO root fetch - processPackages [FicImageScript]: executing diffoscope
+[2023-07-22 12:49:32] INFO root fetch - processPackages [FicImageScript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FicImageScript-1.0.2.tar.gz tmp/FicImageScript-2.0.0.tar.gz --markdown 20230722/F/FicImageScript/1.0.2-2.0.0/diff.md --exclude *.pyd
+[2023-07-22 12:49:32] INFO root fetch - processPackages [ipymafs]: Downloading https://files.pythonhosted.org/packages/e5/d6/9bc1802dbfb11f95934d0ec40acaa30ab945f0aaeb64d805ac25d2b5f902/ipymafs-0.0.5.tar.gz
+[2023-07-22 12:49:32] WARNING root fetch - processPackages [ipymafs]: Skipping package: exceeds size limit 38993460>=10485760
+[2023-07-22 12:49:32] INFO root fetch - main [MainThread]: End processing [ipymafs] error
+[2023-07-22 12:49:32] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: executing diffoscope
+[2023-07-22 12:49:32] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_vat_on_payment-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_vat_on_payment-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230722/o/odoo-addon-l10n-ro-vat-on-payment/16.0.1.1.0.1-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-07-22 12:49:32] INFO root fetch - processPackages [database-without-orm-local]: executing diffoscope
+[2023-07-22 12:49:32] INFO root fetch - processPackages [database-without-orm-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-without-orm-local-0.0.15.tar.gz tmp/database-without-orm-local-0.0.16.tar.gz --markdown 20230722/d/database-without-orm-local/0.0.15-0.0.16/diff.md --exclude *.pyd
+[2023-07-22 12:49:32] INFO root fetch - processPackages [gp-libs]: Downloading https://files.pythonhosted.org/packages/ac/60/11612e1b2dda9534dfa58576e4c5e38866a1781317fa120c93f034bbe1f8/gp-libs-0.0.1a9.tar.gz
+[2023-07-22 12:49:32] INFO root fetch - processPackages [python-gnupg]: Downloading https://files.pythonhosted.org/packages/e3/5c/5ff9877001616912a74f4377cd5f80925b31a678087800beae5b28bdb80e/python-gnupg-0.5.0.tar.gz
+[2023-07-22 12:49:32] INFO root fetch - processPackages [sqlpiece]: Downloading https://files.pythonhosted.org/packages/fd/d2/f9e846192de5ae3654722f53d92c0214aa42281727fb3f27cef38ffacf97/sqlpiece-0.1.1.tar.gz
+[2023-07-22 12:49:32] INFO root fetch - processPackages [python-gnupg]: executing diffoscope
+[2023-07-22 12:49:32] INFO root fetch - processPackages [python-gnupg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-gnupg-0.4.9.tar.gz tmp/python-gnupg-0.5.0.tar.gz --markdown 20230722/p/python-gnupg/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-07-22 12:49:32] INFO root fetch - processPackages [gp-libs]: executing diffoscope
+[2023-07-22 12:49:32] INFO root fetch - processPackages [gp-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gp-libs-0.0.1a8.tar.gz tmp/gp-libs-0.0.1a9.tar.gz --markdown 20230722/g/gp-libs/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-22 12:49:32] INFO root fetch - processPackages [sqlpiece]: executing diffoscope
+[2023-07-22 12:49:32] INFO root fetch - processPackages [sqlpiece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlpiece-0.1.0.tar.gz tmp/sqlpiece-0.1.1.tar.gz --markdown 20230722/s/sqlpiece/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-22 12:49:33] INFO root fetch - processPackages [FicImageScript]: Remove: archive file [/home/abi/fetcher/tmp/FicImageScript-1.0.2.tar.gz]
+[2023-07-22 12:49:33] INFO root fetch - processPackages [FicImageScript]: Remove: archive file [/home/abi/fetcher/tmp/FicImageScript-2.0.0.tar.gz]
+[2023-07-22 12:49:33] INFO root fetch - main [MainThread]: End processing [FicImageScript]: success
+[2023-07-22 12:49:33] INFO root fetch - processPackages [database-without-orm-local]: Remove: archive file [/home/abi/fetcher/tmp/database-without-orm-local-0.0.15.tar.gz]
+[2023-07-22 12:49:33] INFO root fetch - processPackages [database-without-orm-local]: Remove: archive file [/home/abi/fetcher/tmp/database-without-orm-local-0.0.16.tar.gz]
+[2023-07-22 12:49:33] INFO root fetch - main [MainThread]: End processing [database-without-orm-local]: success
+[2023-07-22 12:49:33] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_vat_on_payment-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-07-22 12:49:33] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_vat_on_payment-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-07-22 12:49:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-vat-on-payment]: success
+[2023-07-22 12:49:33] INFO root fetch - processPackages [python-gnupg]: Remove: archive file [/home/abi/fetcher/tmp/python-gnupg-0.4.9.tar.gz]
+[2023-07-22 12:49:33] INFO root fetch - processPackages [python-gnupg]: Remove: archive file [/home/abi/fetcher/tmp/python-gnupg-0.5.0.tar.gz]
+[2023-07-22 12:49:33] INFO root fetch - main [MainThread]: End processing [python-gnupg]: success
+[2023-07-22 12:49:33] INFO root fetch - processPackages [gp-libs]: Remove: archive file [/home/abi/fetcher/tmp/gp-libs-0.0.1a8.tar.gz]
+[2023-07-22 12:49:33] INFO root fetch - processPackages [gp-libs]: Remove: archive file [/home/abi/fetcher/tmp/gp-libs-0.0.1a9.tar.gz]
+[2023-07-22 12:49:33] INFO root fetch - main [MainThread]: End processing [gp-libs]: success
+[2023-07-22 12:49:34] INFO root fetch - processPackages [sqlpiece]: Remove: archive file [/home/abi/fetcher/tmp/sqlpiece-0.1.0.tar.gz]
+[2023-07-22 12:49:34] INFO root fetch - processPackages [sqlpiece]: Remove: archive file [/home/abi/fetcher/tmp/sqlpiece-0.1.1.tar.gz]
+[2023-07-22 12:49:34] INFO root fetch - main [MainThread]: End processing [sqlpiece]: success
+[2023-07-22 12:49:34] INFO root fetch - main [MainThread]: Store serial: [18994446]
