@@ -3696,3 +3696,67 @@
 [2023-07-22 03:13:53] INFO root fetch - processPackages [scrab-img-from-ligthshot]: Remove: archive file [/home/abi/fetcher/tmp/scrab_img_from_ligthshot-2.3.0.tar.gz]
 [2023-07-22 03:13:53] INFO root fetch - main [MainThread]: End processing [scrab-img-from-ligthshot]: success
 [2023-07-22 03:13:53] INFO root fetch - main [MainThread]: Store serial: [18990870]
+[2023-07-22 03:18:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18990870]
+[2023-07-22 03:19:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 03:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-hugo-deploy
+[2023-07-22 03:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nebari
+[2023-07-22 03:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py3dinterpolations
+[2023-07-22 03:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rest-api-supporter
+[2023-07-22 03:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py3dinterpolations
+[2023-07-22 03:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-sops-secrets
+[2023-07-22 03:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TheSilent
+[2023-07-22 03:19:02] INFO root fetch - processPackages [py3dinterpolations]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-07-22 03:19:02] INFO root fetch - processPackages [py3dinterpolations]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-07-22 03:19:02] INFO root fetch - processPackages [nebari]: New version: [2023.7.1rc1] Old Version: [2023.5.1rc1]
+[2023-07-22 03:19:02] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-22 03:19:02] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-22 03:19:02] INFO root fetch - processPackages [nebari]: Downloading https://files.pythonhosted.org/packages/87/93/d010de896db23a48ec7980a249773e5d7b74fe2ef16db2ea833c01228ce5/nebari-2023.5.1rc1.tar.gz
+[2023-07-22 03:19:02] INFO root fetch - processPackages [rest-api-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 03:19:02] INFO root fetch - processPackages [py3dinterpolations]: Downloading https://files.pythonhosted.org/packages/f7/a8/15da7311350db9d0debc0994ef2ec7f9f3fa5a50f76838d8dfde9beb8249/py3Dinterpolations-0.2.2.tar.gz
+[2023-07-22 03:19:02] INFO root fetch - processPackages [py3dinterpolations]: Downloading https://files.pythonhosted.org/packages/f7/a8/15da7311350db9d0debc0994ef2ec7f9f3fa5a50f76838d8dfde9beb8249/py3Dinterpolations-0.2.2.tar.gz
+[2023-07-22 03:19:02] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-22 03:19:02] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-22 03:19:02] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/f4/16/0c2fc27776d8257953b960eea527e7f83b54019b51fbb132e634d73c5c0e/rest-api-supporter-0.0.8.tar.gz
+[2023-07-22 03:19:02] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-22 03:19:02] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-22 03:19:02] INFO root fetch - processPackages [py3dinterpolations]: Downloading https://files.pythonhosted.org/packages/00/21/a07c96689e3cab66e3f0c997e1aa746d211d50591a42d6fa4fb9022df500/py3dinterpolations-0.2.4.tar.gz
+[2023-07-22 03:19:02] INFO root fetch - processPackages [py3dinterpolations]: Downloading https://files.pythonhosted.org/packages/00/21/a07c96689e3cab66e3f0c997e1aa746d211d50591a42d6fa4fb9022df500/py3dinterpolations-0.2.4.tar.gz
+[2023-07-22 03:19:02] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-22 03:19:02] INFO root fetch - processPackages [py3dinterpolations]: executing diffoscope
+[2023-07-22 03:19:02] INFO root fetch - processPackages [py3dinterpolations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3Dinterpolations-0.2.2.tar.gz tmp/py3dinterpolations-0.2.4.tar.gz --markdown 20230722/p/py3dinterpolations/0.2.2-0.2.4/diff.md --exclude *.pyd
+[2023-07-22 03:19:02] INFO root fetch - processPackages [py3dinterpolations]: executing diffoscope
+[2023-07-22 03:19:02] INFO root fetch - processPackages [py3dinterpolations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3Dinterpolations-0.2.2.tar.gz tmp/py3dinterpolations-0.2.4.tar.gz --markdown 20230722/p/py3dinterpolations/0.2.2-0.2.4/diff.md --exclude *.pyd
+[2023-07-22 03:19:03] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-22 03:19:03] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-22 03:19:03] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230722/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-22 03:19:03] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-22 03:19:03] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-22 03:19:03] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230722/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-22 03:19:03] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-22 03:19:03] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230722/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-22 03:19:03] INFO root fetch - processPackages [nebari]: Downloading https://files.pythonhosted.org/packages/e6/cb/c5e55aae727eeec42944b1e06fd519adb3a36159e7056c81613ad02dbb5e/nebari-2023.7.1rc1.tar.gz
+[2023-07-22 03:19:03] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/35/47/76da32bcf0507aa9dbf370e1c9e91408c29a80232299067f97883d4ef255/rest-api-supporter-0.0.9.tar.gz
+[2023-07-22 03:19:03] INFO root fetch - processPackages [nebari]: executing diffoscope
+[2023-07-22 03:19:03] INFO root fetch - processPackages [nebari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nebari-2023.5.1rc1.tar.gz tmp/nebari-2023.7.1rc1.tar.gz --markdown 20230722/n/nebari/2023.5.1rc1-2023.7.1rc1/diff.md --exclude *.pyd
+[2023-07-22 03:19:03] INFO root fetch - processPackages [py3dinterpolations]: Remove: archive file [/home/abi/fetcher/tmp/py3Dinterpolations-0.2.2.tar.gz]
+[2023-07-22 03:19:03] INFO root fetch - processPackages [py3dinterpolations]: Remove: archive file [/home/abi/fetcher/tmp/py3dinterpolations-0.2.4.tar.gz]
+[2023-07-22 03:19:03] INFO root fetch - main [MainThread]: End processing [py3dinterpolations]: success
+[2023-07-22 03:19:04] INFO root fetch - main [MainThread]: End processing [py3dinterpolations]: success
+[2023-07-22 03:19:04] INFO root fetch - processPackages [rest-api-supporter]: executing diffoscope
+[2023-07-22 03:19:04] INFO root fetch - processPackages [rest-api-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest-api-supporter-0.0.8.tar.gz tmp/rest-api-supporter-0.0.9.tar.gz --markdown 20230722/r/rest-api-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 03:19:04] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-22 03:19:04] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-22 03:19:04] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-22 03:19:04] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-22 03:19:04] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-22 03:19:04] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-22 03:19:04] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-22 03:19:04] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-22 03:19:04] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-22 03:19:04] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.8.tar.gz]
+[2023-07-22 03:19:04] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.9.tar.gz]
+[2023-07-22 03:19:04] INFO root fetch - main [MainThread]: End processing [rest-api-supporter]: success
+[2023-07-22 03:19:06] INFO root fetch - processPackages [nebari]: Remove: archive file [/home/abi/fetcher/tmp/nebari-2023.5.1rc1.tar.gz]
+[2023-07-22 03:19:06] INFO root fetch - processPackages [nebari]: Remove: archive file [/home/abi/fetcher/tmp/nebari-2023.7.1rc1.tar.gz]
+[2023-07-22 03:19:06] INFO root fetch - main [MainThread]: End processing [nebari]: success
+[2023-07-22 03:19:06] INFO root fetch - main [MainThread]: Store serial: [18990888]
