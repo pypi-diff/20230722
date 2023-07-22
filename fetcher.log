@@ -18688,3 +18688,128 @@ EOFError: EOF read where object expected
 [2023-07-22 21:13:53] INFO root fetch - processPackages [pynidm]: Remove: archive file [/home/abi/fetcher/tmp/pynidm-4.1.0.tar.gz]
 [2023-07-22 21:13:53] INFO root fetch - main [MainThread]: End processing [pynidm]: success
 [2023-07-22 21:13:53] INFO root fetch - main [MainThread]: Store serial: [18997003]
+[2023-07-22 21:18:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18997003]
+[2023-07-22 21:19:02] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-22 21:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GPyS
+[2023-07-22 21:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarer.aws-frontend-web-app-deploy-stack
+[2023-07-22 21:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oneat
+[2023-07-22 21:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roblox-pyc
+[2023-07-22 21:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flufl.lock
+[2023-07-22 21:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gammarer.aws-rds-database-running-scheduler
+[2023-07-22 21:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gammarer.aws-ec2-auto-scaling-instance-running-scheduler
+[2023-07-22 21:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opx-plus
+[2023-07-22 21:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oarepo-model-builder
+[2023-07-22 21:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: space-classy
+[2023-07-22 21:19:02] INFO root fetch - processPackages [GPyS]: New version: [0.0.31] Old Version: [0.0.3]
+[2023-07-22 21:19:02] INFO root fetch - processPackages [opx-plus]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-22 21:19:02] INFO root fetch - processPackages [flufl.lock]: New version: [8.0.2] Old Version: [8.0.1]
+[2023-07-22 21:19:02] INFO root fetch - processPackages [space-classy]: New version: [0.6] Old Version: [0.5]
+[2023-07-22 21:19:02] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-22 21:19:02] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-22 21:19:02] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 21:19:02] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-22 21:19:02] INFO root fetch - processPackages [oneat]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-07-22 21:19:02] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-22 21:19:03] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/6b/f2/bfc06fb000049c9e106af819a9892e47e8c0857005d2271b4daa85df42b8/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.4.tar.gz
+[2023-07-22 21:19:03] INFO root fetch - processPackages [opx-plus]: Downloading https://files.pythonhosted.org/packages/d9/b0/88df87ecf6abfba9862df0bbc3cd98418c52e6831b34a8b5fff64e290bab/opx_plus-0.1.4.tar.gz
+[2023-07-22 21:19:03] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: Downloading https://files.pythonhosted.org/packages/ef/ed/a4a989f4b6e0375bd41e7fefaadadba67397ee4b9711fb62fc6956878435/gammarer.aws-frontend-web-app-deploy-stack-0.5.3.tar.gz
+[2023-07-22 21:19:03] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/2c/f4/2cc569bb2a676ef88511898b34c2bd6b6e25ce844301d071d710b8fe4f6a/oneat-6.0.1.tar.gz
+[2023-07-22 21:19:03] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-22 21:19:03] INFO root fetch - processPackages [GPyS]: Downloading https://files.pythonhosted.org/packages/8d/7b/2e9a0651b7f2e0d1f6cd756ebfa67933f48bb1fd7b1046d8e9669d1c7390/GPyS-0.0.3.tar.gz
+[2023-07-22 21:19:03] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Downloading https://files.pythonhosted.org/packages/8c/ab/dc4df425b5751376819ea16a9b0771bcea2d7723bc20264c101b962ae6f1/gammarer.aws-rds-database-running-scheduler-0.3.8.tar.gz
+[2023-07-22 21:19:03] INFO root fetch - processPackages [space-classy]: Downloading https://files.pythonhosted.org/packages/4f/2f/e9211933e0d4590bde2556d460ec935dded22c93ac69900eace002092daf/space_classy-0.5.tar.gz
+[2023-07-22 21:19:03] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a7/f0/62f6d05442790f0562d20d7e93407d69aeea6c98832d6f8f68b27611715f/oarepo-model-builder-4.0.8.tar.gz
+[2023-07-22 21:19:03] INFO root fetch - processPackages [flufl.lock]: Downloading https://files.pythonhosted.org/packages/89/a5/b22002ee8f5bbe787f0fd0e895aa37281d64ff4a48ba2624743a3dc80083/flufl_lock-8.0.1.tar.gz
+[2023-07-22 21:19:03] WARNING root fetch - processPackages [space-classy]: Skipping package: exceeds size limit 11539251>=10485760
+[2023-07-22 21:19:03] INFO root fetch - processPackages [space-classy]: Start processing: django-auth-ldap
+[2023-07-22 21:19:03] INFO root fetch - main [MainThread]: End processing [space-classy] error
+[2023-07-22 21:19:03] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-22 21:19:03] INFO root fetch - processPackages [django-auth-ldap]: New version: [4.4.0] Old Version: [4.3.0]
+[2023-07-22 21:19:03] INFO root fetch - processPackages [opx-plus]: Downloading https://files.pythonhosted.org/packages/4a/15/4c19c67743558ef523a87084504b5b76a430035027cfda17160b410c51f1/opx_plus-0.1.5.tar.gz
+[2023-07-22 21:19:03] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/5f/48/3abc2210bc6de8610de2ec67621b8e7ac9d54901ec128418946678a9f5ab/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.5.tar.gz
+[2023-07-22 21:19:03] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: Downloading https://files.pythonhosted.org/packages/56/0f/18429343fd6dbe56172a2d0be74325788f452c26652df00bccf46708aba7/gammarer.aws-frontend-web-app-deploy-stack-0.5.4.tar.gz
+[2023-07-22 21:19:03] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Downloading https://files.pythonhosted.org/packages/61/fb/1a21bbd4fe2f6693f9d1694588ab1d6a4656ab1fac2a80264522212067e2/gammarer.aws-rds-database-running-scheduler-0.3.9.tar.gz
+[2023-07-22 21:19:03] INFO root fetch - processPackages [GPyS]: Downloading https://files.pythonhosted.org/packages/df/2e/c198aa59f8b07646f84511a6d7f961e7136cc2d8b50c534653f67268427d/GPyS-0.0.31.tar.gz
+[2023-07-22 21:19:03] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-22 21:19:03] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230722/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-22 21:19:03] INFO root fetch - processPackages [flufl.lock]: Downloading https://files.pythonhosted.org/packages/da/de/a17ec72723eb806c71bdcf04519570cbf9baa2d923b9e15ea1a296f6acbe/flufl_lock-8.0.2.tar.gz
+[2023-07-22 21:19:03] INFO root fetch - processPackages [opx-plus]: executing diffoscope
+[2023-07-22 21:19:03] INFO root fetch - processPackages [opx-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opx_plus-0.1.4.tar.gz tmp/opx_plus-0.1.5.tar.gz --markdown 20230722/o/opx-plus/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-22 21:19:03] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2023-07-22 21:19:03] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: executing diffoscope
+[2023-07-22 21:19:03] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.4.tar.gz tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.5.tar.gz --markdown 20230722/g/gammarer.aws-ec2-auto-scaling-instance-running-scheduler/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-22 21:19:04] INFO root fetch - processPackages [django-auth-ldap]: Downloading https://files.pythonhosted.org/packages/bf/c1/541e4ba194dbc953a569f3b9a09b3a007b7393b08bdb062c290cbbe26ce8/django-auth-ldap-4.3.0.tar.gz
+[2023-07-22 21:19:04] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: executing diffoscope
+[2023-07-22 21:19:04] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-rds-database-running-scheduler-0.3.8.tar.gz tmp/gammarer.aws-rds-database-running-scheduler-0.3.9.tar.gz --markdown 20230722/g/gammarer.aws-rds-database-running-scheduler/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 21:19:04] INFO root fetch - processPackages [GPyS]: executing diffoscope
+[2023-07-22 21:19:04] INFO root fetch - processPackages [GPyS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPyS-0.0.3.tar.gz tmp/GPyS-0.0.31.tar.gz --markdown 20230722/G/GPyS/0.0.3-0.0.31/diff.md --exclude *.pyd
+[2023-07-22 21:19:04] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/e7/fe/8e64560d6574189c747e7c27d392cf20715cff6f7a8a63fc86c941eb2ea4/oneat-6.0.2.tar.gz
+[2023-07-22 21:19:04] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: executing diffoscope
+[2023-07-22 21:19:04] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-frontend-web-app-deploy-stack-0.5.3.tar.gz tmp/gammarer.aws-frontend-web-app-deploy-stack-0.5.4.tar.gz --markdown 20230722/g/gammarer.aws-frontend-web-app-deploy-stack/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-22 21:19:04] INFO root fetch - processPackages [flufl.lock]: executing diffoscope
+[2023-07-22 21:19:04] INFO root fetch - processPackages [flufl.lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flufl_lock-8.0.1.tar.gz tmp/flufl_lock-8.0.2.tar.gz --markdown 20230722/f/flufl.lock/8.0.1-8.0.2/diff.md --exclude *.pyd
+[2023-07-22 21:19:04] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-07-22 21:19:04] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.8.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20230722/o/oarepo-model-builder/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-22 21:19:04] INFO root fetch - processPackages [django-auth-ldap]: Downloading https://files.pythonhosted.org/packages/59/58/69c4f0f05927e13f847f3bb8cc9ad388a9a7e7c20070256999a243b8866c/django-auth-ldap-4.4.0.tar.gz
+[2023-07-22 21:19:04] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-22 21:19:04] INFO root fetch - processPackages [django-auth-ldap]: executing diffoscope
+[2023-07-22 21:19:04] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-6.0.1.tar.gz tmp/oneat-6.0.2.tar.gz --markdown 20230722/o/oneat/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-07-22 21:19:04] INFO root fetch - processPackages [django-auth-ldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-auth-ldap-4.3.0.tar.gz tmp/django-auth-ldap-4.4.0.tar.gz --markdown 20230722/d/django-auth-ldap/4.3.0-4.4.0/diff.md --exclude *.pyd
+[2023-07-22 21:19:05] INFO root fetch - processPackages [opx-plus]: Remove: archive file [/home/abi/fetcher/tmp/opx_plus-0.1.4.tar.gz]
+[2023-07-22 21:19:05] INFO root fetch - processPackages [opx-plus]: Remove: archive file [/home/abi/fetcher/tmp/opx_plus-0.1.5.tar.gz]
+[2023-07-22 21:19:05] INFO root fetch - processPackages [opx-plus]: Start processing: swarms
+[2023-07-22 21:19:05] INFO root fetch - main [MainThread]: End processing [opx-plus]: success
+[2023-07-22 21:19:05] INFO root fetch - processPackages [swarms]: New version: [1.9.0] Old Version: [1.0.6]
+[2023-07-22 21:19:05] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.4.tar.gz]
+[2023-07-22 21:19:05] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.5.tar.gz]
+[2023-07-22 21:19:05] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Start processing: flake8-numba
+[2023-07-22 21:19:05] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: success
+[2023-07-22 21:19:05] INFO root fetch - processPackages [flake8-numba]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-22 21:19:05] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-rds-database-running-scheduler-0.3.8.tar.gz]
+[2023-07-22 21:19:05] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-rds-database-running-scheduler-0.3.9.tar.gz]
+[2023-07-22 21:19:05] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Start processing: pillar1
+[2023-07-22 21:19:05] INFO root fetch - main [MainThread]: End processing [gammarer.aws-rds-database-running-scheduler]: success
+[2023-07-22 21:19:05] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-22 21:19:05] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-22 21:19:05] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-22 21:19:05] INFO root fetch - processPackages [pillar1]: New version: [0.1.9.9] Old Version: [0.1.9.8]
+[2023-07-22 21:19:05] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/e2/b3/2ff88bb9682e2c9e987e853334ea2fd9baa74a18e781e8b827950ad05aee/swarms-1.0.6.tar.gz
+[2023-07-22 21:19:05] INFO root fetch - processPackages [GPyS]: Remove: archive file [/home/abi/fetcher/tmp/GPyS-0.0.3.tar.gz]
+[2023-07-22 21:19:05] INFO root fetch - processPackages [GPyS]: Remove: archive file [/home/abi/fetcher/tmp/GPyS-0.0.31.tar.gz]
+[2023-07-22 21:19:05] INFO root fetch - main [MainThread]: End processing [GPyS]: success
+[2023-07-22 21:19:05] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-frontend-web-app-deploy-stack-0.5.3.tar.gz]
+[2023-07-22 21:19:05] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-frontend-web-app-deploy-stack-0.5.4.tar.gz]
+[2023-07-22 21:19:05] INFO root fetch - main [MainThread]: End processing [gammarer.aws-frontend-web-app-deploy-stack]: success
+[2023-07-22 21:19:05] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/fd/c8/dc894f4393d99c54f62ae98519892157e6b0e0327ac1f0b1a261450e9868/pillar1-0.1.9.8.tar.gz
+[2023-07-22 21:19:05] INFO root fetch - processPackages [flake8-numba]: Downloading https://files.pythonhosted.org/packages/ff/19/e319cca95aca6af4ebc8482855df5290eea91062e9d82bb8dc0ef7acd7ab/flake8_numba-0.2.0.tar.gz
+[2023-07-22 21:19:05] INFO root fetch - processPackages [flufl.lock]: Remove: archive file [/home/abi/fetcher/tmp/flufl_lock-8.0.1.tar.gz]
+[2023-07-22 21:19:05] INFO root fetch - processPackages [flufl.lock]: Remove: archive file [/home/abi/fetcher/tmp/flufl_lock-8.0.2.tar.gz]
+[2023-07-22 21:19:05] INFO root fetch - main [MainThread]: End processing [flufl.lock]: success
+[2023-07-22 21:19:05] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/92/8d/efcf5703708adcc432230e0d510fec42756434d28ae2e4b4348f30be2eef/pillar1-0.1.9.9.tar.gz
+[2023-07-22 21:19:05] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/47/61/2296c4861da08a33b70d6a3f25b4388498f6efacac63f23643ab0506af02/swarms-1.9.0.tar.gz
+[2023-07-22 21:19:06] INFO root fetch - processPackages [django-auth-ldap]: Remove: archive file [/home/abi/fetcher/tmp/django-auth-ldap-4.3.0.tar.gz]
+[2023-07-22 21:19:06] INFO root fetch - processPackages [django-auth-ldap]: Remove: archive file [/home/abi/fetcher/tmp/django-auth-ldap-4.4.0.tar.gz]
+[2023-07-22 21:19:06] INFO root fetch - main [MainThread]: End processing [django-auth-ldap]: success
+[2023-07-22 21:19:06] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-07-22 21:19:06] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.9.8.tar.gz tmp/pillar1-0.1.9.9.tar.gz --markdown 20230722/p/pillar1/0.1.9.8-0.1.9.9/diff.md --exclude *.pyd
+[2023-07-22 21:19:06] INFO root fetch - processPackages [flake8-numba]: Downloading https://files.pythonhosted.org/packages/e4/c5/5f520f62ff828373afcc55db93f494c9d6621130589cd34e0f0345f54c38/flake8_numba-0.3.0.tar.gz
+[2023-07-22 21:19:06] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-22 21:19:06] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-1.0.6.tar.gz tmp/swarms-1.9.0.tar.gz --markdown 20230722/s/swarms/1.0.6-1.9.0/diff.md --exclude *.pyd
+[2023-07-22 21:19:06] INFO root fetch - processPackages [flake8-numba]: executing diffoscope
+[2023-07-22 21:19:06] INFO root fetch - processPackages [flake8-numba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_numba-0.2.0.tar.gz tmp/flake8_numba-0.3.0.tar.gz --markdown 20230722/f/flake8-numba/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-22 21:19:06] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.8.tar.gz]
+[2023-07-22 21:19:06] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2023-07-22 21:19:06] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-07-22 21:19:06] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.0.1.tar.gz]
+[2023-07-22 21:19:06] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.0.2.tar.gz]
+[2023-07-22 21:19:06] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-22 21:19:06] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.8.tar.gz]
+[2023-07-22 21:19:06] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.9.tar.gz]
+[2023-07-22 21:19:06] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-07-22 21:19:07] INFO root fetch - processPackages [flake8-numba]: Remove: archive file [/home/abi/fetcher/tmp/flake8_numba-0.2.0.tar.gz]
+[2023-07-22 21:19:07] INFO root fetch - processPackages [flake8-numba]: Remove: archive file [/home/abi/fetcher/tmp/flake8_numba-0.3.0.tar.gz]
+[2023-07-22 21:19:07] INFO root fetch - main [MainThread]: End processing [flake8-numba]: success
+[2023-07-22 21:19:07] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-1.0.6.tar.gz]
+[2023-07-22 21:19:07] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-1.9.0.tar.gz]
+[2023-07-22 21:19:07] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-22 21:19:07] INFO root fetch - main [MainThread]: Store serial: [18997045]
