@@ -17839,3 +17839,63 @@ EOFError: EOF read where object expected
 [2023-07-22 19:54:33] INFO root fetch - processPackages [aiohomekit]: Remove: archive file [/home/abi/fetcher/tmp/aiohomekit-2.6.9.tar.gz]
 [2023-07-22 19:54:33] INFO root fetch - main [MainThread]: End processing [aiohomekit]: success
 [2023-07-22 19:54:33] INFO root fetch - main [MainThread]: Store serial: [18996677]
+[2023-07-22 19:59:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996677]
+[2023-07-22 19:59:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 19:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: losscape
+[2023-07-22 19:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omni-pro
+[2023-07-22 19:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hoom
+[2023-07-22 19:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airoboros
+[2023-07-22 19:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickscope
+[2023-07-22 19:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OneOnOne
+[2023-07-22 19:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: heaserver-folders-aws-s3
+[2023-07-22 19:59:42] INFO root fetch - processPackages [losscape]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-07-22 19:59:42] INFO root fetch - processPackages [OneOnOne]: New version: [0.6932] Old Version: [0.6931]
+[2023-07-22 19:59:42] INFO root fetch - processPackages [airoboros]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-22 19:59:42] INFO root fetch - processPackages [heaserver-folders-aws-s3]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-22 19:59:42] INFO root fetch - processPackages [omni-pro]: New version: [0.1.20] Old Version: [0.1.19]
+[2023-07-22 19:59:42] INFO root fetch - processPackages [quickscope]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-22 19:59:42] WARNING root fetch - processPackages [hoom]: Skipping, unable to determine old version
+[2023-07-22 19:59:42] INFO root fetch - main [MainThread]: End processing [hoom] error
+[2023-07-22 19:59:42] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/83/2a/35e43cb162a591d2e9e629367abe8d4578969fcfd00140e6ca42aeda5e73/losscape-1.4.4.tar.gz
+[2023-07-22 19:59:42] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Downloading https://files.pythonhosted.org/packages/f8/10/3a86463ed5a3cada680e1678f42cfdf2a07f27f8cdb90c8d0c3f57f9ab82/heaserver-folders-aws-s3-1.0.0a8.tar.gz
+[2023-07-22 19:59:42] INFO root fetch - processPackages [omni-pro]: Downloading https://files.pythonhosted.org/packages/92/00/55d6901cb351641b4f16835c466b8a347df589965408fec62844da087570/omni-pro-0.1.19.tar.gz
+[2023-07-22 19:59:42] INFO root fetch - processPackages [airoboros]: Downloading https://files.pythonhosted.org/packages/84/55/6caae57efe72a5bfee1da3988bea04b0fa32d7b7c90d607ace74e70c623a/airoboros-2.0.5.tar.gz
+[2023-07-22 19:59:42] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/d4/60/3ab8db885a76ba6c436366cbff55999eb0a7bb74a1069847c197c26c6307/OneOnOne-0.6931.tar.gz
+[2023-07-22 19:59:42] INFO root fetch - processPackages [quickscope]: Downloading https://files.pythonhosted.org/packages/e2/5a/6b93f49e218780764c5f8959674f3fcabe2cac594b699514a297462c2f7e/quickscope-0.1.3.tar.gz
+[2023-07-22 19:59:42] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/6e/56/9375901e1ae32ddbd07100f5b8531d1ebb5ce072c8655cadde280ae46da3/losscape-1.4.5.tar.gz
+[2023-07-22 19:59:42] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Downloading https://files.pythonhosted.org/packages/f0/b0/dda81eace819afe1df5d783a040e576f769b7f6834886d20e39ca1737454/heaserver-folders-aws-s3-1.0.0a9.tar.gz
+[2023-07-22 19:59:42] INFO root fetch - processPackages [airoboros]: Downloading https://files.pythonhosted.org/packages/6d/1f/153cfea85bd7d667206379285459e8dd05e27ba2be7d91283b66804910c8/airoboros-2.0.6.tar.gz
+[2023-07-22 19:59:42] INFO root fetch - processPackages [losscape]: executing diffoscope
+[2023-07-22 19:59:42] INFO root fetch - processPackages [losscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/losscape-1.4.4.tar.gz tmp/losscape-1.4.5.tar.gz --markdown 20230722/l/losscape/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-07-22 19:59:42] INFO root fetch - processPackages [heaserver-folders-aws-s3]: executing diffoscope
+[2023-07-22 19:59:42] INFO root fetch - processPackages [heaserver-folders-aws-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-folders-aws-s3-1.0.0a8.tar.gz tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz --markdown 20230722/h/heaserver-folders-aws-s3/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-22 19:59:42] INFO root fetch - processPackages [omni-pro]: Downloading https://files.pythonhosted.org/packages/f5/d8/80a415eb0a8ffae68325639b0117dd42b9a0b969e70c0a9f2d3d034e74d2/omni-pro-0.1.20.tar.gz
+[2023-07-22 19:59:43] INFO root fetch - processPackages [airoboros]: executing diffoscope
+[2023-07-22 19:59:43] INFO root fetch - processPackages [airoboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airoboros-2.0.5.tar.gz tmp/airoboros-2.0.6.tar.gz --markdown 20230722/a/airoboros/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-22 19:59:43] INFO root fetch - processPackages [omni-pro]: executing diffoscope
+[2023-07-22 19:59:43] INFO root fetch - processPackages [omni-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni-pro-0.1.19.tar.gz tmp/omni-pro-0.1.20.tar.gz --markdown 20230722/o/omni-pro/0.1.19-0.1.20/diff.md --exclude *.pyd
+[2023-07-22 19:59:43] INFO root fetch - processPackages [quickscope]: Downloading https://files.pythonhosted.org/packages/87/c5/3962f01d86057e85ba80f9054010bfa32b470c5bcdf1e062a9c3362c83aa/quickscope-0.1.4.tar.gz
+[2023-07-22 19:59:43] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/1f/cb/8a3908a6a068ee61511bd2ca76ee147ab1815ed5b102f3e843239188fde1/OneOnOne-0.6932.tar.gz
+[2023-07-22 19:59:43] INFO root fetch - processPackages [quickscope]: executing diffoscope
+[2023-07-22 19:59:43] INFO root fetch - processPackages [quickscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickscope-0.1.3.tar.gz tmp/quickscope-0.1.4.tar.gz --markdown 20230722/q/quickscope/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-22 19:59:43] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 19:59:43] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6931.tar.gz tmp/OneOnOne-0.6932.tar.gz --markdown 20230722/O/OneOnOne/0.6931-0.6932/diff.md --exclude *.pyd
+[2023-07-22 19:59:43] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.4.4.tar.gz]
+[2023-07-22 19:59:43] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.4.5.tar.gz]
+[2023-07-22 19:59:43] INFO root fetch - main [MainThread]: End processing [losscape]: success
+[2023-07-22 19:59:44] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-folders-aws-s3-1.0.0a8.tar.gz]
+[2023-07-22 19:59:44] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz]
+[2023-07-22 19:59:44] INFO root fetch - main [MainThread]: End processing [heaserver-folders-aws-s3]: success
+[2023-07-22 19:59:44] INFO root fetch - processPackages [quickscope]: Remove: archive file [/home/abi/fetcher/tmp/quickscope-0.1.3.tar.gz]
+[2023-07-22 19:59:44] INFO root fetch - processPackages [quickscope]: Remove: archive file [/home/abi/fetcher/tmp/quickscope-0.1.4.tar.gz]
+[2023-07-22 19:59:44] INFO root fetch - main [MainThread]: End processing [quickscope]: success
+[2023-07-22 19:59:44] INFO root fetch - processPackages [airoboros]: Remove: archive file [/home/abi/fetcher/tmp/airoboros-2.0.5.tar.gz]
+[2023-07-22 19:59:44] INFO root fetch - processPackages [airoboros]: Remove: archive file [/home/abi/fetcher/tmp/airoboros-2.0.6.tar.gz]
+[2023-07-22 19:59:44] INFO root fetch - main [MainThread]: End processing [airoboros]: success
+[2023-07-22 19:59:44] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6931.tar.gz]
+[2023-07-22 19:59:44] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6932.tar.gz]
+[2023-07-22 19:59:44] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 19:59:45] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.19.tar.gz]
+[2023-07-22 19:59:45] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.20.tar.gz]
+[2023-07-22 19:59:45] INFO root fetch - main [MainThread]: End processing [omni-pro]: success
+[2023-07-22 19:59:45] INFO root fetch - main [MainThread]: Store serial: [18996698]
