@@ -9220,3 +9220,40 @@
 [2023-07-22 06:57:58] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.9.tar.gz]
 [2023-07-22 06:57:58] INFO root fetch - main [MainThread]: End processing [flashcam]: success
 [2023-07-22 06:57:58] INFO root fetch - main [MainThread]: Store serial: [18992738]
+[2023-07-22 07:03:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992738]
+[2023-07-22 07:03:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-22 07:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moabdb
+[2023-07-22 07:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: texbuild
+[2023-07-22 07:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: texbuild
+[2023-07-22 07:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iman
+[2023-07-22 07:03:06] INFO root fetch - processPackages [moabdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 07:03:06] INFO root fetch - processPackages [texbuild]: New version: [0.2.1] Old Version: [0.2]
+[2023-07-22 07:03:06] INFO root fetch - processPackages [texbuild]: New version: [0.2.1] Old Version: [0.2]
+[2023-07-22 07:03:06] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/96/03/58935b420c952db4961424ceeba97283a4c72fb94531da0acb864c0aa9ab/moabdb-0.1.8.tar.gz
+[2023-07-22 07:03:06] INFO root fetch - processPackages [iman]: New version: [0.0.9] Old Version: [0.0.89]
+[2023-07-22 07:03:07] INFO root fetch - processPackages [texbuild]: Downloading https://files.pythonhosted.org/packages/c2/f7/4de5224383a2e976421160c1c8d32410734f853cc93aa9131e50b13a104f/texbuild-0.2.tar.gz
+[2023-07-22 07:03:07] INFO root fetch - processPackages [texbuild]: Downloading https://files.pythonhosted.org/packages/c2/f7/4de5224383a2e976421160c1c8d32410734f853cc93aa9131e50b13a104f/texbuild-0.2.tar.gz
+[2023-07-22 07:03:07] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/02/5a/dc332fba4b2f9beda962be321254cf1d20a93377cc750891d55f43989ee9/moabdb-0.1.9.tar.gz
+[2023-07-22 07:03:07] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/bd/1c/27b7e6988e0e3d426ccb07e888efbea3dd71ecd8939b8fe09ceb3fe8cd93/iman-0.0.89.tar.gz
+[2023-07-22 07:03:07] INFO root fetch - processPackages [moabdb]: executing diffoscope
+[2023-07-22 07:03:07] INFO root fetch - processPackages [moabdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moabdb-0.1.8.tar.gz tmp/moabdb-0.1.9.tar.gz --markdown 20230722/m/moabdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 07:03:07] INFO root fetch - processPackages [texbuild]: Downloading https://files.pythonhosted.org/packages/81/0b/72bafd9b3a6a3f28ee5f4d5809c093bf4fc2ad5fcf952c7c8865a4702d8c/texbuild-0.2.1.tar.gz
+[2023-07-22 07:03:07] INFO root fetch - processPackages [texbuild]: Downloading https://files.pythonhosted.org/packages/81/0b/72bafd9b3a6a3f28ee5f4d5809c093bf4fc2ad5fcf952c7c8865a4702d8c/texbuild-0.2.1.tar.gz
+[2023-07-22 07:03:07] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/30/17/389821fbd85328fbda7e038746aa1d02011502958e2d9589ede98d2f5b0b/iman-0.0.9.tar.gz
+[2023-07-22 07:03:07] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-07-22 07:03:07] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.89.tar.gz tmp/iman-0.0.9.tar.gz --markdown 20230722/i/iman/0.0.89-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 07:03:07] INFO root fetch - processPackages [texbuild]: executing diffoscope
+[2023-07-22 07:03:07] INFO root fetch - processPackages [texbuild]: executing diffoscope
+[2023-07-22 07:03:07] INFO root fetch - processPackages [texbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/texbuild-0.2.tar.gz tmp/texbuild-0.2.1.tar.gz --markdown 20230722/t/texbuild/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-07-22 07:03:07] INFO root fetch - processPackages [texbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/texbuild-0.2.tar.gz tmp/texbuild-0.2.1.tar.gz --markdown 20230722/t/texbuild/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-07-22 07:03:08] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.8.tar.gz]
+[2023-07-22 07:03:08] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.9.tar.gz]
+[2023-07-22 07:03:08] INFO root fetch - main [MainThread]: End processing [moabdb]: success
+[2023-07-22 07:03:08] INFO root fetch - processPackages [texbuild]: Remove: archive file [/home/abi/fetcher/tmp/texbuild-0.2.tar.gz]
+[2023-07-22 07:03:08] INFO root fetch - processPackages [texbuild]: Remove: archive file [/home/abi/fetcher/tmp/texbuild-0.2.1.tar.gz]
+[2023-07-22 07:03:08] INFO root fetch - main [MainThread]: End processing [texbuild]: success
+[2023-07-22 07:03:08] INFO root fetch - main [MainThread]: End processing [texbuild]: success
+[2023-07-22 07:03:08] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.89.tar.gz]
+[2023-07-22 07:03:08] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.9.tar.gz]
+[2023-07-22 07:03:08] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-07-22 07:03:08] INFO root fetch - main [MainThread]: Store serial: [18992750]
