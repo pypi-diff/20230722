@@ -7880,3 +7880,81 @@
 [2023-07-22 04:53:14] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_base_import-16.0.1.0.1.9-py3-none-any.whl.zip]
 [2023-07-22 04:53:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-base-import]: success
 [2023-07-22 04:53:14] INFO root fetch - main [MainThread]: Store serial: [18992295]
+[2023-07-22 04:58:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992295]
+[2023-07-22 04:58:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-22 04:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-business-requirement-crm
+[2023-07-22 04:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-business-requirement
+[2023-07-22 04:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-business-requirement
+[2023-07-22 04:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tastytrade
+[2023-07-22 04:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: labcams
+[2023-07-22 04:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: idkwhttph
+[2023-07-22 04:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opvious
+[2023-07-22 04:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ladybug-radiance
+[2023-07-22 04:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: roblox-pyc
+[2023-07-22 04:58:24] INFO root fetch - processPackages [ladybug-radiance]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-22 04:58:24] WARNING root fetch - processPackages [odoo-addon-business-requirement-crm]: Skipping, unable to determine old version
+[2023-07-22 04:58:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-business-requirement-crm] error
+[2023-07-22 04:58:24] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-22 04:58:24] INFO root fetch - processPackages [odoo-addon-business-requirement]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-07-22 04:58:24] INFO root fetch - processPackages [ladybug-radiance]: Downloading https://files.pythonhosted.org/packages/00/03/94cb145637d272eefa8c637bd166833f9021418ca0489e95e0ee3d9219df/ladybug-radiance-0.2.0.tar.gz
+[2023-07-22 04:58:24] INFO root fetch - processPackages [tastytrade]: New version: [6.0] Old Version: [5.7]
+[2023-07-22 04:58:24] INFO root fetch - processPackages [odoo-addons-oca-business-requirement]: New version: [16.0.20230721.0] Old Version: [16.0.20230713.0]
+[2023-07-22 04:58:24] INFO root fetch - processPackages [idkwhttph]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-22 04:58:24] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-22 04:58:24] INFO root fetch - processPackages [labcams]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-22 04:58:24] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-22 04:58:24] INFO root fetch - processPackages [tastytrade]: Downloading https://files.pythonhosted.org/packages/1d/d3/2ff1c1e77950d1c48b76e235618dfe36e665dc4d909485d59ab8cc0f5398/tastytrade-5.7.tar.gz
+[2023-07-22 04:58:24] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/dd/cf/d6996d2f8de858c2ad298dfbcaa646a41097b2ec35e9b61e278462a71ab7/idkwhttph-0.2.2.tar.gz
+[2023-07-22 04:58:24] INFO root fetch - processPackages [ladybug-radiance]: Downloading https://files.pythonhosted.org/packages/c8/48/38198ddb62ab5030d7beb1b3ad2cbc2b9825d98cef82f0e45d4a467e5f28/ladybug-radiance-0.2.1.tar.gz
+[2023-07-22 04:58:24] INFO root fetch - processPackages [odoo-addons-oca-business-requirement]: Downloading https://files.pythonhosted.org/packages/2d/f2/5f162addf98d21188ea62cb04d92364a93012ba5ac2d60e2859f59a4831b/odoo_addons_oca_business_requirement-16.0.20230713.0-py3-none-any.whl
+[2023-07-22 04:58:24] INFO root fetch - processPackages [odoo-addon-business-requirement]: Downloading https://files.pythonhosted.org/packages/2c/5f/c7d45ed5e0ca03aa331f8c55e749cccf4883082535033ca3dda58400529f/odoo_addon_business_requirement-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-22 04:58:24] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/d1/8f/b7e05d9b24e4dd1af2b9eab96fa7d1f97af088ed0836d9d8cfdb60c51360/opvious-0.9.5.tar.gz
+[2023-07-22 04:58:24] INFO root fetch - processPackages [labcams]: Downloading https://files.pythonhosted.org/packages/45/58/6f4df90dd774b778169f31b3c2376d0f8a40186a6ae5eee06a50a0e92620/labcams-0.7.0-py3-none-any.whl
+[2023-07-22 04:58:24] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-22 04:58:25] INFO root fetch - processPackages [ladybug-radiance]: executing diffoscope
+[2023-07-22 04:58:25] INFO root fetch - processPackages [ladybug-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-radiance-0.2.0.tar.gz tmp/ladybug-radiance-0.2.1.tar.gz --markdown 20230722/l/ladybug-radiance/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-22 04:58:25] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-22 04:58:25] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230722/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-22 04:58:25] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/7a/16/4256fa160a844ea706e1d91086dfebf984f2a530ac217d2dac22c9aed599/idkwhttph-0.2.3.tar.gz
+[2023-07-22 04:58:25] INFO root fetch - processPackages [tastytrade]: Downloading https://files.pythonhosted.org/packages/1a/38/217307da932b9e34ceb9054712f16b6e0c932ff49442626e0dcd02858878/tastytrade-6.0.tar.gz
+[2023-07-22 04:58:25] INFO root fetch - processPackages [odoo-addons-oca-business-requirement]: Downloading https://files.pythonhosted.org/packages/9e/5f/51b18da6be0e7cf7ed7de34fb0bb407f981cfaa1db9c30b819e7ced1a7fc/odoo_addons_oca_business_requirement-16.0.20230721.0-py3-none-any.whl
+[2023-07-22 04:58:25] INFO root fetch - processPackages [labcams]: Downloading https://files.pythonhosted.org/packages/a7/b6/331f8512d23a44aff17521053599d626e8e3a7b9cafcfe36362a320de805/labcams-0.7.1-py3-none-any.whl
+[2023-07-22 04:58:25] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/c2/c3/e2b95ca71e91eb624497389cb2391d3310907b4f9f25dee1a75b99798c14/opvious-0.9.6.tar.gz
+[2023-07-22 04:58:25] INFO root fetch - processPackages [idkwhttph]: executing diffoscope
+[2023-07-22 04:58:25] INFO root fetch - processPackages [idkwhttph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idkwhttph-0.2.2.tar.gz tmp/idkwhttph-0.2.3.tar.gz --markdown 20230722/i/idkwhttph/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-22 04:58:25] INFO root fetch - processPackages [odoo-addons-oca-business-requirement]: executing diffoscope
+[2023-07-22 04:58:25] INFO root fetch - processPackages [odoo-addons-oca-business-requirement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_business_requirement-16.0.20230713.0-py3-none-any.whl.zip tmp/odoo_addons_oca_business_requirement-16.0.20230721.0-py3-none-any.whl.zip --markdown 20230722/o/odoo-addons-oca-business-requirement/16.0.20230713.0-16.0.20230721.0/diff.md --exclude *.pyd
+[2023-07-22 04:58:25] INFO root fetch - processPackages [tastytrade]: executing diffoscope
+[2023-07-22 04:58:25] INFO root fetch - processPackages [tastytrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade-5.7.tar.gz tmp/tastytrade-6.0.tar.gz --markdown 20230722/t/tastytrade/5.7-6.0/diff.md --exclude *.pyd
+[2023-07-22 04:58:25] INFO root fetch - processPackages [odoo-addon-business-requirement]: Downloading https://files.pythonhosted.org/packages/df/55/3358f6065ba9803e5822c5a4c9616f21026149cbea45183f6360a78d0048/odoo_addon_business_requirement-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-22 04:58:25] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-07-22 04:58:25] INFO root fetch - processPackages [labcams]: executing diffoscope
+[2023-07-22 04:58:25] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230722/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-22 04:58:25] INFO root fetch - processPackages [labcams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labcams-0.7.0-py3-none-any.whl.zip tmp/labcams-0.7.1-py3-none-any.whl.zip --markdown 20230722/l/labcams/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-22 04:58:25] INFO root fetch - processPackages [odoo-addon-business-requirement]: executing diffoscope
+[2023-07-22 04:58:25] INFO root fetch - processPackages [odoo-addon-business-requirement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_business_requirement-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_business_requirement-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230722/o/odoo-addon-business-requirement/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-22 04:58:26] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-22 04:58:26] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-22 04:58:26] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-22 04:58:26] INFO root fetch - processPackages [ladybug-radiance]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-radiance-0.2.0.tar.gz]
+[2023-07-22 04:58:26] INFO root fetch - processPackages [ladybug-radiance]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-radiance-0.2.1.tar.gz]
+[2023-07-22 04:58:26] INFO root fetch - main [MainThread]: End processing [ladybug-radiance]: success
+[2023-07-22 04:58:26] INFO root fetch - processPackages [odoo-addons-oca-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_business_requirement-16.0.20230713.0-py3-none-any.whl.zip]
+[2023-07-22 04:58:26] INFO root fetch - processPackages [odoo-addons-oca-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_business_requirement-16.0.20230721.0-py3-none-any.whl.zip]
+[2023-07-22 04:58:26] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-business-requirement]: success
+[2023-07-22 04:58:26] INFO root fetch - processPackages [labcams]: Remove: archive file [/home/abi/fetcher/tmp/labcams-0.7.0-py3-none-any.whl.zip]
+[2023-07-22 04:58:26] INFO root fetch - processPackages [labcams]: Remove: archive file [/home/abi/fetcher/tmp/labcams-0.7.1-py3-none-any.whl.zip]
+[2023-07-22 04:58:26] INFO root fetch - main [MainThread]: End processing [labcams]: success
+[2023-07-22 04:58:26] INFO root fetch - processPackages [tastytrade]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade-5.7.tar.gz]
+[2023-07-22 04:58:26] INFO root fetch - processPackages [tastytrade]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade-6.0.tar.gz]
+[2023-07-22 04:58:26] INFO root fetch - main [MainThread]: End processing [tastytrade]: success
+[2023-07-22 04:58:26] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.5.tar.gz]
+[2023-07-22 04:58:26] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.6.tar.gz]
+[2023-07-22 04:58:26] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-07-22 04:58:26] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.2.2.tar.gz]
+[2023-07-22 04:58:26] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.2.3.tar.gz]
+[2023-07-22 04:58:26] INFO root fetch - main [MainThread]: End processing [idkwhttph]: success
+[2023-07-22 04:58:27] INFO root fetch - processPackages [odoo-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_business_requirement-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-22 04:58:27] INFO root fetch - processPackages [odoo-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_business_requirement-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-22 04:58:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-business-requirement]: success
+[2023-07-22 04:58:27] INFO root fetch - main [MainThread]: Store serial: [18992321]
