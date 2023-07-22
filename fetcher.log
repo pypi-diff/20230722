@@ -16591,3 +16591,99 @@ EOFError: EOF read where object expected
 [2023-07-22 18:10:27] INFO root fetch - processPackages [alibabacloud-sas20181203]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203-2.1.9.tar.gz]
 [2023-07-22 18:10:27] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203]: success
 [2023-07-22 18:10:27] INFO root fetch - main [MainThread]: Store serial: [18996047]
+[2023-07-22 18:15:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996047]
+[2023-07-22 18:15:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-22 18:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paper-qa
+[2023-07-22 18:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: newcalls
+[2023-07-22 18:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scadnano
+[2023-07-22 18:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gw3
+[2023-07-22 18:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: babymaycry
+[2023-07-22 18:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pywhispercpp
+[2023-07-22 18:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mininf
+[2023-07-22 18:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apkpatcher-cli
+[2023-07-22 18:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: april-vision
+[2023-07-22 18:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sklearn-mlmlm
+[2023-07-22 18:15:40] INFO root fetch - processPackages [newcalls]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-22 18:15:40] INFO root fetch - processPackages [apkpatcher-cli]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-07-22 18:15:40] INFO root fetch - processPackages [gw3]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-22 18:15:40] INFO root fetch - processPackages [sklearn-mlmlm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 18:15:40] INFO root fetch - processPackages [babymaycry]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-22 18:15:40] INFO root fetch - processPackages [paper-qa]: New version: [3.4.0] Old Version: [3.3.3]
+[2023-07-22 18:15:40] INFO root fetch - processPackages [scadnano]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-22 18:15:40] INFO root fetch - processPackages [pywhispercpp]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-22 18:15:40] WARNING root fetch - processPackages [mininf]: Skipping, unable to determine old version
+[2023-07-22 18:15:40] INFO root fetch - processPackages [mininf]: Start processing: namekoplus
+[2023-07-22 18:15:40] INFO root fetch - main [MainThread]: End processing [mininf] error
+[2023-07-22 18:15:40] INFO root fetch - processPackages [april-vision]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-22 18:15:40] INFO root fetch - processPackages [gw3]: Downloading https://files.pythonhosted.org/packages/0a/d6/babda7efce3d06521d5d7d9524aba7742dad202cf4720468f3a98485aef4/gw3-0.6.2.tar.gz
+[2023-07-22 18:15:40] INFO root fetch - processPackages [apkpatcher-cli]: Downloading https://files.pythonhosted.org/packages/c6/11/c48b1004c8c619e2d642568c8b8b97ca50a2734d769a03a2db9b57779e4d/apkpatcher-cli-1.3.5.tar.gz
+[2023-07-22 18:15:40] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/0a/98/4ddd38a1e51a088e832ba7e63522d73dc145b8cfdec3e34074d50b210372/sklearn_mlmlm-0.0.8.tar.gz
+[2023-07-22 18:15:40] INFO root fetch - processPackages [babymaycry]: Downloading https://files.pythonhosted.org/packages/bd/5e/ee4c542c241893ad7f431352d9ca838c12f239bb2a68789ee3ddf3caafe9/babymaycry-0.0.5.tar.gz
+[2023-07-22 18:15:40] INFO root fetch - processPackages [newcalls]: Downloading https://files.pythonhosted.org/packages/be/92/2593632045317a55a0f522b6e00aafb9287b82dca119bc24aa085b966840/newcalls-0.0.1.tar.gz
+[2023-07-22 18:15:40] INFO root fetch - processPackages [namekoplus]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-22 18:15:40] INFO root fetch - processPackages [scadnano]: Downloading https://files.pythonhosted.org/packages/d1/36/4e1edd350d01bfae7a850e00e15bef1db4d0e0cbfdfd9a6925b4b589da93/scadnano-0.9.8.tar.gz
+[2023-07-22 18:15:41] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/5c/e6/cd405b3e9a831cc4bde41c2b7ff10dbb530f4ee9296eefedb16ae21407f8/paper-qa-3.3.3.tar.gz
+[2023-07-22 18:15:41] INFO root fetch - processPackages [april-vision]: Downloading https://files.pythonhosted.org/packages/1e/f7/eba9b49900c730088a308d8e0d6b242754c203297a512c2385dd61d06bd0/april_vision-2.0.1.tar.gz
+[2023-07-22 18:15:41] INFO root fetch - processPackages [pywhispercpp]: Downloading https://files.pythonhosted.org/packages/2f/3e/0f1c11c0a7e08c70d35648c0c9dc909f3f554c7661da193102112449d554/pywhispercpp-1.1.1.tar.gz
+[2023-07-22 18:15:41] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/8e/20/5b0f76a3c4ec519bdc1252725dd78ad4afcc5b17fd82f5330134186be426/sklearn_mlmlm-0.0.9.tar.gz
+[2023-07-22 18:15:41] INFO root fetch - processPackages [gw3]: Downloading https://files.pythonhosted.org/packages/15/2e/ac53996498ce4fa6a5b4b684e9dd6e897c759543f51231494111b3603494/gw3-0.6.3.tar.gz
+[2023-07-22 18:15:41] INFO root fetch - processPackages [apkpatcher-cli]: Downloading https://files.pythonhosted.org/packages/e4/b4/e64ece356fb0e0488c88c4bce8b6e74d3cb631e18dc37ef0361a63156966/apkpatcher-cli-1.3.6.tar.gz
+[2023-07-22 18:15:41] INFO root fetch - processPackages [babymaycry]: Downloading https://files.pythonhosted.org/packages/ae/06/8ca9048bc8ecc3929123f1de455ac74732d98996dadb979fb4abe9d45f05/babymaycry-0.0.6.tar.gz
+[2023-07-22 18:15:41] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/08/e0/b2cfa4252a85c23ff5699eb502450e729ebdd7eb7a4360bb77ba85784f1b/namekoplus-0.2.3.tar.gz
+[2023-07-22 18:15:41] INFO root fetch - processPackages [sklearn-mlmlm]: executing diffoscope
+[2023-07-22 18:15:41] INFO root fetch - processPackages [sklearn-mlmlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_mlmlm-0.0.8.tar.gz tmp/sklearn_mlmlm-0.0.9.tar.gz --markdown 20230722/s/sklearn-mlmlm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 18:15:41] INFO root fetch - processPackages [newcalls]: Downloading https://files.pythonhosted.org/packages/f8/2d/d6bfac8258b1bf6373369b3975df7b4e02698142922db41fb2d51f1ef45a/newcalls-0.0.2.tar.gz
+[2023-07-22 18:15:41] INFO root fetch - processPackages [april-vision]: Downloading https://files.pythonhosted.org/packages/39/f8/489360e29b4f357d0c8d7d21fa4bc948413861ac027622bc5d0727c2b84d/april_vision-2.0.2.tar.gz
+[2023-07-22 18:15:41] INFO root fetch - processPackages [gw3]: executing diffoscope
+[2023-07-22 18:15:41] INFO root fetch - processPackages [gw3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gw3-0.6.2.tar.gz tmp/gw3-0.6.3.tar.gz --markdown 20230722/g/gw3/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-22 18:15:41] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/ba/21/b30aba180221dbf2fbc0631e9f6c21e1ea65692a58d9fd052582c20a155d/paper-qa-3.4.0.tar.gz
+[2023-07-22 18:15:41] INFO root fetch - processPackages [babymaycry]: executing diffoscope
+[2023-07-22 18:15:41] INFO root fetch - processPackages [babymaycry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babymaycry-0.0.5.tar.gz tmp/babymaycry-0.0.6.tar.gz --markdown 20230722/b/babymaycry/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-22 18:15:41] INFO root fetch - processPackages [apkpatcher-cli]: executing diffoscope
+[2023-07-22 18:15:41] INFO root fetch - processPackages [apkpatcher-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apkpatcher-cli-1.3.5.tar.gz tmp/apkpatcher-cli-1.3.6.tar.gz --markdown 20230722/a/apkpatcher-cli/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-07-22 18:15:41] INFO root fetch - processPackages [newcalls]: executing diffoscope
+[2023-07-22 18:15:41] INFO root fetch - processPackages [newcalls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newcalls-0.0.1.tar.gz tmp/newcalls-0.0.2.tar.gz --markdown 20230722/n/newcalls/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-22 18:15:41] INFO root fetch - processPackages [pywhispercpp]: Downloading https://files.pythonhosted.org/packages/43/1d/7f86603f285dead63ce96aa0ee39242940950196317dc2fce315fe4dcb1f/pywhispercpp-1.1.2.tar.gz
+[2023-07-22 18:15:41] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/db/e9/489b737a2d1b94171896b0cf05323262b744dca3ac4a9c4bcbcdbd403b2b/namekoplus-0.2.4.tar.gz
+[2023-07-22 18:15:41] INFO root fetch - processPackages [april-vision]: executing diffoscope
+[2023-07-22 18:15:41] INFO root fetch - processPackages [april-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/april_vision-2.0.1.tar.gz tmp/april_vision-2.0.2.tar.gz --markdown 20230722/a/april-vision/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-22 18:15:41] INFO root fetch - processPackages [scadnano]: Downloading https://files.pythonhosted.org/packages/c7/f1/2310850f71efccb307397aae1886974350f539b8d4ac96c6a3e4eef86aaa/scadnano-0.9.9.tar.gz
+[2023-07-22 18:15:41] INFO root fetch - processPackages [paper-qa]: executing diffoscope
+[2023-07-22 18:15:41] INFO root fetch - processPackages [paper-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-qa-3.3.3.tar.gz tmp/paper-qa-3.4.0.tar.gz --markdown 20230722/p/paper-qa/3.3.3-3.4.0/diff.md --exclude *.pyd
+[2023-07-22 18:15:41] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-07-22 18:15:41] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.2.3.tar.gz tmp/namekoplus-0.2.4.tar.gz --markdown 20230722/n/namekoplus/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-22 18:15:41] INFO root fetch - processPackages [pywhispercpp]: executing diffoscope
+[2023-07-22 18:15:41] INFO root fetch - processPackages [pywhispercpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywhispercpp-1.1.1.tar.gz tmp/pywhispercpp-1.1.2.tar.gz --markdown 20230722/p/pywhispercpp/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-22 18:15:42] INFO root fetch - processPackages [scadnano]: executing diffoscope
+[2023-07-22 18:15:42] INFO root fetch - processPackages [scadnano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scadnano-0.9.8.tar.gz tmp/scadnano-0.9.9.tar.gz --markdown 20230722/s/scadnano/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-22 18:15:42] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.8.tar.gz]
+[2023-07-22 18:15:42] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.9.tar.gz]
+[2023-07-22 18:15:42] INFO root fetch - main [MainThread]: End processing [sklearn-mlmlm]: success
+[2023-07-22 18:15:42] INFO root fetch - processPackages [babymaycry]: Remove: archive file [/home/abi/fetcher/tmp/babymaycry-0.0.5.tar.gz]
+[2023-07-22 18:15:42] INFO root fetch - processPackages [babymaycry]: Remove: archive file [/home/abi/fetcher/tmp/babymaycry-0.0.6.tar.gz]
+[2023-07-22 18:15:42] INFO root fetch - main [MainThread]: End processing [babymaycry]: success
+[2023-07-22 18:15:43] INFO root fetch - processPackages [apkpatcher-cli]: Remove: archive file [/home/abi/fetcher/tmp/apkpatcher-cli-1.3.5.tar.gz]
+[2023-07-22 18:15:43] INFO root fetch - processPackages [apkpatcher-cli]: Remove: archive file [/home/abi/fetcher/tmp/apkpatcher-cli-1.3.6.tar.gz]
+[2023-07-22 18:15:43] INFO root fetch - main [MainThread]: End processing [apkpatcher-cli]: success
+[2023-07-22 18:15:43] INFO root fetch - processPackages [gw3]: Remove: archive file [/home/abi/fetcher/tmp/gw3-0.6.2.tar.gz]
+[2023-07-22 18:15:43] INFO root fetch - processPackages [gw3]: Remove: archive file [/home/abi/fetcher/tmp/gw3-0.6.3.tar.gz]
+[2023-07-22 18:15:43] INFO root fetch - main [MainThread]: End processing [gw3]: success
+[2023-07-22 18:15:43] INFO root fetch - processPackages [april-vision]: Remove: archive file [/home/abi/fetcher/tmp/april_vision-2.0.1.tar.gz]
+[2023-07-22 18:15:43] INFO root fetch - processPackages [april-vision]: Remove: archive file [/home/abi/fetcher/tmp/april_vision-2.0.2.tar.gz]
+[2023-07-22 18:15:43] INFO root fetch - main [MainThread]: End processing [april-vision]: success
+[2023-07-22 18:15:43] INFO root fetch - processPackages [scadnano]: Remove: archive file [/home/abi/fetcher/tmp/scadnano-0.9.8.tar.gz]
+[2023-07-22 18:15:43] INFO root fetch - processPackages [scadnano]: Remove: archive file [/home/abi/fetcher/tmp/scadnano-0.9.9.tar.gz]
+[2023-07-22 18:15:43] INFO root fetch - main [MainThread]: End processing [scadnano]: success
+[2023-07-22 18:15:43] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper-qa-3.3.3.tar.gz]
+[2023-07-22 18:15:43] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper-qa-3.4.0.tar.gz]
+[2023-07-22 18:15:43] INFO root fetch - main [MainThread]: End processing [paper-qa]: success
+[2023-07-22 18:15:43] INFO root fetch - processPackages [newcalls]: Remove: archive file [/home/abi/fetcher/tmp/newcalls-0.0.1.tar.gz]
+[2023-07-22 18:15:43] INFO root fetch - processPackages [newcalls]: Remove: archive file [/home/abi/fetcher/tmp/newcalls-0.0.2.tar.gz]
+[2023-07-22 18:15:43] INFO root fetch - main [MainThread]: End processing [newcalls]: success
+[2023-07-22 18:15:43] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.2.3.tar.gz]
+[2023-07-22 18:15:43] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.2.4.tar.gz]
+[2023-07-22 18:15:43] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-07-22 18:15:43] INFO root fetch - processPackages [pywhispercpp]: Remove: archive file [/home/abi/fetcher/tmp/pywhispercpp-1.1.1.tar.gz]
+[2023-07-22 18:15:43] INFO root fetch - processPackages [pywhispercpp]: Remove: archive file [/home/abi/fetcher/tmp/pywhispercpp-1.1.2.tar.gz]
+[2023-07-22 18:15:43] INFO root fetch - main [MainThread]: End processing [pywhispercpp]: success
+[2023-07-22 18:15:43] INFO root fetch - main [MainThread]: Store serial: [18996124]
