@@ -12431,3 +12431,49 @@
 [2023-07-22 11:50:34] INFO root fetch - processPackages [pythonit-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pythonit-toolkit-0.1.9.tar.gz]
 [2023-07-22 11:50:34] INFO root fetch - main [MainThread]: End processing [pythonit-toolkit]: success
 [2023-07-22 11:50:34] INFO root fetch - main [MainThread]: Store serial: [18994233]
+[2023-07-22 11:55:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994233]
+[2023-07-22 11:55:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 11:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qetrader
+[2023-07-22 11:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: create-fastapi
+[2023-07-22 11:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: database-without-orm-local
+[2023-07-22 11:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: talkytimes-package
+[2023-07-22 11:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyhOn
+[2023-07-22 11:55:44] INFO root fetch - processPackages [database-without-orm-local]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-07-22 11:55:44] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 11:55:44] INFO root fetch - processPackages [create-fastapi]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-22 11:55:44] INFO root fetch - processPackages [qetrader]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-22 11:55:44] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-22 11:55:44] INFO root fetch - processPackages [database-without-orm-local]: Downloading https://files.pythonhosted.org/packages/b0/72/7a42832d8aa0572220d9eda50327fcc013f4b21f3a8df79d1116a33d371d/database-without-orm-local-0.0.14.tar.gz
+[2023-07-22 11:55:44] INFO root fetch - processPackages [create-fastapi]: Downloading https://files.pythonhosted.org/packages/c9/1e/75d7628da1f1f8cf9b94dd90ea5cbc80fb048c95186388f7a3dc95387b9b/create-fastapi-0.0.6.tar.gz
+[2023-07-22 11:55:44] INFO root fetch - processPackages [pyhOn]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-22 11:55:44] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-22 11:55:44] INFO root fetch - processPackages [qetrader]: Downloading https://files.pythonhosted.org/packages/8d/76/412285766440f29addd68f1ad79e9dc15243a5adbd376024a598747d4943/qetrader-1.0.8.tar.gz
+[2023-07-22 11:55:44] INFO root fetch - processPackages [database-without-orm-local]: Downloading https://files.pythonhosted.org/packages/9b/30/d12c76e11b17d78b2ccc904b675b32798d03f76444e4dba0137c1e94f9e1/database-without-orm-local-0.0.15.tar.gz
+[2023-07-22 11:55:44] INFO root fetch - processPackages [create-fastapi]: Downloading https://files.pythonhosted.org/packages/fe/ad/bf7daf505dbe13dd4331f62abd5b69b4bae0beb0f8edf986abf9e44668ac/create_fastapi-0.0.7.tar.gz
+[2023-07-22 11:55:44] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-22 11:55:44] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230722/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 11:55:44] INFO root fetch - processPackages [database-without-orm-local]: executing diffoscope
+[2023-07-22 11:55:44] INFO root fetch - processPackages [database-without-orm-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-without-orm-local-0.0.14.tar.gz tmp/database-without-orm-local-0.0.15.tar.gz --markdown 20230722/d/database-without-orm-local/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-07-22 11:55:45] INFO root fetch - processPackages [create-fastapi]: executing diffoscope
+[2023-07-22 11:55:45] INFO root fetch - processPackages [create-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create-fastapi-0.0.6.tar.gz tmp/create_fastapi-0.0.7.tar.gz --markdown 20230722/c/create-fastapi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-22 11:55:45] INFO root fetch - processPackages [pyhOn]: executing diffoscope
+[2023-07-22 11:55:45] INFO root fetch - processPackages [pyhOn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhOn-0.9.0.tar.gz tmp/pyhOn-0.9.1.tar.gz --markdown 20230722/p/pyhOn/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-22 11:55:45] INFO root fetch - processPackages [qetrader]: Downloading https://files.pythonhosted.org/packages/ef/df/91b4c73fed70f7bb496ae740924588ff56c86483b7ed58987a240c11af52/qetrader-1.0.9.tar.gz
+[2023-07-22 11:55:45] INFO root fetch - processPackages [qetrader]: executing diffoscope
+[2023-07-22 11:55:45] INFO root fetch - processPackages [qetrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qetrader-1.0.8.tar.gz tmp/qetrader-1.0.9.tar.gz --markdown 20230722/q/qetrader/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-22 11:55:45] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-22 11:55:45] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-22 11:55:45] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-22 11:55:45] INFO root fetch - processPackages [database-without-orm-local]: Remove: archive file [/home/abi/fetcher/tmp/database-without-orm-local-0.0.14.tar.gz]
+[2023-07-22 11:55:45] INFO root fetch - processPackages [database-without-orm-local]: Remove: archive file [/home/abi/fetcher/tmp/database-without-orm-local-0.0.15.tar.gz]
+[2023-07-22 11:55:45] INFO root fetch - main [MainThread]: End processing [database-without-orm-local]: success
+[2023-07-22 11:55:45] INFO root fetch - processPackages [pyhOn]: Remove: archive file [/home/abi/fetcher/tmp/pyhOn-0.9.0.tar.gz]
+[2023-07-22 11:55:45] INFO root fetch - processPackages [pyhOn]: Remove: archive file [/home/abi/fetcher/tmp/pyhOn-0.9.1.tar.gz]
+[2023-07-22 11:55:45] INFO root fetch - main [MainThread]: End processing [pyhOn]: success
+[2023-07-22 11:55:45] INFO root fetch - processPackages [create-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/create-fastapi-0.0.6.tar.gz]
+[2023-07-22 11:55:45] INFO root fetch - processPackages [create-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/create_fastapi-0.0.7.tar.gz]
+[2023-07-22 11:55:45] INFO root fetch - main [MainThread]: End processing [create-fastapi]: success
+[2023-07-22 11:55:46] INFO root fetch - processPackages [qetrader]: Remove: archive file [/home/abi/fetcher/tmp/qetrader-1.0.8.tar.gz]
+[2023-07-22 11:55:46] INFO root fetch - processPackages [qetrader]: Remove: archive file [/home/abi/fetcher/tmp/qetrader-1.0.9.tar.gz]
+[2023-07-22 11:55:46] INFO root fetch - main [MainThread]: End processing [qetrader]: success
+[2023-07-22 11:55:46] INFO root fetch - main [MainThread]: Store serial: [18994247]
