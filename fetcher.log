@@ -3675,3 +3675,24 @@
 [2023-07-22 03:08:43] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-07-22 03:08:43] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-07-22 03:08:43] INFO root fetch - main [MainThread]: Store serial: [18990867]
+[2023-07-22 03:13:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18990867]
+[2023-07-22 03:13:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-22 03:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrab-img-from-ligthshot
+[2023-07-22 03:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-hugo-deploy
+[2023-07-22 03:13:52] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-22 03:13:52] INFO root fetch - processPackages [scrab-img-from-ligthshot]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-07-22 03:13:52] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-22 03:13:52] INFO root fetch - processPackages [scrab-img-from-ligthshot]: Downloading https://files.pythonhosted.org/packages/49/f6/6d30e77a30caee74dffccb81070b15b06fca73e2454147227db872552825/scrab_img_from_ligthshot-2.2.0.tar.gz
+[2023-07-22 03:13:52] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-22 03:13:52] INFO root fetch - processPackages [scrab-img-from-ligthshot]: Downloading https://files.pythonhosted.org/packages/71/08/389093c897cfa361034c8efd3f235ab37275bd2da53e3406edfd6e2e9b7e/scrab_img_from_ligthshot-2.3.0.tar.gz
+[2023-07-22 03:13:52] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-22 03:13:52] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230722/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-22 03:13:52] INFO root fetch - processPackages [scrab-img-from-ligthshot]: executing diffoscope
+[2023-07-22 03:13:52] INFO root fetch - processPackages [scrab-img-from-ligthshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrab_img_from_ligthshot-2.2.0.tar.gz tmp/scrab_img_from_ligthshot-2.3.0.tar.gz --markdown 20230722/s/scrab-img-from-ligthshot/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-22 03:13:53] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-22 03:13:53] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-22 03:13:53] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-22 03:13:53] INFO root fetch - processPackages [scrab-img-from-ligthshot]: Remove: archive file [/home/abi/fetcher/tmp/scrab_img_from_ligthshot-2.2.0.tar.gz]
+[2023-07-22 03:13:53] INFO root fetch - processPackages [scrab-img-from-ligthshot]: Remove: archive file [/home/abi/fetcher/tmp/scrab_img_from_ligthshot-2.3.0.tar.gz]
+[2023-07-22 03:13:53] INFO root fetch - main [MainThread]: End processing [scrab-img-from-ligthshot]: success
+[2023-07-22 03:13:53] INFO root fetch - main [MainThread]: Store serial: [18990870]
