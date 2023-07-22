@@ -15125,3 +15125,99 @@ EOFError: EOF read where object expected
 [2023-07-22 16:26:00] INFO root fetch - processPackages [grooveshop-django-api]: Remove: archive file [/home/abi/fetcher/tmp/grooveshop_django_api-0.8.5.tar.gz]
 [2023-07-22 16:26:00] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api]: success
 [2023-07-22 16:26:00] INFO root fetch - main [MainThread]: Store serial: [18995380]
+[2023-07-22 16:31:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995380]
+[2023-07-22 16:31:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-22 16:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: interpres
+[2023-07-22 16:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starcatalogquery
+[2023-07-22 16:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybirdbuddy
+[2023-07-22 16:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shaho
+[2023-07-22 16:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aify
+[2023-07-22 16:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clsprop
+[2023-07-22 16:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crypto-screening
+[2023-07-22 16:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ktrain
+[2023-07-22 16:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pwdsphinx
+[2023-07-22 16:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: promptsec
+[2023-07-22 16:31:09] INFO root fetch - processPackages [shaho]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-07-22 16:31:09] INFO root fetch - processPackages [clsprop]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-22 16:31:09] INFO root fetch - processPackages [crypto-screening]: New version: [7.5.6] Old Version: [7.5.5]
+[2023-07-22 16:31:09] INFO root fetch - processPackages [promptsec]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 16:31:09] INFO root fetch - processPackages [interpres]: New version: [0.3.3b4] Old Version: [0.3.3b3]
+[2023-07-22 16:31:09] INFO root fetch - processPackages [starcatalogquery]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 16:31:10] INFO root fetch - processPackages [pybirdbuddy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 16:31:10] INFO root fetch - processPackages [aify]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 16:31:10] INFO root fetch - processPackages [pwdsphinx]: New version: [1.0rc5] Old Version: [1.0rc4]
+[2023-07-22 16:31:10] INFO root fetch - processPackages [ktrain]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-22 16:31:10] INFO root fetch - processPackages [shaho]: Downloading https://files.pythonhosted.org/packages/cd/f5/5b6d75cd0e7fbba0e604df2bc43b2f1207ac36edbb05b9ba9180087530a8/shaho-4.0.0.tar.gz
+[2023-07-22 16:31:10] INFO root fetch - processPackages [promptsec]: Downloading https://files.pythonhosted.org/packages/dc/6a/77ba124857d217b2842d498115f14f9a3a8da0aef356306c856d6db78369/promptsec-0.0.3.tar.gz
+[2023-07-22 16:31:10] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/5e/46/0f9f514efadceb7c7d6a914ddff9a2896d35b38a69bf7c667cf5dd2e01a7/crypto-screening-7.5.5.tar.gz
+[2023-07-22 16:31:10] INFO root fetch - processPackages [interpres]: Downloading https://files.pythonhosted.org/packages/fa/c9/30f2fafda35d35fb0878bf64c638668a0bd00e8c758c7826599bc5a04af4/interpres-0.3.3b3.tar.gz
+[2023-07-22 16:31:10] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/48/70/7dc6a7b7c76ac97a5d112fca94e641d9dade27cf0708bdb0162e5ee3edae/aify-0.1.8-py3-none-any.whl
+[2023-07-22 16:31:10] INFO root fetch - processPackages [clsprop]: Downloading https://files.pythonhosted.org/packages/dd/32/3343e7320b05e95b56b511f9b76bb0fd805f3de01d13d484d6b10def4250/clsprop-1.0.0.tar.gz
+[2023-07-22 16:31:10] INFO root fetch - processPackages [starcatalogquery]: Downloading https://files.pythonhosted.org/packages/99/4c/c4e918f3011f9b05109c3db0d931c7a817a957174c5cf2b77acd11541128/starcatalogquery-0.1.8-py3-none-any.whl
+[2023-07-22 16:31:10] INFO root fetch - processPackages [pybirdbuddy]: Downloading https://files.pythonhosted.org/packages/d1/02/942e7f7c2ec344a7ccd21c05a18ebcb1e24cf81a74036675dfda049c3e97/pybirdbuddy-0.0.8-py3-none-any.whl
+[2023-07-22 16:31:10] INFO root fetch - processPackages [ktrain]: Downloading https://files.pythonhosted.org/packages/4c/eb/f7c8eecbaa0e06d80dbf78e1ae6b293b944d89a1f294331324c0b5262ad4/ktrain-0.9.3.tar.gz
+[2023-07-22 16:31:10] INFO root fetch - processPackages [pwdsphinx]: Downloading https://files.pythonhosted.org/packages/3d/9a/f21cf432e408e4c4ef6fcc82bb7546c4cd31a7b006ab2ded825a62e85663/pwdsphinx-1.0rc4.tar.gz
+[2023-07-22 16:31:10] INFO root fetch - processPackages [promptsec]: Downloading https://files.pythonhosted.org/packages/47/de/dbe9536ffb9968d672741bed8fa25bd386a34a47666849562da392421007/promptsec-0.0.4.tar.gz
+[2023-07-22 16:31:10] INFO root fetch - processPackages [shaho]: Downloading https://files.pythonhosted.org/packages/41/5f/026a2f17b23de30b2abc36aaf4269ddf8648dcc0f9b9e135fd038aab6905/shaho-4.0.1.tar.gz
+[2023-07-22 16:31:10] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/fd/27/98c9c823adfd16bc8457703aeb9c4cd06bd5c233cfed754ef7389629a3af/aify-0.1.9-py3-none-any.whl
+[2023-07-22 16:31:10] INFO root fetch - processPackages [interpres]: Downloading https://files.pythonhosted.org/packages/79/9e/1bc389b1d6c912cd6f5780db04fc17a4907991678c5c1b491e936ae00ede/interpres-0.3.3b4.tar.gz
+[2023-07-22 16:31:10] INFO root fetch - processPackages [promptsec]: executing diffoscope
+[2023-07-22 16:31:10] INFO root fetch - processPackages [promptsec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptsec-0.0.3.tar.gz tmp/promptsec-0.0.4.tar.gz --markdown 20230722/p/promptsec/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 16:31:10] INFO root fetch - processPackages [clsprop]: Downloading https://files.pythonhosted.org/packages/3a/62/8b3062580a92e2ddcb8af9b8496f04481957ed5250d7ccf9aae203e2a2fb/clsprop-1.0.1.tar.gz
+[2023-07-22 16:31:10] INFO root fetch - processPackages [shaho]: executing diffoscope
+[2023-07-22 16:31:10] INFO root fetch - processPackages [shaho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaho-4.0.0.tar.gz tmp/shaho-4.0.1.tar.gz --markdown 20230722/s/shaho/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-07-22 16:31:10] INFO root fetch - processPackages [starcatalogquery]: Downloading https://files.pythonhosted.org/packages/3b/c8/1bd1c5ef93a57a272e8a79f1545aad94db8484b6757347df5410d14a2499/starcatalogquery-0.1.9-py3-none-any.whl
+[2023-07-22 16:31:10] INFO root fetch - processPackages [clsprop]: executing diffoscope
+[2023-07-22 16:31:10] INFO root fetch - processPackages [clsprop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clsprop-1.0.0.tar.gz tmp/clsprop-1.0.1.tar.gz --markdown 20230722/c/clsprop/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-22 16:31:10] INFO root fetch - processPackages [aify]: executing diffoscope
+[2023-07-22 16:31:10] INFO root fetch - processPackages [aify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aify-0.1.8-py3-none-any.whl.zip tmp/aify-0.1.9-py3-none-any.whl.zip --markdown 20230722/a/aify/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 16:31:11] INFO root fetch - processPackages [ktrain]: Downloading https://files.pythonhosted.org/packages/73/d5/77df174a24b752d0c7bb5a140591e2c909781b0ab6d9d73451d484a6ede2/ktrain-0.9.4.tar.gz
+[2023-07-22 16:31:11] INFO root fetch - processPackages [pwdsphinx]: Downloading https://files.pythonhosted.org/packages/3d/55/53fee3a23a1c0aead5f17aff434fdecda09422436e31e7fb70809e7c9539/pwdsphinx-1.0rc5.tar.gz
+[2023-07-22 16:31:11] INFO root fetch - processPackages [starcatalogquery]: executing diffoscope
+[2023-07-22 16:31:11] INFO root fetch - processPackages [starcatalogquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starcatalogquery-0.1.8-py3-none-any.whl.zip tmp/starcatalogquery-0.1.9-py3-none-any.whl.zip --markdown 20230722/s/starcatalogquery/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 16:31:11] INFO root fetch - processPackages [interpres]: executing diffoscope
+[2023-07-22 16:31:11] INFO root fetch - processPackages [interpres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interpres-0.3.3b3.tar.gz tmp/interpres-0.3.3b4.tar.gz --markdown 20230722/i/interpres/0.3.3b3-0.3.3b4/diff.md --exclude *.pyd
+[2023-07-22 16:31:11] INFO root fetch - processPackages [ktrain]: executing diffoscope
+[2023-07-22 16:31:11] INFO root fetch - processPackages [ktrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ktrain-0.9.3.tar.gz tmp/ktrain-0.9.4.tar.gz --markdown 20230722/k/ktrain/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-22 16:31:11] INFO root fetch - processPackages [pwdsphinx]: executing diffoscope
+[2023-07-22 16:31:11] INFO root fetch - processPackages [pwdsphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwdsphinx-1.0rc4.tar.gz tmp/pwdsphinx-1.0rc5.tar.gz --markdown 20230722/p/pwdsphinx/1.0rc4-1.0rc5/diff.md --exclude *.pyd
+[2023-07-22 16:31:11] INFO root fetch - processPackages [pybirdbuddy]: Downloading https://files.pythonhosted.org/packages/2e/d6/d1eec4973469da14739ca417580056a2b47478c1bba34924d5ec70754a0a/pybirdbuddy-0.0.9-py3-none-any.whl
+[2023-07-22 16:31:11] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/42/cf/f5d7c0d7dfc817a495df96a7acf3936dfabd14466e066fb9d4770db4dc68/crypto-screening-7.5.6.tar.gz
+[2023-07-22 16:31:11] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-22 16:31:11] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-7.5.5.tar.gz tmp/crypto-screening-7.5.6.tar.gz --markdown 20230722/c/crypto-screening/7.5.5-7.5.6/diff.md --exclude *.pyd
+[2023-07-22 16:31:11] INFO root fetch - processPackages [pybirdbuddy]: executing diffoscope
+[2023-07-22 16:31:11] INFO root fetch - processPackages [pybirdbuddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybirdbuddy-0.0.8-py3-none-any.whl.zip tmp/pybirdbuddy-0.0.9-py3-none-any.whl.zip --markdown 20230722/p/pybirdbuddy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 16:31:11] INFO root fetch - processPackages [promptsec]: Remove: archive file [/home/abi/fetcher/tmp/promptsec-0.0.3.tar.gz]
+[2023-07-22 16:31:11] INFO root fetch - processPackages [promptsec]: Remove: archive file [/home/abi/fetcher/tmp/promptsec-0.0.4.tar.gz]
+[2023-07-22 16:31:11] INFO root fetch - processPackages [promptsec]: Start processing: langproxy
+[2023-07-22 16:31:11] INFO root fetch - main [MainThread]: End processing [promptsec]: success
+[2023-07-22 16:31:12] WARNING root fetch - processPackages [langproxy]: Skipping, unable to determine old version
+[2023-07-22 16:31:12] INFO root fetch - main [MainThread]: End processing [langproxy] error
+[2023-07-22 16:31:12] INFO root fetch - processPackages [shaho]: Remove: archive file [/home/abi/fetcher/tmp/shaho-4.0.0.tar.gz]
+[2023-07-22 16:31:12] INFO root fetch - processPackages [shaho]: Remove: archive file [/home/abi/fetcher/tmp/shaho-4.0.1.tar.gz]
+[2023-07-22 16:31:12] INFO root fetch - main [MainThread]: End processing [shaho]: success
+[2023-07-22 16:31:12] INFO root fetch - processPackages [clsprop]: Remove: archive file [/home/abi/fetcher/tmp/clsprop-1.0.0.tar.gz]
+[2023-07-22 16:31:12] INFO root fetch - processPackages [clsprop]: Remove: archive file [/home/abi/fetcher/tmp/clsprop-1.0.1.tar.gz]
+[2023-07-22 16:31:12] INFO root fetch - main [MainThread]: End processing [clsprop]: success
+[2023-07-22 16:31:12] INFO root fetch - processPackages [pwdsphinx]: Remove: archive file [/home/abi/fetcher/tmp/pwdsphinx-1.0rc4.tar.gz]
+[2023-07-22 16:31:12] INFO root fetch - processPackages [pwdsphinx]: Remove: archive file [/home/abi/fetcher/tmp/pwdsphinx-1.0rc5.tar.gz]
+[2023-07-22 16:31:12] INFO root fetch - main [MainThread]: End processing [pwdsphinx]: success
+[2023-07-22 16:31:12] INFO root fetch - processPackages [interpres]: Remove: archive file [/home/abi/fetcher/tmp/interpres-0.3.3b3.tar.gz]
+[2023-07-22 16:31:12] INFO root fetch - processPackages [interpres]: Remove: archive file [/home/abi/fetcher/tmp/interpres-0.3.3b4.tar.gz]
+[2023-07-22 16:31:12] INFO root fetch - main [MainThread]: End processing [interpres]: success
+[2023-07-22 16:31:12] INFO root fetch - processPackages [starcatalogquery]: Remove: archive file [/home/abi/fetcher/tmp/starcatalogquery-0.1.8-py3-none-any.whl.zip]
+[2023-07-22 16:31:12] INFO root fetch - processPackages [starcatalogquery]: Remove: archive file [/home/abi/fetcher/tmp/starcatalogquery-0.1.9-py3-none-any.whl.zip]
+[2023-07-22 16:31:12] INFO root fetch - main [MainThread]: End processing [starcatalogquery]: success
+[2023-07-22 16:31:12] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.8-py3-none-any.whl.zip]
+[2023-07-22 16:31:12] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.9-py3-none-any.whl.zip]
+[2023-07-22 16:31:12] INFO root fetch - main [MainThread]: End processing [aify]: success
+[2023-07-22 16:31:12] INFO root fetch - processPackages [pybirdbuddy]: Remove: archive file [/home/abi/fetcher/tmp/pybirdbuddy-0.0.8-py3-none-any.whl.zip]
+[2023-07-22 16:31:12] INFO root fetch - processPackages [pybirdbuddy]: Remove: archive file [/home/abi/fetcher/tmp/pybirdbuddy-0.0.9-py3-none-any.whl.zip]
+[2023-07-22 16:31:12] INFO root fetch - main [MainThread]: End processing [pybirdbuddy]: success
+[2023-07-22 16:31:13] INFO root fetch - processPackages [ktrain]: Remove: archive file [/home/abi/fetcher/tmp/ktrain-0.9.3.tar.gz]
+[2023-07-22 16:31:13] INFO root fetch - processPackages [ktrain]: Remove: archive file [/home/abi/fetcher/tmp/ktrain-0.9.4.tar.gz]
+[2023-07-22 16:31:13] INFO root fetch - main [MainThread]: End processing [ktrain]: success
+[2023-07-22 16:31:13] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.5.5.tar.gz]
+[2023-07-22 16:31:13] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.5.6.tar.gz]
+[2023-07-22 16:31:13] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-22 16:31:13] INFO root fetch - main [MainThread]: Store serial: [18995408]
