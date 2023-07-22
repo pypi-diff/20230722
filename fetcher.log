@@ -18532,3 +18532,33 @@ EOFError: EOF read where object expected
 [2023-07-22 20:53:08] INFO root fetch - processPackages [TXM-Sandbox]: Remove: archive file [/home/abi/fetcher/tmp/TXM_Sandbox-0.2.5.tar.gz]
 [2023-07-22 20:53:08] INFO root fetch - main [MainThread]: End processing [TXM-Sandbox]: success
 [2023-07-22 20:53:08] INFO root fetch - main [MainThread]: Store serial: [18996931]
+[2023-07-22 20:58:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996931]
+[2023-07-22 20:58:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-22 20:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zeno-build
+[2023-07-22 20:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymemuc
+[2023-07-22 20:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pillar1
+[2023-07-22 20:58:17] INFO root fetch - processPackages [zeno-build]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-22 20:58:17] INFO root fetch - processPackages [pymemuc]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-22 20:58:17] INFO root fetch - processPackages [pillar1]: New version: [0.1.9.9] Old Version: [0.1.9.8]
+[2023-07-22 20:58:17] INFO root fetch - processPackages [zeno-build]: Downloading https://files.pythonhosted.org/packages/cf/f0/ee29f9ff4af2756444df65aa1e722ecedc144e0c0fc894a13e015360a599/zeno_build-0.0.4.tar.gz
+[2023-07-22 20:58:17] INFO root fetch - processPackages [pymemuc]: Downloading https://files.pythonhosted.org/packages/af/83/7f7505a44adc9e2830514439009a69e647b975b6557e1967cca998d61262/pymemuc-0.4.2.tar.gz
+[2023-07-22 20:58:17] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/fd/c8/dc894f4393d99c54f62ae98519892157e6b0e0327ac1f0b1a261450e9868/pillar1-0.1.9.8.tar.gz
+[2023-07-22 20:58:17] INFO root fetch - processPackages [zeno-build]: Downloading https://files.pythonhosted.org/packages/57/3c/04f7a8c07e6981afc129b1984a329cd815fed7e04277b73a7d2170085dec/zeno_build-0.0.5.tar.gz
+[2023-07-22 20:58:18] INFO root fetch - processPackages [zeno-build]: executing diffoscope
+[2023-07-22 20:58:18] INFO root fetch - processPackages [zeno-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeno_build-0.0.4.tar.gz tmp/zeno_build-0.0.5.tar.gz --markdown 20230722/z/zeno-build/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-22 20:58:18] INFO root fetch - processPackages [pymemuc]: Downloading https://files.pythonhosted.org/packages/a1/32/01e2eba8abde5693c8d2bf77852a27f92968d3366a4d874626dee545961a/pymemuc-0.4.3.tar.gz
+[2023-07-22 20:58:18] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/92/8d/efcf5703708adcc432230e0d510fec42756434d28ae2e4b4348f30be2eef/pillar1-0.1.9.9.tar.gz
+[2023-07-22 20:58:18] INFO root fetch - processPackages [pymemuc]: executing diffoscope
+[2023-07-22 20:58:18] INFO root fetch - processPackages [pymemuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemuc-0.4.2.tar.gz tmp/pymemuc-0.4.3.tar.gz --markdown 20230722/p/pymemuc/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-22 20:58:18] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-07-22 20:58:18] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.9.8.tar.gz tmp/pillar1-0.1.9.9.tar.gz --markdown 20230722/p/pillar1/0.1.9.8-0.1.9.9/diff.md --exclude *.pyd
+[2023-07-22 20:58:18] INFO root fetch - processPackages [zeno-build]: Remove: archive file [/home/abi/fetcher/tmp/zeno_build-0.0.4.tar.gz]
+[2023-07-22 20:58:18] INFO root fetch - processPackages [zeno-build]: Remove: archive file [/home/abi/fetcher/tmp/zeno_build-0.0.5.tar.gz]
+[2023-07-22 20:58:18] INFO root fetch - main [MainThread]: End processing [zeno-build]: success
+[2023-07-22 20:58:19] INFO root fetch - processPackages [pymemuc]: Remove: archive file [/home/abi/fetcher/tmp/pymemuc-0.4.2.tar.gz]
+[2023-07-22 20:58:19] INFO root fetch - processPackages [pymemuc]: Remove: archive file [/home/abi/fetcher/tmp/pymemuc-0.4.3.tar.gz]
+[2023-07-22 20:58:19] INFO root fetch - main [MainThread]: End processing [pymemuc]: success
+[2023-07-22 20:58:19] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.8.tar.gz]
+[2023-07-22 20:58:19] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.9.tar.gz]
+[2023-07-22 20:58:19] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-07-22 20:58:19] INFO root fetch - main [MainThread]: Store serial: [18996940]
