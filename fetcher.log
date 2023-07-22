@@ -17693,3 +17693,56 @@ EOFError: EOF read where object expected
 [2023-07-22 19:38:57] INFO root fetch - processPackages [redmage]: Remove: archive file [/home/abi/fetcher/tmp/redmage-0.4.2.tar.gz]
 [2023-07-22 19:38:57] INFO root fetch - main [MainThread]: End processing [redmage]: success
 [2023-07-22 19:38:57] INFO root fetch - main [MainThread]: Store serial: [18996623]
+[2023-07-22 19:44:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996623]
+[2023-07-22 19:44:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 19:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarms
+[2023-07-22 19:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-intel
+[2023-07-22 19:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OneOnOne
+[2023-07-22 19:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pathgenmap
+[2023-07-22 19:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: weconnect-mqtt
+[2023-07-22 19:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nova-playlist
+[2023-07-22 19:44:07] INFO root fetch - processPackages [pathgenmap]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-22 19:44:07] INFO root fetch - processPackages [swarms]: New version: [1.9.0] Old Version: [0.9.9]
+[2023-07-22 19:44:07] INFO root fetch - processPackages [OneOnOne]: New version: [0.6931] Old Version: [0.693]
+[2023-07-22 19:44:07] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-22 19:44:07] INFO root fetch - processPackages [nova-playlist]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-22 19:44:07] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230722] Old Version: [2.14.0.dev20230721]
+[2023-07-22 19:44:07] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/d5/a8/f17be4cab04c0417b378ef93101421addee15a450d8a2bd5b027b11c2eca/swarms-0.9.9.tar.gz
+[2023-07-22 19:44:07] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/28/46/b9355d4a95982dc515ba6c5c48c6be7e7b5f1de34d08061781a70b2173d8/OneOnOne-0.693.tar.gz
+[2023-07-22 19:44:07] INFO root fetch - processPackages [weconnect-mqtt]: New version: [0.9.0.dev6] Old Version: [0.9.0.dev5]
+[2023-07-22 19:44:08] INFO root fetch - processPackages [nova-playlist]: Downloading https://files.pythonhosted.org/packages/ed/9e/5aff55fb02a31a149b05d6c6edfeef7f46a3b511529df87196a1fd16b56b/nova-playlist-0.3.0.tar.gz
+[2023-07-22 19:44:08] INFO root fetch - processPackages [weconnect-mqtt]: Downloading https://files.pythonhosted.org/packages/2e/d2/4f258e516258c22b847f2a003038f9ad0e3e0ccaf30061c4f76d5ad9c4ef/weconnect-mqtt-0.9.0.dev5.tar.gz
+[2023-07-22 19:44:08] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/4c/0f/ae3c6c70e549c183c5362299c3b97dd9e8cfc57b231c30ab01ed98635688/pathgenmap-0.1.0.tar.gz
+[2023-07-22 19:44:08] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/d1/0d/40fcbb95a79ffeb1feeec49c437ef8c17cf84cb0dc069bd7f6480caabb1c/tf_nightly_intel-2.14.0.dev20230721-cp39-cp39-win_amd64.whl
+[2023-07-22 19:44:08] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/47/61/2296c4861da08a33b70d6a3f25b4388498f6efacac63f23643ab0506af02/swarms-1.9.0.tar.gz
+[2023-07-22 19:44:08] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 183383848>=10485760
+[2023-07-22 19:44:08] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-07-22 19:44:08] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-22 19:44:08] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.9.tar.gz tmp/pathgenmap-0.1.0.tar.gz --markdown 20230722/p/pathgenmap/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-22 19:44:08] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/d4/60/3ab8db885a76ba6c436366cbff55999eb0a7bb74a1069847c197c26c6307/OneOnOne-0.6931.tar.gz
+[2023-07-22 19:44:08] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-22 19:44:08] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.9.9.tar.gz tmp/swarms-1.9.0.tar.gz --markdown 20230722/s/swarms/0.9.9-1.9.0/diff.md --exclude *.pyd
+[2023-07-22 19:44:08] INFO root fetch - processPackages [nova-playlist]: Downloading https://files.pythonhosted.org/packages/13/55/4e052e0e9b0a5fb470b56102db4eb4dd08a47709021735565d31a4da20ed/nova_playlist-0.4.0.tar.gz
+[2023-07-22 19:44:08] INFO root fetch - processPackages [weconnect-mqtt]: Downloading https://files.pythonhosted.org/packages/5c/b8/26908f029bd8637cfc5ca40a4b8605fc3e7a651ed5ff373299b0e7289193/weconnect-mqtt-0.9.0.dev6.tar.gz
+[2023-07-22 19:44:08] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 19:44:08] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.693.tar.gz tmp/OneOnOne-0.6931.tar.gz --markdown 20230722/O/OneOnOne/0.693-0.6931/diff.md --exclude *.pyd
+[2023-07-22 19:44:08] INFO root fetch - processPackages [nova-playlist]: executing diffoscope
+[2023-07-22 19:44:08] INFO root fetch - processPackages [nova-playlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nova-playlist-0.3.0.tar.gz tmp/nova_playlist-0.4.0.tar.gz --markdown 20230722/n/nova-playlist/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-22 19:44:08] INFO root fetch - processPackages [weconnect-mqtt]: executing diffoscope
+[2023-07-22 19:44:08] INFO root fetch - processPackages [weconnect-mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weconnect-mqtt-0.9.0.dev5.tar.gz tmp/weconnect-mqtt-0.9.0.dev6.tar.gz --markdown 20230722/w/weconnect-mqtt/0.9.0.dev5-0.9.0.dev6/diff.md --exclude *.pyd
+[2023-07-22 19:44:09] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.9.tar.gz]
+[2023-07-22 19:44:09] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.1.0.tar.gz]
+[2023-07-22 19:44:09] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-22 19:44:09] INFO root fetch - processPackages [nova-playlist]: Remove: archive file [/home/abi/fetcher/tmp/nova-playlist-0.3.0.tar.gz]
+[2023-07-22 19:44:09] INFO root fetch - processPackages [nova-playlist]: Remove: archive file [/home/abi/fetcher/tmp/nova_playlist-0.4.0.tar.gz]
+[2023-07-22 19:44:09] INFO root fetch - main [MainThread]: End processing [nova-playlist]: success
+[2023-07-22 19:44:09] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.9.9.tar.gz]
+[2023-07-22 19:44:09] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-1.9.0.tar.gz]
+[2023-07-22 19:44:09] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-22 19:44:09] INFO root fetch - processPackages [weconnect-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/weconnect-mqtt-0.9.0.dev5.tar.gz]
+[2023-07-22 19:44:09] INFO root fetch - processPackages [weconnect-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/weconnect-mqtt-0.9.0.dev6.tar.gz]
+[2023-07-22 19:44:09] INFO root fetch - main [MainThread]: End processing [weconnect-mqtt]: success
+[2023-07-22 19:44:10] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.693.tar.gz]
+[2023-07-22 19:44:10] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6931.tar.gz]
+[2023-07-22 19:44:10] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 19:44:10] INFO root fetch - main [MainThread]: Store serial: [18996642]
