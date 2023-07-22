@@ -12218,3 +12218,69 @@
 [2023-07-22 11:34:39] INFO root fetch - processPackages [osw]: Remove: archive file [/home/abi/fetcher/tmp/osw-0.9.0.tar.gz]
 [2023-07-22 11:34:39] INFO root fetch - main [MainThread]: End processing [osw]: success
 [2023-07-22 11:34:39] INFO root fetch - main [MainThread]: Store serial: [18994137]
+[2023-07-22 11:39:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994137]
+[2023-07-22 11:39:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-22 11:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bufap
+[2023-07-22 11:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: get-chrome-driver
+[2023-07-22 11:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thunno2
+[2023-07-22 11:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: corut-fastapi-tools
+[2023-07-22 11:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dj-highlight-text
+[2023-07-22 11:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hifibgc
+[2023-07-22 11:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: o2despy
+[2023-07-22 11:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: akshare
+[2023-07-22 11:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: get-gecko-driver
+[2023-07-22 11:39:49] INFO root fetch - processPackages [get-chrome-driver]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-22 11:39:49] INFO root fetch - processPackages [get-gecko-driver]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-22 11:39:49] INFO root fetch - processPackages [o2despy]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-22 11:39:49] WARNING root fetch - processPackages [hifibgc]: Skipping, unable to determine old version
+[2023-07-22 11:39:49] INFO root fetch - main [MainThread]: End processing [hifibgc] error
+[2023-07-22 11:39:49] INFO root fetch - processPackages [thunno2]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-07-22 11:39:49] WARNING root fetch - processPackages [dj-highlight-text]: Skipping, unable to determine old version
+[2023-07-22 11:39:49] INFO root fetch - main [MainThread]: End processing [dj-highlight-text] error
+[2023-07-22 11:39:49] INFO root fetch - processPackages [corut-fastapi-tools]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 11:39:49] INFO root fetch - processPackages [get-chrome-driver]: Downloading https://files.pythonhosted.org/packages/d3/4b/8454f2e6479b4494155a2fa75dbf37a4ed834271526a16e2be238065cede/get-chrome-driver-1.3.8.tar.gz
+[2023-07-22 11:39:49] WARNING root fetch - processPackages [bufap]: Skipping, unable to determine old version
+[2023-07-22 11:39:49] INFO root fetch - main [MainThread]: End processing [bufap] error
+[2023-07-22 11:39:49] INFO root fetch - processPackages [get-gecko-driver]: Downloading https://files.pythonhosted.org/packages/0f/79/1d441144fd35456271859b3bb3cda90c4126068555a1e7a7fe3985e3dae4/get-gecko-driver-1.3.8.tar.gz
+[2023-07-22 11:39:49] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-22 11:39:49] INFO root fetch - processPackages [o2despy]: Downloading https://files.pythonhosted.org/packages/c3/7c/911f635d1a3dc54ee2fbf421d99c45614acd32f65da699dde89a3c8ae1bb/o2despy-0.0.5.tar.gz
+[2023-07-22 11:39:49] INFO root fetch - processPackages [thunno2]: Downloading https://files.pythonhosted.org/packages/6c/a8/cf38c49476199cb64fe03c85d736ceb4ae2d13d3906e112b70441d7b2bd9/thunno2-2.2.2.tar.gz
+[2023-07-22 11:39:50] INFO root fetch - processPackages [corut-fastapi-tools]: Downloading https://files.pythonhosted.org/packages/77/09/dedeef28ed728acace69939f3ee12daeff60267cd6dacec11029e0cef1cb/corut_fastapi_tools-0.0.3-py3-none-any.whl
+[2023-07-22 11:39:50] INFO root fetch - processPackages [get-gecko-driver]: Downloading https://files.pythonhosted.org/packages/f4/4a/ae8c758c7b1b1261f26c583aaf1554b0dc5704005ce30fdaedb7b9000350/get-gecko-driver-1.3.9.tar.gz
+[2023-07-22 11:39:50] INFO root fetch - processPackages [get-chrome-driver]: Downloading https://files.pythonhosted.org/packages/f5/1f/401d689edcf0210796e6f03e2acfdf7b5fd9b97bd07b854116303d9c34a2/get-chrome-driver-1.3.9.tar.gz
+[2023-07-22 11:39:50] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-07-22 11:39:50] INFO root fetch - processPackages [thunno2]: Downloading https://files.pythonhosted.org/packages/80/db/5e66f7e599b78e9b23d92d8923ce1a9225e0d1aa30a14e0f7682001ef2e6/thunno2-2.2.3.tar.gz
+[2023-07-22 11:39:50] INFO root fetch - processPackages [get-gecko-driver]: executing diffoscope
+[2023-07-22 11:39:50] INFO root fetch - processPackages [get-gecko-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get-gecko-driver-1.3.8.tar.gz tmp/get-gecko-driver-1.3.9.tar.gz --markdown 20230722/g/get-gecko-driver/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-22 11:39:50] INFO root fetch - processPackages [get-chrome-driver]: executing diffoscope
+[2023-07-22 11:39:50] INFO root fetch - processPackages [get-chrome-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get-chrome-driver-1.3.8.tar.gz tmp/get-chrome-driver-1.3.9.tar.gz --markdown 20230722/g/get-chrome-driver/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-22 11:39:50] INFO root fetch - processPackages [o2despy]: Downloading https://files.pythonhosted.org/packages/d6/b6/e2117b371a5c543f16ec1043bfe15641b72c99fc0b18b0044538c31c2014/o2despy-0.0.6.tar.gz
+[2023-07-22 11:39:50] INFO root fetch - processPackages [thunno2]: executing diffoscope
+[2023-07-22 11:39:50] INFO root fetch - processPackages [thunno2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thunno2-2.2.2.tar.gz tmp/thunno2-2.2.3.tar.gz --markdown 20230722/t/thunno2/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-07-22 11:39:50] INFO root fetch - processPackages [o2despy]: executing diffoscope
+[2023-07-22 11:39:50] INFO root fetch - processPackages [o2despy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/o2despy-0.0.5.tar.gz tmp/o2despy-0.0.6.tar.gz --markdown 20230722/o/o2despy/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-22 11:39:50] INFO root fetch - processPackages [corut-fastapi-tools]: Downloading https://files.pythonhosted.org/packages/4e/d6/ae453654b654584b7e2a0f1120a53d7b18d4e346786c24cfbc1db50f83bb/corut_fastapi_tools-0.0.4-py3-none-any.whl
+[2023-07-22 11:39:50] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-07-22 11:39:50] INFO root fetch - processPackages [corut-fastapi-tools]: executing diffoscope
+[2023-07-22 11:39:50] INFO root fetch - processPackages [corut-fastapi-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corut_fastapi_tools-0.0.3-py3-none-any.whl.zip tmp/corut_fastapi_tools-0.0.4-py3-none-any.whl.zip --markdown 20230722/c/corut-fastapi-tools/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 11:39:50] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-07-22 11:39:50] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230722/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-22 11:39:51] INFO root fetch - processPackages [get-chrome-driver]: Remove: archive file [/home/abi/fetcher/tmp/get-chrome-driver-1.3.8.tar.gz]
+[2023-07-22 11:39:51] INFO root fetch - processPackages [get-chrome-driver]: Remove: archive file [/home/abi/fetcher/tmp/get-chrome-driver-1.3.9.tar.gz]
+[2023-07-22 11:39:51] INFO root fetch - main [MainThread]: End processing [get-chrome-driver]: success
+[2023-07-22 11:39:51] INFO root fetch - processPackages [get-gecko-driver]: Remove: archive file [/home/abi/fetcher/tmp/get-gecko-driver-1.3.8.tar.gz]
+[2023-07-22 11:39:51] INFO root fetch - processPackages [get-gecko-driver]: Remove: archive file [/home/abi/fetcher/tmp/get-gecko-driver-1.3.9.tar.gz]
+[2023-07-22 11:39:51] INFO root fetch - main [MainThread]: End processing [get-gecko-driver]: success
+[2023-07-22 11:39:51] INFO root fetch - processPackages [thunno2]: Remove: archive file [/home/abi/fetcher/tmp/thunno2-2.2.2.tar.gz]
+[2023-07-22 11:39:51] INFO root fetch - processPackages [thunno2]: Remove: archive file [/home/abi/fetcher/tmp/thunno2-2.2.3.tar.gz]
+[2023-07-22 11:39:51] INFO root fetch - main [MainThread]: End processing [thunno2]: success
+[2023-07-22 11:39:51] INFO root fetch - processPackages [o2despy]: Remove: archive file [/home/abi/fetcher/tmp/o2despy-0.0.5.tar.gz]
+[2023-07-22 11:39:51] INFO root fetch - processPackages [o2despy]: Remove: archive file [/home/abi/fetcher/tmp/o2despy-0.0.6.tar.gz]
+[2023-07-22 11:39:51] INFO root fetch - main [MainThread]: End processing [o2despy]: success
+[2023-07-22 11:39:51] INFO root fetch - processPackages [corut-fastapi-tools]: Remove: archive file [/home/abi/fetcher/tmp/corut_fastapi_tools-0.0.3-py3-none-any.whl.zip]
+[2023-07-22 11:39:51] INFO root fetch - processPackages [corut-fastapi-tools]: Remove: archive file [/home/abi/fetcher/tmp/corut_fastapi_tools-0.0.4-py3-none-any.whl.zip]
+[2023-07-22 11:39:51] INFO root fetch - main [MainThread]: End processing [corut-fastapi-tools]: success
+[2023-07-22 11:39:54] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-07-22 11:39:54] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-07-22 11:39:54] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-07-22 11:39:54] INFO root fetch - main [MainThread]: Store serial: [18994167]
