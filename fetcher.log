@@ -18259,3 +18259,72 @@ EOFError: EOF read where object expected
 [2023-07-22 20:26:01] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230721-py3-none-win_amd64.whl.zip]
 [2023-07-22 20:26:01] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2023-07-22 20:26:01] INFO root fetch - main [MainThread]: Store serial: [18996819]
+[2023-07-22 20:31:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996819]
+[2023-07-22 20:31:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-22 20:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sklearn-mlmlm
+[2023-07-22 20:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c-l-testing
+[2023-07-22 20:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eznet-keras
+[2023-07-22 20:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scrall
+[2023-07-22 20:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: photondemo
+[2023-07-22 20:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gammarer.aws-secure-frontend-web-app-cloudfront-distribution
+[2023-07-22 20:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastjsonschema
+[2023-07-22 20:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dj-beatcloud
+[2023-07-22 20:31:11] INFO root fetch - processPackages [scrall]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-22 20:31:11] INFO root fetch - processPackages [eznet-keras]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-22 20:31:11] INFO root fetch - processPackages [sklearn-mlmlm]: New version: [1.0.0a2] Old Version: [1.0.0]
+[2023-07-22 20:31:11] INFO root fetch - processPackages [photondemo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 20:31:11] INFO root fetch - processPackages [fastjsonschema]: New version: [2.9] Old Version: [2.8]
+[2023-07-22 20:31:11] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-22 20:31:11] INFO root fetch - processPackages [dj-beatcloud]: New version: [2.6.0b9] Old Version: [2.6.0b8]
+[2023-07-22 20:31:11] WARNING root fetch - processPackages [c-l-testing]: Skipping, unable to determine old version
+[2023-07-22 20:31:11] INFO root fetch - main [MainThread]: End processing [c-l-testing] error
+[2023-07-22 20:31:11] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/4c/ae/471927809979e349758d33da70caa44472e07ecbe379983aec2d9ef1b2da/dj_beatcloud-2.6.0b8.tar.gz
+[2023-07-22 20:31:11] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Downloading https://files.pythonhosted.org/packages/d1/41/5b91ae30762bf1c7423ee5ac0bb227c2935f344852e8e28345b3143cf59b/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.6.3.tar.gz
+[2023-07-22 20:31:11] INFO root fetch - processPackages [scrall]: Downloading https://files.pythonhosted.org/packages/de/00/9be7725773d762b1329f041571b6d1925040ba279ca0d8793d9bb0f39264/scrall-0.2.8.tar.gz
+[2023-07-22 20:31:11] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/86/e8/d52a5c6a68d9b9486d38bd127cdaf5321996c212e4eac76d8f170dfc6373/photondemo-0.0.3.tar.gz
+[2023-07-22 20:31:11] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/2b/3c/5f9e329ca66d41fb7b9940efb8ced7d4f4171b174f43b03e15ba50f85cf2/sklearn_mlmlm-1.0.0.tar.gz
+[2023-07-22 20:31:11] INFO root fetch - processPackages [eznet-keras]: Downloading https://files.pythonhosted.org/packages/f7/95/bd9c53ec6989bd60aa882ac384d3388e3ad3a5c108ecb914c9a735f5a370/eznet_keras-1.0.2.tar.gz
+[2023-07-22 20:31:11] INFO root fetch - processPackages [fastjsonschema]: Downloading https://files.pythonhosted.org/packages/50/e7/4f91329b2d8cfbd67493f267372cd9979547b77593cda196dbf0c635b966/fastjsonschema-2.8.tar.gz
+[2023-07-22 20:31:11] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/c9/09/5c8344408b74188f7ad4b01eba5163e31bf6953e4faac5587870de44eebe/dj_beatcloud-2.6.0b9.tar.gz
+[2023-07-22 20:31:11] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Downloading https://files.pythonhosted.org/packages/65/27/3553f1982d6f4df836fb7451fc89befc08a400ea3b3669125a2a0aeb12be/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.6.4.tar.gz
+[2023-07-22 20:31:11] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/c2/cc/f51404f54a79b601befd1626c81209219e217d3bdafde4be70a10c491a08/photondemo-0.0.4.tar.gz
+[2023-07-22 20:31:11] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/12/de/d9118b44b678d36920acf907809c567f8a825cf74aea661227bb0adf72cb/sklearn_mlmlm-1.0.0a2.tar.gz
+[2023-07-22 20:31:11] INFO root fetch - processPackages [eznet-keras]: Downloading https://files.pythonhosted.org/packages/bd/06/73c73fe49233eed0adf40d73b5859a22348d0f7f9aaeab2bbf07da29440f/eznet_keras-1.1.0.tar.gz
+[2023-07-22 20:31:11] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: executing diffoscope
+[2023-07-22 20:31:11] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.6.3.tar.gz tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.6.4.tar.gz --markdown 20230722/g/gammarer.aws-secure-frontend-web-app-cloudfront-distribution/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-22 20:31:11] INFO root fetch - processPackages [scrall]: Downloading https://files.pythonhosted.org/packages/9a/df/ccceb037295ae0343198d907678498d8862f523ce37edf85f3e7717dd05f/scrall-0.2.9.tar.gz
+[2023-07-22 20:31:11] INFO root fetch - processPackages [photondemo]: executing diffoscope
+[2023-07-22 20:31:11] INFO root fetch - processPackages [photondemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photondemo-0.0.3.tar.gz tmp/photondemo-0.0.4.tar.gz --markdown 20230722/p/photondemo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 20:31:11] INFO root fetch - processPackages [fastjsonschema]: Downloading https://files.pythonhosted.org/packages/b9/3e/e407b4c33853514b949c41582d39c915584bf61de737d67eca3510518b88/fastjsonschema-2.9.tar.gz
+[2023-07-22 20:31:11] INFO root fetch - processPackages [dj-beatcloud]: executing diffoscope
+[2023-07-22 20:31:11] INFO root fetch - processPackages [dj-beatcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_beatcloud-2.6.0b8.tar.gz tmp/dj_beatcloud-2.6.0b9.tar.gz --markdown 20230722/d/dj-beatcloud/2.6.0b8-2.6.0b9/diff.md --exclude *.pyd
+[2023-07-22 20:31:11] INFO root fetch - processPackages [eznet-keras]: executing diffoscope
+[2023-07-22 20:31:11] INFO root fetch - processPackages [eznet-keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eznet_keras-1.0.2.tar.gz tmp/eznet_keras-1.1.0.tar.gz --markdown 20230722/e/eznet-keras/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-22 20:31:11] INFO root fetch - processPackages [scrall]: executing diffoscope
+[2023-07-22 20:31:11] INFO root fetch - processPackages [scrall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrall-0.2.8.tar.gz tmp/scrall-0.2.9.tar.gz --markdown 20230722/s/scrall/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-22 20:31:11] INFO root fetch - processPackages [fastjsonschema]: executing diffoscope
+[2023-07-22 20:31:11] INFO root fetch - processPackages [fastjsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastjsonschema-2.8.tar.gz tmp/fastjsonschema-2.9.tar.gz --markdown 20230722/f/fastjsonschema/2.8-2.9/diff.md --exclude *.pyd
+[2023-07-22 20:31:11] INFO root fetch - processPackages [sklearn-mlmlm]: executing diffoscope
+[2023-07-22 20:31:11] INFO root fetch - processPackages [sklearn-mlmlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_mlmlm-1.0.0.tar.gz tmp/sklearn_mlmlm-1.0.0a2.tar.gz --markdown 20230722/s/sklearn-mlmlm/1.0.0-1.0.0a2/diff.md --exclude *.pyd
+[2023-07-22 20:31:12] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.6.3.tar.gz]
+[2023-07-22 20:31:12] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.6.4.tar.gz]
+[2023-07-22 20:31:12] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: success
+[2023-07-22 20:31:12] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.3.tar.gz]
+[2023-07-22 20:31:12] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.4.tar.gz]
+[2023-07-22 20:31:12] INFO root fetch - main [MainThread]: End processing [photondemo]: success
+[2023-07-22 20:31:13] INFO root fetch - processPackages [fastjsonschema]: Remove: archive file [/home/abi/fetcher/tmp/fastjsonschema-2.8.tar.gz]
+[2023-07-22 20:31:13] INFO root fetch - processPackages [fastjsonschema]: Remove: archive file [/home/abi/fetcher/tmp/fastjsonschema-2.9.tar.gz]
+[2023-07-22 20:31:13] INFO root fetch - main [MainThread]: End processing [fastjsonschema]: success
+[2023-07-22 20:31:13] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-1.0.0.tar.gz]
+[2023-07-22 20:31:13] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-1.0.0a2.tar.gz]
+[2023-07-22 20:31:13] INFO root fetch - main [MainThread]: End processing [sklearn-mlmlm]: success
+[2023-07-22 20:31:13] INFO root fetch - processPackages [scrall]: Remove: archive file [/home/abi/fetcher/tmp/scrall-0.2.8.tar.gz]
+[2023-07-22 20:31:13] INFO root fetch - processPackages [scrall]: Remove: archive file [/home/abi/fetcher/tmp/scrall-0.2.9.tar.gz]
+[2023-07-22 20:31:13] INFO root fetch - main [MainThread]: End processing [scrall]: success
+[2023-07-22 20:31:13] INFO root fetch - processPackages [dj-beatcloud]: Remove: archive file [/home/abi/fetcher/tmp/dj_beatcloud-2.6.0b8.tar.gz]
+[2023-07-22 20:31:13] INFO root fetch - processPackages [dj-beatcloud]: Remove: archive file [/home/abi/fetcher/tmp/dj_beatcloud-2.6.0b9.tar.gz]
+[2023-07-22 20:31:13] INFO root fetch - main [MainThread]: End processing [dj-beatcloud]: success
+[2023-07-22 20:31:13] INFO root fetch - processPackages [eznet-keras]: Remove: archive file [/home/abi/fetcher/tmp/eznet_keras-1.0.2.tar.gz]
+[2023-07-22 20:31:13] INFO root fetch - processPackages [eznet-keras]: Remove: archive file [/home/abi/fetcher/tmp/eznet_keras-1.1.0.tar.gz]
+[2023-07-22 20:31:13] INFO root fetch - main [MainThread]: End processing [eznet-keras]: success
+[2023-07-22 20:31:13] INFO root fetch - main [MainThread]: Store serial: [18996843]
