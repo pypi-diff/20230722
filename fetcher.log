@@ -2647,3 +2647,150 @@
 [2023-07-22 02:11:04] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.5.2.tar.gz]
 [2023-07-22 02:11:04] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
 [2023-07-22 02:11:04] INFO root fetch - main [MainThread]: Store serial: [18990434]
+[2023-07-22 02:16:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18990434]
+[2023-07-22 02:16:13] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-22 02:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.codepipeline-extensions
+[2023-07-22 02:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roblox-pyc
+[2023-07-22 02:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thelogger
+[2023-07-22 02:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rsplan
+[2023-07-22 02:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: starvote
+[2023-07-22 02:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: usd-core
+[2023-07-22 02:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-iot-core-certificates
+[2023-07-22 02:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fondat-hubspot
+[2023-07-22 02:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-events-notify
+[2023-07-22 02:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: speakeasy-client-sdk-python
+[2023-07-22 02:16:14] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-22 02:16:14] INFO root fetch - processPackages [thelogger]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-22 02:16:14] INFO root fetch - processPackages [cdk-iot-core-certificates]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-22 02:16:14] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-22 02:16:14] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-22 02:16:14] WARNING root fetch - processPackages [rsplan]: Skipping, unable to determine old version
+[2023-07-22 02:16:14] INFO root fetch - processPackages [rsplan]: Start processing: thelogger
+[2023-07-22 02:16:14] INFO root fetch - main [MainThread]: End processing [rsplan] error
+[2023-07-22 02:16:14] INFO root fetch - processPackages [fondat-hubspot]: New version: [4.1a2] Old Version: [4.1a1]
+[2023-07-22 02:16:14] INFO root fetch - processPackages [usd-core]: New version: [23.8] Old Version: [23.5]
+[2023-07-22 02:16:14] INFO root fetch - processPackages [starvote]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-22 02:16:14] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-07-22 02:16:14] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-22 02:16:14] INFO root fetch - processPackages [thelogger]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-22 02:16:14] INFO root fetch - processPackages [thelogger]: Downloading https://files.pythonhosted.org/packages/0d/5a/9ac2edf6ded6fe6cf1a7323f3787efd26e8574e91c3d2d5f9390530c6889/thelogger-0.3.2-py3-none-any.whl
+[2023-07-22 02:16:14] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-22 02:16:14] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/f9/3a/11678fcacc9a26643437d84919789043bb31517789527c063bec8da27e8e/cdk-iot-core-certificates-1.0.8.tar.gz
+[2023-07-22 02:16:14] INFO root fetch - processPackages [fondat-hubspot]: Downloading https://files.pythonhosted.org/packages/89/1f/6a80a6819b50ac5868c6b0c05f176347d881317cbfc00d18758bab24c001/fondat_hubspot-4.1a1.tar.gz
+[2023-07-22 02:16:14] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-07-22 02:16:14] INFO root fetch - processPackages [usd-core]: Downloading https://files.pythonhosted.org/packages/d5/c5/f2a7680a06925180d05f1f39ed2311ba21f983a64e5841201b8524fce288/usd_core-23.5-cp39-none-win_amd64.whl
+[2023-07-22 02:16:14] INFO root fetch - processPackages [starvote]: Downloading https://files.pythonhosted.org/packages/08/7c/314d56c580670109ad7fc63e062a5fd6ad0de5145f87d3d04253f01b4351/starvote-2.0.5.tar.gz
+[2023-07-22 02:16:14] INFO root fetch - processPackages [thelogger]: Downloading https://files.pythonhosted.org/packages/ca/f0/9b54e9aa88ba476ae15475bcbc9d3b31775b763b42d8b02c075ead13fbad/thelogger-0.3.4-py3-none-any.whl
+[2023-07-22 02:16:14] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/51/73/c74332634e8130c6b89c1c8307ea722240a132020fa5c51bd7f7854b0c05/speakeasy-client-sdk-python-1.9.0.tar.gz
+[2023-07-22 02:16:14] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-07-22 02:16:14] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: cdk-skylight
+[2023-07-22 02:16:14] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-07-22 02:16:14] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-07-22 02:16:14] WARNING root fetch - processPackages [usd-core]: Skipping package: exceeds size limit 12748661>=10485760
+[2023-07-22 02:16:14] INFO root fetch - processPackages [usd-core]: Start processing: cdktf-gitlab-runner
+[2023-07-22 02:16:14] INFO root fetch - main [MainThread]: End processing [usd-core] error
+[2023-07-22 02:16:14] INFO root fetch - processPackages [thelogger]: Downloading https://files.pythonhosted.org/packages/53/5c/4dd989aaa6e0d4958499e92c64277c4c4576751738d721123d8cfbd01977/thelogger-0.3.3-py3-none-any.whl
+[2023-07-22 02:16:14] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-22 02:16:14] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-22 02:16:14] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-22 02:16:15] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/4a/43/39180d2063c944a0f8d32557a55dc2ed201b2244a615cecd4ba0e33dee1a/cdk-iot-core-certificates-1.0.9.tar.gz
+[2023-07-22 02:16:15] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-07-22 02:16:15] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230722/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-22 02:16:15] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2023-07-22 02:16:15] INFO root fetch - processPackages [thelogger]: executing diffoscope
+[2023-07-22 02:16:15] INFO root fetch - processPackages [thelogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thelogger-0.3.2-py3-none-any.whl.zip tmp/thelogger-0.3.3-py3-none-any.whl.zip --markdown 20230722/t/thelogger/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-22 02:16:15] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-22 02:16:15] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230722/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-22 02:16:15] INFO root fetch - processPackages [cdk-iot-core-certificates]: executing diffoscope
+[2023-07-22 02:16:15] INFO root fetch - processPackages [cdk-iot-core-certificates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-iot-core-certificates-1.0.8.tar.gz tmp/cdk-iot-core-certificates-1.0.9.tar.gz --markdown 20230722/c/cdk-iot-core-certificates/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-22 02:16:15] INFO root fetch - processPackages [fondat-hubspot]: Downloading https://files.pythonhosted.org/packages/b1/19/6add04bdf624798cb4220d50fdfaaeda8fe1f09b3d4983fec7e88104f305/fondat_hubspot-4.1a2.tar.gz
+[2023-07-22 02:16:15] INFO root fetch - processPackages [thelogger]: Downloading https://files.pythonhosted.org/packages/04/5b/96daf46e863f86c20dd11ace33bf6b4aced56e2fc7f0f93f41ff123edcbf/thelogger-0.3.5-py3-none-any.whl
+[2023-07-22 02:16:15] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2023-07-22 02:16:15] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/ec/17/af09933815cbb33c06f585554b6a5963756ed5573cefe2151dde0046ce62/speakeasy-client-sdk-python-1.9.1.tar.gz
+[2023-07-22 02:16:15] INFO root fetch - processPackages [fondat-hubspot]: executing diffoscope
+[2023-07-22 02:16:15] INFO root fetch - processPackages [fondat-hubspot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fondat_hubspot-4.1a1.tar.gz tmp/fondat_hubspot-4.1a2.tar.gz --markdown 20230722/f/fondat-hubspot/4.1a1-4.1a2/diff.md --exclude *.pyd
+[2023-07-22 02:16:15] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2023-07-22 02:16:15] INFO root fetch - processPackages [starvote]: Downloading https://files.pythonhosted.org/packages/39/1b/117f3a10a15c51ed2397f0b3bb594d9831ac8d3e2645844c74221cc2db90/starvote-2.0.6.tar.gz
+[2023-07-22 02:16:15] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2023-07-22 02:16:15] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-1.9.0.tar.gz tmp/speakeasy-client-sdk-python-1.9.1.tar.gz --markdown 20230722/s/speakeasy-client-sdk-python/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-22 02:16:15] INFO root fetch - processPackages [thelogger]: executing diffoscope
+[2023-07-22 02:16:15] INFO root fetch - processPackages [thelogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thelogger-0.3.4-py3-none-any.whl.zip tmp/thelogger-0.3.5-py3-none-any.whl.zip --markdown 20230722/t/thelogger/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-22 02:16:15] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2023-07-22 02:16:15] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-07-22 02:16:15] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230722/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-22 02:16:15] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-07-22 02:16:15] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230722/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-22 02:16:15] INFO root fetch - processPackages [starvote]: executing diffoscope
+[2023-07-22 02:16:15] INFO root fetch - processPackages [starvote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starvote-2.0.5.tar.gz tmp/starvote-2.0.6.tar.gz --markdown 20230722/s/starvote/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-22 02:16:16] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-07-22 02:16:16] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-07-22 02:16:16] INFO root fetch - processPackages [cdk-events-notify]: Start processing: pytorch-ignite
+[2023-07-22 02:16:16] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-07-22 02:16:16] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.5.0.dev20230721] Old Version: [0.5.0.dev20230720]
+[2023-07-22 02:16:16] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.8.tar.gz]
+[2023-07-22 02:16:16] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.9.tar.gz]
+[2023-07-22 02:16:16] INFO root fetch - processPackages [cdk-iot-core-certificates]: Start processing: cdk-events-notify
+[2023-07-22 02:16:16] INFO root fetch - main [MainThread]: End processing [cdk-iot-core-certificates]: success
+[2023-07-22 02:16:16] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-22 02:16:16] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/56/ed/7ba1ee629eb9d5e67afa40c0e4a4604f68f3c5f570ff4ec96cbf47259b83/pytorch-ignite-0.5.0.dev20230720.tar.gz
+[2023-07-22 02:16:16] INFO root fetch - processPackages [thelogger]: Remove: archive file [/home/abi/fetcher/tmp/thelogger-0.3.2-py3-none-any.whl.zip]
+[2023-07-22 02:16:16] INFO root fetch - processPackages [thelogger]: Remove: archive file [/home/abi/fetcher/tmp/thelogger-0.3.3-py3-none-any.whl.zip]
+[2023-07-22 02:16:16] INFO root fetch - processPackages [thelogger]: Start processing: cdk-amazon-chime-resources
+[2023-07-22 02:16:16] INFO root fetch - main [MainThread]: End processing [thelogger]: success
+[2023-07-22 02:16:16] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-07-22 02:16:16] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-22 02:16:16] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-22 02:16:16] INFO root fetch - processPackages [roblox-pyc]: Start processing: cdk-common
+[2023-07-22 02:16:16] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-22 02:16:16] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-22 02:16:16] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/f7/d0/0257956da5f1b214325565fc9be08365e4109082c6ab17d8fa74c091a89b/pytorch-ignite-0.5.0.dev20230721.tar.gz
+[2023-07-22 02:16:16] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-22 02:16:16] INFO root fetch - processPackages [fondat-hubspot]: Remove: archive file [/home/abi/fetcher/tmp/fondat_hubspot-4.1a1.tar.gz]
+[2023-07-22 02:16:16] INFO root fetch - processPackages [fondat-hubspot]: Remove: archive file [/home/abi/fetcher/tmp/fondat_hubspot-4.1a2.tar.gz]
+[2023-07-22 02:16:16] INFO root fetch - processPackages [fondat-hubspot]: Start processing: equiformer-pytorch
+[2023-07-22 02:16:16] INFO root fetch - main [MainThread]: End processing [fondat-hubspot]: success
+[2023-07-22 02:16:17] INFO root fetch - processPackages [thelogger]: Remove: archive file [/home/abi/fetcher/tmp/thelogger-0.3.4-py3-none-any.whl.zip]
+[2023-07-22 02:16:17] INFO root fetch - processPackages [thelogger]: Remove: archive file [/home/abi/fetcher/tmp/thelogger-0.3.5-py3-none-any.whl.zip]
+[2023-07-22 02:16:17] INFO root fetch - main [MainThread]: End processing [thelogger]: success
+[2023-07-22 02:16:17] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/4c/ea/3ffe9aaa9fff3e6ce00cfde898a305f95a593308f75cbf8c8da89e04914e/cdk-amazon-chime-resources-2.4.8.tar.gz
+[2023-07-22 02:16:17] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-07-22 02:16:17] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-07-22 02:16:17] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 14616087>=10485760
+[2023-07-22 02:16:17] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2023-07-22 02:16:17] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2023-07-22 02:16:17] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.5.0.dev20230720.tar.gz tmp/pytorch-ignite-0.5.0.dev20230721.tar.gz --markdown 20230722/p/pytorch-ignite/0.5.0.dev20230720-0.5.0.dev20230721/diff.md --exclude *.pyd
+[2023-07-22 02:16:17] INFO root fetch - processPackages [equiformer-pytorch]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-22 02:16:17] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2023-07-22 02:16:17] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2023-07-22 02:16:17] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-07-22 02:16:17] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-07-22 02:16:17] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230722/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-22 02:16:17] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-1.9.0.tar.gz]
+[2023-07-22 02:16:17] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-1.9.1.tar.gz]
+[2023-07-22 02:16:17] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2023-07-22 02:16:17] INFO root fetch - processPackages [equiformer-pytorch]: Downloading https://files.pythonhosted.org/packages/84/eb/8ac37fbe45b123394b603d3c68e517d4598de5c6adce641f17ca072a07c4/equiformer-pytorch-0.3.1.tar.gz
+[2023-07-22 02:16:17] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2023-07-22 02:16:17] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2023-07-22 02:16:17] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-07-22 02:16:17] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-07-22 02:16:17] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-07-22 02:16:17] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230722/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-22 02:16:18] INFO root fetch - processPackages [starvote]: Remove: archive file [/home/abi/fetcher/tmp/starvote-2.0.5.tar.gz]
+[2023-07-22 02:16:18] INFO root fetch - processPackages [starvote]: Remove: archive file [/home/abi/fetcher/tmp/starvote-2.0.6.tar.gz]
+[2023-07-22 02:16:18] INFO root fetch - main [MainThread]: End processing [starvote]: success
+[2023-07-22 02:16:18] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-07-22 02:16:18] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-07-22 02:16:18] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-07-22 02:16:18] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.dev20230720.tar.gz]
+[2023-07-22 02:16:18] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.dev20230721.tar.gz]
+[2023-07-22 02:16:18] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2023-07-22 02:16:18] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-07-22 02:16:18] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-07-22 02:16:18] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-07-22 02:16:18] INFO root fetch - processPackages [equiformer-pytorch]: Downloading https://files.pythonhosted.org/packages/fe/a4/2317b588a7eff3bf726ef68cdb01ee442fec69f0b8525576ab8641c58fc5/equiformer-pytorch-0.3.2.tar.gz
+[2023-07-22 02:16:19] INFO root fetch - processPackages [equiformer-pytorch]: executing diffoscope
+[2023-07-22 02:16:19] INFO root fetch - processPackages [equiformer-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equiformer-pytorch-0.3.1.tar.gz tmp/equiformer-pytorch-0.3.2.tar.gz --markdown 20230722/e/equiformer-pytorch/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-22 02:16:22] INFO root fetch - processPackages [equiformer-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/equiformer-pytorch-0.3.1.tar.gz]
+[2023-07-22 02:16:22] INFO root fetch - processPackages [equiformer-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/equiformer-pytorch-0.3.2.tar.gz]
+[2023-07-22 02:16:22] INFO root fetch - main [MainThread]: End processing [equiformer-pytorch]: success
+[2023-07-22 02:16:22] INFO root fetch - main [MainThread]: Store serial: [18990500]
