@@ -12512,3 +12512,54 @@
 [2023-07-22 12:00:56] INFO root fetch - processPackages [arclet-alconna]: Remove: archive file [/home/abi/fetcher/tmp/arclet_alconna-1.7.9.tar.gz]
 [2023-07-22 12:00:56] INFO root fetch - main [MainThread]: End processing [arclet-alconna]: success
 [2023-07-22 12:00:56] INFO root fetch - main [MainThread]: Store serial: [18994258]
+[2023-07-22 12:06:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994258]
+[2023-07-22 12:06:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: talkytimes-package
+[2023-07-22 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyassist-linux
+[2023-07-22 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: terminal-manager
+[2023-07-22 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ExpoSeq
+[2023-07-22 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TDCRPy
+[2023-07-22 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dm-reverb-nightly
+[2023-07-22 12:06:05] INFO root fetch - processPackages [terminal-manager]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-07-22 12:06:05] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 12:06:05] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 12:06:05] WARNING root fetch - processPackages [pyassist-linux]: Skipping, unable to determine old version
+[2023-07-22 12:06:05] INFO root fetch - main [MainThread]: End processing [pyassist-linux] error
+[2023-07-22 12:06:05] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/e6/34/a4d093c5bfd780ed601312a493da7004705507ba7273cd9c826d97ce8ab8/terminal_manager-0.8.4.tar.gz
+[2023-07-22 12:06:05] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-22 12:06:05] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-22 12:06:05] INFO root fetch - processPackages [ExpoSeq]: New version: [2.0.0] Old Version: [1.1.19]
+[2023-07-22 12:06:05] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-07-22 12:06:05] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/c7/3c/1e6dfe7b0ed3d8be7cc7427b5416f73ee5e6b933789f9c523bee05f54909/ExpoSeq-1.1.19.tar.gz
+[2023-07-22 12:06:05] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-22 12:06:05] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-22 12:06:05] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-22 12:06:05] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-22 12:06:05] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230722/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 12:06:05] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/c0/64/d18df91f626b6ed8c2c66332afb9e1199b849953464465b90c0bafe71380/terminal_manager-0.8.5.tar.gz
+[2023-07-22 12:06:05] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-22 12:06:05] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230722/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 12:06:06] INFO root fetch - processPackages [terminal-manager]: executing diffoscope
+[2023-07-22 12:06:06] INFO root fetch - processPackages [terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_manager-0.8.4.tar.gz tmp/terminal_manager-0.8.5.tar.gz --markdown 20230722/t/terminal-manager/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-07-22 12:06:06] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-22 12:06:06] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-22 12:06:06] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-22 12:06:06] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-22 12:06:06] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-22 12:06:06] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-22 12:06:06] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-22 12:06:06] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.8.4.tar.gz]
+[2023-07-22 12:06:06] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.8.5.tar.gz]
+[2023-07-22 12:06:06] INFO root fetch - main [MainThread]: End processing [terminal-manager]: success
+[2023-07-22 12:06:06] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/11/7e/6f074f6c391a3e4bf984e80003176648aaccf416f459d25af863fe4441ce/ExpoSeq-2.0.0.tar.gz
+[2023-07-22 12:06:07] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-07-22 12:06:07] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230722/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-07-22 12:06:07] INFO root fetch - processPackages [ExpoSeq]: executing diffoscope
+[2023-07-22 12:06:07] INFO root fetch - processPackages [ExpoSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpoSeq-1.1.19.tar.gz tmp/ExpoSeq-2.0.0.tar.gz --markdown 20230722/E/ExpoSeq/1.1.19-2.0.0/diff.md --exclude *.pyd
+[2023-07-22 12:06:09] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.19.tar.gz]
+[2023-07-22 12:06:09] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-2.0.0.tar.gz]
+[2023-07-22 12:06:09] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
+[2023-07-22 12:06:40] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-22 12:06:40] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-22 12:06:40] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-07-22 12:06:40] INFO root fetch - main [MainThread]: Store serial: [18994276]
