@@ -9395,3 +9395,51 @@
 [2023-07-22 07:18:45] INFO root fetch - processPackages [usda]: Remove: archive file [/home/abi/fetcher/tmp/usda-0.0.26.tar.gz]
 [2023-07-22 07:18:45] INFO root fetch - main [MainThread]: End processing [usda]: success
 [2023-07-22 07:18:45] INFO root fetch - main [MainThread]: Store serial: [18992805]
+[2023-07-22 07:23:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992805]
+[2023-07-22 07:23:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 07:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dev-assistant-client
+[2023-07-22 07:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chiapos
+[2023-07-22 07:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qt-json-setting
+[2023-07-22 07:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tendril-filestore
+[2023-07-22 07:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapidpe-rift-pipe
+[2023-07-22 07:23:54] INFO root fetch - processPackages [tendril-filestore]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-22 07:23:54] INFO root fetch - processPackages [dev-assistant-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 07:23:54] INFO root fetch - processPackages [qt-json-setting]: New version: [0.4] Old Version: [0.3]
+[2023-07-22 07:23:54] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230722] Old Version: [0.5.4.dev20230721]
+[2023-07-22 07:23:54] INFO root fetch - processPackages [chiapos]: New version: [2.0.0rc1] Old Version: [2.0.0b5]
+[2023-07-22 07:23:54] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/db/3c/d59821d61cf3d5bedaee3a25ca8083716600976036c67c76b7468a49f64d/rapidpe_rift_pipe-0.5.4.dev20230721.tar.gz
+[2023-07-22 07:23:54] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/40/24/eba4a6d89c40eac8edba09ff0530be76a03b837ea725475f46053a59f1d6/dev-assistant-client-0.1.8.tar.gz
+[2023-07-22 07:23:54] INFO root fetch - processPackages [chiapos]: Downloading https://files.pythonhosted.org/packages/19/c5/0934f3d042ef19d01eee1e448a7f7bbd48c0c51f4f77c4821bd61f12c10a/chiapos-2.0.0b5.tar.gz
+[2023-07-22 07:23:54] INFO root fetch - processPackages [tendril-filestore]: Downloading https://files.pythonhosted.org/packages/ff/96/4aad9c3007b27a6e75538624bc0864be73be018aab0bc08e2fae5027d615/tendril-filestore-0.2.8.tar.gz
+[2023-07-22 07:23:54] INFO root fetch - processPackages [qt-json-setting]: Downloading https://files.pythonhosted.org/packages/1b/b3/e2dad12c6cc38b571bcb33701228500a4fdfcab9b0a8fe92f842c01630a7/qt-json-setting-0.3.tar.gz
+[2023-07-22 07:23:55] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/e2/63/da63c28da3956aa0b16a816ebd0f700014c4b542f8233ad78aff853dec8a/dev-assistant-client-0.1.9.tar.gz
+[2023-07-22 07:23:55] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e8/0f/b84934b0e06e6c83a495718f36623fb952204027ec09a3ba4712a80157dd/rapidpe_rift_pipe-0.5.4.dev20230722.tar.gz
+[2023-07-22 07:23:55] INFO root fetch - processPackages [qt-json-setting]: Downloading https://files.pythonhosted.org/packages/09/09/5a9eb5287076fa3b0506413e220907da3fa69c9260abea846d5615eb9cb4/qt-json-setting-0.4.tar.gz
+[2023-07-22 07:23:55] INFO root fetch - processPackages [dev-assistant-client]: executing diffoscope
+[2023-07-22 07:23:55] INFO root fetch - processPackages [dev-assistant-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-assistant-client-0.1.8.tar.gz tmp/dev-assistant-client-0.1.9.tar.gz --markdown 20230722/d/dev-assistant-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 07:23:55] INFO root fetch - processPackages [tendril-filestore]: Downloading https://files.pythonhosted.org/packages/d9/1e/d54f6db51c670a79d285b3c3d863de03484e3747b5637814806029bf69b5/tendril-filestore-0.2.9.tar.gz
+[2023-07-22 07:23:55] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-07-22 07:23:55] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230721.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230722.tar.gz --markdown 20230722/r/rapidpe-rift-pipe/0.5.4.dev20230721-0.5.4.dev20230722/diff.md --exclude *.pyd
+[2023-07-22 07:23:55] INFO root fetch - processPackages [qt-json-setting]: executing diffoscope
+[2023-07-22 07:23:55] INFO root fetch - processPackages [qt-json-setting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qt-json-setting-0.3.tar.gz tmp/qt-json-setting-0.4.tar.gz --markdown 20230722/q/qt-json-setting/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-22 07:23:55] INFO root fetch - processPackages [chiapos]: Downloading https://files.pythonhosted.org/packages/70/11/e0b0bc290ac376b00f9fb63a02d567cf724fcd1052a2daf3110a74b85642/chiapos-2.0.0rc1.tar.gz
+[2023-07-22 07:23:55] INFO root fetch - processPackages [tendril-filestore]: executing diffoscope
+[2023-07-22 07:23:55] INFO root fetch - processPackages [tendril-filestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-filestore-0.2.8.tar.gz tmp/tendril-filestore-0.2.9.tar.gz --markdown 20230722/t/tendril-filestore/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-22 07:23:55] INFO root fetch - processPackages [chiapos]: executing diffoscope
+[2023-07-22 07:23:55] INFO root fetch - processPackages [chiapos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiapos-2.0.0b5.tar.gz tmp/chiapos-2.0.0rc1.tar.gz --markdown 20230722/c/chiapos/2.0.0b5-2.0.0rc1/diff.md --exclude *.pyd
+[2023-07-22 07:23:56] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.8.tar.gz]
+[2023-07-22 07:23:56] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.9.tar.gz]
+[2023-07-22 07:23:56] INFO root fetch - main [MainThread]: End processing [dev-assistant-client]: success
+[2023-07-22 07:23:56] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230721.tar.gz]
+[2023-07-22 07:23:56] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230722.tar.gz]
+[2023-07-22 07:23:56] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-07-22 07:23:56] INFO root fetch - processPackages [qt-json-setting]: Remove: archive file [/home/abi/fetcher/tmp/qt-json-setting-0.3.tar.gz]
+[2023-07-22 07:23:56] INFO root fetch - processPackages [qt-json-setting]: Remove: archive file [/home/abi/fetcher/tmp/qt-json-setting-0.4.tar.gz]
+[2023-07-22 07:23:56] INFO root fetch - main [MainThread]: End processing [qt-json-setting]: success
+[2023-07-22 07:23:56] INFO root fetch - processPackages [tendril-filestore]: Remove: archive file [/home/abi/fetcher/tmp/tendril-filestore-0.2.8.tar.gz]
+[2023-07-22 07:23:56] INFO root fetch - processPackages [tendril-filestore]: Remove: archive file [/home/abi/fetcher/tmp/tendril-filestore-0.2.9.tar.gz]
+[2023-07-22 07:23:56] INFO root fetch - main [MainThread]: End processing [tendril-filestore]: success
+[2023-07-22 07:23:57] INFO root fetch - processPackages [chiapos]: Remove: archive file [/home/abi/fetcher/tmp/chiapos-2.0.0b5.tar.gz]
+[2023-07-22 07:23:57] INFO root fetch - processPackages [chiapos]: Remove: archive file [/home/abi/fetcher/tmp/chiapos-2.0.0rc1.tar.gz]
+[2023-07-22 07:23:57] INFO root fetch - main [MainThread]: End processing [chiapos]: success
+[2023-07-22 07:23:57] INFO root fetch - main [MainThread]: Store serial: [18992837]
