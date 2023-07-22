@@ -14343,3 +14343,42 @@
 [2023-07-22 15:18:17] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
 [2023-07-22 15:18:17] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
 [2023-07-22 15:18:17] INFO root fetch - main [MainThread]: Store serial: [18995068]
+[2023-07-22 15:23:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995068]
+[2023-07-22 15:23:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-22 15:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: winter
+[2023-07-22 15:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-apl
+[2023-07-22 15:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyntweb
+[2023-07-22 15:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opr
+[2023-07-22 15:23:26] INFO root fetch - processPackages [pyntweb]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-22 15:23:26] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.909] Old Version: [0.0.908]
+[2023-07-22 15:23:26] INFO root fetch - processPackages [opr]: New version: [241] Old Version: [240]
+[2023-07-22 15:23:26] INFO root fetch - processPackages [winter]: New version: [9.6.4] Old Version: [9.6.3]
+[2023-07-22 15:23:26] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/80/bf/18e56e1ac93dcc3e916a0541458a756f0bd1344842a84dfac2eb8bd6d6b8/pyntweb-0.2.6.tar.gz
+[2023-07-22 15:23:26] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/8a/e3/048b006356ef423ab25b6aeffbc77a7b09307d09146f29efaa52a697f9b9/nbdev-apl-0.0.908.tar.gz
+[2023-07-22 15:23:26] INFO root fetch - processPackages [opr]: Downloading https://files.pythonhosted.org/packages/e5/ab/d4d8fe359e9aaaddc21f4c4203560a38cc0f125d6a0b4145606ca2680d7e/opr-240.tar.gz
+[2023-07-22 15:23:26] INFO root fetch - processPackages [winter]: Downloading https://files.pythonhosted.org/packages/46/8a/816fba55ee7b4f089bab594def4e1f6d52ff11618d5c02c388eb2ca05c8e/winter-9.6.3.tar.gz
+[2023-07-22 15:23:26] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/e2/af/290a436c887889419a4c54c13db920e0086ec4ec13e6693c4df876c78d67/pyntweb-0.2.7.tar.gz
+[2023-07-22 15:23:26] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/b9/07/77f70cb6bed96f89bc067f3b9c88edb1d5daa25f376d3399c7f72b1be5eb/nbdev-apl-0.0.909.tar.gz
+[2023-07-22 15:23:26] INFO root fetch - processPackages [pyntweb]: executing diffoscope
+[2023-07-22 15:23:26] INFO root fetch - processPackages [pyntweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntweb-0.2.6.tar.gz tmp/pyntweb-0.2.7.tar.gz --markdown 20230722/p/pyntweb/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-22 15:23:26] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-22 15:23:26] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.908.tar.gz tmp/nbdev-apl-0.0.909.tar.gz --markdown 20230722/n/nbdev-apl/0.0.908-0.0.909/diff.md --exclude *.pyd
+[2023-07-22 15:23:26] INFO root fetch - processPackages [opr]: Downloading https://files.pythonhosted.org/packages/b3/aa/1979fe62c31a2c829d020ae19003bc82be78ca3d6deae6b87035f5b71798/opr-241.tar.gz
+[2023-07-22 15:23:27] INFO root fetch - processPackages [opr]: executing diffoscope
+[2023-07-22 15:23:27] INFO root fetch - processPackages [opr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opr-240.tar.gz tmp/opr-241.tar.gz --markdown 20230722/o/opr/240-241/diff.md --exclude *.pyd
+[2023-07-22 15:23:27] INFO root fetch - processPackages [winter]: Downloading https://files.pythonhosted.org/packages/e8/5d/636b014ae9453463f8cd456911d870d57243f605ea0324c1f5888edb5ed6/winter-9.6.4.tar.gz
+[2023-07-22 15:23:27] INFO root fetch - processPackages [winter]: executing diffoscope
+[2023-07-22 15:23:27] INFO root fetch - processPackages [winter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winter-9.6.3.tar.gz tmp/winter-9.6.4.tar.gz --markdown 20230722/w/winter/9.6.3-9.6.4/diff.md --exclude *.pyd
+[2023-07-22 15:23:27] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.6.tar.gz]
+[2023-07-22 15:23:27] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.7.tar.gz]
+[2023-07-22 15:23:27] INFO root fetch - main [MainThread]: End processing [pyntweb]: success
+[2023-07-22 15:23:27] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.908.tar.gz]
+[2023-07-22 15:23:27] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.909.tar.gz]
+[2023-07-22 15:23:27] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-22 15:23:27] INFO root fetch - processPackages [opr]: Remove: archive file [/home/abi/fetcher/tmp/opr-240.tar.gz]
+[2023-07-22 15:23:27] INFO root fetch - processPackages [opr]: Remove: archive file [/home/abi/fetcher/tmp/opr-241.tar.gz]
+[2023-07-22 15:23:27] INFO root fetch - main [MainThread]: End processing [opr]: success
+[2023-07-22 15:23:28] INFO root fetch - processPackages [winter]: Remove: archive file [/home/abi/fetcher/tmp/winter-9.6.3.tar.gz]
+[2023-07-22 15:23:28] INFO root fetch - processPackages [winter]: Remove: archive file [/home/abi/fetcher/tmp/winter-9.6.4.tar.gz]
+[2023-07-22 15:23:28] INFO root fetch - main [MainThread]: End processing [winter]: success
+[2023-07-22 15:23:28] INFO root fetch - main [MainThread]: Store serial: [18995080]
