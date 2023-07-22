@@ -18088,3 +18088,72 @@ EOFError: EOF read where object expected
 [2023-07-22 20:15:24] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6935.tar.gz]
 [2023-07-22 20:15:24] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-22 20:15:24] INFO root fetch - main [MainThread]: Store serial: [18996766]
+[2023-07-22 20:20:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996766]
+[2023-07-22 20:20:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-22 20:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarer.aws-secure-log-bucket
+[2023-07-22 20:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarer.aws-secure-flow-log-bucket
+[2023-07-22 20:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sklearn-mlmlm
+[2023-07-22 20:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swarms
+[2023-07-22 20:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: binpan
+[2023-07-22 20:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roblox-pyc
+[2023-07-22 20:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chronon-ai
+[2023-07-22 20:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OneOnOne
+[2023-07-22 20:20:33] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-22 20:20:33] INFO root fetch - processPackages [binpan]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-22 20:20:33] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-22 20:20:33] INFO root fetch - processPackages [chronon-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 20:20:33] INFO root fetch - processPackages [OneOnOne]: New version: [0.6935] Old Version: [0.6933]
+[2023-07-22 20:20:33] INFO root fetch - processPackages [swarms]: New version: [1.9.0] Old Version: [1.0.3]
+[2023-07-22 20:20:33] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-22 20:20:33] WARNING root fetch - processPackages [sklearn-mlmlm]: Skipping, unable to determine old version
+[2023-07-22 20:20:33] INFO root fetch - main [MainThread]: End processing [sklearn-mlmlm] error
+[2023-07-22 20:20:33] INFO root fetch - processPackages [binpan]: Downloading https://files.pythonhosted.org/packages/9a/c3/428612272a28dfbf5f1cdd8ea5a1b04925a2386a536f411087b1c492cb6b/binpan-0.4.8.tar.gz
+[2023-07-22 20:20:33] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/51/fe/3f6404dfd9f21234ea01de90b057850e1c62c01c3d73ab9e428f9c47343d/gammarer.aws-secure-log-bucket-0.9.3.tar.gz
+[2023-07-22 20:20:33] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/b3/0f/73275b4e8bf2923683eb4fbda95b694015c786314b8706a3e994c4f6d3cf/OneOnOne-0.6933.tar.gz
+[2023-07-22 20:20:33] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-22 20:20:33] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/c0/f3/2eabe981fd90b8636de454df7b3e4c36d5512bd511383d3f0ef681df48d4/gammarer.aws-secure-flow-log-bucket-0.3.3.tar.gz
+[2023-07-22 20:20:33] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/91/f2/afc2894cdc4efff1a6397a088beac7c2d6060c97122bab83826f10857e87/swarms-1.0.3.tar.gz
+[2023-07-22 20:20:33] INFO root fetch - processPackages [chronon-ai]: Downloading https://files.pythonhosted.org/packages/69/d3/1d0ad2aa1fbea35c863dc641ef539bda98822670a30824127aa17faffcce/chronon-ai-0.0.8.tar.gz
+[2023-07-22 20:20:33] INFO root fetch - processPackages [binpan]: Downloading https://files.pythonhosted.org/packages/a0/98/349c07c553f7bfad1d6e1c7717a411195002cd92d0fc40e3ade7867c8d7f/binpan-0.4.9.tar.gz
+[2023-07-22 20:20:33] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-22 20:20:33] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/ba/91/53d9252fd00a4ab29f0ed76a49a1a45fe561eddd632e7d4380aa4ca5d14a/gammarer.aws-secure-log-bucket-0.9.4.tar.gz
+[2023-07-22 20:20:33] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/10/e6/193386a7656ad2754137c37f51a851326131e675b51ccb1657c35e2da8a3/gammarer.aws-secure-flow-log-bucket-0.3.4.tar.gz
+[2023-07-22 20:20:34] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/47/61/2296c4861da08a33b70d6a3f25b4388498f6efacac63f23643ab0506af02/swarms-1.9.0.tar.gz
+[2023-07-22 20:20:34] INFO root fetch - processPackages [binpan]: executing diffoscope
+[2023-07-22 20:20:34] INFO root fetch - processPackages [binpan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binpan-0.4.8.tar.gz tmp/binpan-0.4.9.tar.gz --markdown 20230722/b/binpan/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-22 20:20:34] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-22 20:20:34] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230722/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-22 20:20:34] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/93/32/cb5cdf7a880d6f3fdd22119228e1eae589f08ece43cfbfbef499e8786fd7/OneOnOne-0.6935.tar.gz
+[2023-07-22 20:20:34] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: executing diffoscope
+[2023-07-22 20:20:34] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-log-bucket-0.9.3.tar.gz tmp/gammarer.aws-secure-log-bucket-0.9.4.tar.gz --markdown 20230722/g/gammarer.aws-secure-log-bucket/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-22 20:20:34] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: executing diffoscope
+[2023-07-22 20:20:34] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-flow-log-bucket-0.3.3.tar.gz tmp/gammarer.aws-secure-flow-log-bucket-0.3.4.tar.gz --markdown 20230722/g/gammarer.aws-secure-flow-log-bucket/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-22 20:20:34] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-22 20:20:34] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-1.0.3.tar.gz tmp/swarms-1.9.0.tar.gz --markdown 20230722/s/swarms/1.0.3-1.9.0/diff.md --exclude *.pyd
+[2023-07-22 20:20:34] INFO root fetch - processPackages [chronon-ai]: Downloading https://files.pythonhosted.org/packages/a5/3d/dc0301417084a8050ef7ac9dbe26eb3c36626256f1d96319da60a6c1783c/chronon-ai-0.0.9.tar.gz
+[2023-07-22 20:20:34] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 20:20:34] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6933.tar.gz tmp/OneOnOne-0.6935.tar.gz --markdown 20230722/O/OneOnOne/0.6933-0.6935/diff.md --exclude *.pyd
+[2023-07-22 20:20:34] INFO root fetch - processPackages [chronon-ai]: executing diffoscope
+[2023-07-22 20:20:34] INFO root fetch - processPackages [chronon-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chronon-ai-0.0.8.tar.gz tmp/chronon-ai-0.0.9.tar.gz --markdown 20230722/c/chronon-ai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 20:20:35] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-log-bucket-0.9.3.tar.gz]
+[2023-07-22 20:20:35] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-log-bucket-0.9.4.tar.gz]
+[2023-07-22 20:20:35] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-log-bucket]: success
+[2023-07-22 20:20:35] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-22 20:20:35] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-22 20:20:35] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-22 20:20:35] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.3.tar.gz]
+[2023-07-22 20:20:35] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.4.tar.gz]
+[2023-07-22 20:20:35] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-flow-log-bucket]: success
+[2023-07-22 20:20:35] INFO root fetch - processPackages [binpan]: Remove: archive file [/home/abi/fetcher/tmp/binpan-0.4.8.tar.gz]
+[2023-07-22 20:20:35] INFO root fetch - processPackages [binpan]: Remove: archive file [/home/abi/fetcher/tmp/binpan-0.4.9.tar.gz]
+[2023-07-22 20:20:35] INFO root fetch - main [MainThread]: End processing [binpan]: success
+[2023-07-22 20:20:35] INFO root fetch - processPackages [chronon-ai]: Remove: archive file [/home/abi/fetcher/tmp/chronon-ai-0.0.8.tar.gz]
+[2023-07-22 20:20:35] INFO root fetch - processPackages [chronon-ai]: Remove: archive file [/home/abi/fetcher/tmp/chronon-ai-0.0.9.tar.gz]
+[2023-07-22 20:20:35] INFO root fetch - main [MainThread]: End processing [chronon-ai]: success
+[2023-07-22 20:20:35] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6933.tar.gz]
+[2023-07-22 20:20:35] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6935.tar.gz]
+[2023-07-22 20:20:35] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 20:20:35] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-1.0.3.tar.gz]
+[2023-07-22 20:20:35] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-1.9.0.tar.gz]
+[2023-07-22 20:20:35] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-22 20:20:35] INFO root fetch - main [MainThread]: Store serial: [18996788]
