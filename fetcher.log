@@ -19535,3 +19535,63 @@ EOFError: EOF read where object expected
 [2023-07-22 22:28:16] INFO root fetch - processPackages [cardiac-geometries]: Remove: archive file [/home/abi/fetcher/tmp/cardiac_geometries-0.7.0.tar.gz]
 [2023-07-22 22:28:16] INFO root fetch - main [MainThread]: End processing [cardiac-geometries]: success
 [2023-07-22 22:28:16] INFO root fetch - main [MainThread]: Store serial: [18997332]
+[2023-07-22 22:33:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18997332]
+[2023-07-22 22:33:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 22:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dj-beatcloud
+[2023-07-22 22:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypyp
+[2023-07-22 22:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: statprocon
+[2023-07-22 22:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm-client
+[2023-07-22 22:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nsj-queue-lib
+[2023-07-22 22:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiohomekit
+[2023-07-22 22:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odmammogram
+[2023-07-22 22:33:25] INFO root fetch - processPackages [hypyp]: New version: [0.4.0b9] Old Version: [0.4.0b8]
+[2023-07-22 22:33:25] INFO root fetch - processPackages [nsj-queue-lib]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-22 22:33:25] INFO root fetch - processPackages [statprocon]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-22 22:33:25] INFO root fetch - processPackages [llm-client]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-22 22:33:25] INFO root fetch - processPackages [dj-beatcloud]: New version: [2.6.0b9] Old Version: [2.6.0b8]
+[2023-07-22 22:33:25] INFO root fetch - processPackages [aiohomekit]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-07-22 22:33:25] WARNING root fetch - processPackages [odmammogram]: Skipping, unable to determine old version
+[2023-07-22 22:33:25] INFO root fetch - main [MainThread]: End processing [odmammogram] error
+[2023-07-22 22:33:25] INFO root fetch - processPackages [nsj-queue-lib]: Downloading https://files.pythonhosted.org/packages/86/cc/a5f732431af2bd11205b8cc156990fcf8242ea43369569565f8fc54734fa/nsj_queue_lib-0.0.2.tar.gz
+[2023-07-22 22:33:25] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/4c/ae/471927809979e349758d33da70caa44472e07ecbe379983aec2d9ef1b2da/dj_beatcloud-2.6.0b8.tar.gz
+[2023-07-22 22:33:25] INFO root fetch - processPackages [aiohomekit]: Downloading https://files.pythonhosted.org/packages/65/96/4d8b38121d10fccc163a3a2c9427904ba4acbc687c4ff074ea9d3a046599/aiohomekit-2.6.8.tar.gz
+[2023-07-22 22:33:25] INFO root fetch - processPackages [hypyp]: Downloading https://files.pythonhosted.org/packages/05/3b/6183acef2b03608486a21598b358f51364f95d7187b0ec1bc2916047d4f1/hypyp-0.4.0b8.tar.gz
+[2023-07-22 22:33:25] INFO root fetch - processPackages [statprocon]: Downloading https://files.pythonhosted.org/packages/56/e5/6d36c81f2c1f0535ea9fb520168eb879054c8cfec23d56c2780b5a666935/statprocon-0.0.7.tar.gz
+[2023-07-22 22:33:25] INFO root fetch - processPackages [llm-client]: Downloading https://files.pythonhosted.org/packages/9f/50/8d70f665b21ccd9ed540cb85d23558817766cbedb5b4688dfe2f663c13aa/llm_client-0.7.0.tar.gz
+[2023-07-22 22:33:25] INFO root fetch - processPackages [aiohomekit]: Downloading https://files.pythonhosted.org/packages/30/ac/4e69e64fa19c718af982b3ce08ccfe2934a67dd65dbfc32d404a0ab62c6f/aiohomekit-2.6.9.tar.gz
+[2023-07-22 22:33:25] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/c9/09/5c8344408b74188f7ad4b01eba5163e31bf6953e4faac5587870de44eebe/dj_beatcloud-2.6.0b9.tar.gz
+[2023-07-22 22:33:25] INFO root fetch - processPackages [nsj-queue-lib]: Downloading https://files.pythonhosted.org/packages/44/98/1ac7ad9a81222700e4b756a55200e656f73581a6c29f4a081ab72fbacd9f/nsj_queue_lib-0.1.0.tar.gz
+[2023-07-22 22:33:25] INFO root fetch - processPackages [dj-beatcloud]: executing diffoscope
+[2023-07-22 22:33:25] INFO root fetch - processPackages [dj-beatcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_beatcloud-2.6.0b8.tar.gz tmp/dj_beatcloud-2.6.0b9.tar.gz --markdown 20230722/d/dj-beatcloud/2.6.0b8-2.6.0b9/diff.md --exclude *.pyd
+[2023-07-22 22:33:25] INFO root fetch - processPackages [aiohomekit]: executing diffoscope
+[2023-07-22 22:33:25] INFO root fetch - processPackages [aiohomekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohomekit-2.6.8.tar.gz tmp/aiohomekit-2.6.9.tar.gz --markdown 20230722/a/aiohomekit/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-07-22 22:33:25] INFO root fetch - processPackages [hypyp]: Downloading https://files.pythonhosted.org/packages/27/78/ffdf439e1bdaf2c170c59c55e6a674cc93fa49be62494d456488453abf42/hypyp-0.4.0b9.tar.gz
+[2023-07-22 22:33:25] INFO root fetch - processPackages [nsj-queue-lib]: executing diffoscope
+[2023-07-22 22:33:25] INFO root fetch - processPackages [nsj-queue-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_queue_lib-0.0.2.tar.gz tmp/nsj_queue_lib-0.1.0.tar.gz --markdown 20230722/n/nsj-queue-lib/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-22 22:33:25] INFO root fetch - processPackages [hypyp]: executing diffoscope
+[2023-07-22 22:33:25] INFO root fetch - processPackages [hypyp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypyp-0.4.0b8.tar.gz tmp/hypyp-0.4.0b9.tar.gz --markdown 20230722/h/hypyp/0.4.0b8-0.4.0b9/diff.md --exclude *.pyd
+[2023-07-22 22:33:25] INFO root fetch - processPackages [statprocon]: Downloading https://files.pythonhosted.org/packages/90/30/a1a9d8b9388121aaa33318841a20787c7fde7d99a410a75877fb9c2620aa/statprocon-0.0.8.tar.gz
+[2023-07-22 22:33:25] INFO root fetch - processPackages [llm-client]: Downloading https://files.pythonhosted.org/packages/cc/99/4d86d1d1b7d66dd23639c82601ce7ec504ffbce9cbd71acf1794f6952973/llm_client-0.8.0.tar.gz
+[2023-07-22 22:33:26] INFO root fetch - processPackages [llm-client]: executing diffoscope
+[2023-07-22 22:33:26] INFO root fetch - processPackages [llm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_client-0.7.0.tar.gz tmp/llm_client-0.8.0.tar.gz --markdown 20230722/l/llm-client/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-22 22:33:26] INFO root fetch - processPackages [statprocon]: executing diffoscope
+[2023-07-22 22:33:26] INFO root fetch - processPackages [statprocon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statprocon-0.0.7.tar.gz tmp/statprocon-0.0.8.tar.gz --markdown 20230722/s/statprocon/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-22 22:33:26] INFO root fetch - processPackages [nsj-queue-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_queue_lib-0.0.2.tar.gz]
+[2023-07-22 22:33:26] INFO root fetch - processPackages [nsj-queue-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_queue_lib-0.1.0.tar.gz]
+[2023-07-22 22:33:26] INFO root fetch - main [MainThread]: End processing [nsj-queue-lib]: success
+[2023-07-22 22:33:26] INFO root fetch - processPackages [dj-beatcloud]: Remove: archive file [/home/abi/fetcher/tmp/dj_beatcloud-2.6.0b8.tar.gz]
+[2023-07-22 22:33:26] INFO root fetch - processPackages [dj-beatcloud]: Remove: archive file [/home/abi/fetcher/tmp/dj_beatcloud-2.6.0b9.tar.gz]
+[2023-07-22 22:33:26] INFO root fetch - main [MainThread]: End processing [dj-beatcloud]: success
+[2023-07-22 22:33:26] INFO root fetch - processPackages [hypyp]: Remove: archive file [/home/abi/fetcher/tmp/hypyp-0.4.0b8.tar.gz]
+[2023-07-22 22:33:26] INFO root fetch - processPackages [hypyp]: Remove: archive file [/home/abi/fetcher/tmp/hypyp-0.4.0b9.tar.gz]
+[2023-07-22 22:33:27] INFO root fetch - main [MainThread]: End processing [hypyp]: success
+[2023-07-22 22:33:27] INFO root fetch - processPackages [aiohomekit]: Remove: archive file [/home/abi/fetcher/tmp/aiohomekit-2.6.8.tar.gz]
+[2023-07-22 22:33:27] INFO root fetch - processPackages [aiohomekit]: Remove: archive file [/home/abi/fetcher/tmp/aiohomekit-2.6.9.tar.gz]
+[2023-07-22 22:33:27] INFO root fetch - main [MainThread]: End processing [aiohomekit]: success
+[2023-07-22 22:33:27] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.0.7.tar.gz]
+[2023-07-22 22:33:27] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.0.8.tar.gz]
+[2023-07-22 22:33:27] INFO root fetch - main [MainThread]: End processing [statprocon]: success
+[2023-07-22 22:33:27] INFO root fetch - processPackages [llm-client]: Remove: archive file [/home/abi/fetcher/tmp/llm_client-0.7.0.tar.gz]
+[2023-07-22 22:33:27] INFO root fetch - processPackages [llm-client]: Remove: archive file [/home/abi/fetcher/tmp/llm_client-0.8.0.tar.gz]
+[2023-07-22 22:33:27] INFO root fetch - main [MainThread]: End processing [llm-client]: success
+[2023-07-22 22:33:27] INFO root fetch - main [MainThread]: Store serial: [18997363]
