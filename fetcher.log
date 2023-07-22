@@ -14462,3 +14462,41 @@
 [2023-07-22 15:33:50] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6925.tar.gz]
 [2023-07-22 15:33:50] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-22 15:33:50] INFO root fetch - main [MainThread]: Store serial: [18995107]
+[2023-07-22 15:38:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995107]
+[2023-07-22 15:38:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 15:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unstac
+[2023-07-22 15:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fakefbench
+[2023-07-22 15:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fbgemm-gpu-nightly
+[2023-07-22 15:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weblodge
+[2023-07-22 15:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eclair-cli
+[2023-07-22 15:38:58] INFO root fetch - processPackages [eclair-cli]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-22 15:38:58] INFO root fetch - processPackages [unstac]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-22 15:38:58] WARNING root fetch - processPackages [fakefbench]: Skipping, unable to determine old version
+[2023-07-22 15:38:58] INFO root fetch - main [MainThread]: End processing [fakefbench] error
+[2023-07-22 15:38:58] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.7.22] Old Version: [2023.7.21]
+[2023-07-22 15:38:58] INFO root fetch - processPackages [weblodge]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-07-22 15:38:59] INFO root fetch - processPackages [eclair-cli]: Downloading https://files.pythonhosted.org/packages/df/01/8cc299f910f06da5c75ff1356e7ff34cf56f7d5db84a2c08d4bf46028e9c/eclair_cli-1.0.0-py3-none-any.whl
+[2023-07-22 15:38:59] INFO root fetch - processPackages [unstac]: Downloading https://files.pythonhosted.org/packages/0d/6c/f9baf40b934dce28450b93b875d78a97266c03c7c63d31045126615c93f4/unstac-0.0.2.tar.gz
+[2023-07-22 15:38:59] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/2b/6e/0ba237748a7716c5bde12e7fd0190403590f6b9cd1f211c80eed2bfbadba/fbgemm_gpu_nightly-2023.7.21-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-22 15:38:59] INFO root fetch - processPackages [weblodge]: Downloading https://files.pythonhosted.org/packages/6a/cd/a8f2e34ef00e5084688172c4fdf33409bccb7ea896d9b085af54a0a4dd77/weblodge-0.1.5.tar.gz
+[2023-07-22 15:38:59] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 217854848>=10485760
+[2023-07-22 15:38:59] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-07-22 15:38:59] INFO root fetch - processPackages [unstac]: Downloading https://files.pythonhosted.org/packages/d5/d3/240e02967e9e16ea32a32d98e8094371c17fefff48060416b4ed25f60576/unstac-0.0.3.tar.gz
+[2023-07-22 15:38:59] INFO root fetch - processPackages [eclair-cli]: Downloading https://files.pythonhosted.org/packages/b3/11/d689a2b103442be1e5542d905bc70bb1e578b7eb45728bdc8310e6654d7e/eclair-cli-1.0.1.tar.gz
+[2023-07-22 15:38:59] INFO root fetch - processPackages [weblodge]: Downloading https://files.pythonhosted.org/packages/c4/31/352a03ad75c193789224eb9193e20ab2d7d314ea9a93a12e2ebb5dbfbefa/weblodge-0.2.0.tar.gz
+[2023-07-22 15:38:59] INFO root fetch - processPackages [unstac]: executing diffoscope
+[2023-07-22 15:38:59] INFO root fetch - processPackages [unstac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstac-0.0.2.tar.gz tmp/unstac-0.0.3.tar.gz --markdown 20230722/u/unstac/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-22 15:38:59] INFO root fetch - processPackages [eclair-cli]: executing diffoscope
+[2023-07-22 15:38:59] INFO root fetch - processPackages [eclair-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eclair_cli-1.0.0-py3-none-any.whl.zip tmp/eclair-cli-1.0.1.tar.gz --markdown 20230722/e/eclair-cli/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-22 15:38:59] INFO root fetch - processPackages [weblodge]: executing diffoscope
+[2023-07-22 15:38:59] INFO root fetch - processPackages [weblodge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weblodge-0.1.5.tar.gz tmp/weblodge-0.2.0.tar.gz --markdown 20230722/w/weblodge/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-07-22 15:39:00] INFO root fetch - processPackages [eclair-cli]: Remove: archive file [/home/abi/fetcher/tmp/eclair_cli-1.0.0-py3-none-any.whl.zip]
+[2023-07-22 15:39:00] INFO root fetch - processPackages [eclair-cli]: Remove: archive file [/home/abi/fetcher/tmp/eclair-cli-1.0.1.tar.gz]
+[2023-07-22 15:39:00] INFO root fetch - main [MainThread]: End processing [eclair-cli]: success
+[2023-07-22 15:39:00] INFO root fetch - processPackages [unstac]: Remove: archive file [/home/abi/fetcher/tmp/unstac-0.0.2.tar.gz]
+[2023-07-22 15:39:00] INFO root fetch - processPackages [unstac]: Remove: archive file [/home/abi/fetcher/tmp/unstac-0.0.3.tar.gz]
+[2023-07-22 15:39:00] INFO root fetch - main [MainThread]: End processing [unstac]: success
+[2023-07-22 15:39:00] INFO root fetch - processPackages [weblodge]: Remove: archive file [/home/abi/fetcher/tmp/weblodge-0.1.5.tar.gz]
+[2023-07-22 15:39:00] INFO root fetch - processPackages [weblodge]: Remove: archive file [/home/abi/fetcher/tmp/weblodge-0.2.0.tar.gz]
+[2023-07-22 15:39:00] INFO root fetch - main [MainThread]: End processing [weblodge]: success
+[2023-07-22 15:39:00] INFO root fetch - main [MainThread]: Store serial: [18995125]
