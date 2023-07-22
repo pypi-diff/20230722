@@ -19311,3 +19311,56 @@ EOFError: EOF read where object expected
 [2023-07-22 22:05:49] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.4.0.tar.gz]
 [2023-07-22 22:05:49] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
 [2023-07-22 22:05:49] INFO root fetch - main [MainThread]: Store serial: [18997214]
+[2023-07-22 22:10:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18997214]
+[2023-07-22 22:10:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 22:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uploadserver
+[2023-07-22 22:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nsj-rest-lib
+[2023-07-22 22:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ElisionPy
+[2023-07-22 22:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modelbit
+[2023-07-22 22:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coloraide
+[2023-07-22 22:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyscribus
+[2023-07-22 22:10:58] INFO root fetch - processPackages [ElisionPy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 22:10:58] INFO root fetch - processPackages [nsj-rest-lib]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-22 22:10:58] INFO root fetch - processPackages [pyscribus]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-22 22:10:58] INFO root fetch - processPackages [uploadserver]: New version: [5.0.0] Old Version: [4.2.0]
+[2023-07-22 22:10:58] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-22 22:10:58] INFO root fetch - processPackages [coloraide]: New version: [2.5] Old Version: [2.4]
+[2023-07-22 22:10:58] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/c9/f0/ed4cc6d7e8a055435d41e58b6ff37b6189ac3cb52e6383b72c12aa4e605f/modelbit-0.9.6.tar.gz
+[2023-07-22 22:10:58] INFO root fetch - processPackages [ElisionPy]: Downloading https://files.pythonhosted.org/packages/8c/de/cf77da1ec6eee00512c049642769459ea5e901d889a294ea30435960d43a/ElisionPy-0.0.3.tar.gz
+[2023-07-22 22:10:58] INFO root fetch - processPackages [pyscribus]: Downloading https://files.pythonhosted.org/packages/a9/d5/95a3a8f24cdf7d70a3f8af1db19c383737d9543323ad2d50249e5ac565d7/pyscribus-0.2.4.tar.gz
+[2023-07-22 22:10:58] INFO root fetch - processPackages [uploadserver]: Downloading https://files.pythonhosted.org/packages/41/a1/5e29c1e26b09a3d09f0ce96102640a764268c775a1e594ccb2b454bd4845/uploadserver-4.2.0.tar.gz
+[2023-07-22 22:10:58] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/d7/48/cc59c5f7591a240f436b6ef4ba2b7e02bb09e2d3cd52c8d9f7aef5f030f5/nsj_rest_lib-1.4.0.tar.gz
+[2023-07-22 22:10:58] INFO root fetch - processPackages [coloraide]: Downloading https://files.pythonhosted.org/packages/0a/96/3eec9c7dd67c68ea022447f45ba9d0c13d205d3ea5ac56ffe2805f4eab1c/coloraide-2.4.tar.gz
+[2023-07-22 22:10:58] WARNING root fetch - processPackages [coloraide]: Skipping package: exceeds size limit 15344652>=10485760
+[2023-07-22 22:10:58] INFO root fetch - main [MainThread]: End processing [coloraide] error
+[2023-07-22 22:10:58] INFO root fetch - processPackages [ElisionPy]: Downloading https://files.pythonhosted.org/packages/df/e4/12f5d9b330a10bd50edc3649e53f0233b748f0e441799423c21ab1d03cd8/ElisionPy-0.0.4.tar.gz
+[2023-07-22 22:10:58] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/55/0f/8d19e66368fbaa57d08deb9b9d12c445c2e2451e77490d39dfff1e70698a/modelbit-0.9.7.tar.gz
+[2023-07-22 22:10:58] INFO root fetch - processPackages [ElisionPy]: executing diffoscope
+[2023-07-22 22:10:58] INFO root fetch - processPackages [ElisionPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ElisionPy-0.0.3.tar.gz tmp/ElisionPy-0.0.4.tar.gz --markdown 20230722/E/ElisionPy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 22:10:58] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-07-22 22:10:58] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230722/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-22 22:10:58] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/7c/b4/5014596bdec93ca107b9c57667fbc4ab04f16d8edddb29260ff05564d93e/nsj_rest_lib-1.5.0.tar.gz
+[2023-07-22 22:10:59] INFO root fetch - processPackages [nsj-rest-lib]: executing diffoscope
+[2023-07-22 22:10:59] INFO root fetch - processPackages [nsj-rest-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_rest_lib-1.4.0.tar.gz tmp/nsj_rest_lib-1.5.0.tar.gz --markdown 20230722/n/nsj-rest-lib/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-22 22:10:59] INFO root fetch - processPackages [uploadserver]: Downloading https://files.pythonhosted.org/packages/bc/0e/c06b7289dd4919373970f5b20df3ed0b3438c12f828a9e31d700370eb63c/uploadserver-5.0.0.tar.gz
+[2023-07-22 22:10:59] INFO root fetch - processPackages [pyscribus]: Downloading https://files.pythonhosted.org/packages/a0/31/441c1c16df9c744b351b59f8f3acbc89f1115ace52da9280ec1d69b2b03c/pyscribus-0.2.5.tar.gz
+[2023-07-22 22:10:59] INFO root fetch - processPackages [uploadserver]: executing diffoscope
+[2023-07-22 22:10:59] INFO root fetch - processPackages [uploadserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uploadserver-4.2.0.tar.gz tmp/uploadserver-5.0.0.tar.gz --markdown 20230722/u/uploadserver/4.2.0-5.0.0/diff.md --exclude *.pyd
+[2023-07-22 22:10:59] INFO root fetch - processPackages [pyscribus]: executing diffoscope
+[2023-07-22 22:10:59] INFO root fetch - processPackages [pyscribus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscribus-0.2.4.tar.gz tmp/pyscribus-0.2.5.tar.gz --markdown 20230722/p/pyscribus/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-22 22:10:59] INFO root fetch - processPackages [ElisionPy]: Remove: archive file [/home/abi/fetcher/tmp/ElisionPy-0.0.3.tar.gz]
+[2023-07-22 22:10:59] INFO root fetch - processPackages [ElisionPy]: Remove: archive file [/home/abi/fetcher/tmp/ElisionPy-0.0.4.tar.gz]
+[2023-07-22 22:10:59] INFO root fetch - main [MainThread]: End processing [ElisionPy]: success
+[2023-07-22 22:10:59] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.6.tar.gz]
+[2023-07-22 22:10:59] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.7.tar.gz]
+[2023-07-22 22:10:59] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-07-22 22:11:00] INFO root fetch - processPackages [nsj-rest-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_rest_lib-1.4.0.tar.gz]
+[2023-07-22 22:11:00] INFO root fetch - processPackages [nsj-rest-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_rest_lib-1.5.0.tar.gz]
+[2023-07-22 22:11:00] INFO root fetch - main [MainThread]: End processing [nsj-rest-lib]: success
+[2023-07-22 22:11:00] INFO root fetch - processPackages [pyscribus]: Remove: archive file [/home/abi/fetcher/tmp/pyscribus-0.2.4.tar.gz]
+[2023-07-22 22:11:00] INFO root fetch - processPackages [pyscribus]: Remove: archive file [/home/abi/fetcher/tmp/pyscribus-0.2.5.tar.gz]
+[2023-07-22 22:11:00] INFO root fetch - main [MainThread]: End processing [pyscribus]: success
+[2023-07-22 22:11:00] INFO root fetch - processPackages [uploadserver]: Remove: archive file [/home/abi/fetcher/tmp/uploadserver-4.2.0.tar.gz]
+[2023-07-22 22:11:00] INFO root fetch - processPackages [uploadserver]: Remove: archive file [/home/abi/fetcher/tmp/uploadserver-5.0.0.tar.gz]
+[2023-07-22 22:11:00] INFO root fetch - main [MainThread]: End processing [uploadserver]: success
+[2023-07-22 22:11:00] INFO root fetch - main [MainThread]: Store serial: [18997239]
