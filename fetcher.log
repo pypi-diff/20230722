@@ -10171,3 +10171,45 @@
 [2023-07-22 08:42:06] INFO root fetch - processPackages [openslide-python]: Remove: archive file [/home/abi/fetcher/tmp/openslide-python-1.3.0.tar.gz]
 [2023-07-22 08:42:06] INFO root fetch - main [MainThread]: End processing [openslide-python]: success
 [2023-07-22 08:42:06] INFO root fetch - main [MainThread]: Store serial: [18993226]
+[2023-07-22 08:47:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993226]
+[2023-07-22 08:47:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 08:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akamai-purge-cache
+[2023-07-22 08:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adgodfhkdfh
+[2023-07-22 08:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idkwhttph
+[2023-07-22 08:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyfi
+[2023-07-22 08:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: medimageaugment
+[2023-07-22 08:47:16] INFO root fetch - processPackages [idkwhttph]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-22 08:47:16] INFO root fetch - processPackages [medimageaugment]: New version: [1.1.2] Old Version: [1.1.0]
+[2023-07-22 08:47:16] INFO root fetch - processPackages [adgodfhkdfh]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-22 08:47:16] INFO root fetch - processPackages [hyfi]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-22 08:47:16] WARNING root fetch - processPackages [akamai-purge-cache]: Skipping, unable to determine old version
+[2023-07-22 08:47:16] INFO root fetch - main [MainThread]: End processing [akamai-purge-cache] error
+[2023-07-22 08:47:16] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/7a/16/4256fa160a844ea706e1d91086dfebf984f2a530ac217d2dac22c9aed599/idkwhttph-0.2.3.tar.gz
+[2023-07-22 08:47:16] INFO root fetch - processPackages [medimageaugment]: Downloading https://files.pythonhosted.org/packages/c0/f1/47dfee608ca65ea9f61dcf7178abf7529953a030d39725d0951ca5f2e208/medimageaugment-1.1.0.tar.gz
+[2023-07-22 08:47:16] INFO root fetch - processPackages [adgodfhkdfh]: Downloading https://files.pythonhosted.org/packages/d6/0c/f6c337326c5a0bec0d14d012879f4605407c8595e525d359ba4380eb12a4/adgodfhkdfh-0.0.6.tar.gz
+[2023-07-22 08:47:16] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/2a/80/3a01f92370978f14bf94de14f6dd48db19de0b14adac46c2f65ac3880194/hyfi-1.6.1.tar.gz
+[2023-07-22 08:47:17] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/66/3d/7f760566e44394d87f0e32ecd5225739659a50cd6b1cc1953f962db993b4/idkwhttph-0.2.4.tar.gz
+[2023-07-22 08:47:17] INFO root fetch - processPackages [adgodfhkdfh]: Downloading https://files.pythonhosted.org/packages/6b/e8/9b9a83950c53332a2c355402964e2f9eb985f5acfacce2b6fe63cdb0866e/adgodfhkdfh-0.0.7.tar.gz
+[2023-07-22 08:47:17] INFO root fetch - processPackages [medimageaugment]: Downloading https://files.pythonhosted.org/packages/6f/28/c8ed4260d2d1a31c56ff530426add87a0b655071408201d5c60109a7fb2b/medimageaugment-1.1.2.tar.gz
+[2023-07-22 08:47:17] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/46/0c/8643fd71702460b8cced46d37058f405384fb99829c76d988b50cbc6e02b/hyfi-1.6.2.tar.gz
+[2023-07-22 08:47:17] INFO root fetch - processPackages [medimageaugment]: executing diffoscope
+[2023-07-22 08:47:17] INFO root fetch - processPackages [medimageaugment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medimageaugment-1.1.0.tar.gz tmp/medimageaugment-1.1.2.tar.gz --markdown 20230722/m/medimageaugment/1.1.0-1.1.2/diff.md --exclude *.pyd
+[2023-07-22 08:47:17] INFO root fetch - processPackages [adgodfhkdfh]: executing diffoscope
+[2023-07-22 08:47:17] INFO root fetch - processPackages [adgodfhkdfh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adgodfhkdfh-0.0.6.tar.gz tmp/adgodfhkdfh-0.0.7.tar.gz --markdown 20230722/a/adgodfhkdfh/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-22 08:47:17] INFO root fetch - processPackages [idkwhttph]: executing diffoscope
+[2023-07-22 08:47:17] INFO root fetch - processPackages [idkwhttph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idkwhttph-0.2.3.tar.gz tmp/idkwhttph-0.2.4.tar.gz --markdown 20230722/i/idkwhttph/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-22 08:47:17] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-22 08:47:17] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.6.1.tar.gz tmp/hyfi-1.6.2.tar.gz --markdown 20230722/h/hyfi/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-22 08:47:18] INFO root fetch - processPackages [adgodfhkdfh]: Remove: archive file [/home/abi/fetcher/tmp/adgodfhkdfh-0.0.6.tar.gz]
+[2023-07-22 08:47:18] INFO root fetch - processPackages [adgodfhkdfh]: Remove: archive file [/home/abi/fetcher/tmp/adgodfhkdfh-0.0.7.tar.gz]
+[2023-07-22 08:47:18] INFO root fetch - main [MainThread]: End processing [adgodfhkdfh]: success
+[2023-07-22 08:47:18] INFO root fetch - processPackages [medimageaugment]: Remove: archive file [/home/abi/fetcher/tmp/medimageaugment-1.1.0.tar.gz]
+[2023-07-22 08:47:18] INFO root fetch - processPackages [medimageaugment]: Remove: archive file [/home/abi/fetcher/tmp/medimageaugment-1.1.2.tar.gz]
+[2023-07-22 08:47:18] INFO root fetch - main [MainThread]: End processing [medimageaugment]: success
+[2023-07-22 08:47:18] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.2.3.tar.gz]
+[2023-07-22 08:47:18] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.2.4.tar.gz]
+[2023-07-22 08:47:18] INFO root fetch - main [MainThread]: End processing [idkwhttph]: success
+[2023-07-22 08:47:18] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.6.1.tar.gz]
+[2023-07-22 08:47:18] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.6.2.tar.gz]
+[2023-07-22 08:47:18] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-22 08:47:18] INFO root fetch - main [MainThread]: Store serial: [18993243]
