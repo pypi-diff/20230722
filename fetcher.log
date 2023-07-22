@@ -13009,3 +13009,53 @@
 [2023-07-22 12:59:55] INFO root fetch - processPackages [smartdoor]: Remove: archive file [/home/abi/fetcher/tmp/smartdoor-2.0.0.dev1.tar.gz]
 [2023-07-22 12:59:55] INFO root fetch - main [MainThread]: End processing [smartdoor]: success
 [2023-07-22 12:59:55] INFO root fetch - main [MainThread]: Store serial: [18994483]
+[2023-07-22 13:04:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994483]
+[2023-07-22 13:05:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 13:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: typed-out
+[2023-07-22 13:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wheel
+[2023-07-22 13:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lemonbar
+[2023-07-22 13:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drukbam
+[2023-07-22 13:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipymafs
+[2023-07-22 13:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wow-ai-mms
+[2023-07-22 13:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyracer
+[2023-07-22 13:05:03] INFO root fetch - processPackages [ipymafs]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-07-22 13:05:03] INFO root fetch - processPackages [pyracer]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-22 13:05:03] INFO root fetch - processPackages [wheel]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-22 13:05:03] WARNING root fetch - processPackages [typed-out]: Skipping, unable to determine old version
+[2023-07-22 13:05:03] INFO root fetch - main [MainThread]: End processing [typed-out] error
+[2023-07-22 13:05:03] INFO root fetch - processPackages [ipymafs]: Downloading https://files.pythonhosted.org/packages/e5/d6/9bc1802dbfb11f95934d0ec40acaa30ab945f0aaeb64d805ac25d2b5f902/ipymafs-0.0.5.tar.gz
+[2023-07-22 13:05:03] INFO root fetch - processPackages [drukbam]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-22 13:05:03] WARNING root fetch - processPackages [lemonbar]: Skipping, unable to determine old version
+[2023-07-22 13:05:03] INFO root fetch - processPackages [wow-ai-mms]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-22 13:05:03] INFO root fetch - main [MainThread]: End processing [lemonbar] error
+[2023-07-22 13:05:03] INFO root fetch - processPackages [pyracer]: Downloading https://files.pythonhosted.org/packages/c2/11/3b28c5041e174f2d4b9816507d8f0c19ffddbaed26945b7197c3febf443d/pyracer-1.1.1.tar.gz
+[2023-07-22 13:05:04] WARNING root fetch - processPackages [ipymafs]: Skipping package: exceeds size limit 38993460>=10485760
+[2023-07-22 13:05:04] INFO root fetch - main [MainThread]: End processing [ipymafs] error
+[2023-07-22 13:05:04] INFO root fetch - processPackages [wheel]: Downloading https://files.pythonhosted.org/packages/02/c5/0f17dc19cc58f15bc3e1d8d0ccf68277180b3898028e16ba15bda2010545/wheel-0.9.6.tar.gz
+[2023-07-22 13:05:04] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/f9/e7/43eda50919315da12def5671d061d3a94462fdeb558d924df5e18b10c075/wow_ai_mms-0.0.7.tar.gz
+[2023-07-22 13:05:04] INFO root fetch - processPackages [pyracer]: Downloading https://files.pythonhosted.org/packages/0a/a6/b7631608d988e10c6cff8e70ea67fed2f8f80c68050e2f890e1e20ca29ee/pyracer-1.1.2.tar.gz
+[2023-07-22 13:05:04] INFO root fetch - processPackages [drukbam]: Downloading https://files.pythonhosted.org/packages/89/f3/e34501590b92346a609e5431beb56ec093bcdb44af4899f9eefd3394e640/DrukBam-1.1.2.tar.gz
+[2023-07-22 13:05:04] INFO root fetch - processPackages [pyracer]: executing diffoscope
+[2023-07-22 13:05:04] INFO root fetch - processPackages [pyracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyracer-1.1.1.tar.gz tmp/pyracer-1.1.2.tar.gz --markdown 20230722/p/pyracer/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-22 13:05:04] INFO root fetch - processPackages [wheel]: Downloading https://files.pythonhosted.org/packages/8d/47/0398c7707a3c6fe46d4d326bc063ce698beac7e6ab5af505f462bf50602d/wheel-0.9.7.tar.gz
+[2023-07-22 13:05:04] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/fb/f7/2897724241062efc5f6009fb5134db71215cc0c7066cca67f4ed647bc7be/wow_ai_mms-0.0.8.tar.gz
+[2023-07-22 13:05:04] INFO root fetch - processPackages [drukbam]: Downloading https://files.pythonhosted.org/packages/e5/b7/d6d08b0daa795b50c326f9733857af1de7144f274f1aaf9af21a63e337df/drukbam-1.1.3.tar.gz
+[2023-07-22 13:05:04] INFO root fetch - processPackages [wheel]: executing diffoscope
+[2023-07-22 13:05:04] INFO root fetch - processPackages [wheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheel-0.9.6.tar.gz tmp/wheel-0.9.7.tar.gz --markdown 20230722/w/wheel/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-22 13:05:04] INFO root fetch - processPackages [wow-ai-mms]: executing diffoscope
+[2023-07-22 13:05:04] INFO root fetch - processPackages [wow-ai-mms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_mms-0.0.7.tar.gz tmp/wow_ai_mms-0.0.8.tar.gz --markdown 20230722/w/wow-ai-mms/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-22 13:05:04] INFO root fetch - processPackages [drukbam]: executing diffoscope
+[2023-07-22 13:05:04] INFO root fetch - processPackages [drukbam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DrukBam-1.1.2.tar.gz tmp/drukbam-1.1.3.tar.gz --markdown 20230722/d/drukbam/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-22 13:05:05] INFO root fetch - processPackages [pyracer]: Remove: archive file [/home/abi/fetcher/tmp/pyracer-1.1.1.tar.gz]
+[2023-07-22 13:05:05] INFO root fetch - processPackages [pyracer]: Remove: archive file [/home/abi/fetcher/tmp/pyracer-1.1.2.tar.gz]
+[2023-07-22 13:05:05] INFO root fetch - main [MainThread]: End processing [pyracer]: success
+[2023-07-22 13:05:05] INFO root fetch - processPackages [wheel]: Remove: archive file [/home/abi/fetcher/tmp/wheel-0.9.6.tar.gz]
+[2023-07-22 13:05:05] INFO root fetch - processPackages [wheel]: Remove: archive file [/home/abi/fetcher/tmp/wheel-0.9.7.tar.gz]
+[2023-07-22 13:05:05] INFO root fetch - main [MainThread]: End processing [wheel]: success
+[2023-07-22 13:05:05] INFO root fetch - processPackages [drukbam]: Remove: archive file [/home/abi/fetcher/tmp/DrukBam-1.1.2.tar.gz]
+[2023-07-22 13:05:05] INFO root fetch - processPackages [drukbam]: Remove: archive file [/home/abi/fetcher/tmp/drukbam-1.1.3.tar.gz]
+[2023-07-22 13:05:05] INFO root fetch - main [MainThread]: End processing [drukbam]: success
+[2023-07-22 13:05:05] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.0.7.tar.gz]
+[2023-07-22 13:05:05] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.0.8.tar.gz]
+[2023-07-22 13:05:05] INFO root fetch - main [MainThread]: End processing [wow-ai-mms]: success
+[2023-07-22 13:05:05] INFO root fetch - main [MainThread]: Store serial: [18994508]
