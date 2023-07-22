@@ -14641,3 +14641,66 @@
 [2023-07-22 15:49:24] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.2.0.tar.gz]
 [2023-07-22 15:49:24] INFO root fetch - main [MainThread]: End processing [prodvana]: success
 [2023-07-22 15:49:24] INFO root fetch - main [MainThread]: Store serial: [18995179]
+[2023-07-22 15:54:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995179]
+[2023-07-22 15:54:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-22 15:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OneOnOne
+[2023-07-22 15:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyntweb
+[2023-07-22 15:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: babymaycry
+[2023-07-22 15:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funboost
+[2023-07-22 15:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ubox
+[2023-07-22 15:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openctp-client
+[2023-07-22 15:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: valcheck
+[2023-07-22 15:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensordict-nightly
+[2023-07-22 15:54:33] INFO root fetch - processPackages [babymaycry]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-22 15:54:33] WARNING root fetch - processPackages [valcheck]: Skipping, unable to determine old version
+[2023-07-22 15:54:33] INFO root fetch - main [MainThread]: End processing [valcheck] error
+[2023-07-22 15:54:33] WARNING root fetch - processPackages [openctp-client]: Skipping, unable to determine old version
+[2023-07-22 15:54:33] INFO root fetch - main [MainThread]: End processing [openctp-client] error
+[2023-07-22 15:54:33] INFO root fetch - processPackages [ubox]: New version: [0.0.1.3] Old Version: [0.0.1.2]
+[2023-07-22 15:54:33] INFO root fetch - processPackages [pyntweb]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-22 15:54:33] INFO root fetch - processPackages [babymaycry]: Downloading https://files.pythonhosted.org/packages/23/55/5b7b164868d04817650c96e73a2aea18d7d7d37e08e70ad1a03c639586f7/babymaycry-0.0.2.tar.gz
+[2023-07-22 15:54:33] INFO root fetch - processPackages [OneOnOne]: New version: [0.6927] Old Version: [0.6926]
+[2023-07-22 15:54:33] INFO root fetch - processPackages [funboost]: New version: [23.9] Old Version: [23.8]
+[2023-07-22 15:54:33] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-22 15:54:33] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/e2/af/290a436c887889419a4c54c13db920e0086ec4ec13e6693c4df876c78d67/pyntweb-0.2.7.tar.gz
+[2023-07-22 15:54:33] INFO root fetch - processPackages [ubox]: Downloading https://files.pythonhosted.org/packages/8f/b1/30c91d053a7760616cce15966fcae3ba6da40a733f1f57703e1539a49dbc/ubox-0.0.1.2.tar.gz
+[2023-07-22 15:54:33] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/23/29/f4fcd4e181da9940905b2146c2f0ad8a96cf7628452eba326e470081f0b5/OneOnOne-0.6926.tar.gz
+[2023-07-22 15:54:33] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/e7/5f/a8e12c8c9db4733b807edf690c79f8ee7fb4897c1bec72f6bfafdf1cf1c6/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-22 15:54:33] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/69/93/fb5b7ae95d3d42f5bb6cf4f53dedadafef6bb968181fdd35c1d94cfe0a11/funboost-23.8-py3-none-any.whl
+[2023-07-22 15:54:33] INFO root fetch - processPackages [babymaycry]: Downloading https://files.pythonhosted.org/packages/c4/d6/7ff75ef0ab478989aa27b83d83a9ede0af15f70ea123c53a120c7b24de29/babymaycry-0.0.3.tar.gz
+[2023-07-22 15:54:33] INFO root fetch - processPackages [ubox]: Downloading https://files.pythonhosted.org/packages/e6/34/1f65b4341dae99e84f0ead3b20e9684a3a8ae340aefb1404e313b7961d7b/ubox-0.0.1.3.tar.gz
+[2023-07-22 15:54:33] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/2e/55/9fdd0c128f6126b0e1fb8dd2733eec6f7d04710d7d70ee998115c2fa03ef/pyntweb-0.2.8.tar.gz
+[2023-07-22 15:54:33] INFO root fetch - processPackages [ubox]: executing diffoscope
+[2023-07-22 15:54:33] INFO root fetch - processPackages [ubox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubox-0.0.1.2.tar.gz tmp/ubox-0.0.1.3.tar.gz --markdown 20230722/u/ubox/0.0.1.2-0.0.1.3/diff.md --exclude *.pyd
+[2023-07-22 15:54:34] INFO root fetch - processPackages [pyntweb]: executing diffoscope
+[2023-07-22 15:54:34] INFO root fetch - processPackages [pyntweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntweb-0.2.7.tar.gz tmp/pyntweb-0.2.8.tar.gz --markdown 20230722/p/pyntweb/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-22 15:54:34] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/20/92/5489eefecb62a3da531fb19097d65b32ec71c60f929be10b1407a03894e5/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-22 15:54:34] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/87/d0/892b7177a1764dda20b0998169b88a2d40397e3fc05494638c7630e89202/OneOnOne-0.6927.tar.gz
+[2023-07-22 15:54:34] INFO root fetch - processPackages [babymaycry]: executing diffoscope
+[2023-07-22 15:54:34] INFO root fetch - processPackages [babymaycry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babymaycry-0.0.2.tar.gz tmp/babymaycry-0.0.3.tar.gz --markdown 20230722/b/babymaycry/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-22 15:54:34] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-07-22 15:54:34] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230722/t/tensordict-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-22 15:54:34] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 15:54:34] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6926.tar.gz tmp/OneOnOne-0.6927.tar.gz --markdown 20230722/O/OneOnOne/0.6926-0.6927/diff.md --exclude *.pyd
+[2023-07-22 15:54:34] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/57/c0/d6805f4eeee9bd29596d7dce537bf03ed1f99e7864d0ad2cae29ffe058af/funboost-23.9-py3-none-any.whl
+[2023-07-22 15:54:34] INFO root fetch - processPackages [ubox]: Remove: archive file [/home/abi/fetcher/tmp/ubox-0.0.1.2.tar.gz]
+[2023-07-22 15:54:34] INFO root fetch - processPackages [ubox]: Remove: archive file [/home/abi/fetcher/tmp/ubox-0.0.1.3.tar.gz]
+[2023-07-22 15:54:34] INFO root fetch - main [MainThread]: End processing [ubox]: success
+[2023-07-22 15:54:35] INFO root fetch - processPackages [babymaycry]: Remove: archive file [/home/abi/fetcher/tmp/babymaycry-0.0.2.tar.gz]
+[2023-07-22 15:54:35] INFO root fetch - processPackages [babymaycry]: Remove: archive file [/home/abi/fetcher/tmp/babymaycry-0.0.3.tar.gz]
+[2023-07-22 15:54:35] INFO root fetch - main [MainThread]: End processing [babymaycry]: success
+[2023-07-22 15:54:35] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.7.tar.gz]
+[2023-07-22 15:54:35] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.8.tar.gz]
+[2023-07-22 15:54:35] INFO root fetch - main [MainThread]: End processing [pyntweb]: success
+[2023-07-22 15:54:35] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2023-07-22 15:54:35] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-23.8-py3-none-any.whl.zip tmp/funboost-23.9-py3-none-any.whl.zip --markdown 20230722/f/funboost/23.8-23.9/diff.md --exclude *.pyd
+[2023-07-22 15:54:35] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-22 15:54:35] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-22 15:54:35] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-07-22 15:54:35] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6926.tar.gz]
+[2023-07-22 15:54:35] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6927.tar.gz]
+[2023-07-22 15:54:35] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 15:54:37] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-23.8-py3-none-any.whl.zip]
+[2023-07-22 15:54:37] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-23.9-py3-none-any.whl.zip]
+[2023-07-22 15:54:37] INFO root fetch - main [MainThread]: End processing [funboost]: success
+[2023-07-22 15:54:37] INFO root fetch - main [MainThread]: Store serial: [18995202]
