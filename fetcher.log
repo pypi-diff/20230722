@@ -11144,3 +11144,66 @@
 [2023-07-22 10:16:16] INFO root fetch - processPackages [qblox-instruments]: Remove: archive file [/home/abi/fetcher/tmp/qblox_instruments-0.9.0.tar.gz]
 [2023-07-22 10:16:16] INFO root fetch - main [MainThread]: End processing [qblox-instruments]: success
 [2023-07-22 10:16:16] INFO root fetch - main [MainThread]: Store serial: [18993730]
+[2023-07-22 10:21:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993730]
+[2023-07-22 10:21:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 10:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyroFork-dev
+[2023-07-22 10:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly
+[2023-07-22 10:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvfuser-cu121
+[2023-07-22 10:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Fragmenstein
+[2023-07-22 10:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytk-net
+[2023-07-22 10:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyflowcl
+[2023-07-22 10:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: akamai-purge-cache
+[2023-07-22 10:21:28] INFO root fetch - processPackages [akamai-purge-cache]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-07-22 10:21:28] INFO root fetch - processPackages [Fragmenstein]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-22 10:21:28] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230722] Old Version: [2.14.0.dev20230721]
+[2023-07-22 10:21:28] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-22 10:21:28] INFO root fetch - processPackages [pyflowcl]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-07-22 10:21:28] INFO root fetch - processPackages [pytk-net]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-22 10:21:28] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.5.dev202307229435] Old Version: [2.2.5.dev202307219555]
+[2023-07-22 10:21:28] INFO root fetch - processPackages [Fragmenstein]: Downloading https://files.pythonhosted.org/packages/0b/a4/e04b08babef0f3451bb90c887398610b7d4708a622bbe7261a90ced49075/Fragmenstein-0.9.8.tar.gz
+[2023-07-22 10:21:29] INFO root fetch - processPackages [akamai-purge-cache]: Downloading https://files.pythonhosted.org/packages/85/5b/1b4c81e6940b8277b6c3c7509b06511e8f4eb5097a0f767b19b4066dfa6b/akamai_purge_cache-0.1.1.tar.gz
+[2023-07-22 10:21:29] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/41/a4/d024553e39526584e989194759e4c2fb0ea63398f19c5d5ea3fcc2e69f50/tf_nightly-2.14.0.dev20230721-cp39-cp39-win_amd64.whl
+[2023-07-22 10:21:29] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/17/44/82cbc938352615c506d3def719474243f9132b9b63e935193ef2ab7c6883/pytk_net-0.2.3.tar.gz
+[2023-07-22 10:21:29] INFO root fetch - processPackages [pyflowcl]: Downloading https://files.pythonhosted.org/packages/26/c2/fc180cd75378eb1d1cad191b6c41188e796509021f90e9a03aa272e809c0/pyflowcl-1.1.2.tar.gz
+[2023-07-22 10:21:29] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-22 10:21:29] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/15/79/d60838163171217117dc7f75369888f901dc9b151762d70f13d2b8a8b6b6/PyroFork-dev-2.2.5.dev202307219555.tar.gz
+[2023-07-22 10:21:29] INFO root fetch - processPackages [Fragmenstein]: Downloading https://files.pythonhosted.org/packages/a8/d1/92821094f67e3e54cb4100ad5d2af3885b2d5fe6173dbdffc5619b1790ff/Fragmenstein-0.9.9.tar.gz
+[2023-07-22 10:21:29] INFO root fetch - processPackages [akamai-purge-cache]: Downloading https://files.pythonhosted.org/packages/56/82/f889eba41f44550d8c6d70961458d7fe85455811ee7804ea178afa4547fd/akamai_purge_cache-0.1.3.tar.gz
+[2023-07-22 10:21:29] INFO root fetch - processPackages [Fragmenstein]: executing diffoscope
+[2023-07-22 10:21:29] INFO root fetch - processPackages [Fragmenstein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fragmenstein-0.9.8.tar.gz tmp/Fragmenstein-0.9.9.tar.gz --markdown 20230722/F/Fragmenstein/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-22 10:21:29] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/47/4b/cbd9d4ad0909daa0b8dc918a9609f3711e81ec80ed82bff1ddd744bfd8ba/PyroFork-dev-2.2.5.dev202307229435.tar.gz
+[2023-07-22 10:21:29] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/da/50/c24f8490a2786a7d42d6a11beec3208a0ca4b60f866c009e019e0a7c45a8/tf_nightly-2.14.0.dev20230722-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-22 10:21:29] INFO root fetch - processPackages [pyflowcl]: Downloading https://files.pythonhosted.org/packages/29/08/ad4b29f3ae64b3038002a372ba911d7eb07cb10c59b44b28b26331ae2ecb/pyflowcl-1.2.0.tar.gz
+[2023-07-22 10:21:29] INFO root fetch - processPackages [akamai-purge-cache]: executing diffoscope
+[2023-07-22 10:21:29] INFO root fetch - processPackages [akamai-purge-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akamai_purge_cache-0.1.1.tar.gz tmp/akamai_purge_cache-0.1.3.tar.gz --markdown 20230722/a/akamai-purge-cache/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-07-22 10:21:29] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/2e/29/0334cb42237e12fc74881b3780f3cd6f8b1b91f0ff23163e4c9677f99e53/pytk_net-0.2.4.tar.gz
+[2023-07-22 10:21:29] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 486174380>=10485760
+[2023-07-22 10:21:29] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-22 10:21:29] INFO root fetch - processPackages [pyflowcl]: executing diffoscope
+[2023-07-22 10:21:29] INFO root fetch - processPackages [pyflowcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflowcl-1.1.2.tar.gz tmp/pyflowcl-1.2.0.tar.gz --markdown 20230722/p/pyflowcl/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-07-22 10:21:29] INFO root fetch - processPackages [pytk-net]: executing diffoscope
+[2023-07-22 10:21:29] INFO root fetch - processPackages [pytk-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytk_net-0.2.3.tar.gz tmp/pytk_net-0.2.4.tar.gz --markdown 20230722/p/pytk-net/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-22 10:21:30] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-07-22 10:21:30] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.5.dev202307219555.tar.gz tmp/PyroFork-dev-2.2.5.dev202307229435.tar.gz --markdown 20230722/P/PyroFork-dev/2.2.5.dev202307219555-2.2.5.dev202307229435/diff.md --exclude *.pyd
+[2023-07-22 10:21:30] INFO root fetch - processPackages [akamai-purge-cache]: Remove: archive file [/home/abi/fetcher/tmp/akamai_purge_cache-0.1.1.tar.gz]
+[2023-07-22 10:21:30] INFO root fetch - processPackages [akamai-purge-cache]: Remove: archive file [/home/abi/fetcher/tmp/akamai_purge_cache-0.1.3.tar.gz]
+[2023-07-22 10:21:30] INFO root fetch - main [MainThread]: End processing [akamai-purge-cache]: success
+[2023-07-22 10:21:30] INFO root fetch - processPackages [pytk-net]: Remove: archive file [/home/abi/fetcher/tmp/pytk_net-0.2.3.tar.gz]
+[2023-07-22 10:21:30] INFO root fetch - processPackages [pytk-net]: Remove: archive file [/home/abi/fetcher/tmp/pytk_net-0.2.4.tar.gz]
+[2023-07-22 10:21:30] INFO root fetch - main [MainThread]: End processing [pytk-net]: success
+[2023-07-22 10:21:30] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-22 10:21:31] INFO root fetch - processPackages [pyflowcl]: Remove: archive file [/home/abi/fetcher/tmp/pyflowcl-1.1.2.tar.gz]
+[2023-07-22 10:21:31] INFO root fetch - processPackages [pyflowcl]: Remove: archive file [/home/abi/fetcher/tmp/pyflowcl-1.2.0.tar.gz]
+[2023-07-22 10:21:31] INFO root fetch - main [MainThread]: End processing [pyflowcl]: success
+[2023-07-22 10:21:32] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-07-22 10:21:32] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230722/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-22 10:21:33] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.5.dev202307219555.tar.gz]
+[2023-07-22 10:21:33] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.5.dev202307229435.tar.gz]
+[2023-07-22 10:21:33] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-07-22 10:21:33] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-22 10:21:33] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-22 10:21:33] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-07-22 10:21:33] INFO root fetch - processPackages [Fragmenstein]: Remove: archive file [/home/abi/fetcher/tmp/Fragmenstein-0.9.8.tar.gz]
+[2023-07-22 10:21:33] INFO root fetch - processPackages [Fragmenstein]: Remove: archive file [/home/abi/fetcher/tmp/Fragmenstein-0.9.9.tar.gz]
+[2023-07-22 10:21:33] INFO root fetch - main [MainThread]: End processing [Fragmenstein]: success
+[2023-07-22 10:21:33] INFO root fetch - main [MainThread]: Store serial: [18993749]
