@@ -9652,3 +9652,69 @@
 [2023-07-22 07:44:44] INFO root fetch - processPackages [aksharify]: Remove: archive file [/home/abi/fetcher/tmp/aksharify-0.1.1.tar.gz]
 [2023-07-22 07:44:44] INFO root fetch - main [MainThread]: End processing [aksharify]: success
 [2023-07-22 07:44:44] INFO root fetch - main [MainThread]: Store serial: [18992924]
+[2023-07-22 07:49:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992924]
+[2023-07-22 07:49:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 07:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-website-canonical-url
+[2023-07-22 07:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-website-google-tag-manager
+[2023-07-22 07:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adgodfhkdfh
+[2023-07-22 07:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-website-cookiefirst
+[2023-07-22 07:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: refiner
+[2023-07-22 07:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: talkytimes-package
+[2023-07-22 07:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: huma-signals
+[2023-07-22 07:49:53] INFO root fetch - processPackages [refiner]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 07:49:53] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 07:49:53] INFO root fetch - processPackages [huma-signals]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-22 07:49:53] INFO root fetch - processPackages [adgodfhkdfh]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-22 07:49:54] INFO root fetch - processPackages [odoo14-addon-website-cookiefirst]: New version: [14.0.1.1.1.dev2] Old Version: [14.0.1.1.0]
+[2023-07-22 07:49:54] INFO root fetch - processPackages [odoo12-addon-website-google-tag-manager]: New version: [12.0.1.0.0.99.dev7] Old Version: [12.0.1.0.0.99.dev6]
+[2023-07-22 07:49:54] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-22 07:49:54] INFO root fetch - processPackages [odoo12-addon-website-canonical-url]: New version: [12.0.1.0.2.99.dev6] Old Version: [12.0.1.0.2.99.dev5]
+[2023-07-22 07:49:54] INFO root fetch - processPackages [huma-signals]: Downloading https://files.pythonhosted.org/packages/2d/bf/53bd971720d15421194d55f1a296b3f66741ed0b73daa89455b34ebdafe8/huma_signals-0.6.0.tar.gz
+[2023-07-22 07:49:54] INFO root fetch - processPackages [refiner]: Downloading https://files.pythonhosted.org/packages/21/63/1dedfc080154178a31dec0c554f5da5cc919cc74ce019aa920bd7f1a7170/refiner-0.0.3.tar.gz
+[2023-07-22 07:49:54] INFO root fetch - processPackages [adgodfhkdfh]: Downloading https://files.pythonhosted.org/packages/04/bf/ff5632377c03d95d4f04a5e57659a1df1c3a2e4dfb8d09b20cd0ce5f9e1b/adgodfhkdfh-0.0.5.tar.gz
+[2023-07-22 07:49:54] INFO root fetch - processPackages [odoo14-addon-website-cookiefirst]: Downloading https://files.pythonhosted.org/packages/25/3c/abc43ed48bec8a64cd951dde72aaf6898c2f9e127299e1b84c2c4ab41e46/odoo14_addon_website_cookiefirst-14.0.1.1.0-py3-none-any.whl
+[2023-07-22 07:49:54] INFO root fetch - processPackages [odoo12-addon-website-google-tag-manager]: Downloading https://files.pythonhosted.org/packages/68/ce/0ecc599a7dbac642503830759c497e37443c3042a6f9bdb837f50181a0a6/odoo12_addon_website_google_tag_manager-12.0.1.0.0.99.dev6-py3-none-any.whl
+[2023-07-22 07:49:54] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-22 07:49:54] INFO root fetch - processPackages [odoo12-addon-website-canonical-url]: Downloading https://files.pythonhosted.org/packages/8f/c8/11bd4d8603345c14e28d8bd6a063fb9cd8987e75d7dd7803d8e77c36d0f2/odoo12_addon_website_canonical_url-12.0.1.0.2.99.dev5-py3-none-any.whl
+[2023-07-22 07:49:54] INFO root fetch - processPackages [huma-signals]: Downloading https://files.pythonhosted.org/packages/fc/8f/e618faa00adcd856eb25e2625616a13182e58e600f70fe6e1f250f5a6611/huma_signals-0.6.1.tar.gz
+[2023-07-22 07:49:54] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-22 07:49:54] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230722/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 07:49:54] INFO root fetch - processPackages [refiner]: Downloading https://files.pythonhosted.org/packages/44/cb/878a44ec7404a107bd92906ecde7d85aec2293b04d724000151a22acb685/refiner-0.0.4.tar.gz
+[2023-07-22 07:49:54] INFO root fetch - processPackages [huma-signals]: executing diffoscope
+[2023-07-22 07:49:54] INFO root fetch - processPackages [huma-signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huma_signals-0.6.0.tar.gz tmp/huma_signals-0.6.1.tar.gz --markdown 20230722/h/huma-signals/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-22 07:49:54] INFO root fetch - processPackages [adgodfhkdfh]: Downloading https://files.pythonhosted.org/packages/d6/0c/f6c337326c5a0bec0d14d012879f4605407c8595e525d359ba4380eb12a4/adgodfhkdfh-0.0.6.tar.gz
+[2023-07-22 07:49:54] INFO root fetch - processPackages [refiner]: executing diffoscope
+[2023-07-22 07:49:54] INFO root fetch - processPackages [refiner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refiner-0.0.3.tar.gz tmp/refiner-0.0.4.tar.gz --markdown 20230722/r/refiner/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 07:49:54] INFO root fetch - processPackages [odoo14-addon-website-cookiefirst]: Downloading https://files.pythonhosted.org/packages/26/4f/07e230b849e94270eb33a92165cb4f6ad7eb9f5a5f63b836a0bfa450c2a1/odoo14_addon_website_cookiefirst-14.0.1.1.1.dev2-py3-none-any.whl
+[2023-07-22 07:49:54] INFO root fetch - processPackages [odoo12-addon-website-google-tag-manager]: Downloading https://files.pythonhosted.org/packages/b3/ac/50e4f644cf0c827de7415140a487eedc9605f5b0a5b8390c48bf364bff13/odoo12_addon_website_google_tag_manager-12.0.1.0.0.99.dev7-py3-none-any.whl
+[2023-07-22 07:49:54] INFO root fetch - processPackages [odoo12-addon-website-canonical-url]: Downloading https://files.pythonhosted.org/packages/3c/ec/ada62c65a748b7549e8bc8aec7a62b99b956dcc76ca0cd360af036277078/odoo12_addon_website_canonical_url-12.0.1.0.2.99.dev6-py3-none-any.whl
+[2023-07-22 07:49:54] INFO root fetch - processPackages [adgodfhkdfh]: executing diffoscope
+[2023-07-22 07:49:54] INFO root fetch - processPackages [adgodfhkdfh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adgodfhkdfh-0.0.5.tar.gz tmp/adgodfhkdfh-0.0.6.tar.gz --markdown 20230722/a/adgodfhkdfh/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-22 07:49:54] INFO root fetch - processPackages [odoo14-addon-website-cookiefirst]: executing diffoscope
+[2023-07-22 07:49:54] INFO root fetch - processPackages [odoo14-addon-website-cookiefirst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_website_cookiefirst-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_website_cookiefirst-14.0.1.1.1.dev2-py3-none-any.whl.zip --markdown 20230722/o/odoo14-addon-website-cookiefirst/14.0.1.1.0-14.0.1.1.1.dev2/diff.md --exclude *.pyd
+[2023-07-22 07:49:55] INFO root fetch - processPackages [odoo12-addon-website-canonical-url]: executing diffoscope
+[2023-07-22 07:49:55] INFO root fetch - processPackages [odoo12-addon-website-canonical-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_website_canonical_url-12.0.1.0.2.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_website_canonical_url-12.0.1.0.2.99.dev6-py3-none-any.whl.zip --markdown 20230722/o/odoo12-addon-website-canonical-url/12.0.1.0.2.99.dev5-12.0.1.0.2.99.dev6/diff.md --exclude *.pyd
+[2023-07-22 07:49:55] INFO root fetch - processPackages [odoo12-addon-website-google-tag-manager]: executing diffoscope
+[2023-07-22 07:49:55] INFO root fetch - processPackages [odoo12-addon-website-google-tag-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_website_google_tag_manager-12.0.1.0.0.99.dev6-py3-none-any.whl.zip tmp/odoo12_addon_website_google_tag_manager-12.0.1.0.0.99.dev7-py3-none-any.whl.zip --markdown 20230722/o/odoo12-addon-website-google-tag-manager/12.0.1.0.0.99.dev6-12.0.1.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-07-22 07:49:55] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-22 07:49:55] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-22 07:49:55] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-22 07:49:55] INFO root fetch - processPackages [adgodfhkdfh]: Remove: archive file [/home/abi/fetcher/tmp/adgodfhkdfh-0.0.5.tar.gz]
+[2023-07-22 07:49:55] INFO root fetch - processPackages [adgodfhkdfh]: Remove: archive file [/home/abi/fetcher/tmp/adgodfhkdfh-0.0.6.tar.gz]
+[2023-07-22 07:49:55] INFO root fetch - main [MainThread]: End processing [adgodfhkdfh]: success
+[2023-07-22 07:49:55] INFO root fetch - processPackages [refiner]: Remove: archive file [/home/abi/fetcher/tmp/refiner-0.0.3.tar.gz]
+[2023-07-22 07:49:55] INFO root fetch - processPackages [refiner]: Remove: archive file [/home/abi/fetcher/tmp/refiner-0.0.4.tar.gz]
+[2023-07-22 07:49:55] INFO root fetch - main [MainThread]: End processing [refiner]: success
+[2023-07-22 07:49:56] INFO root fetch - processPackages [odoo14-addon-website-cookiefirst]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_website_cookiefirst-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-22 07:49:56] INFO root fetch - processPackages [odoo14-addon-website-cookiefirst]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_website_cookiefirst-14.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2023-07-22 07:49:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-website-cookiefirst]: success
+[2023-07-22 07:49:56] INFO root fetch - processPackages [huma-signals]: Remove: archive file [/home/abi/fetcher/tmp/huma_signals-0.6.0.tar.gz]
+[2023-07-22 07:49:56] INFO root fetch - processPackages [huma-signals]: Remove: archive file [/home/abi/fetcher/tmp/huma_signals-0.6.1.tar.gz]
+[2023-07-22 07:49:56] INFO root fetch - main [MainThread]: End processing [huma-signals]: success
+[2023-07-22 07:49:56] INFO root fetch - processPackages [odoo12-addon-website-canonical-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_canonical_url-12.0.1.0.2.99.dev5-py3-none-any.whl.zip]
+[2023-07-22 07:49:56] INFO root fetch - processPackages [odoo12-addon-website-canonical-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_canonical_url-12.0.1.0.2.99.dev6-py3-none-any.whl.zip]
+[2023-07-22 07:49:56] INFO root fetch - main [MainThread]: End processing [odoo12-addon-website-canonical-url]: success
+[2023-07-22 07:49:56] INFO root fetch - processPackages [odoo12-addon-website-google-tag-manager]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_google_tag_manager-12.0.1.0.0.99.dev6-py3-none-any.whl.zip]
+[2023-07-22 07:49:56] INFO root fetch - processPackages [odoo12-addon-website-google-tag-manager]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_google_tag_manager-12.0.1.0.0.99.dev7-py3-none-any.whl.zip]
+[2023-07-22 07:49:56] INFO root fetch - main [MainThread]: End processing [odoo12-addon-website-google-tag-manager]: success
+[2023-07-22 07:49:56] INFO root fetch - main [MainThread]: Store serial: [18992942]
