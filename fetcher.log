@@ -15328,3 +15328,60 @@ EOFError: EOF read where object expected
 [2023-07-22 16:46:52] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.3.4.tar.gz]
 [2023-07-22 16:46:52] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
 [2023-07-22 16:46:52] INFO root fetch - main [MainThread]: Store serial: [18995457]
+[2023-07-22 16:51:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995457]
+[2023-07-22 16:52:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 16:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybuc
+[2023-07-22 16:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyntweb
+[2023-07-22 16:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volsite-postgres-common
+[2023-07-22 16:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oras
+[2023-07-22 16:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diagrams-yaml
+[2023-07-22 16:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymeasurement
+[2023-07-22 16:52:00] INFO root fetch - processPackages [pyntweb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-22 16:52:00] INFO root fetch - processPackages [diagrams-yaml]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-22 16:52:00] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/2e/55/9fdd0c128f6126b0e1fb8dd2733eec6f7d04710d7d70ee998115c2fa03ef/pyntweb-0.2.8.tar.gz
+[2023-07-22 16:52:00] INFO root fetch - processPackages [volsite-postgres-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 16:52:00] INFO root fetch - processPackages [oras]: New version: [0.1.22] Old Version: [0.1.21]
+[2023-07-22 16:52:00] INFO root fetch - processPackages [pymeasurement]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-22 16:52:00] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/eb/8d/fb8b13e4ad5172dea02342b1bad2f55f7355ef2223ae9ffa62f7bead4c8b/diagrams-yaml-0.0.4.tar.gz
+[2023-07-22 16:52:00] INFO root fetch - processPackages [pybuc]: New version: [0.9.10] Old Version: [0.8.10]
+[2023-07-22 16:52:01] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/68/76/9710407be69a495a5e8f803078c9a0974413ebeb4f49e1bf7b63684a43bd/pyntweb-0.2.9.tar.gz
+[2023-07-22 16:52:01] INFO root fetch - processPackages [pymeasurement]: Downloading https://files.pythonhosted.org/packages/cf/2e/3fff84a18876065271572ec7a1b765bf4d5afe6c1b90c4b84ef9d2b63c25/pymeasurement-1.0.8.tar.gz
+[2023-07-22 16:52:01] INFO root fetch - processPackages [volsite-postgres-common]: Downloading https://files.pythonhosted.org/packages/a9/48/ece41cdd1f36d5b821f07299b965387a375ef3ddd0556318e57ad9018c7c/volsite_postgres_common-0.1.8.tar.gz
+[2023-07-22 16:52:01] INFO root fetch - processPackages [oras]: Downloading https://files.pythonhosted.org/packages/4b/c8/4a6f87202cbd520bd6bb36047538835fc3ef0a4da48dface90383460b969/oras-0.1.21.tar.gz
+[2023-07-22 16:52:01] INFO root fetch - processPackages [pybuc]: Downloading https://files.pythonhosted.org/packages/ff/a6/647d6e38a6519bf2966722e1789589d0e50eea7a6376967ab7afbc093f70/pybuc-0.8.10.tar.gz
+[2023-07-22 16:52:01] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/32/8a/aa0a6c1016b775afbfa76d207f05b5be2972d2ff550ba2285978e02a84a4/diagrams-yaml-0.0.5.tar.gz
+[2023-07-22 16:52:01] INFO root fetch - processPackages [pyntweb]: executing diffoscope
+[2023-07-22 16:52:01] INFO root fetch - processPackages [pyntweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntweb-0.2.8.tar.gz tmp/pyntweb-0.2.9.tar.gz --markdown 20230722/p/pyntweb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-22 16:52:01] INFO root fetch - processPackages [diagrams-yaml]: executing diffoscope
+[2023-07-22 16:52:01] INFO root fetch - processPackages [diagrams-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diagrams-yaml-0.0.4.tar.gz tmp/diagrams-yaml-0.0.5.tar.gz --markdown 20230722/d/diagrams-yaml/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-22 16:52:01] INFO root fetch - processPackages [pymeasurement]: Downloading https://files.pythonhosted.org/packages/e1/24/2b81615f90ef2e0d406c77e9f5e4f66e957f4fbf74eff00ba79d7dde11fa/pymeasurement-1.0.9.tar.gz
+[2023-07-22 16:52:01] INFO root fetch - processPackages [oras]: Downloading https://files.pythonhosted.org/packages/68/0a/88c48f006210c5a04e64ec81a6157da556690285287c61d232a845eb5dbc/oras-0.1.22.tar.gz
+[2023-07-22 16:52:01] INFO root fetch - processPackages [oras]: executing diffoscope
+[2023-07-22 16:52:01] INFO root fetch - processPackages [oras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oras-0.1.21.tar.gz tmp/oras-0.1.22.tar.gz --markdown 20230722/o/oras/0.1.21-0.1.22/diff.md --exclude *.pyd
+[2023-07-22 16:52:01] INFO root fetch - processPackages [pymeasurement]: executing diffoscope
+[2023-07-22 16:52:01] INFO root fetch - processPackages [pymeasurement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymeasurement-1.0.8.tar.gz tmp/pymeasurement-1.0.9.tar.gz --markdown 20230722/p/pymeasurement/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-22 16:52:01] INFO root fetch - processPackages [volsite-postgres-common]: Downloading https://files.pythonhosted.org/packages/ff/03/668bfd84cd84ef92e37f65f495239d8be55d05abd92dc4bd35f340822fce/volsite_postgres_common-0.1.9.tar.gz
+[2023-07-22 16:52:02] INFO root fetch - processPackages [volsite-postgres-common]: executing diffoscope
+[2023-07-22 16:52:02] INFO root fetch - processPackages [volsite-postgres-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volsite_postgres_common-0.1.8.tar.gz tmp/volsite_postgres_common-0.1.9.tar.gz --markdown 20230722/v/volsite-postgres-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 16:52:02] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.4.tar.gz]
+[2023-07-22 16:52:02] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.5.tar.gz]
+[2023-07-22 16:52:02] INFO root fetch - main [MainThread]: End processing [diagrams-yaml]: success
+[2023-07-22 16:52:02] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.8.tar.gz]
+[2023-07-22 16:52:02] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.9.tar.gz]
+[2023-07-22 16:52:02] INFO root fetch - main [MainThread]: End processing [pyntweb]: success
+[2023-07-22 16:52:02] INFO root fetch - processPackages [pybuc]: Downloading https://files.pythonhosted.org/packages/36/ff/435775953f489894dbc63700890c9984ecc56774ee84cef35a35acadf8b2/pybuc-0.9.10.tar.gz
+[2023-07-22 16:52:02] INFO root fetch - processPackages [oras]: Remove: archive file [/home/abi/fetcher/tmp/oras-0.1.21.tar.gz]
+[2023-07-22 16:52:02] INFO root fetch - processPackages [oras]: Remove: archive file [/home/abi/fetcher/tmp/oras-0.1.22.tar.gz]
+[2023-07-22 16:52:02] INFO root fetch - main [MainThread]: End processing [oras]: success
+[2023-07-22 16:52:02] INFO root fetch - processPackages [volsite-postgres-common]: Remove: archive file [/home/abi/fetcher/tmp/volsite_postgres_common-0.1.8.tar.gz]
+[2023-07-22 16:52:02] INFO root fetch - processPackages [volsite-postgres-common]: Remove: archive file [/home/abi/fetcher/tmp/volsite_postgres_common-0.1.9.tar.gz]
+[2023-07-22 16:52:02] INFO root fetch - main [MainThread]: End processing [volsite-postgres-common]: success
+[2023-07-22 16:52:03] INFO root fetch - processPackages [pybuc]: executing diffoscope
+[2023-07-22 16:52:03] INFO root fetch - processPackages [pybuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybuc-0.8.10.tar.gz tmp/pybuc-0.9.10.tar.gz --markdown 20230722/p/pybuc/0.8.10-0.9.10/diff.md --exclude *.pyd
+[2023-07-22 16:52:04] INFO root fetch - processPackages [pybuc]: Remove: archive file [/home/abi/fetcher/tmp/pybuc-0.8.10.tar.gz]
+[2023-07-22 16:52:04] INFO root fetch - processPackages [pybuc]: Remove: archive file [/home/abi/fetcher/tmp/pybuc-0.9.10.tar.gz]
+[2023-07-22 16:52:04] INFO root fetch - main [MainThread]: End processing [pybuc]: success
+[2023-07-22 16:52:05] INFO root fetch - processPackages [pymeasurement]: Remove: archive file [/home/abi/fetcher/tmp/pymeasurement-1.0.8.tar.gz]
+[2023-07-22 16:52:05] INFO root fetch - processPackages [pymeasurement]: Remove: archive file [/home/abi/fetcher/tmp/pymeasurement-1.0.9.tar.gz]
+[2023-07-22 16:52:05] INFO root fetch - main [MainThread]: End processing [pymeasurement]: success
+[2023-07-22 16:52:05] INFO root fetch - main [MainThread]: Store serial: [18995489]
