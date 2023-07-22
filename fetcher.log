@@ -8982,3 +8982,18 @@
 [2023-07-22 06:16:36] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.3.9.tar.gz]
 [2023-07-22 06:16:36] INFO root fetch - main [MainThread]: End processing [pymino]: success
 [2023-07-22 06:16:36] INFO root fetch - main [MainThread]: Store serial: [18992657]
+[2023-07-22 06:21:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992657]
+[2023-07-22 06:21:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-22 06:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: colav
+[2023-07-22 06:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OneOnOne
+[2023-07-22 06:21:44] WARNING root fetch - processPackages [colav]: Skipping, unable to determine old version
+[2023-07-22 06:21:44] INFO root fetch - main [MainThread]: End processing [colav] error
+[2023-07-22 06:21:44] INFO root fetch - processPackages [OneOnOne]: New version: [0.6919] Old Version: [0.6918]
+[2023-07-22 06:21:44] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/f6/78/198951edb53d2b1983d49adc0028af37af5297da6a2ea151b4abbf834429/OneOnOne-0.6918.tar.gz
+[2023-07-22 06:21:44] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/65/8d/120512e82cfa749bc898b02c7a5a08b2ef5550974f77afc0e23e2accc4f5/OneOnOne-0.6919.tar.gz
+[2023-07-22 06:21:45] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 06:21:45] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6918.tar.gz tmp/OneOnOne-0.6919.tar.gz --markdown 20230722/O/OneOnOne/0.6918-0.6919/diff.md --exclude *.pyd
+[2023-07-22 06:21:46] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6918.tar.gz]
+[2023-07-22 06:21:46] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6919.tar.gz]
+[2023-07-22 06:21:46] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 06:21:46] INFO root fetch - main [MainThread]: Store serial: [18992662]
