@@ -12964,3 +12964,30 @@
 [2023-07-22 12:49:34] INFO root fetch - processPackages [sqlpiece]: Remove: archive file [/home/abi/fetcher/tmp/sqlpiece-0.1.1.tar.gz]
 [2023-07-22 12:49:34] INFO root fetch - main [MainThread]: End processing [sqlpiece]: success
 [2023-07-22 12:49:34] INFO root fetch - main [MainThread]: Store serial: [18994446]
+[2023-07-22 12:54:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994446]
+[2023-07-22 12:54:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-22 12:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dimet
+[2023-07-22 12:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liuliu
+[2023-07-22 12:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyqrlew
+[2023-07-22 12:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aify
+[2023-07-22 12:54:43] INFO root fetch - processPackages [aify]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 12:54:43] WARNING root fetch - processPackages [dimet]: Skipping, unable to determine old version
+[2023-07-22 12:54:43] INFO root fetch - main [MainThread]: End processing [dimet] error
+[2023-07-22 12:54:43] WARNING root fetch - processPackages [liuliu]: Skipping, unable to determine old version
+[2023-07-22 12:54:43] INFO root fetch - main [MainThread]: End processing [liuliu] error
+[2023-07-22 12:54:43] INFO root fetch - processPackages [pyqrlew]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-22 12:54:43] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/48/70/7dc6a7b7c76ac97a5d112fca94e641d9dade27cf0708bdb0162e5ee3edae/aify-0.1.8-py3-none-any.whl
+[2023-07-22 12:54:43] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/fd/27/98c9c823adfd16bc8457703aeb9c4cd06bd5c233cfed754ef7389629a3af/aify-0.1.9-py3-none-any.whl
+[2023-07-22 12:54:43] INFO root fetch - processPackages [pyqrlew]: Downloading https://files.pythonhosted.org/packages/2f/27/af354c30db7d925473cd13b82dbc22aecd1ad49d8759f7aa3fdcacbe5485/pyqrlew-0.2.1.tar.gz
+[2023-07-22 12:54:43] INFO root fetch - processPackages [aify]: executing diffoscope
+[2023-07-22 12:54:43] INFO root fetch - processPackages [aify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aify-0.1.8-py3-none-any.whl.zip tmp/aify-0.1.9-py3-none-any.whl.zip --markdown 20230722/a/aify/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 12:54:43] INFO root fetch - processPackages [pyqrlew]: Downloading https://files.pythonhosted.org/packages/84/44/0efa25a78c8466a7a0ae8c7c493dca2a50d0af75ac3c0b616713cb6216a1/pyqrlew-0.3.0.tar.gz
+[2023-07-22 12:54:44] INFO root fetch - processPackages [pyqrlew]: executing diffoscope
+[2023-07-22 12:54:44] INFO root fetch - processPackages [pyqrlew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrlew-0.2.1.tar.gz tmp/pyqrlew-0.3.0.tar.gz --markdown 20230722/p/pyqrlew/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-22 12:54:44] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.8-py3-none-any.whl.zip]
+[2023-07-22 12:54:44] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.9-py3-none-any.whl.zip]
+[2023-07-22 12:54:44] INFO root fetch - main [MainThread]: End processing [aify]: success
+[2023-07-22 12:54:45] INFO root fetch - processPackages [pyqrlew]: Remove: archive file [/home/abi/fetcher/tmp/pyqrlew-0.2.1.tar.gz]
+[2023-07-22 12:54:45] INFO root fetch - processPackages [pyqrlew]: Remove: archive file [/home/abi/fetcher/tmp/pyqrlew-0.3.0.tar.gz]
+[2023-07-22 12:54:45] INFO root fetch - main [MainThread]: End processing [pyqrlew]: success
+[2023-07-22 12:54:45] INFO root fetch - main [MainThread]: Store serial: [18994469]
