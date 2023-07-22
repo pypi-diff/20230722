@@ -7979,3 +7979,88 @@
 [2023-07-22 05:03:38] INFO root fetch - processPackages [AndroidN]: Remove: archive file [/home/abi/fetcher/tmp/AndroidN-0.0.3.tar.gz]
 [2023-07-22 05:03:38] INFO root fetch - main [MainThread]: End processing [AndroidN]: success
 [2023-07-22 05:03:38] INFO root fetch - main [MainThread]: Store serial: [18992327]
+[2023-07-22 05:08:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992327]
+[2023-07-22 05:08:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-22 05:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-credit-control-dunning-fees
+[2023-07-22 05:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: params-proto
+[2023-07-22 05:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-financial-risk
+[2023-07-22 05:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kobushi-trackviewer
+[2023-07-22 05:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OneOnOne
+[2023-07-22 05:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-crm
+[2023-07-22 05:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lbt-ladybug
+[2023-07-22 05:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: claude-api
+[2023-07-22 05:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: transformers-js-py
+[2023-07-22 05:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OneOnOne
+[2023-07-22 05:08:48] INFO root fetch - processPackages [params-proto]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-07-22 05:08:48] INFO root fetch - processPackages [claude-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-22 05:08:48] INFO root fetch - processPackages [lbt-ladybug]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-22 05:08:48] INFO root fetch - processPackages [params-proto]: Downloading https://files.pythonhosted.org/packages/0a/20/7ffbcebdd86abce1864462ec4fcf39151f39d0f8e059210862e1f42b0ee3/params_proto-2.9.6-py3-none-any.whl
+[2023-07-22 05:08:48] INFO root fetch - processPackages [OneOnOne]: New version: [0.6913] Old Version: [0.6912]
+[2023-07-22 05:08:48] INFO root fetch - processPackages [OneOnOne]: New version: [0.6913] Old Version: [0.6912]
+[2023-07-22 05:08:48] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-07-22 05:08:48] INFO root fetch - processPackages [kobushi-trackviewer]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-22 05:08:48] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-07-22 05:08:48] WARNING root fetch - processPackages [transformers-js-py]: Skipping, unable to determine old version
+[2023-07-22 05:08:48] INFO root fetch - main [MainThread]: End processing [transformers-js-py] error
+[2023-07-22 05:08:48] INFO root fetch - processPackages [odoo-addons-oca-crm]: New version: [16.0.20230622.0] Old Version: [16.0.20230608.0]
+[2023-07-22 05:08:48] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/e3/d0/3c78897a037f888af77ecfa6d86ffd61eeebe6a7006e2f35dc69f8630f03/claude-api-1.0.8.tar.gz
+[2023-07-22 05:08:48] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/e4/ac/474c600d6f495b8d63c49d7689b2b076f0c5f94c22728fe795233852a9e1/lbt-ladybug-0.8.1.tar.gz
+[2023-07-22 05:08:49] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/98/c1/e84c3115af06b3d7673d186fb5bd07b3f61470d5f0610c7327b675d56e71/OneOnOne-0.6912.tar.gz
+[2023-07-22 05:08:49] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/98/c1/e84c3115af06b3d7673d186fb5bd07b3f61470d5f0610c7327b675d56e71/OneOnOne-0.6912.tar.gz
+[2023-07-22 05:08:49] INFO root fetch - processPackages [kobushi-trackviewer]: Downloading https://files.pythonhosted.org/packages/5d/f2/1d93508a1ed662ca65e1fc73d4378ab08fde7227c6ab646b87967b6e1f46/kobushi_trackviewer-1.1.5-py3-none-any.whl
+[2023-07-22 05:08:49] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: Downloading https://files.pythonhosted.org/packages/5e/25/c7969506347a85c27c67daaaa4aa5dfb7b3079286bf81b3fa291589b8533/odoo_addon_sale_financial_risk-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-22 05:08:49] INFO root fetch - processPackages [odoo-addons-oca-crm]: Downloading https://files.pythonhosted.org/packages/e9/10/af7d348f7c7b970b75aba4547cc240f11e0a8fdd2f0510b970ff0ca3311a/odoo_addons_oca_crm-16.0.20230608.0-py3-none-any.whl
+[2023-07-22 05:08:49] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: Downloading https://files.pythonhosted.org/packages/a3/d7/220e398577c400a7be49c7952895e7322d08023dbda6d3b6bbc8a04f6a03/odoo_addon_account_credit_control_dunning_fees-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-22 05:08:49] INFO root fetch - processPackages [params-proto]: Downloading https://files.pythonhosted.org/packages/d8/3c/4d8cc65883f3aae60d9d73972b9e344a55ce4c97d4130dd3848b106578ae/params_proto-2.9.7-py3-none-any.whl
+[2023-07-22 05:08:49] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/90/3c/c71498f040117ed30bc1f9a4d500309ead500bfd68443f41947d18fce600/claude-api-1.0.9.tar.gz
+[2023-07-22 05:08:49] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/6e/e7/a4e6dcfc6b2750475acd6dee9e849a991053471ff22a90aa8f986eaef25b/lbt-ladybug-0.9.0.tar.gz
+[2023-07-22 05:08:49] INFO root fetch - processPackages [params-proto]: executing diffoscope
+[2023-07-22 05:08:49] INFO root fetch - processPackages [params-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/params_proto-2.9.6-py3-none-any.whl.zip tmp/params_proto-2.9.7-py3-none-any.whl.zip --markdown 20230722/p/params-proto/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-07-22 05:08:49] INFO root fetch - processPackages [claude-api]: executing diffoscope
+[2023-07-22 05:08:49] INFO root fetch - processPackages [claude-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claude-api-1.0.8.tar.gz tmp/claude-api-1.0.9.tar.gz --markdown 20230722/c/claude-api/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-22 05:08:49] INFO root fetch - processPackages [lbt-ladybug]: executing diffoscope
+[2023-07-22 05:08:49] INFO root fetch - processPackages [lbt-ladybug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-ladybug-0.8.1.tar.gz tmp/lbt-ladybug-0.9.0.tar.gz --markdown 20230722/l/lbt-ladybug/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-22 05:08:49] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: Downloading https://files.pythonhosted.org/packages/0e/26/0e6843dc872d25d15faf1357b4108602aa407a65dfa5983dc3e9217d29b1/odoo_addon_sale_financial_risk-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-22 05:08:49] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: Downloading https://files.pythonhosted.org/packages/45/3a/c612839a36db92a746f17e551c150fe9acf6408b2430d3ad9a29837722bd/odoo_addon_account_credit_control_dunning_fees-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-22 05:08:49] INFO root fetch - processPackages [kobushi-trackviewer]: Downloading https://files.pythonhosted.org/packages/80/46/a5466ffc66db4a2b4badaa4ccf28cb7861356f20cf250ea4d5121e532faa/kobushi_trackviewer-1.1.6-py3-none-any.whl
+[2023-07-22 05:08:49] INFO root fetch - processPackages [odoo-addons-oca-crm]: Downloading https://files.pythonhosted.org/packages/aa/5e/e823fb019f0cc7a5e4ca7f026b0da516c7d894d85d016d020b2402af6d2e/odoo_addons_oca_crm-16.0.20230622.0-py3-none-any.whl
+[2023-07-22 05:08:49] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: executing diffoscope
+[2023-07-22 05:08:49] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_financial_risk-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_sale_financial_risk-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230722/o/odoo-addon-sale-financial-risk/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-22 05:08:49] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: executing diffoscope
+[2023-07-22 05:08:49] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_credit_control_dunning_fees-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_credit_control_dunning_fees-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230722/o/odoo-addon-account-credit-control-dunning-fees/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-22 05:08:49] INFO root fetch - processPackages [odoo-addons-oca-crm]: executing diffoscope
+[2023-07-22 05:08:49] INFO root fetch - processPackages [odoo-addons-oca-crm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_crm-16.0.20230608.0-py3-none-any.whl.zip tmp/odoo_addons_oca_crm-16.0.20230622.0-py3-none-any.whl.zip --markdown 20230722/o/odoo-addons-oca-crm/16.0.20230608.0-16.0.20230622.0/diff.md --exclude *.pyd
+[2023-07-22 05:08:49] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/bd/db/dc46012b57fa6820fb3b66927df306bd7f94999da677698ca620b88212f5/OneOnOne-0.6913.tar.gz
+[2023-07-22 05:08:49] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/bd/db/dc46012b57fa6820fb3b66927df306bd7f94999da677698ca620b88212f5/OneOnOne-0.6913.tar.gz
+[2023-07-22 05:08:49] INFO root fetch - processPackages [kobushi-trackviewer]: executing diffoscope
+[2023-07-22 05:08:49] INFO root fetch - processPackages [kobushi-trackviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kobushi_trackviewer-1.1.5-py3-none-any.whl.zip tmp/kobushi_trackviewer-1.1.6-py3-none-any.whl.zip --markdown 20230722/k/kobushi-trackviewer/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-22 05:08:50] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 05:08:50] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 05:08:50] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6912.tar.gz tmp/OneOnOne-0.6913.tar.gz --markdown 20230722/O/OneOnOne/0.6912-0.6913/diff.md --exclude *.pyd
+[2023-07-22 05:08:50] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6912.tar.gz tmp/OneOnOne-0.6913.tar.gz --markdown 20230722/O/OneOnOne/0.6912-0.6913/diff.md --exclude *.pyd
+[2023-07-22 05:08:50] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.8.tar.gz]
+[2023-07-22 05:08:50] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.9.tar.gz]
+[2023-07-22 05:08:50] INFO root fetch - main [MainThread]: End processing [claude-api]: success
+[2023-07-22 05:08:50] INFO root fetch - processPackages [params-proto]: Remove: archive file [/home/abi/fetcher/tmp/params_proto-2.9.6-py3-none-any.whl.zip]
+[2023-07-22 05:08:50] INFO root fetch - processPackages [params-proto]: Remove: archive file [/home/abi/fetcher/tmp/params_proto-2.9.7-py3-none-any.whl.zip]
+[2023-07-22 05:08:50] INFO root fetch - main [MainThread]: End processing [params-proto]: success
+[2023-07-22 05:08:51] INFO root fetch - processPackages [odoo-addons-oca-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_crm-16.0.20230608.0-py3-none-any.whl.zip]
+[2023-07-22 05:08:51] INFO root fetch - processPackages [odoo-addons-oca-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_crm-16.0.20230622.0-py3-none-any.whl.zip]
+[2023-07-22 05:08:51] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-crm]: success
+[2023-07-22 05:08:51] INFO root fetch - processPackages [kobushi-trackviewer]: Remove: archive file [/home/abi/fetcher/tmp/kobushi_trackviewer-1.1.5-py3-none-any.whl.zip]
+[2023-07-22 05:08:51] INFO root fetch - processPackages [kobushi-trackviewer]: Remove: archive file [/home/abi/fetcher/tmp/kobushi_trackviewer-1.1.6-py3-none-any.whl.zip]
+[2023-07-22 05:08:51] INFO root fetch - main [MainThread]: End processing [kobushi-trackviewer]: success
+[2023-07-22 05:08:51] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_financial_risk-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-22 05:08:51] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_financial_risk-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-22 05:08:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-financial-risk]: success
+[2023-07-22 05:08:51] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control_dunning_fees-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-22 05:08:51] INFO root fetch - processPackages [odoo-addon-account-credit-control-dunning-fees]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control_dunning_fees-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-22 05:08:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-credit-control-dunning-fees]: success
+[2023-07-22 05:08:51] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.8.1.tar.gz]
+[2023-07-22 05:08:51] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.9.0.tar.gz]
+[2023-07-22 05:08:51] INFO root fetch - main [MainThread]: End processing [lbt-ladybug]: success
+[2023-07-22 05:08:51] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6912.tar.gz]
+[2023-07-22 05:08:51] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6913.tar.gz]
+[2023-07-22 05:08:51] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 05:08:51] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 05:08:51] INFO root fetch - main [MainThread]: Store serial: [18992352]
