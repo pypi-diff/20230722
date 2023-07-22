@@ -18649,3 +18649,42 @@ EOFError: EOF read where object expected
 [2023-07-22 21:08:42] INFO root fetch - processPackages [tator]: Remove: archive file [/home/abi/fetcher/tmp/tator-1.1.0.tar.gz]
 [2023-07-22 21:08:42] INFO root fetch - main [MainThread]: End processing [tator]: success
 [2023-07-22 21:08:42] INFO root fetch - main [MainThread]: Store serial: [18996979]
+[2023-07-22 21:13:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996979]
+[2023-07-22 21:13:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 21:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynidm
+[2023-07-22 21:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: minecraftschematics
+[2023-07-22 21:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: identify
+[2023-07-22 21:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redmage
+[2023-07-22 21:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ElisionPy
+[2023-07-22 21:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: minecraftschematics
+[2023-07-22 21:13:51] INFO root fetch - processPackages [redmage]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-22 21:13:51] INFO root fetch - processPackages [identify]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-07-22 21:13:51] WARNING root fetch - processPackages [minecraftschematics]: Skipping, unable to determine old version
+[2023-07-22 21:13:51] INFO root fetch - main [MainThread]: End processing [minecraftschematics] error
+[2023-07-22 21:13:51] WARNING root fetch - processPackages [ElisionPy]: Skipping, unable to determine old version
+[2023-07-22 21:13:51] INFO root fetch - main [MainThread]: End processing [ElisionPy] error
+[2023-07-22 21:13:51] INFO root fetch - processPackages [pynidm]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-07-22 21:13:51] WARNING root fetch - processPackages [minecraftschematics]: Skipping, unable to determine old version
+[2023-07-22 21:13:51] INFO root fetch - main [MainThread]: End processing [minecraftschematics] error
+[2023-07-22 21:13:51] INFO root fetch - processPackages [redmage]: Downloading https://files.pythonhosted.org/packages/ec/2f/b75a7a779ceafa9dee7eab1257f8fdcf416f591c1c6c6c2093a4769aa029/redmage-0.4.2.tar.gz
+[2023-07-22 21:13:51] INFO root fetch - processPackages [identify]: Downloading https://files.pythonhosted.org/packages/67/e1/869d7b8df41a3ac2a3c74a2a4ba401df468044dccc489b8937aad40d148e/identify-2.5.8.tar.gz
+[2023-07-22 21:13:51] INFO root fetch - processPackages [pynidm]: Downloading https://files.pythonhosted.org/packages/5a/af/7ab0d068b22b4c7e7f1b72dd03a8772b4c385327c298a4601e63923f6d2a/pynidm-4.0.0.tar.gz
+[2023-07-22 21:13:52] INFO root fetch - processPackages [redmage]: Downloading https://files.pythonhosted.org/packages/ea/94/4281e91bf7acef66cff0a83e93899104da521858b0f855bda58be5bc288b/redmage-0.4.3.tar.gz
+[2023-07-22 21:13:52] INFO root fetch - processPackages [identify]: Downloading https://files.pythonhosted.org/packages/32/c2/c7b3d6e93055f31fee10867c56e5001bd3e0aad149bc13b60c98a588115a/identify-2.5.9.tar.gz
+[2023-07-22 21:13:52] INFO root fetch - processPackages [redmage]: executing diffoscope
+[2023-07-22 21:13:52] INFO root fetch - processPackages [redmage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redmage-0.4.2.tar.gz tmp/redmage-0.4.3.tar.gz --markdown 20230722/r/redmage/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-22 21:13:52] INFO root fetch - processPackages [pynidm]: Downloading https://files.pythonhosted.org/packages/0f/41/a92f752dbd4b01ae61fbdf66ebd5791689db83e457a8a08c5afcb3d4dcf2/pynidm-4.1.0.tar.gz
+[2023-07-22 21:13:52] INFO root fetch - processPackages [identify]: executing diffoscope
+[2023-07-22 21:13:52] INFO root fetch - processPackages [identify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/identify-2.5.8.tar.gz tmp/identify-2.5.9.tar.gz --markdown 20230722/i/identify/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-07-22 21:13:52] INFO root fetch - processPackages [pynidm]: executing diffoscope
+[2023-07-22 21:13:52] INFO root fetch - processPackages [pynidm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynidm-4.0.0.tar.gz tmp/pynidm-4.1.0.tar.gz --markdown 20230722/p/pynidm/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-07-22 21:13:53] INFO root fetch - processPackages [redmage]: Remove: archive file [/home/abi/fetcher/tmp/redmage-0.4.2.tar.gz]
+[2023-07-22 21:13:53] INFO root fetch - processPackages [redmage]: Remove: archive file [/home/abi/fetcher/tmp/redmage-0.4.3.tar.gz]
+[2023-07-22 21:13:53] INFO root fetch - main [MainThread]: End processing [redmage]: success
+[2023-07-22 21:13:53] INFO root fetch - processPackages [identify]: Remove: archive file [/home/abi/fetcher/tmp/identify-2.5.8.tar.gz]
+[2023-07-22 21:13:53] INFO root fetch - processPackages [identify]: Remove: archive file [/home/abi/fetcher/tmp/identify-2.5.9.tar.gz]
+[2023-07-22 21:13:53] INFO root fetch - main [MainThread]: End processing [identify]: success
+[2023-07-22 21:13:53] INFO root fetch - processPackages [pynidm]: Remove: archive file [/home/abi/fetcher/tmp/pynidm-4.0.0.tar.gz]
+[2023-07-22 21:13:53] INFO root fetch - processPackages [pynidm]: Remove: archive file [/home/abi/fetcher/tmp/pynidm-4.1.0.tar.gz]
+[2023-07-22 21:13:53] INFO root fetch - main [MainThread]: End processing [pynidm]: success
+[2023-07-22 21:13:53] INFO root fetch - main [MainThread]: Store serial: [18997003]
