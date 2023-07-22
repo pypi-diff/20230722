@@ -9257,3 +9257,51 @@
 [2023-07-22 07:03:08] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.9.tar.gz]
 [2023-07-22 07:03:08] INFO root fetch - main [MainThread]: End processing [iman]: success
 [2023-07-22 07:03:08] INFO root fetch - main [MainThread]: Store serial: [18992750]
+[2023-07-22 07:08:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992750]
+[2023-07-22 07:08:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 07:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: talkytimes-package
+[2023-07-22 07:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyfi
+[2023-07-22 07:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: austrakka
+[2023-07-22 07:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threemystic-cloud-data-client
+[2023-07-22 07:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dask-cuda
+[2023-07-22 07:08:19] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.31] Old Version: [0.1.30]
+[2023-07-22 07:08:19] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 07:08:19] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230721] Old Version: [23.8.0a230720]
+[2023-07-22 07:08:19] INFO root fetch - processPackages [hyfi]: New version: [1.6.0] Old Version: [1.5.4]
+[2023-07-22 07:08:19] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/fb/cb/4328250223cdbcfa24d560138e6d324b039c105f73004f8e62abc048617f/threemystic_cloud_data_client-0.1.30.tar.gz
+[2023-07-22 07:08:19] INFO root fetch - processPackages [austrakka]: New version: [0.32.3] Old Version: [0.32.2]
+[2023-07-22 07:08:19] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-22 07:08:19] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/04/e7/dba110b3d9c87a86fe726f3ad0ffe2086a0a76f828d601ffa64b97a3b029/hyfi-1.5.4.tar.gz
+[2023-07-22 07:08:19] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/6e/5f/468c1114853169e8e5a4d273e056e0d17494aac437444bf83d3212a00f80/dask-cuda-23.8.0a230720.tar.gz
+[2023-07-22 07:08:19] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/9f/38/42594f4011be53a7d08e3006cfe0f19150fa89489bdc7b7ef98acafc2be8/austrakka-0.32.2-py3-none-any.whl
+[2023-07-22 07:08:19] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-22 07:08:19] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/ed/39/7a38771b37c89fc6ca421b8f0e7ba3dff9e3c51d22225c6e087fba85da9a/hyfi-1.6.0.tar.gz
+[2023-07-22 07:08:20] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/01/22/00fbc960e1b81f725d37c8c9a0e2765c4d34068306fe9a7dbc99508196d8/dask-cuda-23.8.0a230721.tar.gz
+[2023-07-22 07:08:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/c8/a9/e8f316f649aa00efbaf3abe5d5f1c24351118f67f6683237769d7f6f64d6/threemystic_cloud_data_client-0.1.31.tar.gz
+[2023-07-22 07:08:20] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-22 07:08:20] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230722/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 07:08:20] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-22 07:08:20] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230720.tar.gz tmp/dask-cuda-23.8.0a230721.tar.gz --markdown 20230722/d/dask-cuda/23.8.0a230720-23.8.0a230721/diff.md --exclude *.pyd
+[2023-07-22 07:08:20] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-22 07:08:20] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.5.4.tar.gz tmp/hyfi-1.6.0.tar.gz --markdown 20230722/h/hyfi/1.5.4-1.6.0/diff.md --exclude *.pyd
+[2023-07-22 07:08:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-22 07:08:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.30.tar.gz tmp/threemystic_cloud_data_client-0.1.31.tar.gz --markdown 20230722/t/threemystic-cloud-data-client/0.1.30-0.1.31/diff.md --exclude *.pyd
+[2023-07-22 07:08:20] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/7a/a2/b071b52a1b458ffd34ea1a6388fa1c319535b5290058f9d74d79eb04744d/austrakka-0.32.3-py3-none-any.whl
+[2023-07-22 07:08:20] INFO root fetch - processPackages [austrakka]: executing diffoscope
+[2023-07-22 07:08:20] INFO root fetch - processPackages [austrakka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/austrakka-0.32.2-py3-none-any.whl.zip tmp/austrakka-0.32.3-py3-none-any.whl.zip --markdown 20230722/a/austrakka/0.32.2-0.32.3/diff.md --exclude *.pyd
+[2023-07-22 07:08:21] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-22 07:08:21] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-22 07:08:21] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-22 07:08:21] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230720.tar.gz]
+[2023-07-22 07:08:21] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230721.tar.gz]
+[2023-07-22 07:08:21] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-22 07:08:21] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.30.tar.gz]
+[2023-07-22 07:08:21] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.31.tar.gz]
+[2023-07-22 07:08:21] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-22 07:08:21] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.5.4.tar.gz]
+[2023-07-22 07:08:21] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.6.0.tar.gz]
+[2023-07-22 07:08:21] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-22 07:08:21] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.32.2-py3-none-any.whl.zip]
+[2023-07-22 07:08:21] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.32.3-py3-none-any.whl.zip]
+[2023-07-22 07:08:21] INFO root fetch - main [MainThread]: End processing [austrakka]: success
+[2023-07-22 07:08:21] INFO root fetch - main [MainThread]: Store serial: [18992763]
