@@ -9165,3 +9165,15 @@
 [2023-07-22 06:42:28] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.21.tar.gz]
 [2023-07-22 06:42:28] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
 [2023-07-22 06:42:28] INFO root fetch - main [MainThread]: Store serial: [18992713]
+[2023-07-22 06:47:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992713]
+[2023-07-22 06:47:36] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-22 06:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: threemystic-cloud-data-client
+[2023-07-22 06:47:36] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.30] Old Version: [0.1.29]
+[2023-07-22 06:47:37] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/b6/ae/b60ab3452b663398cfbdd0462f87b5ef135f33ac7a60269771e29796e024/threemystic_cloud_data_client-0.1.29.tar.gz
+[2023-07-22 06:47:37] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/fb/cb/4328250223cdbcfa24d560138e6d324b039c105f73004f8e62abc048617f/threemystic_cloud_data_client-0.1.30.tar.gz
+[2023-07-22 06:47:37] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-22 06:47:37] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.29.tar.gz tmp/threemystic_cloud_data_client-0.1.30.tar.gz --markdown 20230722/t/threemystic-cloud-data-client/0.1.29-0.1.30/diff.md --exclude *.pyd
+[2023-07-22 06:47:38] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.29.tar.gz]
+[2023-07-22 06:47:38] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.30.tar.gz]
+[2023-07-22 06:47:38] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-22 06:47:38] INFO root fetch - main [MainThread]: Store serial: [18992716]
