@@ -17331,3 +17331,39 @@ EOFError: EOF read where object expected
 [2023-07-22 19:07:49] INFO root fetch - processPackages [bren]: Remove: archive file [/home/abi/fetcher/tmp/bren-0.1.3.tar.gz]
 [2023-07-22 19:07:49] INFO root fetch - main [MainThread]: End processing [bren]: success
 [2023-07-22 19:07:49] INFO root fetch - main [MainThread]: Store serial: [18996363]
+[2023-07-22 19:12:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996363]
+[2023-07-22 19:12:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 19:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snpio
+[2023-07-22 19:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xxt
+[2023-07-22 19:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysqlx-core
+[2023-07-22 19:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: medipt
+[2023-07-22 19:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odooless
+[2023-07-22 19:12:58] INFO root fetch - processPackages [xxt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-22 19:12:58] INFO root fetch - processPackages [odooless]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-22 19:12:58] WARNING root fetch - processPackages [medipt]: Skipping, unable to determine old version
+[2023-07-22 19:12:58] INFO root fetch - main [MainThread]: End processing [medipt] error
+[2023-07-22 19:12:58] WARNING root fetch - processPackages [snpio]: Skipping, unable to determine old version
+[2023-07-22 19:12:58] INFO root fetch - main [MainThread]: End processing [snpio] error
+[2023-07-22 19:12:58] INFO root fetch - processPackages [odooless]: Downloading https://files.pythonhosted.org/packages/1e/89/c7b645e4d26e86f7a21da3ce907ce20b0df6dbc674668056130a8e5e3207/odooless-0.1.3.tar.gz
+[2023-07-22 19:12:58] INFO root fetch - processPackages [xxt]: Downloading https://files.pythonhosted.org/packages/4a/a6/601a95074f98abd608fc7990303a780ad4394e58fe1e6c7c72d5e66ae91d/xxt-0.0.1.tar.gz
+[2023-07-22 19:12:58] INFO root fetch - processPackages [xxt]: Downloading https://files.pythonhosted.org/packages/47/7d/84103b0ddd3563cf8292f5268082cc9f120e45b702c3ab16a13bf195eb10/xxt-0.0.2.tar.gz
+[2023-07-22 19:12:58] INFO root fetch - processPackages [xxt]: executing diffoscope
+[2023-07-22 19:12:58] INFO root fetch - processPackages [xxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xxt-0.0.1.tar.gz tmp/xxt-0.0.2.tar.gz --markdown 20230722/x/xxt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-22 19:12:58] INFO root fetch - processPackages [pysqlx-core]: New version: [0.1.9] Old Version: [0.1.8a0]
+[2023-07-22 19:12:58] INFO root fetch - processPackages [odooless]: Downloading https://files.pythonhosted.org/packages/89/c4/63e3de7fa239f7d77b32936d167963d5909021c5c359bb9ba2c2106c74ba/odooless-0.1.4.tar.gz
+[2023-07-22 19:12:59] INFO root fetch - processPackages [odooless]: executing diffoscope
+[2023-07-22 19:12:59] INFO root fetch - processPackages [odooless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odooless-0.1.3.tar.gz tmp/odooless-0.1.4.tar.gz --markdown 20230722/o/odooless/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-22 19:12:59] INFO root fetch - processPackages [pysqlx-core]: Downloading https://files.pythonhosted.org/packages/f5/27/a015d9ae5a494f78a9eac53c305fb16bcb5e436f24e091c45d4d91ea3e65/pysqlx_core-0.1.8a0.tar.gz
+[2023-07-22 19:12:59] INFO root fetch - processPackages [xxt]: Remove: archive file [/home/abi/fetcher/tmp/xxt-0.0.1.tar.gz]
+[2023-07-22 19:12:59] INFO root fetch - processPackages [xxt]: Remove: archive file [/home/abi/fetcher/tmp/xxt-0.0.2.tar.gz]
+[2023-07-22 19:12:59] INFO root fetch - main [MainThread]: End processing [xxt]: success
+[2023-07-22 19:12:59] INFO root fetch - processPackages [pysqlx-core]: Downloading https://files.pythonhosted.org/packages/bf/d8/2c2014f752ae7321adb7a78665a09ca3ad78b299f16b99e6b763b6915a49/pysqlx_core-0.1.9.tar.gz
+[2023-07-22 19:12:59] INFO root fetch - processPackages [odooless]: Remove: archive file [/home/abi/fetcher/tmp/odooless-0.1.3.tar.gz]
+[2023-07-22 19:12:59] INFO root fetch - processPackages [odooless]: Remove: archive file [/home/abi/fetcher/tmp/odooless-0.1.4.tar.gz]
+[2023-07-22 19:12:59] INFO root fetch - main [MainThread]: End processing [odooless]: success
+[2023-07-22 19:12:59] INFO root fetch - processPackages [pysqlx-core]: executing diffoscope
+[2023-07-22 19:12:59] INFO root fetch - processPackages [pysqlx-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqlx_core-0.1.8a0.tar.gz tmp/pysqlx_core-0.1.9.tar.gz --markdown 20230722/p/pysqlx-core/0.1.8a0-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 19:13:00] INFO root fetch - processPackages [pysqlx-core]: Remove: archive file [/home/abi/fetcher/tmp/pysqlx_core-0.1.8a0.tar.gz]
+[2023-07-22 19:13:00] INFO root fetch - processPackages [pysqlx-core]: Remove: archive file [/home/abi/fetcher/tmp/pysqlx_core-0.1.9.tar.gz]
+[2023-07-22 19:13:00] INFO root fetch - main [MainThread]: End processing [pysqlx-core]: success
+[2023-07-22 19:13:00] INFO root fetch - main [MainThread]: Store serial: [18996453]
