@@ -15704,3 +15704,84 @@ EOFError: EOF read where object expected
 [2023-07-22 17:12:54] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.3.1.tar.gz]
 [2023-07-22 17:12:54] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
 [2023-07-22 17:12:54] INFO root fetch - main [MainThread]: Store serial: [18995645]
+[2023-07-22 17:18:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995645]
+[2023-07-22 17:18:06] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-22 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-protobuf
+[2023-07-22 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlvision
+[2023-07-22 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sklearn-mlmlm
+[2023-07-22 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: offlinesec-client
+[2023-07-22 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hurdat2parser
+[2023-07-22 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: interpres
+[2023-07-22 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cytotransform
+[2023-07-22 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ilcdlib
+[2023-07-22 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: marketwatchdata
+[2023-07-22 17:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: reytool
+[2023-07-22 17:18:07] INFO root fetch - processPackages [sklearn-mlmlm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 17:18:07] INFO root fetch - processPackages [marketwatchdata]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 17:18:07] INFO root fetch - processPackages [interpres]: New version: [0.3.4b3] Old Version: [0.3.4b2]
+[2023-07-22 17:18:07] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-22 17:18:07] WARNING root fetch - processPackages [cytotransform]: Skipping, unable to determine old version
+[2023-07-22 17:18:07] INFO root fetch - main [MainThread]: End processing [cytotransform] error
+[2023-07-22 17:18:07] INFO root fetch - processPackages [types-protobuf]: New version: [4.23.0.2] Old Version: [4.23.0.1]
+[2023-07-22 17:18:07] WARNING root fetch - processPackages [mlvision]: Skipping, unable to determine old version
+[2023-07-22 17:18:07] INFO root fetch - main [MainThread]: End processing [mlvision] error
+[2023-07-22 17:18:07] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/0a/98/4ddd38a1e51a088e832ba7e63522d73dc145b8cfdec3e34074d50b210372/sklearn_mlmlm-0.0.8.tar.gz
+[2023-07-22 17:18:07] INFO root fetch - processPackages [ilcdlib]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-07-22 17:18:07] INFO root fetch - processPackages [marketwatchdata]: Downloading https://files.pythonhosted.org/packages/24/59/ebd57409882b1096e7abb351dae462c819f5511a36db7dedbb6786d2ea7b/marketwatchdata-0.0.3.tar.gz
+[2023-07-22 17:18:07] INFO root fetch - processPackages [hurdat2parser]: New version: [2.2.3.1] Old Version: [2.2.3]
+[2023-07-22 17:18:07] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-22 17:18:07] INFO root fetch - processPackages [interpres]: Downloading https://files.pythonhosted.org/packages/d9/8a/0f6c818ec01714ad79baeae2bd2649aa1d0beebeaa56ba7165f5d6b2a7de/interpres-0.3.4b2.tar.gz
+[2023-07-22 17:18:07] INFO root fetch - processPackages [offlinesec-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-22 17:18:07] INFO root fetch - processPackages [types-protobuf]: Downloading https://files.pythonhosted.org/packages/e0/06/92f7b78bb02e511a2eb651bff19fa1d18f29a28e30f6366e69da2c833a1a/types-protobuf-4.23.0.1.tar.gz
+[2023-07-22 17:18:07] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/8d/64/c2ecb3e009df16e9fe21b9bf8325fce233d3448d1735b4e1a5bb4d62e6c0/ilcdlib-0.9.0.tar.gz
+[2023-07-22 17:18:07] INFO root fetch - processPackages [hurdat2parser]: Downloading https://files.pythonhosted.org/packages/fc/24/ac1d31949d669f227ac1924adda8a7fb31455f18e3317e58888fd61597cc/hurdat2parser-2.2.3.tar.gz
+[2023-07-22 17:18:07] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/8e/20/5b0f76a3c4ec519bdc1252725dd78ad4afcc5b17fd82f5330134186be426/sklearn_mlmlm-0.0.9.tar.gz
+[2023-07-22 17:18:07] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-22 17:18:07] INFO root fetch - processPackages [offlinesec-client]: Downloading https://files.pythonhosted.org/packages/41/97/ec93622565a5d91ba6b33cce290f57d0078bc58f10398db70c467801fd87/offlinesec_client-1.0.8.tar.gz
+[2023-07-22 17:18:07] INFO root fetch - processPackages [marketwatchdata]: Downloading https://files.pythonhosted.org/packages/0b/02/53cb0d1f9e8918d9e6fb282d46337c6696f9039c3316499dc95799532f82/marketwatchdata-0.0.4.tar.gz
+[2023-07-22 17:18:08] INFO root fetch - processPackages [sklearn-mlmlm]: executing diffoscope
+[2023-07-22 17:18:08] INFO root fetch - processPackages [sklearn-mlmlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_mlmlm-0.0.8.tar.gz tmp/sklearn_mlmlm-0.0.9.tar.gz --markdown 20230722/s/sklearn-mlmlm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 17:18:08] INFO root fetch - processPackages [interpres]: Downloading https://files.pythonhosted.org/packages/a3/a2/83af4ecf9d5fca1885e915386537cef16007ed07390a7b055daad8797a49/interpres-0.3.4b3.tar.gz
+[2023-07-22 17:18:08] INFO root fetch - processPackages [types-protobuf]: Downloading https://files.pythonhosted.org/packages/90/b4/75a3a199476ee1ba8cbd941e9efdae9149f52f24c351df3af9eb666a5c82/types-protobuf-4.23.0.2.tar.gz
+[2023-07-22 17:18:08] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-22 17:18:08] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230722/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-22 17:18:08] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/d8/d9/1737e82f4a22b67d6eea8dbbe78de0fb81cdbff45048682c0c935a2733fd/ilcdlib-1.0.0.tar.gz
+[2023-07-22 17:18:08] INFO root fetch - processPackages [marketwatchdata]: executing diffoscope
+[2023-07-22 17:18:08] INFO root fetch - processPackages [marketwatchdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marketwatchdata-0.0.3.tar.gz tmp/marketwatchdata-0.0.4.tar.gz --markdown 20230722/m/marketwatchdata/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 17:18:08] INFO root fetch - processPackages [types-protobuf]: executing diffoscope
+[2023-07-22 17:18:08] INFO root fetch - processPackages [types-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-protobuf-4.23.0.1.tar.gz tmp/types-protobuf-4.23.0.2.tar.gz --markdown 20230722/t/types-protobuf/4.23.0.1-4.23.0.2/diff.md --exclude *.pyd
+[2023-07-22 17:18:08] INFO root fetch - processPackages [hurdat2parser]: Downloading https://files.pythonhosted.org/packages/85/d9/e143abf6e955de79adb666f989f9541edc41639e337d44d328c4f4a7956e/hurdat2parser-2.2.3.1.tar.gz
+[2023-07-22 17:18:08] INFO root fetch - processPackages [interpres]: executing diffoscope
+[2023-07-22 17:18:08] INFO root fetch - processPackages [interpres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interpres-0.3.4b2.tar.gz tmp/interpres-0.3.4b3.tar.gz --markdown 20230722/i/interpres/0.3.4b2-0.3.4b3/diff.md --exclude *.pyd
+[2023-07-22 17:18:08] INFO root fetch - processPackages [ilcdlib]: executing diffoscope
+[2023-07-22 17:18:08] INFO root fetch - processPackages [ilcdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilcdlib-0.9.0.tar.gz tmp/ilcdlib-1.0.0.tar.gz --markdown 20230722/i/ilcdlib/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-22 17:18:08] INFO root fetch - processPackages [offlinesec-client]: Downloading https://files.pythonhosted.org/packages/16/f1/b37b88fa2af3d9759c4f85a7fe202d54f9a09f2b50b37753be30aba74317/offlinesec_client-1.0.9.tar.gz
+[2023-07-22 17:18:08] INFO root fetch - processPackages [offlinesec-client]: executing diffoscope
+[2023-07-22 17:18:08] INFO root fetch - processPackages [offlinesec-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/offlinesec_client-1.0.8.tar.gz tmp/offlinesec_client-1.0.9.tar.gz --markdown 20230722/o/offlinesec-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-22 17:18:08] INFO root fetch - processPackages [hurdat2parser]: executing diffoscope
+[2023-07-22 17:18:08] INFO root fetch - processPackages [hurdat2parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hurdat2parser-2.2.3.tar.gz tmp/hurdat2parser-2.2.3.1.tar.gz --markdown 20230722/h/hurdat2parser/2.2.3-2.2.3.1/diff.md --exclude *.pyd
+[2023-07-22 17:18:09] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.8.tar.gz]
+[2023-07-22 17:18:09] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.9.tar.gz]
+[2023-07-22 17:18:09] INFO root fetch - main [MainThread]: End processing [sklearn-mlmlm]: success
+[2023-07-22 17:18:09] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-22 17:18:09] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-22 17:18:09] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-22 17:18:09] INFO root fetch - processPackages [marketwatchdata]: Remove: archive file [/home/abi/fetcher/tmp/marketwatchdata-0.0.3.tar.gz]
+[2023-07-22 17:18:09] INFO root fetch - processPackages [marketwatchdata]: Remove: archive file [/home/abi/fetcher/tmp/marketwatchdata-0.0.4.tar.gz]
+[2023-07-22 17:18:09] INFO root fetch - main [MainThread]: End processing [marketwatchdata]: success
+[2023-07-22 17:18:09] INFO root fetch - processPackages [interpres]: Remove: archive file [/home/abi/fetcher/tmp/interpres-0.3.4b2.tar.gz]
+[2023-07-22 17:18:09] INFO root fetch - processPackages [interpres]: Remove: archive file [/home/abi/fetcher/tmp/interpres-0.3.4b3.tar.gz]
+[2023-07-22 17:18:09] INFO root fetch - main [MainThread]: End processing [interpres]: success
+[2023-07-22 17:18:09] INFO root fetch - processPackages [offlinesec-client]: Remove: archive file [/home/abi/fetcher/tmp/offlinesec_client-1.0.8.tar.gz]
+[2023-07-22 17:18:09] INFO root fetch - processPackages [offlinesec-client]: Remove: archive file [/home/abi/fetcher/tmp/offlinesec_client-1.0.9.tar.gz]
+[2023-07-22 17:18:09] INFO root fetch - main [MainThread]: End processing [offlinesec-client]: success
+[2023-07-22 17:18:09] INFO root fetch - processPackages [types-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/types-protobuf-4.23.0.1.tar.gz]
+[2023-07-22 17:18:09] INFO root fetch - processPackages [types-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/types-protobuf-4.23.0.2.tar.gz]
+[2023-07-22 17:18:09] INFO root fetch - main [MainThread]: End processing [types-protobuf]: success
+[2023-07-22 17:18:09] INFO root fetch - processPackages [ilcdlib]: Remove: archive file [/home/abi/fetcher/tmp/ilcdlib-0.9.0.tar.gz]
+[2023-07-22 17:18:09] INFO root fetch - processPackages [ilcdlib]: Remove: archive file [/home/abi/fetcher/tmp/ilcdlib-1.0.0.tar.gz]
+[2023-07-22 17:18:09] INFO root fetch - main [MainThread]: End processing [ilcdlib]: success
+[2023-07-22 17:18:09] INFO root fetch - processPackages [hurdat2parser]: Remove: archive file [/home/abi/fetcher/tmp/hurdat2parser-2.2.3.tar.gz]
+[2023-07-22 17:18:09] INFO root fetch - processPackages [hurdat2parser]: Remove: archive file [/home/abi/fetcher/tmp/hurdat2parser-2.2.3.1.tar.gz]
+[2023-07-22 17:18:09] INFO root fetch - main [MainThread]: End processing [hurdat2parser]: success
+[2023-07-22 17:18:09] INFO root fetch - main [MainThread]: Store serial: [18995678]
