@@ -13074,3 +13074,51 @@
 [2023-07-22 13:10:15] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.0.8.tar.gz]
 [2023-07-22 13:10:15] INFO root fetch - main [MainThread]: End processing [wow-ai-mms]: success
 [2023-07-22 13:10:15] INFO root fetch - main [MainThread]: Store serial: [18994513]
+[2023-07-22 13:15:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994513]
+[2023-07-22 13:15:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 13:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fredapi
+[2023-07-22 13:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django_tableaux
+[2023-07-22 13:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiotaskq
+[2023-07-22 13:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apk-signer
+[2023-07-22 13:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wow-ai-mms
+[2023-07-22 13:15:24] INFO root fetch - processPackages [wow-ai-mms]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 13:15:24] INFO root fetch - processPackages [django_tableaux]: New version: [0.3] Old Version: [0.2]
+[2023-07-22 13:15:24] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/fb/f7/2897724241062efc5f6009fb5134db71215cc0c7066cca67f4ed647bc7be/wow_ai_mms-0.0.8.tar.gz
+[2023-07-22 13:15:24] INFO root fetch - processPackages [fredapi]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-22 13:15:24] INFO root fetch - processPackages [aiotaskq]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 13:15:24] INFO root fetch - processPackages [apk-signer]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-22 13:15:24] INFO root fetch - processPackages [django_tableaux]: Downloading https://files.pythonhosted.org/packages/d2/ad/a969658870eaba2d6546c1fafaa5b63962363d6795e2d35f7d269ea19083/django_tableaux-0.2.tar.gz
+[2023-07-22 13:15:24] INFO root fetch - processPackages [fredapi]: Downloading https://files.pythonhosted.org/packages/01/42/40135e1841ae8182ea6e3dfb43a4409ecfbe6b8f87788b095b70fa130035/fredapi-0.5.0.tar.gz
+[2023-07-22 13:15:24] INFO root fetch - processPackages [aiotaskq]: Downloading https://files.pythonhosted.org/packages/d3/8f/845f0fdf24ca40240817e0b3d44e46785d51b3df8da31ab7c0f91b01b8f7/aiotaskq-0.0.3.tar.gz
+[2023-07-22 13:15:24] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/b0/b9/be5582cf3f98113c714de09efe6e60803efd2f759558faa0dae8479e6420/wow_ai_mms-0.0.9.tar.gz
+[2023-07-22 13:15:24] INFO root fetch - processPackages [apk-signer]: Downloading https://files.pythonhosted.org/packages/e5/50/bd3e53910ea5015597b7f456d15ef4e04bf499a1b4929a5aa86df236d413/apk-signer-1.1.1.tar.gz
+[2023-07-22 13:15:24] INFO root fetch - processPackages [django_tableaux]: Downloading https://files.pythonhosted.org/packages/09/ea/78ec1ff520151a662adff0c6cb9a1bb5b9c6003f5ee8f38dfaeee77ee433/django_tableaux-0.3.tar.gz
+[2023-07-22 13:15:24] INFO root fetch - processPackages [wow-ai-mms]: executing diffoscope
+[2023-07-22 13:15:24] INFO root fetch - processPackages [wow-ai-mms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_mms-0.0.8.tar.gz tmp/wow_ai_mms-0.0.9.tar.gz --markdown 20230722/w/wow-ai-mms/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 13:15:24] INFO root fetch - processPackages [fredapi]: Downloading https://files.pythonhosted.org/packages/99/bd/a4c2d179bb81589500e549aba837d761ad814b61f04325afe2dcaf55832a/fredapi-0.5.1.tar.gz
+[2023-07-22 13:15:25] INFO root fetch - processPackages [aiotaskq]: Downloading https://files.pythonhosted.org/packages/3b/00/1babb393796a205dcc5f8183b71b459096b4a6e580c7c76da6ab599f19de/aiotaskq-0.0.4.tar.gz
+[2023-07-22 13:15:25] INFO root fetch - processPackages [apk-signer]: Downloading https://files.pythonhosted.org/packages/16/81/47c89d45c3594b99684e8805de63ebccffffa1b6c0ed4c13e3e77481b510/apk-signer-1.1.2.tar.gz
+[2023-07-22 13:15:25] INFO root fetch - processPackages [django_tableaux]: executing diffoscope
+[2023-07-22 13:15:25] INFO root fetch - processPackages [django_tableaux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tableaux-0.2.tar.gz tmp/django_tableaux-0.3.tar.gz --markdown 20230722/d/django_tableaux/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-22 13:15:25] INFO root fetch - processPackages [fredapi]: executing diffoscope
+[2023-07-22 13:15:25] INFO root fetch - processPackages [fredapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fredapi-0.5.0.tar.gz tmp/fredapi-0.5.1.tar.gz --markdown 20230722/f/fredapi/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-22 13:15:25] INFO root fetch - processPackages [apk-signer]: executing diffoscope
+[2023-07-22 13:15:25] INFO root fetch - processPackages [apk-signer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apk-signer-1.1.1.tar.gz tmp/apk-signer-1.1.2.tar.gz --markdown 20230722/a/apk-signer/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-22 13:15:25] INFO root fetch - processPackages [aiotaskq]: executing diffoscope
+[2023-07-22 13:15:25] INFO root fetch - processPackages [aiotaskq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotaskq-0.0.3.tar.gz tmp/aiotaskq-0.0.4.tar.gz --markdown 20230722/a/aiotaskq/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 13:15:25] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.0.8.tar.gz]
+[2023-07-22 13:15:25] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.0.9.tar.gz]
+[2023-07-22 13:15:25] INFO root fetch - main [MainThread]: End processing [wow-ai-mms]: success
+[2023-07-22 13:15:26] INFO root fetch - processPackages [fredapi]: Remove: archive file [/home/abi/fetcher/tmp/fredapi-0.5.0.tar.gz]
+[2023-07-22 13:15:26] INFO root fetch - processPackages [fredapi]: Remove: archive file [/home/abi/fetcher/tmp/fredapi-0.5.1.tar.gz]
+[2023-07-22 13:15:26] INFO root fetch - main [MainThread]: End processing [fredapi]: success
+[2023-07-22 13:15:26] INFO root fetch - processPackages [apk-signer]: Remove: archive file [/home/abi/fetcher/tmp/apk-signer-1.1.1.tar.gz]
+[2023-07-22 13:15:26] INFO root fetch - processPackages [apk-signer]: Remove: archive file [/home/abi/fetcher/tmp/apk-signer-1.1.2.tar.gz]
+[2023-07-22 13:15:26] INFO root fetch - main [MainThread]: End processing [apk-signer]: success
+[2023-07-22 13:15:26] INFO root fetch - processPackages [django_tableaux]: Remove: archive file [/home/abi/fetcher/tmp/django_tableaux-0.2.tar.gz]
+[2023-07-22 13:15:26] INFO root fetch - processPackages [django_tableaux]: Remove: archive file [/home/abi/fetcher/tmp/django_tableaux-0.3.tar.gz]
+[2023-07-22 13:15:26] INFO root fetch - main [MainThread]: End processing [django_tableaux]: success
+[2023-07-22 13:15:26] INFO root fetch - processPackages [aiotaskq]: Remove: archive file [/home/abi/fetcher/tmp/aiotaskq-0.0.3.tar.gz]
+[2023-07-22 13:15:26] INFO root fetch - processPackages [aiotaskq]: Remove: archive file [/home/abi/fetcher/tmp/aiotaskq-0.0.4.tar.gz]
+[2023-07-22 13:15:26] INFO root fetch - main [MainThread]: End processing [aiotaskq]: success
+[2023-07-22 13:15:26] INFO root fetch - main [MainThread]: Store serial: [18994528]
