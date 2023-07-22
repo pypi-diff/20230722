@@ -16486,3 +16486,108 @@ EOFError: EOF read where object expected
 [2023-07-22 18:05:12] INFO root fetch - processPackages [BookerPdfTool]: Remove: archive file [/home/abi/fetcher/tmp/BookerPdfTool-2023.7.22.0.tar.gz]
 [2023-07-22 18:05:12] INFO root fetch - main [MainThread]: End processing [BookerPdfTool]: success
 [2023-07-22 18:05:12] INFO root fetch - main [MainThread]: Store serial: [18996005]
+[2023-07-22 18:10:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996005]
+[2023-07-22 18:10:22] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-22 18:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notification-service-nightly
+[2023-07-22 18:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai-flow-nightly
+[2023-07-22 18:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cq23
+[2023-07-22 18:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: calcipy
+[2023-07-22 18:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gw3
+[2023-07-22 18:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TDS2STAC
+[2023-07-22 18:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-sas20181203-py2
+[2023-07-22 18:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openai-function-call
+[2023-07-22 18:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-sas20181203
+[2023-07-22 18:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sightvision
+[2023-07-22 18:10:23] INFO root fetch - processPackages [calcipy]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-22 18:10:23] INFO root fetch - processPackages [gw3]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-22 18:10:23] INFO root fetch - processPackages [alibabacloud-sas20181203]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-22 18:10:23] INFO root fetch - processPackages [cq23]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-22 18:10:23] INFO root fetch - processPackages [TDS2STAC]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-22 18:10:23] INFO root fetch - processPackages [openai-function-call]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-22 18:10:23] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-07-22 18:10:23] INFO root fetch - processPackages [gw3]: Downloading https://files.pythonhosted.org/packages/6f/7c/e09f391e9b4e425b479604b2d5475ada55b16ca626dcefffb04c12385866/gw3-0.6.1.tar.gz
+[2023-07-22 18:10:23] INFO root fetch - processPackages [sightvision]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-22 18:10:23] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/0c/8b/43afe56c97340ec4da24451f46a204db853c0d26565d486d0c2e805ee58c/cq23-2.3.0.tar.gz
+[2023-07-22 18:10:23] INFO root fetch - processPackages [TDS2STAC]: Downloading https://files.pythonhosted.org/packages/c6/98/1ce8d25d08e9a4d2e3d3a63e55cf9ff1e2df726e866dedc29863ab7de012/TDS2STAC-2.0.7.tar.gz
+[2023-07-22 18:10:23] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-22 18:10:23] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-22 18:10:23] INFO root fetch - processPackages [calcipy]: Downloading https://files.pythonhosted.org/packages/bd/ed/deb7275187493acc86a3e03fae856f006c9c8faeb25c87961b6cc2d6f3c7/calcipy-1.4.1.tar.gz
+[2023-07-22 18:10:23] INFO root fetch - processPackages [alibabacloud-sas20181203]: Downloading https://files.pythonhosted.org/packages/8b/dd/679405e518a0f35d1ed56a486a50a0123ab3789ec313d66f51afc0af74f9/alibabacloud_sas20181203-2.1.8.tar.gz
+[2023-07-22 18:10:23] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/65/1e/184f8ca7fea0333def3590be1e6ae93ecab708b7db224f287099c81829a3/notification_service_nightly-2023.7.8.tar.gz
+[2023-07-22 18:10:23] INFO root fetch - processPackages [openai-function-call]: Downloading https://files.pythonhosted.org/packages/92/07/cfa8fde66e3ab2bc5db26a76466276e635c70d4ed5859f105fa94f00cd4e/openai_function_call-0.2.0.tar.gz
+[2023-07-22 18:10:23] INFO root fetch - processPackages [sightvision]: Downloading https://files.pythonhosted.org/packages/84/43/373dab8601f4ba75e92ef3be5bd811c43c97e4920144400cd09322d0889a/sightvision-0.1.tar.gz
+[2023-07-22 18:10:23] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Downloading https://files.pythonhosted.org/packages/a2/af/e35dc3c7ad2c037680875bdf7a95c03c03e4dec02982125fb0bdcdf0cb36/alibabacloud_sas20181203_py2-2.1.9.tar.gz
+[2023-07-22 18:10:23] INFO root fetch - processPackages [gw3]: Downloading https://files.pythonhosted.org/packages/0a/d6/babda7efce3d06521d5d7d9524aba7742dad202cf4720468f3a98485aef4/gw3-0.6.2.tar.gz
+[2023-07-22 18:10:23] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/28/f0/1462cbd5d0319deeeae3a0fcf37462f9317e4310d14e167fb0737432a5f0/cq23-2.4.0.tar.gz
+[2023-07-22 18:10:23] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/a1/d9/ddd063ea869d5052ce371cc02a1b34d4989fa5c798eb88f04b3631d5ac24/ai_flow_nightly-2023.7.8.tar.gz
+[2023-07-22 18:10:23] INFO root fetch - processPackages [TDS2STAC]: Downloading https://files.pythonhosted.org/packages/80/f2/63c1481095e3b66eb1afa5a69cc83baf8170928ad5f90992ce69d2d1d0aa/TDS2STAC-2.0.8.tar.gz
+[2023-07-22 18:10:23] INFO root fetch - processPackages [gw3]: executing diffoscope
+[2023-07-22 18:10:23] INFO root fetch - processPackages [gw3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gw3-0.6.1.tar.gz tmp/gw3-0.6.2.tar.gz --markdown 20230722/g/gw3/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-22 18:10:23] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-07-22 18:10:23] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-2.3.0.tar.gz tmp/cq23-2.4.0.tar.gz --markdown 20230722/c/cq23/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-22 18:10:23] INFO root fetch - processPackages [TDS2STAC]: executing diffoscope
+[2023-07-22 18:10:23] INFO root fetch - processPackages [TDS2STAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDS2STAC-2.0.7.tar.gz tmp/TDS2STAC-2.0.8.tar.gz --markdown 20230722/T/TDS2STAC/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-22 18:10:24] INFO root fetch - processPackages [calcipy]: Downloading https://files.pythonhosted.org/packages/56/e6/99cfdea1a839497e6e0851a976bb5d7bbc486ec26ecf6597955b04c2cd3f/calcipy-1.4.2.tar.gz
+[2023-07-22 18:10:24] INFO root fetch - processPackages [alibabacloud-sas20181203]: Downloading https://files.pythonhosted.org/packages/76/42/85aefcacd07d83e12f4766fd05c79d2f2dcbb0253bd11ab87c3f95af893e/alibabacloud_sas20181203-2.1.9.tar.gz
+[2023-07-22 18:10:24] INFO root fetch - processPackages [sightvision]: Downloading https://files.pythonhosted.org/packages/d0/e3/a1d362fefd8b84bda378afaa7dafb8aba9901de9455c58530528146bd888/sightvision-0.1.1.tar.gz
+[2023-07-22 18:10:24] INFO root fetch - processPackages [calcipy]: executing diffoscope
+[2023-07-22 18:10:24] INFO root fetch - processPackages [calcipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calcipy-1.4.1.tar.gz tmp/calcipy-1.4.2.tar.gz --markdown 20230722/c/calcipy/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-22 18:10:24] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/c7/4b/124fc5261f6060915e47111ca32199af3db938323021c15e986ffd6c0801/notification_service_nightly-2023.7.9.tar.gz
+[2023-07-22 18:10:24] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Downloading https://files.pythonhosted.org/packages/8a/b4/3573b943f30e75d88a4378847e050017c8310a4a14f3ca8821da239d841c/alibabacloud_sas20181203_py2-2.2.0.tar.gz
+[2023-07-22 18:10:24] INFO root fetch - processPackages [openai-function-call]: Downloading https://files.pythonhosted.org/packages/b4/2c/fa2c5af62ee5d8c3b044fa4bdfff5237a8d84dad991e6cea6687ea67f245/openai_function_call-0.2.1.tar.gz
+[2023-07-22 18:10:24] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/99/90/4b39e8ebed6b96e9b48be05151c4f1796979ff1689ad51452e0257bd3913/ai_flow_nightly-2023.7.9.tar.gz
+[2023-07-22 18:10:24] INFO root fetch - processPackages [alibabacloud-sas20181203]: executing diffoscope
+[2023-07-22 18:10:24] INFO root fetch - processPackages [alibabacloud-sas20181203]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sas20181203-2.1.8.tar.gz tmp/alibabacloud_sas20181203-2.1.9.tar.gz --markdown 20230722/a/alibabacloud-sas20181203/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-22 18:10:24] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-07-22 18:10:24] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.7.8.tar.gz tmp/notification_service_nightly-2023.7.9.tar.gz --markdown 20230722/n/notification-service-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-22 18:10:24] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-07-22 18:10:24] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.7.8.tar.gz tmp/ai_flow_nightly-2023.7.9.tar.gz --markdown 20230722/a/ai-flow-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-22 18:10:24] INFO root fetch - processPackages [sightvision]: executing diffoscope
+[2023-07-22 18:10:24] INFO root fetch - processPackages [sightvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sightvision-0.1.tar.gz tmp/sightvision-0.1.1.tar.gz --markdown 20230722/s/sightvision/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-22 18:10:24] INFO root fetch - processPackages [openai-function-call]: executing diffoscope
+[2023-07-22 18:10:24] INFO root fetch - processPackages [openai-function-call]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_function_call-0.2.0.tar.gz tmp/openai_function_call-0.2.1.tar.gz --markdown 20230722/o/openai-function-call/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-22 18:10:24] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: executing diffoscope
+[2023-07-22 18:10:24] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sas20181203_py2-2.1.9.tar.gz tmp/alibabacloud_sas20181203_py2-2.2.0.tar.gz --markdown 20230722/a/alibabacloud-sas20181203-py2/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-07-22 18:10:25] INFO root fetch - processPackages [gw3]: Remove: archive file [/home/abi/fetcher/tmp/gw3-0.6.1.tar.gz]
+[2023-07-22 18:10:25] INFO root fetch - processPackages [gw3]: Remove: archive file [/home/abi/fetcher/tmp/gw3-0.6.2.tar.gz]
+[2023-07-22 18:10:25] INFO root fetch - processPackages [gw3]: Start processing: ocean-ml
+[2023-07-22 18:10:25] INFO root fetch - main [MainThread]: End processing [gw3]: success
+[2023-07-22 18:10:25] WARNING root fetch - processPackages [ocean-ml]: Skipping, unable to determine old version
+[2023-07-22 18:10:25] INFO root fetch - processPackages [ocean-ml]: Start processing: sklearn-mlmlm
+[2023-07-22 18:10:25] INFO root fetch - main [MainThread]: End processing [ocean-ml] error
+[2023-07-22 18:10:25] INFO root fetch - processPackages [sklearn-mlmlm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 18:10:25] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.3.0.tar.gz]
+[2023-07-22 18:10:25] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.4.0.tar.gz]
+[2023-07-22 18:10:25] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-07-22 18:10:25] INFO root fetch - processPackages [TDS2STAC]: Remove: archive file [/home/abi/fetcher/tmp/TDS2STAC-2.0.7.tar.gz]
+[2023-07-22 18:10:25] INFO root fetch - processPackages [TDS2STAC]: Remove: archive file [/home/abi/fetcher/tmp/TDS2STAC-2.0.8.tar.gz]
+[2023-07-22 18:10:25] INFO root fetch - main [MainThread]: End processing [TDS2STAC]: success
+[2023-07-22 18:10:25] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/0a/98/4ddd38a1e51a088e832ba7e63522d73dc145b8cfdec3e34074d50b210372/sklearn_mlmlm-0.0.8.tar.gz
+[2023-07-22 18:10:25] INFO root fetch - processPackages [calcipy]: Remove: archive file [/home/abi/fetcher/tmp/calcipy-1.4.1.tar.gz]
+[2023-07-22 18:10:25] INFO root fetch - processPackages [calcipy]: Remove: archive file [/home/abi/fetcher/tmp/calcipy-1.4.2.tar.gz]
+[2023-07-22 18:10:25] INFO root fetch - main [MainThread]: End processing [calcipy]: success
+[2023-07-22 18:10:25] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/8e/20/5b0f76a3c4ec519bdc1252725dd78ad4afcc5b17fd82f5330134186be426/sklearn_mlmlm-0.0.9.tar.gz
+[2023-07-22 18:10:25] INFO root fetch - processPackages [openai-function-call]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_call-0.2.0.tar.gz]
+[2023-07-22 18:10:25] INFO root fetch - processPackages [openai-function-call]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_call-0.2.1.tar.gz]
+[2023-07-22 18:10:25] INFO root fetch - main [MainThread]: End processing [openai-function-call]: success
+[2023-07-22 18:10:25] INFO root fetch - processPackages [sklearn-mlmlm]: executing diffoscope
+[2023-07-22 18:10:25] INFO root fetch - processPackages [sklearn-mlmlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_mlmlm-0.0.8.tar.gz tmp/sklearn_mlmlm-0.0.9.tar.gz --markdown 20230722/s/sklearn-mlmlm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 18:10:25] INFO root fetch - processPackages [sightvision]: Remove: archive file [/home/abi/fetcher/tmp/sightvision-0.1.tar.gz]
+[2023-07-22 18:10:25] INFO root fetch - processPackages [sightvision]: Remove: archive file [/home/abi/fetcher/tmp/sightvision-0.1.1.tar.gz]
+[2023-07-22 18:10:25] INFO root fetch - main [MainThread]: End processing [sightvision]: success
+[2023-07-22 18:10:26] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.7.8.tar.gz]
+[2023-07-22 18:10:26] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.7.9.tar.gz]
+[2023-07-22 18:10:26] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-07-22 18:10:26] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203_py2-2.1.9.tar.gz]
+[2023-07-22 18:10:26] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203_py2-2.2.0.tar.gz]
+[2023-07-22 18:10:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203-py2]: success
+[2023-07-22 18:10:26] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.8.tar.gz]
+[2023-07-22 18:10:26] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.9.tar.gz]
+[2023-07-22 18:10:26] INFO root fetch - main [MainThread]: End processing [sklearn-mlmlm]: success
+[2023-07-22 18:10:26] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.8.tar.gz]
+[2023-07-22 18:10:26] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.9.tar.gz]
+[2023-07-22 18:10:26] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-07-22 18:10:27] INFO root fetch - processPackages [alibabacloud-sas20181203]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203-2.1.8.tar.gz]
+[2023-07-22 18:10:27] INFO root fetch - processPackages [alibabacloud-sas20181203]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203-2.1.9.tar.gz]
+[2023-07-22 18:10:27] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203]: success
+[2023-07-22 18:10:27] INFO root fetch - main [MainThread]: Store serial: [18996047]
