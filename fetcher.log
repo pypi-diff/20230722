@@ -13755,3 +13755,36 @@
 [2023-07-22 14:28:06] INFO root fetch - processPackages [dxitemspy]: Remove: archive file [/home/abi/fetcher/tmp/dxitemspy-0.0.2.tar.gz]
 [2023-07-22 14:28:06] INFO root fetch - main [MainThread]: End processing [dxitemspy]: success
 [2023-07-22 14:28:06] INFO root fetch - main [MainThread]: Store serial: [18994775]
+[2023-07-22 14:33:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994775]
+[2023-07-22 14:33:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-22 14:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EasyDeL
+[2023-07-22 14:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: saic-ismart-client
+[2023-07-22 14:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyfi-template
+[2023-07-22 14:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: n-sam
+[2023-07-22 14:33:15] INFO root fetch - processPackages [saic-ismart-client]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-07-22 14:33:15] INFO root fetch - processPackages [hyfi-template]: New version: [0.5.0] Old Version: [0.4.8]
+[2023-07-22 14:33:15] WARNING root fetch - processPackages [n-sam]: Skipping, unable to determine old version
+[2023-07-22 14:33:15] INFO root fetch - main [MainThread]: End processing [n-sam] error
+[2023-07-22 14:33:15] INFO root fetch - processPackages [saic-ismart-client]: Downloading https://files.pythonhosted.org/packages/0e/98/dc88dc2d3b8d33dd1cb1996f13b1a4a5a477e955cdc8b44eeff5b7940d9f/saic_ismart_client-1.4.5.tar.gz
+[2023-07-22 14:33:15] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/81/7e/5d9caeb79edd61e2c57aeddff3a5562db283aad88e3460401c1d51b50680/hyfi_template-0.4.8.tar.gz
+[2023-07-22 14:33:15] INFO root fetch - processPackages [EasyDeL]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 14:33:15] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/0b/01/765632e4f48f400658c26b4a653df55e20dc326b64fd0991020f7fb5c16b/EasyDeL-0.0.8.tar.gz
+[2023-07-22 14:33:15] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/b4/82/a5807d54af854556a297a9ffd9e7289bbc1886e73ae1684119c7a11d4001/hyfi_template-0.5.0.tar.gz
+[2023-07-22 14:33:15] INFO root fetch - processPackages [saic-ismart-client]: Downloading https://files.pythonhosted.org/packages/85/56/b02d9f90f59d36f7fd80c310d9be66c872867de7ed5de5a502430ab51ba8/saic_ismart_client-1.4.6.tar.gz
+[2023-07-22 14:33:15] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-07-22 14:33:15] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.4.8.tar.gz tmp/hyfi_template-0.5.0.tar.gz --markdown 20230722/h/hyfi-template/0.4.8-0.5.0/diff.md --exclude *.pyd
+[2023-07-22 14:33:15] INFO root fetch - processPackages [saic-ismart-client]: executing diffoscope
+[2023-07-22 14:33:15] INFO root fetch - processPackages [saic-ismart-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saic_ismart_client-1.4.5.tar.gz tmp/saic_ismart_client-1.4.6.tar.gz --markdown 20230722/s/saic-ismart-client/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-07-22 14:33:15] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/8a/e3/914fc5ccc4d98c608c3f2bac8f8e325f940afda206011c7e1425cf00d471/EasyDeL-0.0.9.tar.gz
+[2023-07-22 14:33:15] INFO root fetch - processPackages [EasyDeL]: executing diffoscope
+[2023-07-22 14:33:15] INFO root fetch - processPackages [EasyDeL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyDeL-0.0.8.tar.gz tmp/EasyDeL-0.0.9.tar.gz --markdown 20230722/E/EasyDeL/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 14:33:16] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.4.8.tar.gz]
+[2023-07-22 14:33:16] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.5.0.tar.gz]
+[2023-07-22 14:33:16] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-07-22 14:33:16] INFO root fetch - processPackages [saic-ismart-client]: Remove: archive file [/home/abi/fetcher/tmp/saic_ismart_client-1.4.5.tar.gz]
+[2023-07-22 14:33:16] INFO root fetch - processPackages [saic-ismart-client]: Remove: archive file [/home/abi/fetcher/tmp/saic_ismart_client-1.4.6.tar.gz]
+[2023-07-22 14:33:16] INFO root fetch - main [MainThread]: End processing [saic-ismart-client]: success
+[2023-07-22 14:33:16] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.8.tar.gz]
+[2023-07-22 14:33:16] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.9.tar.gz]
+[2023-07-22 14:33:16] INFO root fetch - main [MainThread]: End processing [EasyDeL]: success
+[2023-07-22 14:33:16] INFO root fetch - main [MainThread]: Store serial: [18994788]
