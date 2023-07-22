@@ -10509,3 +10509,177 @@
 [2023-07-22 09:23:35] INFO root fetch - processPackages [binpan]: Remove: archive file [/home/abi/fetcher/tmp/binpan-0.4.9.tar.gz]
 [2023-07-22 09:23:35] INFO root fetch - main [MainThread]: End processing [binpan]: success
 [2023-07-22 09:23:35] INFO root fetch - main [MainThread]: Store serial: [18993359]
+[2023-07-22 09:28:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993359]
+[2023-07-22 09:28:43] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-07-22 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akamai-purge-cache
+[2023-07-22 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abqpy
+[2023-07-22 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abqpy
+[2023-07-22 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WaterScenes
+[2023-07-22 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abqpy2016
+[2023-07-22 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abqpy2017
+[2023-07-22 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abqpy
+[2023-07-22 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: abqpy2018
+[2023-07-22 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abqpy2019
+[2023-07-22 09:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: abqpy
+[2023-07-22 09:28:44] INFO root fetch - processPackages [WaterScenes]: New version: [1.0.1] Old Version: [1.0.0.post1]
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy2018]: New version: [2018.5.4.post2] Old Version: [0.0.1]
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy]: New version: [2023.5.5] Old Version: [2023.5.4]
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy]: New version: [2023.5.5] Old Version: [2023.5.4]
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy]: New version: [2023.5.5] Old Version: [2023.5.4]
+[2023-07-22 09:28:44] WARNING root fetch - processPackages [akamai-purge-cache]: Skipping, unable to determine old version
+[2023-07-22 09:28:44] INFO root fetch - processPackages [akamai-purge-cache]: Start processing: abqpy2021
+[2023-07-22 09:28:44] INFO root fetch - main [MainThread]: End processing [akamai-purge-cache] error
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy2017]: New version: [2017.5.5] Old Version: [2017.5.4.post2]
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy2016]: New version: [2016.5.5] Old Version: [2016.5.4.post2]
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy]: New version: [2023.5.5] Old Version: [2023.5.4]
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy2019]: New version: [2019.5.5] Old Version: [2019.5.4.post2]
+[2023-07-22 09:28:44] INFO root fetch - processPackages [WaterScenes]: Downloading https://files.pythonhosted.org/packages/2d/c4/ec660e52931b08919c0a0b93ac2a838e73cd3a4562a58c1cfdde54d1cfe7/WaterScenes-1.0.0.post1-py3-none-any.whl
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy2018]: Downloading https://files.pythonhosted.org/packages/ce/fd/869e3c575a821234743d72d3a8d6e80734e9cdc9266cdde93d18ff101773/abqpy2018-0.0.1.tar.gz
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy2021]: New version: [2021.5.5] Old Version: [2021.5.4.post2]
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy2017]: Downloading https://files.pythonhosted.org/packages/de/92/85d48e4f7645e4f8c208156812d9cbf4a840345f9a8c52f7f50e6aebf416/abqpy2017-2017.5.4.post2.tar.gz
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/c7/ab/8d1a8770b56d85fd85b3c59ffc60304156c9574a08d648d156586985fdf7/abqpy-2023.5.4.tar.gz
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/c7/ab/8d1a8770b56d85fd85b3c59ffc60304156c9574a08d648d156586985fdf7/abqpy-2023.5.4.tar.gz
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/c7/ab/8d1a8770b56d85fd85b3c59ffc60304156c9574a08d648d156586985fdf7/abqpy-2023.5.4.tar.gz
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/c7/ab/8d1a8770b56d85fd85b3c59ffc60304156c9574a08d648d156586985fdf7/abqpy-2023.5.4.tar.gz
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy2019]: Downloading https://files.pythonhosted.org/packages/ac/82/01a7879661920fbec41e26b22f21da218d2636c1f8c972a734086bed57ac/abqpy2019-2019.5.4.post2.tar.gz
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy2016]: Downloading https://files.pythonhosted.org/packages/76/98/0975d74895e2692c343b098772eae395b444203187170d8a396db2c3e84b/abqpy2016-2016.5.4.post2.tar.gz
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy2021]: Downloading https://files.pythonhosted.org/packages/59/00/faa4d2efb546fd97828e28e7111e54af82d2a70386a4f94c2e57870cd3cc/abqpy2021-2021.5.4.post2.tar.gz
+[2023-07-22 09:28:44] INFO root fetch - processPackages [WaterScenes]: Downloading https://files.pythonhosted.org/packages/ea/19/7690ea93f19f460e1224527c93455b16cadae4d628692a15216152903d71/WaterScenes-1.0.1-py3-none-any.whl
+[2023-07-22 09:28:44] INFO root fetch - processPackages [WaterScenes]: executing diffoscope
+[2023-07-22 09:28:44] INFO root fetch - processPackages [WaterScenes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WaterScenes-1.0.0.post1-py3-none-any.whl.zip tmp/WaterScenes-1.0.1-py3-none-any.whl.zip --markdown 20230722/W/WaterScenes/1.0.0.post1-1.0.1/diff.md --exclude *.pyd
+[2023-07-22 09:28:44] INFO root fetch - processPackages [abqpy2017]: Downloading https://files.pythonhosted.org/packages/4a/ee/c3ebcb2c063a1c70e7fdcce4a0d8eb0e61ef547c8b01d0200662c40d6549/abqpy2017-2017.5.5.tar.gz
+[2023-07-22 09:28:45] INFO root fetch - processPackages [abqpy2018]: Downloading https://files.pythonhosted.org/packages/40/a3/55b1fba13d2ed6ede04000e318e10c84871d4f4524b4ee70873263db9f28/abqpy2018-2018.5.4.post2.tar.gz
+[2023-07-22 09:28:45] INFO root fetch - processPackages [abqpy2019]: Downloading https://files.pythonhosted.org/packages/4b/8d/6e8ba407a068462548231c749bef76048cbf50509a563b06eb13d75f52ee/abqpy2019-2019.5.5.tar.gz
+[2023-07-22 09:28:45] INFO root fetch - processPackages [abqpy2021]: Downloading https://files.pythonhosted.org/packages/86/21/111ed2b30cf7152df9bf5923416ef7a9409c8526ddf5da8137192adca059/abqpy2021-2021.5.5.tar.gz
+[2023-07-22 09:28:45] INFO root fetch - processPackages [abqpy2016]: Downloading https://files.pythonhosted.org/packages/dc/7f/16f8ee17a094635a0735e743a4741677f2cdbcccaef117f6f6435217ea5a/abqpy2016-2016.5.5.tar.gz
+[2023-07-22 09:28:45] INFO root fetch - processPackages [abqpy2017]: executing diffoscope
+[2023-07-22 09:28:45] INFO root fetch - processPackages [abqpy2017]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy2017-2017.5.4.post2.tar.gz tmp/abqpy2017-2017.5.5.tar.gz --markdown 20230722/a/abqpy2017/2017.5.4.post2-2017.5.5/diff.md --exclude *.pyd
+[2023-07-22 09:28:45] INFO root fetch - processPackages [abqpy2018]: executing diffoscope
+[2023-07-22 09:28:45] INFO root fetch - processPackages [abqpy2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy2018-0.0.1.tar.gz tmp/abqpy2018-2018.5.4.post2.tar.gz --markdown 20230722/a/abqpy2018/0.0.1-2018.5.4.post2/diff.md --exclude *.pyd
+[2023-07-22 09:28:45] INFO root fetch - processPackages [abqpy2021]: executing diffoscope
+[2023-07-22 09:28:45] INFO root fetch - processPackages [abqpy2021]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy2021-2021.5.4.post2.tar.gz tmp/abqpy2021-2021.5.5.tar.gz --markdown 20230722/a/abqpy2021/2021.5.4.post2-2021.5.5/diff.md --exclude *.pyd
+[2023-07-22 09:28:45] INFO root fetch - processPackages [abqpy2019]: executing diffoscope
+[2023-07-22 09:28:45] INFO root fetch - processPackages [abqpy2019]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy2019-2019.5.4.post2.tar.gz tmp/abqpy2019-2019.5.5.tar.gz --markdown 20230722/a/abqpy2019/2019.5.4.post2-2019.5.5/diff.md --exclude *.pyd
+[2023-07-22 09:28:45] INFO root fetch - processPackages [abqpy2016]: executing diffoscope
+[2023-07-22 09:28:45] INFO root fetch - processPackages [abqpy2016]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy2016-2016.5.4.post2.tar.gz tmp/abqpy2016-2016.5.5.tar.gz --markdown 20230722/a/abqpy2016/2016.5.4.post2-2016.5.5/diff.md --exclude *.pyd
+[2023-07-22 09:28:45] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/81/19/f1e6947d4d230a5a73ed1d9f682710225ad4972c015007aba9edf5bd4743/abqpy-2023.5.5.tar.gz
+[2023-07-22 09:28:45] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/81/19/f1e6947d4d230a5a73ed1d9f682710225ad4972c015007aba9edf5bd4743/abqpy-2023.5.5.tar.gz
+[2023-07-22 09:28:45] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/81/19/f1e6947d4d230a5a73ed1d9f682710225ad4972c015007aba9edf5bd4743/abqpy-2023.5.5.tar.gz
+[2023-07-22 09:28:45] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/81/19/f1e6947d4d230a5a73ed1d9f682710225ad4972c015007aba9edf5bd4743/abqpy-2023.5.5.tar.gz
+[2023-07-22 09:28:45] INFO root fetch - processPackages [WaterScenes]: Remove: archive file [/home/abi/fetcher/tmp/WaterScenes-1.0.0.post1-py3-none-any.whl.zip]
+[2023-07-22 09:28:45] INFO root fetch - processPackages [WaterScenes]: Remove: archive file [/home/abi/fetcher/tmp/WaterScenes-1.0.1-py3-none-any.whl.zip]
+[2023-07-22 09:28:45] INFO root fetch - processPackages [WaterScenes]: Start processing: abqpy
+[2023-07-22 09:28:45] INFO root fetch - main [MainThread]: End processing [WaterScenes]: success
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: New version: [2023.5.5] Old Version: [2023.5.4]
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2017]: Remove: archive file [/home/abi/fetcher/tmp/abqpy2017-2017.5.4.post2.tar.gz]
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2017]: Remove: archive file [/home/abi/fetcher/tmp/abqpy2017-2017.5.5.tar.gz]
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2017]: Start processing: abqpy
+[2023-07-22 09:28:46] INFO root fetch - main [MainThread]: End processing [abqpy2017]: success
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2021]: Remove: archive file [/home/abi/fetcher/tmp/abqpy2021-2021.5.4.post2.tar.gz]
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2021]: Remove: archive file [/home/abi/fetcher/tmp/abqpy2021-2021.5.5.tar.gz]
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2021]: Start processing: abqpy2020
+[2023-07-22 09:28:46] INFO root fetch - main [MainThread]: End processing [abqpy2021]: success
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/81/19/f1e6947d4d230a5a73ed1d9f682710225ad4972c015007aba9edf5bd4743/abqpy-2023.5.5.tar.gz
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: New version: [2023.5.5] Old Version: [2023.5.4]
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2018]: Remove: archive file [/home/abi/fetcher/tmp/abqpy2018-0.0.1.tar.gz]
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2018]: Remove: archive file [/home/abi/fetcher/tmp/abqpy2018-2018.5.4.post2.tar.gz]
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2018]: Start processing: abqpy
+[2023-07-22 09:28:46] INFO root fetch - main [MainThread]: End processing [abqpy2018]: success
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2020]: New version: [2020.5.4.post2] Old Version: [0.0.1]
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2016]: Remove: archive file [/home/abi/fetcher/tmp/abqpy2016-2016.5.4.post2.tar.gz]
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2016]: Remove: archive file [/home/abi/fetcher/tmp/abqpy2016-2016.5.5.tar.gz]
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2016]: Start processing: abqpy2022
+[2023-07-22 09:28:46] INFO root fetch - main [MainThread]: End processing [abqpy2016]: success
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2019]: Remove: archive file [/home/abi/fetcher/tmp/abqpy2019-2019.5.4.post2.tar.gz]
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2019]: Remove: archive file [/home/abi/fetcher/tmp/abqpy2019-2019.5.5.tar.gz]
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2019]: Start processing: abqpy
+[2023-07-22 09:28:46] INFO root fetch - main [MainThread]: End processing [abqpy2019]: success
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2022]: New version: [2022.5.4.post2] Old Version: [0.0.1]
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: New version: [2023.5.5] Old Version: [2023.5.4]
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: New version: [2023.5.5] Old Version: [2023.5.4]
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/81/19/f1e6947d4d230a5a73ed1d9f682710225ad4972c015007aba9edf5bd4743/abqpy-2023.5.5.tar.gz
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2020]: Downloading https://files.pythonhosted.org/packages/bd/52/4437ff1a0a0727cb95668462fad7b819584c66025deb3bbb3732e82213f3/abqpy2020-0.0.1.tar.gz
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/81/19/f1e6947d4d230a5a73ed1d9f682710225ad4972c015007aba9edf5bd4743/abqpy-2023.5.5.tar.gz
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/81/19/f1e6947d4d230a5a73ed1d9f682710225ad4972c015007aba9edf5bd4743/abqpy-2023.5.5.tar.gz
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2022]: Downloading https://files.pythonhosted.org/packages/8f/94/7e217a2288763b988dce4bb497a7dded5805d380bb0fb27dc97dde598fda/abqpy2022-0.0.1.tar.gz
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.5.4.tar.gz tmp/abqpy-2023.5.5.tar.gz --markdown 20230722/a/abqpy/2023.5.4-2023.5.5/diff.md --exclude *.pyd
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.5.4.tar.gz tmp/abqpy-2023.5.5.tar.gz --markdown 20230722/a/abqpy/2023.5.4-2023.5.5/diff.md --exclude *.pyd
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.5.4.tar.gz tmp/abqpy-2023.5.5.tar.gz --markdown 20230722/a/abqpy/2023.5.4-2023.5.5/diff.md --exclude *.pyd
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.5.4.tar.gz tmp/abqpy-2023.5.5.tar.gz --markdown 20230722/a/abqpy/2023.5.4-2023.5.5/diff.md --exclude *.pyd
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.5.4.tar.gz tmp/abqpy-2023.5.5.tar.gz --markdown 20230722/a/abqpy/2023.5.4-2023.5.5/diff.md --exclude *.pyd
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.5.4.tar.gz tmp/abqpy-2023.5.5.tar.gz --markdown 20230722/a/abqpy/2023.5.4-2023.5.5/diff.md --exclude *.pyd
+[2023-07-22 09:28:46] INFO root fetch - processPackages [abqpy2020]: Downloading https://files.pythonhosted.org/packages/05/45/fb8eb1f7ea82ec184c30aef9357b51fb7a37f168a394141ef859da364a4c/abqpy2020-2020.5.4.post2.tar.gz
+[2023-07-22 09:28:47] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-07-22 09:28:47] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.5.4.tar.gz tmp/abqpy-2023.5.5.tar.gz --markdown 20230722/a/abqpy/2023.5.4-2023.5.5/diff.md --exclude *.pyd
+[2023-07-22 09:28:47] INFO root fetch - processPackages [abqpy2020]: executing diffoscope
+[2023-07-22 09:28:47] INFO root fetch - processPackages [abqpy2020]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy2020-0.0.1.tar.gz tmp/abqpy2020-2020.5.4.post2.tar.gz --markdown 20230722/a/abqpy2020/0.0.1-2020.5.4.post2/diff.md --exclude *.pyd
+[2023-07-22 09:28:47] INFO root fetch - processPackages [abqpy2022]: Downloading https://files.pythonhosted.org/packages/39/68/7c9ff824b2f921e40eeace5746e05129ce02463bb347bdec6483f4f7383a/abqpy2022-2022.5.4.post2.tar.gz
+[2023-07-22 09:28:47] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-07-22 09:28:47] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.5.4.tar.gz tmp/abqpy-2023.5.5.tar.gz --markdown 20230722/a/abqpy/2023.5.4-2023.5.5/diff.md --exclude *.pyd
+[2023-07-22 09:28:47] INFO root fetch - processPackages [abqpy2022]: executing diffoscope
+[2023-07-22 09:28:47] INFO root fetch - processPackages [abqpy2022]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy2022-0.0.1.tar.gz tmp/abqpy2022-2022.5.4.post2.tar.gz --markdown 20230722/a/abqpy2022/0.0.1-2022.5.4.post2/diff.md --exclude *.pyd
+[2023-07-22 09:28:48] INFO root fetch - processPackages [abqpy2020]: Remove: archive file [/home/abi/fetcher/tmp/abqpy2020-0.0.1.tar.gz]
+[2023-07-22 09:28:48] INFO root fetch - processPackages [abqpy2020]: Remove: archive file [/home/abi/fetcher/tmp/abqpy2020-2020.5.4.post2.tar.gz]
+[2023-07-22 09:28:48] INFO root fetch - processPackages [abqpy2020]: Start processing: abqpy2023
+[2023-07-22 09:28:48] INFO root fetch - main [MainThread]: End processing [abqpy2020]: success
+[2023-07-22 09:28:48] INFO root fetch - processPackages [abqpy2023]: New version: [2023.5.4.post2] Old Version: [0.0.1]
+[2023-07-22 09:28:49] INFO root fetch - processPackages [abqpy2023]: Downloading https://files.pythonhosted.org/packages/a7/de/51a867839b04fa4b78e1d8c61cd95209cf53941dc6aa0b17a4546b260a05/abqpy2023-0.0.1.tar.gz
+[2023-07-22 09:28:49] INFO root fetch - processPackages [abqpy2022]: Remove: archive file [/home/abi/fetcher/tmp/abqpy2022-0.0.1.tar.gz]
+[2023-07-22 09:28:49] INFO root fetch - processPackages [abqpy2022]: Remove: archive file [/home/abi/fetcher/tmp/abqpy2022-2022.5.4.post2.tar.gz]
+[2023-07-22 09:28:49] INFO root fetch - processPackages [abqpy2022]: Start processing: umap-project
+[2023-07-22 09:28:49] INFO root fetch - main [MainThread]: End processing [abqpy2022]: success
+[2023-07-22 09:28:49] INFO root fetch - processPackages [umap-project]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-22 09:28:49] INFO root fetch - processPackages [abqpy2023]: Downloading https://files.pythonhosted.org/packages/78/4e/38c55dcf281df3d1cefa3b7377aa7c56bb2d3592d055fbe0cdcd3464de5e/abqpy2023-2023.5.4.post2.tar.gz
+[2023-07-22 09:28:49] INFO root fetch - processPackages [umap-project]: Downloading https://files.pythonhosted.org/packages/b0/54/1307c7420789673dd1a15b931e6946def02765cb796ad209749906a98cc7/umap_project-1.4.3.tar.gz
+[2023-07-22 09:28:49] INFO root fetch - processPackages [abqpy2023]: executing diffoscope
+[2023-07-22 09:28:49] INFO root fetch - processPackages [abqpy2023]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy2023-0.0.1.tar.gz tmp/abqpy2023-2023.5.4.post2.tar.gz --markdown 20230722/a/abqpy2023/0.0.1-2023.5.4.post2/diff.md --exclude *.pyd
+[2023-07-22 09:28:50] INFO root fetch - processPackages [umap-project]: Downloading https://files.pythonhosted.org/packages/81/9b/bacf950d90828c69b3c0d435de127e1a599910d831c2c9b92970a7784324/umap_project-1.4.4.tar.gz
+[2023-07-22 09:28:50] INFO root fetch - processPackages [umap-project]: executing diffoscope
+[2023-07-22 09:28:50] INFO root fetch - processPackages [umap-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umap_project-1.4.3.tar.gz tmp/umap_project-1.4.4.tar.gz --markdown 20230722/u/umap-project/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-22 09:28:51] INFO root fetch - processPackages [abqpy2023]: Remove: archive file [/home/abi/fetcher/tmp/abqpy2023-0.0.1.tar.gz]
+[2023-07-22 09:28:51] INFO root fetch - processPackages [abqpy2023]: Remove: archive file [/home/abi/fetcher/tmp/abqpy2023-2023.5.4.post2.tar.gz]
+[2023-07-22 09:28:51] INFO root fetch - processPackages [abqpy2023]: Start processing: ai-functions
+[2023-07-22 09:28:51] INFO root fetch - main [MainThread]: End processing [abqpy2023]: success
+[2023-07-22 09:28:51] WARNING root fetch - processPackages [ai-functions]: Skipping, unable to determine old version
+[2023-07-22 09:28:51] INFO root fetch - processPackages [ai-functions]: Start processing: simple-aesthetics-predictor
+[2023-07-22 09:28:51] INFO root fetch - main [MainThread]: End processing [ai-functions] error
+[2023-07-22 09:28:51] WARNING root fetch - processPackages [simple-aesthetics-predictor]: Skipping, unable to determine old version
+[2023-07-22 09:28:51] INFO root fetch - processPackages [simple-aesthetics-predictor]: Start processing: streamlit-nightly
+[2023-07-22 09:28:51] INFO root fetch - main [MainThread]: End processing [simple-aesthetics-predictor] error
+[2023-07-22 09:28:51] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-07-22 09:28:52] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-07-22 09:28:54] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-07-22 09:28:55] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-07-22 09:28:55] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230722/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-07-22 09:28:58] INFO root fetch - processPackages [umap-project]: Remove: archive file [/home/abi/fetcher/tmp/umap_project-1.4.3.tar.gz]
+[2023-07-22 09:28:58] INFO root fetch - processPackages [umap-project]: Remove: archive file [/home/abi/fetcher/tmp/umap_project-1.4.4.tar.gz]
+[2023-07-22 09:28:58] INFO root fetch - processPackages [umap-project]: Start processing: medimageaugment
+[2023-07-22 09:28:58] INFO root fetch - main [MainThread]: End processing [umap-project]: success
+[2023-07-22 09:28:58] INFO root fetch - processPackages [medimageaugment]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-22 09:28:58] INFO root fetch - processPackages [medimageaugment]: Downloading https://files.pythonhosted.org/packages/c5/03/e64bddb75314251d8642113fdaa1cea8ebab0b69162060d2d1bd4644a3ce/medimageaugment-1.2.1.tar.gz
+[2023-07-22 09:28:58] INFO root fetch - processPackages [medimageaugment]: Downloading https://files.pythonhosted.org/packages/d7/2d/7b32f6f80e29ff9425002ab29efc872b0e502a355f052fb00bb316e71661/medimageaugment-1.2.2.tar.gz
+[2023-07-22 09:28:58] INFO root fetch - processPackages [medimageaugment]: executing diffoscope
+[2023-07-22 09:28:58] INFO root fetch - processPackages [medimageaugment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medimageaugment-1.2.1.tar.gz tmp/medimageaugment-1.2.2.tar.gz --markdown 20230722/m/medimageaugment/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-22 09:29:00] INFO root fetch - processPackages [medimageaugment]: Remove: archive file [/home/abi/fetcher/tmp/medimageaugment-1.2.1.tar.gz]
+[2023-07-22 09:29:00] INFO root fetch - processPackages [medimageaugment]: Remove: archive file [/home/abi/fetcher/tmp/medimageaugment-1.2.2.tar.gz]
+[2023-07-22 09:29:00] INFO root fetch - main [MainThread]: End processing [medimageaugment]: success
+[2023-07-22 09:29:07] INFO root fetch - processPackages [abqpy]: Remove: archive file [/home/abi/fetcher/tmp/abqpy-2023.5.4.tar.gz]
+[2023-07-22 09:29:07] INFO root fetch - processPackages [abqpy]: Remove: archive file [/home/abi/fetcher/tmp/abqpy-2023.5.5.tar.gz]
+[2023-07-22 09:29:07] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-07-22 09:29:07] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-07-22 09:29:07] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-07-22 09:29:07] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-07-22 09:29:08] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-07-22 09:29:08] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-07-22 09:29:08] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-07-22 09:29:08] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-07-22 09:29:08] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-07-22 09:29:08] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-07-22 09:29:08] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-07-22 09:29:08] INFO root fetch - main [MainThread]: Store serial: [18993433]
