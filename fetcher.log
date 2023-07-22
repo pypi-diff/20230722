@@ -19846,3 +19846,47 @@ EOFError: EOF read where object expected
 [2023-07-22 22:54:44] INFO root fetch - processPackages [angreal]: Remove: archive file [/home/abi/fetcher/tmp/angreal-2.0.7.tar.gz]
 [2023-07-22 22:54:44] INFO root fetch - main [MainThread]: End processing [angreal]: success
 [2023-07-22 22:54:44] INFO root fetch - main [MainThread]: Store serial: [18997518]
+[2023-07-22 22:59:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18997518]
+[2023-07-22 22:59:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 22:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sciwave
+[2023-07-22 22:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: midi_const
+[2023-07-22 22:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brainweb-dl
+[2023-07-22 22:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pillar1
+[2023-07-22 22:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iso3166-updates
+[2023-07-22 22:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bitsandbytes
+[2023-07-22 22:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scicycle
+[2023-07-22 22:59:54] INFO root fetch - processPackages [brainweb-dl]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-22 22:59:54] INFO root fetch - processPackages [pillar1]: New version: [0.1.9.9] Old Version: [0.1.9.8]
+[2023-07-22 22:59:55] WARNING root fetch - processPackages [sciwave]: Skipping, unable to determine old version
+[2023-07-22 22:59:55] INFO root fetch - main [MainThread]: End processing [sciwave] error
+[2023-07-22 22:59:55] WARNING root fetch - processPackages [midi_const]: Skipping, unable to determine old version
+[2023-07-22 22:59:55] INFO root fetch - main [MainThread]: End processing [midi_const] error
+[2023-07-22 22:59:55] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/fd/c8/dc894f4393d99c54f62ae98519892157e6b0e0327ac1f0b1a261450e9868/pillar1-0.1.9.8.tar.gz
+[2023-07-22 22:59:55] INFO root fetch - processPackages [bitsandbytes]: New version: [0.41.0] Old Version: [0.40.2]
+[2023-07-22 22:59:55] INFO root fetch - processPackages [iso3166-updates]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-22 22:59:55] WARNING root fetch - processPackages [scicycle]: Skipping, unable to determine old version
+[2023-07-22 22:59:55] INFO root fetch - main [MainThread]: End processing [scicycle] error
+[2023-07-22 22:59:55] INFO root fetch - processPackages [brainweb-dl]: Downloading https://files.pythonhosted.org/packages/d8/30/30ca023fb4ef3107f26b03e0b234c8b9b09f4a01e7076b0f6256a6f61fab/brainweb-dl-0.0.0.tar.gz
+[2023-07-22 22:59:55] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/92/8d/efcf5703708adcc432230e0d510fec42756434d28ae2e4b4348f30be2eef/pillar1-0.1.9.9.tar.gz
+[2023-07-22 22:59:55] INFO root fetch - processPackages [iso3166-updates]: Downloading https://files.pythonhosted.org/packages/ff/e7/ade348dec8b51191503871688a4ffd524445651c9f04def77d1cba2133b8/iso3166-updates-1.4.1.tar.gz
+[2023-07-22 22:59:55] INFO root fetch - processPackages [bitsandbytes]: Downloading https://files.pythonhosted.org/packages/01/c5/a86fc4359561d76c35c658ca6a1765bbbaac2202f5f1e2af910339365afb/bitsandbytes-0.40.2.tar.gz
+[2023-07-22 22:59:55] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-07-22 22:59:55] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.9.8.tar.gz tmp/pillar1-0.1.9.9.tar.gz --markdown 20230722/p/pillar1/0.1.9.8-0.1.9.9/diff.md --exclude *.pyd
+[2023-07-22 22:59:55] WARNING root fetch - processPackages [bitsandbytes]: Skipping package: exceeds size limit 90979552>=10485760
+[2023-07-22 22:59:55] INFO root fetch - main [MainThread]: End processing [bitsandbytes] error
+[2023-07-22 22:59:55] INFO root fetch - processPackages [brainweb-dl]: Downloading https://files.pythonhosted.org/packages/f8/47/1b8188f1085b571b9f0aad0747a923fc025371a1e47387ba8806f7f2540b/brainweb-dl-0.0.1.tar.gz
+[2023-07-22 22:59:55] INFO root fetch - processPackages [iso3166-updates]: Downloading https://files.pythonhosted.org/packages/4b/cf/ac6253cfd846928ceedb2d5e87de6d3cbd7da35d4823272c8f32e805214a/iso3166-updates-1.4.2.tar.gz
+[2023-07-22 22:59:55] INFO root fetch - processPackages [brainweb-dl]: executing diffoscope
+[2023-07-22 22:59:55] INFO root fetch - processPackages [brainweb-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainweb-dl-0.0.0.tar.gz tmp/brainweb-dl-0.0.1.tar.gz --markdown 20230722/b/brainweb-dl/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-22 22:59:55] INFO root fetch - processPackages [iso3166-updates]: executing diffoscope
+[2023-07-22 22:59:55] INFO root fetch - processPackages [iso3166-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iso3166-updates-1.4.1.tar.gz tmp/iso3166-updates-1.4.2.tar.gz --markdown 20230722/i/iso3166-updates/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-22 22:59:56] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.8.tar.gz]
+[2023-07-22 22:59:56] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.9.tar.gz]
+[2023-07-22 22:59:56] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-07-22 22:59:56] INFO root fetch - processPackages [brainweb-dl]: Remove: archive file [/home/abi/fetcher/tmp/brainweb-dl-0.0.0.tar.gz]
+[2023-07-22 22:59:56] INFO root fetch - processPackages [brainweb-dl]: Remove: archive file [/home/abi/fetcher/tmp/brainweb-dl-0.0.1.tar.gz]
+[2023-07-22 22:59:56] INFO root fetch - main [MainThread]: End processing [brainweb-dl]: success
+[2023-07-22 22:59:56] INFO root fetch - processPackages [iso3166-updates]: Remove: archive file [/home/abi/fetcher/tmp/iso3166-updates-1.4.1.tar.gz]
+[2023-07-22 22:59:56] INFO root fetch - processPackages [iso3166-updates]: Remove: archive file [/home/abi/fetcher/tmp/iso3166-updates-1.4.2.tar.gz]
+[2023-07-22 22:59:56] INFO root fetch - main [MainThread]: End processing [iso3166-updates]: success
+[2023-07-22 22:59:56] INFO root fetch - main [MainThread]: Store serial: [18997547]
