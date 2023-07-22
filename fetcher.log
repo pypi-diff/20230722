@@ -14854,3 +14854,54 @@
 [2023-07-22 16:10:14] INFO root fetch - processPackages [liba]: Remove: archive file [/home/abi/fetcher/tmp/liba-0.1.1rc8.tar.gz]
 [2023-07-22 16:10:14] INFO root fetch - main [MainThread]: End processing [liba]: success
 [2023-07-22 16:10:14] INFO root fetch - main [MainThread]: Store serial: [18995307]
+[2023-07-22 16:15:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995307]
+[2023-07-22 16:15:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 16:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyote
+[2023-07-22 16:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: babymaycry
+[2023-07-22 16:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybi-next
+[2023-07-22 16:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zshgpt
+[2023-07-22 16:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: marketwatchdata
+[2023-07-22 16:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sklearn-mlmlm
+[2023-07-22 16:15:23] INFO root fetch - processPackages [sklearn-mlmlm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 16:15:23] WARNING root fetch - processPackages [marketwatchdata]: Skipping, unable to determine old version
+[2023-07-22 16:15:23] INFO root fetch - main [MainThread]: End processing [marketwatchdata] error
+[2023-07-22 16:15:23] INFO root fetch - processPackages [babymaycry]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-22 16:15:23] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/0a/98/4ddd38a1e51a088e832ba7e63522d73dc145b8cfdec3e34074d50b210372/sklearn_mlmlm-0.0.8.tar.gz
+[2023-07-22 16:15:23] INFO root fetch - processPackages [babymaycry]: Downloading https://files.pythonhosted.org/packages/2a/c7/b4172639c7530f60b43ec14baee3b10f9cb265c9d9cd0aca990f37fb3236/babymaycry-0.0.4.tar.gz
+[2023-07-22 16:15:23] INFO root fetch - processPackages [zshgpt]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-22 16:15:23] INFO root fetch - processPackages [pybi-next]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-22 16:15:23] INFO root fetch - processPackages [pyote]: New version: [5.3.5] Old Version: [5.3.4]
+[2023-07-22 16:15:23] INFO root fetch - processPackages [zshgpt]: Downloading https://files.pythonhosted.org/packages/87/23/d2258720e66cfb99134202cf149b925a1580f31eb2e2b05a914e0b56375b/zshgpt-0.1.2.tar.gz
+[2023-07-22 16:15:23] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/8e/20/5b0f76a3c4ec519bdc1252725dd78ad4afcc5b17fd82f5330134186be426/sklearn_mlmlm-0.0.9.tar.gz
+[2023-07-22 16:15:23] INFO root fetch - processPackages [pybi-next]: Downloading https://files.pythonhosted.org/packages/95/5f/31a3999637cb1a2556870c755b1dc2b87d914de61bc5e048d0e46f9f72cb/pybi-next-0.4.8.tar.gz
+[2023-07-22 16:15:23] INFO root fetch - processPackages [pyote]: Downloading https://files.pythonhosted.org/packages/dc/fa/53a6093227aed2c5116dc5ce3ccaa5bafbb0069c8384d9558101e035b171/pyote-5.3.4.tar.gz
+[2023-07-22 16:15:23] INFO root fetch - processPackages [babymaycry]: Downloading https://files.pythonhosted.org/packages/bd/5e/ee4c542c241893ad7f431352d9ca838c12f239bb2a68789ee3ddf3caafe9/babymaycry-0.0.5.tar.gz
+[2023-07-22 16:15:24] INFO root fetch - processPackages [sklearn-mlmlm]: executing diffoscope
+[2023-07-22 16:15:24] INFO root fetch - processPackages [sklearn-mlmlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_mlmlm-0.0.8.tar.gz tmp/sklearn_mlmlm-0.0.9.tar.gz --markdown 20230722/s/sklearn-mlmlm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 16:15:24] INFO root fetch - processPackages [babymaycry]: executing diffoscope
+[2023-07-22 16:15:24] INFO root fetch - processPackages [babymaycry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babymaycry-0.0.4.tar.gz tmp/babymaycry-0.0.5.tar.gz --markdown 20230722/b/babymaycry/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-22 16:15:24] INFO root fetch - processPackages [zshgpt]: Downloading https://files.pythonhosted.org/packages/7b/2d/00b28c52f6c6d7da258f78fb76181475456fd1841dc16c69fe6ae4718c7e/zshgpt-0.2.0.tar.gz
+[2023-07-22 16:15:24] INFO root fetch - processPackages [pyote]: Downloading https://files.pythonhosted.org/packages/60/3d/022c5504494e77b1b4fcabd36bd665d7b037cb31a758a865dfd62fc7f382/pyote-5.3.5.tar.gz
+[2023-07-22 16:15:24] INFO root fetch - processPackages [zshgpt]: executing diffoscope
+[2023-07-22 16:15:24] INFO root fetch - processPackages [zshgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zshgpt-0.1.2.tar.gz tmp/zshgpt-0.2.0.tar.gz --markdown 20230722/z/zshgpt/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-22 16:15:24] INFO root fetch - processPackages [pyote]: executing diffoscope
+[2023-07-22 16:15:24] INFO root fetch - processPackages [pyote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyote-5.3.4.tar.gz tmp/pyote-5.3.5.tar.gz --markdown 20230722/p/pyote/5.3.4-5.3.5/diff.md --exclude *.pyd
+[2023-07-22 16:15:24] INFO root fetch - processPackages [babymaycry]: Remove: archive file [/home/abi/fetcher/tmp/babymaycry-0.0.4.tar.gz]
+[2023-07-22 16:15:24] INFO root fetch - processPackages [babymaycry]: Remove: archive file [/home/abi/fetcher/tmp/babymaycry-0.0.5.tar.gz]
+[2023-07-22 16:15:24] INFO root fetch - main [MainThread]: End processing [babymaycry]: success
+[2023-07-22 16:15:24] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.8.tar.gz]
+[2023-07-22 16:15:24] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.9.tar.gz]
+[2023-07-22 16:15:24] INFO root fetch - main [MainThread]: End processing [sklearn-mlmlm]: success
+[2023-07-22 16:15:25] INFO root fetch - processPackages [pybi-next]: Downloading https://files.pythonhosted.org/packages/e1/25/5603567c18ea82933931cbaae53c0ffa5e7221b8df4d5165910f3e4f76e8/pybi-next-0.4.9.tar.gz
+[2023-07-22 16:15:25] INFO root fetch - processPackages [zshgpt]: Remove: archive file [/home/abi/fetcher/tmp/zshgpt-0.1.2.tar.gz]
+[2023-07-22 16:15:25] INFO root fetch - processPackages [zshgpt]: Remove: archive file [/home/abi/fetcher/tmp/zshgpt-0.2.0.tar.gz]
+[2023-07-22 16:15:25] INFO root fetch - main [MainThread]: End processing [zshgpt]: success
+[2023-07-22 16:15:25] INFO root fetch - processPackages [pyote]: Remove: archive file [/home/abi/fetcher/tmp/pyote-5.3.4.tar.gz]
+[2023-07-22 16:15:25] INFO root fetch - processPackages [pyote]: Remove: archive file [/home/abi/fetcher/tmp/pyote-5.3.5.tar.gz]
+[2023-07-22 16:15:25] INFO root fetch - main [MainThread]: End processing [pyote]: success
+[2023-07-22 16:15:26] INFO root fetch - processPackages [pybi-next]: executing diffoscope
+[2023-07-22 16:15:26] INFO root fetch - processPackages [pybi-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybi-next-0.4.8.tar.gz tmp/pybi-next-0.4.9.tar.gz --markdown 20230722/p/pybi-next/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-22 16:15:32] INFO root fetch - processPackages [pybi-next]: Remove: archive file [/home/abi/fetcher/tmp/pybi-next-0.4.8.tar.gz]
+[2023-07-22 16:15:32] INFO root fetch - processPackages [pybi-next]: Remove: archive file [/home/abi/fetcher/tmp/pybi-next-0.4.9.tar.gz]
+[2023-07-22 16:15:32] INFO root fetch - main [MainThread]: End processing [pybi-next]: success
+[2023-07-22 16:15:32] INFO root fetch - main [MainThread]: Store serial: [18995324]
