@@ -9790,3 +9790,33 @@
 [2023-07-22 07:55:17] INFO root fetch - processPackages [smol]: Remove: archive file [/home/abi/fetcher/tmp/smol-0.4.1.tar.gz]
 [2023-07-22 07:55:17] INFO root fetch - main [MainThread]: End processing [smol]: success
 [2023-07-22 07:55:17] INFO root fetch - main [MainThread]: Store serial: [18993009]
+[2023-07-22 08:00:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993009]
+[2023-07-22 08:00:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-22 08:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: refiner-cli
+[2023-07-22 08:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiodnsbl
+[2023-07-22 08:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alt-profanity-check
+[2023-07-22 08:00:26] INFO root fetch - processPackages [alt-profanity-check]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-22 08:00:26] INFO root fetch - processPackages [refiner-cli]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-22 08:00:26] INFO root fetch - processPackages [aiodnsbl]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-07-22 08:00:26] INFO root fetch - processPackages [alt-profanity-check]: Downloading https://files.pythonhosted.org/packages/88/9b/5c50e674fa467d7dd7babc5927201d3c16636544cc31b63e4699e453c987/alt-profanity-check-1.2.1.tar.gz
+[2023-07-22 08:00:26] INFO root fetch - processPackages [refiner-cli]: Downloading https://files.pythonhosted.org/packages/b8/57/9085490776ae50fc2e544dd50cccd7c937f86a95526553aae351ea8c36b5/refiner-cli-0.0.1.tar.gz
+[2023-07-22 08:00:26] INFO root fetch - processPackages [aiodnsbl]: Downloading https://files.pythonhosted.org/packages/5c/db/4f1cfd6f3d9708fe090c14f5ba09b86ac5b2bca2421cf2ea5600d8cea60b/aiodnsbl-0.1.1.tar.gz
+[2023-07-22 08:00:26] INFO root fetch - processPackages [alt-profanity-check]: Downloading https://files.pythonhosted.org/packages/c8/99/8876bacf238fd98909083252463a06317710490f7b3e389101f26dfd9bc0/alt-profanity-check-1.2.2.tar.gz
+[2023-07-22 08:00:27] INFO root fetch - processPackages [refiner-cli]: Downloading https://files.pythonhosted.org/packages/9f/d3/1ae234c5ce58331f8681ddf4f4cc3ca8b765aaddc2254a03b30177d29b92/refiner-cli-0.0.2.tar.gz
+[2023-07-22 08:00:27] INFO root fetch - processPackages [alt-profanity-check]: executing diffoscope
+[2023-07-22 08:00:27] INFO root fetch - processPackages [alt-profanity-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alt-profanity-check-1.2.1.tar.gz tmp/alt-profanity-check-1.2.2.tar.gz --markdown 20230722/a/alt-profanity-check/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-22 08:00:27] INFO root fetch - processPackages [aiodnsbl]: Downloading https://files.pythonhosted.org/packages/fa/a6/e6f861a974dbc28894203a8eba9c7a5c9b0f4dc314d84bf1a280131a1ecc/aiodnsbl-1.0.0.tar.gz
+[2023-07-22 08:00:27] INFO root fetch - processPackages [refiner-cli]: executing diffoscope
+[2023-07-22 08:00:27] INFO root fetch - processPackages [refiner-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refiner-cli-0.0.1.tar.gz tmp/refiner-cli-0.0.2.tar.gz --markdown 20230722/r/refiner-cli/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-22 08:00:27] INFO root fetch - processPackages [aiodnsbl]: executing diffoscope
+[2023-07-22 08:00:27] INFO root fetch - processPackages [aiodnsbl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiodnsbl-0.1.1.tar.gz tmp/aiodnsbl-1.0.0.tar.gz --markdown 20230722/a/aiodnsbl/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-22 08:00:27] INFO root fetch - processPackages [aiodnsbl]: Remove: archive file [/home/abi/fetcher/tmp/aiodnsbl-0.1.1.tar.gz]
+[2023-07-22 08:00:27] INFO root fetch - processPackages [aiodnsbl]: Remove: archive file [/home/abi/fetcher/tmp/aiodnsbl-1.0.0.tar.gz]
+[2023-07-22 08:00:27] INFO root fetch - main [MainThread]: End processing [aiodnsbl]: success
+[2023-07-22 08:00:28] INFO root fetch - processPackages [refiner-cli]: Remove: archive file [/home/abi/fetcher/tmp/refiner-cli-0.0.1.tar.gz]
+[2023-07-22 08:00:28] INFO root fetch - processPackages [refiner-cli]: Remove: archive file [/home/abi/fetcher/tmp/refiner-cli-0.0.2.tar.gz]
+[2023-07-22 08:00:28] INFO root fetch - main [MainThread]: End processing [refiner-cli]: success
+[2023-07-22 08:00:28] INFO root fetch - processPackages [alt-profanity-check]: Remove: archive file [/home/abi/fetcher/tmp/alt-profanity-check-1.2.1.tar.gz]
+[2023-07-22 08:00:28] INFO root fetch - processPackages [alt-profanity-check]: Remove: archive file [/home/abi/fetcher/tmp/alt-profanity-check-1.2.2.tar.gz]
+[2023-07-22 08:00:28] INFO root fetch - main [MainThread]: End processing [alt-profanity-check]: success
+[2023-07-22 08:00:28] INFO root fetch - main [MainThread]: Store serial: [18993021]
