@@ -1,4 +1,4 @@
-# Comparing `tmp/botocore-a-la-carte-mediapackage-vod-1.31.8.tar.gz` & `tmp/botocore_a_la_carte_mediapackage_vod-1.31.9-py3-none-any.whl.zip`
+# Comparing `tmp/botocore-a-la-carte-mediapackage-vod-1.31.8.tar.gz` & `tmp/botocore-a-la-carte-mediapackage-vod-1.31.9.tar.gz`
 
 ## filetype from file(1)
 
