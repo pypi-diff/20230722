@@ -16345,3 +16345,87 @@ EOFError: EOF read where object expected
 [2023-07-22 17:54:49] INFO root fetch - processPackages [ultibi]: Remove: archive file [/home/abi/fetcher/tmp/ultibi-0.4.0.tar.gz]
 [2023-07-22 17:54:49] INFO root fetch - main [MainThread]: End processing [ultibi]: success
 [2023-07-22 17:54:49] INFO root fetch - main [MainThread]: Store serial: [18995922]
+[2023-07-22 17:59:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995922]
+[2023-07-22 17:59:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-22 17:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: baycomp
+[2023-07-22 17:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycomm3
+[2023-07-22 17:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modal-client
+[2023-07-22 17:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modal
+[2023-07-22 17:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: posaydones-material-theming
+[2023-07-22 17:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gw3
+[2023-07-22 17:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: img2jb2pdf
+[2023-07-22 17:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crypto-screening
+[2023-07-22 17:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lxcraft
+[2023-07-22 17:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sightvision
+[2023-07-22 17:59:58] INFO root fetch - processPackages [sightvision]: New version: [0.1.3] Old Version: [0.1]
+[2023-07-22 17:59:58] INFO root fetch - processPackages [gw3]: New version: [0.6] Old Version: [0.5]
+[2023-07-22 17:59:58] INFO root fetch - processPackages [crypto-screening]: New version: [8.0.1] Old Version: [8.0.0]
+[2023-07-22 17:59:58] INFO root fetch - processPackages [baycomp]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-22 17:59:58] INFO root fetch - processPackages [pycomm3]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-22 17:59:58] INFO root fetch - processPackages [modal-client]: New version: [0.50.2691] Old Version: [0.50.2689]
+[2023-07-22 17:59:58] WARNING root fetch - processPackages [lxcraft]: Skipping, unable to determine old version
+[2023-07-22 17:59:58] INFO root fetch - processPackages [lxcraft]: Start processing: gw3
+[2023-07-22 17:59:58] INFO root fetch - main [MainThread]: End processing [lxcraft] error
+[2023-07-22 17:59:58] WARNING root fetch - processPackages [posaydones-material-theming]: Skipping, unable to determine old version
+[2023-07-22 17:59:58] INFO root fetch - main [MainThread]: End processing [posaydones-material-theming] error
+[2023-07-22 17:59:58] WARNING root fetch - processPackages [img2jb2pdf]: Skipping, unable to determine old version
+[2023-07-22 17:59:58] INFO root fetch - main [MainThread]: End processing [img2jb2pdf] error
+[2023-07-22 17:59:58] INFO root fetch - processPackages [modal]: New version: [0.50.2691] Old Version: [0.50.2689]
+[2023-07-22 17:59:58] INFO root fetch - processPackages [gw3]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-22 17:59:58] INFO root fetch - processPackages [gw3]: Downloading https://files.pythonhosted.org/packages/90/97/31c9a6783e440d8320ac4217aeca0bde2645abf5e8b4c194b2fa54e4ee1b/gw3-0.5.tar.gz
+[2023-07-22 17:59:58] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/6b/60/e026175d8576d2b4ab1397fb573fc136de9fb11650dc687f591e47a3081d/crypto-screening-8.0.0.tar.gz
+[2023-07-22 17:59:58] INFO root fetch - processPackages [sightvision]: Downloading https://files.pythonhosted.org/packages/84/43/373dab8601f4ba75e92ef3be5bd811c43c97e4920144400cd09322d0889a/sightvision-0.1.tar.gz
+[2023-07-22 17:59:58] INFO root fetch - processPackages [pycomm3]: Downloading https://files.pythonhosted.org/packages/71/1c/5691d67ce3dc0d1339c8be19962d53ebf32a186419fe818b8b29d5dfa5e1/pycomm3-1.2.8.tar.gz
+[2023-07-22 17:59:58] INFO root fetch - processPackages [baycomp]: Downloading https://files.pythonhosted.org/packages/6e/f7/49f0cb5f1d1b2421036360d59da131c69224cfcfb483def506831b6515d4/baycomp-1.0.2.tar.gz
+[2023-07-22 17:59:58] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/ac/64/cd3961610d3c6dc5369d6810c95df3b0fb963701bb45f77bec9eb89ac14c/modal_client-0.50.2689-py3-none-any.whl
+[2023-07-22 17:59:58] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/5c/fa/8b7d2e1261aa193d9ae763c6106ebd60e31b175fa4ad0fe796ac60aabef4/modal-0.50.2689-py3-none-any.whl
+[2023-07-22 17:59:58] INFO root fetch - processPackages [gw3]: Downloading https://files.pythonhosted.org/packages/6f/7c/e09f391e9b4e425b479604b2d5475ada55b16ca626dcefffb04c12385866/gw3-0.6.1.tar.gz
+[2023-07-22 17:59:58] INFO root fetch - processPackages [gw3]: Downloading https://files.pythonhosted.org/packages/73/ad/86d7846bde71a2e596dde52af8b094b53a91a1c166ddc239c64c26b7675c/gw3-0.6.tar.gz
+[2023-07-22 17:59:58] INFO root fetch - processPackages [sightvision]: Downloading https://files.pythonhosted.org/packages/89/31/42443a1833aa98868e4f675c74513d0e5c372de514a49d3aed7b6caff444/sightvision-0.1.3.tar.gz
+[2023-07-22 17:59:58] INFO root fetch - processPackages [pycomm3]: Downloading https://files.pythonhosted.org/packages/39/16/df46fc02da1711d11be38ffa70bc9742616ca9d7aecbcf3c8606d19ddf45/pycomm3-1.2.9.tar.gz
+[2023-07-22 17:59:58] INFO root fetch - processPackages [gw3]: executing diffoscope
+[2023-07-22 17:59:58] INFO root fetch - processPackages [gw3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gw3-0.5.tar.gz tmp/gw3-0.6.tar.gz --markdown 20230722/g/gw3/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-22 17:59:58] INFO root fetch - processPackages [sightvision]: executing diffoscope
+[2023-07-22 17:59:58] INFO root fetch - processPackages [sightvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sightvision-0.1.tar.gz tmp/sightvision-0.1.3.tar.gz --markdown 20230722/s/sightvision/0.1-0.1.3/diff.md --exclude *.pyd
+[2023-07-22 17:59:58] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/54/85/19f64e230d1efa77cda1c3cd79aaac3c0029716c6df51250ec22cd0cf0f9/crypto-screening-8.0.1.tar.gz
+[2023-07-22 17:59:59] INFO root fetch - processPackages [pycomm3]: executing diffoscope
+[2023-07-22 17:59:59] INFO root fetch - processPackages [pycomm3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycomm3-1.2.8.tar.gz tmp/pycomm3-1.2.9.tar.gz --markdown 20230722/p/pycomm3/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-22 17:59:59] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/83/11/70e3b7f5eca0444e99997a89ed58da147bd0b6e7c0da8f05ed19d4f4a044/modal-0.50.2691-py3-none-any.whl
+[2023-07-22 17:59:59] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/04/c9/62ecb1f03d01b4495961a7f2aa85ac0737b21ab9806cd46eacaed95d8035/modal_client-0.50.2691-py3-none-any.whl
+[2023-07-22 17:59:59] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-22 17:59:59] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-8.0.0.tar.gz tmp/crypto-screening-8.0.1.tar.gz --markdown 20230722/c/crypto-screening/8.0.0-8.0.1/diff.md --exclude *.pyd
+[2023-07-22 17:59:59] INFO root fetch - processPackages [baycomp]: Downloading https://files.pythonhosted.org/packages/e9/5f/c9ae9b86de6681401a2a57510eb581fd593d0897e7e43b4b1c1eede87b20/baycomp-1.0.3.tar.gz
+[2023-07-22 17:59:59] INFO root fetch - processPackages [gw3]: Downloading https://files.pythonhosted.org/packages/0a/d6/babda7efce3d06521d5d7d9524aba7742dad202cf4720468f3a98485aef4/gw3-0.6.2.tar.gz
+[2023-07-22 17:59:59] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-07-22 17:59:59] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2689-py3-none-any.whl.zip tmp/modal-0.50.2691-py3-none-any.whl.zip --markdown 20230722/m/modal/0.50.2689-0.50.2691/diff.md --exclude *.pyd
+[2023-07-22 17:59:59] INFO root fetch - processPackages [baycomp]: executing diffoscope
+[2023-07-22 17:59:59] INFO root fetch - processPackages [baycomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baycomp-1.0.2.tar.gz tmp/baycomp-1.0.3.tar.gz --markdown 20230722/b/baycomp/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-22 17:59:59] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-07-22 17:59:59] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2689-py3-none-any.whl.zip tmp/modal_client-0.50.2691-py3-none-any.whl.zip --markdown 20230722/m/modal-client/0.50.2689-0.50.2691/diff.md --exclude *.pyd
+[2023-07-22 17:59:59] INFO root fetch - processPackages [gw3]: executing diffoscope
+[2023-07-22 17:59:59] INFO root fetch - processPackages [gw3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gw3-0.6.1.tar.gz tmp/gw3-0.6.2.tar.gz --markdown 20230722/g/gw3/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-22 18:00:00] INFO root fetch - processPackages [gw3]: Remove: archive file [/home/abi/fetcher/tmp/gw3-0.5.tar.gz]
+[2023-07-22 18:00:00] INFO root fetch - processPackages [gw3]: Remove: archive file [/home/abi/fetcher/tmp/gw3-0.6.tar.gz]
+[2023-07-22 18:00:00] INFO root fetch - main [MainThread]: End processing [gw3]: success
+[2023-07-22 18:00:00] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2689-py3-none-any.whl.zip]
+[2023-07-22 18:00:00] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2691-py3-none-any.whl.zip]
+[2023-07-22 18:00:00] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-07-22 18:00:00] INFO root fetch - processPackages [pycomm3]: Remove: archive file [/home/abi/fetcher/tmp/pycomm3-1.2.8.tar.gz]
+[2023-07-22 18:00:00] INFO root fetch - processPackages [pycomm3]: Remove: archive file [/home/abi/fetcher/tmp/pycomm3-1.2.9.tar.gz]
+[2023-07-22 18:00:00] INFO root fetch - main [MainThread]: End processing [pycomm3]: success
+[2023-07-22 18:00:00] INFO root fetch - processPackages [sightvision]: Remove: archive file [/home/abi/fetcher/tmp/sightvision-0.1.tar.gz]
+[2023-07-22 18:00:00] INFO root fetch - processPackages [sightvision]: Remove: archive file [/home/abi/fetcher/tmp/sightvision-0.1.3.tar.gz]
+[2023-07-22 18:00:00] INFO root fetch - main [MainThread]: End processing [sightvision]: success
+[2023-07-22 18:00:00] INFO root fetch - processPackages [gw3]: Remove: archive file [/home/abi/fetcher/tmp/gw3-0.6.1.tar.gz]
+[2023-07-22 18:00:00] INFO root fetch - processPackages [gw3]: Remove: archive file [/home/abi/fetcher/tmp/gw3-0.6.2.tar.gz]
+[2023-07-22 18:00:00] INFO root fetch - main [MainThread]: End processing [gw3]: success
+[2023-07-22 18:00:00] INFO root fetch - processPackages [baycomp]: Remove: archive file [/home/abi/fetcher/tmp/baycomp-1.0.2.tar.gz]
+[2023-07-22 18:00:00] INFO root fetch - processPackages [baycomp]: Remove: archive file [/home/abi/fetcher/tmp/baycomp-1.0.3.tar.gz]
+[2023-07-22 18:00:00] INFO root fetch - main [MainThread]: End processing [baycomp]: success
+[2023-07-22 18:00:00] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.0.0.tar.gz]
+[2023-07-22 18:00:00] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.0.1.tar.gz]
+[2023-07-22 18:00:00] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-22 18:00:01] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2689-py3-none-any.whl.zip]
+[2023-07-22 18:00:01] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2691-py3-none-any.whl.zip]
+[2023-07-22 18:00:01] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-07-22 18:00:01] INFO root fetch - main [MainThread]: Store serial: [18995982]
