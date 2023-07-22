@@ -14785,3 +14785,33 @@
 [2023-07-22 15:59:51] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202307220133.tar.gz]
 [2023-07-22 15:59:51] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
 [2023-07-22 15:59:51] INFO root fetch - main [MainThread]: Store serial: [18995238]
+[2023-07-22 16:04:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995238]
+[2023-07-22 16:05:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-22 16:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fieldedge-utilities
+[2023-07-22 16:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jsonlogic-rs
+[2023-07-22 16:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: babymaycry
+[2023-07-22 16:05:01] INFO root fetch - processPackages [babymaycry]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 16:05:01] INFO root fetch - processPackages [jsonlogic-rs]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-22 16:05:01] INFO root fetch - processPackages [fieldedge-utilities]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-22 16:05:01] INFO root fetch - processPackages [babymaycry]: Downloading https://files.pythonhosted.org/packages/c4/d6/7ff75ef0ab478989aa27b83d83a9ede0af15f70ea123c53a120c7b24de29/babymaycry-0.0.3.tar.gz
+[2023-07-22 16:05:01] INFO root fetch - processPackages [jsonlogic-rs]: Downloading https://files.pythonhosted.org/packages/0c/3b/7ddfe7b95558dca17bccdfb5ba96bc8298247e0ce61123734c6fa0644392/jsonlogic-rs-0.3.0.tar.gz
+[2023-07-22 16:05:01] INFO root fetch - processPackages [fieldedge-utilities]: Downloading https://files.pythonhosted.org/packages/94/51/27351e27b84fb88e4cafeee9829c12c91fa3a932466885fd524f7745c83c/fieldedge-utilities-0.9.4.tar.gz
+[2023-07-22 16:05:01] INFO root fetch - processPackages [fieldedge-utilities]: Downloading https://files.pythonhosted.org/packages/a4/cc/5e3cca6cf81fd198ab60061c1fc2991aa7d6101683864c4fac3709547e03/fieldedge-utilities-0.9.5.tar.gz
+[2023-07-22 16:05:01] INFO root fetch - processPackages [jsonlogic-rs]: Downloading https://files.pythonhosted.org/packages/d5/27/d8ee7f94027b4c62ad6481debf2fc665f177013a0ca1c2e607a4e0409abf/jsonlogic-rs-0.3.1.tar.gz
+[2023-07-22 16:05:01] INFO root fetch - processPackages [jsonlogic-rs]: executing diffoscope
+[2023-07-22 16:05:01] INFO root fetch - processPackages [jsonlogic-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonlogic-rs-0.3.0.tar.gz tmp/jsonlogic-rs-0.3.1.tar.gz --markdown 20230722/j/jsonlogic-rs/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-22 16:05:01] INFO root fetch - processPackages [babymaycry]: Downloading https://files.pythonhosted.org/packages/2a/c7/b4172639c7530f60b43ec14baee3b10f9cb265c9d9cd0aca990f37fb3236/babymaycry-0.0.4.tar.gz
+[2023-07-22 16:05:01] INFO root fetch - processPackages [fieldedge-utilities]: executing diffoscope
+[2023-07-22 16:05:01] INFO root fetch - processPackages [fieldedge-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fieldedge-utilities-0.9.4.tar.gz tmp/fieldedge-utilities-0.9.5.tar.gz --markdown 20230722/f/fieldedge-utilities/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-22 16:05:01] INFO root fetch - processPackages [babymaycry]: executing diffoscope
+[2023-07-22 16:05:01] INFO root fetch - processPackages [babymaycry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babymaycry-0.0.3.tar.gz tmp/babymaycry-0.0.4.tar.gz --markdown 20230722/b/babymaycry/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 16:05:02] INFO root fetch - processPackages [babymaycry]: Remove: archive file [/home/abi/fetcher/tmp/babymaycry-0.0.3.tar.gz]
+[2023-07-22 16:05:02] INFO root fetch - processPackages [babymaycry]: Remove: archive file [/home/abi/fetcher/tmp/babymaycry-0.0.4.tar.gz]
+[2023-07-22 16:05:02] INFO root fetch - main [MainThread]: End processing [babymaycry]: success
+[2023-07-22 16:05:02] INFO root fetch - processPackages [jsonlogic-rs]: Remove: archive file [/home/abi/fetcher/tmp/jsonlogic-rs-0.3.0.tar.gz]
+[2023-07-22 16:05:02] INFO root fetch - processPackages [jsonlogic-rs]: Remove: archive file [/home/abi/fetcher/tmp/jsonlogic-rs-0.3.1.tar.gz]
+[2023-07-22 16:05:02] INFO root fetch - main [MainThread]: End processing [jsonlogic-rs]: success
+[2023-07-22 16:05:02] INFO root fetch - processPackages [fieldedge-utilities]: Remove: archive file [/home/abi/fetcher/tmp/fieldedge-utilities-0.9.4.tar.gz]
+[2023-07-22 16:05:02] INFO root fetch - processPackages [fieldedge-utilities]: Remove: archive file [/home/abi/fetcher/tmp/fieldedge-utilities-0.9.5.tar.gz]
+[2023-07-22 16:05:02] INFO root fetch - main [MainThread]: End processing [fieldedge-utilities]: success
+[2023-07-22 16:05:02] INFO root fetch - main [MainThread]: Store serial: [18995280]
