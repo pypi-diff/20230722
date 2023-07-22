@@ -8567,3 +8567,52 @@
 [2023-07-22 05:35:00] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
 [2023-07-22 05:35:00] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
 [2023-07-22 05:35:00] INFO root fetch - main [MainThread]: Store serial: [18992496]
+[2023-07-22 05:40:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992496]
+[2023-07-22 05:40:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 05:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chromahackerweb
+[2023-07-22 05:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OneOnOne
+[2023-07-22 05:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bose
+[2023-07-22 05:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CartiMorph-nnUNet
+[2023-07-22 05:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OneOnOne
+[2023-07-22 05:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-22 05:40:09] INFO root fetch - processPackages [OneOnOne]: New version: [0.6915] Old Version: [0.6914]
+[2023-07-22 05:40:09] INFO root fetch - processPackages [chromahackerweb]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-22 05:40:09] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.5.8] Old Version: [0.3.9.5.7]
+[2023-07-22 05:40:09] INFO root fetch - processPackages [OneOnOne]: New version: [0.6915] Old Version: [0.6914]
+[2023-07-22 05:40:09] WARNING root fetch - processPackages [CartiMorph-nnUNet]: Skipping, unable to determine old version
+[2023-07-22 05:40:09] INFO root fetch - main [MainThread]: End processing [CartiMorph-nnUNet] error
+[2023-07-22 05:40:09] INFO root fetch - processPackages [bose]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-22 05:40:09] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/e1/55/cefdc30d053e42bf57ae404987d8d46a55cf671bd1706c745799f20e271f/OneOnOne-0.6914.tar.gz
+[2023-07-22 05:40:09] INFO root fetch - processPackages [chromahackerweb]: Downloading https://files.pythonhosted.org/packages/58/6a/3db5ae790f48bb462cc5a6d5f20fb0d96fb1401107138709fe507ac2d117/chromahackerweb-0.1.1.tar.gz
+[2023-07-22 05:40:09] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/17/7a/7edf07b6b217ec8892d8ce480d0d2051f1724a01dc659465ac5d6d72c4c6/nonebot_plugin_stable_diffusion_diao-0.3.9.5.7.tar.gz
+[2023-07-22 05:40:09] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/e1/55/cefdc30d053e42bf57ae404987d8d46a55cf671bd1706c745799f20e271f/OneOnOne-0.6914.tar.gz
+[2023-07-22 05:40:09] INFO root fetch - processPackages [bose]: Downloading https://files.pythonhosted.org/packages/fb/a2/8b256687327fb4807c2c68295224ca84bca13feb5b12e00d6e71d929253e/bose-2.0.8.tar.gz
+[2023-07-22 05:40:10] INFO root fetch - processPackages [chromahackerweb]: Downloading https://files.pythonhosted.org/packages/c6/b8/28939f79ce8ebfab8c7541a52a66274454fb5ff50824fba6d304fd158527/chromahackerweb-0.1.2.tar.gz
+[2023-07-22 05:40:10] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/21/6e/85e4db6e7a86e328ca897d70fb99ccd90cbf5415e27978a881293bb72d67/nonebot_plugin_stable_diffusion_diao-0.3.9.5.8.tar.gz
+[2023-07-22 05:40:10] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-22 05:40:10] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.7.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.8.tar.gz --markdown 20230722/n/nonebot-plugin-stable-diffusion-diao/0.3.9.5.7-0.3.9.5.8/diff.md --exclude *.pyd
+[2023-07-22 05:40:10] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/95/c1/af641164fa3603ce13d107f3149423f17634fa1449f1a44f2a214698f089/OneOnOne-0.6915.tar.gz
+[2023-07-22 05:40:10] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/95/c1/af641164fa3603ce13d107f3149423f17634fa1449f1a44f2a214698f089/OneOnOne-0.6915.tar.gz
+[2023-07-22 05:40:10] INFO root fetch - processPackages [chromahackerweb]: executing diffoscope
+[2023-07-22 05:40:10] INFO root fetch - processPackages [chromahackerweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromahackerweb-0.1.1.tar.gz tmp/chromahackerweb-0.1.2.tar.gz --markdown 20230722/c/chromahackerweb/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-22 05:40:10] INFO root fetch - processPackages [bose]: Downloading https://files.pythonhosted.org/packages/02/3d/99351c9925c6d6d7dfdf932bdc8ff4c3cb7c7c58020f6528b9daad4d14f2/bose-2.0.9.tar.gz
+[2023-07-22 05:40:10] INFO root fetch - processPackages [bose]: executing diffoscope
+[2023-07-22 05:40:10] INFO root fetch - processPackages [bose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bose-2.0.8.tar.gz tmp/bose-2.0.9.tar.gz --markdown 20230722/b/bose/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-22 05:40:10] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 05:40:10] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6914.tar.gz tmp/OneOnOne-0.6915.tar.gz --markdown 20230722/O/OneOnOne/0.6914-0.6915/diff.md --exclude *.pyd
+[2023-07-22 05:40:10] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 05:40:10] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6914.tar.gz tmp/OneOnOne-0.6915.tar.gz --markdown 20230722/O/OneOnOne/0.6914-0.6915/diff.md --exclude *.pyd
+[2023-07-22 05:40:11] INFO root fetch - processPackages [chromahackerweb]: Remove: archive file [/home/abi/fetcher/tmp/chromahackerweb-0.1.1.tar.gz]
+[2023-07-22 05:40:11] INFO root fetch - processPackages [chromahackerweb]: Remove: archive file [/home/abi/fetcher/tmp/chromahackerweb-0.1.2.tar.gz]
+[2023-07-22 05:40:11] INFO root fetch - main [MainThread]: End processing [chromahackerweb]: success
+[2023-07-22 05:40:11] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.7.tar.gz]
+[2023-07-22 05:40:11] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.8.tar.gz]
+[2023-07-22 05:40:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-22 05:40:11] INFO root fetch - processPackages [bose]: Remove: archive file [/home/abi/fetcher/tmp/bose-2.0.8.tar.gz]
+[2023-07-22 05:40:11] INFO root fetch - processPackages [bose]: Remove: archive file [/home/abi/fetcher/tmp/bose-2.0.9.tar.gz]
+[2023-07-22 05:40:11] INFO root fetch - main [MainThread]: End processing [bose]: success
+[2023-07-22 05:40:11] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6914.tar.gz]
+[2023-07-22 05:40:11] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6915.tar.gz]
+[2023-07-22 05:40:11] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 05:40:11] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 05:40:11] INFO root fetch - main [MainThread]: Store serial: [18992512]
