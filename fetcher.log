@@ -12477,3 +12477,38 @@
 [2023-07-22 11:55:46] INFO root fetch - processPackages [qetrader]: Remove: archive file [/home/abi/fetcher/tmp/qetrader-1.0.9.tar.gz]
 [2023-07-22 11:55:46] INFO root fetch - main [MainThread]: End processing [qetrader]: success
 [2023-07-22 11:55:46] INFO root fetch - main [MainThread]: Store serial: [18994247]
+[2023-07-22 12:00:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994247]
+[2023-07-22 12:00:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-22 12:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anybomt
+[2023-07-22 12:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arclet-alconna
+[2023-07-22 12:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: premise
+[2023-07-22 12:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: claude-api
+[2023-07-22 12:00:55] INFO root fetch - processPackages [anybomt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-22 12:00:55] INFO root fetch - processPackages [claude-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-22 12:00:55] INFO root fetch - processPackages [arclet-alconna]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-22 12:00:55] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/e3/d0/3c78897a037f888af77ecfa6d86ffd61eeebe6a7006e2f35dc69f8630f03/claude-api-1.0.8.tar.gz
+[2023-07-22 12:00:55] INFO root fetch - processPackages [anybomt]: Downloading https://files.pythonhosted.org/packages/6b/1e/8065c347c706ec206f9d62e81fe340a0735d0688ed9874347fc327c41831/anybomt-0.1.0.tar.gz
+[2023-07-22 12:00:55] INFO root fetch - processPackages [premise]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-07-22 12:00:55] INFO root fetch - processPackages [arclet-alconna]: Downloading https://files.pythonhosted.org/packages/c6/db/97e0f4658f256f534a6a058447552b56cfa19b7c961c652ed0fbbad0170b/arclet-alconna-1.7.8.tar.gz
+[2023-07-22 12:00:55] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/90/3c/c71498f040117ed30bc1f9a4d500309ead500bfd68443f41947d18fce600/claude-api-1.0.9.tar.gz
+[2023-07-22 12:00:55] INFO root fetch - processPackages [premise]: Downloading https://files.pythonhosted.org/packages/22/e6/7831dbe8eea560f0ef47ac8ce476be2dfbbbf1b05638362d8b7725607cb0/premise-1.5.7.tar.gz
+[2023-07-22 12:00:55] INFO root fetch - processPackages [claude-api]: executing diffoscope
+[2023-07-22 12:00:55] INFO root fetch - processPackages [claude-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claude-api-1.0.8.tar.gz tmp/claude-api-1.0.9.tar.gz --markdown 20230722/c/claude-api/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-22 12:00:55] INFO root fetch - processPackages [anybomt]: Downloading https://files.pythonhosted.org/packages/9f/a0/6eeef87f1ea2499da8dbe46de604bda738def6700a93148281720ffc87ed/anybomt-0.1.1.tar.gz
+[2023-07-22 12:00:55] WARNING root fetch - processPackages [premise]: Skipping package: exceeds size limit 91419071>=10485760
+[2023-07-22 12:00:55] INFO root fetch - main [MainThread]: End processing [premise] error
+[2023-07-22 12:00:55] INFO root fetch - processPackages [arclet-alconna]: Downloading https://files.pythonhosted.org/packages/01/0c/99507417d89907e5272dd8bcbc39efec86528a0e9c1d4a964b679782767d/arclet_alconna-1.7.9.tar.gz
+[2023-07-22 12:00:55] INFO root fetch - processPackages [anybomt]: executing diffoscope
+[2023-07-22 12:00:55] INFO root fetch - processPackages [anybomt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anybomt-0.1.0.tar.gz tmp/anybomt-0.1.1.tar.gz --markdown 20230722/a/anybomt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-22 12:00:55] INFO root fetch - processPackages [arclet-alconna]: executing diffoscope
+[2023-07-22 12:00:55] INFO root fetch - processPackages [arclet-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-1.7.8.tar.gz tmp/arclet_alconna-1.7.9.tar.gz --markdown 20230722/a/arclet-alconna/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-22 12:00:56] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.8.tar.gz]
+[2023-07-22 12:00:56] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.9.tar.gz]
+[2023-07-22 12:00:56] INFO root fetch - main [MainThread]: End processing [claude-api]: success
+[2023-07-22 12:00:56] INFO root fetch - processPackages [anybomt]: Remove: archive file [/home/abi/fetcher/tmp/anybomt-0.1.0.tar.gz]
+[2023-07-22 12:00:56] INFO root fetch - processPackages [anybomt]: Remove: archive file [/home/abi/fetcher/tmp/anybomt-0.1.1.tar.gz]
+[2023-07-22 12:00:56] INFO root fetch - main [MainThread]: End processing [anybomt]: success
+[2023-07-22 12:00:56] INFO root fetch - processPackages [arclet-alconna]: Remove: archive file [/home/abi/fetcher/tmp/arclet-alconna-1.7.8.tar.gz]
+[2023-07-22 12:00:56] INFO root fetch - processPackages [arclet-alconna]: Remove: archive file [/home/abi/fetcher/tmp/arclet_alconna-1.7.9.tar.gz]
+[2023-07-22 12:00:56] INFO root fetch - main [MainThread]: End processing [arclet-alconna]: success
+[2023-07-22 12:00:56] INFO root fetch - main [MainThread]: Store serial: [18994258]
