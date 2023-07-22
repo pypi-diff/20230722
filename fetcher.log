@@ -9886,3 +9886,63 @@
 [2023-07-22 08:10:52] INFO root fetch - processPackages [ijson]: Remove: archive file [/home/abi/fetcher/tmp/ijson-3.2.3.tar.gz]
 [2023-07-22 08:10:52] INFO root fetch - main [MainThread]: End processing [ijson]: success
 [2023-07-22 08:10:52] INFO root fetch - main [MainThread]: Store serial: [18993122]
+[2023-07-22 08:15:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993122]
+[2023-07-22 08:16:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 08:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LogTranslate
+[2023-07-22 08:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-eval
+[2023-07-22 08:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyg-nightly
+[2023-07-22 08:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pretext
+[2023-07-22 08:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: releasecmd
+[2023-07-22 08:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OneOnOne
+[2023-07-22 08:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: text-selection-component
+[2023-07-22 08:16:00] INFO root fetch - processPackages [auto-eval]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-22 08:16:00] INFO root fetch - processPackages [LogTranslate]: New version: [1.2.6] Old Version: [1.2.3]
+[2023-07-22 08:16:00] INFO root fetch - processPackages [OneOnOne]: New version: [0.6924] Old Version: [0.6923]
+[2023-07-22 08:16:00] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230721] Old Version: [2.4.0.dev20230720]
+[2023-07-22 08:16:00] INFO root fetch - processPackages [pretext]: New version: [1.7.2.dev20230721] Old Version: [1.7.2]
+[2023-07-22 08:16:00] INFO root fetch - processPackages [releasecmd]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-22 08:16:00] WARNING root fetch - processPackages [text-selection-component]: Skipping, unable to determine old version
+[2023-07-22 08:16:00] INFO root fetch - main [MainThread]: End processing [text-selection-component] error
+[2023-07-22 08:16:00] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/d9/8f/aebcf9ff1fbdafa5c27d80046b341ddbc1ee99174290312213acc910333b/pyg_nightly-2.4.0.dev20230720.tar.gz
+[2023-07-22 08:16:00] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/f8/3a/fd94a24074c54aba4b978cae18941cfff8c121c194aaf31c3b9a3f323e0b/auto-eval-0.3.0.tar.gz
+[2023-07-22 08:16:01] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/0d/52/53b98f05777b1dd64b56af4c8750c9f8f4e3a7c6c10f13f8c0e69c0c5cf2/OneOnOne-0.6923.tar.gz
+[2023-07-22 08:16:01] INFO root fetch - processPackages [LogTranslate]: Downloading https://files.pythonhosted.org/packages/15/2e/9101d0e7b0bff07a2a981b85dc1bf2a296816352e5f994f220d35697111b/LogTranslate-1.2.3.tar.gz
+[2023-07-22 08:16:01] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/cc/4f/2ac81dd90a1a5aa717045529b930626e8a3613b44e99f063db32a696961a/pretext-1.7.2.tar.gz
+[2023-07-22 08:16:01] INFO root fetch - processPackages [releasecmd]: Downloading https://files.pythonhosted.org/packages/d8/e2/ad57cfecf9498dd057cfe1d4396f9f11d6cc6c9650a592b31fccf13231c1/releasecmd-0.8.1.tar.gz
+[2023-07-22 08:16:01] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/38/6e/adf7e5adfdcd4f583a4b56887ce2467d0f7f476b8dc0a62eda10c41448a4/pyg_nightly-2.4.0.dev20230721.tar.gz
+[2023-07-22 08:16:01] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/7c/89/b7581c7d4cd4a34642de15f7b22ef1b78d7d7791da41fb2e3b3d6900221e/auto-eval-0.3.1.tar.gz
+[2023-07-22 08:16:01] INFO root fetch - processPackages [auto-eval]: executing diffoscope
+[2023-07-22 08:16:01] INFO root fetch - processPackages [auto-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-eval-0.3.0.tar.gz tmp/auto-eval-0.3.1.tar.gz --markdown 20230722/a/auto-eval/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-22 08:16:01] INFO root fetch - processPackages [LogTranslate]: Downloading https://files.pythonhosted.org/packages/9a/aa/7f4d8dbc52be6ad60fdd12408e4c6d7bbeb65fdfefcb364e19d3d0970e56/LogTranslate-1.2.6.tar.gz
+[2023-07-22 08:16:01] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-22 08:16:01] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230720.tar.gz tmp/pyg_nightly-2.4.0.dev20230721.tar.gz --markdown 20230722/p/pyg-nightly/2.4.0.dev20230720-2.4.0.dev20230721/diff.md --exclude *.pyd
+[2023-07-22 08:16:01] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/f4/05/c07aff22f379d2ac72e3c9a25ba679f24f32a58091c102b24fdf18b16f1c/pretext-1.7.2.dev20230721.tar.gz
+[2023-07-22 08:16:01] INFO root fetch - processPackages [releasecmd]: Downloading https://files.pythonhosted.org/packages/a1/94/ae8b73f629bc894f4fad8313b0db20b60f1b027bc4aa2dbd6e814ef41a17/releasecmd-0.9.0.tar.gz
+[2023-07-22 08:16:01] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/b0/a7/eb970c1ba329986990d7d2bdfa89f24267efc216aedf6664ed96e7b9b1fe/OneOnOne-0.6924.tar.gz
+[2023-07-22 08:16:01] INFO root fetch - processPackages [LogTranslate]: executing diffoscope
+[2023-07-22 08:16:01] INFO root fetch - processPackages [LogTranslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LogTranslate-1.2.3.tar.gz tmp/LogTranslate-1.2.6.tar.gz --markdown 20230722/L/LogTranslate/1.2.3-1.2.6/diff.md --exclude *.pyd
+[2023-07-22 08:16:01] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-07-22 08:16:01] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.7.2.tar.gz tmp/pretext-1.7.2.dev20230721.tar.gz --markdown 20230722/p/pretext/1.7.2-1.7.2.dev20230721/diff.md --exclude *.pyd
+[2023-07-22 08:16:02] INFO root fetch - processPackages [releasecmd]: executing diffoscope
+[2023-07-22 08:16:02] INFO root fetch - processPackages [releasecmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/releasecmd-0.8.1.tar.gz tmp/releasecmd-0.9.0.tar.gz --markdown 20230722/r/releasecmd/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-22 08:16:02] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 08:16:02] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6923.tar.gz tmp/OneOnOne-0.6924.tar.gz --markdown 20230722/O/OneOnOne/0.6923-0.6924/diff.md --exclude *.pyd
+[2023-07-22 08:16:02] INFO root fetch - processPackages [LogTranslate]: Remove: archive file [/home/abi/fetcher/tmp/LogTranslate-1.2.3.tar.gz]
+[2023-07-22 08:16:02] INFO root fetch - processPackages [LogTranslate]: Remove: archive file [/home/abi/fetcher/tmp/LogTranslate-1.2.6.tar.gz]
+[2023-07-22 08:16:02] INFO root fetch - main [MainThread]: End processing [LogTranslate]: success
+[2023-07-22 08:16:02] INFO root fetch - processPackages [auto-eval]: Remove: archive file [/home/abi/fetcher/tmp/auto-eval-0.3.0.tar.gz]
+[2023-07-22 08:16:02] INFO root fetch - processPackages [auto-eval]: Remove: archive file [/home/abi/fetcher/tmp/auto-eval-0.3.1.tar.gz]
+[2023-07-22 08:16:02] INFO root fetch - main [MainThread]: End processing [auto-eval]: success
+[2023-07-22 08:16:03] INFO root fetch - processPackages [releasecmd]: Remove: archive file [/home/abi/fetcher/tmp/releasecmd-0.8.1.tar.gz]
+[2023-07-22 08:16:03] INFO root fetch - processPackages [releasecmd]: Remove: archive file [/home/abi/fetcher/tmp/releasecmd-0.9.0.tar.gz]
+[2023-07-22 08:16:03] INFO root fetch - main [MainThread]: End processing [releasecmd]: success
+[2023-07-22 08:16:03] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6923.tar.gz]
+[2023-07-22 08:16:03] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6924.tar.gz]
+[2023-07-22 08:16:03] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 08:16:04] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230720.tar.gz]
+[2023-07-22 08:16:04] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230721.tar.gz]
+[2023-07-22 08:16:04] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-22 08:16:05] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.2.tar.gz]
+[2023-07-22 08:16:05] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.2.dev20230721.tar.gz]
+[2023-07-22 08:16:05] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-07-22 08:16:05] INFO root fetch - main [MainThread]: Store serial: [18993144]
