@@ -7506,3 +7506,69 @@
 [2023-07-22 04:11:32] WARNING root fetch - processPackages [gptree]: Skipping, unable to determine old version
 [2023-07-22 04:11:32] INFO root fetch - main [MainThread]: End processing [gptree] error
 [2023-07-22 04:11:32] INFO root fetch - main [MainThread]: Store serial: [18992159]
+[2023-07-22 04:16:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992159]
+[2023-07-22 04:16:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 04:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bcmd
+[2023-07-22 04:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jsonfixer
+[2023-07-22 04:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bytetrade-recommend-model-sdk
+[2023-07-22 04:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: params-proto
+[2023-07-22 04:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lightning-template
+[2023-07-22 04:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langdash
+[2023-07-22 04:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: embedchain
+[2023-07-22 04:16:42] INFO root fetch - processPackages [embedchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 04:16:42] INFO root fetch - processPackages [bcmd]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 04:16:42] INFO root fetch - processPackages [lightning-template]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-22 04:16:42] INFO root fetch - processPackages [jsonfixer]: New version: [0.2.0a0] Old Version: [0.1.4b2]
+[2023-07-22 04:16:42] INFO root fetch - processPackages [langdash]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-22 04:16:42] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: New version: [0.0.27] Old Version: [0.0.26]
+[2023-07-22 04:16:42] INFO root fetch - processPackages [params-proto]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-07-22 04:16:42] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/4e/ce/a81cc1c8a85679f1e099b8a3593643db9d9b418c12515074306341023d31/bcmd-0.0.3.tar.gz
+[2023-07-22 04:16:42] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/fa/9b/8bddb3074933011cc682eee04982b4e3d03a699688eddf581404927a62ff/embedchain-0.0.8.tar.gz
+[2023-07-22 04:16:42] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/2b/13/c49d9f0083db21a4a66f4fb47daf397d705026e05b7c5176853484c8ceeb/lightning-template-1.1.7.tar.gz
+[2023-07-22 04:16:42] INFO root fetch - processPackages [jsonfixer]: Downloading https://files.pythonhosted.org/packages/3c/c4/d941cc5c5cbbdfc58dc2228c115c68e343b461ee593a43fe1f4e27ae2ad9/jsonfixer-0.1.4b2.tar.gz
+[2023-07-22 04:16:42] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/5d/c5/9e8d0b8c76e98a3dfba40343b10a53a6e905852aaaa8fce3a305fbffc88f/langdash-1.9.1.tar.gz
+[2023-07-22 04:16:42] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/e1/f9/1d953f7640b98a2ae8e7b050efc7d5b11969320ee135c085501f3ea4ba4c/bytetrade-recommend-model-sdk-0.0.26.tar.gz
+[2023-07-22 04:16:42] INFO root fetch - processPackages [params-proto]: Downloading https://files.pythonhosted.org/packages/0a/20/7ffbcebdd86abce1864462ec4fcf39151f39d0f8e059210862e1f42b0ee3/params_proto-2.9.6-py3-none-any.whl
+[2023-07-22 04:16:42] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/98/a5/0216839ba1829bc10c9f2f04d82d04da661bb99f228ec27d73c564f77135/embedchain-0.0.9.tar.gz
+[2023-07-22 04:16:42] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/f2/2c/2cb9a2a36cac1810363dad76a4d23288d1720adb732f4cf3ac619ea7738e/bcmd-0.0.4.tar.gz
+[2023-07-22 04:16:42] INFO root fetch - processPackages [jsonfixer]: Downloading https://files.pythonhosted.org/packages/fa/1b/177a5daf38081c7e65f747d3afad827dd457d5c752b9062911160a6dee86/jsonfixer-0.2.0a0.tar.gz
+[2023-07-22 04:16:42] INFO root fetch - processPackages [embedchain]: executing diffoscope
+[2023-07-22 04:16:42] INFO root fetch - processPackages [embedchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedchain-0.0.8.tar.gz tmp/embedchain-0.0.9.tar.gz --markdown 20230722/e/embedchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 04:16:43] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2023-07-22 04:16:43] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.3.tar.gz tmp/bcmd-0.0.4.tar.gz --markdown 20230722/b/bcmd/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 04:16:43] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/02/11/7adc65a37051e683e640c2d809c7c632b057a921dc18e048fec2653ec093/lightning-template-1.1.8.tar.gz
+[2023-07-22 04:16:43] INFO root fetch - processPackages [jsonfixer]: executing diffoscope
+[2023-07-22 04:16:43] INFO root fetch - processPackages [jsonfixer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonfixer-0.1.4b2.tar.gz tmp/jsonfixer-0.2.0a0.tar.gz --markdown 20230722/j/jsonfixer/0.1.4b2-0.2.0a0/diff.md --exclude *.pyd
+[2023-07-22 04:16:43] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/6f/d9/ddfee604b050b966492837fec59a7274b13783f99315ef1b5e9d7d1902cb/bytetrade-recommend-model-sdk-0.0.27.tar.gz
+[2023-07-22 04:16:43] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-07-22 04:16:43] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.1.7.tar.gz tmp/lightning-template-1.1.8.tar.gz --markdown 20230722/l/lightning-template/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-22 04:16:43] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: executing diffoscope
+[2023-07-22 04:16:43] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytetrade-recommend-model-sdk-0.0.26.tar.gz tmp/bytetrade-recommend-model-sdk-0.0.27.tar.gz --markdown 20230722/b/bytetrade-recommend-model-sdk/0.0.26-0.0.27/diff.md --exclude *.pyd
+[2023-07-22 04:16:43] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/6a/14/28a67c60ba9a1e7944d1898a3fccd002d56dfb3bfdf0b00e2b47bf98195d/langdash-1.9.2.tar.gz
+[2023-07-22 04:16:43] INFO root fetch - processPackages [params-proto]: Downloading https://files.pythonhosted.org/packages/d8/3c/4d8cc65883f3aae60d9d73972b9e344a55ce4c97d4130dd3848b106578ae/params_proto-2.9.7-py3-none-any.whl
+[2023-07-22 04:16:43] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-07-22 04:16:43] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-1.9.1.tar.gz tmp/langdash-1.9.2.tar.gz --markdown 20230722/l/langdash/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-22 04:16:43] INFO root fetch - processPackages [params-proto]: executing diffoscope
+[2023-07-22 04:16:43] INFO root fetch - processPackages [params-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/params_proto-2.9.6-py3-none-any.whl.zip tmp/params_proto-2.9.7-py3-none-any.whl.zip --markdown 20230722/p/params-proto/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-07-22 04:16:44] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.3.tar.gz]
+[2023-07-22 04:16:44] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.4.tar.gz]
+[2023-07-22 04:16:44] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2023-07-22 04:16:44] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.1.7.tar.gz]
+[2023-07-22 04:16:44] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.1.8.tar.gz]
+[2023-07-22 04:16:44] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-07-22 04:16:44] INFO root fetch - processPackages [jsonfixer]: Remove: archive file [/home/abi/fetcher/tmp/jsonfixer-0.1.4b2.tar.gz]
+[2023-07-22 04:16:44] INFO root fetch - processPackages [jsonfixer]: Remove: archive file [/home/abi/fetcher/tmp/jsonfixer-0.2.0a0.tar.gz]
+[2023-07-22 04:16:44] INFO root fetch - main [MainThread]: End processing [jsonfixer]: success
+[2023-07-22 04:16:44] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.8.tar.gz]
+[2023-07-22 04:16:44] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.9.tar.gz]
+[2023-07-22 04:16:44] INFO root fetch - main [MainThread]: End processing [embedchain]: success
+[2023-07-22 04:16:44] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.26.tar.gz]
+[2023-07-22 04:16:44] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.27.tar.gz]
+[2023-07-22 04:16:44] INFO root fetch - main [MainThread]: End processing [bytetrade-recommend-model-sdk]: success
+[2023-07-22 04:16:44] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.9.1.tar.gz]
+[2023-07-22 04:16:44] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.9.2.tar.gz]
+[2023-07-22 04:16:44] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-07-22 04:16:44] INFO root fetch - processPackages [params-proto]: Remove: archive file [/home/abi/fetcher/tmp/params_proto-2.9.6-py3-none-any.whl.zip]
+[2023-07-22 04:16:44] INFO root fetch - processPackages [params-proto]: Remove: archive file [/home/abi/fetcher/tmp/params_proto-2.9.7-py3-none-any.whl.zip]
+[2023-07-22 04:16:44] INFO root fetch - main [MainThread]: End processing [params-proto]: success
+[2023-07-22 04:16:44] INFO root fetch - main [MainThread]: Store serial: [18992178]
