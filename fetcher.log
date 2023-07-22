@@ -8616,3 +8616,74 @@
 [2023-07-22 05:40:11] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-22 05:40:11] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-22 05:40:11] INFO root fetch - main [MainThread]: Store serial: [18992512]
+[2023-07-22 05:45:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992512]
+[2023-07-22 05:45:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-22 05:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-22 05:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: one-api-tool
+[2023-07-22 05:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opencv-python-rolling
+[2023-07-22 05:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anchovy
+[2023-07-22 05:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ladybug-grasshopper
+[2023-07-22 05:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-testdox
+[2023-07-22 05:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: threemystic-cloud-data-client
+[2023-07-22 05:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lbt-grasshopper
+[2023-07-22 05:45:20] INFO root fetch - processPackages [anchovy]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-22 05:45:20] INFO root fetch - processPackages [one-api-tool]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-22 05:45:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.29] Old Version: [0.1.28]
+[2023-07-22 05:45:20] INFO root fetch - processPackages [ladybug-grasshopper]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-22 05:45:20] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-07-22 05:45:20] INFO root fetch - processPackages [pytest-testdox]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-07-22 05:45:20] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.5.9] Old Version: [0.3.9.5.8]
+[2023-07-22 05:45:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/57/b5/964f3ef8aca969d2adc81898eda0d56d29b26372b2ea459f8264b834888b/threemystic_cloud_data_client-0.1.28.tar.gz
+[2023-07-22 05:45:20] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/01/bd/9aaa0c46d20ceba26f6bc2c103fd6b97389fbafefe5e72e44c5b267e139a/one-api-tool-0.4.8.tar.gz
+[2023-07-22 05:45:20] INFO root fetch - processPackages [opencv-python-rolling]: New version: [5.0.0.20221015] Old Version: [5.0.0.20221008]
+[2023-07-22 05:45:20] INFO root fetch - processPackages [anchovy]: Downloading https://files.pythonhosted.org/packages/fb/d1/7acde38516703a592ab44c0f1e4ffa7fbc8582f0d79250f84935310cd869/anchovy-0.6.1.tar.gz
+[2023-07-22 05:45:20] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/30/e6/3685f99cfd36f45ae30b5ab732ec26ae4730b99648a47480cf683b1142a4/lbt-grasshopper-1.6.8.tar.gz
+[2023-07-22 05:45:20] INFO root fetch - processPackages [ladybug-grasshopper]: Downloading https://files.pythonhosted.org/packages/ec/49/777f995c954f015074487d7ab75a2c03b29bfd7c9fba5b15f7370a04139a/ladybug-grasshopper-1.9.3.tar.gz
+[2023-07-22 05:45:20] INFO root fetch - processPackages [pytest-testdox]: Downloading https://files.pythonhosted.org/packages/f7/1e/a614ba7df876f2ef8bfb8256cf01ac2cbdb1791e169f9718b2d9b5c87bcd/pytest-testdox-3.0.1.tar.gz
+[2023-07-22 05:45:20] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/21/6e/85e4db6e7a86e328ca897d70fb99ccd90cbf5415e27978a881293bb72d67/nonebot_plugin_stable_diffusion_diao-0.3.9.5.8.tar.gz
+[2023-07-22 05:45:20] INFO root fetch - processPackages [opencv-python-rolling]: Downloading https://files.pythonhosted.org/packages/32/6b/7a25c64d9114c7637e2850826c668c26d8ede5a8c04b15aa282508321da4/opencv_python_rolling-5.0.0.20221008-cp37-abi3-macosx_11_0_arm64.whl
+[2023-07-22 05:45:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/b6/ae/b60ab3452b663398cfbdd0462f87b5ef135f33ac7a60269771e29796e024/threemystic_cloud_data_client-0.1.29.tar.gz
+[2023-07-22 05:45:21] WARNING root fetch - processPackages [opencv-python-rolling]: Skipping package: exceeds size limit 32729233>=10485760
+[2023-07-22 05:45:21] INFO root fetch - main [MainThread]: End processing [opencv-python-rolling] error
+[2023-07-22 05:45:21] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/d4/1c/4c50880ddb14491be8921bc4c35b6cfb03b7770e86692bd607db05f8534d/one-api-tool-0.4.9.tar.gz
+[2023-07-22 05:45:21] INFO root fetch - processPackages [anchovy]: Downloading https://files.pythonhosted.org/packages/c8/ac/dc5bea2b82c44f944b4f32302418df4aec3ec944aa7a885cfea40a960b96/anchovy-0.7.0.tar.gz
+[2023-07-22 05:45:21] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-22 05:45:21] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.28.tar.gz tmp/threemystic_cloud_data_client-0.1.29.tar.gz --markdown 20230722/t/threemystic-cloud-data-client/0.1.28-0.1.29/diff.md --exclude *.pyd
+[2023-07-22 05:45:21] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/7a/e5/e35771d094325b6c306e9d8785431127bf0e9e18ce7c75d57420ffbe4251/nonebot_plugin_stable_diffusion_diao-0.3.9.5.9.tar.gz
+[2023-07-22 05:45:21] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-07-22 05:45:21] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.4.8.tar.gz tmp/one-api-tool-0.4.9.tar.gz --markdown 20230722/o/one-api-tool/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-22 05:45:21] INFO root fetch - processPackages [pytest-testdox]: Downloading https://files.pythonhosted.org/packages/64/32/d833d70c7b30994c593d721001ab218f02baee4f6d5be322e9ba3f7f77c0/pytest-testdox-3.1.0.tar.gz
+[2023-07-22 05:45:21] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/24/e9/d155575f4d38b7ae3d21b6f6e0c4c34409ce3b7b0412b7e24694915ec0e0/lbt-grasshopper-1.6.9.tar.gz
+[2023-07-22 05:45:21] INFO root fetch - processPackages [anchovy]: executing diffoscope
+[2023-07-22 05:45:21] INFO root fetch - processPackages [anchovy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anchovy-0.6.1.tar.gz tmp/anchovy-0.7.0.tar.gz --markdown 20230722/a/anchovy/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-22 05:45:21] INFO root fetch - processPackages [ladybug-grasshopper]: Downloading https://files.pythonhosted.org/packages/36/c7/da7e7e51114ff7f4fdf8e1f110936d73131c1f23c71385e5ab4666ad04c4/ladybug-grasshopper-1.9.4.tar.gz
+[2023-07-22 05:45:21] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-22 05:45:21] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.8.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.9.tar.gz --markdown 20230722/n/nonebot-plugin-stable-diffusion-diao/0.3.9.5.8-0.3.9.5.9/diff.md --exclude *.pyd
+[2023-07-22 05:45:21] INFO root fetch - processPackages [pytest-testdox]: executing diffoscope
+[2023-07-22 05:45:21] INFO root fetch - processPackages [pytest-testdox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-testdox-3.0.1.tar.gz tmp/pytest-testdox-3.1.0.tar.gz --markdown 20230722/p/pytest-testdox/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-07-22 05:45:21] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2023-07-22 05:45:21] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.6.8.tar.gz tmp/lbt-grasshopper-1.6.9.tar.gz --markdown 20230722/l/lbt-grasshopper/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-07-22 05:45:22] INFO root fetch - processPackages [ladybug-grasshopper]: executing diffoscope
+[2023-07-22 05:45:22] INFO root fetch - processPackages [ladybug-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-grasshopper-1.9.3.tar.gz tmp/ladybug-grasshopper-1.9.4.tar.gz --markdown 20230722/l/ladybug-grasshopper/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-22 05:45:22] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.4.8.tar.gz]
+[2023-07-22 05:45:22] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.4.9.tar.gz]
+[2023-07-22 05:45:22] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-07-22 05:45:22] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.28.tar.gz]
+[2023-07-22 05:45:22] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.29.tar.gz]
+[2023-07-22 05:45:22] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-22 05:45:22] INFO root fetch - processPackages [pytest-testdox]: Remove: archive file [/home/abi/fetcher/tmp/pytest-testdox-3.0.1.tar.gz]
+[2023-07-22 05:45:22] INFO root fetch - processPackages [pytest-testdox]: Remove: archive file [/home/abi/fetcher/tmp/pytest-testdox-3.1.0.tar.gz]
+[2023-07-22 05:45:22] INFO root fetch - main [MainThread]: End processing [pytest-testdox]: success
+[2023-07-22 05:45:22] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.8.tar.gz]
+[2023-07-22 05:45:22] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.9.tar.gz]
+[2023-07-22 05:45:22] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-22 05:45:22] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.6.8.tar.gz]
+[2023-07-22 05:45:22] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.6.9.tar.gz]
+[2023-07-22 05:45:22] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2023-07-22 05:45:22] INFO root fetch - processPackages [anchovy]: Remove: archive file [/home/abi/fetcher/tmp/anchovy-0.6.1.tar.gz]
+[2023-07-22 05:45:22] INFO root fetch - processPackages [anchovy]: Remove: archive file [/home/abi/fetcher/tmp/anchovy-0.7.0.tar.gz]
+[2023-07-22 05:45:22] INFO root fetch - main [MainThread]: End processing [anchovy]: success
+[2023-07-22 05:45:23] INFO root fetch - processPackages [ladybug-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-grasshopper-1.9.3.tar.gz]
+[2023-07-22 05:45:23] INFO root fetch - processPackages [ladybug-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-grasshopper-1.9.4.tar.gz]
+[2023-07-22 05:45:23] INFO root fetch - main [MainThread]: End processing [ladybug-grasshopper]: success
+[2023-07-22 05:45:23] INFO root fetch - main [MainThread]: Store serial: [18992539]
