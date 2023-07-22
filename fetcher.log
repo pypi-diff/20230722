@@ -13469,3 +13469,27 @@
 [2023-07-22 13:51:45] INFO root fetch - processPackages [gs-peer-connection]: Remove: archive file [/home/abi/fetcher/tmp/gs-peer-connection-0.0.9.tar.gz]
 [2023-07-22 13:51:45] INFO root fetch - main [MainThread]: End processing [gs-peer-connection]: success
 [2023-07-22 13:51:45] INFO root fetch - main [MainThread]: Store serial: [18994671]
+[2023-07-22 13:56:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994671]
+[2023-07-22 13:56:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-22 13:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lemonbar
+[2023-07-22 13:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: degiro-cli
+[2023-07-22 13:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: horn-py
+[2023-07-22 13:56:55] INFO root fetch - processPackages [lemonbar]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-22 13:56:55] INFO root fetch - processPackages [lemonbar]: Downloading https://files.pythonhosted.org/packages/9d/f2/233ad577675dda784fd94d3e41fe2a5b55485f0c92799e375a5f01c71162/lemonbar-0.6.4.tar.gz
+[2023-07-22 13:56:55] WARNING root fetch - processPackages [degiro-cli]: Skipping, unable to determine old version
+[2023-07-22 13:56:55] INFO root fetch - main [MainThread]: End processing [degiro-cli] error
+[2023-07-22 13:56:55] INFO root fetch - processPackages [horn-py]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-22 13:56:56] INFO root fetch - processPackages [lemonbar]: Downloading https://files.pythonhosted.org/packages/6e/68/f6c36d17a4dce9b5e0e2445d7dde48530e9970f66af0eb07efcc86419567/lemonbar-0.6.5.tar.gz
+[2023-07-22 13:56:56] INFO root fetch - processPackages [horn-py]: Downloading https://files.pythonhosted.org/packages/b2/d3/3a5c3ffa9a48680305b84950c3e1a6d85440bc77d5aae09aa4098198e970/horn_py-0.6.3-py3-none-any.whl
+[2023-07-22 13:56:56] INFO root fetch - processPackages [lemonbar]: executing diffoscope
+[2023-07-22 13:56:56] INFO root fetch - processPackages [lemonbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemonbar-0.6.4.tar.gz tmp/lemonbar-0.6.5.tar.gz --markdown 20230722/l/lemonbar/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-22 13:56:56] INFO root fetch - processPackages [horn-py]: Downloading https://files.pythonhosted.org/packages/63/84/ebce15f17b8356dc3e2a1d664c177f08245d7341f1a2701b89761349b131/horn_py-0.6.4-py3-none-any.whl
+[2023-07-22 13:56:56] INFO root fetch - processPackages [horn-py]: executing diffoscope
+[2023-07-22 13:56:56] INFO root fetch - processPackages [horn-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horn_py-0.6.3-py3-none-any.whl.zip tmp/horn_py-0.6.4-py3-none-any.whl.zip --markdown 20230722/h/horn-py/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-22 13:56:57] INFO root fetch - processPackages [lemonbar]: Remove: archive file [/home/abi/fetcher/tmp/lemonbar-0.6.4.tar.gz]
+[2023-07-22 13:56:57] INFO root fetch - processPackages [lemonbar]: Remove: archive file [/home/abi/fetcher/tmp/lemonbar-0.6.5.tar.gz]
+[2023-07-22 13:56:57] INFO root fetch - main [MainThread]: End processing [lemonbar]: success
+[2023-07-22 13:56:57] INFO root fetch - processPackages [horn-py]: Remove: archive file [/home/abi/fetcher/tmp/horn_py-0.6.3-py3-none-any.whl.zip]
+[2023-07-22 13:56:57] INFO root fetch - processPackages [horn-py]: Remove: archive file [/home/abi/fetcher/tmp/horn_py-0.6.4-py3-none-any.whl.zip]
+[2023-07-22 13:56:57] INFO root fetch - main [MainThread]: End processing [horn-py]: success
+[2023-07-22 13:56:57] INFO root fetch - main [MainThread]: Store serial: [18994678]
