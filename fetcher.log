@@ -12089,3 +12089,72 @@
 [2023-07-22 11:24:17] INFO root fetch - processPackages [hacktools]: Remove: archive file [/home/abi/fetcher/tmp/hacktools-0.9.0.tar.gz]
 [2023-07-22 11:24:17] INFO root fetch - main [MainThread]: End processing [hacktools]: success
 [2023-07-22 11:24:17] INFO root fetch - main [MainThread]: Store serial: [18994095]
+[2023-07-22 11:29:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994095]
+[2023-07-22 11:29:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-22 11:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: get-chrome-driver
+[2023-07-22 11:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hifibgc
+[2023-07-22 11:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fedex-sdk
+[2023-07-22 11:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: talkytimes-package
+[2023-07-22 11:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiopypiserver
+[2023-07-22 11:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bcmd
+[2023-07-22 11:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bitcoin-qrreader
+[2023-07-22 11:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iframes
+[2023-07-22 11:29:26] INFO root fetch - processPackages [bitcoin-qrreader]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-22 11:29:26] INFO root fetch - processPackages [aiopypiserver]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-22 11:29:26] INFO root fetch - processPackages [fedex-sdk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-22 11:29:26] INFO root fetch - processPackages [bcmd]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-22 11:29:26] INFO root fetch - processPackages [get-chrome-driver]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-22 11:29:26] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 11:29:26] WARNING root fetch - processPackages [hifibgc]: Skipping, unable to determine old version
+[2023-07-22 11:29:26] INFO root fetch - main [MainThread]: End processing [hifibgc] error
+[2023-07-22 11:29:26] INFO root fetch - processPackages [iframes]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-07-22 11:29:26] INFO root fetch - processPackages [bitcoin-qrreader]: Downloading https://files.pythonhosted.org/packages/05/dd/d16eb295625396f5f094d4ad645bddc141ad5d145565847a9f26204a5d7b/bitcoin_qrreader-0.2.1.tar.gz
+[2023-07-22 11:29:26] INFO root fetch - processPackages [aiopypiserver]: Downloading https://files.pythonhosted.org/packages/88/e2/ab7eb6d3f03955f7fad8c290ca646465660b7f94c795828eea20ebfc35c5/aiopypiserver-0.0.5.tar.gz
+[2023-07-22 11:29:26] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/a8/86/2f61ab8625f6992dea4537d50de8fd72419eb4619ed3352e88af51611443/fedex-sdk-0.0.4.tar.gz
+[2023-07-22 11:29:26] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-22 11:29:26] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/99/06/69bce200d6f503bb6ed0207a8a40b344e966530a105e6d1468f22af49b17/bcmd-0.0.5.tar.gz
+[2023-07-22 11:29:26] INFO root fetch - processPackages [get-chrome-driver]: Downloading https://files.pythonhosted.org/packages/d3/4b/8454f2e6479b4494155a2fa75dbf37a4ed834271526a16e2be238065cede/get-chrome-driver-1.3.8.tar.gz
+[2023-07-22 11:29:27] INFO root fetch - processPackages [iframes]: Downloading https://files.pythonhosted.org/packages/16/f9/dcbdb8d175c886fa41a27edacf8b994ed9d49f0c10045c3fabee1d6d3b3b/iframes-0.0.5.tar.gz
+[2023-07-22 11:29:27] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/ab/4f/dc384b2740a1716ac5a6e8e6bf06fda6d84e2c4ebd129887aec4e925e338/fedex-sdk-0.0.5.tar.gz
+[2023-07-22 11:29:27] INFO root fetch - processPackages [bitcoin-qrreader]: Downloading https://files.pythonhosted.org/packages/bf/cc/025ac2fa1665716a4974a8fab876b2ed2d40afc631ba024b6a1485fe99f9/bitcoin_qrreader-0.2.2.tar.gz
+[2023-07-22 11:29:27] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-22 11:29:27] INFO root fetch - processPackages [aiopypiserver]: Downloading https://files.pythonhosted.org/packages/e5/3a/588d70bcc4f8346e484cb820fde430673a18fcb1b8d7f56f26e15d266c0e/aiopypiserver-0.0.6.tar.gz
+[2023-07-22 11:29:27] INFO root fetch - processPackages [bitcoin-qrreader]: executing diffoscope
+[2023-07-22 11:29:27] INFO root fetch - processPackages [bitcoin-qrreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitcoin_qrreader-0.2.1.tar.gz tmp/bitcoin_qrreader-0.2.2.tar.gz --markdown 20230722/b/bitcoin-qrreader/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-22 11:29:27] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-22 11:29:27] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230722/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 11:29:27] INFO root fetch - processPackages [get-chrome-driver]: Downloading https://files.pythonhosted.org/packages/f5/1f/401d689edcf0210796e6f03e2acfdf7b5fd9b97bd07b854116303d9c34a2/get-chrome-driver-1.3.9.tar.gz
+[2023-07-22 11:29:27] INFO root fetch - processPackages [fedex-sdk]: executing diffoscope
+[2023-07-22 11:29:27] INFO root fetch - processPackages [fedex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedex-sdk-0.0.4.tar.gz tmp/fedex-sdk-0.0.5.tar.gz --markdown 20230722/f/fedex-sdk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-22 11:29:27] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/fd/c7/d2df4e9b5a01f38c5aad628d06b83bc4999fd24a891102fc038cdc29d536/bcmd-0.0.6.tar.gz
+[2023-07-22 11:29:27] INFO root fetch - processPackages [aiopypiserver]: executing diffoscope
+[2023-07-22 11:29:27] INFO root fetch - processPackages [aiopypiserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiopypiserver-0.0.5.tar.gz tmp/aiopypiserver-0.0.6.tar.gz --markdown 20230722/a/aiopypiserver/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-22 11:29:27] INFO root fetch - processPackages [get-chrome-driver]: executing diffoscope
+[2023-07-22 11:29:27] INFO root fetch - processPackages [get-chrome-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get-chrome-driver-1.3.8.tar.gz tmp/get-chrome-driver-1.3.9.tar.gz --markdown 20230722/g/get-chrome-driver/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-22 11:29:27] INFO root fetch - processPackages [iframes]: Downloading https://files.pythonhosted.org/packages/6f/6f/87bb41c9c2565791a84e8f89aa9c048e81cf7ec05726cbf9dc8204a5b020/iframes-0.0.7.tar.gz
+[2023-07-22 11:29:27] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2023-07-22 11:29:27] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.5.tar.gz tmp/bcmd-0.0.6.tar.gz --markdown 20230722/b/bcmd/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-22 11:29:27] INFO root fetch - processPackages [iframes]: executing diffoscope
+[2023-07-22 11:29:27] INFO root fetch - processPackages [iframes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iframes-0.0.5.tar.gz tmp/iframes-0.0.7.tar.gz --markdown 20230722/i/iframes/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-07-22 11:29:28] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-22 11:29:28] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-22 11:29:28] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-22 11:29:28] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-0.0.4.tar.gz]
+[2023-07-22 11:29:28] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-0.0.5.tar.gz]
+[2023-07-22 11:29:28] INFO root fetch - main [MainThread]: End processing [fedex-sdk]: success
+[2023-07-22 11:29:28] INFO root fetch - processPackages [get-chrome-driver]: Remove: archive file [/home/abi/fetcher/tmp/get-chrome-driver-1.3.8.tar.gz]
+[2023-07-22 11:29:28] INFO root fetch - processPackages [get-chrome-driver]: Remove: archive file [/home/abi/fetcher/tmp/get-chrome-driver-1.3.9.tar.gz]
+[2023-07-22 11:29:28] INFO root fetch - main [MainThread]: End processing [get-chrome-driver]: success
+[2023-07-22 11:29:28] INFO root fetch - processPackages [aiopypiserver]: Remove: archive file [/home/abi/fetcher/tmp/aiopypiserver-0.0.5.tar.gz]
+[2023-07-22 11:29:28] INFO root fetch - processPackages [aiopypiserver]: Remove: archive file [/home/abi/fetcher/tmp/aiopypiserver-0.0.6.tar.gz]
+[2023-07-22 11:29:28] INFO root fetch - main [MainThread]: End processing [aiopypiserver]: success
+[2023-07-22 11:29:28] INFO root fetch - processPackages [bitcoin-qrreader]: Remove: archive file [/home/abi/fetcher/tmp/bitcoin_qrreader-0.2.1.tar.gz]
+[2023-07-22 11:29:28] INFO root fetch - processPackages [bitcoin-qrreader]: Remove: archive file [/home/abi/fetcher/tmp/bitcoin_qrreader-0.2.2.tar.gz]
+[2023-07-22 11:29:28] INFO root fetch - main [MainThread]: End processing [bitcoin-qrreader]: success
+[2023-07-22 11:29:28] INFO root fetch - processPackages [iframes]: Remove: archive file [/home/abi/fetcher/tmp/iframes-0.0.5.tar.gz]
+[2023-07-22 11:29:28] INFO root fetch - processPackages [iframes]: Remove: archive file [/home/abi/fetcher/tmp/iframes-0.0.7.tar.gz]
+[2023-07-22 11:29:28] INFO root fetch - main [MainThread]: End processing [iframes]: success
+[2023-07-22 11:29:28] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.5.tar.gz]
+[2023-07-22 11:29:28] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.6.tar.gz]
+[2023-07-22 11:29:28] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2023-07-22 11:29:28] INFO root fetch - main [MainThread]: Store serial: [18994117]
