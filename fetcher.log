@@ -18157,3 +18157,105 @@ EOFError: EOF read where object expected
 [2023-07-22 20:20:35] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-1.9.0.tar.gz]
 [2023-07-22 20:20:35] INFO root fetch - main [MainThread]: End processing [swarms]: success
 [2023-07-22 20:20:35] INFO root fetch - main [MainThread]: Store serial: [18996788]
+[2023-07-22 20:25:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996788]
+[2023-07-22 20:25:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-22 20:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-nano
+[2023-07-22 20:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-llm
+[2023-07-22 20:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-chronos
+[2023-07-22 20:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: focus-cfe
+[2023-07-22 20:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-serving
+[2023-07-22 20:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: montydb
+[2023-07-22 20:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gammarer.aws-secure-vpc-bucket
+[2023-07-22 20:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OneOnOne
+[2023-07-22 20:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gammarer.aws-ecs-fargate-task-termination-detection-event-rule
+[2023-07-22 20:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: roblox-pyc
+[2023-07-22 20:25:45] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-22 20:25:45] INFO root fetch - processPackages [OneOnOne]: New version: [0.6936] Old Version: [0.6935]
+[2023-07-22 20:25:45] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230721] Old Version: [2.4.0b20230720]
+[2023-07-22 20:25:45] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-22 20:25:45] INFO root fetch - processPackages [montydb]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-07-22 20:25:45] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-22 20:25:45] INFO root fetch - processPackages [focus-cfe]: New version: [0.0.dev3] Old Version: [0.0.dev2]
+[2023-07-22 20:25:45] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230722] Old Version: [2.4.0b20230721]
+[2023-07-22 20:25:45] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230722] Old Version: [2.4.0b20230721]
+[2023-07-22 20:25:45] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Downloading https://files.pythonhosted.org/packages/c1/b4/925274c299020971a95653e83352301afa00a68c1773be6e437e80c3e0dd/gammarer.aws-secure-vpc-bucket-0.5.1.tar.gz
+[2023-07-22 20:25:45] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230722] Old Version: [2.4.0b20230721]
+[2023-07-22 20:25:45] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/93/32/cb5cdf7a880d6f3fdd22119228e1eae589f08ece43cfbfbef499e8786fd7/OneOnOne-0.6935.tar.gz
+[2023-07-22 20:25:45] INFO root fetch - processPackages [montydb]: Downloading https://files.pythonhosted.org/packages/98/a7/15299343e0a2d7d6f53bcb24a0ce6889ec5a2c5acc9177b8853abb37b9d9/montydb-2.5.0.tar.gz
+[2023-07-22 20:25:45] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-22 20:25:45] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/0a/0f/8089563f499e6574af68848b0fc4a6285d25912f4b1e36983f0f3f88d05e/bigdl_llm-2.4.0b20230720-py3-none-win_amd64.whl
+[2023-07-22 20:25:45] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Downloading https://files.pythonhosted.org/packages/a9/bd/857f1426308c8e75689e9b6f68fbc0bcaeea2b88e38dc6dac5df9667edd8/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.0.tar.gz
+[2023-07-22 20:25:45] INFO root fetch - processPackages [focus-cfe]: Downloading https://files.pythonhosted.org/packages/8f/9f/ab53518733c4546f16beabc643dfb07848f0c4bdafcee9ac07659fcc47f3/focus-cfe-0.0.dev2.tar.gz
+[2023-07-22 20:25:45] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/de/9e/ff8e9565fe46c579bb08531f6e652ed5d5ebf86d07a6765d8f0df3965ecc/bigdl_nano-2.4.0b20230721-py3-none-win_amd64.whl
+[2023-07-22 20:25:46] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/8b/f5/410a3542e130d037184d49e5723bdf23a1c481009cacbe08dfdd6008387f/bigdl_serving-2.4.0b20230721-py2.py3-none-any.whl
+[2023-07-22 20:25:46] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/c3/35/749fce1b27a593a6af374e30460dabaacbf928549e4a13b8dfeb8e44eced/bigdl_chronos-2.4.0b20230721-py3-none-win_amd64.whl
+[2023-07-22 20:25:46] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Downloading https://files.pythonhosted.org/packages/19/14/0d57824e408acb629769d29cca84d03597c05a40e6ba58bedde2f03a5637/gammarer.aws-secure-vpc-bucket-0.5.2.tar.gz
+[2023-07-22 20:25:46] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-22 20:25:46] INFO root fetch - processPackages [montydb]: Downloading https://files.pythonhosted.org/packages/24/62/7391da86ecb96904d1052bb44e5b3de7cb806c353c4df3e69a4a644c3a1a/montydb-2.5.1.tar.gz
+[2023-07-22 20:25:46] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: executing diffoscope
+[2023-07-22 20:25:46] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-vpc-bucket-0.5.1.tar.gz tmp/gammarer.aws-secure-vpc-bucket-0.5.2.tar.gz --markdown 20230722/g/gammarer.aws-secure-vpc-bucket/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-22 20:25:46] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/c6/0f/d58f908ff21d28163e359ad9ed2cc7e2866acb6c3145a1e89a994aaa56f2/OneOnOne-0.6936.tar.gz
+[2023-07-22 20:25:46] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-22 20:25:46] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230722/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-22 20:25:46] INFO root fetch - processPackages [montydb]: executing diffoscope
+[2023-07-22 20:25:46] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Downloading https://files.pythonhosted.org/packages/d4/cf/a7e7172272e91da627f02d66ea1bd4f011eb42911cdff61bcb8c35885da8/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.1.tar.gz
+[2023-07-22 20:25:46] INFO root fetch - processPackages [montydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/montydb-2.5.0.tar.gz tmp/montydb-2.5.1.tar.gz --markdown 20230722/m/montydb/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-07-22 20:25:46] INFO root fetch - processPackages [focus-cfe]: Downloading https://files.pythonhosted.org/packages/88/8f/70ffb687432922d2fd3574d762655c50dbab51c6cf60aab59c1a21d7db97/focus-cfe-0.0.dev3.tar.gz
+[2023-07-22 20:25:46] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/0a/5c/d2d3a339cac8df7e9d6c81045228090944e92350d2e4be0601530d278461/bigdl_serving-2.4.0b20230722-py2.py3-none-any.whl
+[2023-07-22 20:25:46] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/f8/c8/f23db15b9655e2d4e19f758e93fa2f23326e93e69b66f82c78e8509c7f54/bigdl_chronos-2.4.0b20230722-py3-none-win_amd64.whl
+[2023-07-22 20:25:46] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/35/fc/a9bb4d9006b4e225eb5fa2fa8d7e1cf6145285fa47f8baa9eac219c04628/bigdl_llm-2.4.0b20230721-py3-none-win_amd64.whl
+[2023-07-22 20:25:46] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 20:25:46] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6935.tar.gz tmp/OneOnOne-0.6936.tar.gz --markdown 20230722/O/OneOnOne/0.6935-0.6936/diff.md --exclude *.pyd
+[2023-07-22 20:25:46] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: executing diffoscope
+[2023-07-22 20:25:46] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.0.tar.gz tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.1.tar.gz --markdown 20230722/g/gammarer.aws-ecs-fargate-task-termination-detection-event-rule/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-22 20:25:46] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/e5/13/83f06b6ff60e77c4ac6cae5781f554312aa89fb80f68862013d62d123e9e/bigdl_nano-2.4.0b20230722-py3-none-win_amd64.whl
+[2023-07-22 20:25:46] INFO root fetch - processPackages [focus-cfe]: executing diffoscope
+[2023-07-22 20:25:46] INFO root fetch - processPackages [focus-cfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/focus-cfe-0.0.dev2.tar.gz tmp/focus-cfe-0.0.dev3.tar.gz --markdown 20230722/f/focus-cfe/0.0.dev2-0.0.dev3/diff.md --exclude *.pyd
+[2023-07-22 20:25:46] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-07-22 20:25:46] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230721-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230722-py2.py3-none-any.whl.zip --markdown 20230722/b/bigdl-serving/2.4.0b20230721-2.4.0b20230722/diff.md --exclude *.pyd
+[2023-07-22 20:25:46] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-07-22 20:25:46] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230721-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230722-py3-none-win_amd64.whl.zip --markdown 20230722/b/bigdl-chronos/2.4.0b20230721-2.4.0b20230722/diff.md --exclude *.pyd
+[2023-07-22 20:25:47] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-07-22 20:25:47] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230720-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230721-py3-none-win_amd64.whl.zip --markdown 20230722/b/bigdl-llm/2.4.0b20230720-2.4.0b20230721/diff.md --exclude *.pyd
+[2023-07-22 20:25:47] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-vpc-bucket-0.5.1.tar.gz]
+[2023-07-22 20:25:47] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-vpc-bucket-0.5.2.tar.gz]
+[2023-07-22 20:25:47] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Start processing: swarms
+[2023-07-22 20:25:47] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-vpc-bucket]: success
+[2023-07-22 20:25:47] INFO root fetch - processPackages [swarms]: New version: [1.9.0] Old Version: [1.0.4]
+[2023-07-22 20:25:47] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-07-22 20:25:47] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230721-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230722-py3-none-win_amd64.whl.zip --markdown 20230722/b/bigdl-nano/2.4.0b20230721-2.4.0b20230722/diff.md --exclude *.pyd
+[2023-07-22 20:25:47] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-22 20:25:47] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-22 20:25:47] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-22 20:25:47] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/a0/5f/63edeeecf03af7b2618f085d65c102be5aafe6cd4f09bd145841ae4fdb7e/swarms-1.0.4.tar.gz
+[2023-07-22 20:25:47] INFO root fetch - processPackages [montydb]: Remove: archive file [/home/abi/fetcher/tmp/montydb-2.5.0.tar.gz]
+[2023-07-22 20:25:47] INFO root fetch - processPackages [montydb]: Remove: archive file [/home/abi/fetcher/tmp/montydb-2.5.1.tar.gz]
+[2023-07-22 20:25:47] INFO root fetch - main [MainThread]: End processing [montydb]: success
+[2023-07-22 20:25:48] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.0.tar.gz]
+[2023-07-22 20:25:48] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.1.tar.gz]
+[2023-07-22 20:25:48] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: success
+[2023-07-22 20:25:48] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230721-py2.py3-none-any.whl.zip]
+[2023-07-22 20:25:48] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230722-py2.py3-none-any.whl.zip]
+[2023-07-22 20:25:48] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-07-22 20:25:48] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/47/61/2296c4861da08a33b70d6a3f25b4388498f6efacac63f23643ab0506af02/swarms-1.9.0.tar.gz
+[2023-07-22 20:25:48] INFO root fetch - processPackages [focus-cfe]: Remove: archive file [/home/abi/fetcher/tmp/focus-cfe-0.0.dev2.tar.gz]
+[2023-07-22 20:25:48] INFO root fetch - processPackages [focus-cfe]: Remove: archive file [/home/abi/fetcher/tmp/focus-cfe-0.0.dev3.tar.gz]
+[2023-07-22 20:25:48] INFO root fetch - main [MainThread]: End processing [focus-cfe]: success
+[2023-07-22 20:25:48] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-22 20:25:48] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-1.0.4.tar.gz tmp/swarms-1.9.0.tar.gz --markdown 20230722/s/swarms/1.0.4-1.9.0/diff.md --exclude *.pyd
+[2023-07-22 20:25:48] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6935.tar.gz]
+[2023-07-22 20:25:48] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6936.tar.gz]
+[2023-07-22 20:25:48] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 20:25:48] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230721-py3-none-win_amd64.whl.zip]
+[2023-07-22 20:25:48] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230722-py3-none-win_amd64.whl.zip]
+[2023-07-22 20:25:48] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-07-22 20:25:49] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230721-py3-none-win_amd64.whl.zip]
+[2023-07-22 20:25:49] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230722-py3-none-win_amd64.whl.zip]
+[2023-07-22 20:25:49] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-07-22 20:25:49] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-1.0.4.tar.gz]
+[2023-07-22 20:25:49] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-1.9.0.tar.gz]
+[2023-07-22 20:25:49] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-22 20:26:01] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230720-py3-none-win_amd64.whl.zip]
+[2023-07-22 20:26:01] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230721-py3-none-win_amd64.whl.zip]
+[2023-07-22 20:26:01] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-07-22 20:26:01] INFO root fetch - main [MainThread]: Store serial: [18996819]
