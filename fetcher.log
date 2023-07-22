@@ -15954,3 +15954,49 @@ EOFError: EOF read where object expected
 [2023-07-22 17:28:39] INFO root fetch - processPackages [buckaroo]: Remove: archive file [/home/abi/fetcher/tmp/buckaroo-0.3.7.tar.gz]
 [2023-07-22 17:28:39] INFO root fetch - main [MainThread]: End processing [buckaroo]: success
 [2023-07-22 17:28:39] INFO root fetch - main [MainThread]: Store serial: [18995753]
+[2023-07-22 17:33:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995753]
+[2023-07-22 17:33:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 17:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: camply
+[2023-07-22 17:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydiff-planetarium-assignment
+[2023-07-22 17:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyshaho
+[2023-07-22 17:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gymnasium-minigrid
+[2023-07-22 17:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-beta
+[2023-07-22 17:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sklearn-mlmlm
+[2023-07-22 17:33:48] INFO root fetch - processPackages [certora-cli-beta]: New version: [4.6.0] Old Version: [4.5.1]
+[2023-07-22 17:33:48] INFO root fetch - processPackages [pydiff-planetarium-assignment]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-22 17:33:48] INFO root fetch - processPackages [sklearn-mlmlm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 17:33:49] INFO root fetch - processPackages [gymnasium-minigrid]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-22 17:33:49] WARNING root fetch - processPackages [pyshaho]: Skipping, unable to determine old version
+[2023-07-22 17:33:49] INFO root fetch - main [MainThread]: End processing [pyshaho] error
+[2023-07-22 17:33:49] INFO root fetch - processPackages [pydiff-planetarium-assignment]: Downloading https://files.pythonhosted.org/packages/b0/c2/dfb8658c436e1aa7206ae6f1c540b1539a3836a39b065983a3ff97c8c2c1/pydiff-planetarium-assignment-0.0.2.tar.gz
+[2023-07-22 17:33:49] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/0a/98/4ddd38a1e51a088e832ba7e63522d73dc145b8cfdec3e34074d50b210372/sklearn_mlmlm-0.0.8.tar.gz
+[2023-07-22 17:33:49] INFO root fetch - processPackages [camply]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-22 17:33:49] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/b6/1e/0f4c1cd15a9dc716c825ce9473f46b8d514cdeef6ffa87576366bf2588f5/camply-0.9.2.tar.gz
+[2023-07-22 17:33:49] INFO root fetch - processPackages [certora-cli-beta]: Downloading https://files.pythonhosted.org/packages/5a/7d/a97bdba6147783a1d5d45c01f6ab846cb5c09117f0193b0e3616d01be540/certora-cli-beta-4.5.1.tar.gz
+[2023-07-22 17:33:49] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/8e/20/5b0f76a3c4ec519bdc1252725dd78ad4afcc5b17fd82f5330134186be426/sklearn_mlmlm-0.0.9.tar.gz
+[2023-07-22 17:33:49] WARNING root fetch - processPackages [certora-cli-beta]: Skipping package: exceeds size limit 37461734>=10485760
+[2023-07-22 17:33:49] INFO root fetch - main [MainThread]: End processing [certora-cli-beta] error
+[2023-07-22 17:33:49] INFO root fetch - processPackages [pydiff-planetarium-assignment]: Downloading https://files.pythonhosted.org/packages/2e/f2/0aadfbb10a6e5c53975763dd2f79b486f21c80168f09a0497d659401dd81/pydiff-planetarium-assignment-0.0.3.tar.gz
+[2023-07-22 17:33:49] INFO root fetch - processPackages [sklearn-mlmlm]: executing diffoscope
+[2023-07-22 17:33:49] INFO root fetch - processPackages [sklearn-mlmlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_mlmlm-0.0.8.tar.gz tmp/sklearn_mlmlm-0.0.9.tar.gz --markdown 20230722/s/sklearn-mlmlm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 17:33:49] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/3e/d1/4f9e81a5f74b69b8f9c95b378d56780fcddfa4ab3f0f8226c1a7a7116867/camply-0.9.3.tar.gz
+[2023-07-22 17:33:49] INFO root fetch - processPackages [gymnasium-minigrid]: Downloading https://files.pythonhosted.org/packages/6c/e4/124273173f32c8d122f1d132491ac48eb9b1996f97764b47295096adbe52/gymnasium_minigrid-0.0.5.tar.gz
+[2023-07-22 17:33:49] INFO root fetch - processPackages [camply]: executing diffoscope
+[2023-07-22 17:33:49] INFO root fetch - processPackages [camply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camply-0.9.2.tar.gz tmp/camply-0.9.3.tar.gz --markdown 20230722/c/camply/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-22 17:33:49] INFO root fetch - processPackages [pydiff-planetarium-assignment]: executing diffoscope
+[2023-07-22 17:33:49] INFO root fetch - processPackages [pydiff-planetarium-assignment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydiff-planetarium-assignment-0.0.2.tar.gz tmp/pydiff-planetarium-assignment-0.0.3.tar.gz --markdown 20230722/p/pydiff-planetarium-assignment/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-22 17:33:49] INFO root fetch - processPackages [gymnasium-minigrid]: executing diffoscope
+[2023-07-22 17:33:49] INFO root fetch - processPackages [gymnasium-minigrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium_minigrid-0.0.4.tar.gz tmp/gymnasium_minigrid-0.0.5.tar.gz --markdown 20230722/g/gymnasium-minigrid/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-22 17:33:50] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.8.tar.gz]
+[2023-07-22 17:33:50] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.9.tar.gz]
+[2023-07-22 17:33:50] INFO root fetch - main [MainThread]: End processing [sklearn-mlmlm]: success
+[2023-07-22 17:33:50] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.2.tar.gz]
+[2023-07-22 17:33:50] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.3.tar.gz]
+[2023-07-22 17:33:50] INFO root fetch - main [MainThread]: End processing [camply]: success
+[2023-07-22 17:33:50] INFO root fetch - processPackages [pydiff-planetarium-assignment]: Remove: archive file [/home/abi/fetcher/tmp/pydiff-planetarium-assignment-0.0.2.tar.gz]
+[2023-07-22 17:33:50] INFO root fetch - processPackages [pydiff-planetarium-assignment]: Remove: archive file [/home/abi/fetcher/tmp/pydiff-planetarium-assignment-0.0.3.tar.gz]
+[2023-07-22 17:33:50] INFO root fetch - main [MainThread]: End processing [pydiff-planetarium-assignment]: success
+[2023-07-22 17:33:50] INFO root fetch - processPackages [gymnasium-minigrid]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_minigrid-0.0.4.tar.gz]
+[2023-07-22 17:33:50] INFO root fetch - processPackages [gymnasium-minigrid]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_minigrid-0.0.5.tar.gz]
+[2023-07-22 17:33:50] INFO root fetch - main [MainThread]: End processing [gymnasium-minigrid]: success
+[2023-07-22 17:33:50] INFO root fetch - main [MainThread]: Store serial: [18995777]
