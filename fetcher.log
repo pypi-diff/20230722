@@ -11939,3 +11939,87 @@
 [2023-07-22 11:13:51] INFO root fetch - processPackages [PyroFork]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-2.2.5.tar.gz]
 [2023-07-22 11:13:51] INFO root fetch - main [MainThread]: End processing [PyroFork]: success
 [2023-07-22 11:13:51] INFO root fetch - main [MainThread]: Store serial: [18993987]
+[2023-07-22 11:18:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993987]
+[2023-07-22 11:18:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-22 11:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: payload-validator
+[2023-07-22 11:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: talkytimes-package
+[2023-07-22 11:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ddbox
+[2023-07-22 11:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tbp-nightly
+[2023-07-22 11:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yaylib
+[2023-07-22 11:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fedex-sdk
+[2023-07-22 11:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pip
+[2023-07-22 11:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ramanspy
+[2023-07-22 11:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-07-22 11:19:00] INFO root fetch - processPackages [ddbox]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-22 11:19:00] INFO root fetch - processPackages [pip]: New version: [9.0.3] Old Version: [9.0.2]
+[2023-07-22 11:19:00] INFO root fetch - processPackages [fedex-sdk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-22 11:19:00] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-22 11:19:00] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 11:19:00] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-22 11:19:00] INFO root fetch - processPackages [payload-validator]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-22 11:19:00] INFO root fetch - processPackages [ramanspy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-22 11:19:00] INFO root fetch - processPackages [yaylib]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-22 11:19:00] INFO root fetch - processPackages [ddbox]: Downloading https://files.pythonhosted.org/packages/1c/ce/8c9df211b8a34ec710c0a8cb9c4e350be125ad7c9dae40ffc1de12e73484/ddbox-0.1.2.tar.gz
+[2023-07-22 11:19:00] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/a8/86/2f61ab8625f6992dea4537d50de8fd72419eb4619ed3352e88af51611443/fedex-sdk-0.0.4.tar.gz
+[2023-07-22 11:19:00] INFO root fetch - processPackages [pip]: Downloading https://files.pythonhosted.org/packages/e5/8f/3fc66461992dc9e9fcf5e005687d5f676729172dda640df2fd8b597a6da7/pip-9.0.2.tar.gz
+[2023-07-22 11:19:00] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-22 11:19:00] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-22 11:19:00] INFO root fetch - processPackages [payload-validator]: Downloading https://files.pythonhosted.org/packages/d4/8a/6cdab078c69a9bd9c93b238697b6ddf5d1bd6b3048615388edb04496df5b/payload-validator-0.1.2.tar.gz
+[2023-07-22 11:19:00] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-22 11:19:00] INFO root fetch - processPackages [ramanspy]: Downloading https://files.pythonhosted.org/packages/16/48/2c38e9c4c4aaa391c060d3cc7402b8c2c5a2768336a730f5a3d5eb56fcc3/ramanspy-0.1.0.tar.gz
+[2023-07-22 11:19:00] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/55/a6/bdfc1449a4f8072f8cb0321b4f9a13c6ee34f3d38c89daf6b57e000215c6/yaylib-1.0.3.tar.gz
+[2023-07-22 11:19:00] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-22 11:19:00] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/ab/4f/dc384b2740a1716ac5a6e8e6bf06fda6d84e2c4ebd129887aec4e925e338/fedex-sdk-0.0.5.tar.gz
+[2023-07-22 11:19:00] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-22 11:19:00] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230722/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-22 11:19:00] INFO root fetch - processPackages [payload-validator]: Downloading https://files.pythonhosted.org/packages/82/1c/350641f8523b84469413555a9b164331cf46dd41a5f4c559c70351ad6636/payload-validator-0.1.3.tar.gz
+[2023-07-22 11:19:00] INFO root fetch - processPackages [fedex-sdk]: executing diffoscope
+[2023-07-22 11:19:00] INFO root fetch - processPackages [fedex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedex-sdk-0.0.4.tar.gz tmp/fedex-sdk-0.0.5.tar.gz --markdown 20230722/f/fedex-sdk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-22 11:19:00] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-22 11:19:01] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/6b/9e/8a291f0ad4450aa40b74b5ddd8c02713b7dbc0780b7e647fd03695adb2d7/yaylib-1.0.4.tar.gz
+[2023-07-22 11:19:01] INFO root fetch - processPackages [ramanspy]: Downloading https://files.pythonhosted.org/packages/f2/d0/09fd998f53e45fbd38f80e89aea82a33e45a4a98e080a0eb71fb6dcfbbf7/ramanspy-0.1.1.tar.gz
+[2023-07-22 11:19:01] INFO root fetch - processPackages [pip]: Downloading https://files.pythonhosted.org/packages/c4/44/e6b8056b6c8f2bfd1445cc9990f478930d8e3459e9dbf5b8e2d2922d64d3/pip-9.0.3.tar.gz
+[2023-07-22 11:19:01] INFO root fetch - processPackages [ddbox]: Downloading https://files.pythonhosted.org/packages/d1/40/8940b1a36a97d046dec787898766505275b3e6198ace54907a438cd52d8d/ddbox-0.1.3.tar.gz
+[2023-07-22 11:19:01] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-22 11:19:01] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230722/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 11:19:01] INFO root fetch - processPackages [payload-validator]: executing diffoscope
+[2023-07-22 11:19:01] INFO root fetch - processPackages [payload-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payload-validator-0.1.2.tar.gz tmp/payload-validator-0.1.3.tar.gz --markdown 20230722/p/payload-validator/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-22 11:19:01] INFO root fetch - processPackages [yaylib]: executing diffoscope
+[2023-07-22 11:19:01] INFO root fetch - processPackages [yaylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaylib-1.0.3.tar.gz tmp/yaylib-1.0.4.tar.gz --markdown 20230722/y/yaylib/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-22 11:19:01] INFO root fetch - processPackages [ramanspy]: executing diffoscope
+[2023-07-22 11:19:01] INFO root fetch - processPackages [ramanspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramanspy-0.1.0.tar.gz tmp/ramanspy-0.1.1.tar.gz --markdown 20230722/r/ramanspy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-22 11:19:01] INFO root fetch - processPackages [pip]: executing diffoscope
+[2023-07-22 11:19:01] INFO root fetch - processPackages [pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-9.0.2.tar.gz tmp/pip-9.0.3.tar.gz --markdown 20230722/p/pip/9.0.2-9.0.3/diff.md --exclude *.pyd
+[2023-07-22 11:19:01] INFO root fetch - processPackages [ddbox]: executing diffoscope
+[2023-07-22 11:19:01] INFO root fetch - processPackages [ddbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddbox-0.1.2.tar.gz tmp/ddbox-0.1.3.tar.gz --markdown 20230722/d/ddbox/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-22 11:19:01] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-22 11:19:02] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-0.0.4.tar.gz]
+[2023-07-22 11:19:02] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-0.0.5.tar.gz]
+[2023-07-22 11:19:02] INFO root fetch - main [MainThread]: End processing [fedex-sdk]: success
+[2023-07-22 11:19:02] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-22 11:19:02] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-22 11:19:02] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-22 11:19:02] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-22 11:19:02] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-22 11:19:02] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-22 11:19:02] INFO root fetch - processPackages [payload-validator]: Remove: archive file [/home/abi/fetcher/tmp/payload-validator-0.1.2.tar.gz]
+[2023-07-22 11:19:02] INFO root fetch - processPackages [payload-validator]: Remove: archive file [/home/abi/fetcher/tmp/payload-validator-0.1.3.tar.gz]
+[2023-07-22 11:19:02] INFO root fetch - main [MainThread]: End processing [payload-validator]: success
+[2023-07-22 11:19:02] INFO root fetch - processPackages [ramanspy]: Remove: archive file [/home/abi/fetcher/tmp/ramanspy-0.1.0.tar.gz]
+[2023-07-22 11:19:02] INFO root fetch - processPackages [ramanspy]: Remove: archive file [/home/abi/fetcher/tmp/ramanspy-0.1.1.tar.gz]
+[2023-07-22 11:19:02] INFO root fetch - main [MainThread]: End processing [ramanspy]: success
+[2023-07-22 11:19:02] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-1.0.3.tar.gz]
+[2023-07-22 11:19:02] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-1.0.4.tar.gz]
+[2023-07-22 11:19:02] INFO root fetch - main [MainThread]: End processing [yaylib]: success
+[2023-07-22 11:19:03] INFO root fetch - processPackages [ddbox]: Remove: archive file [/home/abi/fetcher/tmp/ddbox-0.1.2.tar.gz]
+[2023-07-22 11:19:03] INFO root fetch - processPackages [ddbox]: Remove: archive file [/home/abi/fetcher/tmp/ddbox-0.1.3.tar.gz]
+[2023-07-22 11:19:03] INFO root fetch - main [MainThread]: End processing [ddbox]: success
+[2023-07-22 11:19:03] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-22 11:19:03] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230722/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-22 11:19:03] INFO root fetch - processPackages [pip]: Remove: archive file [/home/abi/fetcher/tmp/pip-9.0.2.tar.gz]
+[2023-07-22 11:19:03] INFO root fetch - processPackages [pip]: Remove: archive file [/home/abi/fetcher/tmp/pip-9.0.3.tar.gz]
+[2023-07-22 11:19:03] INFO root fetch - main [MainThread]: End processing [pip]: success
+[2023-07-22 11:19:05] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-22 11:19:05] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-22 11:19:05] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-22 11:19:05] INFO root fetch - main [MainThread]: Store serial: [18994023]
