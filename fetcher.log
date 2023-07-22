@@ -7772,3 +7772,51 @@
 [2023-07-22 04:37:42] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_onpremise-4.4.9.tar.gz]
 [2023-07-22 04:37:42] INFO root fetch - main [MainThread]: End processing [fiftyone-devicedetection-onpremise]: success
 [2023-07-22 04:37:42] INFO root fetch - main [MainThread]: Store serial: [18992264]
+[2023-07-22 04:42:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992264]
+[2023-07-22 04:42:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 04:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-account-document-reversal
+[2023-07-22 04:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiopypiserver
+[2023-07-22 04:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: playcode
+[2023-07-22 04:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bardapi
+[2023-07-22 04:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrunch
+[2023-07-22 04:42:52] INFO root fetch - processPackages [bardapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 04:42:52] INFO root fetch - processPackages [scrunch]: New version: [6.5.2004.post1689979930] Old Version: [6.5.2004.post1689977722]
+[2023-07-22 04:42:52] INFO root fetch - processPackages [playcode]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-22 04:42:52] INFO root fetch - processPackages [aiopypiserver]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-22 04:42:52] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: New version: [13.0.1.0.5.dev1] Old Version: [13.0.1.0.4]
+[2023-07-22 04:42:52] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/da/90/736432b57acea0e8451d0632caf2fad238af50e3597bec8eedbd1f235e15/scrunch-6.5.2004.post1689977722.tar.gz
+[2023-07-22 04:42:52] INFO root fetch - processPackages [aiopypiserver]: Downloading https://files.pythonhosted.org/packages/cb/cd/2ce9e77356de0f3333b9cb7ee4cf043fbc17eac63cac17c6a60da073ece1/aiopypiserver-0.0.4.tar.gz
+[2023-07-22 04:42:52] INFO root fetch - processPackages [bardapi]: Downloading https://files.pythonhosted.org/packages/15/8c/c307da290d06da4e1a9dababf71aef7b155e7ea4f8feacfb03447cecdd15/bardapi-0.1.8.tar.gz
+[2023-07-22 04:42:52] INFO root fetch - processPackages [playcode]: Downloading https://files.pythonhosted.org/packages/1e/d5/a1ebe603e6cf32fa628767820343aa7d02e3c7693f50433e7fdabddd46fd/playcode-0.0.2.tar.gz
+[2023-07-22 04:42:52] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: Downloading https://files.pythonhosted.org/packages/03/6f/9e5077a94836ed55a64523b28935ad49f05edc10e9f1d1cb05ab1dcd44bb/odoo13_addon_account_document_reversal-13.0.1.0.4-py3-none-any.whl
+[2023-07-22 04:42:52] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/ec/5d/b97bd39cd6d56235b5402ac7f62abf74b9ace7ad07c00d6409b8fb35484d/scrunch-6.5.2004.post1689979930.tar.gz
+[2023-07-22 04:42:52] INFO root fetch - processPackages [aiopypiserver]: Downloading https://files.pythonhosted.org/packages/88/e2/ab7eb6d3f03955f7fad8c290ca646465660b7f94c795828eea20ebfc35c5/aiopypiserver-0.0.5.tar.gz
+[2023-07-22 04:42:52] INFO root fetch - processPackages [bardapi]: Downloading https://files.pythonhosted.org/packages/7d/28/67bed0a690d240036e208efb5d30b83c9d0f46dca1f249b426109f7ee2f4/bardapi-0.1.9.tar.gz
+[2023-07-22 04:42:53] INFO root fetch - processPackages [playcode]: Downloading https://files.pythonhosted.org/packages/b7/4b/0bc6169a459ac7ce76cd5cbf975c8505ac07e8f5cc99f9d8a6faafa8d7ef/playcode-0.0.4.tar.gz
+[2023-07-22 04:42:53] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: Downloading https://files.pythonhosted.org/packages/bb/fb/d5653878fcdaea1c2e4fb40bcef3571b9e070ed0c493e695bd225e09bc8f/odoo13_addon_account_document_reversal-13.0.1.0.5.dev1-py3-none-any.whl
+[2023-07-22 04:42:53] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-22 04:42:53] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2004.post1689977722.tar.gz tmp/scrunch-6.5.2004.post1689979930.tar.gz --markdown 20230722/s/scrunch/6.5.2004.post1689977722-6.5.2004.post1689979930/diff.md --exclude *.pyd
+[2023-07-22 04:42:53] INFO root fetch - processPackages [bardapi]: executing diffoscope
+[2023-07-22 04:42:53] INFO root fetch - processPackages [bardapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bardapi-0.1.8.tar.gz tmp/bardapi-0.1.9.tar.gz --markdown 20230722/b/bardapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 04:42:53] INFO root fetch - processPackages [aiopypiserver]: executing diffoscope
+[2023-07-22 04:42:53] INFO root fetch - processPackages [aiopypiserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiopypiserver-0.0.4.tar.gz tmp/aiopypiserver-0.0.5.tar.gz --markdown 20230722/a/aiopypiserver/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-22 04:42:53] INFO root fetch - processPackages [playcode]: executing diffoscope
+[2023-07-22 04:42:53] INFO root fetch - processPackages [playcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playcode-0.0.2.tar.gz tmp/playcode-0.0.4.tar.gz --markdown 20230722/p/playcode/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 04:42:53] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: executing diffoscope
+[2023-07-22 04:42:53] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_document_reversal-13.0.1.0.4-py3-none-any.whl.zip tmp/odoo13_addon_account_document_reversal-13.0.1.0.5.dev1-py3-none-any.whl.zip --markdown 20230722/o/odoo13-addon-account-document-reversal/13.0.1.0.4-13.0.1.0.5.dev1/diff.md --exclude *.pyd
+[2023-07-22 04:42:54] INFO root fetch - processPackages [playcode]: Remove: archive file [/home/abi/fetcher/tmp/playcode-0.0.2.tar.gz]
+[2023-07-22 04:42:54] INFO root fetch - processPackages [playcode]: Remove: archive file [/home/abi/fetcher/tmp/playcode-0.0.4.tar.gz]
+[2023-07-22 04:42:54] INFO root fetch - main [MainThread]: End processing [playcode]: success
+[2023-07-22 04:42:54] INFO root fetch - processPackages [bardapi]: Remove: archive file [/home/abi/fetcher/tmp/bardapi-0.1.8.tar.gz]
+[2023-07-22 04:42:54] INFO root fetch - processPackages [bardapi]: Remove: archive file [/home/abi/fetcher/tmp/bardapi-0.1.9.tar.gz]
+[2023-07-22 04:42:54] INFO root fetch - main [MainThread]: End processing [bardapi]: success
+[2023-07-22 04:42:54] INFO root fetch - processPackages [aiopypiserver]: Remove: archive file [/home/abi/fetcher/tmp/aiopypiserver-0.0.4.tar.gz]
+[2023-07-22 04:42:54] INFO root fetch - processPackages [aiopypiserver]: Remove: archive file [/home/abi/fetcher/tmp/aiopypiserver-0.0.5.tar.gz]
+[2023-07-22 04:42:54] INFO root fetch - main [MainThread]: End processing [aiopypiserver]: success
+[2023-07-22 04:42:54] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_document_reversal-13.0.1.0.4-py3-none-any.whl.zip]
+[2023-07-22 04:42:54] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_document_reversal-13.0.1.0.5.dev1-py3-none-any.whl.zip]
+[2023-07-22 04:42:54] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-document-reversal]: success
+[2023-07-22 04:42:54] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2004.post1689977722.tar.gz]
+[2023-07-22 04:42:54] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2004.post1689979930.tar.gz]
+[2023-07-22 04:42:54] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-22 04:42:54] INFO root fetch - main [MainThread]: Store serial: [18992278]
