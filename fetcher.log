@@ -12785,3 +12785,18 @@
 [2023-07-22 12:28:40] INFO root fetch - processPackages [ddbox]: Remove: archive file [/home/abi/fetcher/tmp/ddbox-0.1.4.tar.gz]
 [2023-07-22 12:28:40] INFO root fetch - main [MainThread]: End processing [ddbox]: success
 [2023-07-22 12:28:40] INFO root fetch - main [MainThread]: Store serial: [18994374]
+[2023-07-22 12:33:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994374]
+[2023-07-22 12:33:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-22 12:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipymafs
+[2023-07-22 12:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FlyDB-SDK-Python
+[2023-07-22 12:33:49] INFO root fetch - processPackages [ipymafs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-22 12:33:49] INFO root fetch - processPackages [ipymafs]: Downloading https://files.pythonhosted.org/packages/d5/96/010b9cf7bff916ef3b7caaea683ce48d1c26119eac2030b08e2013176b16/ipymafs-0.0.1.tar.gz
+[2023-07-22 12:33:49] WARNING root fetch - processPackages [FlyDB-SDK-Python]: Skipping, unable to determine old version
+[2023-07-22 12:33:49] INFO root fetch - main [MainThread]: End processing [FlyDB-SDK-Python] error
+[2023-07-22 12:33:49] INFO root fetch - processPackages [ipymafs]: Downloading https://files.pythonhosted.org/packages/4a/3b/e66aa1a605ec4b22f1eb1e75f113ac7361fb4a7d9792ae4b39a40f5e7852/ipymafs-0.0.2.tar.gz
+[2023-07-22 12:33:49] INFO root fetch - processPackages [ipymafs]: executing diffoscope
+[2023-07-22 12:33:49] INFO root fetch - processPackages [ipymafs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipymafs-0.0.1.tar.gz tmp/ipymafs-0.0.2.tar.gz --markdown 20230722/i/ipymafs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-22 12:33:50] INFO root fetch - processPackages [ipymafs]: Remove: archive file [/home/abi/fetcher/tmp/ipymafs-0.0.1.tar.gz]
+[2023-07-22 12:33:50] INFO root fetch - processPackages [ipymafs]: Remove: archive file [/home/abi/fetcher/tmp/ipymafs-0.0.2.tar.gz]
+[2023-07-22 12:33:50] INFO root fetch - main [MainThread]: End processing [ipymafs]: success
+[2023-07-22 12:33:50] INFO root fetch - main [MainThread]: Store serial: [18994382]
