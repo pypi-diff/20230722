@@ -18813,3 +18813,99 @@ EOFError: EOF read where object expected
 [2023-07-22 21:19:07] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-1.9.0.tar.gz]
 [2023-07-22 21:19:07] INFO root fetch - main [MainThread]: End processing [swarms]: success
 [2023-07-22 21:19:07] INFO root fetch - main [MainThread]: Store serial: [18997045]
+[2023-07-22 21:24:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18997045]
+[2023-07-22 21:24:16] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-22 21:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarer.aws-budgets-notification
+[2023-07-22 21:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarer.aws-ec2-instance-running-scheduler
+[2023-07-22 21:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roblox-pyc
+[2023-07-22 21:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiochris
+[2023-07-22 21:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gammarer.aws-daily-cost-usage-reporter
+[2023-07-22 21:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: balcony
+[2023-07-22 21:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pillar1
+[2023-07-22 21:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gammarer.aws-daily-cloud-watch-logs-archiver
+[2023-07-22 21:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: atternio
+[2023-07-22 21:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: winter
+[2023-07-22 21:24:16] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-22 21:24:16] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-22 21:24:16] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: New version: [0.11.3] Old Version: [0.11.2]
+[2023-07-22 21:24:16] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-22 21:24:16] INFO root fetch - processPackages [aiochris]: New version: [0.3.0rc3] Old Version: [0.3.0rc2]
+[2023-07-22 21:24:16] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-22 21:24:16] WARNING root fetch - processPackages [atternio]: Skipping, unable to determine old version
+[2023-07-22 21:24:16] INFO root fetch - processPackages [atternio]: Start processing: medimageaugment
+[2023-07-22 21:24:16] INFO root fetch - main [MainThread]: End processing [atternio] error
+[2023-07-22 21:24:16] INFO root fetch - processPackages [winter]: New version: [9.6.4] Old Version: [9.6.3]
+[2023-07-22 21:24:16] INFO root fetch - processPackages [pillar1]: New version: [0.1.9.9] Old Version: [0.1.9.8]
+[2023-07-22 21:24:16] INFO root fetch - processPackages [balcony]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 21:24:16] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: Downloading https://files.pythonhosted.org/packages/0b/48/4abe3cbcd5026b09b16b6d3c882155a94c40d39536c2d91c970809b43063/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.2.tar.gz
+[2023-07-22 21:24:16] INFO root fetch - processPackages [medimageaugment]: New version: [1.2.5] Old Version: [1.2.3]
+[2023-07-22 21:24:16] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/3a/0f/505d39900966a11201faa4ff2bcde720d5eb754eb2153db5e0c614766090/gammarer.aws-ec2-instance-running-scheduler-0.4.5.tar.gz
+[2023-07-22 21:24:16] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: Downloading https://files.pythonhosted.org/packages/4e/b4/ba2f5c0166ee0074f240a9e8a714a66aab07e8787ef34e44d93f9e56c11f/gammarer.aws-daily-cost-usage-reporter-0.9.1.tar.gz
+[2023-07-22 21:24:16] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-22 21:24:16] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/fd/c8/dc894f4393d99c54f62ae98519892157e6b0e0327ac1f0b1a261450e9868/pillar1-0.1.9.8.tar.gz
+[2023-07-22 21:24:16] INFO root fetch - processPackages [winter]: Downloading https://files.pythonhosted.org/packages/46/8a/816fba55ee7b4f089bab594def4e1f6d52ff11618d5c02c388eb2ca05c8e/winter-9.6.3.tar.gz
+[2023-07-22 21:24:16] INFO root fetch - processPackages [balcony]: Downloading https://files.pythonhosted.org/packages/67/eb/6d7516170d90f06a7092fbb7e97ebe1ee94911389010279ba391d0dc6ed8/balcony-0.1.8.tar.gz
+[2023-07-22 21:24:16] INFO root fetch - processPackages [aiochris]: Downloading https://files.pythonhosted.org/packages/e1/ad/5706943e94605b963e50628cd92159e7d479de3c3a3a73ca04ac6cd2461e/aiochris-0.3.0rc2.tar.gz
+[2023-07-22 21:24:16] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: Downloading https://files.pythonhosted.org/packages/d5/5e/156b9890a1517af71da4dba3f217a32ef60ef640bd03b56a84d4b65f31e3/gammarer.aws-budgets-notification-0.2.2.tar.gz
+[2023-07-22 21:24:17] INFO root fetch - processPackages [medimageaugment]: Downloading https://files.pythonhosted.org/packages/c0/c8/da99eb6628604ee22098f98496dacf86b2478a9110a8b93cffb17f9befa4/medimageaugment-1.2.3.tar.gz
+[2023-07-22 21:24:17] INFO root fetch - processPackages [balcony]: Downloading https://files.pythonhosted.org/packages/a5/88/a2caff9b76bd830c15698696c8acd2ab655b0bfb879c805b94c791c9311f/balcony-0.1.9.tar.gz
+[2023-07-22 21:24:17] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: Downloading https://files.pythonhosted.org/packages/78/de/6e10ad6b2478bd5188c4a812bccc62580b86c08ffd1d0ae2c8b7047a7a8e/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.3.tar.gz
+[2023-07-22 21:24:17] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/77/d2/d257507cd359b741856b85f292cf0c3c15ebb6b39717423cb4c06c27f526/gammarer.aws-ec2-instance-running-scheduler-0.4.6.tar.gz
+[2023-07-22 21:24:17] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-22 21:24:17] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/92/8d/efcf5703708adcc432230e0d510fec42756434d28ae2e4b4348f30be2eef/pillar1-0.1.9.9.tar.gz
+[2023-07-22 21:24:17] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: Downloading https://files.pythonhosted.org/packages/b8/c9/bd0cd7b54b390201b8a701e7ed5c4b7085991976d05d16ccfa7c893375fd/gammarer.aws-daily-cost-usage-reporter-0.9.2.tar.gz
+[2023-07-22 21:24:17] INFO root fetch - processPackages [winter]: Downloading https://files.pythonhosted.org/packages/e8/5d/636b014ae9453463f8cd456911d870d57243f605ea0324c1f5888edb5ed6/winter-9.6.4.tar.gz
+[2023-07-22 21:24:17] INFO root fetch - processPackages [balcony]: executing diffoscope
+[2023-07-22 21:24:17] INFO root fetch - processPackages [balcony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balcony-0.1.8.tar.gz tmp/balcony-0.1.9.tar.gz --markdown 20230722/b/balcony/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 21:24:17] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-22 21:24:17] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230722/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-22 21:24:17] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: executing diffoscope
+[2023-07-22 21:24:17] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.2.tar.gz tmp/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.3.tar.gz --markdown 20230722/g/gammarer.aws-daily-cloud-watch-logs-archiver/0.11.2-0.11.3/diff.md --exclude *.pyd
+[2023-07-22 21:24:17] INFO root fetch - processPackages [aiochris]: Downloading https://files.pythonhosted.org/packages/da/16/2067e6f26e6d311f8c14d5e1484c38283ac7d7661ec6f7ef0557195af974/aiochris-0.3.0rc3.tar.gz
+[2023-07-22 21:24:17] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: executing diffoscope
+[2023-07-22 21:24:17] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ec2-instance-running-scheduler-0.4.5.tar.gz tmp/gammarer.aws-ec2-instance-running-scheduler-0.4.6.tar.gz --markdown 20230722/g/gammarer.aws-ec2-instance-running-scheduler/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-22 21:24:17] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-07-22 21:24:17] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.9.8.tar.gz tmp/pillar1-0.1.9.9.tar.gz --markdown 20230722/p/pillar1/0.1.9.8-0.1.9.9/diff.md --exclude *.pyd
+[2023-07-22 21:24:17] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: Downloading https://files.pythonhosted.org/packages/98/19/ddf2f3eecfe018d7037afd4aeb1140eed87d949536a817be50c0ff8c6967/gammarer.aws-budgets-notification-0.2.3.tar.gz
+[2023-07-22 21:24:17] INFO root fetch - processPackages [medimageaugment]: Downloading https://files.pythonhosted.org/packages/08/4b/026ae4fe6cc1e2d252283d465d09be74d48bbcf83fcb1271d86aeb86db39/medimageaugment-1.2.5.tar.gz
+[2023-07-22 21:24:17] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: executing diffoscope
+[2023-07-22 21:24:17] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-daily-cost-usage-reporter-0.9.1.tar.gz tmp/gammarer.aws-daily-cost-usage-reporter-0.9.2.tar.gz --markdown 20230722/g/gammarer.aws-daily-cost-usage-reporter/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-22 21:24:17] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: executing diffoscope
+[2023-07-22 21:24:17] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-budgets-notification-0.2.2.tar.gz tmp/gammarer.aws-budgets-notification-0.2.3.tar.gz --markdown 20230722/g/gammarer.aws-budgets-notification/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-22 21:24:17] INFO root fetch - processPackages [winter]: executing diffoscope
+[2023-07-22 21:24:17] INFO root fetch - processPackages [winter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winter-9.6.3.tar.gz tmp/winter-9.6.4.tar.gz --markdown 20230722/w/winter/9.6.3-9.6.4/diff.md --exclude *.pyd
+[2023-07-22 21:24:17] INFO root fetch - processPackages [aiochris]: executing diffoscope
+[2023-07-22 21:24:17] INFO root fetch - processPackages [aiochris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiochris-0.3.0rc2.tar.gz tmp/aiochris-0.3.0rc3.tar.gz --markdown 20230722/a/aiochris/0.3.0rc2-0.3.0rc3/diff.md --exclude *.pyd
+[2023-07-22 21:24:17] INFO root fetch - processPackages [medimageaugment]: executing diffoscope
+[2023-07-22 21:24:17] INFO root fetch - processPackages [medimageaugment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medimageaugment-1.2.3.tar.gz tmp/medimageaugment-1.2.5.tar.gz --markdown 20230722/m/medimageaugment/1.2.3-1.2.5/diff.md --exclude *.pyd
+[2023-07-22 21:24:19] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.2.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.3.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - main [MainThread]: End processing [gammarer.aws-daily-cloud-watch-logs-archiver]: success
+[2023-07-22 21:24:19] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-running-scheduler-0.4.5.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-running-scheduler-0.4.6.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-instance-running-scheduler]: success
+[2023-07-22 21:24:19] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-budgets-notification-0.2.2.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-budgets-notification-0.2.3.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - main [MainThread]: End processing [gammarer.aws-budgets-notification]: success
+[2023-07-22 21:24:19] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.8.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.9.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-07-22 21:24:19] INFO root fetch - processPackages [aiochris]: Remove: archive file [/home/abi/fetcher/tmp/aiochris-0.3.0rc2.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - processPackages [aiochris]: Remove: archive file [/home/abi/fetcher/tmp/aiochris-0.3.0rc3.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - main [MainThread]: End processing [aiochris]: success
+[2023-07-22 21:24:19] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-daily-cost-usage-reporter-0.9.1.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-daily-cost-usage-reporter-0.9.2.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - main [MainThread]: End processing [gammarer.aws-daily-cost-usage-reporter]: success
+[2023-07-22 21:24:19] INFO root fetch - processPackages [medimageaugment]: Remove: archive file [/home/abi/fetcher/tmp/medimageaugment-1.2.3.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - processPackages [medimageaugment]: Remove: archive file [/home/abi/fetcher/tmp/medimageaugment-1.2.5.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - main [MainThread]: End processing [medimageaugment]: success
+[2023-07-22 21:24:19] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-22 21:24:19] INFO root fetch - processPackages [winter]: Remove: archive file [/home/abi/fetcher/tmp/winter-9.6.3.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - processPackages [winter]: Remove: archive file [/home/abi/fetcher/tmp/winter-9.6.4.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - main [MainThread]: End processing [winter]: success
+[2023-07-22 21:24:19] INFO root fetch - processPackages [balcony]: Remove: archive file [/home/abi/fetcher/tmp/balcony-0.1.8.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - processPackages [balcony]: Remove: archive file [/home/abi/fetcher/tmp/balcony-0.1.9.tar.gz]
+[2023-07-22 21:24:19] INFO root fetch - main [MainThread]: End processing [balcony]: success
+[2023-07-22 21:24:19] INFO root fetch - main [MainThread]: Store serial: [18997081]
