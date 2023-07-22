@@ -19005,3 +19005,76 @@ EOFError: EOF read where object expected
 [2023-07-22 21:34:41] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-1.9.0.tar.gz]
 [2023-07-22 21:34:41] INFO root fetch - main [MainThread]: End processing [swarms]: success
 [2023-07-22 21:34:41] INFO root fetch - main [MainThread]: Store serial: [18997104]
+[2023-07-22 21:39:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18997104]
+[2023-07-22 21:39:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-22 21:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pystools
+[2023-07-22 21:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: medimageaugment
+[2023-07-22 21:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxip
+[2023-07-22 21:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-ria
+[2023-07-22 21:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flexNetSim
+[2023-07-22 21:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: medimageaugment
+[2023-07-22 21:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: roblox-pyc
+[2023-07-22 21:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dj-beatcloud
+[2023-07-22 21:39:51] INFO root fetch - processPackages [medimageaugment]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-22 21:39:51] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 21:39:51] INFO root fetch - processPackages [medimageaugment]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-22 21:39:51] INFO root fetch - processPackages [jaxip]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-22 21:39:51] INFO root fetch - processPackages [flexNetSim]: New version: [0.23] Old Version: [0.22]
+[2023-07-22 21:39:51] INFO root fetch - processPackages [dj-beatcloud]: New version: [2.6.0b9] Old Version: [2.6.0b8]
+[2023-07-22 21:39:51] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-22 21:39:51] INFO root fetch - processPackages [python-ria]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 21:39:51] INFO root fetch - processPackages [medimageaugment]: Downloading https://files.pythonhosted.org/packages/09/77/e5eff1af7dad421ff0f5cbfc707fb923ee65b125af61192ef76f7060453d/medimageaugment-1.2.7.tar.gz
+[2023-07-22 21:39:51] INFO root fetch - processPackages [medimageaugment]: Downloading https://files.pythonhosted.org/packages/09/77/e5eff1af7dad421ff0f5cbfc707fb923ee65b125af61192ef76f7060453d/medimageaugment-1.2.7.tar.gz
+[2023-07-22 21:39:51] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-22 21:39:51] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/4c/ae/471927809979e349758d33da70caa44472e07ecbe379983aec2d9ef1b2da/dj_beatcloud-2.6.0b8.tar.gz
+[2023-07-22 21:39:51] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2023-07-22 21:39:51] INFO root fetch - processPackages [jaxip]: Downloading https://files.pythonhosted.org/packages/92/cb/98618364f9bcb16e16826b48c2b802cbd04692038f302885c87015be7e22/jaxip-0.7.1.tar.gz
+[2023-07-22 21:39:51] INFO root fetch - processPackages [flexNetSim]: Downloading https://files.pythonhosted.org/packages/1a/d7/af9c9825334b96c012bb93b160a41df5e641f8c0f3859f79bb50bb4871d4/flexNetSim-0.22.tar.gz
+[2023-07-22 21:39:51] INFO root fetch - processPackages [python-ria]: Downloading https://files.pythonhosted.org/packages/66/93/25248eccc0570be4ad05a7cd08b43d17200f5ab8b0c8db6dfffc92745470/python-ria-0.0.3.tar.gz
+[2023-07-22 21:39:51] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-22 21:39:51] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/c9/09/5c8344408b74188f7ad4b01eba5163e31bf6953e4faac5587870de44eebe/dj_beatcloud-2.6.0b9.tar.gz
+[2023-07-22 21:39:51] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-22 21:39:51] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230722/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-22 21:39:51] INFO root fetch - processPackages [dj-beatcloud]: executing diffoscope
+[2023-07-22 21:39:51] INFO root fetch - processPackages [dj-beatcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_beatcloud-2.6.0b8.tar.gz tmp/dj_beatcloud-2.6.0b9.tar.gz --markdown 20230722/d/dj-beatcloud/2.6.0b8-2.6.0b9/diff.md --exclude *.pyd
+[2023-07-22 21:39:51] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-07-22 21:39:52] INFO root fetch - processPackages [medimageaugment]: Downloading https://files.pythonhosted.org/packages/8e/59/45023b281c93d110e2af8e886a9ed2ff32d054cbd04724ea6eac4903a430/medimageaugment-1.2.8.tar.gz
+[2023-07-22 21:39:52] INFO root fetch - processPackages [medimageaugment]: Downloading https://files.pythonhosted.org/packages/8e/59/45023b281c93d110e2af8e886a9ed2ff32d054cbd04724ea6eac4903a430/medimageaugment-1.2.8.tar.gz
+[2023-07-22 21:39:52] INFO root fetch - processPackages [jaxip]: Downloading https://files.pythonhosted.org/packages/0f/3a/97870d2fbd2d58560695b3f4979c1ca20d404bc68bfc96e29ecc90899344/jaxip-0.7.2.tar.gz
+[2023-07-22 21:39:52] INFO root fetch - processPackages [python-ria]: Downloading https://files.pythonhosted.org/packages/b5/72/ff5fb84948f77758bb908c92be9d8b76c060984a3078c313382e85253fc5/python-ria-0.0.4.tar.gz
+[2023-07-22 21:39:52] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-07-22 21:39:52] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230722/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 21:39:52] INFO root fetch - processPackages [medimageaugment]: executing diffoscope
+[2023-07-22 21:39:52] INFO root fetch - processPackages [medimageaugment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medimageaugment-1.2.7.tar.gz tmp/medimageaugment-1.2.8.tar.gz --markdown 20230722/m/medimageaugment/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-22 21:39:52] INFO root fetch - processPackages [medimageaugment]: executing diffoscope
+[2023-07-22 21:39:52] INFO root fetch - processPackages [medimageaugment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medimageaugment-1.2.7.tar.gz tmp/medimageaugment-1.2.8.tar.gz --markdown 20230722/m/medimageaugment/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-22 21:39:52] INFO root fetch - processPackages [python-ria]: executing diffoscope
+[2023-07-22 21:39:52] INFO root fetch - processPackages [python-ria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-ria-0.0.3.tar.gz tmp/python-ria-0.0.4.tar.gz --markdown 20230722/p/python-ria/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 21:39:52] INFO root fetch - processPackages [jaxip]: executing diffoscope
+[2023-07-22 21:39:52] INFO root fetch - processPackages [jaxip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxip-0.7.1.tar.gz tmp/jaxip-0.7.2.tar.gz --markdown 20230722/j/jaxip/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-22 21:39:52] INFO root fetch - processPackages [flexNetSim]: Downloading https://files.pythonhosted.org/packages/9a/97/d4acddf845f11de123a18b200324f6f16b161e620cd89f3e14cb8d76de70/flexNetSim-0.23.tar.gz
+[2023-07-22 21:39:52] INFO root fetch - processPackages [flexNetSim]: executing diffoscope
+[2023-07-22 21:39:52] INFO root fetch - processPackages [flexNetSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexNetSim-0.22.tar.gz tmp/flexNetSim-0.23.tar.gz --markdown 20230722/f/flexNetSim/0.22-0.23/diff.md --exclude *.pyd
+[2023-07-22 21:39:52] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-22 21:39:52] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-22 21:39:53] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-22 21:39:53] INFO root fetch - processPackages [dj-beatcloud]: Remove: archive file [/home/abi/fetcher/tmp/dj_beatcloud-2.6.0b8.tar.gz]
+[2023-07-22 21:39:53] INFO root fetch - processPackages [dj-beatcloud]: Remove: archive file [/home/abi/fetcher/tmp/dj_beatcloud-2.6.0b9.tar.gz]
+[2023-07-22 21:39:53] INFO root fetch - main [MainThread]: End processing [dj-beatcloud]: success
+[2023-07-22 21:39:53] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2023-07-22 21:39:53] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2023-07-22 21:39:53] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-07-22 21:39:53] INFO root fetch - processPackages [python-ria]: Remove: archive file [/home/abi/fetcher/tmp/python-ria-0.0.3.tar.gz]
+[2023-07-22 21:39:53] INFO root fetch - processPackages [python-ria]: Remove: archive file [/home/abi/fetcher/tmp/python-ria-0.0.4.tar.gz]
+[2023-07-22 21:39:53] INFO root fetch - main [MainThread]: End processing [python-ria]: success
+[2023-07-22 21:39:53] INFO root fetch - processPackages [medimageaugment]: Remove: archive file [/home/abi/fetcher/tmp/medimageaugment-1.2.7.tar.gz]
+[2023-07-22 21:39:53] INFO root fetch - processPackages [medimageaugment]: Remove: archive file [/home/abi/fetcher/tmp/medimageaugment-1.2.8.tar.gz]
+[2023-07-22 21:39:53] INFO root fetch - main [MainThread]: End processing [medimageaugment]: success
+[2023-07-22 21:39:53] INFO root fetch - main [MainThread]: End processing [medimageaugment]: success
+[2023-07-22 21:39:53] INFO root fetch - processPackages [flexNetSim]: Remove: archive file [/home/abi/fetcher/tmp/flexNetSim-0.22.tar.gz]
+[2023-07-22 21:39:53] INFO root fetch - processPackages [flexNetSim]: Remove: archive file [/home/abi/fetcher/tmp/flexNetSim-0.23.tar.gz]
+[2023-07-22 21:39:53] INFO root fetch - main [MainThread]: End processing [flexNetSim]: success
+[2023-07-22 21:39:53] INFO root fetch - processPackages [jaxip]: Remove: archive file [/home/abi/fetcher/tmp/jaxip-0.7.1.tar.gz]
+[2023-07-22 21:39:53] INFO root fetch - processPackages [jaxip]: Remove: archive file [/home/abi/fetcher/tmp/jaxip-0.7.2.tar.gz]
+[2023-07-22 21:39:53] INFO root fetch - main [MainThread]: End processing [jaxip]: success
+[2023-07-22 21:39:53] INFO root fetch - main [MainThread]: Store serial: [18997130]
