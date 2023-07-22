@@ -13229,3 +13229,65 @@
 [2023-07-22 13:25:51] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2023-07-22 13:25:51] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-07-22 13:25:51] INFO root fetch - main [MainThread]: Store serial: [18994569]
+[2023-07-22 13:30:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994569]
+[2023-07-22 13:31:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 13:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchserve-nightly
+[2023-07-22 13:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-archiver-nightly
+[2023-07-22 13:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-workflow-archiver-nightly
+[2023-07-22 13:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wow-ai-mms
+[2023-07-22 13:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proces
+[2023-07-22 13:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lemonbar
+[2023-07-22 13:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchrec-nightly
+[2023-07-22 13:31:00] INFO root fetch - processPackages [lemonbar]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-22 13:31:00] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-22 13:31:00] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-22 13:31:00] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-22 13:31:00] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.7.21] Old Version: [2023.7.19]
+[2023-07-22 13:31:00] INFO root fetch - processPackages [proces]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-22 13:31:00] INFO root fetch - processPackages [wow-ai-mms]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-22 13:31:00] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fc/e9/cb5f596703c31d7f2e9bf2501c71de3a97dd6f54385926ea9d621de36d48/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-22 13:31:00] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/d6/b2/b77948f318b41f4c30bce37021e5eaab04bf7c8abae416af053b02be3370/torchserve_nightly-2023.7.8-py3-none-any.whl
+[2023-07-22 13:31:00] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/44/8a/225f6757d5df77a706853e7f70981e785e26693e9c5529b1725322da94ee/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-22 13:31:00] INFO root fetch - processPackages [lemonbar]: Downloading https://files.pythonhosted.org/packages/08/9d/e414f37488c1c0a7413663beea6397bb1e3fd60f2cefaf12d4d1c5ffd3d5/lemonbar-0.6.0.tar.gz
+[2023-07-22 13:31:00] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/9f/b0/1aa4fb4810ddcf0e8a53d30630414330f64befaa9d132c45b16870edbd93/torchrec_nightly-2023.7.19-py39-none-any.whl
+[2023-07-22 13:31:00] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750079>=10485760
+[2023-07-22 13:31:00] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-07-22 13:31:00] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/95/25/c8eeff7adfa21b927c3708a7dd530c26e64f276d12eb79843942320ac588/wow_ai_mms-0.1.1.tar.gz
+[2023-07-22 13:31:00] INFO root fetch - processPackages [proces]: Downloading https://files.pythonhosted.org/packages/0b/7d/a77d4de782b9ce69673781e64b115c97fad1797bcd832fb3f7ce94113a8c/proces-0.1.4.tar.gz
+[2023-07-22 13:31:01] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fa/aa/2acd3c1df69eef6cb2f42f54b0fd7b1c220c14c65ccebdf7f555bda0304d/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-22 13:31:01] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fe/e1/e410f517fa560296c172a15440f705636cb42246e81398b27edb5a7c072f/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-22 13:31:01] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/63/92/d62106c2525a0f199c72ade08c20b1b36fe49d7260a84aa3a44bde992aaf/torchrec_nightly-2023.7.21-py39-none-any.whl
+[2023-07-22 13:31:01] INFO root fetch - processPackages [lemonbar]: Downloading https://files.pythonhosted.org/packages/0b/93/4c2c5cac5ea08bf665b20725f11b09d56379c9aa9f902659ba2d758764b3/lemonbar-0.6.1.tar.gz
+[2023-07-22 13:31:01] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-07-22 13:31:01] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230722/t/torch-model-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-22 13:31:01] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-07-22 13:31:01] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230722/t/torch-workflow-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-22 13:31:01] INFO root fetch - processPackages [lemonbar]: executing diffoscope
+[2023-07-22 13:31:01] INFO root fetch - processPackages [lemonbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemonbar-0.6.0.tar.gz tmp/lemonbar-0.6.1.tar.gz --markdown 20230722/l/lemonbar/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-22 13:31:01] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-07-22 13:31:01] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.7.19-py39-none-any.whl.zip tmp/torchrec_nightly-2023.7.21-py39-none-any.whl.zip --markdown 20230722/t/torchrec-nightly/2023.7.19-2023.7.21/diff.md --exclude *.pyd
+[2023-07-22 13:31:01] INFO root fetch - processPackages [proces]: Downloading https://files.pythonhosted.org/packages/bd/a5/90989619dc1c2d0c71af1c62ea36a9f51978e47e8e108572ecdc95063c13/proces-0.1.5.tar.gz
+[2023-07-22 13:31:01] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/7e/99/312b4f285ba0c6da201e5e67e8fe87c98ffe0c1659c7c46b9eb7cce96656/wow_ai_mms-0.1.2.tar.gz
+[2023-07-22 13:31:01] INFO root fetch - processPackages [proces]: executing diffoscope
+[2023-07-22 13:31:01] INFO root fetch - processPackages [proces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proces-0.1.4.tar.gz tmp/proces-0.1.5.tar.gz --markdown 20230722/p/proces/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-22 13:31:01] INFO root fetch - processPackages [wow-ai-mms]: executing diffoscope
+[2023-07-22 13:31:01] INFO root fetch - processPackages [wow-ai-mms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_mms-0.1.1.tar.gz tmp/wow_ai_mms-0.1.2.tar.gz --markdown 20230722/w/wow-ai-mms/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-22 13:31:02] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-22 13:31:02] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-22 13:31:02] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-07-22 13:31:02] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-22 13:31:02] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-22 13:31:02] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-07-22 13:31:02] INFO root fetch - processPackages [lemonbar]: Remove: archive file [/home/abi/fetcher/tmp/lemonbar-0.6.0.tar.gz]
+[2023-07-22 13:31:02] INFO root fetch - processPackages [lemonbar]: Remove: archive file [/home/abi/fetcher/tmp/lemonbar-0.6.1.tar.gz]
+[2023-07-22 13:31:02] INFO root fetch - main [MainThread]: End processing [lemonbar]: success
+[2023-07-22 13:31:02] INFO root fetch - processPackages [proces]: Remove: archive file [/home/abi/fetcher/tmp/proces-0.1.4.tar.gz]
+[2023-07-22 13:31:02] INFO root fetch - processPackages [proces]: Remove: archive file [/home/abi/fetcher/tmp/proces-0.1.5.tar.gz]
+[2023-07-22 13:31:02] INFO root fetch - main [MainThread]: End processing [proces]: success
+[2023-07-22 13:31:02] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.1.1.tar.gz]
+[2023-07-22 13:31:02] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.1.2.tar.gz]
+[2023-07-22 13:31:02] INFO root fetch - main [MainThread]: End processing [wow-ai-mms]: success
+[2023-07-22 13:31:02] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.19-py39-none-any.whl.zip]
+[2023-07-22 13:31:02] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.21-py39-none-any.whl.zip]
+[2023-07-22 13:31:02] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-07-22 13:31:02] INFO root fetch - main [MainThread]: Store serial: [18994594]
