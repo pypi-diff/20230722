@@ -15462,3 +15462,89 @@ EOFError: EOF read where object expected
 [2023-07-22 16:57:16] INFO root fetch - processPackages [frouros]: Remove: archive file [/home/abi/fetcher/tmp/frouros-0.5.1.tar.gz]
 [2023-07-22 16:57:16] INFO root fetch - main [MainThread]: End processing [frouros]: success
 [2023-07-22 16:57:16] INFO root fetch - main [MainThread]: Store serial: [18995522]
+[2023-07-22 17:02:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995522]
+[2023-07-22 17:02:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-22 17:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: youtubeaio
+[2023-07-22 17:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sklearn-mlmlm
+[2023-07-22 17:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idkwhttph
+[2023-07-22 17:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dd8
+[2023-07-22 17:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py2-package-finder
+[2023-07-22 17:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: interpres
+[2023-07-22 17:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nids-transformers
+[2023-07-22 17:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydiff-planetarium-assignment
+[2023-07-22 17:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymeasurement
+[2023-07-22 17:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sklearn-mlmlm
+[2023-07-22 17:02:25] WARNING root fetch - processPackages [py2-package-finder]: Skipping, unable to determine old version
+[2023-07-22 17:02:25] INFO root fetch - processPackages [py2-package-finder]: Start processing: photondemo
+[2023-07-22 17:02:25] INFO root fetch - main [MainThread]: End processing [py2-package-finder] error
+[2023-07-22 17:02:25] WARNING root fetch - processPackages [pydiff-planetarium-assignment]: Skipping, unable to determine old version
+[2023-07-22 17:02:25] INFO root fetch - processPackages [pydiff-planetarium-assignment]: Start processing: simple-html-table
+[2023-07-22 17:02:25] INFO root fetch - main [MainThread]: End processing [pydiff-planetarium-assignment] error
+[2023-07-22 17:02:25] INFO root fetch - processPackages [sklearn-mlmlm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 17:02:25] INFO root fetch - processPackages [pymeasurement]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-22 17:02:25] INFO root fetch - processPackages [sklearn-mlmlm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 17:02:25] INFO root fetch - processPackages [dd8]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 17:02:25] INFO root fetch - processPackages [interpres]: New version: [0.3.3b6] Old Version: [0.3.3b5]
+[2023-07-22 17:02:25] WARNING root fetch - processPackages [photondemo]: Skipping, unable to determine old version
+[2023-07-22 17:02:25] INFO root fetch - processPackages [photondemo]: Start processing: idkwhttph
+[2023-07-22 17:02:25] INFO root fetch - main [MainThread]: End processing [photondemo] error
+[2023-07-22 17:02:25] WARNING root fetch - processPackages [youtubeaio]: Skipping, unable to determine old version
+[2023-07-22 17:02:25] INFO root fetch - main [MainThread]: End processing [youtubeaio] error
+[2023-07-22 17:02:25] INFO root fetch - processPackages [idkwhttph]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-22 17:02:25] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/0a/98/4ddd38a1e51a088e832ba7e63522d73dc145b8cfdec3e34074d50b210372/sklearn_mlmlm-0.0.8.tar.gz
+[2023-07-22 17:02:25] INFO root fetch - processPackages [nids-transformers]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-22 17:02:25] INFO root fetch - processPackages [idkwhttph]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-22 17:02:26] WARNING root fetch - processPackages [simple-html-table]: Skipping, unable to determine old version
+[2023-07-22 17:02:26] INFO root fetch - main [MainThread]: End processing [simple-html-table] error
+[2023-07-22 17:02:26] INFO root fetch - processPackages [dd8]: Downloading https://files.pythonhosted.org/packages/90/22/61643b792c55a61680e4f212b8ac0a05fb4a9e38c45307f97737c57df0e1/dd8-0.0.8.tar.gz
+[2023-07-22 17:02:26] INFO root fetch - processPackages [interpres]: Downloading https://files.pythonhosted.org/packages/20/4b/dec0e95be066415314c9288b69f7219c914801843c00631b675b438ac2b3/interpres-0.3.3b5.tar.gz
+[2023-07-22 17:02:26] INFO root fetch - processPackages [pymeasurement]: Downloading https://files.pythonhosted.org/packages/cf/2e/3fff84a18876065271572ec7a1b765bf4d5afe6c1b90c4b84ef9d2b63c25/pymeasurement-1.0.8.tar.gz
+[2023-07-22 17:02:26] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/0a/98/4ddd38a1e51a088e832ba7e63522d73dc145b8cfdec3e34074d50b210372/sklearn_mlmlm-0.0.8.tar.gz
+[2023-07-22 17:02:26] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/d7/d0/589b61b71f8191a8b38698344a142c267ccc2ce5c601f16bcd55e7732c81/idkwhttph-0.2.9.tar.gz
+[2023-07-22 17:02:26] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/d7/d0/589b61b71f8191a8b38698344a142c267ccc2ce5c601f16bcd55e7732c81/idkwhttph-0.2.9.tar.gz
+[2023-07-22 17:02:26] INFO root fetch - processPackages [nids-transformers]: Downloading https://files.pythonhosted.org/packages/02/a5/369ba7d7f833330bfef4b7001c2572f3136713ed718614bbee3c936626a6/nids_transformers-0.1.0.tar.gz
+[2023-07-22 17:02:26] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/8e/20/5b0f76a3c4ec519bdc1252725dd78ad4afcc5b17fd82f5330134186be426/sklearn_mlmlm-0.0.9.tar.gz
+[2023-07-22 17:02:26] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/8e/20/5b0f76a3c4ec519bdc1252725dd78ad4afcc5b17fd82f5330134186be426/sklearn_mlmlm-0.0.9.tar.gz
+[2023-07-22 17:02:26] INFO root fetch - processPackages [interpres]: Downloading https://files.pythonhosted.org/packages/71/14/b1e23c4b652a82c976f0754ccb7421113b0f5cd08568076b021f3d23254a/interpres-0.3.3b6.tar.gz
+[2023-07-22 17:02:26] INFO root fetch - processPackages [dd8]: Downloading https://files.pythonhosted.org/packages/d4/b4/e348d6b4bac1a04838f7530033ea58b4f1b7612caeb5f5fde2086227eae2/dd8-0.0.9.tar.gz
+[2023-07-22 17:02:26] INFO root fetch - processPackages [pymeasurement]: Downloading https://files.pythonhosted.org/packages/e1/24/2b81615f90ef2e0d406c77e9f5e4f66e957f4fbf74eff00ba79d7dde11fa/pymeasurement-1.0.9.tar.gz
+[2023-07-22 17:02:26] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/50/71/1043461c10d9266ff8a171eef7ed5829bc9b7b18af0bc2be3e853c5a639a/idkwhttph-0.3.0.tar.gz
+[2023-07-22 17:02:26] INFO root fetch - processPackages [sklearn-mlmlm]: executing diffoscope
+[2023-07-22 17:02:26] INFO root fetch - processPackages [sklearn-mlmlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_mlmlm-0.0.8.tar.gz tmp/sklearn_mlmlm-0.0.9.tar.gz --markdown 20230722/s/sklearn-mlmlm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 17:02:26] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/50/71/1043461c10d9266ff8a171eef7ed5829bc9b7b18af0bc2be3e853c5a639a/idkwhttph-0.3.0.tar.gz
+[2023-07-22 17:02:26] INFO root fetch - processPackages [sklearn-mlmlm]: executing diffoscope
+[2023-07-22 17:02:26] INFO root fetch - processPackages [sklearn-mlmlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_mlmlm-0.0.8.tar.gz tmp/sklearn_mlmlm-0.0.9.tar.gz --markdown 20230722/s/sklearn-mlmlm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 17:02:26] INFO root fetch - processPackages [interpres]: executing diffoscope
+[2023-07-22 17:02:26] INFO root fetch - processPackages [interpres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interpres-0.3.3b5.tar.gz tmp/interpres-0.3.3b6.tar.gz --markdown 20230722/i/interpres/0.3.3b5-0.3.3b6/diff.md --exclude *.pyd
+[2023-07-22 17:02:26] INFO root fetch - processPackages [idkwhttph]: executing diffoscope
+[2023-07-22 17:02:26] INFO root fetch - processPackages [idkwhttph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idkwhttph-0.2.9.tar.gz tmp/idkwhttph-0.3.0.tar.gz --markdown 20230722/i/idkwhttph/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-22 17:02:26] INFO root fetch - processPackages [idkwhttph]: executing diffoscope
+[2023-07-22 17:02:26] INFO root fetch - processPackages [idkwhttph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idkwhttph-0.2.9.tar.gz tmp/idkwhttph-0.3.0.tar.gz --markdown 20230722/i/idkwhttph/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-22 17:02:26] INFO root fetch - processPackages [pymeasurement]: executing diffoscope
+[2023-07-22 17:02:26] INFO root fetch - processPackages [pymeasurement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymeasurement-1.0.8.tar.gz tmp/pymeasurement-1.0.9.tar.gz --markdown 20230722/p/pymeasurement/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-22 17:02:26] INFO root fetch - processPackages [nids-transformers]: Downloading https://files.pythonhosted.org/packages/46/f7/2edb8adefa0ade73659f938e225e3e069016e29045b96f6f538cb33cf61c/nids_transformers-0.1.1.tar.gz
+[2023-07-22 17:02:27] INFO root fetch - processPackages [dd8]: executing diffoscope
+[2023-07-22 17:02:27] INFO root fetch - processPackages [dd8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dd8-0.0.8.tar.gz tmp/dd8-0.0.9.tar.gz --markdown 20230722/d/dd8/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 17:02:27] INFO root fetch - processPackages [nids-transformers]: executing diffoscope
+[2023-07-22 17:02:27] INFO root fetch - processPackages [nids-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nids_transformers-0.1.0.tar.gz tmp/nids_transformers-0.1.1.tar.gz --markdown 20230722/n/nids-transformers/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-22 17:02:27] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.8.tar.gz]
+[2023-07-22 17:02:27] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.9.tar.gz]
+[2023-07-22 17:02:27] INFO root fetch - main [MainThread]: End processing [sklearn-mlmlm]: success
+[2023-07-22 17:02:27] INFO root fetch - processPackages [interpres]: Remove: archive file [/home/abi/fetcher/tmp/interpres-0.3.3b5.tar.gz]
+[2023-07-22 17:02:27] INFO root fetch - processPackages [interpres]: Remove: archive file [/home/abi/fetcher/tmp/interpres-0.3.3b6.tar.gz]
+[2023-07-22 17:02:27] INFO root fetch - main [MainThread]: End processing [interpres]: success
+[2023-07-22 17:02:27] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.2.9.tar.gz]
+[2023-07-22 17:02:27] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.3.0.tar.gz]
+[2023-07-22 17:02:27] INFO root fetch - main [MainThread]: End processing [idkwhttph]: success
+[2023-07-22 17:02:28] INFO root fetch - main [MainThread]: End processing [idkwhttph]: success
+[2023-07-22 17:02:28] INFO root fetch - main [MainThread]: End processing [sklearn-mlmlm]: success
+[2023-07-22 17:02:28] INFO root fetch - processPackages [dd8]: Remove: archive file [/home/abi/fetcher/tmp/dd8-0.0.8.tar.gz]
+[2023-07-22 17:02:28] INFO root fetch - processPackages [dd8]: Remove: archive file [/home/abi/fetcher/tmp/dd8-0.0.9.tar.gz]
+[2023-07-22 17:02:28] INFO root fetch - main [MainThread]: End processing [dd8]: success
+[2023-07-22 17:02:28] INFO root fetch - processPackages [nids-transformers]: Remove: archive file [/home/abi/fetcher/tmp/nids_transformers-0.1.0.tar.gz]
+[2023-07-22 17:02:28] INFO root fetch - processPackages [nids-transformers]: Remove: archive file [/home/abi/fetcher/tmp/nids_transformers-0.1.1.tar.gz]
+[2023-07-22 17:02:28] INFO root fetch - main [MainThread]: End processing [nids-transformers]: success
+[2023-07-22 17:02:30] INFO root fetch - processPackages [pymeasurement]: Remove: archive file [/home/abi/fetcher/tmp/pymeasurement-1.0.8.tar.gz]
+[2023-07-22 17:02:30] INFO root fetch - processPackages [pymeasurement]: Remove: archive file [/home/abi/fetcher/tmp/pymeasurement-1.0.9.tar.gz]
+[2023-07-22 17:02:30] INFO root fetch - main [MainThread]: End processing [pymeasurement]: success
+[2023-07-22 17:02:30] INFO root fetch - main [MainThread]: Store serial: [18995585]
