@@ -17283,3 +17283,51 @@ EOFError: EOF read where object expected
 [2023-07-22 19:02:38] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.2.9.tar.gz]
 [2023-07-22 19:02:38] INFO root fetch - main [MainThread]: End processing [guify]: success
 [2023-07-22 19:02:38] INFO root fetch - main [MainThread]: Store serial: [18996348]
+[2023-07-22 19:07:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996348]
+[2023-07-22 19:07:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 19:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lsstream
+[2023-07-22 19:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bren
+[2023-07-22 19:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lassen
+[2023-07-22 19:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airoboros
+[2023-07-22 19:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odooless
+[2023-07-22 19:07:47] INFO root fetch - processPackages [odooless]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-22 19:07:47] INFO root fetch - processPackages [airoboros]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-22 19:07:47] INFO root fetch - processPackages [lassen]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-22 19:07:47] INFO root fetch - processPackages [bren]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-22 19:07:47] INFO root fetch - processPackages [lsstream]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-07-22 19:07:47] INFO root fetch - processPackages [odooless]: Downloading https://files.pythonhosted.org/packages/84/28/626ccd2f8048cabc309fc7a1cb5a2cb30186ecee831427e3b49b5ce89550/odooless-0.1.2.tar.gz
+[2023-07-22 19:07:47] INFO root fetch - processPackages [airoboros]: Downloading https://files.pythonhosted.org/packages/77/d2/e0f93c27aed1e78535e2178682d11013c283bc3ac92705474417c79a6ea5/airoboros-2.0.3.tar.gz
+[2023-07-22 19:07:47] INFO root fetch - processPackages [lassen]: Downloading https://files.pythonhosted.org/packages/4f/ee/bbacb9cb2acdc851010e6384ca5e40fdc23d94436d5c6b0ed9446daa1975/lassen-0.1.3.tar.gz
+[2023-07-22 19:07:47] INFO root fetch - processPackages [lsstream]: Downloading https://files.pythonhosted.org/packages/65/79/27f723c9b852a0c1658bde35cbd1676789e477d2adc910d37a54b183c9bb/lsstream-0.0.7.tar.gz
+[2023-07-22 19:07:48] INFO root fetch - processPackages [bren]: Downloading https://files.pythonhosted.org/packages/3f/09/2698ec99d3406bd4ac2b0c488414fb1091e060325c90850d1d404bdaa08e/bren-0.1.2.tar.gz
+[2023-07-22 19:07:48] INFO root fetch - processPackages [lassen]: Downloading https://files.pythonhosted.org/packages/8b/dd/449993e91106fb0809db41ac76180866edaa25c57e172b90502cef8fa908/lassen-0.2.0.tar.gz
+[2023-07-22 19:07:48] INFO root fetch - processPackages [odooless]: Downloading https://files.pythonhosted.org/packages/1e/89/c7b645e4d26e86f7a21da3ce907ce20b0df6dbc674668056130a8e5e3207/odooless-0.1.3.tar.gz
+[2023-07-22 19:07:48] INFO root fetch - processPackages [airoboros]: Downloading https://files.pythonhosted.org/packages/a8/5a/89e3feae3df98cfafdd8415ea0d4efb762b7a41ec75920e5aed8120ad756/airoboros-2.0.4.tar.gz
+[2023-07-22 19:07:48] INFO root fetch - processPackages [lsstream]: Downloading https://files.pythonhosted.org/packages/dd/01/38b1f8471ad4d7d0004c6bb1e9ed60e02ea8c9d877bbff284b84aa3fe452/lsstream-0.1.0.tar.gz
+[2023-07-22 19:07:48] INFO root fetch - processPackages [lassen]: executing diffoscope
+[2023-07-22 19:07:48] INFO root fetch - processPackages [lassen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lassen-0.1.3.tar.gz tmp/lassen-0.2.0.tar.gz --markdown 20230722/l/lassen/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-22 19:07:48] INFO root fetch - processPackages [bren]: Downloading https://files.pythonhosted.org/packages/49/34/b1ced8838c13d9d19a6503163805bb17f3e14bf3a8a13e8311f390d4be34/bren-0.1.3.tar.gz
+[2023-07-22 19:07:48] INFO root fetch - processPackages [airoboros]: executing diffoscope
+[2023-07-22 19:07:48] INFO root fetch - processPackages [airoboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airoboros-2.0.3.tar.gz tmp/airoboros-2.0.4.tar.gz --markdown 20230722/a/airoboros/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-22 19:07:48] INFO root fetch - processPackages [odooless]: executing diffoscope
+[2023-07-22 19:07:48] INFO root fetch - processPackages [odooless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odooless-0.1.2.tar.gz tmp/odooless-0.1.3.tar.gz --markdown 20230722/o/odooless/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-22 19:07:48] INFO root fetch - processPackages [lsstream]: executing diffoscope
+[2023-07-22 19:07:48] INFO root fetch - processPackages [lsstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsstream-0.0.7.tar.gz tmp/lsstream-0.1.0.tar.gz --markdown 20230722/l/lsstream/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-07-22 19:07:48] INFO root fetch - processPackages [bren]: executing diffoscope
+[2023-07-22 19:07:48] INFO root fetch - processPackages [bren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bren-0.1.2.tar.gz tmp/bren-0.1.3.tar.gz --markdown 20230722/b/bren/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-22 19:07:49] INFO root fetch - processPackages [lsstream]: Remove: archive file [/home/abi/fetcher/tmp/lsstream-0.0.7.tar.gz]
+[2023-07-22 19:07:49] INFO root fetch - processPackages [lsstream]: Remove: archive file [/home/abi/fetcher/tmp/lsstream-0.1.0.tar.gz]
+[2023-07-22 19:07:49] INFO root fetch - main [MainThread]: End processing [lsstream]: success
+[2023-07-22 19:07:49] INFO root fetch - processPackages [lassen]: Remove: archive file [/home/abi/fetcher/tmp/lassen-0.1.3.tar.gz]
+[2023-07-22 19:07:49] INFO root fetch - processPackages [lassen]: Remove: archive file [/home/abi/fetcher/tmp/lassen-0.2.0.tar.gz]
+[2023-07-22 19:07:49] INFO root fetch - main [MainThread]: End processing [lassen]: success
+[2023-07-22 19:07:49] INFO root fetch - processPackages [airoboros]: Remove: archive file [/home/abi/fetcher/tmp/airoboros-2.0.3.tar.gz]
+[2023-07-22 19:07:49] INFO root fetch - processPackages [airoboros]: Remove: archive file [/home/abi/fetcher/tmp/airoboros-2.0.4.tar.gz]
+[2023-07-22 19:07:49] INFO root fetch - main [MainThread]: End processing [airoboros]: success
+[2023-07-22 19:07:49] INFO root fetch - processPackages [odooless]: Remove: archive file [/home/abi/fetcher/tmp/odooless-0.1.2.tar.gz]
+[2023-07-22 19:07:49] INFO root fetch - processPackages [odooless]: Remove: archive file [/home/abi/fetcher/tmp/odooless-0.1.3.tar.gz]
+[2023-07-22 19:07:49] INFO root fetch - main [MainThread]: End processing [odooless]: success
+[2023-07-22 19:07:49] INFO root fetch - processPackages [bren]: Remove: archive file [/home/abi/fetcher/tmp/bren-0.1.2.tar.gz]
+[2023-07-22 19:07:49] INFO root fetch - processPackages [bren]: Remove: archive file [/home/abi/fetcher/tmp/bren-0.1.3.tar.gz]
+[2023-07-22 19:07:49] INFO root fetch - main [MainThread]: End processing [bren]: success
+[2023-07-22 19:07:49] INFO root fetch - main [MainThread]: Store serial: [18996363]
