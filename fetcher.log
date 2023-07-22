@@ -13291,3 +13291,45 @@
 [2023-07-22 13:31:02] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.21-py39-none-any.whl.zip]
 [2023-07-22 13:31:02] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
 [2023-07-22 13:31:02] INFO root fetch - main [MainThread]: Store serial: [18994594]
+[2023-07-22 13:36:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994594]
+[2023-07-22 13:36:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 13:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anysolve
+[2023-07-22 13:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kuki
+[2023-07-22 13:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neo-mamba
+[2023-07-22 13:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: luapython
+[2023-07-22 13:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wow-ai-mms
+[2023-07-22 13:36:11] INFO root fetch - processPackages [anysolve]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-22 13:36:11] INFO root fetch - processPackages [wow-ai-mms]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-22 13:36:11] INFO root fetch - processPackages [neo-mamba]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-22 13:36:11] INFO root fetch - processPackages [kuki]: New version: [0.9.4] Old Version: [0.9.1]
+[2023-07-22 13:36:11] INFO root fetch - processPackages [anysolve]: Downloading https://files.pythonhosted.org/packages/0c/c2/cd1606b181aed7bbee490ee66e9bfd98894883ed1623b248a0c3cad8968f/anysolve-1.0.1.tar.gz
+[2023-07-22 13:36:11] WARNING root fetch - processPackages [luapython]: Skipping, unable to determine old version
+[2023-07-22 13:36:11] INFO root fetch - main [MainThread]: End processing [luapython] error
+[2023-07-22 13:36:11] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/95/25/c8eeff7adfa21b927c3708a7dd530c26e64f276d12eb79843942320ac588/wow_ai_mms-0.1.1.tar.gz
+[2023-07-22 13:36:11] INFO root fetch - processPackages [kuki]: Downloading https://files.pythonhosted.org/packages/74/d1/b2c1b89d1533fa90dfde870558592b0a301e40f6d96c734630710020fa55/kuki-0.9.1.tar.gz
+[2023-07-22 13:36:11] INFO root fetch - processPackages [neo-mamba]: Downloading https://files.pythonhosted.org/packages/02/00/cef0ab39cc8e7791c94906b167ba9cf4cbbc81f63f2acad2cb2d239e25f3/neo-mamba-2.0.0.tar.gz
+[2023-07-22 13:36:12] INFO root fetch - processPackages [anysolve]: Downloading https://files.pythonhosted.org/packages/8f/02/92491b104e354f67f695786e2e6157ac9fbcf929f1f914c8bd5878d101f3/anysolve-1.0.2.tar.gz
+[2023-07-22 13:36:12] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/7e/99/312b4f285ba0c6da201e5e67e8fe87c98ffe0c1659c7c46b9eb7cce96656/wow_ai_mms-0.1.2.tar.gz
+[2023-07-22 13:36:12] INFO root fetch - processPackages [anysolve]: executing diffoscope
+[2023-07-22 13:36:12] INFO root fetch - processPackages [anysolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anysolve-1.0.1.tar.gz tmp/anysolve-1.0.2.tar.gz --markdown 20230722/a/anysolve/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-22 13:36:12] INFO root fetch - processPackages [kuki]: Downloading https://files.pythonhosted.org/packages/22/69/7b9fcadeb11fcecaa59466a60f17833eb3aadbd3869017b69d018bf1d70a/kuki-0.9.4.tar.gz
+[2023-07-22 13:36:12] INFO root fetch - processPackages [wow-ai-mms]: executing diffoscope
+[2023-07-22 13:36:12] INFO root fetch - processPackages [wow-ai-mms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_mms-0.1.1.tar.gz tmp/wow_ai_mms-0.1.2.tar.gz --markdown 20230722/w/wow-ai-mms/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-22 13:36:12] INFO root fetch - processPackages [kuki]: executing diffoscope
+[2023-07-22 13:36:12] INFO root fetch - processPackages [kuki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuki-0.9.1.tar.gz tmp/kuki-0.9.4.tar.gz --markdown 20230722/k/kuki/0.9.1-0.9.4/diff.md --exclude *.pyd
+[2023-07-22 13:36:12] INFO root fetch - processPackages [neo-mamba]: Downloading https://files.pythonhosted.org/packages/98/d6/844087f5cd18616bc2930995f4d02f5e62d9b2cac0e643a53809d8c2d21b/neo-mamba-2.0.1.tar.gz
+[2023-07-22 13:36:12] INFO root fetch - processPackages [neo-mamba]: executing diffoscope
+[2023-07-22 13:36:12] INFO root fetch - processPackages [neo-mamba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo-mamba-2.0.0.tar.gz tmp/neo-mamba-2.0.1.tar.gz --markdown 20230722/n/neo-mamba/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-22 13:36:13] INFO root fetch - processPackages [anysolve]: Remove: archive file [/home/abi/fetcher/tmp/anysolve-1.0.1.tar.gz]
+[2023-07-22 13:36:13] INFO root fetch - processPackages [anysolve]: Remove: archive file [/home/abi/fetcher/tmp/anysolve-1.0.2.tar.gz]
+[2023-07-22 13:36:13] INFO root fetch - main [MainThread]: End processing [anysolve]: success
+[2023-07-22 13:36:13] INFO root fetch - processPackages [kuki]: Remove: archive file [/home/abi/fetcher/tmp/kuki-0.9.1.tar.gz]
+[2023-07-22 13:36:13] INFO root fetch - processPackages [kuki]: Remove: archive file [/home/abi/fetcher/tmp/kuki-0.9.4.tar.gz]
+[2023-07-22 13:36:13] INFO root fetch - main [MainThread]: End processing [kuki]: success
+[2023-07-22 13:36:13] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.1.1.tar.gz]
+[2023-07-22 13:36:13] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.1.2.tar.gz]
+[2023-07-22 13:36:13] INFO root fetch - main [MainThread]: End processing [wow-ai-mms]: success
+[2023-07-22 13:36:13] INFO root fetch - processPackages [neo-mamba]: Remove: archive file [/home/abi/fetcher/tmp/neo-mamba-2.0.0.tar.gz]
+[2023-07-22 13:36:13] INFO root fetch - processPackages [neo-mamba]: Remove: archive file [/home/abi/fetcher/tmp/neo-mamba-2.0.1.tar.gz]
+[2023-07-22 13:36:13] INFO root fetch - main [MainThread]: End processing [neo-mamba]: success
+[2023-07-22 13:36:13] INFO root fetch - main [MainThread]: Store serial: [18994615]
