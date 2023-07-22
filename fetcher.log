@@ -14500,3 +14500,57 @@
 [2023-07-22 15:39:00] INFO root fetch - processPackages [weblodge]: Remove: archive file [/home/abi/fetcher/tmp/weblodge-0.2.0.tar.gz]
 [2023-07-22 15:39:00] INFO root fetch - main [MainThread]: End processing [weblodge]: success
 [2023-07-22 15:39:00] INFO root fetch - main [MainThread]: Store serial: [18995125]
+[2023-07-22 15:44:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995125]
+[2023-07-22 15:44:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-22 15:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: location-local
+[2023-07-22 15:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unihan-etl
+[2023-07-22 15:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jfricas
+[2023-07-22 15:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nferai
+[2023-07-22 15:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: usody-sanitize
+[2023-07-22 15:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: babymaycry
+[2023-07-22 15:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bizlogic
+[2023-07-22 15:44:09] WARNING root fetch - processPackages [babymaycry]: Skipping, unable to determine old version
+[2023-07-22 15:44:09] INFO root fetch - main [MainThread]: End processing [babymaycry] error
+[2023-07-22 15:44:09] INFO root fetch - processPackages [bizlogic]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-22 15:44:09] INFO root fetch - processPackages [location-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 15:44:09] WARNING root fetch - processPackages [nferai]: Skipping, unable to determine old version
+[2023-07-22 15:44:09] INFO root fetch - main [MainThread]: End processing [nferai] error
+[2023-07-22 15:44:09] INFO root fetch - processPackages [unihan-etl]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-22 15:44:09] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/b0/28/c5da801a28bc43f531f607877ed98ba99fb3b56d31690e7b4c7ee8310a2c/bizlogic-0.2.4.tar.gz
+[2023-07-22 15:44:09] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/6d/cb/4f9cf6ceeea5b094804c76a025ff71045e7480fc2b55dfa9d5790635d306/location-local-0.0.8.tar.gz
+[2023-07-22 15:44:09] INFO root fetch - processPackages [usody-sanitize]: New version: [0.1.1b1] Old Version: [0.1.0b7]
+[2023-07-22 15:44:09] INFO root fetch - processPackages [jfricas]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-07-22 15:44:09] INFO root fetch - processPackages [unihan-etl]: Downloading https://files.pythonhosted.org/packages/e6/f2/ad475612c1951852fbf186e9c2ffac59296b278605657be60b58b4699358/unihan-etl-0.9.4.tar.gz
+[2023-07-22 15:44:09] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/34/2a/fb42e220a0e2df4585b42e32e07079cfefac11c203461bffdb813267c647/location-local-0.0.9.tar.gz
+[2023-07-22 15:44:10] INFO root fetch - processPackages [usody-sanitize]: Downloading https://files.pythonhosted.org/packages/36/71/09267b452af3711022f4601bd8790ba277173a43bef3be792cdbffd24c9d/usody_sanitize-0.1.0b7.tar.gz
+[2023-07-22 15:44:10] INFO root fetch - processPackages [jfricas]: Downloading https://files.pythonhosted.org/packages/6c/c1/7df6609a5c99f16ba7a7ae745b376ca3ac5edfc567000d03c0b1921c5dc4/jfricas-1.0.0.tar.gz
+[2023-07-22 15:44:10] INFO root fetch - processPackages [location-local]: executing diffoscope
+[2023-07-22 15:44:10] INFO root fetch - processPackages [location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/location-local-0.0.8.tar.gz tmp/location-local-0.0.9.tar.gz --markdown 20230722/l/location-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 15:44:10] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/b8/39/9e548c17ce734fecc25254ac1c7dcaa88704c34c2b91b7122f7ecee8c07d/bizlogic-0.2.5.tar.gz
+[2023-07-22 15:44:10] INFO root fetch - processPackages [unihan-etl]: Downloading https://files.pythonhosted.org/packages/d8/de/3d9897770b4f0eafb171ba960ce769fa5034edcb5ffc2b3c0538635c5b63/unihan-etl-0.9.5.tar.gz
+[2023-07-22 15:44:10] INFO root fetch - processPackages [jfricas]: Downloading https://files.pythonhosted.org/packages/e5/d2/91740be034632bfe6b87f70ad94ad591c3f538234e23a37db7ed8ca75cf1/jfricas-2.0.0.tar.gz
+[2023-07-22 15:44:10] INFO root fetch - processPackages [usody-sanitize]: Downloading https://files.pythonhosted.org/packages/df/0e/d7a935f2dbaea1b98cbdc6286606acb02461efb86274dd4c4871232486f0/usody_sanitize-0.1.1b1.tar.gz
+[2023-07-22 15:44:10] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-07-22 15:44:10] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.2.4.tar.gz tmp/bizlogic-0.2.5.tar.gz --markdown 20230722/b/bizlogic/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-22 15:44:10] INFO root fetch - processPackages [unihan-etl]: executing diffoscope
+[2023-07-22 15:44:10] INFO root fetch - processPackages [unihan-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unihan-etl-0.9.4.tar.gz tmp/unihan-etl-0.9.5.tar.gz --markdown 20230722/u/unihan-etl/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-22 15:44:10] INFO root fetch - processPackages [jfricas]: executing diffoscope
+[2023-07-22 15:44:10] INFO root fetch - processPackages [jfricas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfricas-1.0.0.tar.gz tmp/jfricas-2.0.0.tar.gz --markdown 20230722/j/jfricas/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-22 15:44:10] INFO root fetch - processPackages [usody-sanitize]: executing diffoscope
+[2023-07-22 15:44:10] INFO root fetch - processPackages [usody-sanitize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usody_sanitize-0.1.0b7.tar.gz tmp/usody_sanitize-0.1.1b1.tar.gz --markdown 20230722/u/usody-sanitize/0.1.0b7-0.1.1b1/diff.md --exclude *.pyd
+[2023-07-22 15:44:10] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location-local-0.0.8.tar.gz]
+[2023-07-22 15:44:10] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location-local-0.0.9.tar.gz]
+[2023-07-22 15:44:10] INFO root fetch - main [MainThread]: End processing [location-local]: success
+[2023-07-22 15:44:11] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.2.4.tar.gz]
+[2023-07-22 15:44:11] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.2.5.tar.gz]
+[2023-07-22 15:44:11] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-07-22 15:44:11] INFO root fetch - processPackages [unihan-etl]: Remove: archive file [/home/abi/fetcher/tmp/unihan-etl-0.9.4.tar.gz]
+[2023-07-22 15:44:11] INFO root fetch - processPackages [unihan-etl]: Remove: archive file [/home/abi/fetcher/tmp/unihan-etl-0.9.5.tar.gz]
+[2023-07-22 15:44:11] INFO root fetch - main [MainThread]: End processing [unihan-etl]: success
+[2023-07-22 15:44:11] INFO root fetch - processPackages [jfricas]: Remove: archive file [/home/abi/fetcher/tmp/jfricas-1.0.0.tar.gz]
+[2023-07-22 15:44:11] INFO root fetch - processPackages [jfricas]: Remove: archive file [/home/abi/fetcher/tmp/jfricas-2.0.0.tar.gz]
+[2023-07-22 15:44:11] INFO root fetch - main [MainThread]: End processing [jfricas]: success
+[2023-07-22 15:44:11] INFO root fetch - processPackages [usody-sanitize]: Remove: archive file [/home/abi/fetcher/tmp/usody_sanitize-0.1.0b7.tar.gz]
+[2023-07-22 15:44:11] INFO root fetch - processPackages [usody-sanitize]: Remove: archive file [/home/abi/fetcher/tmp/usody_sanitize-0.1.1b1.tar.gz]
+[2023-07-22 15:44:11] INFO root fetch - main [MainThread]: End processing [usody-sanitize]: success
+[2023-07-22 15:44:11] INFO root fetch - main [MainThread]: Store serial: [18995148]
