@@ -8862,3 +8862,72 @@
 [2023-07-22 06:00:58] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230720.tar.gz]
 [2023-07-22 06:00:58] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
 [2023-07-22 06:00:58] INFO root fetch - main [MainThread]: Store serial: [18992612]
+[2023-07-22 06:06:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992612]
+[2023-07-22 06:06:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-22 06:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-22 06:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-aeat-sii-oca
+[2023-07-22 06:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pywencai
+[2023-07-22 06:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WaterScenes
+[2023-07-22 06:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: werkit
+[2023-07-22 06:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fanorona-aec
+[2023-07-22 06:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hyfi
+[2023-07-22 06:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OneOnOne
+[2023-07-22 06:06:08] INFO root fetch - processPackages [OneOnOne]: New version: [0.6918] Old Version: [0.6917]
+[2023-07-22 06:06:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: New version: [16.0.1.3.1] Old Version: [16.0.1.3.0]
+[2023-07-22 06:06:08] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.6.1] Old Version: [0.3.9.6.0]
+[2023-07-22 06:06:08] INFO root fetch - processPackages [hyfi]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-22 06:06:08] INFO root fetch - processPackages [fanorona-aec]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-07-22 06:06:08] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/e2/66/2ca92f67c280fd4f080472c52e96411484b9497da2d32d42658807667bd2/OneOnOne-0.6917.tar.gz
+[2023-07-22 06:06:08] INFO root fetch - processPackages [werkit]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-22 06:06:08] WARNING root fetch - processPackages [WaterScenes]: Skipping, unable to determine old version
+[2023-07-22 06:06:08] INFO root fetch - main [MainThread]: End processing [WaterScenes] error
+[2023-07-22 06:06:08] INFO root fetch - processPackages [pywencai]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-22 06:06:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/dc/b1/4825bb34bb46de835ddc9fe82d13a0684ebdb4bfacc424e0d618d37d5d09/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.0-py3-none-any.whl
+[2023-07-22 06:06:08] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/08/23/3883eac6bf2f951c40e32aae5d5630fd17b2fc8c5aeb31203b2c38c3c319/hyfi-1.5.3.tar.gz
+[2023-07-22 06:06:08] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/fa/aa/e46be6653776074bc1274a8bb64846049413faabab5252bb227db901c6b0/nonebot_plugin_stable_diffusion_diao-0.3.9.6.0.tar.gz
+[2023-07-22 06:06:08] INFO root fetch - processPackages [fanorona-aec]: Downloading https://files.pythonhosted.org/packages/37/58/23943d59bda2418ade664675eb431931626ac4f3811c2472b6a8b4cf472a/fanorona-aec-1.0.0.tar.gz
+[2023-07-22 06:06:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/40/3f/6507a40a2b7c28c76b87c5c1a167ebe91fb68b890e36eadc35df33e5f2a8/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl
+[2023-07-22 06:06:08] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/04/e7/dba110b3d9c87a86fe726f3ad0ffe2086a0a76f828d601ffa64b97a3b029/hyfi-1.5.4.tar.gz
+[2023-07-22 06:06:08] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/5a/f1/d46d6d2b9df688322af1ef327b8922b7c5a59739046fddd8de0ef81e9b88/pywencai-0.9.0.tar.gz
+[2023-07-22 06:06:08] INFO root fetch - processPackages [werkit]: Downloading https://files.pythonhosted.org/packages/e3/51/1ea7eede424899d026571ae4cbd9c2c412a7b4424276e16a37a4900423d9/werkit-0.9.0.tar.gz
+[2023-07-22 06:06:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: executing diffoscope
+[2023-07-22 06:06:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl.zip --markdown 20230722/o/odoo-addon-l10n-es-aeat-sii-oca/16.0.1.3.0-16.0.1.3.1/diff.md --exclude *.pyd
+[2023-07-22 06:06:08] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-22 06:06:08] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.5.3.tar.gz tmp/hyfi-1.5.4.tar.gz --markdown 20230722/h/hyfi/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-22 06:06:08] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/f6/78/198951edb53d2b1983d49adc0028af37af5297da6a2ea151b4abbf834429/OneOnOne-0.6918.tar.gz
+[2023-07-22 06:06:08] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/58/e8/bd4385e08c1db0955fd601ce359acc5e0cb552be4075a3cfab8af693bd9c/nonebot_plugin_stable_diffusion_diao-0.3.9.6.1.tar.gz
+[2023-07-22 06:06:08] INFO root fetch - processPackages [fanorona-aec]: Downloading https://files.pythonhosted.org/packages/1d/80/0c8dc96a37375116c010694ffdab4675c4285fa542ee9231eddb0020690d/fanorona-aec-2.0.0.tar.gz
+[2023-07-22 06:06:09] INFO root fetch - processPackages [werkit]: Downloading https://files.pythonhosted.org/packages/aa/83/5f32832b54a73f1d771cb1ae97151534d808a1568e3c6b5e46db074f2ad5/werkit-0.9.1.tar.gz
+[2023-07-22 06:06:09] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/e4/42/279970b75bf0da6a8bce21f8f771807136d6d09464d72836f6a5bc7f0476/pywencai-0.9.1.tar.gz
+[2023-07-22 06:06:09] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-22 06:06:09] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.0.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.1.tar.gz --markdown 20230722/n/nonebot-plugin-stable-diffusion-diao/0.3.9.6.0-0.3.9.6.1/diff.md --exclude *.pyd
+[2023-07-22 06:06:09] INFO root fetch - processPackages [werkit]: executing diffoscope
+[2023-07-22 06:06:09] INFO root fetch - processPackages [werkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/werkit-0.9.0.tar.gz tmp/werkit-0.9.1.tar.gz --markdown 20230722/w/werkit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-22 06:06:09] INFO root fetch - processPackages [fanorona-aec]: executing diffoscope
+[2023-07-22 06:06:09] INFO root fetch - processPackages [fanorona-aec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fanorona-aec-1.0.0.tar.gz tmp/fanorona-aec-2.0.0.tar.gz --markdown 20230722/f/fanorona-aec/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-22 06:06:09] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 06:06:09] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6917.tar.gz tmp/OneOnOne-0.6918.tar.gz --markdown 20230722/O/OneOnOne/0.6917-0.6918/diff.md --exclude *.pyd
+[2023-07-22 06:06:09] INFO root fetch - processPackages [pywencai]: executing diffoscope
+[2023-07-22 06:06:09] INFO root fetch - processPackages [pywencai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywencai-0.9.0.tar.gz tmp/pywencai-0.9.1.tar.gz --markdown 20230722/p/pywencai/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-22 06:06:10] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.5.3.tar.gz]
+[2023-07-22 06:06:10] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.5.4.tar.gz]
+[2023-07-22 06:06:10] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-22 06:06:10] INFO root fetch - processPackages [werkit]: Remove: archive file [/home/abi/fetcher/tmp/werkit-0.9.0.tar.gz]
+[2023-07-22 06:06:10] INFO root fetch - processPackages [werkit]: Remove: archive file [/home/abi/fetcher/tmp/werkit-0.9.1.tar.gz]
+[2023-07-22 06:06:10] INFO root fetch - main [MainThread]: End processing [werkit]: success
+[2023-07-22 06:06:10] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.0-py3-none-any.whl.zip]
+[2023-07-22 06:06:10] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl.zip]
+[2023-07-22 06:06:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-sii-oca]: success
+[2023-07-22 06:06:10] INFO root fetch - processPackages [fanorona-aec]: Remove: archive file [/home/abi/fetcher/tmp/fanorona-aec-1.0.0.tar.gz]
+[2023-07-22 06:06:10] INFO root fetch - processPackages [fanorona-aec]: Remove: archive file [/home/abi/fetcher/tmp/fanorona-aec-2.0.0.tar.gz]
+[2023-07-22 06:06:10] INFO root fetch - main [MainThread]: End processing [fanorona-aec]: success
+[2023-07-22 06:06:10] INFO root fetch - processPackages [pywencai]: Remove: archive file [/home/abi/fetcher/tmp/pywencai-0.9.0.tar.gz]
+[2023-07-22 06:06:10] INFO root fetch - processPackages [pywencai]: Remove: archive file [/home/abi/fetcher/tmp/pywencai-0.9.1.tar.gz]
+[2023-07-22 06:06:10] INFO root fetch - main [MainThread]: End processing [pywencai]: success
+[2023-07-22 06:06:10] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6917.tar.gz]
+[2023-07-22 06:06:10] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6918.tar.gz]
+[2023-07-22 06:06:10] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 06:06:10] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.0.tar.gz]
+[2023-07-22 06:06:10] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.1.tar.gz]
+[2023-07-22 06:06:10] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-22 06:06:10] INFO root fetch - main [MainThread]: Store serial: [18992640]
