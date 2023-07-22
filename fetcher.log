@@ -14382,3 +14382,54 @@
 [2023-07-22 15:23:28] INFO root fetch - processPackages [winter]: Remove: archive file [/home/abi/fetcher/tmp/winter-9.6.4.tar.gz]
 [2023-07-22 15:23:28] INFO root fetch - main [MainThread]: End processing [winter]: success
 [2023-07-22 15:23:28] INFO root fetch - main [MainThread]: Store serial: [18995080]
+[2023-07-22 15:28:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995080]
+[2023-07-22 15:28:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 15:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xlogit
+[2023-07-22 15:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lemonbar
+[2023-07-22 15:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Giraffe-View
+[2023-07-22 15:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: holobench
+[2023-07-22 15:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fieldedge-utilities
+[2023-07-22 15:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polymeasure
+[2023-07-22 15:28:37] INFO root fetch - processPackages [lemonbar]: New version: [0.7.0] Old Version: [0.6.6]
+[2023-07-22 15:28:37] INFO root fetch - processPackages [holobench]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-22 15:28:37] INFO root fetch - processPackages [Giraffe-View]: New version: [0.0.9.4] Old Version: [0.0.9.3]
+[2023-07-22 15:28:37] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/44/68/22949a86a38df9a6e2a75bd8fa96b1a6ea50cb42ad3d05c2a19056af3825/holobench-0.0.1.tar.gz
+[2023-07-22 15:28:37] INFO root fetch - processPackages [lemonbar]: Downloading https://files.pythonhosted.org/packages/10/ae/6bf78889e3a29536053f446da44fe5ae2cf4be148204ab1282b291af7361/lemonbar-0.6.6.tar.gz
+[2023-07-22 15:28:37] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/87/9e/d098d3aaa846417bbd9acabc30ea73f3b87f47a355dffb5db6e04392bc76/Giraffe_View-0.0.9.3.tar.gz
+[2023-07-22 15:28:37] INFO root fetch - processPackages [xlogit]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-22 15:28:37] INFO root fetch - processPackages [fieldedge-utilities]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-22 15:28:37] WARNING root fetch - processPackages [polymeasure]: Skipping, unable to determine old version
+[2023-07-22 15:28:37] INFO root fetch - main [MainThread]: End processing [polymeasure] error
+[2023-07-22 15:28:37] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/f1/32/748947e89aa3637ce5819dfb13d978682fcbd79699890360db43219256f6/Giraffe_View-0.0.9.4.tar.gz
+[2023-07-22 15:28:37] INFO root fetch - processPackages [fieldedge-utilities]: Downloading https://files.pythonhosted.org/packages/94/51/27351e27b84fb88e4cafeee9829c12c91fa3a932466885fd524f7745c83c/fieldedge-utilities-0.9.4.tar.gz
+[2023-07-22 15:28:37] INFO root fetch - processPackages [xlogit]: Downloading https://files.pythonhosted.org/packages/17/16/9cb0b9cf2f05fff9cbd77cb785dbddb789d8552652f97b4096302bd6d99b/xlogit-0.2.5.tar.gz
+[2023-07-22 15:28:37] INFO root fetch - processPackages [Giraffe-View]: executing diffoscope
+[2023-07-22 15:28:37] INFO root fetch - processPackages [Giraffe-View]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Giraffe_View-0.0.9.3.tar.gz tmp/Giraffe_View-0.0.9.4.tar.gz --markdown 20230722/G/Giraffe-View/0.0.9.3-0.0.9.4/diff.md --exclude *.pyd
+[2023-07-22 15:28:38] INFO root fetch - processPackages [lemonbar]: Downloading https://files.pythonhosted.org/packages/81/c4/0aab9e346446c47aa0ceeaa5d230951cc77c9e948ec291c76ee1eaa2d3b8/lemonbar-0.7.0.tar.gz
+[2023-07-22 15:28:38] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/2c/82/535890165de5a11a5591b27eea5ea87e85d6197b251bcbb6fd99bd88c2ba/holobench-0.0.2.tar.gz
+[2023-07-22 15:28:38] INFO root fetch - processPackages [lemonbar]: executing diffoscope
+[2023-07-22 15:28:38] INFO root fetch - processPackages [lemonbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemonbar-0.6.6.tar.gz tmp/lemonbar-0.7.0.tar.gz --markdown 20230722/l/lemonbar/0.6.6-0.7.0/diff.md --exclude *.pyd
+[2023-07-22 15:28:38] INFO root fetch - processPackages [xlogit]: Downloading https://files.pythonhosted.org/packages/22/54/223d1ca70ef3b6c90393b954ea91d524ad8865c4abe36d0acd9fae6ebf52/xlogit-0.2.6.tar.gz
+[2023-07-22 15:28:38] INFO root fetch - processPackages [holobench]: executing diffoscope
+[2023-07-22 15:28:38] INFO root fetch - processPackages [holobench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holobench-0.0.1.tar.gz tmp/holobench-0.0.2.tar.gz --markdown 20230722/h/holobench/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-22 15:28:38] INFO root fetch - processPackages [fieldedge-utilities]: Downloading https://files.pythonhosted.org/packages/a4/cc/5e3cca6cf81fd198ab60061c1fc2991aa7d6101683864c4fac3709547e03/fieldedge-utilities-0.9.5.tar.gz
+[2023-07-22 15:28:38] INFO root fetch - processPackages [fieldedge-utilities]: executing diffoscope
+[2023-07-22 15:28:38] INFO root fetch - processPackages [fieldedge-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fieldedge-utilities-0.9.4.tar.gz tmp/fieldedge-utilities-0.9.5.tar.gz --markdown 20230722/f/fieldedge-utilities/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-22 15:28:38] INFO root fetch - processPackages [xlogit]: executing diffoscope
+[2023-07-22 15:28:38] INFO root fetch - processPackages [xlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlogit-0.2.5.tar.gz tmp/xlogit-0.2.6.tar.gz --markdown 20230722/x/xlogit/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-22 15:28:38] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.0.9.3.tar.gz]
+[2023-07-22 15:28:38] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.0.9.4.tar.gz]
+[2023-07-22 15:28:38] INFO root fetch - main [MainThread]: End processing [Giraffe-View]: success
+[2023-07-22 15:28:39] INFO root fetch - processPackages [lemonbar]: Remove: archive file [/home/abi/fetcher/tmp/lemonbar-0.6.6.tar.gz]
+[2023-07-22 15:28:39] INFO root fetch - processPackages [lemonbar]: Remove: archive file [/home/abi/fetcher/tmp/lemonbar-0.7.0.tar.gz]
+[2023-07-22 15:28:39] INFO root fetch - main [MainThread]: End processing [lemonbar]: success
+[2023-07-22 15:28:39] INFO root fetch - processPackages [fieldedge-utilities]: Remove: archive file [/home/abi/fetcher/tmp/fieldedge-utilities-0.9.4.tar.gz]
+[2023-07-22 15:28:39] INFO root fetch - processPackages [fieldedge-utilities]: Remove: archive file [/home/abi/fetcher/tmp/fieldedge-utilities-0.9.5.tar.gz]
+[2023-07-22 15:28:39] INFO root fetch - main [MainThread]: End processing [fieldedge-utilities]: success
+[2023-07-22 15:28:39] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-0.0.1.tar.gz]
+[2023-07-22 15:28:39] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-0.0.2.tar.gz]
+[2023-07-22 15:28:39] INFO root fetch - main [MainThread]: End processing [holobench]: success
+[2023-07-22 15:28:39] INFO root fetch - processPackages [xlogit]: Remove: archive file [/home/abi/fetcher/tmp/xlogit-0.2.5.tar.gz]
+[2023-07-22 15:28:39] INFO root fetch - processPackages [xlogit]: Remove: archive file [/home/abi/fetcher/tmp/xlogit-0.2.6.tar.gz]
+[2023-07-22 15:28:39] INFO root fetch - main [MainThread]: End processing [xlogit]: success
+[2023-07-22 15:28:39] INFO root fetch - main [MainThread]: Store serial: [18995099]
