@@ -7458,3 +7458,45 @@
 [2023-07-22 04:00:54] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.385.0.tar.gz]
 [2023-07-22 04:00:54] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-22 04:00:54] INFO root fetch - main [MainThread]: Store serial: [18992136]
+[2023-07-22 04:05:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992136]
+[2023-07-22 04:06:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 04:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: domain-admin
+[2023-07-22 04:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rink-plotly
+[2023-07-22 04:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rest-api-supporter
+[2023-07-22 04:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lightning-template
+[2023-07-22 04:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlx-exec
+[2023-07-22 04:06:03] INFO root fetch - processPackages [rest-api-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 04:06:03] INFO root fetch - processPackages [sqlx-exec]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-22 04:06:03] INFO root fetch - processPackages [lightning-template]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-07-22 04:06:04] WARNING root fetch - processPackages [rink-plotly]: Skipping, unable to determine old version
+[2023-07-22 04:06:04] INFO root fetch - main [MainThread]: End processing [rink-plotly] error
+[2023-07-22 04:06:04] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/bb/2f/1ff3af1d32fa24605387de5093971abd5bd69c4172bbc1551f71869be849/lightning-template-1.1.6.tar.gz
+[2023-07-22 04:06:04] INFO root fetch - processPackages [domain-admin]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-22 04:06:04] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/d1/56/c5015434f4cfedfa0c4de1732af647f1eda97cb360201363767fb9b891c0/sqlx-exec-1.0.9.tar.gz
+[2023-07-22 04:06:04] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/f4/16/0c2fc27776d8257953b960eea527e7f83b54019b51fbb132e634d73c5c0e/rest-api-supporter-0.0.8.tar.gz
+[2023-07-22 04:06:04] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/77/3e/84513fa7f778e3bfb7abbfc8120561c570ddaf040c14e8d83f25ac11bde5/domain-admin-1.5.3.tar.gz
+[2023-07-22 04:06:04] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/87/90/9298cf32ea421dbe4070c02a518065ebd2b7283d77e0a827a34f28bfda07/sqlx-exec-1.1.0.tar.gz
+[2023-07-22 04:06:04] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/2b/13/c49d9f0083db21a4a66f4fb47daf397d705026e05b7c5176853484c8ceeb/lightning-template-1.1.7.tar.gz
+[2023-07-22 04:06:04] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/35/47/76da32bcf0507aa9dbf370e1c9e91408c29a80232299067f97883d4ef255/rest-api-supporter-0.0.9.tar.gz
+[2023-07-22 04:06:04] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-07-22 04:06:04] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.1.6.tar.gz tmp/lightning-template-1.1.7.tar.gz --markdown 20230722/l/lightning-template/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-07-22 04:06:04] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-22 04:06:04] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.0.9.tar.gz tmp/sqlx-exec-1.1.0.tar.gz --markdown 20230722/s/sqlx-exec/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-22 04:06:04] INFO root fetch - processPackages [rest-api-supporter]: executing diffoscope
+[2023-07-22 04:06:04] INFO root fetch - processPackages [rest-api-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest-api-supporter-0.0.8.tar.gz tmp/rest-api-supporter-0.0.9.tar.gz --markdown 20230722/r/rest-api-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 04:06:04] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/0f/c5/80bfb459bb5571f10a94697c41c5045b1467dab3ccac776e6e159029cf03/domain-admin-1.5.4.tar.gz
+[2023-07-22 04:06:04] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-07-22 04:06:04] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.5.3.tar.gz tmp/domain-admin-1.5.4.tar.gz --markdown 20230722/d/domain-admin/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-22 04:06:05] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.8.tar.gz]
+[2023-07-22 04:06:05] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.9.tar.gz]
+[2023-07-22 04:06:05] INFO root fetch - main [MainThread]: End processing [rest-api-supporter]: success
+[2023-07-22 04:06:05] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.0.9.tar.gz]
+[2023-07-22 04:06:05] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.1.0.tar.gz]
+[2023-07-22 04:06:05] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-22 04:06:05] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.1.6.tar.gz]
+[2023-07-22 04:06:05] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.1.7.tar.gz]
+[2023-07-22 04:06:05] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-07-22 04:06:23] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.3.tar.gz]
+[2023-07-22 04:06:23] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.4.tar.gz]
+[2023-07-22 04:06:23] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-07-22 04:06:23] INFO root fetch - main [MainThread]: Store serial: [18992154]
