@@ -13439,3 +13439,33 @@
 [2023-07-22 13:46:35] INFO root fetch - processPackages [lemonbar]: Remove: archive file [/home/abi/fetcher/tmp/lemonbar-0.6.4.tar.gz]
 [2023-07-22 13:46:35] INFO root fetch - main [MainThread]: End processing [lemonbar]: success
 [2023-07-22 13:46:35] INFO root fetch - main [MainThread]: Store serial: [18994661]
+[2023-07-22 13:51:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994661]
+[2023-07-22 13:51:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-22 13:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: port-pulumi
+[2023-07-22 13:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gs-peer-connection
+[2023-07-22 13:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyfi
+[2023-07-22 13:51:44] INFO root fetch - processPackages [hyfi]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-07-22 13:51:44] INFO root fetch - processPackages [gs-peer-connection]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 13:51:44] INFO root fetch - processPackages [port-pulumi]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-22 13:51:44] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/f3/d9/eb292ace5c7468b1044eaa6908ae541a5f8511eb05f27b14605ac0da6e3a/hyfi-1.6.3.tar.gz
+[2023-07-22 13:51:44] INFO root fetch - processPackages [gs-peer-connection]: Downloading https://files.pythonhosted.org/packages/2b/f2/2fad48c1e8beffe0dcfbe560081f9686682cf52ef15bd8c1ca2f4ef6b33a/gs-peer-connection-0.0.8.tar.gz
+[2023-07-22 13:51:44] INFO root fetch - processPackages [port-pulumi]: Downloading https://files.pythonhosted.org/packages/1e/c6/2a04138d092870e87122cb9f23a954aad82391219da9635120ed4b0f753a/port_pulumi-1.1.0.tar.gz
+[2023-07-22 13:51:44] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/ad/b9/4b670670a64c28bc10557f4b1d1adcc1b18fc6d5ef7a5fced83624777915/hyfi-1.6.4.tar.gz
+[2023-07-22 13:51:44] INFO root fetch - processPackages [gs-peer-connection]: Downloading https://files.pythonhosted.org/packages/e9/3a/a4f33a77bfb1c126891781631ab489faaa57e9730c21f81fa0ce8178474e/gs-peer-connection-0.0.9.tar.gz
+[2023-07-22 13:51:44] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-22 13:51:44] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.6.3.tar.gz tmp/hyfi-1.6.4.tar.gz --markdown 20230722/h/hyfi/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-07-22 13:51:44] INFO root fetch - processPackages [port-pulumi]: Downloading https://files.pythonhosted.org/packages/91/74/ab3b35dbea416f7e90675835104fe5a3bf1b18bc65aaeee8af915a583140/port_pulumi-1.1.1.tar.gz
+[2023-07-22 13:51:44] INFO root fetch - processPackages [port-pulumi]: executing diffoscope
+[2023-07-22 13:51:44] INFO root fetch - processPackages [port-pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_pulumi-1.1.0.tar.gz tmp/port_pulumi-1.1.1.tar.gz --markdown 20230722/p/port-pulumi/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-22 13:51:45] INFO root fetch - processPackages [gs-peer-connection]: executing diffoscope
+[2023-07-22 13:51:45] INFO root fetch - processPackages [gs-peer-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs-peer-connection-0.0.8.tar.gz tmp/gs-peer-connection-0.0.9.tar.gz --markdown 20230722/g/gs-peer-connection/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 13:51:45] INFO root fetch - processPackages [port-pulumi]: Remove: archive file [/home/abi/fetcher/tmp/port_pulumi-1.1.0.tar.gz]
+[2023-07-22 13:51:45] INFO root fetch - processPackages [port-pulumi]: Remove: archive file [/home/abi/fetcher/tmp/port_pulumi-1.1.1.tar.gz]
+[2023-07-22 13:51:45] INFO root fetch - main [MainThread]: End processing [port-pulumi]: success
+[2023-07-22 13:51:45] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.6.3.tar.gz]
+[2023-07-22 13:51:45] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.6.4.tar.gz]
+[2023-07-22 13:51:45] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-22 13:51:45] INFO root fetch - processPackages [gs-peer-connection]: Remove: archive file [/home/abi/fetcher/tmp/gs-peer-connection-0.0.8.tar.gz]
+[2023-07-22 13:51:45] INFO root fetch - processPackages [gs-peer-connection]: Remove: archive file [/home/abi/fetcher/tmp/gs-peer-connection-0.0.9.tar.gz]
+[2023-07-22 13:51:45] INFO root fetch - main [MainThread]: End processing [gs-peer-connection]: success
+[2023-07-22 13:51:45] INFO root fetch - main [MainThread]: Store serial: [18994671]
