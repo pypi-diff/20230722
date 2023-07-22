@@ -11882,3 +11882,60 @@
 [2023-07-22 11:08:38] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
 [2023-07-22 11:08:38] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
 [2023-07-22 11:08:38] INFO root fetch - main [MainThread]: Store serial: [18993971]
+[2023-07-22 11:13:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993971]
+[2023-07-22 11:13:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 11:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finterstellar
+[2023-07-22 11:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: talkytimes-package
+[2023-07-22 11:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyroFork
+[2023-07-22 11:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strawberry-graphql
+[2023-07-22 11:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kuki
+[2023-07-22 11:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: losscape
+[2023-07-22 11:13:47] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 11:13:47] INFO root fetch - processPackages [kuki]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-22 11:13:47] INFO root fetch - processPackages [finterstellar]: New version: [0.2.22] Old Version: [0.2.21]
+[2023-07-22 11:13:47] INFO root fetch - processPackages [PyroFork]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-07-22 11:13:47] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-22 11:13:47] INFO root fetch - processPackages [finterstellar]: Downloading https://files.pythonhosted.org/packages/14/4d/82ef24df2b66e0b5be526e87eacde3b86b577577540238c07235b30fc553/finterstellar-0.2.21.tar.gz
+[2023-07-22 11:13:47] INFO root fetch - processPackages [kuki]: Downloading https://files.pythonhosted.org/packages/51/db/120aa5bb3947fcf83150a739ae6f651770137a0a5069b832d1c9f02bbbc0/kuki-0.9.0.tar.gz
+[2023-07-22 11:13:47] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-07-22 11:13:47] INFO root fetch - processPackages [PyroFork]: Downloading https://files.pythonhosted.org/packages/a4/cb/1108e0d8e89983d1a4f06b0a50c744db041608b53047e07a42ed1d79ba61/PyroFork-2.2.4.tar.gz
+[2023-07-22 11:13:47] INFO root fetch - processPackages [losscape]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-07-22 11:13:47] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-22 11:13:47] INFO root fetch - processPackages [kuki]: Downloading https://files.pythonhosted.org/packages/74/d1/b2c1b89d1533fa90dfde870558592b0a301e40f6d96c734630710020fa55/kuki-0.9.1.tar.gz
+[2023-07-22 11:13:47] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-07-22 11:13:48] INFO root fetch - processPackages [finterstellar]: Downloading https://files.pythonhosted.org/packages/ca/86/21dfe056dc8d4914ad73447bca87ca4eb03b492a45d5bee5d6289087bdd3/finterstellar-0.2.22.tar.gz
+[2023-07-22 11:13:48] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-22 11:13:48] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230722/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 11:13:48] INFO root fetch - processPackages [kuki]: executing diffoscope
+[2023-07-22 11:13:48] INFO root fetch - processPackages [kuki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuki-0.9.0.tar.gz tmp/kuki-0.9.1.tar.gz --markdown 20230722/k/kuki/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-22 11:13:48] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/83/2a/35e43cb162a591d2e9e629367abe8d4578969fcfd00140e6ca42aeda5e73/losscape-1.4.4.tar.gz
+[2023-07-22 11:13:48] INFO root fetch - processPackages [finterstellar]: executing diffoscope
+[2023-07-22 11:13:48] INFO root fetch - processPackages [finterstellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finterstellar-0.2.21.tar.gz tmp/finterstellar-0.2.22.tar.gz --markdown 20230722/f/finterstellar/0.2.21-0.2.22/diff.md --exclude *.pyd
+[2023-07-22 11:13:48] INFO root fetch - processPackages [PyroFork]: Downloading https://files.pythonhosted.org/packages/19/16/7d3244fde0048714a2120d26468aa2eed6a42c4ad16f4d3e45398e25be17/PyroFork-2.2.5.tar.gz
+[2023-07-22 11:13:48] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-07-22 11:13:48] INFO root fetch - processPackages [PyroFork]: executing diffoscope
+[2023-07-22 11:13:48] INFO root fetch - processPackages [PyroFork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-2.2.4.tar.gz tmp/PyroFork-2.2.5.tar.gz --markdown 20230722/P/PyroFork/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-07-22 11:13:48] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-07-22 11:13:48] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230722/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-07-22 11:13:48] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/6e/56/9375901e1ae32ddbd07100f5b8531d1ebb5ce072c8655cadde280ae46da3/losscape-1.4.5.tar.gz
+[2023-07-22 11:13:48] INFO root fetch - processPackages [losscape]: executing diffoscope
+[2023-07-22 11:13:48] INFO root fetch - processPackages [losscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/losscape-1.4.4.tar.gz tmp/losscape-1.4.5.tar.gz --markdown 20230722/l/losscape/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-07-22 11:13:48] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-22 11:13:48] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-22 11:13:48] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-22 11:13:49] INFO root fetch - processPackages [finterstellar]: Remove: archive file [/home/abi/fetcher/tmp/finterstellar-0.2.21.tar.gz]
+[2023-07-22 11:13:49] INFO root fetch - processPackages [finterstellar]: Remove: archive file [/home/abi/fetcher/tmp/finterstellar-0.2.22.tar.gz]
+[2023-07-22 11:13:49] INFO root fetch - main [MainThread]: End processing [finterstellar]: success
+[2023-07-22 11:13:49] INFO root fetch - processPackages [kuki]: Remove: archive file [/home/abi/fetcher/tmp/kuki-0.9.0.tar.gz]
+[2023-07-22 11:13:49] INFO root fetch - processPackages [kuki]: Remove: archive file [/home/abi/fetcher/tmp/kuki-0.9.1.tar.gz]
+[2023-07-22 11:13:49] INFO root fetch - main [MainThread]: End processing [kuki]: success
+[2023-07-22 11:13:49] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.4.4.tar.gz]
+[2023-07-22 11:13:49] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.4.5.tar.gz]
+[2023-07-22 11:13:49] INFO root fetch - main [MainThread]: End processing [losscape]: success
+[2023-07-22 11:13:49] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2023-07-22 11:13:49] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2023-07-22 11:13:49] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-07-22 11:13:51] INFO root fetch - processPackages [PyroFork]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-2.2.4.tar.gz]
+[2023-07-22 11:13:51] INFO root fetch - processPackages [PyroFork]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-2.2.5.tar.gz]
+[2023-07-22 11:13:51] INFO root fetch - main [MainThread]: End processing [PyroFork]: success
+[2023-07-22 11:13:51] INFO root fetch - main [MainThread]: Store serial: [18993987]
