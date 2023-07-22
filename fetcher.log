@@ -15785,3 +15785,82 @@ EOFError: EOF read where object expected
 [2023-07-22 17:18:09] INFO root fetch - processPackages [hurdat2parser]: Remove: archive file [/home/abi/fetcher/tmp/hurdat2parser-2.2.3.1.tar.gz]
 [2023-07-22 17:18:09] INFO root fetch - main [MainThread]: End processing [hurdat2parser]: success
 [2023-07-22 17:18:09] INFO root fetch - main [MainThread]: Store serial: [18995678]
+[2023-07-22 17:23:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995678]
+[2023-07-22 17:23:18] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-22 17:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lsstream
+[2023-07-22 17:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: photondemo
+[2023-07-22 17:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: league-client
+[2023-07-22 17:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipedrive-wrapper
+[2023-07-22 17:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aioconsole
+[2023-07-22 17:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mdtraj
+[2023-07-22 17:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: async-poe-client
+[2023-07-22 17:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pipedrive-wrapper
+[2023-07-22 17:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zhenglin
+[2023-07-22 17:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nextflowpy
+[2023-07-22 17:23:18] INFO root fetch - processPackages [photondemo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-22 17:23:18] WARNING root fetch - processPackages [lsstream]: Skipping, unable to determine old version
+[2023-07-22 17:23:18] INFO root fetch - main [MainThread]: End processing [lsstream] error
+[2023-07-22 17:23:18] INFO root fetch - processPackages [pipedrive-wrapper]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-22 17:23:18] INFO root fetch - processPackages [league-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-22 17:23:18] INFO root fetch - processPackages [pipedrive-wrapper]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-22 17:23:18] INFO root fetch - processPackages [mdtraj]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-22 17:23:18] INFO root fetch - processPackages [zhenglin]: New version: [0.15.11] Old Version: [0.15.10]
+[2023-07-22 17:23:18] INFO root fetch - processPackages [aioconsole]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-22 17:23:18] WARNING root fetch - processPackages [async-poe-client]: Skipping, unable to determine old version
+[2023-07-22 17:23:18] INFO root fetch - main [MainThread]: End processing [async-poe-client] error
+[2023-07-22 17:23:18] INFO root fetch - processPackages [nextflowpy]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-07-22 17:23:18] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/3d/ad/7549a5d120b3497cd1090171159d966fade3e732157afbc274d36e961cd2/photondemo-0.0.1.tar.gz
+[2023-07-22 17:23:18] INFO root fetch - processPackages [pipedrive-wrapper]: Downloading https://files.pythonhosted.org/packages/85/30/b31cb53a7b3307a729cd9ee5b41e68f21ef148814353c2191c7e400de35a/pipedrive-wrapper-1.0.3.tar.gz
+[2023-07-22 17:23:18] INFO root fetch - processPackages [pipedrive-wrapper]: Downloading https://files.pythonhosted.org/packages/85/30/b31cb53a7b3307a729cd9ee5b41e68f21ef148814353c2191c7e400de35a/pipedrive-wrapper-1.0.3.tar.gz
+[2023-07-22 17:23:18] INFO root fetch - processPackages [zhenglin]: Downloading https://files.pythonhosted.org/packages/44/b3/790b49816aed8dbf2ae07fba40d84cf00f4c9c881e20a8b346082ee3002e/zhenglin-0.15.10.tar.gz
+[2023-07-22 17:23:18] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/6c/04/9929e1e274fb1b8465e5b0a422d4b94ed7344109af5a65de3a94a0f20cbc/league_client-1.0.8-py3-none-any.whl
+[2023-07-22 17:23:18] INFO root fetch - processPackages [mdtraj]: Downloading https://files.pythonhosted.org/packages/53/02/a30f67a8bd3dba6d6e4ecc02bee290f425bf30c504a8a959a04e2be321ac/mdtraj-1.9.8.tar.gz
+[2023-07-22 17:23:18] INFO root fetch - processPackages [nextflowpy]: Downloading https://files.pythonhosted.org/packages/17/91/ff793e7653b12a634170fd21a1c8c85968505ddd661e9a7062403e3b89ef/nextflowpy-0.6.2-py3-none-any.whl
+[2023-07-22 17:23:19] INFO root fetch - processPackages [aioconsole]: Downloading https://files.pythonhosted.org/packages/27/a2/4bbeecceb6786a058e92469686ae1b7d3a616b3f5b99e00b96c3064349e2/aioconsole-0.6.1.tar.gz
+[2023-07-22 17:23:19] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/dc/55/1acc4e931aa16eabba8b66358cc28d65293fbd8160243c709424cac9c287/photondemo-0.0.2.tar.gz
+[2023-07-22 17:23:19] INFO root fetch - processPackages [pipedrive-wrapper]: Downloading https://files.pythonhosted.org/packages/69/e2/96692747c153f18ff7fbed23c0633078ec9038f6c0a23da0c49c7bf26b49/pipedrive-wrapper-1.0.4.tar.gz
+[2023-07-22 17:23:19] INFO root fetch - processPackages [pipedrive-wrapper]: Downloading https://files.pythonhosted.org/packages/69/e2/96692747c153f18ff7fbed23c0633078ec9038f6c0a23da0c49c7bf26b49/pipedrive-wrapper-1.0.4.tar.gz
+[2023-07-22 17:23:19] INFO root fetch - processPackages [zhenglin]: Downloading https://files.pythonhosted.org/packages/1f/d7/a0bd021427a06247e771fb101ed49f30755a48ee0ba4eecbc8d89724ecd7/zhenglin-0.15.11.tar.gz
+[2023-07-22 17:23:19] INFO root fetch - processPackages [photondemo]: executing diffoscope
+[2023-07-22 17:23:19] INFO root fetch - processPackages [photondemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photondemo-0.0.1.tar.gz tmp/photondemo-0.0.2.tar.gz --markdown 20230722/p/photondemo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-22 17:23:19] INFO root fetch - processPackages [aioconsole]: Downloading https://files.pythonhosted.org/packages/5f/14/e5c634fad6a95ffd602fbbd1aa107f05a8ffb79d33ec0d0477f3b137f8a9/aioconsole-0.6.2.tar.gz
+[2023-07-22 17:23:19] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/aa/87/fc183fd3ed892333e3d73e72ce9a6cd78d3516202fe299f819159565d8a5/league-client-1.0.9.tar.gz
+[2023-07-22 17:23:19] INFO root fetch - processPackages [nextflowpy]: Downloading https://files.pythonhosted.org/packages/1f/a3/9092271643e0a97a97e31ed7491a0d26571f5995a6fe9d1fbf29922321aa/nextflowpy-0.7.0-py3-none-any.whl
+[2023-07-22 17:23:19] INFO root fetch - processPackages [pipedrive-wrapper]: executing diffoscope
+[2023-07-22 17:23:19] INFO root fetch - processPackages [pipedrive-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipedrive-wrapper-1.0.3.tar.gz tmp/pipedrive-wrapper-1.0.4.tar.gz --markdown 20230722/p/pipedrive-wrapper/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-22 17:23:19] INFO root fetch - processPackages [aioconsole]: executing diffoscope
+[2023-07-22 17:23:19] INFO root fetch - processPackages [aioconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioconsole-0.6.1.tar.gz tmp/aioconsole-0.6.2.tar.gz --markdown 20230722/a/aioconsole/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-22 17:23:19] INFO root fetch - processPackages [pipedrive-wrapper]: executing diffoscope
+[2023-07-22 17:23:19] INFO root fetch - processPackages [pipedrive-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipedrive-wrapper-1.0.3.tar.gz tmp/pipedrive-wrapper-1.0.4.tar.gz --markdown 20230722/p/pipedrive-wrapper/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-22 17:23:19] INFO root fetch - processPackages [league-client]: executing diffoscope
+[2023-07-22 17:23:19] INFO root fetch - processPackages [league-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league_client-1.0.8-py3-none-any.whl.zip tmp/league-client-1.0.9.tar.gz --markdown 20230722/l/league-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-22 17:23:19] INFO root fetch - processPackages [mdtraj]: Downloading https://files.pythonhosted.org/packages/0b/45/f94a06c8a3b1f91a692637f5216951b2205a265166ecfb1c7e3f4e172200/mdtraj-1.9.9.tar.gz
+[2023-07-22 17:23:19] INFO root fetch - processPackages [zhenglin]: executing diffoscope
+[2023-07-22 17:23:19] INFO root fetch - processPackages [zhenglin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhenglin-0.15.10.tar.gz tmp/zhenglin-0.15.11.tar.gz --markdown 20230722/z/zhenglin/0.15.10-0.15.11/diff.md --exclude *.pyd
+[2023-07-22 17:23:19] INFO root fetch - processPackages [nextflowpy]: executing diffoscope
+[2023-07-22 17:23:19] INFO root fetch - processPackages [nextflowpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextflowpy-0.6.2-py3-none-any.whl.zip tmp/nextflowpy-0.7.0-py3-none-any.whl.zip --markdown 20230722/n/nextflowpy/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-07-22 17:23:20] INFO root fetch - processPackages [mdtraj]: executing diffoscope
+[2023-07-22 17:23:20] INFO root fetch - processPackages [mdtraj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdtraj-1.9.8.tar.gz tmp/mdtraj-1.9.9.tar.gz --markdown 20230722/m/mdtraj/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-22 17:23:20] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.1.tar.gz]
+[2023-07-22 17:23:20] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.2.tar.gz]
+[2023-07-22 17:23:20] INFO root fetch - main [MainThread]: End processing [photondemo]: success
+[2023-07-22 17:23:20] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league_client-1.0.8-py3-none-any.whl.zip]
+[2023-07-22 17:23:20] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league-client-1.0.9.tar.gz]
+[2023-07-22 17:23:20] INFO root fetch - main [MainThread]: End processing [league-client]: success
+[2023-07-22 17:23:20] INFO root fetch - processPackages [pipedrive-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/pipedrive-wrapper-1.0.3.tar.gz]
+[2023-07-22 17:23:20] INFO root fetch - processPackages [pipedrive-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/pipedrive-wrapper-1.0.4.tar.gz]
+[2023-07-22 17:23:20] INFO root fetch - main [MainThread]: End processing [pipedrive-wrapper]: success
+[2023-07-22 17:23:20] INFO root fetch - main [MainThread]: End processing [pipedrive-wrapper]: success
+[2023-07-22 17:23:20] INFO root fetch - processPackages [aioconsole]: Remove: archive file [/home/abi/fetcher/tmp/aioconsole-0.6.1.tar.gz]
+[2023-07-22 17:23:20] INFO root fetch - processPackages [aioconsole]: Remove: archive file [/home/abi/fetcher/tmp/aioconsole-0.6.2.tar.gz]
+[2023-07-22 17:23:20] INFO root fetch - main [MainThread]: End processing [aioconsole]: success
+[2023-07-22 17:23:20] INFO root fetch - processPackages [nextflowpy]: Remove: archive file [/home/abi/fetcher/tmp/nextflowpy-0.6.2-py3-none-any.whl.zip]
+[2023-07-22 17:23:20] INFO root fetch - processPackages [nextflowpy]: Remove: archive file [/home/abi/fetcher/tmp/nextflowpy-0.7.0-py3-none-any.whl.zip]
+[2023-07-22 17:23:20] INFO root fetch - main [MainThread]: End processing [nextflowpy]: success
+[2023-07-22 17:23:21] INFO root fetch - processPackages [zhenglin]: Remove: archive file [/home/abi/fetcher/tmp/zhenglin-0.15.10.tar.gz]
+[2023-07-22 17:23:21] INFO root fetch - processPackages [zhenglin]: Remove: archive file [/home/abi/fetcher/tmp/zhenglin-0.15.11.tar.gz]
+[2023-07-22 17:23:21] INFO root fetch - main [MainThread]: End processing [zhenglin]: success
+[2023-07-22 17:23:24] INFO root fetch - processPackages [mdtraj]: Remove: archive file [/home/abi/fetcher/tmp/mdtraj-1.9.8.tar.gz]
+[2023-07-22 17:23:24] INFO root fetch - processPackages [mdtraj]: Remove: archive file [/home/abi/fetcher/tmp/mdtraj-1.9.9.tar.gz]
+[2023-07-22 17:23:24] INFO root fetch - main [MainThread]: End processing [mdtraj]: success
+[2023-07-22 17:23:24] INFO root fetch - main [MainThread]: Store serial: [18995710]
