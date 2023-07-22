@@ -10722,3 +10722,48 @@
 [2023-07-22 09:34:19] INFO root fetch - processPackages [odoo14-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_stock_account-14.0.8.9.0-py3-none-any.whl.zip]
 [2023-07-22 09:34:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-stock-account]: success
 [2023-07-22 09:34:19] INFO root fetch - main [MainThread]: Store serial: [18993442]
+[2023-07-22 09:39:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993442]
+[2023-07-22 09:39:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 09:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdpred
+[2023-07-22 09:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inkstone
+[2023-07-22 09:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: get-chrome-driver
+[2023-07-22 09:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akamai-purge-cache
+[2023-07-22 09:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jageocoder
+[2023-07-22 09:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: motmot.imops
+[2023-07-22 09:39:28] WARNING root fetch - processPackages [akamai-purge-cache]: Skipping, unable to determine old version
+[2023-07-22 09:39:28] INFO root fetch - main [MainThread]: End processing [akamai-purge-cache] error
+[2023-07-22 09:39:28] INFO root fetch - processPackages [get-chrome-driver]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-22 09:39:28] INFO root fetch - processPackages [jageocoder]: New version: [2.0.3rc1] Old Version: [2.0.2]
+[2023-07-22 09:39:28] INFO root fetch - processPackages [get-chrome-driver]: Downloading https://files.pythonhosted.org/packages/d3/4b/8454f2e6479b4494155a2fa75dbf37a4ed834271526a16e2be238065cede/get-chrome-driver-1.3.8.tar.gz
+[2023-07-22 09:39:28] INFO root fetch - processPackages [motmot.imops]: New version: [0.5.9] Old Version: [0.5.7]
+[2023-07-22 09:39:28] WARNING root fetch - processPackages [cdpred]: Skipping, unable to determine old version
+[2023-07-22 09:39:28] INFO root fetch - main [MainThread]: End processing [cdpred] error
+[2023-07-22 09:39:28] INFO root fetch - processPackages [inkstone]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-22 09:39:28] INFO root fetch - processPackages [get-chrome-driver]: Downloading https://files.pythonhosted.org/packages/f5/1f/401d689edcf0210796e6f03e2acfdf7b5fd9b97bd07b854116303d9c34a2/get-chrome-driver-1.3.9.tar.gz
+[2023-07-22 09:39:28] INFO root fetch - processPackages [motmot.imops]: Downloading https://files.pythonhosted.org/packages/4d/f3/23c530341aa95905e78f08e5558315f6a89e8941c61a71a54a1fc11d33f7/motmot.imops-0.5.7.zip
+[2023-07-22 09:39:28] INFO root fetch - processPackages [jageocoder]: Downloading https://files.pythonhosted.org/packages/76/2e/86a3cdc36075857867ce3ba6b0ce5f4e3b387e619ca776b205fb456909e4/jageocoder-2.0.2.tar.gz
+[2023-07-22 09:39:28] INFO root fetch - processPackages [inkstone]: Downloading https://files.pythonhosted.org/packages/84/51/617bb06a92ba85932acc46065a08c4d3f269232d06f465281d861e64a449/inkstone-0.2.8.tar.gz
+[2023-07-22 09:39:28] INFO root fetch - processPackages [get-chrome-driver]: executing diffoscope
+[2023-07-22 09:39:28] INFO root fetch - processPackages [get-chrome-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get-chrome-driver-1.3.8.tar.gz tmp/get-chrome-driver-1.3.9.tar.gz --markdown 20230722/g/get-chrome-driver/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-22 09:39:29] INFO root fetch - processPackages [jageocoder]: Downloading https://files.pythonhosted.org/packages/6f/e1/ec22664a37c33af2daf8e619964e57a519e1351ffa8db1dbffdcf278195d/jageocoder-2.0.3rc1.tar.gz
+[2023-07-22 09:39:29] INFO root fetch - processPackages [motmot.imops]: Downloading https://files.pythonhosted.org/packages/04/03/08f36be3003f05b79414d85b298addf423dd9a992fe54e5a52217f6688fa/motmot.imops-0.5.9.tar.gz
+[2023-07-22 09:39:29] INFO root fetch - processPackages [jageocoder]: executing diffoscope
+[2023-07-22 09:39:29] INFO root fetch - processPackages [jageocoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jageocoder-2.0.2.tar.gz tmp/jageocoder-2.0.3rc1.tar.gz --markdown 20230722/j/jageocoder/2.0.2-2.0.3rc1/diff.md --exclude *.pyd
+[2023-07-22 09:39:29] INFO root fetch - processPackages [get-chrome-driver]: Remove: archive file [/home/abi/fetcher/tmp/get-chrome-driver-1.3.8.tar.gz]
+[2023-07-22 09:39:29] INFO root fetch - processPackages [get-chrome-driver]: Remove: archive file [/home/abi/fetcher/tmp/get-chrome-driver-1.3.9.tar.gz]
+[2023-07-22 09:39:29] INFO root fetch - main [MainThread]: End processing [get-chrome-driver]: success
+[2023-07-22 09:39:29] INFO root fetch - processPackages [motmot.imops]: executing diffoscope
+[2023-07-22 09:39:29] INFO root fetch - processPackages [motmot.imops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motmot.imops-0.5.7.zip tmp/motmot.imops-0.5.9.tar.gz --markdown 20230722/m/motmot.imops/0.5.7-0.5.9/diff.md --exclude *.pyd
+[2023-07-22 09:39:30] INFO root fetch - processPackages [inkstone]: Downloading https://files.pythonhosted.org/packages/5f/31/0052037c8bf0a5f7574df313af3d8aaeaf8701aea2f21fe058937d778ed3/inkstone-0.2.9.tar.gz
+[2023-07-22 09:39:30] INFO root fetch - processPackages [jageocoder]: Remove: archive file [/home/abi/fetcher/tmp/jageocoder-2.0.2.tar.gz]
+[2023-07-22 09:39:30] INFO root fetch - processPackages [jageocoder]: Remove: archive file [/home/abi/fetcher/tmp/jageocoder-2.0.3rc1.tar.gz]
+[2023-07-22 09:39:30] INFO root fetch - main [MainThread]: End processing [jageocoder]: success
+[2023-07-22 09:39:30] INFO root fetch - processPackages [motmot.imops]: Remove: archive file [/home/abi/fetcher/tmp/motmot.imops-0.5.7.zip]
+[2023-07-22 09:39:30] INFO root fetch - processPackages [motmot.imops]: Remove: archive file [/home/abi/fetcher/tmp/motmot.imops-0.5.9.tar.gz]
+[2023-07-22 09:39:30] INFO root fetch - main [MainThread]: End processing [motmot.imops]: success
+[2023-07-22 09:39:30] INFO root fetch - processPackages [inkstone]: executing diffoscope
+[2023-07-22 09:39:30] INFO root fetch - processPackages [inkstone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inkstone-0.2.8.tar.gz tmp/inkstone-0.2.9.tar.gz --markdown 20230722/i/inkstone/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-22 09:39:31] INFO root fetch - processPackages [inkstone]: Remove: archive file [/home/abi/fetcher/tmp/inkstone-0.2.8.tar.gz]
+[2023-07-22 09:39:31] INFO root fetch - processPackages [inkstone]: Remove: archive file [/home/abi/fetcher/tmp/inkstone-0.2.9.tar.gz]
+[2023-07-22 09:39:31] INFO root fetch - main [MainThread]: End processing [inkstone]: success
+[2023-07-22 09:39:31] INFO root fetch - main [MainThread]: Store serial: [18993460]
