@@ -20535,3 +20535,48 @@ EOFError: EOF read where object expected
 [2023-07-22 23:47:14] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.21.tar.gz]
 [2023-07-22 23:47:14] INFO root fetch - main [MainThread]: End processing [omni-pro]: success
 [2023-07-22 23:47:14] INFO root fetch - main [MainThread]: Store serial: [18997907]
+[2023-07-22 23:52:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18997907]
+[2023-07-22 23:52:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 23:52:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pgpc
+[2023-07-22 23:52:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mbzero
+[2023-07-22 23:52:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyxtal
+[2023-07-22 23:52:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyfi
+[2023-07-22 23:52:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dnd-character
+[2023-07-22 23:52:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-azure-ad-auth-redux
+[2023-07-22 23:52:23] WARNING root fetch - processPackages [pgpc]: Skipping, unable to determine old version
+[2023-07-22 23:52:23] INFO root fetch - main [MainThread]: End processing [pgpc] error
+[2023-07-22 23:52:23] WARNING root fetch - processPackages [mbzero]: Skipping, unable to determine old version
+[2023-07-22 23:52:23] INFO root fetch - main [MainThread]: End processing [mbzero] error
+[2023-07-22 23:52:23] INFO root fetch - processPackages [django-azure-ad-auth-redux]: New version: [1.5.21] Old Version: [1.5.20]
+[2023-07-22 23:52:23] INFO root fetch - processPackages [pyxtal]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-22 23:52:23] INFO root fetch - processPackages [dnd-character]: New version: [23.7.22] Old Version: [23.7.12]
+[2023-07-22 23:52:23] INFO root fetch - processPackages [hyfi]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-07-22 23:52:23] INFO root fetch - processPackages [django-azure-ad-auth-redux]: Downloading https://files.pythonhosted.org/packages/b8/6a/e1376194139ac9a89832b4e60bdb96edb06de3070af3195d5994de610766/django_azure_ad_auth_redux-1.5.20.tar.gz
+[2023-07-22 23:52:23] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/1f/7b/f4da0d612acd5bbaabb8df04f00ba46599eff9d4f2625b5d067d19bf39bd/hyfi-1.8.0.tar.gz
+[2023-07-22 23:52:23] INFO root fetch - processPackages [dnd-character]: Downloading https://files.pythonhosted.org/packages/4e/b8/75860b251e422265c5ba04eccf2a83f609deb63fcbc6bfcac8039479425a/dnd_character-23.7.12.tar.gz
+[2023-07-22 23:52:23] INFO root fetch - processPackages [pyxtal]: Downloading https://files.pythonhosted.org/packages/ce/49/99d5d3640067b25a2235be21d5f7e57cb81de30bf89d67583ec80381d22b/pyxtal-0.5.8.tar.gz
+[2023-07-22 23:52:23] INFO root fetch - processPackages [django-azure-ad-auth-redux]: Downloading https://files.pythonhosted.org/packages/1e/72/0e28a368809ca8909f37e5c9ce00868cc4c78bf884a746d84952703e5d52/django_azure_ad_auth_redux-1.5.21.tar.gz
+[2023-07-22 23:52:23] INFO root fetch - processPackages [django-azure-ad-auth-redux]: executing diffoscope
+[2023-07-22 23:52:23] INFO root fetch - processPackages [django-azure-ad-auth-redux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_azure_ad_auth_redux-1.5.20.tar.gz tmp/django_azure_ad_auth_redux-1.5.21.tar.gz --markdown 20230722/d/django-azure-ad-auth-redux/1.5.20-1.5.21/diff.md --exclude *.pyd
+[2023-07-22 23:52:23] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/bc/34/f082e54e426ac25efc08519513f0afc8527c6190f5547d20b056324c5e09/hyfi-1.8.1.tar.gz
+[2023-07-22 23:52:23] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-22 23:52:23] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.8.0.tar.gz tmp/hyfi-1.8.1.tar.gz --markdown 20230722/h/hyfi/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-07-22 23:52:23] INFO root fetch - processPackages [dnd-character]: Downloading https://files.pythonhosted.org/packages/a4/2c/bd9160bce8a538c5100b83fabc60155b0091a42693c1e6af6c17268dce32/dnd_character-23.7.22.tar.gz
+[2023-07-22 23:52:23] INFO root fetch - processPackages [dnd-character]: executing diffoscope
+[2023-07-22 23:52:23] INFO root fetch - processPackages [dnd-character]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnd_character-23.7.12.tar.gz tmp/dnd_character-23.7.22.tar.gz --markdown 20230722/d/dnd-character/23.7.12-23.7.22/diff.md --exclude *.pyd
+[2023-07-22 23:52:24] INFO root fetch - processPackages [pyxtal]: Downloading https://files.pythonhosted.org/packages/bb/c1/3c9c6d292295031247ebcaa6404bdd45d7bb24cfe59f8fba932fa178b6cd/pyxtal-0.5.9.tar.gz
+[2023-07-22 23:52:24] INFO root fetch - processPackages [django-azure-ad-auth-redux]: Remove: archive file [/home/abi/fetcher/tmp/django_azure_ad_auth_redux-1.5.20.tar.gz]
+[2023-07-22 23:52:24] INFO root fetch - processPackages [django-azure-ad-auth-redux]: Remove: archive file [/home/abi/fetcher/tmp/django_azure_ad_auth_redux-1.5.21.tar.gz]
+[2023-07-22 23:52:24] INFO root fetch - main [MainThread]: End processing [django-azure-ad-auth-redux]: success
+[2023-07-22 23:52:24] INFO root fetch - processPackages [pyxtal]: executing diffoscope
+[2023-07-22 23:52:24] INFO root fetch - processPackages [pyxtal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxtal-0.5.8.tar.gz tmp/pyxtal-0.5.9.tar.gz --markdown 20230722/p/pyxtal/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-22 23:52:24] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.8.0.tar.gz]
+[2023-07-22 23:52:24] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.8.1.tar.gz]
+[2023-07-22 23:52:24] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-22 23:52:26] INFO root fetch - processPackages [pyxtal]: Remove: archive file [/home/abi/fetcher/tmp/pyxtal-0.5.8.tar.gz]
+[2023-07-22 23:52:26] INFO root fetch - processPackages [pyxtal]: Remove: archive file [/home/abi/fetcher/tmp/pyxtal-0.5.9.tar.gz]
+[2023-07-22 23:52:26] INFO root fetch - main [MainThread]: End processing [pyxtal]: success
+[2023-07-22 23:52:28] INFO root fetch - processPackages [dnd-character]: Remove: archive file [/home/abi/fetcher/tmp/dnd_character-23.7.12.tar.gz]
+[2023-07-22 23:52:28] INFO root fetch - processPackages [dnd-character]: Remove: archive file [/home/abi/fetcher/tmp/dnd_character-23.7.22.tar.gz]
+[2023-07-22 23:52:28] INFO root fetch - main [MainThread]: End processing [dnd-character]: success
+[2023-07-22 23:52:28] INFO root fetch - main [MainThread]: Store serial: [18997928]
