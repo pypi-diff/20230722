@@ -9443,3 +9443,69 @@
 [2023-07-22 07:23:57] INFO root fetch - processPackages [chiapos]: Remove: archive file [/home/abi/fetcher/tmp/chiapos-2.0.0rc1.tar.gz]
 [2023-07-22 07:23:57] INFO root fetch - main [MainThread]: End processing [chiapos]: success
 [2023-07-22 07:23:57] INFO root fetch - main [MainThread]: Store serial: [18992837]
+[2023-07-22 07:29:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992837]
+[2023-07-22 07:29:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-22 07:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adgodfhkdfh
+[2023-07-22 07:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: entelecheia
+[2023-07-22 07:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: morch
+[2023-07-22 07:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beartype
+[2023-07-22 07:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aksharify
+[2023-07-22 07:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: talkytimes-package
+[2023-07-22 07:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: giturlparse2
+[2023-07-22 07:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crazy-thursday
+[2023-07-22 07:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flashcam
+[2023-07-22 07:29:06] INFO root fetch - processPackages [entelecheia]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-22 07:29:06] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 07:29:06] INFO root fetch - processPackages [flashcam]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-22 07:29:06] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-22 07:29:06] INFO root fetch - processPackages [morch]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-22 07:29:06] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-22 07:29:06] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/3c/03/7d31baeb2cac0b3113dae73d48e3a6872cb43311edb1af1ffbfdb320a3aa/entelecheia-0.2.8.tar.gz
+[2023-07-22 07:29:06] WARNING root fetch - processPackages [aksharify]: Skipping, unable to determine old version
+[2023-07-22 07:29:06] INFO root fetch - main [MainThread]: End processing [aksharify] error
+[2023-07-22 07:29:06] WARNING root fetch - processPackages [giturlparse2]: Skipping, unable to determine old version
+[2023-07-22 07:29:06] INFO root fetch - main [MainThread]: End processing [giturlparse2] error
+[2023-07-22 07:29:06] WARNING root fetch - processPackages [adgodfhkdfh]: Skipping, unable to determine old version
+[2023-07-22 07:29:06] INFO root fetch - main [MainThread]: End processing [adgodfhkdfh] error
+[2023-07-22 07:29:06] INFO root fetch - processPackages [beartype]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-22 07:29:06] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/9d/29/cb839f6d94c07e77bc1f17083816f3fd9b3db9e145f606acb0bacc68a3fa/flashcam-1.5.8.tar.gz
+[2023-07-22 07:29:06] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-22 07:29:06] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/a2/f4/4e71719ee94d6a1cb349501e5a6a0e448b5f31be80467e9b3269b7a0088d/entelecheia-0.2.9.tar.gz
+[2023-07-22 07:29:06] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-22 07:29:06] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-22 07:29:06] INFO root fetch - processPackages [morch]: Downloading https://files.pythonhosted.org/packages/15/23/35330acb1bc6398c3939ebd5a0b9e4a6749b8e34876347d069d2f48c3574/morch-1.0.2.tar.gz
+[2023-07-22 07:29:06] INFO root fetch - processPackages [entelecheia]: executing diffoscope
+[2023-07-22 07:29:06] INFO root fetch - processPackages [entelecheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entelecheia-0.2.8.tar.gz tmp/entelecheia-0.2.9.tar.gz --markdown 20230722/e/entelecheia/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-22 07:29:06] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-22 07:29:06] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230722/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 07:29:06] INFO root fetch - processPackages [beartype]: Downloading https://files.pythonhosted.org/packages/6b/c7/a73fbaa2f2abc1120e6d16cfb89cdb6f7ea3ba8e715dbc324ac1aafe7b4b/beartype-0.9.0.tar.gz
+[2023-07-22 07:29:06] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-22 07:29:06] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230722/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-22 07:29:06] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/96/42/2781f734b5b961970dcbae981e95975f89ee4e4297f0299dbb182cc3a6d2/flashcam-1.5.9.tar.gz
+[2023-07-22 07:29:06] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2023-07-22 07:29:06] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.5.8.tar.gz tmp/flashcam-1.5.9.tar.gz --markdown 20230722/f/flashcam/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-22 07:29:06] INFO root fetch - processPackages [morch]: Downloading https://files.pythonhosted.org/packages/67/4f/7901e814ccab2857972559cc2f86ac7178364add575124033aef786db464/morch-1.0.3.tar.gz
+[2023-07-22 07:29:07] INFO root fetch - processPackages [morch]: executing diffoscope
+[2023-07-22 07:29:07] INFO root fetch - processPackages [morch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morch-1.0.2.tar.gz tmp/morch-1.0.3.tar.gz --markdown 20230722/m/morch/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-22 07:29:07] INFO root fetch - processPackages [beartype]: Downloading https://files.pythonhosted.org/packages/ef/16/11a1509d5cd7f3760101edda30f66b28367f2793178bea57745733e92076/beartype-0.9.1.tar.gz
+[2023-07-22 07:29:07] INFO root fetch - processPackages [beartype]: executing diffoscope
+[2023-07-22 07:29:07] INFO root fetch - processPackages [beartype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beartype-0.9.0.tar.gz tmp/beartype-0.9.1.tar.gz --markdown 20230722/b/beartype/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-22 07:29:07] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-22 07:29:07] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-22 07:29:07] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-22 07:29:07] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.8.tar.gz]
+[2023-07-22 07:29:07] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.9.tar.gz]
+[2023-07-22 07:29:07] INFO root fetch - main [MainThread]: End processing [entelecheia]: success
+[2023-07-22 07:29:07] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-22 07:29:07] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-22 07:29:07] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-22 07:29:07] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.8.tar.gz]
+[2023-07-22 07:29:07] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.9.tar.gz]
+[2023-07-22 07:29:07] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2023-07-22 07:29:08] INFO root fetch - processPackages [morch]: Remove: archive file [/home/abi/fetcher/tmp/morch-1.0.2.tar.gz]
+[2023-07-22 07:29:08] INFO root fetch - processPackages [morch]: Remove: archive file [/home/abi/fetcher/tmp/morch-1.0.3.tar.gz]
+[2023-07-22 07:29:08] INFO root fetch - main [MainThread]: End processing [morch]: success
+[2023-07-22 07:29:09] INFO root fetch - processPackages [beartype]: Remove: archive file [/home/abi/fetcher/tmp/beartype-0.9.0.tar.gz]
+[2023-07-22 07:29:09] INFO root fetch - processPackages [beartype]: Remove: archive file [/home/abi/fetcher/tmp/beartype-0.9.1.tar.gz]
+[2023-07-22 07:29:09] INFO root fetch - main [MainThread]: End processing [beartype]: success
+[2023-07-22 07:29:09] INFO root fetch - main [MainThread]: Store serial: [18992867]
