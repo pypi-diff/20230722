@@ -2276,3 +2276,58 @@
 [2023-07-22 01:55:08] INFO root fetch - processPackages [coptpy]: Remove: archive file [/home/abi/fetcher/tmp/coptpy-6.5.6-cp39-cp39-win_amd64.whl.zip]
 [2023-07-22 01:55:08] INFO root fetch - main [MainThread]: End processing [coptpy]: success
 [2023-07-22 01:55:08] INFO root fetch - main [MainThread]: Store serial: [18990305]
+[2023-07-22 02:00:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18990305]
+[2023-07-22 02:00:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 02:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythonsqlite3libaryV1
+[2023-07-22 02:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythonsqlite3libaryV1
+[2023-07-22 02:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bizlogic
+[2023-07-22 02:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moabdb
+[2023-07-22 02:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pip-inside
+[2023-07-22 02:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jag-panzer
+[2023-07-22 02:00:28] INFO root fetch - processPackages [jag-panzer]: New version: [0.1.23] Old Version: [0.1.21]
+[2023-07-22 02:00:28] INFO root fetch - processPackages [pip-inside]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 02:00:28] INFO root fetch - processPackages [moabdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 02:00:28] INFO root fetch - processPackages [pythonsqlite3libaryV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-22 02:00:28] INFO root fetch - processPackages [pythonsqlite3libaryV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-22 02:00:28] INFO root fetch - processPackages [bizlogic]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-22 02:00:28] INFO root fetch - processPackages [pip-inside]: Downloading https://files.pythonhosted.org/packages/d3/cc/9bb6c9f2e1c4e2f7965ffe44c641d8e763c9edbf489228ff87fc220fd19e/pip-inside-0.1.8.tar.gz
+[2023-07-22 02:00:28] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/96/03/58935b420c952db4961424ceeba97283a4c72fb94531da0acb864c0aa9ab/moabdb-0.1.8.tar.gz
+[2023-07-22 02:00:28] INFO root fetch - processPackages [jag-panzer]: Downloading https://files.pythonhosted.org/packages/45/b6/ce93d22def2e85772ea2ab1ef273ee4eae85cbb966477705f776a178a020/jag-panzer-0.1.21.tar.gz
+[2023-07-22 02:00:28] INFO root fetch - processPackages [pythonsqlite3libaryV1]: Downloading https://files.pythonhosted.org/packages/32/70/4b178256d0a22a66674ffa184aee65965d85c8667b0a61fcbb8554847624/pythonsqlite3libaryV1-1.0.0.tar.gz
+[2023-07-22 02:00:28] INFO root fetch - processPackages [pythonsqlite3libaryV1]: Downloading https://files.pythonhosted.org/packages/32/70/4b178256d0a22a66674ffa184aee65965d85c8667b0a61fcbb8554847624/pythonsqlite3libaryV1-1.0.0.tar.gz
+[2023-07-22 02:00:28] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/c5/d3/5f27df909a634bae1e603fea862635e09586828ff1014367cebd2bcfc3e6/bizlogic-0.1.4.tar.gz
+[2023-07-22 02:00:28] INFO root fetch - processPackages [moabdb]: Downloading https://files.pythonhosted.org/packages/02/5a/dc332fba4b2f9beda962be321254cf1d20a93377cc750891d55f43989ee9/moabdb-0.1.9.tar.gz
+[2023-07-22 02:00:28] INFO root fetch - processPackages [jag-panzer]: Downloading https://files.pythonhosted.org/packages/39/16/76d0c7adc449dea189861af4c6fd2d3426386da438f4675daeda29e3a011/jag-panzer-0.1.23.tar.gz
+[2023-07-22 02:00:28] INFO root fetch - processPackages [pip-inside]: Downloading https://files.pythonhosted.org/packages/03/29/8da5b4e43dd72f20de380f015a3da26ad5d6903ca91d52f6707e3fff7ee9/pip-inside-0.1.9.tar.gz
+[2023-07-22 02:00:28] INFO root fetch - processPackages [moabdb]: executing diffoscope
+[2023-07-22 02:00:28] INFO root fetch - processPackages [moabdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moabdb-0.1.8.tar.gz tmp/moabdb-0.1.9.tar.gz --markdown 20230722/m/moabdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 02:00:28] INFO root fetch - processPackages [pythonsqlite3libaryV1]: Downloading https://files.pythonhosted.org/packages/d7/01/c21a7365d3f22fa764b866e3a1b477524e818249d5a5538480821af8968f/pythonsqlite3libaryV1-1.1.0.tar.gz
+[2023-07-22 02:00:28] INFO root fetch - processPackages [pythonsqlite3libaryV1]: Downloading https://files.pythonhosted.org/packages/d7/01/c21a7365d3f22fa764b866e3a1b477524e818249d5a5538480821af8968f/pythonsqlite3libaryV1-1.1.0.tar.gz
+[2023-07-22 02:00:29] INFO root fetch - processPackages [pip-inside]: executing diffoscope
+[2023-07-22 02:00:29] INFO root fetch - processPackages [pip-inside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-inside-0.1.8.tar.gz tmp/pip-inside-0.1.9.tar.gz --markdown 20230722/p/pip-inside/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 02:00:29] INFO root fetch - processPackages [jag-panzer]: executing diffoscope
+[2023-07-22 02:00:29] INFO root fetch - processPackages [jag-panzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jag-panzer-0.1.21.tar.gz tmp/jag-panzer-0.1.23.tar.gz --markdown 20230722/j/jag-panzer/0.1.21-0.1.23/diff.md --exclude *.pyd
+[2023-07-22 02:00:29] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/3e/1c/0985302c7c252a155cc58834fb964b2e1a23d7d77f88c2d564d1af3accce/bizlogic-0.1.5.tar.gz
+[2023-07-22 02:00:29] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-07-22 02:00:29] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.1.4.tar.gz tmp/bizlogic-0.1.5.tar.gz --markdown 20230722/b/bizlogic/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-22 02:00:29] INFO root fetch - processPackages [pythonsqlite3libaryV1]: executing diffoscope
+[2023-07-22 02:00:29] INFO root fetch - processPackages [pythonsqlite3libaryV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonsqlite3libaryV1-1.0.0.tar.gz tmp/pythonsqlite3libaryV1-1.1.0.tar.gz --markdown 20230722/p/pythonsqlite3libaryV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-22 02:00:29] INFO root fetch - processPackages [pythonsqlite3libaryV1]: executing diffoscope
+[2023-07-22 02:00:29] INFO root fetch - processPackages [pythonsqlite3libaryV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonsqlite3libaryV1-1.0.0.tar.gz tmp/pythonsqlite3libaryV1-1.1.0.tar.gz --markdown 20230722/p/pythonsqlite3libaryV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-22 02:00:29] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.8.tar.gz]
+[2023-07-22 02:00:29] INFO root fetch - processPackages [moabdb]: Remove: archive file [/home/abi/fetcher/tmp/moabdb-0.1.9.tar.gz]
+[2023-07-22 02:00:29] INFO root fetch - main [MainThread]: End processing [moabdb]: success
+[2023-07-22 02:00:30] INFO root fetch - processPackages [pip-inside]: Remove: archive file [/home/abi/fetcher/tmp/pip-inside-0.1.8.tar.gz]
+[2023-07-22 02:00:30] INFO root fetch - processPackages [pip-inside]: Remove: archive file [/home/abi/fetcher/tmp/pip-inside-0.1.9.tar.gz]
+[2023-07-22 02:00:30] INFO root fetch - main [MainThread]: End processing [pip-inside]: success
+[2023-07-22 02:00:30] INFO root fetch - processPackages [pythonsqlite3libaryV1]: Remove: archive file [/home/abi/fetcher/tmp/pythonsqlite3libaryV1-1.0.0.tar.gz]
+[2023-07-22 02:00:30] INFO root fetch - processPackages [pythonsqlite3libaryV1]: Remove: archive file [/home/abi/fetcher/tmp/pythonsqlite3libaryV1-1.1.0.tar.gz]
+[2023-07-22 02:00:30] INFO root fetch - main [MainThread]: End processing [pythonsqlite3libaryV1]: success
+[2023-07-22 02:00:30] INFO root fetch - main [MainThread]: End processing [pythonsqlite3libaryV1]: success
+[2023-07-22 02:00:30] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.1.4.tar.gz]
+[2023-07-22 02:00:30] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.1.5.tar.gz]
+[2023-07-22 02:00:30] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-07-22 02:00:30] INFO root fetch - processPackages [jag-panzer]: Remove: archive file [/home/abi/fetcher/tmp/jag-panzer-0.1.21.tar.gz]
+[2023-07-22 02:00:30] INFO root fetch - processPackages [jag-panzer]: Remove: archive file [/home/abi/fetcher/tmp/jag-panzer-0.1.23.tar.gz]
+[2023-07-22 02:00:30] INFO root fetch - main [MainThread]: End processing [jag-panzer]: success
+[2023-07-22 02:00:30] INFO root fetch - main [MainThread]: Store serial: [18990324]
