@@ -15221,3 +15221,48 @@ EOFError: EOF read where object expected
 [2023-07-22 16:31:13] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.5.6.tar.gz]
 [2023-07-22 16:31:13] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
 [2023-07-22 16:31:13] INFO root fetch - main [MainThread]: Store serial: [18995408]
+[2023-07-22 16:36:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995408]
+[2023-07-22 16:36:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 16:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: interpres
+[2023-07-22 16:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sklearn-mlmlm
+[2023-07-22 16:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Office365-REST-Python-Client
+[2023-07-22 16:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: litoid
+[2023-07-22 16:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crypto-screening
+[2023-07-22 16:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: payload-validator
+[2023-07-22 16:36:21] INFO root fetch - processPackages [sklearn-mlmlm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 16:36:21] INFO root fetch - processPackages [interpres]: New version: [0.3.3b5] Old Version: [0.3.3b4]
+[2023-07-22 16:36:21] INFO root fetch - processPackages [crypto-screening]: New version: [8.0.0] Old Version: [7.5.6]
+[2023-07-22 16:36:21] WARNING root fetch - processPackages [payload-validator]: Skipping, unable to determine old version
+[2023-07-22 16:36:21] INFO root fetch - main [MainThread]: End processing [payload-validator] error
+[2023-07-22 16:36:22] INFO root fetch - processPackages [Office365-REST-Python-Client]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-07-22 16:36:22] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/0a/98/4ddd38a1e51a088e832ba7e63522d73dc145b8cfdec3e34074d50b210372/sklearn_mlmlm-0.0.8.tar.gz
+[2023-07-22 16:36:22] WARNING root fetch - processPackages [litoid]: Skipping, unable to determine old version
+[2023-07-22 16:36:22] INFO root fetch - main [MainThread]: End processing [litoid] error
+[2023-07-22 16:36:22] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/42/cf/f5d7c0d7dfc817a495df96a7acf3936dfabd14466e066fb9d4770db4dc68/crypto-screening-7.5.6.tar.gz
+[2023-07-22 16:36:22] INFO root fetch - processPackages [interpres]: Downloading https://files.pythonhosted.org/packages/79/9e/1bc389b1d6c912cd6f5780db04fc17a4907991678c5c1b491e936ae00ede/interpres-0.3.3b4.tar.gz
+[2023-07-22 16:36:22] INFO root fetch - processPackages [Office365-REST-Python-Client]: Downloading https://files.pythonhosted.org/packages/f7/38/17fc7389fe701007d0d4eeb6b971486c269069f5d6cb3234ae97a294c0f1/Office365-REST-Python-Client-2.4.2.tar.gz
+[2023-07-22 16:36:22] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/8e/20/5b0f76a3c4ec519bdc1252725dd78ad4afcc5b17fd82f5330134186be426/sklearn_mlmlm-0.0.9.tar.gz
+[2023-07-22 16:36:22] INFO root fetch - processPackages [sklearn-mlmlm]: executing diffoscope
+[2023-07-22 16:36:22] INFO root fetch - processPackages [sklearn-mlmlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_mlmlm-0.0.8.tar.gz tmp/sklearn_mlmlm-0.0.9.tar.gz --markdown 20230722/s/sklearn-mlmlm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 16:36:22] INFO root fetch - processPackages [interpres]: Downloading https://files.pythonhosted.org/packages/20/4b/dec0e95be066415314c9288b69f7219c914801843c00631b675b438ac2b3/interpres-0.3.3b5.tar.gz
+[2023-07-22 16:36:22] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/6b/60/e026175d8576d2b4ab1397fb573fc136de9fb11650dc687f591e47a3081d/crypto-screening-8.0.0.tar.gz
+[2023-07-22 16:36:22] INFO root fetch - processPackages [Office365-REST-Python-Client]: Downloading https://files.pythonhosted.org/packages/02/5b/1f2d479b3b6e9dc1e9e04840c0893c6b985db84c070c2c31ba610ecfd0e5/Office365-REST-Python-Client-2.4.3.tar.gz
+[2023-07-22 16:36:22] INFO root fetch - processPackages [interpres]: executing diffoscope
+[2023-07-22 16:36:22] INFO root fetch - processPackages [interpres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interpres-0.3.3b4.tar.gz tmp/interpres-0.3.3b5.tar.gz --markdown 20230722/i/interpres/0.3.3b4-0.3.3b5/diff.md --exclude *.pyd
+[2023-07-22 16:36:22] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-22 16:36:22] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-7.5.6.tar.gz tmp/crypto-screening-8.0.0.tar.gz --markdown 20230722/c/crypto-screening/7.5.6-8.0.0/diff.md --exclude *.pyd
+[2023-07-22 16:36:23] INFO root fetch - processPackages [Office365-REST-Python-Client]: executing diffoscope
+[2023-07-22 16:36:23] INFO root fetch - processPackages [Office365-REST-Python-Client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Office365-REST-Python-Client-2.4.2.tar.gz tmp/Office365-REST-Python-Client-2.4.3.tar.gz --markdown 20230722/O/Office365-REST-Python-Client/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-07-22 16:36:23] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.8.tar.gz]
+[2023-07-22 16:36:23] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.9.tar.gz]
+[2023-07-22 16:36:23] INFO root fetch - main [MainThread]: End processing [sklearn-mlmlm]: success
+[2023-07-22 16:36:23] INFO root fetch - processPackages [interpres]: Remove: archive file [/home/abi/fetcher/tmp/interpres-0.3.3b4.tar.gz]
+[2023-07-22 16:36:23] INFO root fetch - processPackages [interpres]: Remove: archive file [/home/abi/fetcher/tmp/interpres-0.3.3b5.tar.gz]
+[2023-07-22 16:36:23] INFO root fetch - main [MainThread]: End processing [interpres]: success
+[2023-07-22 16:36:23] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.5.6.tar.gz]
+[2023-07-22 16:36:23] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.0.0.tar.gz]
+[2023-07-22 16:36:23] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-22 16:36:30] INFO root fetch - processPackages [Office365-REST-Python-Client]: Remove: archive file [/home/abi/fetcher/tmp/Office365-REST-Python-Client-2.4.2.tar.gz]
+[2023-07-22 16:36:30] INFO root fetch - processPackages [Office365-REST-Python-Client]: Remove: archive file [/home/abi/fetcher/tmp/Office365-REST-Python-Client-2.4.3.tar.gz]
+[2023-07-22 16:36:30] INFO root fetch - main [MainThread]: End processing [Office365-REST-Python-Client]: success
+[2023-07-22 16:36:30] INFO root fetch - main [MainThread]: Store serial: [18995432]
