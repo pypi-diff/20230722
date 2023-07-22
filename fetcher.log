@@ -17746,3 +17746,75 @@ EOFError: EOF read where object expected
 [2023-07-22 19:44:10] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6931.tar.gz]
 [2023-07-22 19:44:10] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-22 19:44:10] INFO root fetch - main [MainThread]: Store serial: [18996642]
+[2023-07-22 19:49:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996642]
+[2023-07-22 19:49:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-22 19:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: actions-security-analyzer
+[2023-07-22 19:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: payload-validator
+[2023-07-22 19:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mine
+[2023-07-22 19:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ultralytics
+[2023-07-22 19:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pathgenmap
+[2023-07-22 19:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: always-updates
+[2023-07-22 19:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: balcony
+[2023-07-22 19:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydicom
+[2023-07-22 19:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odooless
+[2023-07-22 19:49:18] WARNING root fetch - processPackages [payload-validator]: Skipping, unable to determine old version
+[2023-07-22 19:49:18] INFO root fetch - main [MainThread]: End processing [payload-validator] error
+[2023-07-22 19:49:18] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-22 19:49:18] INFO root fetch - processPackages [odooless]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-22 19:49:18] INFO root fetch - processPackages [balcony]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 19:49:18] INFO root fetch - processPackages [pathgenmap]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-22 19:49:18] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-07-22 19:49:18] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-22 19:49:18] WARNING root fetch - processPackages [actions-security-analyzer]: Skipping, unable to determine old version
+[2023-07-22 19:49:18] INFO root fetch - main [MainThread]: End processing [actions-security-analyzer] error
+[2023-07-22 19:49:18] INFO root fetch - processPackages [pydicom]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-07-22 19:49:18] INFO root fetch - processPackages [mine]: New version: [4.1] Old Version: [4.0a3]
+[2023-07-22 19:49:18] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/4c/0f/ae3c6c70e549c183c5362299c3b97dd9e8cfc57b231c30ab01ed98635688/pathgenmap-0.1.0.tar.gz
+[2023-07-22 19:49:18] INFO root fetch - processPackages [balcony]: Downloading https://files.pythonhosted.org/packages/67/eb/6d7516170d90f06a7092fbb7e97ebe1ee94911389010279ba391d0dc6ed8/balcony-0.1.8.tar.gz
+[2023-07-22 19:49:19] INFO root fetch - processPackages [odooless]: Downloading https://files.pythonhosted.org/packages/23/ec/883532a5ac7ee4a4e6b36acb7197aa5851f0fe51b2d9b72169b46d4e57c3/odooless-0.1.5.tar.gz
+[2023-07-22 19:49:19] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-07-22 19:49:19] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-22 19:49:19] INFO root fetch - processPackages [mine]: Downloading https://files.pythonhosted.org/packages/57/c8/e4ff88f352b785883b3a9dc26798a04bcf556917a8572ad9046c2593c320/mine-4.0a3.tar.gz
+[2023-07-22 19:49:19] INFO root fetch - processPackages [pydicom]: Downloading https://files.pythonhosted.org/packages/8e/e4/eff8848de052acbaf3494252c868e88489a4c3a22eaf705e0b3ff08a8c53/pydicom-2.4.1.tar.gz
+[2023-07-22 19:49:19] INFO root fetch - processPackages [balcony]: Downloading https://files.pythonhosted.org/packages/a5/88/a2caff9b76bd830c15698696c8acd2ab655b0bfb879c805b94c791c9311f/balcony-0.1.9.tar.gz
+[2023-07-22 19:49:19] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-22 19:49:19] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230722/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-22 19:49:19] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/19/f4/c89139b9669e4cd6d9cf8372ca0aa1df8b8bec59d5810a544b4e9fd7c401/pathgenmap-0.1.1.tar.gz
+[2023-07-22 19:49:19] INFO root fetch - processPackages [odooless]: Downloading https://files.pythonhosted.org/packages/e1/a2/d6717815d5bfb920fc9bfb3deee22f9d18433ff4e120adf19cf7d1767abf/odooless-0.1.6.tar.gz
+[2023-07-22 19:49:19] INFO root fetch - processPackages [balcony]: executing diffoscope
+[2023-07-22 19:49:19] INFO root fetch - processPackages [balcony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balcony-0.1.8.tar.gz tmp/balcony-0.1.9.tar.gz --markdown 20230722/b/balcony/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 19:49:19] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-07-22 19:49:19] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-22 19:49:19] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.1.0.tar.gz tmp/pathgenmap-0.1.1.tar.gz --markdown 20230722/p/pathgenmap/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-22 19:49:19] INFO root fetch - processPackages [mine]: Downloading https://files.pythonhosted.org/packages/6c/e1/38d94bc4e2f09ddb231fb53afb565b5e73f7bc07878cdb089cf317d52fdb/mine-4.1.tar.gz
+[2023-07-22 19:49:19] INFO root fetch - processPackages [odooless]: executing diffoscope
+[2023-07-22 19:49:19] INFO root fetch - processPackages [odooless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odooless-0.1.5.tar.gz tmp/odooless-0.1.6.tar.gz --markdown 20230722/o/odooless/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-22 19:49:19] INFO root fetch - processPackages [mine]: executing diffoscope
+[2023-07-22 19:49:19] INFO root fetch - processPackages [mine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mine-4.0a3.tar.gz tmp/mine-4.1.tar.gz --markdown 20230722/m/mine/4.0a3-4.1/diff.md --exclude *.pyd
+[2023-07-22 19:49:19] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-07-22 19:49:19] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230722/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-07-22 19:49:20] INFO root fetch - processPackages [pydicom]: Downloading https://files.pythonhosted.org/packages/1a/99/98b8e9d463dc577d469d1d0e771eaea176d402b88e72539de3243026ea49/pydicom-2.4.2.tar.gz
+[2023-07-22 19:49:20] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-22 19:49:20] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-22 19:49:20] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-22 19:49:20] INFO root fetch - processPackages [pydicom]: executing diffoscope
+[2023-07-22 19:49:20] INFO root fetch - processPackages [pydicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydicom-2.4.1.tar.gz tmp/pydicom-2.4.2.tar.gz --markdown 20230722/p/pydicom/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-07-22 19:49:20] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.1.0.tar.gz]
+[2023-07-22 19:49:20] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.1.1.tar.gz]
+[2023-07-22 19:49:20] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-22 19:49:20] INFO root fetch - processPackages [odooless]: Remove: archive file [/home/abi/fetcher/tmp/odooless-0.1.5.tar.gz]
+[2023-07-22 19:49:20] INFO root fetch - processPackages [odooless]: Remove: archive file [/home/abi/fetcher/tmp/odooless-0.1.6.tar.gz]
+[2023-07-22 19:49:20] INFO root fetch - main [MainThread]: End processing [odooless]: success
+[2023-07-22 19:49:20] INFO root fetch - processPackages [balcony]: Remove: archive file [/home/abi/fetcher/tmp/balcony-0.1.8.tar.gz]
+[2023-07-22 19:49:20] INFO root fetch - processPackages [balcony]: Remove: archive file [/home/abi/fetcher/tmp/balcony-0.1.9.tar.gz]
+[2023-07-22 19:49:20] INFO root fetch - main [MainThread]: End processing [balcony]: success
+[2023-07-22 19:49:20] INFO root fetch - processPackages [mine]: Remove: archive file [/home/abi/fetcher/tmp/mine-4.0a3.tar.gz]
+[2023-07-22 19:49:20] INFO root fetch - processPackages [mine]: Remove: archive file [/home/abi/fetcher/tmp/mine-4.1.tar.gz]
+[2023-07-22 19:49:20] INFO root fetch - main [MainThread]: End processing [mine]: success
+[2023-07-22 19:49:21] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-07-22 19:49:21] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-07-22 19:49:21] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-07-22 19:49:23] INFO root fetch - processPackages [pydicom]: Remove: archive file [/home/abi/fetcher/tmp/pydicom-2.4.1.tar.gz]
+[2023-07-22 19:49:23] INFO root fetch - processPackages [pydicom]: Remove: archive file [/home/abi/fetcher/tmp/pydicom-2.4.2.tar.gz]
+[2023-07-22 19:49:23] INFO root fetch - main [MainThread]: End processing [pydicom]: success
+[2023-07-22 19:49:23] INFO root fetch - main [MainThread]: Store serial: [18996672]
