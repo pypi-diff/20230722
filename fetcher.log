@@ -17367,3 +17367,42 @@ EOFError: EOF read where object expected
 [2023-07-22 19:13:00] INFO root fetch - processPackages [pysqlx-core]: Remove: archive file [/home/abi/fetcher/tmp/pysqlx_core-0.1.9.tar.gz]
 [2023-07-22 19:13:00] INFO root fetch - main [MainThread]: End processing [pysqlx-core]: success
 [2023-07-22 19:13:00] INFO root fetch - main [MainThread]: Store serial: [18996453]
+[2023-07-22 19:18:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996453]
+[2023-07-22 19:18:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-22 19:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarer.aws-ec2-instance-connect-custom-resource
+[2023-07-22 19:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytube-lanuma
+[2023-07-22 19:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dxitemspy
+[2023-07-22 19:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roblox-pyc
+[2023-07-22 19:18:09] INFO root fetch - processPackages [dxitemspy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-22 19:18:09] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-22 19:18:09] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-22 19:18:09] INFO root fetch - processPackages [pytube-lanuma]: New version: [15.2.2] Old Version: [15.2.1]
+[2023-07-22 19:18:09] INFO root fetch - processPackages [dxitemspy]: Downloading https://files.pythonhosted.org/packages/cb/b2/3aed4b0d4e30647f19b90273f4b823de2cc949178bafc2d5bd609eebeff8/dxitemspy-0.0.2.tar.gz
+[2023-07-22 19:18:09] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Downloading https://files.pythonhosted.org/packages/06/00/59fbfc1f2bf6e816c3939597e710adfa0dbb02c08f5d5bcb1945a63dfa79/gammarer.aws-ec2-instance-connect-custom-resource-0.4.3.tar.gz
+[2023-07-22 19:18:09] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-22 19:18:09] INFO root fetch - processPackages [pytube-lanuma]: Downloading https://files.pythonhosted.org/packages/10/a1/93146a3dfbc0050c9cc44047423e3ec951c1997306702d2a06db319add28/pytube-lanuma-15.2.1.tar.gz
+[2023-07-22 19:18:09] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Downloading https://files.pythonhosted.org/packages/dc/02/8c56fa7432475bae6f9dd3cbb76fcafbc443a66c54fd21f6b0536ee523e1/gammarer.aws-ec2-instance-connect-custom-resource-0.4.4.tar.gz
+[2023-07-22 19:18:09] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-22 19:18:09] INFO root fetch - processPackages [dxitemspy]: Downloading https://files.pythonhosted.org/packages/19/8d/a61acee9f4ad03ed1cc050ff8b53a7b1ae5d89d4d01464b1129c5423f3c6/dxitemspy-0.0.3.tar.gz
+[2023-07-22 19:18:09] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: executing diffoscope
+[2023-07-22 19:18:09] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.3.tar.gz tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.4.tar.gz --markdown 20230722/g/gammarer.aws-ec2-instance-connect-custom-resource/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-22 19:18:09] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-22 19:18:09] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230722/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-22 19:18:09] INFO root fetch - processPackages [dxitemspy]: executing diffoscope
+[2023-07-22 19:18:09] INFO root fetch - processPackages [dxitemspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxitemspy-0.0.2.tar.gz tmp/dxitemspy-0.0.3.tar.gz --markdown 20230722/d/dxitemspy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-22 19:18:09] INFO root fetch - processPackages [pytube-lanuma]: Downloading https://files.pythonhosted.org/packages/62/87/6220b7cc467eac711a822f8ce636b5274285b53fe53a85af5c89015b5e65/pytube-lanuma-15.2.2.tar.gz
+[2023-07-22 19:18:10] INFO root fetch - processPackages [pytube-lanuma]: executing diffoscope
+[2023-07-22 19:18:10] INFO root fetch - processPackages [pytube-lanuma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytube-lanuma-15.2.1.tar.gz tmp/pytube-lanuma-15.2.2.tar.gz --markdown 20230722/p/pytube-lanuma/15.2.1-15.2.2/diff.md --exclude *.pyd
+[2023-07-22 19:18:10] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-22 19:18:10] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-22 19:18:10] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-22 19:18:10] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.3.tar.gz]
+[2023-07-22 19:18:10] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.4.tar.gz]
+[2023-07-22 19:18:10] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-instance-connect-custom-resource]: success
+[2023-07-22 19:18:11] INFO root fetch - processPackages [pytube-lanuma]: Remove: archive file [/home/abi/fetcher/tmp/pytube-lanuma-15.2.1.tar.gz]
+[2023-07-22 19:18:11] INFO root fetch - processPackages [pytube-lanuma]: Remove: archive file [/home/abi/fetcher/tmp/pytube-lanuma-15.2.2.tar.gz]
+[2023-07-22 19:18:11] INFO root fetch - main [MainThread]: End processing [pytube-lanuma]: success
+[2023-07-22 19:18:11] INFO root fetch - processPackages [dxitemspy]: Remove: archive file [/home/abi/fetcher/tmp/dxitemspy-0.0.2.tar.gz]
+[2023-07-22 19:18:11] INFO root fetch - processPackages [dxitemspy]: Remove: archive file [/home/abi/fetcher/tmp/dxitemspy-0.0.3.tar.gz]
+[2023-07-22 19:18:11] INFO root fetch - main [MainThread]: End processing [dxitemspy]: success
+[2023-07-22 19:18:11] INFO root fetch - main [MainThread]: Store serial: [18996499]
