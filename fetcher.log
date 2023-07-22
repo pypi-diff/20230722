@@ -15620,3 +15620,87 @@ EOFError: EOF read where object expected
 [2023-07-22 17:07:42] INFO root fetch - processPackages [upsies]: Remove: archive file [/home/abi/fetcher/tmp/upsies-2023.7.22.tar.gz]
 [2023-07-22 17:07:42] INFO root fetch - main [MainThread]: End processing [upsies]: success
 [2023-07-22 17:07:42] INFO root fetch - main [MainThread]: Store serial: [18995615]
+[2023-07-22 17:12:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995615]
+[2023-07-22 17:12:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-22 17:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snemail
+[2023-07-22 17:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: berconpy
+[2023-07-22 17:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geonevados
+[2023-07-22 17:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-rds20140815
+[2023-07-22 17:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-rds20140815-py2
+[2023-07-22 17:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reytool
+[2023-07-22 17:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: interpres
+[2023-07-22 17:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langproxy
+[2023-07-22 17:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: doi2pdf
+[2023-07-22 17:12:51] INFO root fetch - processPackages [berconpy]: New version: [2.1.0b3] Old Version: [2.1.0b2]
+[2023-07-22 17:12:51] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-22 17:12:51] INFO root fetch - processPackages [interpres]: New version: [0.3.4b2] Old Version: [0.3.4b1]
+[2023-07-22 17:12:51] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-22 17:12:51] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-22 17:12:51] INFO root fetch - processPackages [snemail]: New version: [1.1.16] Old Version: [1.1.15]
+[2023-07-22 17:12:51] INFO root fetch - processPackages [doi2pdf]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-22 17:12:51] INFO root fetch - processPackages [langproxy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-22 17:12:51] INFO root fetch - processPackages [geonevados]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-22 17:12:51] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/69/ef/28f1e9376248ea3cb15dd457cafb9b0ab1fa7c1661f0c3c8e30315685e75/alibabacloud_rds20140815_py2-1.3.0.tar.gz
+[2023-07-22 17:12:51] INFO root fetch - processPackages [interpres]: Downloading https://files.pythonhosted.org/packages/c9/12/b54dec369852974d421211ae7ddce8e50799bb1c0d2245e8ea9669b45490/interpres-0.3.4b1.tar.gz
+[2023-07-22 17:12:51] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-22 17:12:51] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/5f/38/f84538e433bf80888d80fff1ecb5949fa755b46ec10e96b1238c937fc80f/alibabacloud_rds20140815-2.2.8.tar.gz
+[2023-07-22 17:12:51] INFO root fetch - processPackages [berconpy]: Downloading https://files.pythonhosted.org/packages/3c/7d/c23929e52a678a07109b477055d90b2cd24df1777bd84348a272543240dc/berconpy-2.1.0b2.tar.gz
+[2023-07-22 17:12:51] INFO root fetch - processPackages [snemail]: Downloading https://files.pythonhosted.org/packages/3a/a5/88eafebd170e18f2b7db780b6de68e07d2dd57f1dd8e1cb695e2f0c05c7c/snemail-1.1.15.tar.gz
+[2023-07-22 17:12:51] INFO root fetch - processPackages [langproxy]: Downloading https://files.pythonhosted.org/packages/8f/a4/a6c2a539a4b9756993dd0322a011423eebbc97d30deeb2cc49b8b714a384/langproxy-0.0.1.tar.gz
+[2023-07-22 17:12:51] INFO root fetch - processPackages [geonevados]: Downloading https://files.pythonhosted.org/packages/7d/0a/d679974f6e8de04f89447b84e189db9259cab1d9e2e32d7d8caaba4b6a62/geonevados-0.0.1.tar.gz
+[2023-07-22 17:12:51] INFO root fetch - processPackages [doi2pdf]: Downloading https://files.pythonhosted.org/packages/3d/76/6693f117fd6433e3cba7126981f7a5a4f13721ac97763e6ec60081ba31c9/doi2pdf-0.1.1.tar.gz
+[2023-07-22 17:12:52] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/36/a3/9de509d7d04cda9a89162150a1ff1316469aa9cf46b2cafd1efe9d4c2be2/alibabacloud_rds20140815_py2-1.3.1.tar.gz
+[2023-07-22 17:12:52] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-22 17:12:52] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/8e/38/2ed843ab2f4bae57c984e9c496af84eaedd402b05d3492d4c9d1a253f508/alibabacloud_rds20140815-2.2.9.tar.gz
+[2023-07-22 17:12:52] INFO root fetch - processPackages [interpres]: Downloading https://files.pythonhosted.org/packages/d9/8a/0f6c818ec01714ad79baeae2bd2649aa1d0beebeaa56ba7165f5d6b2a7de/interpres-0.3.4b2.tar.gz
+[2023-07-22 17:12:52] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2023-07-22 17:12:52] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-1.3.0.tar.gz tmp/alibabacloud_rds20140815_py2-1.3.1.tar.gz --markdown 20230722/a/alibabacloud-rds20140815-py2/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-22 17:12:52] INFO root fetch - processPackages [berconpy]: Downloading https://files.pythonhosted.org/packages/a7/37/0836aa1e8e86a558a324c86a8848934c485af9d3772f67a0187ea8e3be71/berconpy-2.1.0b3.tar.gz
+[2023-07-22 17:12:52] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-22 17:12:52] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230722/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-22 17:12:52] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2023-07-22 17:12:52] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-2.2.8.tar.gz tmp/alibabacloud_rds20140815-2.2.9.tar.gz --markdown 20230722/a/alibabacloud-rds20140815/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-22 17:12:52] INFO root fetch - processPackages [snemail]: Downloading https://files.pythonhosted.org/packages/20/7a/6abd81b6cd770554acef5939540922548a53bbcb62d9d0a5603a4d6ddc8f/snemail-1.1.16.tar.gz
+[2023-07-22 17:12:52] INFO root fetch - processPackages [langproxy]: Downloading https://files.pythonhosted.org/packages/3e/9a/d32122c65dbd7dbad614fbf4c085128824c31e63f9917582666540888ce8/langproxy-0.0.2.tar.gz
+[2023-07-22 17:12:52] INFO root fetch - processPackages [interpres]: executing diffoscope
+[2023-07-22 17:12:52] INFO root fetch - processPackages [interpres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interpres-0.3.4b1.tar.gz tmp/interpres-0.3.4b2.tar.gz --markdown 20230722/i/interpres/0.3.4b1-0.3.4b2/diff.md --exclude *.pyd
+[2023-07-22 17:12:52] INFO root fetch - processPackages [geonevados]: Downloading https://files.pythonhosted.org/packages/b6/56/2df568d381fd0fa44cbe7b569a8932b5d2335b0b39aefb49dcc90fcf1f42/geonevados-0.0.2.tar.gz
+[2023-07-22 17:12:52] INFO root fetch - processPackages [doi2pdf]: Downloading https://files.pythonhosted.org/packages/8a/fe/527877c180b00be667293491480e3d78520a74be75e5cd09af58b32039c7/doi2pdf-0.1.2.tar.gz
+[2023-07-22 17:12:52] INFO root fetch - processPackages [berconpy]: executing diffoscope
+[2023-07-22 17:12:52] INFO root fetch - processPackages [berconpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berconpy-2.1.0b2.tar.gz tmp/berconpy-2.1.0b3.tar.gz --markdown 20230722/b/berconpy/2.1.0b2-2.1.0b3/diff.md --exclude *.pyd
+[2023-07-22 17:12:52] INFO root fetch - processPackages [snemail]: executing diffoscope
+[2023-07-22 17:12:52] INFO root fetch - processPackages [snemail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snemail-1.1.15.tar.gz tmp/snemail-1.1.16.tar.gz --markdown 20230722/s/snemail/1.1.15-1.1.16/diff.md --exclude *.pyd
+[2023-07-22 17:12:52] INFO root fetch - processPackages [langproxy]: executing diffoscope
+[2023-07-22 17:12:52] INFO root fetch - processPackages [langproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langproxy-0.0.1.tar.gz tmp/langproxy-0.0.2.tar.gz --markdown 20230722/l/langproxy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-22 17:12:52] INFO root fetch - processPackages [doi2pdf]: executing diffoscope
+[2023-07-22 17:12:52] INFO root fetch - processPackages [doi2pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doi2pdf-0.1.1.tar.gz tmp/doi2pdf-0.1.2.tar.gz --markdown 20230722/d/doi2pdf/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-22 17:12:52] INFO root fetch - processPackages [geonevados]: executing diffoscope
+[2023-07-22 17:12:52] INFO root fetch - processPackages [geonevados]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geonevados-0.0.1.tar.gz tmp/geonevados-0.0.2.tar.gz --markdown 20230722/g/geonevados/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-22 17:12:53] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-22 17:12:53] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-22 17:12:53] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-22 17:12:53] INFO root fetch - processPackages [interpres]: Remove: archive file [/home/abi/fetcher/tmp/interpres-0.3.4b1.tar.gz]
+[2023-07-22 17:12:53] INFO root fetch - processPackages [interpres]: Remove: archive file [/home/abi/fetcher/tmp/interpres-0.3.4b2.tar.gz]
+[2023-07-22 17:12:53] INFO root fetch - main [MainThread]: End processing [interpres]: success
+[2023-07-22 17:12:53] INFO root fetch - processPackages [snemail]: Remove: archive file [/home/abi/fetcher/tmp/snemail-1.1.15.tar.gz]
+[2023-07-22 17:12:53] INFO root fetch - processPackages [snemail]: Remove: archive file [/home/abi/fetcher/tmp/snemail-1.1.16.tar.gz]
+[2023-07-22 17:12:53] INFO root fetch - main [MainThread]: End processing [snemail]: success
+[2023-07-22 17:12:53] INFO root fetch - processPackages [langproxy]: Remove: archive file [/home/abi/fetcher/tmp/langproxy-0.0.1.tar.gz]
+[2023-07-22 17:12:53] INFO root fetch - processPackages [langproxy]: Remove: archive file [/home/abi/fetcher/tmp/langproxy-0.0.2.tar.gz]
+[2023-07-22 17:12:53] INFO root fetch - main [MainThread]: End processing [langproxy]: success
+[2023-07-22 17:12:54] INFO root fetch - processPackages [doi2pdf]: Remove: archive file [/home/abi/fetcher/tmp/doi2pdf-0.1.1.tar.gz]
+[2023-07-22 17:12:54] INFO root fetch - processPackages [doi2pdf]: Remove: archive file [/home/abi/fetcher/tmp/doi2pdf-0.1.2.tar.gz]
+[2023-07-22 17:12:54] INFO root fetch - main [MainThread]: End processing [doi2pdf]: success
+[2023-07-22 17:12:54] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.8.tar.gz]
+[2023-07-22 17:12:54] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.9.tar.gz]
+[2023-07-22 17:12:54] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2023-07-22 17:12:54] INFO root fetch - processPackages [geonevados]: Remove: archive file [/home/abi/fetcher/tmp/geonevados-0.0.1.tar.gz]
+[2023-07-22 17:12:54] INFO root fetch - processPackages [geonevados]: Remove: archive file [/home/abi/fetcher/tmp/geonevados-0.0.2.tar.gz]
+[2023-07-22 17:12:54] INFO root fetch - main [MainThread]: End processing [geonevados]: success
+[2023-07-22 17:12:54] INFO root fetch - processPackages [berconpy]: Remove: archive file [/home/abi/fetcher/tmp/berconpy-2.1.0b2.tar.gz]
+[2023-07-22 17:12:54] INFO root fetch - processPackages [berconpy]: Remove: archive file [/home/abi/fetcher/tmp/berconpy-2.1.0b3.tar.gz]
+[2023-07-22 17:12:54] INFO root fetch - main [MainThread]: End processing [berconpy]: success
+[2023-07-22 17:12:54] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.3.0.tar.gz]
+[2023-07-22 17:12:54] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.3.1.tar.gz]
+[2023-07-22 17:12:54] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2023-07-22 17:12:54] INFO root fetch - main [MainThread]: Store serial: [18995645]
