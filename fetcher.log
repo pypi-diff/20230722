@@ -16066,3 +16066,66 @@ EOFError: EOF read where object expected
 [2023-07-22 17:39:02] INFO root fetch - processPackages [py3settings]: Remove: archive file [/home/abi/fetcher/tmp/py3settings-2.1.0.tar.gz]
 [2023-07-22 17:39:02] INFO root fetch - main [MainThread]: End processing [py3settings]: success
 [2023-07-22 17:39:02] INFO root fetch - main [MainThread]: Store serial: [18995796]
+[2023-07-22 17:44:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995796]
+[2023-07-22 17:44:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-22 17:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ft-package-nlocusso
+[2023-07-22 17:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sklearn-mlmlm
+[2023-07-22 17:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pharmpy-core
+[2023-07-22 17:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maestral-qt
+[2023-07-22 17:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maestral-cocoa
+[2023-07-22 17:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reytool
+[2023-07-22 17:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: newcalls
+[2023-07-22 17:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: marketwatchdata
+[2023-07-22 17:44:12] INFO root fetch - processPackages [marketwatchdata]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-22 17:44:12] INFO root fetch - processPackages [sklearn-mlmlm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 17:44:12] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-22 17:44:12] INFO root fetch - processPackages [pharmpy-core]: New version: [0.98.0] Old Version: [0.97.0]
+[2023-07-22 17:44:13] INFO root fetch - processPackages [maestral-cocoa]: New version: [1.8.0.dev0] Old Version: [1.7.3.dev4]
+[2023-07-22 17:44:13] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/0a/98/4ddd38a1e51a088e832ba7e63522d73dc145b8cfdec3e34074d50b210372/sklearn_mlmlm-0.0.8.tar.gz
+[2023-07-22 17:44:13] INFO root fetch - processPackages [marketwatchdata]: Downloading https://files.pythonhosted.org/packages/0b/02/53cb0d1f9e8918d9e6fb282d46337c6696f9039c3316499dc95799532f82/marketwatchdata-0.0.4.tar.gz
+[2023-07-22 17:44:13] WARNING root fetch - processPackages [ft-package-nlocusso]: Skipping, unable to determine old version
+[2023-07-22 17:44:13] INFO root fetch - main [MainThread]: End processing [ft-package-nlocusso] error
+[2023-07-22 17:44:13] WARNING root fetch - processPackages [newcalls]: Skipping, unable to determine old version
+[2023-07-22 17:44:13] INFO root fetch - main [MainThread]: End processing [newcalls] error
+[2023-07-22 17:44:13] INFO root fetch - processPackages [maestral-qt]: New version: [1.8.0.dev0] Old Version: [1.7.3.dev4]
+[2023-07-22 17:44:13] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-22 17:44:13] INFO root fetch - processPackages [pharmpy-core]: Downloading https://files.pythonhosted.org/packages/f8/49/054aec85630b19fb7a459a151ba3b59a965b9a03fdfe1df8f7c28fac7009/pharmpy-core-0.97.0.tar.gz
+[2023-07-22 17:44:13] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/8e/20/5b0f76a3c4ec519bdc1252725dd78ad4afcc5b17fd82f5330134186be426/sklearn_mlmlm-0.0.9.tar.gz
+[2023-07-22 17:44:13] INFO root fetch - processPackages [maestral-cocoa]: Downloading https://files.pythonhosted.org/packages/e2/61/e25f23583eae745dc537e6f2e2cf544f02cb759d45313096fcdf2c9e4054/maestral-cocoa-1.7.3.dev4.tar.gz
+[2023-07-22 17:44:13] INFO root fetch - processPackages [maestral-qt]: Downloading https://files.pythonhosted.org/packages/4d/a6/d1c9a41aa9ef4e80388b1b6b57818fa78dde3ffca7ce41cced731d8048d0/maestral-qt-1.7.3.dev4.tar.gz
+[2023-07-22 17:44:13] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-22 17:44:13] INFO root fetch - processPackages [sklearn-mlmlm]: executing diffoscope
+[2023-07-22 17:44:13] INFO root fetch - processPackages [sklearn-mlmlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_mlmlm-0.0.8.tar.gz tmp/sklearn_mlmlm-0.0.9.tar.gz --markdown 20230722/s/sklearn-mlmlm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 17:44:13] INFO root fetch - processPackages [pharmpy-core]: Downloading https://files.pythonhosted.org/packages/37/fe/3970214bd85970d241efcbc31a36d380ec58c51d0ab0069dcf7a03ae116c/pharmpy-core-0.98.0.tar.gz
+[2023-07-22 17:44:13] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-22 17:44:13] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230722/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-22 17:44:13] INFO root fetch - processPackages [marketwatchdata]: Downloading https://files.pythonhosted.org/packages/f9/7d/c2b3eac03439936fe7ad9c45b9180c308f720f64b10819239547cafbf5c4/marketwatchdata-0.0.5.tar.gz
+[2023-07-22 17:44:13] INFO root fetch - processPackages [pharmpy-core]: executing diffoscope
+[2023-07-22 17:44:13] INFO root fetch - processPackages [pharmpy-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharmpy-core-0.97.0.tar.gz tmp/pharmpy-core-0.98.0.tar.gz --markdown 20230722/p/pharmpy-core/0.97.0-0.98.0/diff.md --exclude *.pyd
+[2023-07-22 17:44:13] INFO root fetch - processPackages [marketwatchdata]: executing diffoscope
+[2023-07-22 17:44:13] INFO root fetch - processPackages [marketwatchdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marketwatchdata-0.0.4.tar.gz tmp/marketwatchdata-0.0.5.tar.gz --markdown 20230722/m/marketwatchdata/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-22 17:44:14] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.8.tar.gz]
+[2023-07-22 17:44:14] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.9.tar.gz]
+[2023-07-22 17:44:14] INFO root fetch - main [MainThread]: End processing [sklearn-mlmlm]: success
+[2023-07-22 17:44:14] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-22 17:44:14] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-22 17:44:14] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-22 17:44:14] INFO root fetch - processPackages [maestral-qt]: Downloading https://files.pythonhosted.org/packages/04/1b/0cd93fb43faca0f9a8b38179120af84b749d141b5e91f93fd0b035247ae1/maestral-qt-1.8.0.dev0.tar.gz
+[2023-07-22 17:44:14] INFO root fetch - processPackages [marketwatchdata]: Remove: archive file [/home/abi/fetcher/tmp/marketwatchdata-0.0.4.tar.gz]
+[2023-07-22 17:44:14] INFO root fetch - processPackages [marketwatchdata]: Remove: archive file [/home/abi/fetcher/tmp/marketwatchdata-0.0.5.tar.gz]
+[2023-07-22 17:44:14] INFO root fetch - main [MainThread]: End processing [marketwatchdata]: success
+[2023-07-22 17:44:14] INFO root fetch - processPackages [maestral-cocoa]: Downloading https://files.pythonhosted.org/packages/7e/2b/b2f61835646204f5d76e9ca9b9355d67ef0c4e8ec2b164a8a9c281f90db3/maestral-cocoa-1.8.0.dev0.tar.gz
+[2023-07-22 17:44:14] INFO root fetch - processPackages [maestral-qt]: executing diffoscope
+[2023-07-22 17:44:14] INFO root fetch - processPackages [maestral-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestral-qt-1.7.3.dev4.tar.gz tmp/maestral-qt-1.8.0.dev0.tar.gz --markdown 20230722/m/maestral-qt/1.7.3.dev4-1.8.0.dev0/diff.md --exclude *.pyd
+[2023-07-22 17:44:14] INFO root fetch - processPackages [maestral-cocoa]: executing diffoscope
+[2023-07-22 17:44:14] INFO root fetch - processPackages [maestral-cocoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestral-cocoa-1.7.3.dev4.tar.gz tmp/maestral-cocoa-1.8.0.dev0.tar.gz --markdown 20230722/m/maestral-cocoa/1.7.3.dev4-1.8.0.dev0/diff.md --exclude *.pyd
+[2023-07-22 17:44:15] INFO root fetch - processPackages [maestral-qt]: Remove: archive file [/home/abi/fetcher/tmp/maestral-qt-1.7.3.dev4.tar.gz]
+[2023-07-22 17:44:15] INFO root fetch - processPackages [maestral-qt]: Remove: archive file [/home/abi/fetcher/tmp/maestral-qt-1.8.0.dev0.tar.gz]
+[2023-07-22 17:44:15] INFO root fetch - main [MainThread]: End processing [maestral-qt]: success
+[2023-07-22 17:44:15] INFO root fetch - processPackages [maestral-cocoa]: Remove: archive file [/home/abi/fetcher/tmp/maestral-cocoa-1.7.3.dev4.tar.gz]
+[2023-07-22 17:44:15] INFO root fetch - processPackages [maestral-cocoa]: Remove: archive file [/home/abi/fetcher/tmp/maestral-cocoa-1.8.0.dev0.tar.gz]
+[2023-07-22 17:44:15] INFO root fetch - main [MainThread]: End processing [maestral-cocoa]: success
+[2023-07-22 17:44:20] INFO root fetch - processPackages [pharmpy-core]: Remove: archive file [/home/abi/fetcher/tmp/pharmpy-core-0.97.0.tar.gz]
+[2023-07-22 17:44:20] INFO root fetch - processPackages [pharmpy-core]: Remove: archive file [/home/abi/fetcher/tmp/pharmpy-core-0.98.0.tar.gz]
+[2023-07-22 17:44:20] INFO root fetch - main [MainThread]: End processing [pharmpy-core]: success
+[2023-07-22 17:44:20] INFO root fetch - main [MainThread]: Store serial: [18995822]
