@@ -12359,3 +12359,75 @@
 [2023-07-22 11:45:23] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.4.tar.gz]
 [2023-07-22 11:45:23] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-07-22 11:45:23] INFO root fetch - main [MainThread]: Store serial: [18994194]
+[2023-07-22 11:50:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994194]
+[2023-07-22 11:50:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-22 11:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jammies
+[2023-07-22 11:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hifibgc
+[2023-07-22 11:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wow-ai-ml
+[2023-07-22 11:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-eval
+[2023-07-22 11:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyassist-linux
+[2023-07-22 11:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: talkytimes-package
+[2023-07-22 11:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-picture-carousel
+[2023-07-22 11:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pythonit-toolkit
+[2023-07-22 11:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: preProcessingGEP
+[2023-07-22 11:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-maintenance-security
+[2023-07-22 11:50:32] INFO root fetch - processPackages [auto-eval]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-22 11:50:32] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 11:50:32] WARNING root fetch - processPackages [hifibgc]: Skipping, unable to determine old version
+[2023-07-22 11:50:32] INFO root fetch - processPackages [hifibgc]: Start processing: nopasaran
+[2023-07-22 11:50:32] INFO root fetch - main [MainThread]: End processing [hifibgc] error
+[2023-07-22 11:50:32] WARNING root fetch - processPackages [streamlit-picture-carousel]: Skipping, unable to determine old version
+[2023-07-22 11:50:32] INFO root fetch - main [MainThread]: End processing [streamlit-picture-carousel] error
+[2023-07-22 11:50:32] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/21/0d/54e353f05db222a626e42f52f0eedd026529c89d21a15e13bfce7578fe25/auto-eval-0.3.2.tar.gz
+[2023-07-22 11:50:32] INFO root fetch - processPackages [preProcessingGEP]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-22 11:50:32] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-22 11:50:32] WARNING root fetch - processPackages [odoo-addon-maintenance-security]: Skipping, unable to determine old version
+[2023-07-22 11:50:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-security] error
+[2023-07-22 11:50:32] WARNING root fetch - processPackages [pyassist-linux]: Skipping, unable to determine old version
+[2023-07-22 11:50:32] INFO root fetch - processPackages [wow-ai-ml]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-22 11:50:32] INFO root fetch - main [MainThread]: End processing [pyassist-linux] error
+[2023-07-22 11:50:32] INFO root fetch - processPackages [pythonit-toolkit]: New version: [0.1.9] Old Version: [0.1.88]
+[2023-07-22 11:50:32] INFO root fetch - processPackages [nopasaran]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-22 11:50:32] WARNING root fetch - processPackages [jammies]: Skipping, unable to determine old version
+[2023-07-22 11:50:32] INFO root fetch - main [MainThread]: End processing [jammies] error
+[2023-07-22 11:50:32] INFO root fetch - processPackages [preProcessingGEP]: Downloading https://files.pythonhosted.org/packages/70/b8/e63aaae669650dbf4dcd0b5aa59c480f6ec1ee024c9cb0d2d8261f8a7299/preProcessingGEP-1.0.4.tar.gz
+[2023-07-22 11:50:32] INFO root fetch - processPackages [wow-ai-ml]: Downloading https://files.pythonhosted.org/packages/ac/44/074b336c2535fa8e51664a26ecb35e8aadb9ce3b202a0885c7b839f0d692/wow_ai_ml-0.2.4.tar.gz
+[2023-07-22 11:50:32] INFO root fetch - processPackages [pythonit-toolkit]: Downloading https://files.pythonhosted.org/packages/35/d9/a849194cf6275409e21436b36c20386ccc50d0c3f24260fa35f1cd8794ae/pythonit_toolkit-0.1.88.tar.gz
+[2023-07-22 11:50:32] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-22 11:50:32] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/8c/ee/c723f278169cf660020570d3bca9dc83df36757f0a022a271092273bd399/nopasaran-0.2.8.tar.gz
+[2023-07-22 11:50:32] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/ee/de/376ec725b749a2c5ba6b5126923ee9e49c7e685b72d1bc0abd8f16b5a9a9/auto-eval-0.3.3.tar.gz
+[2023-07-22 11:50:32] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-22 11:50:32] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230722/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 11:50:32] INFO root fetch - processPackages [auto-eval]: executing diffoscope
+[2023-07-22 11:50:32] INFO root fetch - processPackages [auto-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-eval-0.3.2.tar.gz tmp/auto-eval-0.3.3.tar.gz --markdown 20230722/a/auto-eval/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-22 11:50:33] INFO root fetch - processPackages [wow-ai-ml]: Downloading https://files.pythonhosted.org/packages/56/1c/8a00ff7935296a659ef51511683fa31c22344f0b5c86a3041e3ed9a4b18d/wow_ai_ml-0.2.5.tar.gz
+[2023-07-22 11:50:33] INFO root fetch - processPackages [pythonit-toolkit]: Downloading https://files.pythonhosted.org/packages/f6/b5/fec5fd4a04e3b025cb252bfc9c5a28e68a98ae762cfb7a970e0da4c636a4/pythonit-toolkit-0.1.9.tar.gz
+[2023-07-22 11:50:33] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/bd/4b/78003babefc5c78f5a5a098ab6ed6f68760283be0042ca8bd2b9874d9d1f/nopasaran-0.2.9.tar.gz
+[2023-07-22 11:50:33] INFO root fetch - processPackages [preProcessingGEP]: Downloading https://files.pythonhosted.org/packages/5b/f0/cc1f31e2e14cb808c5d8ab7d9e1d8f2439a0360de945598b2a556b0971eb/preProcessingGEP-1.0.5.tar.gz
+[2023-07-22 11:50:33] INFO root fetch - processPackages [wow-ai-ml]: executing diffoscope
+[2023-07-22 11:50:33] INFO root fetch - processPackages [wow-ai-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_ml-0.2.4.tar.gz tmp/wow_ai_ml-0.2.5.tar.gz --markdown 20230722/w/wow-ai-ml/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-22 11:50:33] INFO root fetch - processPackages [nopasaran]: executing diffoscope
+[2023-07-22 11:50:33] INFO root fetch - processPackages [nopasaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nopasaran-0.2.8.tar.gz tmp/nopasaran-0.2.9.tar.gz --markdown 20230722/n/nopasaran/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-22 11:50:33] INFO root fetch - processPackages [preProcessingGEP]: executing diffoscope
+[2023-07-22 11:50:33] INFO root fetch - processPackages [preProcessingGEP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preProcessingGEP-1.0.4.tar.gz tmp/preProcessingGEP-1.0.5.tar.gz --markdown 20230722/p/preProcessingGEP/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-22 11:50:33] INFO root fetch - processPackages [pythonit-toolkit]: executing diffoscope
+[2023-07-22 11:50:33] INFO root fetch - processPackages [pythonit-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonit_toolkit-0.1.88.tar.gz tmp/pythonit-toolkit-0.1.9.tar.gz --markdown 20230722/p/pythonit-toolkit/0.1.88-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 11:50:33] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-22 11:50:33] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-22 11:50:33] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-22 11:50:33] INFO root fetch - processPackages [auto-eval]: Remove: archive file [/home/abi/fetcher/tmp/auto-eval-0.3.2.tar.gz]
+[2023-07-22 11:50:33] INFO root fetch - processPackages [auto-eval]: Remove: archive file [/home/abi/fetcher/tmp/auto-eval-0.3.3.tar.gz]
+[2023-07-22 11:50:33] INFO root fetch - main [MainThread]: End processing [auto-eval]: success
+[2023-07-22 11:50:34] INFO root fetch - processPackages [preProcessingGEP]: Remove: archive file [/home/abi/fetcher/tmp/preProcessingGEP-1.0.4.tar.gz]
+[2023-07-22 11:50:34] INFO root fetch - processPackages [preProcessingGEP]: Remove: archive file [/home/abi/fetcher/tmp/preProcessingGEP-1.0.5.tar.gz]
+[2023-07-22 11:50:34] INFO root fetch - main [MainThread]: End processing [preProcessingGEP]: success
+[2023-07-22 11:50:34] INFO root fetch - processPackages [wow-ai-ml]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_ml-0.2.4.tar.gz]
+[2023-07-22 11:50:34] INFO root fetch - processPackages [wow-ai-ml]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_ml-0.2.5.tar.gz]
+[2023-07-22 11:50:34] INFO root fetch - main [MainThread]: End processing [wow-ai-ml]: success
+[2023-07-22 11:50:34] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.2.8.tar.gz]
+[2023-07-22 11:50:34] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.2.9.tar.gz]
+[2023-07-22 11:50:34] INFO root fetch - main [MainThread]: End processing [nopasaran]: success
+[2023-07-22 11:50:34] INFO root fetch - processPackages [pythonit-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pythonit_toolkit-0.1.88.tar.gz]
+[2023-07-22 11:50:34] INFO root fetch - processPackages [pythonit-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pythonit-toolkit-0.1.9.tar.gz]
+[2023-07-22 11:50:34] INFO root fetch - main [MainThread]: End processing [pythonit-toolkit]: success
+[2023-07-22 11:50:34] INFO root fetch - main [MainThread]: Store serial: [18994233]
