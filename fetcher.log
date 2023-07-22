@@ -17643,3 +17643,53 @@ EOFError: EOF read where object expected
 [2023-07-22 19:33:46] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.693.tar.gz]
 [2023-07-22 19:33:46] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-22 19:33:46] INFO root fetch - main [MainThread]: Store serial: [18996601]
+[2023-07-22 19:38:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996601]
+[2023-07-22 19:38:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 19:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hchacha
+[2023-07-22 19:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: youtubeaio
+[2023-07-22 19:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SpotifyUtil
+[2023-07-22 19:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redmage
+[2023-07-22 19:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bren
+[2023-07-22 19:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chidori
+[2023-07-22 19:38:55] INFO root fetch - processPackages [hchacha]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-22 19:38:55] INFO root fetch - processPackages [bren]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-22 19:38:55] INFO root fetch - processPackages [youtubeaio]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-22 19:38:55] INFO root fetch - processPackages [hchacha]: Downloading https://files.pythonhosted.org/packages/9a/a0/d51e283569695ab74c4b6a45c04e9baae0b9bcca8670f826f0a92450a493/hchacha-1.0.2.tar.gz
+[2023-07-22 19:38:55] INFO root fetch - processPackages [redmage]: New version: [0.4.2] Old Version: [0.3.1]
+[2023-07-22 19:38:55] INFO root fetch - processPackages [bren]: Downloading https://files.pythonhosted.org/packages/6b/95/417855a998f9ce7ccb3f32c92be84e76200dc60a5d4b44ebbdd4fe200b9f/bren-0.1.4.tar.gz
+[2023-07-22 19:38:55] WARNING root fetch - processPackages [chidori]: Skipping, unable to determine old version
+[2023-07-22 19:38:55] INFO root fetch - main [MainThread]: End processing [chidori] error
+[2023-07-22 19:38:55] INFO root fetch - processPackages [SpotifyUtil]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 19:38:55] INFO root fetch - processPackages [youtubeaio]: Downloading https://files.pythonhosted.org/packages/8b/49/58c6e39cd5015f5706eaed9bc6581419311106487ff33670c3b0bc39196c/youtubeaio-1.0.0.tar.gz
+[2023-07-22 19:38:55] INFO root fetch - processPackages [redmage]: Downloading https://files.pythonhosted.org/packages/2d/4d/a82d2ebf34ded9fe9a2cd30e89cdeb3f7c2034c8cda4136baeb789592996/redmage-0.3.1.tar.gz
+[2023-07-22 19:38:56] INFO root fetch - processPackages [hchacha]: Downloading https://files.pythonhosted.org/packages/43/01/8f4889717ba289443e91d6b9bacdc6558bae78bfee9464b4999f5687e8cc/hchacha-1.0.3.tar.gz
+[2023-07-22 19:38:56] INFO root fetch - processPackages [bren]: Downloading https://files.pythonhosted.org/packages/77/82/e4c63d4299bd3d55c6adc02e578803b60668229ec88c83284224246891c7/bren-0.1.5.tar.gz
+[2023-07-22 19:38:56] INFO root fetch - processPackages [SpotifyUtil]: Downloading https://files.pythonhosted.org/packages/db/d0/b3d75f007fb49be44587fb8bc4dac6c535328564f6b293c0db166c11152f/SpotifyUtil-0.0.4.tar.gz
+[2023-07-22 19:38:56] INFO root fetch - processPackages [youtubeaio]: Downloading https://files.pythonhosted.org/packages/10/f6/3164de1a843de6e4ee9185bcb98e9bf59b3fc6b6e9c258596cdc5697fb67/youtubeaio-1.1.0.tar.gz
+[2023-07-22 19:38:56] INFO root fetch - processPackages [hchacha]: executing diffoscope
+[2023-07-22 19:38:56] INFO root fetch - processPackages [hchacha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hchacha-1.0.2.tar.gz tmp/hchacha-1.0.3.tar.gz --markdown 20230722/h/hchacha/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-22 19:38:56] INFO root fetch - processPackages [redmage]: Downloading https://files.pythonhosted.org/packages/ec/2f/b75a7a779ceafa9dee7eab1257f8fdcf416f591c1c6c6c2093a4769aa029/redmage-0.4.2.tar.gz
+[2023-07-22 19:38:56] INFO root fetch - processPackages [bren]: executing diffoscope
+[2023-07-22 19:38:56] INFO root fetch - processPackages [bren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bren-0.1.4.tar.gz tmp/bren-0.1.5.tar.gz --markdown 20230722/b/bren/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-22 19:38:56] INFO root fetch - processPackages [SpotifyUtil]: executing diffoscope
+[2023-07-22 19:38:56] INFO root fetch - processPackages [SpotifyUtil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpotifyUtil-0.0.3.tar.gz tmp/SpotifyUtil-0.0.4.tar.gz --markdown 20230722/S/SpotifyUtil/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 19:38:56] INFO root fetch - processPackages [youtubeaio]: executing diffoscope
+[2023-07-22 19:38:56] INFO root fetch - processPackages [youtubeaio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtubeaio-1.0.0.tar.gz tmp/youtubeaio-1.1.0.tar.gz --markdown 20230722/y/youtubeaio/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-22 19:38:56] INFO root fetch - processPackages [redmage]: executing diffoscope
+[2023-07-22 19:38:56] INFO root fetch - processPackages [redmage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redmage-0.3.1.tar.gz tmp/redmage-0.4.2.tar.gz --markdown 20230722/r/redmage/0.3.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-22 19:38:57] INFO root fetch - processPackages [SpotifyUtil]: Remove: archive file [/home/abi/fetcher/tmp/SpotifyUtil-0.0.3.tar.gz]
+[2023-07-22 19:38:57] INFO root fetch - processPackages [SpotifyUtil]: Remove: archive file [/home/abi/fetcher/tmp/SpotifyUtil-0.0.4.tar.gz]
+[2023-07-22 19:38:57] INFO root fetch - main [MainThread]: End processing [SpotifyUtil]: success
+[2023-07-22 19:38:57] INFO root fetch - processPackages [hchacha]: Remove: archive file [/home/abi/fetcher/tmp/hchacha-1.0.2.tar.gz]
+[2023-07-22 19:38:57] INFO root fetch - processPackages [hchacha]: Remove: archive file [/home/abi/fetcher/tmp/hchacha-1.0.3.tar.gz]
+[2023-07-22 19:38:57] INFO root fetch - main [MainThread]: End processing [hchacha]: success
+[2023-07-22 19:38:57] INFO root fetch - processPackages [youtubeaio]: Remove: archive file [/home/abi/fetcher/tmp/youtubeaio-1.0.0.tar.gz]
+[2023-07-22 19:38:57] INFO root fetch - processPackages [youtubeaio]: Remove: archive file [/home/abi/fetcher/tmp/youtubeaio-1.1.0.tar.gz]
+[2023-07-22 19:38:57] INFO root fetch - main [MainThread]: End processing [youtubeaio]: success
+[2023-07-22 19:38:57] INFO root fetch - processPackages [bren]: Remove: archive file [/home/abi/fetcher/tmp/bren-0.1.4.tar.gz]
+[2023-07-22 19:38:57] INFO root fetch - processPackages [bren]: Remove: archive file [/home/abi/fetcher/tmp/bren-0.1.5.tar.gz]
+[2023-07-22 19:38:57] INFO root fetch - main [MainThread]: End processing [bren]: success
+[2023-07-22 19:38:57] INFO root fetch - processPackages [redmage]: Remove: archive file [/home/abi/fetcher/tmp/redmage-0.3.1.tar.gz]
+[2023-07-22 19:38:57] INFO root fetch - processPackages [redmage]: Remove: archive file [/home/abi/fetcher/tmp/redmage-0.4.2.tar.gz]
+[2023-07-22 19:38:57] INFO root fetch - main [MainThread]: End processing [redmage]: success
+[2023-07-22 19:38:57] INFO root fetch - main [MainThread]: Store serial: [18996623]
