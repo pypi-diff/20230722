@@ -13825,3 +13825,63 @@
 [2023-07-22 14:38:29] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
 [2023-07-22 14:38:29] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2023-07-22 14:38:29] INFO root fetch - main [MainThread]: Store serial: [18994803]
+[2023-07-22 14:43:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994803]
+[2023-07-22 14:43:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-22 14:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ddbox-remote
+[2023-07-22 14:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydnst
+[2023-07-22 14:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-jsonpath
+[2023-07-22 14:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DoubleEight
+[2023-07-22 14:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smart-meter-texas
+[2023-07-22 14:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aplr
+[2023-07-22 14:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: influential
+[2023-07-22 14:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pharmpy-core
+[2023-07-22 14:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vbaspy
+[2023-07-22 14:43:37] INFO root fetch - processPackages [smart-meter-texas]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-22 14:43:37] WARNING root fetch - processPackages [pydnst]: Skipping, unable to determine old version
+[2023-07-22 14:43:37] INFO root fetch - main [MainThread]: End processing [pydnst] error
+[2023-07-22 14:43:37] WARNING root fetch - processPackages [ddbox-remote]: Skipping, unable to determine old version
+[2023-07-22 14:43:37] INFO root fetch - main [MainThread]: End processing [ddbox-remote] error
+[2023-07-22 14:43:37] INFO root fetch - processPackages [aplr]: New version: [6.5.1] Old Version: [6.5.0]
+[2023-07-22 14:43:37] INFO root fetch - processPackages [influential]: New version: [0.0.21] Old Version: [0.0.2]
+[2023-07-22 14:43:37] INFO root fetch - processPackages [smart-meter-texas]: Downloading https://files.pythonhosted.org/packages/8e/e7/ab208eca835e91cf758a186852bfa234f6a2ca20835a4abb9aa2c630c936/smart_meter_texas-0.5.1.tar.gz
+[2023-07-22 14:43:37] WARNING root fetch - processPackages [vbaspy]: Skipping, unable to determine old version
+[2023-07-22 14:43:37] INFO root fetch - main [MainThread]: End processing [vbaspy] error
+[2023-07-22 14:43:37] INFO root fetch - processPackages [python-jsonpath]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-22 14:43:37] ERROR root fetch - processPackages [DoubleEight]: Unable to get metadata: No such project 'DoubleEight'
+[2023-07-22 14:43:37] INFO root fetch - main [MainThread]: End processing [DoubleEight] error
+[2023-07-22 14:43:37] INFO root fetch - processPackages [pharmpy-core]: New version: [0.98.0] Old Version: [0.97.0]
+[2023-07-22 14:43:37] INFO root fetch - processPackages [aplr]: Downloading https://files.pythonhosted.org/packages/07/f7/41d77cb7ba92c7b96b50f81f57e3353072d18c64bb81427e0e4185e14e11/aplr-6.5.0.tar.gz
+[2023-07-22 14:43:38] INFO root fetch - processPackages [influential]: Downloading https://files.pythonhosted.org/packages/92/48/a775a386d86b3ce071437fdc8b941f7aa84a4a3070740c648ab01f7f5927/influential-0.0.2.tar.gz
+[2023-07-22 14:43:38] INFO root fetch - processPackages [python-jsonpath]: Downloading https://files.pythonhosted.org/packages/d2/db/ce4651fe30d3a41e3b9e3b4c43af2d98814014e0b0f55d853154680c6037/python_jsonpath-0.8.1.tar.gz
+[2023-07-22 14:43:38] INFO root fetch - processPackages [pharmpy-core]: Downloading https://files.pythonhosted.org/packages/f8/49/054aec85630b19fb7a459a151ba3b59a965b9a03fdfe1df8f7c28fac7009/pharmpy-core-0.97.0.tar.gz
+[2023-07-22 14:43:38] INFO root fetch - processPackages [smart-meter-texas]: Downloading https://files.pythonhosted.org/packages/4b/09/651fd454deaeef4983bc923ef66b88b27e4e4483fe40d4498874fe92e854/smart_meter_texas-0.5.2.tar.gz
+[2023-07-22 14:43:38] INFO root fetch - processPackages [smart-meter-texas]: executing diffoscope
+[2023-07-22 14:43:38] INFO root fetch - processPackages [smart-meter-texas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_meter_texas-0.5.1.tar.gz tmp/smart_meter_texas-0.5.2.tar.gz --markdown 20230722/s/smart-meter-texas/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-22 14:43:38] INFO root fetch - processPackages [aplr]: Downloading https://files.pythonhosted.org/packages/e7/99/1fcc7485f17cf9f2e634c54cce4c0c9df7b5bf6404e976053d963b00ebb0/aplr-6.5.1.tar.gz
+[2023-07-22 14:43:38] INFO root fetch - processPackages [influential]: Downloading https://files.pythonhosted.org/packages/04/01/228a4b8d3ff78aca28ab90f62435e8072f9c8fd2d1e0b5c8ccc04a3cc581/influential-0.0.21.tar.gz
+[2023-07-22 14:43:38] INFO root fetch - processPackages [python-jsonpath]: Downloading https://files.pythonhosted.org/packages/76/e5/8cef3338dbbe8980a1c77eeef9c3c6795357a5459ae63265c1fe2d180869/python_jsonpath-0.9.0.tar.gz
+[2023-07-22 14:43:38] INFO root fetch - processPackages [aplr]: executing diffoscope
+[2023-07-22 14:43:38] INFO root fetch - processPackages [aplr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aplr-6.5.0.tar.gz tmp/aplr-6.5.1.tar.gz --markdown 20230722/a/aplr/6.5.0-6.5.1/diff.md --exclude *.pyd
+[2023-07-22 14:43:38] INFO root fetch - processPackages [influential]: executing diffoscope
+[2023-07-22 14:43:38] INFO root fetch - processPackages [influential]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influential-0.0.2.tar.gz tmp/influential-0.0.21.tar.gz --markdown 20230722/i/influential/0.0.2-0.0.21/diff.md --exclude *.pyd
+[2023-07-22 14:43:38] INFO root fetch - processPackages [python-jsonpath]: executing diffoscope
+[2023-07-22 14:43:38] INFO root fetch - processPackages [python-jsonpath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_jsonpath-0.8.1.tar.gz tmp/python_jsonpath-0.9.0.tar.gz --markdown 20230722/p/python-jsonpath/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-22 14:43:38] INFO root fetch - processPackages [pharmpy-core]: Downloading https://files.pythonhosted.org/packages/37/fe/3970214bd85970d241efcbc31a36d380ec58c51d0ab0069dcf7a03ae116c/pharmpy-core-0.98.0.tar.gz
+[2023-07-22 14:43:39] INFO root fetch - processPackages [pharmpy-core]: executing diffoscope
+[2023-07-22 14:43:39] INFO root fetch - processPackages [pharmpy-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharmpy-core-0.97.0.tar.gz tmp/pharmpy-core-0.98.0.tar.gz --markdown 20230722/p/pharmpy-core/0.97.0-0.98.0/diff.md --exclude *.pyd
+[2023-07-22 14:43:39] INFO root fetch - processPackages [smart-meter-texas]: Remove: archive file [/home/abi/fetcher/tmp/smart_meter_texas-0.5.1.tar.gz]
+[2023-07-22 14:43:39] INFO root fetch - processPackages [smart-meter-texas]: Remove: archive file [/home/abi/fetcher/tmp/smart_meter_texas-0.5.2.tar.gz]
+[2023-07-22 14:43:39] INFO root fetch - main [MainThread]: End processing [smart-meter-texas]: success
+[2023-07-22 14:43:39] INFO root fetch - processPackages [influential]: Remove: archive file [/home/abi/fetcher/tmp/influential-0.0.2.tar.gz]
+[2023-07-22 14:43:39] INFO root fetch - processPackages [influential]: Remove: archive file [/home/abi/fetcher/tmp/influential-0.0.21.tar.gz]
+[2023-07-22 14:43:39] INFO root fetch - main [MainThread]: End processing [influential]: success
+[2023-07-22 14:43:39] INFO root fetch - processPackages [python-jsonpath]: Remove: archive file [/home/abi/fetcher/tmp/python_jsonpath-0.8.1.tar.gz]
+[2023-07-22 14:43:39] INFO root fetch - processPackages [python-jsonpath]: Remove: archive file [/home/abi/fetcher/tmp/python_jsonpath-0.9.0.tar.gz]
+[2023-07-22 14:43:39] INFO root fetch - main [MainThread]: End processing [python-jsonpath]: success
+[2023-07-22 14:43:46] INFO root fetch - processPackages [pharmpy-core]: Remove: archive file [/home/abi/fetcher/tmp/pharmpy-core-0.97.0.tar.gz]
+[2023-07-22 14:43:46] INFO root fetch - processPackages [pharmpy-core]: Remove: archive file [/home/abi/fetcher/tmp/pharmpy-core-0.98.0.tar.gz]
+[2023-07-22 14:43:46] INFO root fetch - main [MainThread]: End processing [pharmpy-core]: success
+[2023-07-22 14:43:50] INFO root fetch - processPackages [aplr]: Remove: archive file [/home/abi/fetcher/tmp/aplr-6.5.0.tar.gz]
+[2023-07-22 14:43:50] INFO root fetch - processPackages [aplr]: Remove: archive file [/home/abi/fetcher/tmp/aplr-6.5.1.tar.gz]
+[2023-07-22 14:43:50] INFO root fetch - main [MainThread]: End processing [aplr]: success
+[2023-07-22 14:43:50] INFO root fetch - main [MainThread]: Store serial: [18994879]
