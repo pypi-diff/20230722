@@ -10937,3 +10937,54 @@
 [2023-07-22 10:00:39] INFO root fetch - processPackages [unitlab]: Remove: archive file [/home/abi/fetcher/tmp/unitlab-1.9.3.tar.gz]
 [2023-07-22 10:00:39] INFO root fetch - main [MainThread]: End processing [unitlab]: success
 [2023-07-22 10:00:39] INFO root fetch - main [MainThread]: Store serial: [18993559]
+[2023-07-22 10:05:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993559]
+[2023-07-22 10:05:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 10:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pwforecast
+[2023-07-22 10:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mg-fastpurge
+[2023-07-22 10:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talkytimes-package
+[2023-07-22 10:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-aesthetics-predictor
+[2023-07-22 10:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: binpan
+[2023-07-22 10:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scape-sc
+[2023-07-22 10:05:48] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 10:05:48] INFO root fetch - processPackages [simple-aesthetics-predictor]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-22 10:05:48] INFO root fetch - processPackages [binpan]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-22 10:05:48] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-22 10:05:48] INFO root fetch - processPackages [pwforecast]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-07-22 10:05:48] INFO root fetch - processPackages [binpan]: Downloading https://files.pythonhosted.org/packages/9a/c3/428612272a28dfbf5f1cdd8ea5a1b04925a2386a536f411087b1c492cb6b/binpan-0.4.8.tar.gz
+[2023-07-22 10:05:48] WARNING root fetch - processPackages [mg-fastpurge]: Skipping, unable to determine old version
+[2023-07-22 10:05:48] INFO root fetch - main [MainThread]: End processing [mg-fastpurge] error
+[2023-07-22 10:05:48] INFO root fetch - processPackages [scape-sc]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-22 10:05:48] INFO root fetch - processPackages [simple-aesthetics-predictor]: Downloading https://files.pythonhosted.org/packages/6c/31/6cfd063f7483315be89a3d98db4600b142a16199c578235d94312f4da5af/simple_aesthetics_predictor-0.0.1.tar.gz
+[2023-07-22 10:05:48] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-22 10:05:48] INFO root fetch - processPackages [pwforecast]: Downloading https://files.pythonhosted.org/packages/b4/be/fb2f7401e808fce9fb02b691b9cc330094f90a3b895a0aa57274cb2e0ae2/pwforecast-1.1.4.tar.gz
+[2023-07-22 10:05:48] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-22 10:05:48] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230722/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 10:05:48] INFO root fetch - processPackages [binpan]: Downloading https://files.pythonhosted.org/packages/a0/98/349c07c553f7bfad1d6e1c7717a411195002cd92d0fc40e3ade7867c8d7f/binpan-0.4.9.tar.gz
+[2023-07-22 10:05:48] INFO root fetch - processPackages [binpan]: executing diffoscope
+[2023-07-22 10:05:48] INFO root fetch - processPackages [binpan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binpan-0.4.8.tar.gz tmp/binpan-0.4.9.tar.gz --markdown 20230722/b/binpan/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-22 10:05:48] INFO root fetch - processPackages [scape-sc]: Downloading https://files.pythonhosted.org/packages/5f/ef/0a6fd2e55ab8a897efa9a7d2a626046bae12e3ea0e572f1ca114002162b2/scape-sc-0.5.1.tar.gz
+[2023-07-22 10:05:48] INFO root fetch - processPackages [simple-aesthetics-predictor]: Downloading https://files.pythonhosted.org/packages/63/d6/675270b046f97785ef3e5acfd36bd5ea435303283cf8362ca330bf7ee542/simple_aesthetics_predictor-0.1.0.tar.gz
+[2023-07-22 10:05:49] INFO root fetch - processPackages [pwforecast]: Downloading https://files.pythonhosted.org/packages/fa/0f/564966f5dc3a99ca151df1e3903d89fed362cc9581961507ee5945ab2459/pwforecast-1.2.0.tar.gz
+[2023-07-22 10:05:49] INFO root fetch - processPackages [simple-aesthetics-predictor]: executing diffoscope
+[2023-07-22 10:05:49] INFO root fetch - processPackages [simple-aesthetics-predictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_aesthetics_predictor-0.0.1.tar.gz tmp/simple_aesthetics_predictor-0.1.0.tar.gz --markdown 20230722/s/simple-aesthetics-predictor/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-22 10:05:49] INFO root fetch - processPackages [pwforecast]: executing diffoscope
+[2023-07-22 10:05:49] INFO root fetch - processPackages [pwforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwforecast-1.1.4.tar.gz tmp/pwforecast-1.2.0.tar.gz --markdown 20230722/p/pwforecast/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-07-22 10:05:49] INFO root fetch - processPackages [scape-sc]: Downloading https://files.pythonhosted.org/packages/5d/a4/7c821799c39a4865186341fc28d170a2d79058317d4e1b49ca48b667d475/scape-sc-0.5.2.tar.gz
+[2023-07-22 10:05:49] INFO root fetch - processPackages [scape-sc]: executing diffoscope
+[2023-07-22 10:05:49] INFO root fetch - processPackages [scape-sc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scape-sc-0.5.1.tar.gz tmp/scape-sc-0.5.2.tar.gz --markdown 20230722/s/scape-sc/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-22 10:05:49] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-22 10:05:49] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-22 10:05:49] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-22 10:05:49] INFO root fetch - processPackages [binpan]: Remove: archive file [/home/abi/fetcher/tmp/binpan-0.4.8.tar.gz]
+[2023-07-22 10:05:49] INFO root fetch - processPackages [binpan]: Remove: archive file [/home/abi/fetcher/tmp/binpan-0.4.9.tar.gz]
+[2023-07-22 10:05:49] INFO root fetch - main [MainThread]: End processing [binpan]: success
+[2023-07-22 10:05:49] INFO root fetch - processPackages [simple-aesthetics-predictor]: Remove: archive file [/home/abi/fetcher/tmp/simple_aesthetics_predictor-0.0.1.tar.gz]
+[2023-07-22 10:05:49] INFO root fetch - processPackages [simple-aesthetics-predictor]: Remove: archive file [/home/abi/fetcher/tmp/simple_aesthetics_predictor-0.1.0.tar.gz]
+[2023-07-22 10:05:49] INFO root fetch - main [MainThread]: End processing [simple-aesthetics-predictor]: success
+[2023-07-22 10:05:50] INFO root fetch - processPackages [pwforecast]: Remove: archive file [/home/abi/fetcher/tmp/pwforecast-1.1.4.tar.gz]
+[2023-07-22 10:05:50] INFO root fetch - processPackages [pwforecast]: Remove: archive file [/home/abi/fetcher/tmp/pwforecast-1.2.0.tar.gz]
+[2023-07-22 10:05:50] INFO root fetch - main [MainThread]: End processing [pwforecast]: success
+[2023-07-22 10:05:50] INFO root fetch - processPackages [scape-sc]: Remove: archive file [/home/abi/fetcher/tmp/scape-sc-0.5.1.tar.gz]
+[2023-07-22 10:05:50] INFO root fetch - processPackages [scape-sc]: Remove: archive file [/home/abi/fetcher/tmp/scape-sc-0.5.2.tar.gz]
+[2023-07-22 10:05:50] INFO root fetch - main [MainThread]: End processing [scape-sc]: success
+[2023-07-22 10:05:50] INFO root fetch - main [MainThread]: Store serial: [18993577]
