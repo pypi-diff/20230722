@@ -10412,3 +10412,47 @@
 [2023-07-22 09:08:02] INFO root fetch - processPackages [Louie]: Remove: archive file [/home/abi/fetcher/tmp/Louie-2.0.tar.gz]
 [2023-07-22 09:08:02] INFO root fetch - main [MainThread]: End processing [Louie]: success
 [2023-07-22 09:08:02] INFO root fetch - main [MainThread]: Store serial: [18993329]
+[2023-07-22 09:13:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993329]
+[2023-07-22 09:13:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 09:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: m-run-script-test
+[2023-07-22 09:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amiyabot
+[2023-07-22 09:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medimageaugment
+[2023-07-22 09:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: talkytimes-package
+[2023-07-22 09:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: m-run-script
+[2023-07-22 09:13:11] INFO root fetch - processPackages [medimageaugment]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-22 09:13:11] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-22 09:13:11] INFO root fetch - processPackages [amiyabot]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-07-22 09:13:11] INFO root fetch - processPackages [m-run-script]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-22 09:13:11] INFO root fetch - processPackages [m-run-script-test]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-22 09:13:11] INFO root fetch - processPackages [medimageaugment]: Downloading https://files.pythonhosted.org/packages/e7/0f/8b80478ebebebc3fa56b9baa00fd9aaed3ff4185203f6954f8c6432f2ee8/medimageaugment-1.2.0.tar.gz
+[2023-07-22 09:13:11] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/0a/3a/958d74cf4328cc6e6f0d9b91dde556223419a6f233178e91a71be0ecf990/talkytimes_package-0.3.8.tar.gz
+[2023-07-22 09:13:11] INFO root fetch - processPackages [amiyabot]: Downloading https://files.pythonhosted.org/packages/07/d4/ffa2f1c98d1f4cb5922e89995294a11d1a3bc3e700e9c3e33ff9ae772d63/amiyabot-1.5.7-py3-none-any.whl
+[2023-07-22 09:13:11] WARNING root fetch - processPackages [amiyabot]: Skipping package: exceeds size limit 11312639>=10485760
+[2023-07-22 09:13:11] INFO root fetch - main [MainThread]: End processing [amiyabot] error
+[2023-07-22 09:13:11] INFO root fetch - processPackages [m-run-script-test]: Downloading https://files.pythonhosted.org/packages/f5/50/24312cbc56fb51eb83a469e94ef948441aaa55b29e47ea181f2d4b2ef584/m-run-script-test-1.0.1.tar.gz
+[2023-07-22 09:13:11] INFO root fetch - processPackages [m-run-script]: Downloading https://files.pythonhosted.org/packages/44/e8/0cdcf1d7c9ebdaba6a43233c621b00615150b89c1d634efbf10269d0a0d9/m-run-script-1.0.1.tar.gz
+[2023-07-22 09:13:11] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/9b/bf/3c3f6413c7a37cb1807906ef30aa88b444de6c59250fe902f6ad44add628/talkytimes_package-0.3.9.tar.gz
+[2023-07-22 09:13:12] INFO root fetch - processPackages [medimageaugment]: Downloading https://files.pythonhosted.org/packages/c5/03/e64bddb75314251d8642113fdaa1cea8ebab0b69162060d2d1bd4644a3ce/medimageaugment-1.2.1.tar.gz
+[2023-07-22 09:13:12] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-22 09:13:12] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.8.tar.gz tmp/talkytimes_package-0.3.9.tar.gz --markdown 20230722/t/talkytimes-package/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-22 09:13:12] INFO root fetch - processPackages [medimageaugment]: executing diffoscope
+[2023-07-22 09:13:12] INFO root fetch - processPackages [medimageaugment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medimageaugment-1.2.0.tar.gz tmp/medimageaugment-1.2.1.tar.gz --markdown 20230722/m/medimageaugment/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-22 09:13:12] INFO root fetch - processPackages [m-run-script-test]: Downloading https://files.pythonhosted.org/packages/05/a2/deca00367338eaed3b46e825bc7ff8b0f2b864944d672ffcf484971e65fd/m-run-script-test-1.0.2.tar.gz
+[2023-07-22 09:13:12] INFO root fetch - processPackages [m-run-script]: Downloading https://files.pythonhosted.org/packages/29/dc/d0bf7a871343f7c75aa1313bddeace6884d20a1c55e1a275788ec7e217ec/m-run-script-1.0.2.tar.gz
+[2023-07-22 09:13:12] INFO root fetch - processPackages [m-run-script-test]: executing diffoscope
+[2023-07-22 09:13:12] INFO root fetch - processPackages [m-run-script-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-run-script-test-1.0.1.tar.gz tmp/m-run-script-test-1.0.2.tar.gz --markdown 20230722/m/m-run-script-test/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-22 09:13:12] INFO root fetch - processPackages [m-run-script]: executing diffoscope
+[2023-07-22 09:13:12] INFO root fetch - processPackages [m-run-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-run-script-1.0.1.tar.gz tmp/m-run-script-1.0.2.tar.gz --markdown 20230722/m/m-run-script/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-22 09:13:12] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.8.tar.gz]
+[2023-07-22 09:13:12] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.9.tar.gz]
+[2023-07-22 09:13:12] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-22 09:13:12] INFO root fetch - processPackages [medimageaugment]: Remove: archive file [/home/abi/fetcher/tmp/medimageaugment-1.2.0.tar.gz]
+[2023-07-22 09:13:12] INFO root fetch - processPackages [medimageaugment]: Remove: archive file [/home/abi/fetcher/tmp/medimageaugment-1.2.1.tar.gz]
+[2023-07-22 09:13:12] INFO root fetch - main [MainThread]: End processing [medimageaugment]: success
+[2023-07-22 09:13:13] INFO root fetch - processPackages [m-run-script-test]: Remove: archive file [/home/abi/fetcher/tmp/m-run-script-test-1.0.1.tar.gz]
+[2023-07-22 09:13:13] INFO root fetch - processPackages [m-run-script-test]: Remove: archive file [/home/abi/fetcher/tmp/m-run-script-test-1.0.2.tar.gz]
+[2023-07-22 09:13:13] INFO root fetch - main [MainThread]: End processing [m-run-script-test]: success
+[2023-07-22 09:13:13] INFO root fetch - processPackages [m-run-script]: Remove: archive file [/home/abi/fetcher/tmp/m-run-script-1.0.1.tar.gz]
+[2023-07-22 09:13:13] INFO root fetch - processPackages [m-run-script]: Remove: archive file [/home/abi/fetcher/tmp/m-run-script-1.0.2.tar.gz]
+[2023-07-22 09:13:13] INFO root fetch - main [MainThread]: End processing [m-run-script]: success
+[2023-07-22 09:13:13] INFO root fetch - main [MainThread]: Store serial: [18993340]
