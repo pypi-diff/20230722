@@ -10237,3 +10237,79 @@
 [2023-07-22 08:52:29] INFO root fetch - processPackages [readtime]: Remove: archive file [/home/abi/fetcher/tmp/readtime-3.0.0.tar.gz]
 [2023-07-22 08:52:29] INFO root fetch - main [MainThread]: End processing [readtime]: success
 [2023-07-22 08:52:29] INFO root fetch - main [MainThread]: Store serial: [18993257]
+[2023-07-22 08:57:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18993257]
+[2023-07-22 08:57:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-22 08:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hishel
+[2023-07-22 08:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idkwhttph
+[2023-07-22 08:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: playbacker
+[2023-07-22 08:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imagecodes
+[2023-07-22 08:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: medimageaugment
+[2023-07-22 08:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: topologicpy
+[2023-07-22 08:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kubernetes-square
+[2023-07-22 08:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: WaterScenes
+[2023-07-22 08:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agentlogger
+[2023-07-22 08:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: musiclib
+[2023-07-22 08:57:38] INFO root fetch - processPackages [idkwhttph]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-22 08:57:38] INFO root fetch - processPackages [medimageaugment]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-07-22 08:57:38] WARNING root fetch - processPackages [agentlogger]: Skipping, unable to determine old version
+[2023-07-22 08:57:38] INFO root fetch - processPackages [agentlogger]: Start processing: idkwhttph
+[2023-07-22 08:57:38] INFO root fetch - main [MainThread]: End processing [agentlogger] error
+[2023-07-22 08:57:38] INFO root fetch - processPackages [idkwhttph]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-22 08:57:38] INFO root fetch - processPackages [kubernetes-square]: New version: [1.4.0] Old Version: [1.3.3]
+[2023-07-22 08:57:38] WARNING root fetch - processPackages [hishel]: Skipping, unable to determine old version
+[2023-07-22 08:57:38] INFO root fetch - main [MainThread]: End processing [hishel] error
+[2023-07-22 08:57:38] INFO root fetch - processPackages [medimageaugment]: Downloading https://files.pythonhosted.org/packages/6f/28/c8ed4260d2d1a31c56ff530426add87a0b655071408201d5c60109a7fb2b/medimageaugment-1.1.2.tar.gz
+[2023-07-22 08:57:38] WARNING root fetch - processPackages [imagecodes]: Skipping, unable to determine old version
+[2023-07-22 08:57:38] INFO root fetch - main [MainThread]: End processing [imagecodes] error
+[2023-07-22 08:57:38] INFO root fetch - processPackages [playbacker]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-22 08:57:38] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/66/3d/7f760566e44394d87f0e32ecd5225739659a50cd6b1cc1953f962db993b4/idkwhttph-0.2.4.tar.gz
+[2023-07-22 08:57:38] INFO root fetch - processPackages [topologicpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-22 08:57:38] INFO root fetch - processPackages [WaterScenes]: New version: [1.0.1] Old Version: [1.0.0.post1]
+[2023-07-22 08:57:38] INFO root fetch - processPackages [musiclib]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-22 08:57:38] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/66/3d/7f760566e44394d87f0e32ecd5225739659a50cd6b1cc1953f962db993b4/idkwhttph-0.2.4.tar.gz
+[2023-07-22 08:57:38] INFO root fetch - processPackages [WaterScenes]: Downloading https://files.pythonhosted.org/packages/2d/c4/ec660e52931b08919c0a0b93ac2a838e73cd3a4562a58c1cfdde54d1cfe7/WaterScenes-1.0.0.post1-py3-none-any.whl
+[2023-07-22 08:57:38] INFO root fetch - processPackages [playbacker]: Downloading https://files.pythonhosted.org/packages/1f/c4/f1202eb3a664dfe955f997698364a99b37ee187810a8b5f3d31070b4da0a/playbacker-0.6.0.tar.gz
+[2023-07-22 08:57:38] INFO root fetch - processPackages [kubernetes-square]: Downloading https://files.pythonhosted.org/packages/c9/c8/2be18e2d8f9c6fc439d62e21a4262692593481b79f40e6d39beca5f280e9/kubernetes_square-1.3.3.tar.gz
+[2023-07-22 08:57:38] INFO root fetch - processPackages [medimageaugment]: Downloading https://files.pythonhosted.org/packages/e7/0f/8b80478ebebebc3fa56b9baa00fd9aaed3ff4185203f6954f8c6432f2ee8/medimageaugment-1.2.0.tar.gz
+[2023-07-22 08:57:38] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/dd/70/20addd1b48f2eaad9e8ece77c10a15be19143c16aeaf7694af052b7d01f0/idkwhttph-0.2.5.tar.gz
+[2023-07-22 08:57:38] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/dd/70/20addd1b48f2eaad9e8ece77c10a15be19143c16aeaf7694af052b7d01f0/idkwhttph-0.2.5.tar.gz
+[2023-07-22 08:57:38] INFO root fetch - processPackages [musiclib]: executing diffoscope
+[2023-07-22 08:57:38] INFO root fetch - processPackages [musiclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musiclib-1.9.3.tar.gz tmp/musiclib-1.9.4.tar.gz --markdown 20230722/m/musiclib/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-22 08:57:38] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/c5/85/1c4479b468dd8447a392da1fb4879881f139f70892e1015a6f377c4cea2b/topologicpy-0.4.9.tar.gz
+[2023-07-22 08:57:38] INFO root fetch - processPackages [kubernetes-square]: Downloading https://files.pythonhosted.org/packages/27/10/8c7c32c319bc2666eb72c9cce0484a14b88979df840ee599d9b8d1a5429c/kubernetes_square-1.4.0.tar.gz
+[2023-07-22 08:57:38] INFO root fetch - processPackages [medimageaugment]: executing diffoscope
+[2023-07-22 08:57:38] INFO root fetch - processPackages [medimageaugment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medimageaugment-1.1.2.tar.gz tmp/medimageaugment-1.2.0.tar.gz --markdown 20230722/m/medimageaugment/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-07-22 08:57:38] INFO root fetch - processPackages [WaterScenes]: Downloading https://files.pythonhosted.org/packages/ea/19/7690ea93f19f460e1224527c93455b16cadae4d628692a15216152903d71/WaterScenes-1.0.1-py3-none-any.whl
+[2023-07-22 08:57:39] INFO root fetch - processPackages [idkwhttph]: executing diffoscope
+[2023-07-22 08:57:39] INFO root fetch - processPackages [idkwhttph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idkwhttph-0.2.4.tar.gz tmp/idkwhttph-0.2.5.tar.gz --markdown 20230722/i/idkwhttph/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-22 08:57:39] INFO root fetch - processPackages [idkwhttph]: executing diffoscope
+[2023-07-22 08:57:39] INFO root fetch - processPackages [idkwhttph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idkwhttph-0.2.4.tar.gz tmp/idkwhttph-0.2.5.tar.gz --markdown 20230722/i/idkwhttph/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-22 08:57:39] INFO root fetch - processPackages [playbacker]: Downloading https://files.pythonhosted.org/packages/24/ca/3fb26bd07140dcfe9b20371b2b51636d2069ac32bdba4a6d6952035e3476/playbacker-0.7.0.tar.gz
+[2023-07-22 08:57:39] INFO root fetch - processPackages [kubernetes-square]: executing diffoscope
+[2023-07-22 08:57:39] INFO root fetch - processPackages [kubernetes-square]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes_square-1.3.3.tar.gz tmp/kubernetes_square-1.4.0.tar.gz --markdown 20230722/k/kubernetes-square/1.3.3-1.4.0/diff.md --exclude *.pyd
+[2023-07-22 08:57:39] INFO root fetch - processPackages [WaterScenes]: executing diffoscope
+[2023-07-22 08:57:39] INFO root fetch - processPackages [WaterScenes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WaterScenes-1.0.0.post1-py3-none-any.whl.zip tmp/WaterScenes-1.0.1-py3-none-any.whl.zip --markdown 20230722/W/WaterScenes/1.0.0.post1-1.0.1/diff.md --exclude *.pyd
+[2023-07-22 08:57:39] INFO root fetch - processPackages [playbacker]: executing diffoscope
+[2023-07-22 08:57:39] INFO root fetch - processPackages [playbacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playbacker-0.6.0.tar.gz tmp/playbacker-0.7.0.tar.gz --markdown 20230722/p/playbacker/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-22 08:57:39] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 34020520>=10485760
+[2023-07-22 08:57:39] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2023-07-22 08:57:39] INFO root fetch - processPackages [musiclib]: Remove: archive file [/home/abi/fetcher/tmp/musiclib-1.9.3.tar.gz]
+[2023-07-22 08:57:39] INFO root fetch - processPackages [musiclib]: Remove: archive file [/home/abi/fetcher/tmp/musiclib-1.9.4.tar.gz]
+[2023-07-22 08:57:39] INFO root fetch - main [MainThread]: End processing [musiclib]: success
+[2023-07-22 08:57:39] INFO root fetch - processPackages [medimageaugment]: Remove: archive file [/home/abi/fetcher/tmp/medimageaugment-1.1.2.tar.gz]
+[2023-07-22 08:57:39] INFO root fetch - processPackages [medimageaugment]: Remove: archive file [/home/abi/fetcher/tmp/medimageaugment-1.2.0.tar.gz]
+[2023-07-22 08:57:39] INFO root fetch - main [MainThread]: End processing [medimageaugment]: success
+[2023-07-22 08:57:40] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.2.4.tar.gz]
+[2023-07-22 08:57:40] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.2.5.tar.gz]
+[2023-07-22 08:57:40] INFO root fetch - main [MainThread]: End processing [idkwhttph]: success
+[2023-07-22 08:57:40] INFO root fetch - main [MainThread]: End processing [idkwhttph]: success
+[2023-07-22 08:57:40] INFO root fetch - processPackages [WaterScenes]: Remove: archive file [/home/abi/fetcher/tmp/WaterScenes-1.0.0.post1-py3-none-any.whl.zip]
+[2023-07-22 08:57:40] INFO root fetch - processPackages [WaterScenes]: Remove: archive file [/home/abi/fetcher/tmp/WaterScenes-1.0.1-py3-none-any.whl.zip]
+[2023-07-22 08:57:40] INFO root fetch - main [MainThread]: End processing [WaterScenes]: success
+[2023-07-22 08:57:40] INFO root fetch - processPackages [kubernetes-square]: Remove: archive file [/home/abi/fetcher/tmp/kubernetes_square-1.3.3.tar.gz]
+[2023-07-22 08:57:40] INFO root fetch - processPackages [kubernetes-square]: Remove: archive file [/home/abi/fetcher/tmp/kubernetes_square-1.4.0.tar.gz]
+[2023-07-22 08:57:40] INFO root fetch - main [MainThread]: End processing [kubernetes-square]: success
+[2023-07-22 08:57:40] INFO root fetch - processPackages [playbacker]: Remove: archive file [/home/abi/fetcher/tmp/playbacker-0.6.0.tar.gz]
+[2023-07-22 08:57:40] INFO root fetch - processPackages [playbacker]: Remove: archive file [/home/abi/fetcher/tmp/playbacker-0.7.0.tar.gz]
+[2023-07-22 08:57:40] INFO root fetch - main [MainThread]: End processing [playbacker]: success
+[2023-07-22 08:57:40] INFO root fetch - main [MainThread]: Store serial: [18993296]
