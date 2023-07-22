@@ -13059,3 +13059,18 @@
 [2023-07-22 13:05:05] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.0.8.tar.gz]
 [2023-07-22 13:05:05] INFO root fetch - main [MainThread]: End processing [wow-ai-mms]: success
 [2023-07-22 13:05:05] INFO root fetch - main [MainThread]: Store serial: [18994508]
+[2023-07-22 13:10:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994508]
+[2023-07-22 13:10:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-22 13:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liuliu
+[2023-07-22 13:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wow-ai-mms
+[2023-07-22 13:10:14] WARNING root fetch - processPackages [liuliu]: Skipping, unable to determine old version
+[2023-07-22 13:10:14] INFO root fetch - main [MainThread]: End processing [liuliu] error
+[2023-07-22 13:10:14] INFO root fetch - processPackages [wow-ai-mms]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-22 13:10:14] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/f9/e7/43eda50919315da12def5671d061d3a94462fdeb558d924df5e18b10c075/wow_ai_mms-0.0.7.tar.gz
+[2023-07-22 13:10:14] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/fb/f7/2897724241062efc5f6009fb5134db71215cc0c7066cca67f4ed647bc7be/wow_ai_mms-0.0.8.tar.gz
+[2023-07-22 13:10:14] INFO root fetch - processPackages [wow-ai-mms]: executing diffoscope
+[2023-07-22 13:10:14] INFO root fetch - processPackages [wow-ai-mms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_mms-0.0.7.tar.gz tmp/wow_ai_mms-0.0.8.tar.gz --markdown 20230722/w/wow-ai-mms/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-22 13:10:15] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.0.7.tar.gz]
+[2023-07-22 13:10:15] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.0.8.tar.gz]
+[2023-07-22 13:10:15] INFO root fetch - main [MainThread]: End processing [wow-ai-mms]: success
+[2023-07-22 13:10:15] INFO root fetch - main [MainThread]: Store serial: [18994513]
