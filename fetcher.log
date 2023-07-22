@@ -14019,3 +14019,54 @@
 [2023-07-22 14:54:14] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
 [2023-07-22 14:54:14] INFO root fetch - main [MainThread]: End processing [sdkit]: success
 [2023-07-22 14:54:14] INFO root fetch - main [MainThread]: Store serial: [18994934]
+[2023-07-22 14:59:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994934]
+[2023-07-22 14:59:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 14:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ubox
+[2023-07-22 14:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diagrams-yaml
+[2023-07-22 14:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tablate
+[2023-07-22 14:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: allocine-seances
+[2023-07-22 14:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: htagweb
+[2023-07-22 14:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bizlogic
+[2023-07-22 14:59:23] INFO root fetch - processPackages [bizlogic]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-22 14:59:23] INFO root fetch - processPackages [htagweb]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-22 14:59:23] INFO root fetch - processPackages [diagrams-yaml]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-22 14:59:23] INFO root fetch - processPackages [allocine-seances]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-22 14:59:23] INFO root fetch - processPackages [tablate]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-22 14:59:23] WARNING root fetch - processPackages [ubox]: Skipping, unable to determine old version
+[2023-07-22 14:59:23] INFO root fetch - main [MainThread]: End processing [ubox] error
+[2023-07-22 14:59:23] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/08/50/e908be9043d440ffc9e3d99cd539954783205cfb0c193b67999b4c043770/bizlogic-0.2.0.tar.gz
+[2023-07-22 14:59:23] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/1d/05/4a58ffcb8416333215defd00e3a74f6268a9ff1fcc714b4ef4b9dc378877/htagweb-0.3.3.tar.gz
+[2023-07-22 14:59:23] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/4b/03/2a3d4f6d44ab2ea8925dc3039fe168ffd755d59585c06794e97655e8dcdd/diagrams-yaml-0.0.2.tar.gz
+[2023-07-22 14:59:23] INFO root fetch - processPackages [allocine-seances]: Downloading https://files.pythonhosted.org/packages/70/6a/740951bcaab470e8a1040326d16789fa69ed5a5765c5a9a0f783e5802ca3/allocine-seances-0.0.5.tar.gz
+[2023-07-22 14:59:23] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/7a/80/cf631e3dfcf52ac0776cf01078078d4e10eb302279cf5056056e38bc03f6/tablate-0.0.5.tar.gz
+[2023-07-22 14:59:23] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/f9/8b/375486c66a5ef458cfd5c81949ad6b019b5ff9d865640adfa05dbe805273/htagweb-0.4.0.tar.gz
+[2023-07-22 14:59:24] INFO root fetch - processPackages [htagweb]: executing diffoscope
+[2023-07-22 14:59:24] INFO root fetch - processPackages [htagweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htagweb-0.3.3.tar.gz tmp/htagweb-0.4.0.tar.gz --markdown 20230722/h/htagweb/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-22 14:59:24] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/eb/8d/fb8b13e4ad5172dea02342b1bad2f55f7355ef2223ae9ffa62f7bead4c8b/diagrams-yaml-0.0.4.tar.gz
+[2023-07-22 14:59:24] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/5f/e2/84466687753e28a2cde1ed3fc92cda95d896fb2b45aaf56c5bb70b1d17a4/bizlogic-0.2.1.tar.gz
+[2023-07-22 14:59:24] INFO root fetch - processPackages [allocine-seances]: Downloading https://files.pythonhosted.org/packages/85/a1/cb087a8532d7e25b9f312cfac5fd0cd0770c45e329362ae0baad94fe4e63/allocine-seances-0.0.6.tar.gz
+[2023-07-22 14:59:24] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-07-22 14:59:24] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.2.0.tar.gz tmp/bizlogic-0.2.1.tar.gz --markdown 20230722/b/bizlogic/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-22 14:59:24] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/d6/10/19e3a28877152c00438a31a543e3a70574e0e30aa0d776717d8d6eef6a0d/tablate-0.0.6.tar.gz
+[2023-07-22 14:59:24] INFO root fetch - processPackages [diagrams-yaml]: executing diffoscope
+[2023-07-22 14:59:24] INFO root fetch - processPackages [diagrams-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diagrams-yaml-0.0.2.tar.gz tmp/diagrams-yaml-0.0.4.tar.gz --markdown 20230722/d/diagrams-yaml/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 14:59:24] INFO root fetch - processPackages [allocine-seances]: executing diffoscope
+[2023-07-22 14:59:24] INFO root fetch - processPackages [allocine-seances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allocine-seances-0.0.5.tar.gz tmp/allocine-seances-0.0.6.tar.gz --markdown 20230722/a/allocine-seances/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-22 14:59:24] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-07-22 14:59:24] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.5.tar.gz tmp/tablate-0.0.6.tar.gz --markdown 20230722/t/tablate/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-22 14:59:24] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.3.3.tar.gz]
+[2023-07-22 14:59:24] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.4.0.tar.gz]
+[2023-07-22 14:59:24] INFO root fetch - main [MainThread]: End processing [htagweb]: success
+[2023-07-22 14:59:25] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.2.0.tar.gz]
+[2023-07-22 14:59:25] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.2.1.tar.gz]
+[2023-07-22 14:59:25] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-07-22 14:59:25] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.2.tar.gz]
+[2023-07-22 14:59:25] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.4.tar.gz]
+[2023-07-22 14:59:25] INFO root fetch - main [MainThread]: End processing [diagrams-yaml]: success
+[2023-07-22 14:59:25] INFO root fetch - processPackages [allocine-seances]: Remove: archive file [/home/abi/fetcher/tmp/allocine-seances-0.0.5.tar.gz]
+[2023-07-22 14:59:25] INFO root fetch - processPackages [allocine-seances]: Remove: archive file [/home/abi/fetcher/tmp/allocine-seances-0.0.6.tar.gz]
+[2023-07-22 14:59:25] INFO root fetch - main [MainThread]: End processing [allocine-seances]: success
+[2023-07-22 14:59:25] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.5.tar.gz]
+[2023-07-22 14:59:25] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.6.tar.gz]
+[2023-07-22 14:59:25] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-07-22 14:59:25] INFO root fetch - main [MainThread]: Store serial: [18994953]
