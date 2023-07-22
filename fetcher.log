@@ -7316,3 +7316,51 @@
 [2023-07-22 03:44:32] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.908.tar.gz]
 [2023-07-22 03:44:32] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
 [2023-07-22 03:44:32] INFO root fetch - main [MainThread]: Store serial: [18992087]
+[2023-07-22 03:49:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992087]
+[2023-07-22 03:49:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 03:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain
+[2023-07-22 03:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-experimental
+[2023-07-22 03:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: increase
+[2023-07-22 03:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: terminal-manager
+[2023-07-22 03:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: homeassistant-stubs
+[2023-07-22 03:49:41] INFO root fetch - processPackages [langchain-experimental]: New version: [0.0.1rc3] Old Version: [0.0.1rc2]
+[2023-07-22 03:49:41] INFO root fetch - processPackages [langchain-experimental]: Downloading https://files.pythonhosted.org/packages/f0/f9/ad54d14fa8403b4545d17edf12fa70610288160abb922e622667b816c99f/langchain_experimental-0.0.1rc2.tar.gz
+[2023-07-22 03:49:41] INFO root fetch - processPackages [terminal-manager]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-22 03:49:41] INFO root fetch - processPackages [increase]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-22 03:49:41] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.7.3] Old Version: [2023.7.2]
+[2023-07-22 03:49:41] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-07-22 03:49:41] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/b3/2a/df5c9d000e8fcbdd635725414c4ac1202b9379d0f044654bb2819c93d332/terminal_manager-0.8.3.tar.gz
+[2023-07-22 03:49:41] INFO root fetch - processPackages [increase]: Downloading https://files.pythonhosted.org/packages/38/04/23245208877a10fba93c724199da0ea129bcdee0336c4a86f3be0888834e/increase-0.8.1.tar.gz
+[2023-07-22 03:49:41] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/5e/35/25846f0095425d925fceaa7543bdbf19473a600884b6d6d8f28a20c0bcba/homeassistant_stubs-2023.7.2.tar.gz
+[2023-07-22 03:49:41] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-07-22 03:49:41] INFO root fetch - processPackages [langchain-experimental]: Downloading https://files.pythonhosted.org/packages/05/2c/7228d8424080a59a48c1c0d3682a96c56cc2d3b6c0ed706aafde8dab4f49/langchain_experimental-0.0.1rc3.tar.gz
+[2023-07-22 03:49:41] INFO root fetch - processPackages [langchain-experimental]: executing diffoscope
+[2023-07-22 03:49:41] INFO root fetch - processPackages [langchain-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_experimental-0.0.1rc2.tar.gz tmp/langchain_experimental-0.0.1rc3.tar.gz --markdown 20230722/l/langchain-experimental/0.0.1rc2-0.0.1rc3/diff.md --exclude *.pyd
+[2023-07-22 03:49:42] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/e6/34/a4d093c5bfd780ed601312a493da7004705507ba7273cd9c826d97ce8ab8/terminal_manager-0.8.4.tar.gz
+[2023-07-22 03:49:42] INFO root fetch - processPackages [terminal-manager]: executing diffoscope
+[2023-07-22 03:49:42] INFO root fetch - processPackages [terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_manager-0.8.3.tar.gz tmp/terminal_manager-0.8.4.tar.gz --markdown 20230722/t/terminal-manager/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-22 03:49:42] INFO root fetch - processPackages [increase]: Downloading https://files.pythonhosted.org/packages/35/1a/9728c759dc28ac734c6c3220f0abf89c385a19f2c0b2edab7e7707dd5fe5/increase-0.9.0.tar.gz
+[2023-07-22 03:49:42] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/36/08/a79c168bbd55afb7bfb799e553ed165dd96d9f1d314bfcab3b3cbd9702e5/homeassistant_stubs-2023.7.3.tar.gz
+[2023-07-22 03:49:42] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-07-22 03:49:42] INFO root fetch - processPackages [increase]: executing diffoscope
+[2023-07-22 03:49:42] INFO root fetch - processPackages [increase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increase-0.8.1.tar.gz tmp/increase-0.9.0.tar.gz --markdown 20230722/i/increase/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-22 03:49:42] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-07-22 03:49:42] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230722/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-07-22 03:49:42] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-07-22 03:49:42] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.7.2.tar.gz tmp/homeassistant_stubs-2023.7.3.tar.gz --markdown 20230722/h/homeassistant-stubs/2023.7.2-2023.7.3/diff.md --exclude *.pyd
+[2023-07-22 03:49:43] INFO root fetch - processPackages [langchain-experimental]: Remove: archive file [/home/abi/fetcher/tmp/langchain_experimental-0.0.1rc2.tar.gz]
+[2023-07-22 03:49:43] INFO root fetch - processPackages [langchain-experimental]: Remove: archive file [/home/abi/fetcher/tmp/langchain_experimental-0.0.1rc3.tar.gz]
+[2023-07-22 03:49:43] INFO root fetch - main [MainThread]: End processing [langchain-experimental]: success
+[2023-07-22 03:49:43] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.8.3.tar.gz]
+[2023-07-22 03:49:43] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.8.4.tar.gz]
+[2023-07-22 03:49:43] INFO root fetch - main [MainThread]: End processing [terminal-manager]: success
+[2023-07-22 03:49:44] INFO root fetch - processPackages [increase]: Remove: archive file [/home/abi/fetcher/tmp/increase-0.8.1.tar.gz]
+[2023-07-22 03:49:44] INFO root fetch - processPackages [increase]: Remove: archive file [/home/abi/fetcher/tmp/increase-0.9.0.tar.gz]
+[2023-07-22 03:49:44] INFO root fetch - main [MainThread]: End processing [increase]: success
+[2023-07-22 03:49:44] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-07-22 03:49:44] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-07-22 03:49:44] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-07-22 03:49:58] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.2.tar.gz]
+[2023-07-22 03:49:58] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.3.tar.gz]
+[2023-07-22 03:49:58] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-07-22 03:49:58] INFO root fetch - main [MainThread]: Store serial: [18992104]
