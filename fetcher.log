@@ -13122,3 +13122,70 @@
 [2023-07-22 13:15:26] INFO root fetch - processPackages [aiotaskq]: Remove: archive file [/home/abi/fetcher/tmp/aiotaskq-0.0.4.tar.gz]
 [2023-07-22 13:15:26] INFO root fetch - main [MainThread]: End processing [aiotaskq]: success
 [2023-07-22 13:15:26] INFO root fetch - main [MainThread]: Store serial: [18994528]
+[2023-07-22 13:20:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994528]
+[2023-07-22 13:20:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-22 13:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: binpan
+[2023-07-22 13:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: holobench
+[2023-07-22 13:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django_tableaux
+[2023-07-22 13:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: D47crunch
+[2023-07-22 13:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lemonbar
+[2023-07-22 13:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wow-ai-mms
+[2023-07-22 13:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: git-aggregator
+[2023-07-22 13:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: holobench
+[2023-07-22 13:20:35] WARNING root fetch - processPackages [lemonbar]: Skipping, unable to determine old version
+[2023-07-22 13:20:35] INFO root fetch - main [MainThread]: End processing [lemonbar] error
+[2023-07-22 13:20:35] INFO root fetch - processPackages [django_tableaux]: New version: [0.3] Old Version: [0.2]
+[2023-07-22 13:20:35] INFO root fetch - processPackages [wow-ai-mms]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-22 13:20:35] INFO root fetch - processPackages [django_tableaux]: Downloading https://files.pythonhosted.org/packages/d2/ad/a969658870eaba2d6546c1fafaa5b63962363d6795e2d35f7d269ea19083/django_tableaux-0.2.tar.gz
+[2023-07-22 13:20:35] INFO root fetch - processPackages [D47crunch]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-07-22 13:20:35] INFO root fetch - processPackages [holobench]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-22 13:20:35] INFO root fetch - processPackages [holobench]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-22 13:20:35] INFO root fetch - processPackages [git-aggregator]: New version: [4.0] Old Version: [3.0.1]
+[2023-07-22 13:20:35] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/b0/b9/be5582cf3f98113c714de09efe6e60803efd2f759558faa0dae8479e6420/wow_ai_mms-0.0.9.tar.gz
+[2023-07-22 13:20:35] INFO root fetch - processPackages [binpan]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-22 13:20:35] INFO root fetch - processPackages [binpan]: Downloading https://files.pythonhosted.org/packages/9a/c3/428612272a28dfbf5f1cdd8ea5a1b04925a2386a536f411087b1c492cb6b/binpan-0.4.8.tar.gz
+[2023-07-22 13:20:35] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/ca/d0/6922f1a0f996f4e5aafa8ca88d1c402f16e7b6c9997c5bf6ad59d92e25a3/holobench-0.0.0.tar.gz
+[2023-07-22 13:20:35] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/ca/d0/6922f1a0f996f4e5aafa8ca88d1c402f16e7b6c9997c5bf6ad59d92e25a3/holobench-0.0.0.tar.gz
+[2023-07-22 13:20:35] INFO root fetch - processPackages [git-aggregator]: Downloading https://files.pythonhosted.org/packages/22/b6/63183ff750bb345a7801038bcf1474a7d5f13ed0f9a6bba5240effd405bc/git_aggregator-3.0.1.tar.gz
+[2023-07-22 13:20:35] INFO root fetch - processPackages [D47crunch]: Downloading https://files.pythonhosted.org/packages/0e/ec/b240218d86d8dcdb6d0bdd0fe1676bbeace944612f44b6cec221e8e55982/D47crunch-2.3.0.tar.gz
+[2023-07-22 13:20:35] INFO root fetch - processPackages [django_tableaux]: Downloading https://files.pythonhosted.org/packages/09/ea/78ec1ff520151a662adff0c6cb9a1bb5b9c6003f5ee8f38dfaeee77ee433/django_tableaux-0.3.tar.gz
+[2023-07-22 13:20:35] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/89/05/4bdb75f8f0d7a808a28caa1a65a22cb8e3d36972e9b569755ad00c3898f8/wow_ai_mms-0.1.0.tar.gz
+[2023-07-22 13:20:35] INFO root fetch - processPackages [django_tableaux]: executing diffoscope
+[2023-07-22 13:20:35] INFO root fetch - processPackages [django_tableaux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tableaux-0.2.tar.gz tmp/django_tableaux-0.3.tar.gz --markdown 20230722/d/django_tableaux/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-22 13:20:35] INFO root fetch - processPackages [wow-ai-mms]: executing diffoscope
+[2023-07-22 13:20:35] INFO root fetch - processPackages [wow-ai-mms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_mms-0.0.9.tar.gz tmp/wow_ai_mms-0.1.0.tar.gz --markdown 20230722/w/wow-ai-mms/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-22 13:20:36] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/44/68/22949a86a38df9a6e2a75bd8fa96b1a6ea50cb42ad3d05c2a19056af3825/holobench-0.0.1.tar.gz
+[2023-07-22 13:20:36] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/44/68/22949a86a38df9a6e2a75bd8fa96b1a6ea50cb42ad3d05c2a19056af3825/holobench-0.0.1.tar.gz
+[2023-07-22 13:20:36] INFO root fetch - processPackages [binpan]: Downloading https://files.pythonhosted.org/packages/a0/98/349c07c553f7bfad1d6e1c7717a411195002cd92d0fc40e3ade7867c8d7f/binpan-0.4.9.tar.gz
+[2023-07-22 13:20:36] INFO root fetch - processPackages [git-aggregator]: Downloading https://files.pythonhosted.org/packages/0a/9a/c76f044f3041e5a3570ce0a06adb6f55bd537178f4e08b716dcbc365973d/git_aggregator-4.0.tar.gz
+[2023-07-22 13:20:36] INFO root fetch - processPackages [D47crunch]: Downloading https://files.pythonhosted.org/packages/27/30/9a23a6f160f06893a45c72e179a694acbef5c5fb9bc5ea02abcc707339d6/D47crunch-2.3.1.tar.gz
+[2023-07-22 13:20:36] INFO root fetch - processPackages [binpan]: executing diffoscope
+[2023-07-22 13:20:36] INFO root fetch - processPackages [binpan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binpan-0.4.8.tar.gz tmp/binpan-0.4.9.tar.gz --markdown 20230722/b/binpan/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-22 13:20:36] INFO root fetch - processPackages [holobench]: executing diffoscope
+[2023-07-22 13:20:36] INFO root fetch - processPackages [holobench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holobench-0.0.0.tar.gz tmp/holobench-0.0.1.tar.gz --markdown 20230722/h/holobench/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-22 13:20:36] INFO root fetch - processPackages [holobench]: executing diffoscope
+[2023-07-22 13:20:36] INFO root fetch - processPackages [holobench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holobench-0.0.0.tar.gz tmp/holobench-0.0.1.tar.gz --markdown 20230722/h/holobench/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-22 13:20:36] INFO root fetch - processPackages [git-aggregator]: executing diffoscope
+[2023-07-22 13:20:36] INFO root fetch - processPackages [git-aggregator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_aggregator-3.0.1.tar.gz tmp/git_aggregator-4.0.tar.gz --markdown 20230722/g/git-aggregator/3.0.1-4.0/diff.md --exclude *.pyd
+[2023-07-22 13:20:36] INFO root fetch - processPackages [D47crunch]: executing diffoscope
+[2023-07-22 13:20:36] INFO root fetch - processPackages [D47crunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/D47crunch-2.3.0.tar.gz tmp/D47crunch-2.3.1.tar.gz --markdown 20230722/D/D47crunch/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-07-22 13:20:37] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.0.9.tar.gz]
+[2023-07-22 13:20:37] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.1.0.tar.gz]
+[2023-07-22 13:20:37] INFO root fetch - main [MainThread]: End processing [wow-ai-mms]: success
+[2023-07-22 13:20:37] INFO root fetch - processPackages [django_tableaux]: Remove: archive file [/home/abi/fetcher/tmp/django_tableaux-0.2.tar.gz]
+[2023-07-22 13:20:37] INFO root fetch - processPackages [django_tableaux]: Remove: archive file [/home/abi/fetcher/tmp/django_tableaux-0.3.tar.gz]
+[2023-07-22 13:20:37] INFO root fetch - main [MainThread]: End processing [django_tableaux]: success
+[2023-07-22 13:20:37] INFO root fetch - processPackages [git-aggregator]: Remove: archive file [/home/abi/fetcher/tmp/git_aggregator-3.0.1.tar.gz]
+[2023-07-22 13:20:37] INFO root fetch - processPackages [git-aggregator]: Remove: archive file [/home/abi/fetcher/tmp/git_aggregator-4.0.tar.gz]
+[2023-07-22 13:20:37] INFO root fetch - main [MainThread]: End processing [git-aggregator]: success
+[2023-07-22 13:20:37] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-0.0.0.tar.gz]
+[2023-07-22 13:20:37] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-0.0.1.tar.gz]
+[2023-07-22 13:20:37] INFO root fetch - main [MainThread]: End processing [holobench]: success
+[2023-07-22 13:20:37] INFO root fetch - processPackages [binpan]: Remove: archive file [/home/abi/fetcher/tmp/binpan-0.4.8.tar.gz]
+[2023-07-22 13:20:37] INFO root fetch - processPackages [binpan]: Remove: archive file [/home/abi/fetcher/tmp/binpan-0.4.9.tar.gz]
+[2023-07-22 13:20:37] INFO root fetch - main [MainThread]: End processing [binpan]: success
+[2023-07-22 13:20:37] INFO root fetch - main [MainThread]: End processing [holobench]: success
+[2023-07-22 13:20:39] INFO root fetch - processPackages [D47crunch]: Remove: archive file [/home/abi/fetcher/tmp/D47crunch-2.3.0.tar.gz]
+[2023-07-22 13:20:39] INFO root fetch - processPackages [D47crunch]: Remove: archive file [/home/abi/fetcher/tmp/D47crunch-2.3.1.tar.gz]
+[2023-07-22 13:20:39] INFO root fetch - main [MainThread]: End processing [D47crunch]: success
+[2023-07-22 13:20:39] INFO root fetch - main [MainThread]: Store serial: [18994553]
