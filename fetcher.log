@@ -7644,3 +7644,71 @@
 [2023-07-22 04:27:11] INFO root fetch - processPackages [cashare]: Remove: archive file [/home/abi/fetcher/tmp/cashare-0.0.6.tar.gz]
 [2023-07-22 04:27:11] INFO root fetch - main [MainThread]: End processing [cashare]: success
 [2023-07-22 04:27:11] INFO root fetch - main [MainThread]: Store serial: [18992219]
+[2023-07-22 04:32:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992219]
+[2023-07-22 04:32:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-22 04:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: core-universal
+[2023-07-22 04:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iam-actions
+[2023-07-22 04:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlx-exec
+[2023-07-22 04:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naif-eop-high-prec
+[2023-07-22 04:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlx-batis
+[2023-07-22 04:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chgnet
+[2023-07-22 04:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpyt
+[2023-07-22 04:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SightVision
+[2023-07-22 04:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ladybug-radiance
+[2023-07-22 04:32:20] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-22 04:32:20] INFO root fetch - processPackages [sqlx-exec]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-22 04:32:20] WARNING root fetch - processPackages [sqlx-batis]: Skipping, unable to determine old version
+[2023-07-22 04:32:20] INFO root fetch - main [MainThread]: End processing [sqlx-batis] error
+[2023-07-22 04:32:20] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230721] Old Version: [1.2.20230720]
+[2023-07-22 04:32:20] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/09/ed/7488d5d961ce08546f5ee7ced9b28382ede88767e23d898f7a089dbd5065/naif_eop_high_prec-2023.7.8.tar.gz
+[2023-07-22 04:32:20] WARNING root fetch - processPackages [SightVision]: Skipping, unable to determine old version
+[2023-07-22 04:32:20] INFO root fetch - main [MainThread]: End processing [SightVision] error
+[2023-07-22 04:32:20] INFO root fetch - processPackages [chgnet]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-22 04:32:20] INFO root fetch - processPackages [core-universal]: New version: [3.6.4] Old Version: [3.6.3]
+[2023-07-22 04:32:20] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/87/90/9298cf32ea421dbe4070c02a518065ebd2b7283d77e0a827a34f28bfda07/sqlx-exec-1.1.0.tar.gz
+[2023-07-22 04:32:20] INFO root fetch - processPackages [ladybug-radiance]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-22 04:32:20] INFO root fetch - processPackages [gpyt]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-22 04:32:20] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/75/fd/70cde87cb04807b600a36c37b2b7e9c6f1f9ae04bebfab563e37c18bebe0/iam_actions-1.2.20230720.tar.gz
+[2023-07-22 04:32:20] INFO root fetch - processPackages [core-universal]: Downloading https://files.pythonhosted.org/packages/c7/24/c0e87b184bb62cec2712ac5ff34a6b630bf7dd66fb5d05f9ce0ff9f19ade/core_universal-3.6.3-py2.py3-none-win_amd64.whl
+[2023-07-22 04:32:20] INFO root fetch - processPackages [chgnet]: Downloading https://files.pythonhosted.org/packages/43/19/6fbd27a78ddbd8cf06e83080db22f1119e2d1fb9f0784c59889179dcb8da/chgnet-0.1.4.tar.gz
+[2023-07-22 04:32:20] INFO root fetch - processPackages [ladybug-radiance]: Downloading https://files.pythonhosted.org/packages/00/03/94cb145637d272eefa8c637bd166833f9021418ca0489e95e0ee3d9219df/ladybug-radiance-0.2.0.tar.gz
+[2023-07-22 04:32:20] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/7f/d3/b17aac5e24d33b266c17f2b984cbf3b796885c37c9c4d83f5686d0710a85/gpyt-0.2.8.tar.gz
+[2023-07-22 04:32:20] WARNING root fetch - processPackages [core-universal]: Skipping package: exceeds size limit 24881040>=10485760
+[2023-07-22 04:32:20] INFO root fetch - main [MainThread]: End processing [core-universal] error
+[2023-07-22 04:32:20] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/a3/34/2653727d400706666179ea3755b1c2f1468c55321a58c4686dd09df0788b/iam_actions-1.2.20230721.tar.gz
+[2023-07-22 04:32:20] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-07-22 04:32:20] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230720.tar.gz tmp/iam_actions-1.2.20230721.tar.gz --markdown 20230722/i/iam-actions/1.2.20230720-1.2.20230721/diff.md --exclude *.pyd
+[2023-07-22 04:32:20] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/1c/0b/3cb58a72814977b0fc55585d84fc4737a26a5dd6a78943a45edce974ae8b/sqlx-exec-1.1.1.tar.gz
+[2023-07-22 04:32:20] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/a2/f8/57853410d5affd1adacbfb12a5d90596ba94081ec97e3ffc215261ba9fea/naif_eop_high_prec-2023.7.9.tar.gz
+[2023-07-22 04:32:20] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-22 04:32:20] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.1.0.tar.gz tmp/sqlx-exec-1.1.1.tar.gz --markdown 20230722/s/sqlx-exec/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-22 04:32:20] INFO root fetch - processPackages [ladybug-radiance]: Downloading https://files.pythonhosted.org/packages/c8/48/38198ddb62ab5030d7beb1b3ad2cbc2b9825d98cef82f0e45d4a467e5f28/ladybug-radiance-0.2.1.tar.gz
+[2023-07-22 04:32:21] INFO root fetch - processPackages [ladybug-radiance]: executing diffoscope
+[2023-07-22 04:32:21] INFO root fetch - processPackages [ladybug-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-radiance-0.2.0.tar.gz tmp/ladybug-radiance-0.2.1.tar.gz --markdown 20230722/l/ladybug-radiance/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-22 04:32:21] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/a9/66/b60384915b7d030e84c5815bb2d3e307e2d6014f31c06cb7c3195f75d1fd/gpyt-0.2.9.tar.gz
+[2023-07-22 04:32:21] INFO root fetch - processPackages [chgnet]: Downloading https://files.pythonhosted.org/packages/f4/f2/d8ce15799ae4098264cf5cb23f446964cc9eed8342ca292fc2a5935bf1ae/chgnet-0.2.0.tar.gz
+[2023-07-22 04:32:21] INFO root fetch - processPackages [gpyt]: executing diffoscope
+[2023-07-22 04:32:21] INFO root fetch - processPackages [gpyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpyt-0.2.8.tar.gz tmp/gpyt-0.2.9.tar.gz --markdown 20230722/g/gpyt/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-22 04:32:21] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.1.0.tar.gz]
+[2023-07-22 04:32:21] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.1.1.tar.gz]
+[2023-07-22 04:32:21] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-22 04:32:21] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-22 04:32:21] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.8.tar.gz tmp/naif_eop_high_prec-2023.7.9.tar.gz --markdown 20230722/n/naif-eop-high-prec/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-22 04:32:22] INFO root fetch - processPackages [ladybug-radiance]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-radiance-0.2.0.tar.gz]
+[2023-07-22 04:32:22] INFO root fetch - processPackages [ladybug-radiance]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-radiance-0.2.1.tar.gz]
+[2023-07-22 04:32:22] INFO root fetch - main [MainThread]: End processing [ladybug-radiance]: success
+[2023-07-22 04:32:22] INFO root fetch - processPackages [chgnet]: executing diffoscope
+[2023-07-22 04:32:22] INFO root fetch - processPackages [chgnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chgnet-0.1.4.tar.gz tmp/chgnet-0.2.0.tar.gz --markdown 20230722/c/chgnet/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-22 04:32:22] INFO root fetch - processPackages [gpyt]: Remove: archive file [/home/abi/fetcher/tmp/gpyt-0.2.8.tar.gz]
+[2023-07-22 04:32:22] INFO root fetch - processPackages [gpyt]: Remove: archive file [/home/abi/fetcher/tmp/gpyt-0.2.9.tar.gz]
+[2023-07-22 04:32:22] INFO root fetch - main [MainThread]: End processing [gpyt]: success
+[2023-07-22 04:32:23] INFO root fetch - processPackages [chgnet]: Remove: archive file [/home/abi/fetcher/tmp/chgnet-0.1.4.tar.gz]
+[2023-07-22 04:32:23] INFO root fetch - processPackages [chgnet]: Remove: archive file [/home/abi/fetcher/tmp/chgnet-0.2.0.tar.gz]
+[2023-07-22 04:32:23] INFO root fetch - main [MainThread]: End processing [chgnet]: success
+[2023-07-22 04:32:24] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.8.tar.gz]
+[2023-07-22 04:32:24] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
+[2023-07-22 04:32:24] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-22 04:32:25] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230720.tar.gz]
+[2023-07-22 04:32:25] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230721.tar.gz]
+[2023-07-22 04:32:25] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-07-22 04:32:25] INFO root fetch - main [MainThread]: Store serial: [18992249]
