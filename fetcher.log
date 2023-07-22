@@ -14983,3 +14983,145 @@
 [2023-07-22 16:20:45] INFO root fetch - processPackages [python-mpv]: Remove: archive file [/home/abi/fetcher/tmp/python-mpv-1.0.4.tar.gz]
 [2023-07-22 16:20:45] INFO root fetch - main [MainThread]: End processing [python-mpv]: success
 [2023-07-22 16:20:45] INFO root fetch - main [MainThread]: Store serial: [18995351]
+[2023-07-22 16:25:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995351]
+[2023-07-22 16:25:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-22 16:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-07-22 16:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OneOnOne
+[2023-07-22 16:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gp2
+[2023-07-22 16:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sklearn-mlmlm
+[2023-07-22 16:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scsd
+[2023-07-22 16:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grooveshop-django-api
+[2023-07-22 16:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: interpres
+[2023-07-22 16:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: devpm
+[2023-07-22 16:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cihai
+[2023-07-22 16:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robotframework-jupyterlibrary
+[2023-07-22 16:25:54] INFO root fetch - processPackages [sklearn-mlmlm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 16:25:54] INFO root fetch - processPackages [OneOnOne]: New version: [0.6928] Old Version: [0.6927]
+[2023-07-22 16:25:54] INFO root fetch - processPackages [interpres]: New version: [0.3.3b3] Old Version: [0.3.3b2]
+[2023-07-22 16:25:54] INFO root fetch - processPackages [cihai]: New version: [0.9.0a5] Old Version: [0.9.0a4]
+[2023-07-22 16:25:54] INFO root fetch - processPackages [scsd]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-22 16:25:54] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/0a/98/4ddd38a1e51a088e832ba7e63522d73dc145b8cfdec3e34074d50b210372/sklearn_mlmlm-0.0.8.tar.gz
+[2023-07-22 16:25:54] INFO root fetch - processPackages [gp2]: New version: [0.7.22.23] Old Version: [0.5.25.23]
+[2023-07-22 16:25:54] INFO root fetch - processPackages [grooveshop-django-api]: New version: [0.8.5] Old Version: [0.8.1]
+[2023-07-22 16:25:54] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-22 16:25:54] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/87/d0/892b7177a1764dda20b0998169b88a2d40397e3fc05494638c7630e89202/OneOnOne-0.6927.tar.gz
+[2023-07-22 16:25:54] INFO root fetch - processPackages [robotframework-jupyterlibrary]: New version: [0.5.0a0] Old Version: [0.5.0]
+[2023-07-22 16:25:54] INFO root fetch - processPackages [devpm]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-22 16:25:54] INFO root fetch - processPackages [interpres]: Downloading https://files.pythonhosted.org/packages/9c/5f/a8cde3c7fc21973a325467044b17211aec4d08b89a6406e416b3b4a21493/interpres-0.3.3b2.tar.gz
+[2023-07-22 16:25:54] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-22 16:25:54] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/14/c5/4341df052259f0634c957a0398b6fba268219142a79d5303dcaa2a4f128c/grooveshop_django_api-0.8.1.tar.gz
+[2023-07-22 16:25:54] INFO root fetch - processPackages [gp2]: Downloading https://files.pythonhosted.org/packages/2e/7e/09f77c97d01336aeac4c681001bd0213c6c0b47f84ae2ab093f28eb747b3/gp2-0.5.25.23.tar.gz
+[2023-07-22 16:25:54] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/ac/17/337cb25f0f71ec432dbb4bf39eed6d2a4dafd21d01d2144a5cb8372c5985/scsd-0.0.7.tar.gz
+[2023-07-22 16:25:54] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/8e/20/5b0f76a3c4ec519bdc1252725dd78ad4afcc5b17fd82f5330134186be426/sklearn_mlmlm-0.0.9.tar.gz
+[2023-07-22 16:25:54] INFO root fetch - processPackages [devpm]: Downloading https://files.pythonhosted.org/packages/ca/70/163f5566c9c5de79fe2d11e0353f890f2324836580a830bd5de36329cc0c/devpm-1.1.0.tar.gz
+[2023-07-22 16:25:54] INFO root fetch - processPackages [robotframework-jupyterlibrary]: Downloading https://files.pythonhosted.org/packages/26/ce/7093831d01b0c5d1439ff5e7efec64b2dfefa76e838c4fd8762360d0e17c/robotframework_jupyterlibrary-0.5.0.tar.gz
+[2023-07-22 16:25:54] INFO root fetch - processPackages [sklearn-mlmlm]: executing diffoscope
+[2023-07-22 16:25:54] INFO root fetch - processPackages [sklearn-mlmlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_mlmlm-0.0.8.tar.gz tmp/sklearn_mlmlm-0.0.9.tar.gz --markdown 20230722/s/sklearn-mlmlm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 16:25:54] INFO root fetch - processPackages [cihai]: executing diffoscope
+[2023-07-22 16:25:54] INFO root fetch - processPackages [cihai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cihai-0.9.0a4.tar.gz tmp/cihai-0.9.0a5.tar.gz --markdown 20230722/c/cihai/0.9.0a4-0.9.0a5/diff.md --exclude *.pyd
+[2023-07-22 16:25:54] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-22 16:25:54] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/21/d3/589def98eb1875d837c274a917278e736a4b9775f1133ebf1f2ab5d9eb97/OneOnOne-0.6928.tar.gz
+[2023-07-22 16:25:54] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-22 16:25:54] INFO root fetch - processPackages [interpres]: Downloading https://files.pythonhosted.org/packages/fa/c9/30f2fafda35d35fb0878bf64c638668a0bd00e8c758c7826599bc5a04af4/interpres-0.3.3b3.tar.gz
+[2023-07-22 16:25:54] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230722/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-22 16:25:54] INFO root fetch - processPackages [gp2]: Downloading https://files.pythonhosted.org/packages/30/b7/252e7ea0846eda69ad2a87902e57a06db89dec689ed830ec04342ef8987d/gp2-0.7.22.23.tar.gz
+[2023-07-22 16:25:55] INFO root fetch - processPackages [devpm]: Downloading https://files.pythonhosted.org/packages/dc/e6/ab8551dd0f55cd20b1a19c9287891c81430050b4f1e3b4a420e9b7587979/devpm-1.1.1.tar.gz
+[2023-07-22 16:25:55] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 16:25:55] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6927.tar.gz tmp/OneOnOne-0.6928.tar.gz --markdown 20230722/O/OneOnOne/0.6927-0.6928/diff.md --exclude *.pyd
+[2023-07-22 16:25:55] INFO root fetch - processPackages [robotframework-jupyterlibrary]: Downloading https://files.pythonhosted.org/packages/82/ca/b097ed44f673011b163f71377a3f5a7e5c6feeff918cf8c8c1da997b1f5c/robotframework_jupyterlibrary-0.5.0a0.tar.gz
+[2023-07-22 16:25:55] INFO root fetch - processPackages [interpres]: executing diffoscope
+[2023-07-22 16:25:55] INFO root fetch - processPackages [interpres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interpres-0.3.3b2.tar.gz tmp/interpres-0.3.3b3.tar.gz --markdown 20230722/i/interpres/0.3.3b2-0.3.3b3/diff.md --exclude *.pyd
+[2023-07-22 16:25:55] INFO root fetch - processPackages [gp2]: executing diffoscope
+[2023-07-22 16:25:55] INFO root fetch - processPackages [gp2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gp2-0.5.25.23.tar.gz tmp/gp2-0.7.22.23.tar.gz --markdown 20230722/g/gp2/0.5.25.23-0.7.22.23/diff.md --exclude *.pyd
+[2023-07-22 16:25:55] INFO root fetch - processPackages [devpm]: executing diffoscope
+[2023-07-22 16:25:55] INFO root fetch - processPackages [devpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devpm-1.1.0.tar.gz tmp/devpm-1.1.1.tar.gz --markdown 20230722/d/devpm/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-22 16:25:55] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/fb/df/8226300d476a83a512c3f12293ffc7b47fc482097791fb706f22e3f3f9bb/grooveshop_django_api-0.8.5.tar.gz
+[2023-07-22 16:25:55] INFO root fetch - processPackages [robotframework-jupyterlibrary]: executing diffoscope
+[2023-07-22 16:25:55] INFO root fetch - processPackages [robotframework-jupyterlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_jupyterlibrary-0.5.0.tar.gz tmp/robotframework_jupyterlibrary-0.5.0a0.tar.gz --markdown 20230722/r/robotframework-jupyterlibrary/0.5.0-0.5.0a0/diff.md --exclude *.pyd
+[2023-07-22 16:25:55] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/73/23/a235ab52743256110c9399a7cd5232cd00d2be18aa57ea724b20fde057b3/scsd-0.0.8.tar.gz
+[2023-07-22 16:25:55] INFO root fetch - processPackages [grooveshop-django-api]: executing diffoscope
+[2023-07-22 16:25:55] INFO root fetch - processPackages [grooveshop-django-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grooveshop_django_api-0.8.1.tar.gz tmp/grooveshop_django_api-0.8.5.tar.gz --markdown 20230722/g/grooveshop-django-api/0.8.1-0.8.5/diff.md --exclude *.pyd
+[2023-07-22 16:25:55] INFO root fetch - processPackages [scsd]: executing diffoscope
+[2023-07-22 16:25:55] INFO root fetch - processPackages [scsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scsd-0.0.7.tar.gz tmp/scsd-0.0.8.tar.gz --markdown 20230722/s/scsd/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-22 16:25:56] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.8.tar.gz]
+[2023-07-22 16:25:56] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.9.tar.gz]
+[2023-07-22 16:25:56] INFO root fetch - main [MainThread]: End processing [sklearn-mlmlm]: success
+[2023-07-22 16:25:56] ERROR root fetch - processPackages [cihai]: Diffoscope failed: time="2023-07-22T16:25:54+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-07-22 16:25:56] INFO root fetch - main [MainThread]: End processing [cihai] error
+[2023-07-22 16:25:56] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-22 16:25:56] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-22 16:25:56] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-22 16:25:56] INFO root fetch - processPackages [interpres]: Remove: archive file [/home/abi/fetcher/tmp/interpres-0.3.3b2.tar.gz]
+[2023-07-22 16:25:56] INFO root fetch - processPackages [interpres]: Remove: archive file [/home/abi/fetcher/tmp/interpres-0.3.3b3.tar.gz]
+[2023-07-22 16:25:56] INFO root fetch - main [MainThread]: End processing [interpres]: success
+[2023-07-22 16:25:56] INFO root fetch - processPackages [devpm]: Remove: archive file [/home/abi/fetcher/tmp/devpm-1.1.0.tar.gz]
+[2023-07-22 16:25:56] INFO root fetch - processPackages [devpm]: Remove: archive file [/home/abi/fetcher/tmp/devpm-1.1.1.tar.gz]
+[2023-07-22 16:25:56] INFO root fetch - main [MainThread]: End processing [devpm]: success
+[2023-07-22 16:25:56] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6927.tar.gz]
+[2023-07-22 16:25:56] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6928.tar.gz]
+[2023-07-22 16:25:56] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 16:25:56] INFO root fetch - processPackages [gp2]: Remove: archive file [/home/abi/fetcher/tmp/gp2-0.5.25.23.tar.gz]
+[2023-07-22 16:25:56] INFO root fetch - processPackages [gp2]: Remove: archive file [/home/abi/fetcher/tmp/gp2-0.7.22.23.tar.gz]
+[2023-07-22 16:25:56] INFO root fetch - main [MainThread]: End processing [gp2]: success
+[2023-07-22 16:25:57] INFO root fetch - processPackages [scsd]: Remove: archive file [/home/abi/fetcher/tmp/scsd-0.0.7.tar.gz]
+[2023-07-22 16:25:57] INFO root fetch - processPackages [scsd]: Remove: archive file [/home/abi/fetcher/tmp/scsd-0.0.8.tar.gz]
+[2023-07-22 16:25:57] INFO root fetch - main [MainThread]: End processing [scsd]: success
+[2023-07-22 16:25:57] INFO root fetch - processPackages [robotframework-jupyterlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_jupyterlibrary-0.5.0.tar.gz]
+[2023-07-22 16:25:57] INFO root fetch - processPackages [robotframework-jupyterlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_jupyterlibrary-0.5.0a0.tar.gz]
+[2023-07-22 16:25:57] INFO root fetch - main [MainThread]: End processing [robotframework-jupyterlibrary]: success
+[2023-07-22 16:26:00] INFO root fetch - processPackages [grooveshop-django-api]: Remove: archive file [/home/abi/fetcher/tmp/grooveshop_django_api-0.8.1.tar.gz]
+[2023-07-22 16:26:00] INFO root fetch - processPackages [grooveshop-django-api]: Remove: archive file [/home/abi/fetcher/tmp/grooveshop_django_api-0.8.5.tar.gz]
+[2023-07-22 16:26:00] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api]: success
+[2023-07-22 16:26:00] INFO root fetch - main [MainThread]: Store serial: [18995380]
