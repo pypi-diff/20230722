@@ -9126,3 +9126,42 @@
 [2023-07-22 06:37:18] INFO root fetch - processPackages [structuretoolkit]: Remove: archive file [/home/abi/fetcher/tmp/structuretoolkit-0.0.6.tar.gz]
 [2023-07-22 06:37:18] INFO root fetch - main [MainThread]: End processing [structuretoolkit]: success
 [2023-07-22 06:37:18] INFO root fetch - main [MainThread]: Store serial: [18992704]
+[2023-07-22 06:42:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992704]
+[2023-07-22 06:42:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-22 06:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mutual
+[2023-07-22 06:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapid-videocr
+[2023-07-22 06:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: erscipcard
+[2023-07-22 06:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threemystic-cloud-client
+[2023-07-22 06:42:26] INFO root fetch - processPackages [erscipcard]: New version: [1.21] Old Version: [1.2]
+[2023-07-22 06:42:26] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.47] Old Version: [0.1.46]
+[2023-07-22 06:42:26] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/eb/88/f577a270b10f780d61877d2f223defda5678360f6152e6403f48f02ae6a2/erscipcard-1.2.tar.gz
+[2023-07-22 06:42:26] INFO root fetch - processPackages [rapid-videocr]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-07-22 06:42:26] INFO root fetch - processPackages [mutual]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-22 06:42:27] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/7b/7f/e973557fe04df5be8c1bcbf2b8e0f7f25eab35e1d5f23c413051c51391a5/threemystic_cloud_client-0.1.46.tar.gz
+[2023-07-22 06:42:27] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/02/e1/e093e6bea31b191b7d7b9330228cad7853ea703fbe55f08bef538e0c991b/mutual-0.1.4.tar.gz
+[2023-07-22 06:42:27] INFO root fetch - processPackages [rapid-videocr]: Downloading https://files.pythonhosted.org/packages/0d/6e/e3530189ecbb6f33d542e5ac8eb0d15df2708059f2a6f012adf7f7c17cfe/rapid_videocr-2.2.4-py3-none-any.whl
+[2023-07-22 06:42:27] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/b0/07/86a7082ec911c61b5226a8cab91a84e64ca2c96b6dc589c359eb5b11d8be/erscipcard-1.21.tar.gz
+[2023-07-22 06:42:27] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/93/ca/ac1dbef23481ee448fe5d0a69e40e1ed1b545e7476a31c0c237072fbdea0/threemystic_cloud_client-0.1.47.tar.gz
+[2023-07-22 06:42:27] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-22 06:42:27] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.46.tar.gz tmp/threemystic_cloud_client-0.1.47.tar.gz --markdown 20230722/t/threemystic-cloud-client/0.1.46-0.1.47/diff.md --exclude *.pyd
+[2023-07-22 06:42:27] INFO root fetch - processPackages [erscipcard]: executing diffoscope
+[2023-07-22 06:42:27] INFO root fetch - processPackages [erscipcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erscipcard-1.2.tar.gz tmp/erscipcard-1.21.tar.gz --markdown 20230722/e/erscipcard/1.2-1.21/diff.md --exclude *.pyd
+[2023-07-22 06:42:27] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/61/d3/e7b2dfb333aca83bed7bc7616d9e4c937ba9785b26eba4d164fdf9e9980f/mutual-0.2.0.tar.gz
+[2023-07-22 06:42:27] INFO root fetch - processPackages [rapid-videocr]: Downloading https://files.pythonhosted.org/packages/c4/64/4538c75068b920b2fcf2c6279d7f93cb206e5a9b949519cdb4fed5dfd4cc/rapid_videocr-2.2.5-py3-none-any.whl
+[2023-07-22 06:42:27] INFO root fetch - processPackages [mutual]: executing diffoscope
+[2023-07-22 06:42:27] INFO root fetch - processPackages [mutual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutual-0.1.4.tar.gz tmp/mutual-0.2.0.tar.gz --markdown 20230722/m/mutual/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-22 06:42:27] INFO root fetch - processPackages [rapid-videocr]: executing diffoscope
+[2023-07-22 06:42:27] INFO root fetch - processPackages [rapid-videocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_videocr-2.2.4-py3-none-any.whl.zip tmp/rapid_videocr-2.2.5-py3-none-any.whl.zip --markdown 20230722/r/rapid-videocr/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-07-22 06:42:28] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.46.tar.gz]
+[2023-07-22 06:42:28] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.47.tar.gz]
+[2023-07-22 06:42:28] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-22 06:42:28] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.1.4.tar.gz]
+[2023-07-22 06:42:28] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.2.0.tar.gz]
+[2023-07-22 06:42:28] INFO root fetch - main [MainThread]: End processing [mutual]: success
+[2023-07-22 06:42:28] INFO root fetch - processPackages [rapid-videocr]: Remove: archive file [/home/abi/fetcher/tmp/rapid_videocr-2.2.4-py3-none-any.whl.zip]
+[2023-07-22 06:42:28] INFO root fetch - processPackages [rapid-videocr]: Remove: archive file [/home/abi/fetcher/tmp/rapid_videocr-2.2.5-py3-none-any.whl.zip]
+[2023-07-22 06:42:28] INFO root fetch - main [MainThread]: End processing [rapid-videocr]: success
+[2023-07-22 06:42:28] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.2.tar.gz]
+[2023-07-22 06:42:28] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.21.tar.gz]
+[2023-07-22 06:42:28] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
+[2023-07-22 06:42:28] INFO root fetch - main [MainThread]: Store serial: [18992713]
