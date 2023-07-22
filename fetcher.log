@@ -8064,3 +8064,74 @@
 [2023-07-22 05:08:51] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-22 05:08:51] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-22 05:08:51] INFO root fetch - main [MainThread]: Store serial: [18992352]
+[2023-07-22 05:13:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992352]
+[2023-07-22 05:14:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-22 05:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-honeybee
+[2023-07-22 05:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-ddmrp
+[2023-07-22 05:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reflex
+[2023-07-22 05:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zfl-ai
+[2023-07-22 05:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gdsfactory
+[2023-07-22 05:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbt-dragonfly
+[2023-07-22 05:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: transformers-js-py
+[2023-07-22 05:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GANDLF
+[2023-07-22 05:14:01] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [15.0.1.9.3.1] Old Version: [15.0.1.9.3]
+[2023-07-22 05:14:01] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230721] Old Version: [0.0.17.dev20230720]
+[2023-07-22 05:14:01] INFO root fetch - processPackages [zfl-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 05:14:01] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-22 05:14:01] INFO root fetch - processPackages [reflex]: New version: [0.2.3a1] Old Version: [0.2.2a1]
+[2023-07-22 05:14:01] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/d4/11/353841b9584dd485465de4a95aad7c534802c2f0e6a6cba93390e0f15383/odoo_addon_ddmrp-15.0.1.9.3-py3-none-any.whl
+[2023-07-22 05:14:01] INFO root fetch - processPackages [transformers-js-py]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-22 05:14:01] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-22 05:14:01] INFO root fetch - processPackages [gdsfactory]: New version: [6.99.0] Old Version: [6.98.2]
+[2023-07-22 05:14:01] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/d4/a3/0e4718172f98ee009f9c70c97752b18a466001f1dfe00fbb6afd54131e23/GANDLF-0.0.17.dev20230720.tar.gz
+[2023-07-22 05:14:01] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-22 05:14:01] INFO root fetch - processPackages [transformers-js-py]: Downloading https://files.pythonhosted.org/packages/81/62/c3f3d49f3d49b9bf13c357d0fe252c1980e1659b9bf098caaefcc6b28592/transformers_js_py-0.1.1.tar.gz
+[2023-07-22 05:14:01] INFO root fetch - processPackages [zfl-ai]: Downloading https://files.pythonhosted.org/packages/03/91/551384ced74a08245e2e33bc6408b3877abd30b2262ffd9a661984a15009/zfl_ai-0.0.8.tar.gz
+[2023-07-22 05:14:01] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/3d/41/2e33b7577ad0e806ded85dfc771c367f0ad9bd1d11d79439cb8f6b13ae91/odoo_addon_ddmrp-15.0.1.9.3.1-py3-none-any.whl
+[2023-07-22 05:14:02] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/be/b2/3ccc4cc903e2bdd09e36ceee13ffcdcc1902e295307a202e3401f72a0a59/GANDLF-0.0.17.dev20230721.tar.gz
+[2023-07-22 05:14:02] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-22 05:14:02] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-22 05:14:02] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/07/35/414647ec29512d6230f6a059d2836dd276fffd7a69b6941c83a8ca532769/reflex-0.2.2a1.tar.gz
+[2023-07-22 05:14:02] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/c8/dd/88303eeb3c46484a4a64c2675611a92ea3816ae1ec8181c6eb5e78e85064/gdsfactory-6.98.2.tar.gz
+[2023-07-22 05:14:02] WARNING root fetch - processPackages [zfl-ai]: Skipping package: exceeds size limit 30240283>=10485760
+[2023-07-22 05:14:02] INFO root fetch - main [MainThread]: End processing [zfl-ai] error
+[2023-07-22 05:14:02] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2023-07-22 05:14:02] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-15.0.1.9.3-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-15.0.1.9.3.1-py3-none-any.whl.zip --markdown 20230722/o/odoo-addon-ddmrp/15.0.1.9.3-15.0.1.9.3.1/diff.md --exclude *.pyd
+[2023-07-22 05:14:02] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-22 05:14:02] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230722/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-22 05:14:02] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-07-22 05:14:02] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230720.tar.gz tmp/GANDLF-0.0.17.dev20230721.tar.gz --markdown 20230722/G/GANDLF/0.0.17.dev20230720-0.0.17.dev20230721/diff.md --exclude *.pyd
+[2023-07-22 05:14:02] INFO root fetch - processPackages [transformers-js-py]: Downloading https://files.pythonhosted.org/packages/92/88/56048a8cabd150c021de24805a36c6383ff3fed15488dc77002fdafa3938/transformers_js_py-0.1.2.tar.gz
+[2023-07-22 05:14:02] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-22 05:14:02] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/fe/ba/0b79a1773da4348721318bffbe8a2ad0bee8368f1ed949d13a2b06d36540/reflex-0.2.3a1.tar.gz
+[2023-07-22 05:14:02] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-22 05:14:02] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230722/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-22 05:14:02] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/7e/ec/2cd39e2ce278d617eac6988e914b8df36d3496205cac9e991937c8cd1fe3/gdsfactory-6.99.0.tar.gz
+[2023-07-22 05:14:02] INFO root fetch - processPackages [transformers-js-py]: executing diffoscope
+[2023-07-22 05:14:02] INFO root fetch - processPackages [transformers-js-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers_js_py-0.1.1.tar.gz tmp/transformers_js_py-0.1.2.tar.gz --markdown 20230722/t/transformers-js-py/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-22 05:14:02] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2023-07-22 05:14:02] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.2.2a1.tar.gz tmp/reflex-0.2.3a1.tar.gz --markdown 20230722/r/reflex/0.2.2a1-0.2.3a1/diff.md --exclude *.pyd
+[2023-07-22 05:14:02] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-07-22 05:14:02] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.98.2.tar.gz tmp/gdsfactory-6.99.0.tar.gz --markdown 20230722/g/gdsfactory/6.98.2-6.99.0/diff.md --exclude *.pyd
+[2023-07-22 05:14:03] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-22 05:14:03] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-22 05:14:03] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-22 05:14:03] INFO root fetch - processPackages [transformers-js-py]: Remove: archive file [/home/abi/fetcher/tmp/transformers_js_py-0.1.1.tar.gz]
+[2023-07-22 05:14:03] INFO root fetch - processPackages [transformers-js-py]: Remove: archive file [/home/abi/fetcher/tmp/transformers_js_py-0.1.2.tar.gz]
+[2023-07-22 05:14:03] INFO root fetch - main [MainThread]: End processing [transformers-js-py]: success
+[2023-07-22 05:14:03] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-22 05:14:03] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-22 05:14:03] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-22 05:14:03] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-15.0.1.9.3-py3-none-any.whl.zip]
+[2023-07-22 05:14:03] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-15.0.1.9.3.1-py3-none-any.whl.zip]
+[2023-07-22 05:14:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2023-07-22 05:14:03] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230720.tar.gz]
+[2023-07-22 05:14:03] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230721.tar.gz]
+[2023-07-22 05:14:03] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-07-22 05:14:04] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.2a1.tar.gz]
+[2023-07-22 05:14:04] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.3a1.tar.gz]
+[2023-07-22 05:14:04] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2023-07-22 05:14:06] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.98.2.tar.gz]
+[2023-07-22 05:14:06] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
+[2023-07-22 05:14:06] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-07-22 05:14:06] INFO root fetch - main [MainThread]: Store serial: [18992375]
