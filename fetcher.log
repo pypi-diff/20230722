@@ -18909,3 +18909,42 @@ EOFError: EOF read where object expected
 [2023-07-22 21:24:19] INFO root fetch - processPackages [balcony]: Remove: archive file [/home/abi/fetcher/tmp/balcony-0.1.9.tar.gz]
 [2023-07-22 21:24:19] INFO root fetch - main [MainThread]: End processing [balcony]: success
 [2023-07-22 21:24:19] INFO root fetch - main [MainThread]: Store serial: [18997081]
+[2023-07-22 21:29:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18997081]
+[2023-07-22 21:29:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-22 21:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otf-addons-aws
+[2023-07-22 21:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: medimageaugment
+[2023-07-22 21:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roblox-pyc
+[2023-07-22 21:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swarms
+[2023-07-22 21:29:27] INFO root fetch - processPackages [otf-addons-aws]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-22 21:29:28] INFO root fetch - processPackages [swarms]: New version: [1.9.0] Old Version: [1.0.6]
+[2023-07-22 21:29:28] INFO root fetch - processPackages [medimageaugment]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-22 21:29:28] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-22 21:29:28] INFO root fetch - processPackages [medimageaugment]: Downloading https://files.pythonhosted.org/packages/08/4b/026ae4fe6cc1e2d252283d465d09be74d48bbcf83fcb1271d86aeb86db39/medimageaugment-1.2.5.tar.gz
+[2023-07-22 21:29:28] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-22 21:29:28] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/e2/b3/2ff88bb9682e2c9e987e853334ea2fd9baa74a18e781e8b827950ad05aee/swarms-1.0.6.tar.gz
+[2023-07-22 21:29:28] INFO root fetch - processPackages [otf-addons-aws]: Downloading https://files.pythonhosted.org/packages/18/2b/43293e08819f72342fc91adebf8df8066fb066e212bbb74666050601132d/otf-addons-aws-0.5.1.tar.gz
+[2023-07-22 21:29:28] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-22 21:29:28] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/47/61/2296c4861da08a33b70d6a3f25b4388498f6efacac63f23643ab0506af02/swarms-1.9.0.tar.gz
+[2023-07-22 21:29:28] INFO root fetch - processPackages [medimageaugment]: Downloading https://files.pythonhosted.org/packages/22/db/8b1450e99c95f2c3363be554eba4070f1712271bc987724eb6f1a3454c6d/medimageaugment-1.2.6.tar.gz
+[2023-07-22 21:29:28] INFO root fetch - processPackages [otf-addons-aws]: Downloading https://files.pythonhosted.org/packages/e2/95/2770701e1b2b66bb1a99c40ff4cba0f8bc90dd1e41334dffd1c86d8cf07d/otf-addons-aws-0.5.2.tar.gz
+[2023-07-22 21:29:28] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-22 21:29:28] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230722/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-22 21:29:28] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-22 21:29:28] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-1.0.6.tar.gz tmp/swarms-1.9.0.tar.gz --markdown 20230722/s/swarms/1.0.6-1.9.0/diff.md --exclude *.pyd
+[2023-07-22 21:29:28] INFO root fetch - processPackages [medimageaugment]: executing diffoscope
+[2023-07-22 21:29:28] INFO root fetch - processPackages [medimageaugment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medimageaugment-1.2.5.tar.gz tmp/medimageaugment-1.2.6.tar.gz --markdown 20230722/m/medimageaugment/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-22 21:29:28] INFO root fetch - processPackages [otf-addons-aws]: executing diffoscope
+[2023-07-22 21:29:28] INFO root fetch - processPackages [otf-addons-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otf-addons-aws-0.5.1.tar.gz tmp/otf-addons-aws-0.5.2.tar.gz --markdown 20230722/o/otf-addons-aws/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-22 21:29:29] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-22 21:29:29] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-22 21:29:29] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-22 21:29:29] INFO root fetch - processPackages [medimageaugment]: Remove: archive file [/home/abi/fetcher/tmp/medimageaugment-1.2.5.tar.gz]
+[2023-07-22 21:29:29] INFO root fetch - processPackages [medimageaugment]: Remove: archive file [/home/abi/fetcher/tmp/medimageaugment-1.2.6.tar.gz]
+[2023-07-22 21:29:29] INFO root fetch - main [MainThread]: End processing [medimageaugment]: success
+[2023-07-22 21:29:29] INFO root fetch - processPackages [otf-addons-aws]: Remove: archive file [/home/abi/fetcher/tmp/otf-addons-aws-0.5.1.tar.gz]
+[2023-07-22 21:29:29] INFO root fetch - processPackages [otf-addons-aws]: Remove: archive file [/home/abi/fetcher/tmp/otf-addons-aws-0.5.2.tar.gz]
+[2023-07-22 21:29:29] INFO root fetch - main [MainThread]: End processing [otf-addons-aws]: success
+[2023-07-22 21:29:29] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-1.0.6.tar.gz]
+[2023-07-22 21:29:29] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-1.9.0.tar.gz]
+[2023-07-22 21:29:29] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-22 21:29:29] INFO root fetch - main [MainThread]: Store serial: [18997090]
