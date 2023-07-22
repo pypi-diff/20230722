@@ -7572,3 +7572,46 @@
 [2023-07-22 04:16:44] INFO root fetch - processPackages [params-proto]: Remove: archive file [/home/abi/fetcher/tmp/params_proto-2.9.7-py3-none-any.whl.zip]
 [2023-07-22 04:16:44] INFO root fetch - main [MainThread]: End processing [params-proto]: success
 [2023-07-22 04:16:44] INFO root fetch - main [MainThread]: Store serial: [18992178]
+[2023-07-22 04:21:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992178]
+[2023-07-22 04:21:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 04:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roblox-pyc
+[2023-07-22 04:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anthropic
+[2023-07-22 04:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlx-batis
+[2023-07-22 04:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roblox-pyc
+[2023-07-22 04:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openram
+[2023-07-22 04:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openctp-client
+[2023-07-22 04:21:53] WARNING root fetch - processPackages [sqlx-batis]: Skipping, unable to determine old version
+[2023-07-22 04:21:53] INFO root fetch - main [MainThread]: End processing [sqlx-batis] error
+[2023-07-22 04:21:53] INFO root fetch - processPackages [anthropic]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-22 04:21:53] INFO root fetch - processPackages [openram]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-22 04:21:53] WARNING root fetch - processPackages [openctp-client]: Skipping, unable to determine old version
+[2023-07-22 04:21:53] INFO root fetch - main [MainThread]: End processing [openctp-client] error
+[2023-07-22 04:21:53] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-22 04:21:53] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-22 04:21:53] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/bb/0c/a3359312877470f671603245a4d00618ec8406430199e8f677d651be9028/anthropic-0.3.5.tar.gz
+[2023-07-22 04:21:53] INFO root fetch - processPackages [openram]: Downloading https://files.pythonhosted.org/packages/cd/81/d4f41efe943d85919e448d6c65c4be619651aadd21d63f69137165780373/openram-1.2.8.tar.gz
+[2023-07-22 04:21:53] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-22 04:21:53] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-22 04:21:53] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/98/7a/4a9d0ceff414a53ee505243e2a8a682b6812fb1faa265efe1417fab8b040/anthropic-0.3.6.tar.gz
+[2023-07-22 04:21:53] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-22 04:21:53] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-22 04:21:53] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-22 04:21:53] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230722/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-22 04:21:53] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-22 04:21:53] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230722/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-22 04:21:54] INFO root fetch - processPackages [anthropic]: executing diffoscope
+[2023-07-22 04:21:54] INFO root fetch - processPackages [anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anthropic-0.3.5.tar.gz tmp/anthropic-0.3.6.tar.gz --markdown 20230722/a/anthropic/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-22 04:21:54] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-22 04:21:54] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-22 04:21:54] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-22 04:21:54] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-22 04:21:54] INFO root fetch - processPackages [openram]: Downloading https://files.pythonhosted.org/packages/db/55/baee5dcc46fb63835c99917282700e98ba6d6177d267d541ceb50f1352d8/openram-1.2.9.tar.gz
+[2023-07-22 04:21:55] INFO root fetch - processPackages [anthropic]: Remove: archive file [/home/abi/fetcher/tmp/anthropic-0.3.5.tar.gz]
+[2023-07-22 04:21:55] INFO root fetch - processPackages [anthropic]: Remove: archive file [/home/abi/fetcher/tmp/anthropic-0.3.6.tar.gz]
+[2023-07-22 04:21:55] INFO root fetch - main [MainThread]: End processing [anthropic]: success
+[2023-07-22 04:21:56] INFO root fetch - processPackages [openram]: executing diffoscope
+[2023-07-22 04:21:56] INFO root fetch - processPackages [openram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openram-1.2.8.tar.gz tmp/openram-1.2.9.tar.gz --markdown 20230722/o/openram/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-22 04:22:01] INFO root fetch - processPackages [openram]: Remove: archive file [/home/abi/fetcher/tmp/openram-1.2.8.tar.gz]
+[2023-07-22 04:22:01] INFO root fetch - processPackages [openram]: Remove: archive file [/home/abi/fetcher/tmp/openram-1.2.9.tar.gz]
+[2023-07-22 04:22:01] INFO root fetch - main [MainThread]: End processing [openram]: success
+[2023-07-22 04:22:01] INFO root fetch - main [MainThread]: Store serial: [18992203]
