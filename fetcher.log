@@ -16845,3 +16845,64 @@ EOFError: EOF read where object expected
 [2023-07-22 18:31:17] INFO root fetch - processPackages [alphavantage-api-client]: Remove: archive file [/home/abi/fetcher/tmp/alphavantage_api_client-2.3.0-py3-none-any.whl.zip]
 [2023-07-22 18:31:17] INFO root fetch - main [MainThread]: End processing [alphavantage-api-client]: success
 [2023-07-22 18:31:17] INFO root fetch - main [MainThread]: Store serial: [18996187]
+[2023-07-22 18:36:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996187]
+[2023-07-22 18:36:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-22 18:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: balcony
+[2023-07-22 18:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sklearn-mlmlm
+[2023-07-22 18:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odooless
+[2023-07-22 18:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gs-peer-connection
+[2023-07-22 18:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opentps-gui
+[2023-07-22 18:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: test-pip-abcde-v01
+[2023-07-22 18:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trainer
+[2023-07-22 18:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sklearn-mlmlm
+[2023-07-22 18:36:26] INFO root fetch - processPackages [sklearn-mlmlm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 18:36:26] INFO root fetch - processPackages [sklearn-mlmlm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 18:36:26] INFO root fetch - processPackages [gs-peer-connection]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 18:36:26] WARNING root fetch - processPackages [odooless]: Skipping, unable to determine old version
+[2023-07-22 18:36:26] INFO root fetch - main [MainThread]: End processing [odooless] error
+[2023-07-22 18:36:26] INFO root fetch - processPackages [opentps-gui]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-22 18:36:26] INFO root fetch - processPackages [trainer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 18:36:26] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/0a/98/4ddd38a1e51a088e832ba7e63522d73dc145b8cfdec3e34074d50b210372/sklearn_mlmlm-0.0.8.tar.gz
+[2023-07-22 18:36:26] WARNING root fetch - processPackages [test-pip-abcde-v01]: Skipping, unable to determine old version
+[2023-07-22 18:36:26] INFO root fetch - main [MainThread]: End processing [test-pip-abcde-v01] error
+[2023-07-22 18:36:26] INFO root fetch - processPackages [balcony]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-22 18:36:26] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/0a/98/4ddd38a1e51a088e832ba7e63522d73dc145b8cfdec3e34074d50b210372/sklearn_mlmlm-0.0.8.tar.gz
+[2023-07-22 18:36:26] INFO root fetch - processPackages [gs-peer-connection]: Downloading https://files.pythonhosted.org/packages/2b/f2/2fad48c1e8beffe0dcfbe560081f9686682cf52ef15bd8c1ca2f4ef6b33a/gs-peer-connection-0.0.8.tar.gz
+[2023-07-22 18:36:26] INFO root fetch - processPackages [balcony]: Downloading https://files.pythonhosted.org/packages/67/eb/6d7516170d90f06a7092fbb7e97ebe1ee94911389010279ba391d0dc6ed8/balcony-0.1.8.tar.gz
+[2023-07-22 18:36:26] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/8e/20/5b0f76a3c4ec519bdc1252725dd78ad4afcc5b17fd82f5330134186be426/sklearn_mlmlm-0.0.9.tar.gz
+[2023-07-22 18:36:26] INFO root fetch - processPackages [trainer]: Downloading https://files.pythonhosted.org/packages/41/02/ba061ab8fc85a8095a693bcd9335c02e924f4b19a74d0538cbdd87bc879c/trainer-0.0.8.tar.gz
+[2023-07-22 18:36:26] INFO root fetch - processPackages [sklearn-mlmlm]: Downloading https://files.pythonhosted.org/packages/8e/20/5b0f76a3c4ec519bdc1252725dd78ad4afcc5b17fd82f5330134186be426/sklearn_mlmlm-0.0.9.tar.gz
+[2023-07-22 18:36:26] INFO root fetch - processPackages [opentps-gui]: Downloading https://files.pythonhosted.org/packages/ee/cb/e590498fd3bd6439b587209af92570a6f4d3cec179770fbf111fbc0bfcfa/opentps-gui-1.0.4.tar.gz
+[2023-07-22 18:36:26] INFO root fetch - processPackages [gs-peer-connection]: Downloading https://files.pythonhosted.org/packages/e9/3a/a4f33a77bfb1c126891781631ab489faaa57e9730c21f81fa0ce8178474e/gs-peer-connection-0.0.9.tar.gz
+[2023-07-22 18:36:26] INFO root fetch - processPackages [sklearn-mlmlm]: executing diffoscope
+[2023-07-22 18:36:26] INFO root fetch - processPackages [sklearn-mlmlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_mlmlm-0.0.8.tar.gz tmp/sklearn_mlmlm-0.0.9.tar.gz --markdown 20230722/s/sklearn-mlmlm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 18:36:26] INFO root fetch - processPackages [sklearn-mlmlm]: executing diffoscope
+[2023-07-22 18:36:26] INFO root fetch - processPackages [sklearn-mlmlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_mlmlm-0.0.8.tar.gz tmp/sklearn_mlmlm-0.0.9.tar.gz --markdown 20230722/s/sklearn-mlmlm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 18:36:26] INFO root fetch - processPackages [gs-peer-connection]: executing diffoscope
+[2023-07-22 18:36:26] INFO root fetch - processPackages [gs-peer-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs-peer-connection-0.0.8.tar.gz tmp/gs-peer-connection-0.0.9.tar.gz --markdown 20230722/g/gs-peer-connection/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 18:36:26] INFO root fetch - processPackages [balcony]: Downloading https://files.pythonhosted.org/packages/a5/88/a2caff9b76bd830c15698696c8acd2ab655b0bfb879c805b94c791c9311f/balcony-0.1.9.tar.gz
+[2023-07-22 18:36:26] INFO root fetch - processPackages [trainer]: Downloading https://files.pythonhosted.org/packages/65/4f/3f1d3eeeed1e74373c7a7e85cceb31015446a29da5f86c21294febc83447/trainer-0.0.9.tar.gz
+[2023-07-22 18:36:27] INFO root fetch - processPackages [opentps-gui]: Downloading https://files.pythonhosted.org/packages/de/5c/305220b83925d9294f1d8646d926f212d1eb649c1054628227b359c2b883/opentps_gui-1.0.5.tar.gz
+[2023-07-22 18:36:27] INFO root fetch - processPackages [balcony]: executing diffoscope
+[2023-07-22 18:36:27] INFO root fetch - processPackages [balcony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balcony-0.1.8.tar.gz tmp/balcony-0.1.9.tar.gz --markdown 20230722/b/balcony/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-22 18:36:27] INFO root fetch - processPackages [trainer]: executing diffoscope
+[2023-07-22 18:36:27] INFO root fetch - processPackages [trainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trainer-0.0.8.tar.gz tmp/trainer-0.0.9.tar.gz --markdown 20230722/t/trainer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 18:36:27] INFO root fetch - processPackages [opentps-gui]: executing diffoscope
+[2023-07-22 18:36:27] INFO root fetch - processPackages [opentps-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentps-gui-1.0.4.tar.gz tmp/opentps_gui-1.0.5.tar.gz --markdown 20230722/o/opentps-gui/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-22 18:36:27] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.8.tar.gz]
+[2023-07-22 18:36:27] INFO root fetch - processPackages [sklearn-mlmlm]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_mlmlm-0.0.9.tar.gz]
+[2023-07-22 18:36:27] INFO root fetch - main [MainThread]: End processing [sklearn-mlmlm]: success
+[2023-07-22 18:36:27] INFO root fetch - main [MainThread]: End processing [sklearn-mlmlm]: success
+[2023-07-22 18:36:27] INFO root fetch - processPackages [gs-peer-connection]: Remove: archive file [/home/abi/fetcher/tmp/gs-peer-connection-0.0.8.tar.gz]
+[2023-07-22 18:36:27] INFO root fetch - processPackages [gs-peer-connection]: Remove: archive file [/home/abi/fetcher/tmp/gs-peer-connection-0.0.9.tar.gz]
+[2023-07-22 18:36:27] INFO root fetch - main [MainThread]: End processing [gs-peer-connection]: success
+[2023-07-22 18:36:28] INFO root fetch - processPackages [trainer]: Remove: archive file [/home/abi/fetcher/tmp/trainer-0.0.8.tar.gz]
+[2023-07-22 18:36:28] INFO root fetch - processPackages [trainer]: Remove: archive file [/home/abi/fetcher/tmp/trainer-0.0.9.tar.gz]
+[2023-07-22 18:36:28] INFO root fetch - main [MainThread]: End processing [trainer]: success
+[2023-07-22 18:36:28] INFO root fetch - processPackages [balcony]: Remove: archive file [/home/abi/fetcher/tmp/balcony-0.1.8.tar.gz]
+[2023-07-22 18:36:28] INFO root fetch - processPackages [balcony]: Remove: archive file [/home/abi/fetcher/tmp/balcony-0.1.9.tar.gz]
+[2023-07-22 18:36:28] INFO root fetch - main [MainThread]: End processing [balcony]: success
+[2023-07-22 18:36:28] INFO root fetch - processPackages [opentps-gui]: Remove: archive file [/home/abi/fetcher/tmp/opentps-gui-1.0.4.tar.gz]
+[2023-07-22 18:36:28] INFO root fetch - processPackages [opentps-gui]: Remove: archive file [/home/abi/fetcher/tmp/opentps_gui-1.0.5.tar.gz]
+[2023-07-22 18:36:28] INFO root fetch - main [MainThread]: End processing [opentps-gui]: success
+[2023-07-22 18:36:28] INFO root fetch - main [MainThread]: Store serial: [18996215]
