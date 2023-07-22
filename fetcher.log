@@ -20243,3 +20243,73 @@ EOFError: EOF read where object expected
 [2023-07-22 23:26:04] INFO root fetch - processPackages [gvar]: Remove: archive file [/home/abi/fetcher/tmp/gvar-9.2.1.tar.gz]
 [2023-07-22 23:26:04] INFO root fetch - main [MainThread]: End processing [gvar]: success
 [2023-07-22 23:26:04] INFO root fetch - main [MainThread]: Store serial: [18997770]
+[2023-07-22 23:31:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18997770]
+[2023-07-22 23:31:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-22 23:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moto
+[2023-07-22 23:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sightvision
+[2023-07-22 23:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jinjanator
+[2023-07-22 23:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepcellpredictor
+[2023-07-22 23:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sightvision
+[2023-07-22 23:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sita-package-ml
+[2023-07-22 23:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hahomematic
+[2023-07-22 23:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coola
+[2023-07-22 23:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AutoQPF
+[2023-07-22 23:31:14] INFO root fetch - processPackages [sightvision]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-22 23:31:14] INFO root fetch - processPackages [deepcellpredictor]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-22 23:31:14] INFO root fetch - processPackages [jinjanator]: New version: [23.2.0] Old Version: [23.1.0]
+[2023-07-22 23:31:14] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-22 23:31:14] INFO root fetch - processPackages [sightvision]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-22 23:31:14] INFO root fetch - processPackages [coola]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 23:31:14] ERROR root fetch - processPackages [AutoQPF]: Unable to get metadata: No such project 'AutoQPF'
+[2023-07-22 23:31:14] INFO root fetch - main [MainThread]: End processing [AutoQPF] error
+[2023-07-22 23:31:14] WARNING root fetch - processPackages [sita-package-ml]: Skipping, unable to determine old version
+[2023-07-22 23:31:14] INFO root fetch - main [MainThread]: End processing [sita-package-ml] error
+[2023-07-22 23:31:14] INFO root fetch - processPackages [hahomematic]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-22 23:31:14] INFO root fetch - processPackages [deepcellpredictor]: Downloading https://files.pythonhosted.org/packages/c4/65/0c29234405298f9114e5579f33328b7d492881f6174e4072e8f5b6d56d24/deepcellpredictor-0.9.4.tar.gz
+[2023-07-22 23:31:14] INFO root fetch - processPackages [sightvision]: Downloading https://files.pythonhosted.org/packages/8a/b2/d5f2cfd255ec3ed743cab40d7ccb19f77bd350d7c42b61e681e4e7c389cc/sightvision-0.1.6.tar.gz
+[2023-07-22 23:31:14] INFO root fetch - processPackages [sightvision]: Downloading https://files.pythonhosted.org/packages/8a/b2/d5f2cfd255ec3ed743cab40d7ccb19f77bd350d7c42b61e681e4e7c389cc/sightvision-0.1.6.tar.gz
+[2023-07-22 23:31:14] INFO root fetch - processPackages [jinjanator]: Downloading https://files.pythonhosted.org/packages/9d/d1/6c49c856c4ce668fec5bcee456ff424ad9d8bdf1ebc8573e8284e53d2633/jinjanator-23.1.0.tar.gz
+[2023-07-22 23:31:14] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-22 23:31:14] INFO root fetch - processPackages [coola]: Downloading https://files.pythonhosted.org/packages/ca/0c/e47f7fdc6f34e79ff4ab3b21c0ef7b7f32f62be0255411f914475666fb8c/coola-0.0.8.tar.gz
+[2023-07-22 23:31:14] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/de/7d/8cd5e04708bb59bf280172c05156df8933f0595a9fae37371435c500bf16/hahomematic-2023.7.3.tar.gz
+[2023-07-22 23:31:15] INFO root fetch - processPackages [sightvision]: Downloading https://files.pythonhosted.org/packages/bd/39/305c12d639b6121848ccc983fe180f300814d67b539cc09d4205d771da92/sightvision-0.1.7.tar.gz
+[2023-07-22 23:31:15] INFO root fetch - processPackages [sightvision]: Downloading https://files.pythonhosted.org/packages/bd/39/305c12d639b6121848ccc983fe180f300814d67b539cc09d4205d771da92/sightvision-0.1.7.tar.gz
+[2023-07-22 23:31:15] INFO root fetch - processPackages [deepcellpredictor]: Downloading https://files.pythonhosted.org/packages/1c/7b/ed89b4a6c41310cee58cf077dd62579b61e50a2835851be7219944f9af47/deepcellpredictor-0.9.5.tar.gz
+[2023-07-22 23:31:15] INFO root fetch - processPackages [jinjanator]: Downloading https://files.pythonhosted.org/packages/83/c8/4a24d01549f2019bd41ddd7ebe721da6ae652606143ad51ac1c8de2dc3ac/jinjanator-23.2.0.tar.gz
+[2023-07-22 23:31:15] INFO root fetch - processPackages [sightvision]: executing diffoscope
+[2023-07-22 23:31:15] INFO root fetch - processPackages [sightvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sightvision-0.1.6.tar.gz tmp/sightvision-0.1.7.tar.gz --markdown 20230722/s/sightvision/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-22 23:31:15] INFO root fetch - processPackages [deepcellpredictor]: executing diffoscope
+[2023-07-22 23:31:15] INFO root fetch - processPackages [sightvision]: executing diffoscope
+[2023-07-22 23:31:15] INFO root fetch - processPackages [deepcellpredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepcellpredictor-0.9.4.tar.gz tmp/deepcellpredictor-0.9.5.tar.gz --markdown 20230722/d/deepcellpredictor/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-22 23:31:15] INFO root fetch - processPackages [sightvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sightvision-0.1.6.tar.gz tmp/sightvision-0.1.7.tar.gz --markdown 20230722/s/sightvision/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-22 23:31:15] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/42/01/5d9bd21330e30486d434e212294b8050a93168c57b91cefb6f4c9067aca2/hahomematic-2023.7.4.tar.gz
+[2023-07-22 23:31:15] INFO root fetch - processPackages [coola]: Downloading https://files.pythonhosted.org/packages/67/49/16dce5b5e529dd9625489d79e8f5d3f192bb6a514bfb92247ce5198fda1a/coola-0.0.9.tar.gz
+[2023-07-22 23:31:15] INFO root fetch - processPackages [jinjanator]: executing diffoscope
+[2023-07-22 23:31:15] INFO root fetch - processPackages [jinjanator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinjanator-23.1.0.tar.gz tmp/jinjanator-23.2.0.tar.gz --markdown 20230722/j/jinjanator/23.1.0-23.2.0/diff.md --exclude *.pyd
+[2023-07-22 23:31:15] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2023-07-22 23:31:15] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2023.7.3.tar.gz tmp/hahomematic-2023.7.4.tar.gz --markdown 20230722/h/hahomematic/2023.7.3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-22 23:31:15] INFO root fetch - processPackages [coola]: executing diffoscope
+[2023-07-22 23:31:15] INFO root fetch - processPackages [coola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coola-0.0.8.tar.gz tmp/coola-0.0.9.tar.gz --markdown 20230722/c/coola/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 23:31:15] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-22 23:31:15] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-22 23:31:15] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230722/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-22 23:31:16] INFO root fetch - processPackages [sightvision]: Remove: archive file [/home/abi/fetcher/tmp/sightvision-0.1.6.tar.gz]
+[2023-07-22 23:31:16] INFO root fetch - processPackages [sightvision]: Remove: archive file [/home/abi/fetcher/tmp/sightvision-0.1.7.tar.gz]
+[2023-07-22 23:31:16] INFO root fetch - main [MainThread]: End processing [sightvision]: success
+[2023-07-22 23:31:16] INFO root fetch - main [MainThread]: End processing [sightvision]: success
+[2023-07-22 23:31:16] INFO root fetch - processPackages [deepcellpredictor]: Remove: archive file [/home/abi/fetcher/tmp/deepcellpredictor-0.9.4.tar.gz]
+[2023-07-22 23:31:16] INFO root fetch - processPackages [deepcellpredictor]: Remove: archive file [/home/abi/fetcher/tmp/deepcellpredictor-0.9.5.tar.gz]
+[2023-07-22 23:31:16] INFO root fetch - main [MainThread]: End processing [deepcellpredictor]: success
+[2023-07-22 23:31:16] INFO root fetch - processPackages [jinjanator]: Remove: archive file [/home/abi/fetcher/tmp/jinjanator-23.1.0.tar.gz]
+[2023-07-22 23:31:16] INFO root fetch - processPackages [jinjanator]: Remove: archive file [/home/abi/fetcher/tmp/jinjanator-23.2.0.tar.gz]
+[2023-07-22 23:31:16] INFO root fetch - main [MainThread]: End processing [jinjanator]: success
+[2023-07-22 23:31:16] INFO root fetch - processPackages [coola]: Remove: archive file [/home/abi/fetcher/tmp/coola-0.0.8.tar.gz]
+[2023-07-22 23:31:16] INFO root fetch - processPackages [coola]: Remove: archive file [/home/abi/fetcher/tmp/coola-0.0.9.tar.gz]
+[2023-07-22 23:31:16] INFO root fetch - main [MainThread]: End processing [coola]: success
+[2023-07-22 23:31:16] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2023.7.3.tar.gz]
+[2023-07-22 23:31:16] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2023.7.4.tar.gz]
+[2023-07-22 23:31:16] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2023-07-22 23:31:29] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-22 23:31:29] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-22 23:31:29] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-22 23:31:29] INFO root fetch - main [MainThread]: Store serial: [18997801]
