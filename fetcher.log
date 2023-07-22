@@ -15548,3 +15548,75 @@ EOFError: EOF read where object expected
 [2023-07-22 17:02:30] INFO root fetch - processPackages [pymeasurement]: Remove: archive file [/home/abi/fetcher/tmp/pymeasurement-1.0.9.tar.gz]
 [2023-07-22 17:02:30] INFO root fetch - main [MainThread]: End processing [pymeasurement]: success
 [2023-07-22 17:02:30] INFO root fetch - main [MainThread]: Store serial: [18995585]
+[2023-07-22 17:07:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18995585]
+[2023-07-22 17:07:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-22 17:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: interpres
+[2023-07-22 17:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: marketwatchdata
+[2023-07-22 17:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-rds
+[2023-07-22 17:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openepd
+[2023-07-22 17:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stratforge-speech
+[2023-07-22 17:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kontolibs
+[2023-07-22 17:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webdriver-manager
+[2023-07-22 17:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: upsies
+[2023-07-22 17:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-azure-ad-auth-redux
+[2023-07-22 17:07:39] INFO root fetch - processPackages [marketwatchdata]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-22 17:07:39] INFO root fetch - processPackages [interpres]: New version: [0.3.4b1] Old Version: [0.3.3b6]
+[2023-07-22 17:07:39] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-22 17:07:39] WARNING root fetch - processPackages [stratforge-speech]: Skipping, unable to determine old version
+[2023-07-22 17:07:39] INFO root fetch - main [MainThread]: End processing [stratforge-speech] error
+[2023-07-22 17:07:39] INFO root fetch - processPackages [openepd]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-07-22 17:07:39] INFO root fetch - processPackages [marketwatchdata]: Downloading https://files.pythonhosted.org/packages/15/44/a23a45e78a588e92f57aa2f533b344982c7f1a523360cc8b6592c503c23b/marketwatchdata-0.0.2.tar.gz
+[2023-07-22 17:07:39] WARNING root fetch - processPackages [django-azure-ad-auth-redux]: Skipping, unable to determine old version
+[2023-07-22 17:07:39] INFO root fetch - main [MainThread]: End processing [django-azure-ad-auth-redux] error
+[2023-07-22 17:07:39] INFO root fetch - processPackages [interpres]: Downloading https://files.pythonhosted.org/packages/71/14/b1e23c4b652a82c976f0754ccb7421113b0f5cd08568076b021f3d23254a/interpres-0.3.3b6.tar.gz
+[2023-07-22 17:07:39] INFO root fetch - processPackages [kontolibs]: New version: [9.9.1] Old Version: [5.9.1]
+[2023-07-22 17:07:39] INFO root fetch - processPackages [webdriver-manager]: New version: [3.9.0] Old Version: [3.8.6]
+[2023-07-22 17:07:39] INFO root fetch - processPackages [upsies]: New version: [2023.7.22] Old Version: [2023.6.11]
+[2023-07-22 17:07:39] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/86/16/e429481b48c8e39fd99916cf0d5537d596ff8a08c15cde79f3fa9f8b822b/aliyun-python-sdk-rds-2.7.8.tar.gz
+[2023-07-22 17:07:39] INFO root fetch - processPackages [kontolibs]: Downloading https://files.pythonhosted.org/packages/7b/82/82c973a27d62b1876812aa3a1859e70407cbc2bc385635104f058596d505/kontolibs-5.9.1.tar.gz
+[2023-07-22 17:07:39] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/49/c8/97bd9925e2aab8e2fb90f2bd5952e96c8793dbb73634161c2b81b93690bb/aliyun-python-sdk-rds-2.7.9.tar.gz
+[2023-07-22 17:07:39] INFO root fetch - processPackages [openepd]: Downloading https://files.pythonhosted.org/packages/b3/6b/8bab32a2cf0b8a740a76c5043fa333b2690ecf08c1de5115bd0f0c84f9cb/openepd-0.9.0.tar.gz
+[2023-07-22 17:07:39] INFO root fetch - processPackages [webdriver-manager]: Downloading https://files.pythonhosted.org/packages/f1/c9/9a9b29560817537fd8ed71d60cab74aebb180b81da964f480a1c30880768/webdriver_manager-3.8.6.tar.gz
+[2023-07-22 17:07:39] INFO root fetch - processPackages [upsies]: Downloading https://files.pythonhosted.org/packages/67/5d/c3e68ed7546e7a0901faf8bfeab97f16f6accf81d15a4516601719b0cb2e/upsies-2023.6.11.tar.gz
+[2023-07-22 17:07:39] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-07-22 17:07:39] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.8.tar.gz tmp/aliyun-python-sdk-rds-2.7.9.tar.gz --markdown 20230722/a/aliyun-python-sdk-rds/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-22 17:07:40] INFO root fetch - processPackages [interpres]: Downloading https://files.pythonhosted.org/packages/c9/12/b54dec369852974d421211ae7ddce8e50799bb1c0d2245e8ea9669b45490/interpres-0.3.4b1.tar.gz
+[2023-07-22 17:07:40] INFO root fetch - processPackages [marketwatchdata]: Downloading https://files.pythonhosted.org/packages/24/59/ebd57409882b1096e7abb351dae462c819f5511a36db7dedbb6786d2ea7b/marketwatchdata-0.0.3.tar.gz
+[2023-07-22 17:07:40] INFO root fetch - processPackages [webdriver-manager]: Downloading https://files.pythonhosted.org/packages/54/f3/49cb4193b643c4d3e5336637479304b8119f1a663f161019e98b32b9f544/webdriver_manager-3.9.0.tar.gz
+[2023-07-22 17:07:40] INFO root fetch - processPackages [interpres]: executing diffoscope
+[2023-07-22 17:07:40] INFO root fetch - processPackages [interpres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interpres-0.3.3b6.tar.gz tmp/interpres-0.3.4b1.tar.gz --markdown 20230722/i/interpres/0.3.3b6-0.3.4b1/diff.md --exclude *.pyd
+[2023-07-22 17:07:40] INFO root fetch - processPackages [openepd]: Downloading https://files.pythonhosted.org/packages/60/09/c19f7b6dc54a69f97af10f9c9900c90021bce060db770be30ceac7b863b1/openepd-1.0.0.tar.gz
+[2023-07-22 17:07:40] INFO root fetch - processPackages [marketwatchdata]: executing diffoscope
+[2023-07-22 17:07:40] INFO root fetch - processPackages [marketwatchdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marketwatchdata-0.0.2.tar.gz tmp/marketwatchdata-0.0.3.tar.gz --markdown 20230722/m/marketwatchdata/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-22 17:07:40] INFO root fetch - processPackages [kontolibs]: Downloading https://files.pythonhosted.org/packages/98/85/610d88b258992d2f5a21b1f7dc07515a2f44f594cc4acb1d2c0906818fd7/kontolibs-9.9.1.tar.gz
+[2023-07-22 17:07:40] INFO root fetch - processPackages [upsies]: Downloading https://files.pythonhosted.org/packages/94/4c/3a2a1dfedb530d6bd449232de645d0d229f8892176dc594ac0c42fbd1ecf/upsies-2023.7.22.tar.gz
+[2023-07-22 17:07:40] INFO root fetch - processPackages [webdriver-manager]: executing diffoscope
+[2023-07-22 17:07:40] INFO root fetch - processPackages [webdriver-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webdriver_manager-3.8.6.tar.gz tmp/webdriver_manager-3.9.0.tar.gz --markdown 20230722/w/webdriver-manager/3.8.6-3.9.0/diff.md --exclude *.pyd
+[2023-07-22 17:07:40] INFO root fetch - processPackages [openepd]: executing diffoscope
+[2023-07-22 17:07:40] INFO root fetch - processPackages [openepd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openepd-0.9.0.tar.gz tmp/openepd-1.0.0.tar.gz --markdown 20230722/o/openepd/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-22 17:07:40] INFO root fetch - processPackages [kontolibs]: executing diffoscope
+[2023-07-22 17:07:40] INFO root fetch - processPackages [kontolibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kontolibs-5.9.1.tar.gz tmp/kontolibs-9.9.1.tar.gz --markdown 20230722/k/kontolibs/5.9.1-9.9.1/diff.md --exclude *.pyd
+[2023-07-22 17:07:40] INFO root fetch - processPackages [upsies]: executing diffoscope
+[2023-07-22 17:07:40] INFO root fetch - processPackages [upsies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upsies-2023.6.11.tar.gz tmp/upsies-2023.7.22.tar.gz --markdown 20230722/u/upsies/2023.6.11-2023.7.22/diff.md --exclude *.pyd
+[2023-07-22 17:07:41] INFO root fetch - processPackages [marketwatchdata]: Remove: archive file [/home/abi/fetcher/tmp/marketwatchdata-0.0.2.tar.gz]
+[2023-07-22 17:07:41] INFO root fetch - processPackages [marketwatchdata]: Remove: archive file [/home/abi/fetcher/tmp/marketwatchdata-0.0.3.tar.gz]
+[2023-07-22 17:07:41] INFO root fetch - main [MainThread]: End processing [marketwatchdata]: success
+[2023-07-22 17:07:41] INFO root fetch - processPackages [interpres]: Remove: archive file [/home/abi/fetcher/tmp/interpres-0.3.3b6.tar.gz]
+[2023-07-22 17:07:41] INFO root fetch - processPackages [interpres]: Remove: archive file [/home/abi/fetcher/tmp/interpres-0.3.4b1.tar.gz]
+[2023-07-22 17:07:41] INFO root fetch - main [MainThread]: End processing [interpres]: success
+[2023-07-22 17:07:41] INFO root fetch - processPackages [openepd]: Remove: archive file [/home/abi/fetcher/tmp/openepd-0.9.0.tar.gz]
+[2023-07-22 17:07:41] INFO root fetch - processPackages [openepd]: Remove: archive file [/home/abi/fetcher/tmp/openepd-1.0.0.tar.gz]
+[2023-07-22 17:07:41] INFO root fetch - main [MainThread]: End processing [openepd]: success
+[2023-07-22 17:07:41] INFO root fetch - processPackages [webdriver-manager]: Remove: archive file [/home/abi/fetcher/tmp/webdriver_manager-3.8.6.tar.gz]
+[2023-07-22 17:07:41] INFO root fetch - processPackages [webdriver-manager]: Remove: archive file [/home/abi/fetcher/tmp/webdriver_manager-3.9.0.tar.gz]
+[2023-07-22 17:07:41] INFO root fetch - main [MainThread]: End processing [webdriver-manager]: success
+[2023-07-22 17:07:41] INFO root fetch - processPackages [kontolibs]: Remove: archive file [/home/abi/fetcher/tmp/kontolibs-5.9.1.tar.gz]
+[2023-07-22 17:07:41] INFO root fetch - processPackages [kontolibs]: Remove: archive file [/home/abi/fetcher/tmp/kontolibs-9.9.1.tar.gz]
+[2023-07-22 17:07:41] INFO root fetch - main [MainThread]: End processing [kontolibs]: success
+[2023-07-22 17:07:42] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.8.tar.gz]
+[2023-07-22 17:07:42] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
+[2023-07-22 17:07:42] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-07-22 17:07:42] INFO root fetch - processPackages [upsies]: Remove: archive file [/home/abi/fetcher/tmp/upsies-2023.6.11.tar.gz]
+[2023-07-22 17:07:42] INFO root fetch - processPackages [upsies]: Remove: archive file [/home/abi/fetcher/tmp/upsies-2023.7.22.tar.gz]
+[2023-07-22 17:07:42] INFO root fetch - main [MainThread]: End processing [upsies]: success
+[2023-07-22 17:07:42] INFO root fetch - main [MainThread]: Store serial: [18995615]
