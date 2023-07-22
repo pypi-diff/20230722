@@ -18460,3 +18460,45 @@ EOFError: EOF read where object expected
 [2023-07-22 20:42:05] INFO root fetch - processPackages [hchacha]: Remove: archive file [/home/abi/fetcher/tmp/hchacha-1.0.5.tar.gz]
 [2023-07-22 20:42:05] INFO root fetch - main [MainThread]: End processing [hchacha]: success
 [2023-07-22 20:42:05] INFO root fetch - main [MainThread]: Store serial: [18996893]
+[2023-07-22 20:47:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18996893]
+[2023-07-22 20:47:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 20:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roblox-pyc
+[2023-07-22 20:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cornac
+[2023-07-22 20:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snpio
+[2023-07-22 20:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flashcam
+[2023-07-22 20:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micro-chrome-devtools-protocol
+[2023-07-22 20:47:14] INFO root fetch - processPackages [snpio]: New version: [1.0.1.2] Old Version: [1.0.1.1]
+[2023-07-22 20:47:14] WARNING root fetch - processPackages [micro-chrome-devtools-protocol]: Skipping, unable to determine old version
+[2023-07-22 20:47:14] INFO root fetch - main [MainThread]: End processing [micro-chrome-devtools-protocol] error
+[2023-07-22 20:47:14] INFO root fetch - processPackages [flashcam]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-22 20:47:14] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-22 20:47:14] INFO root fetch - processPackages [cornac]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-22 20:47:15] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/9d/29/cb839f6d94c07e77bc1f17083816f3fd9b3db9e145f606acb0bacc68a3fa/flashcam-1.5.8.tar.gz
+[2023-07-22 20:47:15] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-22 20:47:15] INFO root fetch - processPackages [snpio]: Downloading https://files.pythonhosted.org/packages/da/6a/992f457f55ff3094d3bec4dbe46b0c077e95d2d48bda87196548dfc95bc0/snpio-1.0.1.1.tar.gz
+[2023-07-22 20:47:15] INFO root fetch - processPackages [cornac]: Downloading https://files.pythonhosted.org/packages/05/07/74994927058219b1c0801b0997cd0a25ab288713fbdcc2187002b59230b5/cornac-1.8.0.tar.gz
+[2023-07-22 20:47:15] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-22 20:47:15] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/96/42/2781f734b5b961970dcbae981e95975f89ee4e4297f0299dbb182cc3a6d2/flashcam-1.5.9.tar.gz
+[2023-07-22 20:47:15] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-22 20:47:15] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230722/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-22 20:47:15] INFO root fetch - processPackages [snpio]: Downloading https://files.pythonhosted.org/packages/a7/ee/3fc2d904b483e012871c9b13f13c997f5fb1a60360062c02df4b9dcf1d04/snpio-1.0.1.2.tar.gz
+[2023-07-22 20:47:15] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2023-07-22 20:47:15] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.5.8.tar.gz tmp/flashcam-1.5.9.tar.gz --markdown 20230722/f/flashcam/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-22 20:47:15] INFO root fetch - processPackages [snpio]: executing diffoscope
+[2023-07-22 20:47:15] INFO root fetch - processPackages [snpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snpio-1.0.1.1.tar.gz tmp/snpio-1.0.1.2.tar.gz --markdown 20230722/s/snpio/1.0.1.1-1.0.1.2/diff.md --exclude *.pyd
+[2023-07-22 20:47:16] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-22 20:47:16] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-22 20:47:16] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-22 20:47:16] INFO root fetch - processPackages [snpio]: Remove: archive file [/home/abi/fetcher/tmp/snpio-1.0.1.1.tar.gz]
+[2023-07-22 20:47:16] INFO root fetch - processPackages [snpio]: Remove: archive file [/home/abi/fetcher/tmp/snpio-1.0.1.2.tar.gz]
+[2023-07-22 20:47:16] INFO root fetch - main [MainThread]: End processing [snpio]: success
+[2023-07-22 20:47:16] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.8.tar.gz]
+[2023-07-22 20:47:16] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.9.tar.gz]
+[2023-07-22 20:47:16] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2023-07-22 20:47:17] INFO root fetch - processPackages [cornac]: Downloading https://files.pythonhosted.org/packages/fe/41/dbca7be6102f78aa7cfa474e2f6bafccb3de33eeb6f64e5531d06973e28f/cornac-1.9.0.tar.gz
+[2023-07-22 20:47:19] INFO root fetch - processPackages [cornac]: executing diffoscope
+[2023-07-22 20:47:19] INFO root fetch - processPackages [cornac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornac-1.8.0.tar.gz tmp/cornac-1.9.0.tar.gz --markdown 20230722/c/cornac/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-22 20:47:57] INFO root fetch - processPackages [cornac]: Remove: archive file [/home/abi/fetcher/tmp/cornac-1.8.0.tar.gz]
+[2023-07-22 20:47:57] INFO root fetch - processPackages [cornac]: Remove: archive file [/home/abi/fetcher/tmp/cornac-1.9.0.tar.gz]
+[2023-07-22 20:47:57] INFO root fetch - main [MainThread]: End processing [cornac]: success
+[2023-07-22 20:47:57] INFO root fetch - main [MainThread]: Store serial: [18996922]
