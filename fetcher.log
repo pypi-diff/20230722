@@ -13629,3 +13629,36 @@
 [2023-07-22 14:12:31] INFO root fetch - processPackages [hyperfast-python-template]: Remove: archive file [/home/abi/fetcher/tmp/hyperfast_python_template-0.9.0.tar.gz]
 [2023-07-22 14:12:31] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
 [2023-07-22 14:12:31] INFO root fetch - main [MainThread]: Store serial: [18994730]
+[2023-07-22 14:17:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994730]
+[2023-07-22 14:17:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-22 14:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gfdlvitals
+[2023-07-22 14:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ninjakiwi-api
+[2023-07-22 14:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eclair-cli
+[2023-07-22 14:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: promptsec
+[2023-07-22 14:17:40] WARNING root fetch - processPackages [eclair-cli]: Skipping, unable to determine old version
+[2023-07-22 14:17:40] INFO root fetch - main [MainThread]: End processing [eclair-cli] error
+[2023-07-22 14:17:40] INFO root fetch - processPackages [ninjakiwi-api]: New version: [1.1.0a0] Old Version: [0.0.7]
+[2023-07-22 14:17:40] INFO root fetch - processPackages [gfdlvitals]: New version: [3.0.8] Old Version: [3.0.7]
+[2023-07-22 14:17:40] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/9f/fa/ba847ccfb710418c634d83ec0bce8b109ee10dc0175eedeefca7c8ba9efd/ninjakiwi_api-0.0.7.tar.gz
+[2023-07-22 14:17:40] INFO root fetch - processPackages [promptsec]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-22 14:17:40] INFO root fetch - processPackages [gfdlvitals]: Downloading https://files.pythonhosted.org/packages/b0/c6/0536868f07da85ad37759a9dfe0ffb57735e076814545dcd3f014ca40a76/gfdlvitals-3.0.7.tar.gz
+[2023-07-22 14:17:40] INFO root fetch - processPackages [promptsec]: Downloading https://files.pythonhosted.org/packages/dc/6a/77ba124857d217b2842d498115f14f9a3a8da0aef356306c856d6db78369/promptsec-0.0.3.tar.gz
+[2023-07-22 14:17:40] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/4c/53/957cc962a9d19ae94b447f4b42385bddb4880d2d35ae545b4a8299fedc47/ninjakiwi_api-1.1.0a0.tar.gz
+[2023-07-22 14:17:40] INFO root fetch - processPackages [ninjakiwi-api]: executing diffoscope
+[2023-07-22 14:17:40] INFO root fetch - processPackages [ninjakiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjakiwi_api-0.0.7.tar.gz tmp/ninjakiwi_api-1.1.0a0.tar.gz --markdown 20230722/n/ninjakiwi-api/0.0.7-1.1.0a0/diff.md --exclude *.pyd
+[2023-07-22 14:17:40] INFO root fetch - processPackages [promptsec]: Downloading https://files.pythonhosted.org/packages/47/de/dbe9536ffb9968d672741bed8fa25bd386a34a47666849562da392421007/promptsec-0.0.4.tar.gz
+[2023-07-22 14:17:40] INFO root fetch - processPackages [promptsec]: executing diffoscope
+[2023-07-22 14:17:40] INFO root fetch - processPackages [promptsec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptsec-0.0.3.tar.gz tmp/promptsec-0.0.4.tar.gz --markdown 20230722/p/promptsec/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-22 14:17:41] INFO root fetch - processPackages [gfdlvitals]: Downloading https://files.pythonhosted.org/packages/57/69/1723ad6a121161656fda17f481743c4fce6349626bd7ced5fd72fcac120e/gfdlvitals-3.0.8.tar.gz
+[2023-07-22 14:17:41] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.7.tar.gz]
+[2023-07-22 14:17:41] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-1.1.0a0.tar.gz]
+[2023-07-22 14:17:41] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api]: success
+[2023-07-22 14:17:41] INFO root fetch - processPackages [gfdlvitals]: executing diffoscope
+[2023-07-22 14:17:41] INFO root fetch - processPackages [gfdlvitals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfdlvitals-3.0.7.tar.gz tmp/gfdlvitals-3.0.8.tar.gz --markdown 20230722/g/gfdlvitals/3.0.7-3.0.8/diff.md --exclude *.pyd
+[2023-07-22 14:17:41] INFO root fetch - processPackages [promptsec]: Remove: archive file [/home/abi/fetcher/tmp/promptsec-0.0.3.tar.gz]
+[2023-07-22 14:17:41] INFO root fetch - processPackages [promptsec]: Remove: archive file [/home/abi/fetcher/tmp/promptsec-0.0.4.tar.gz]
+[2023-07-22 14:17:41] INFO root fetch - main [MainThread]: End processing [promptsec]: success
+[2023-07-22 14:17:42] INFO root fetch - processPackages [gfdlvitals]: Remove: archive file [/home/abi/fetcher/tmp/gfdlvitals-3.0.7.tar.gz]
+[2023-07-22 14:17:42] INFO root fetch - processPackages [gfdlvitals]: Remove: archive file [/home/abi/fetcher/tmp/gfdlvitals-3.0.8.tar.gz]
+[2023-07-22 14:17:42] INFO root fetch - main [MainThread]: End processing [gfdlvitals]: success
+[2023-07-22 14:17:42] INFO root fetch - main [MainThread]: Store serial: [18994741]
