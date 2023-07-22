@@ -13662,3 +13662,49 @@
 [2023-07-22 14:17:42] INFO root fetch - processPackages [gfdlvitals]: Remove: archive file [/home/abi/fetcher/tmp/gfdlvitals-3.0.8.tar.gz]
 [2023-07-22 14:17:42] INFO root fetch - main [MainThread]: End processing [gfdlvitals]: success
 [2023-07-22 14:17:42] INFO root fetch - main [MainThread]: Store serial: [18994741]
+[2023-07-22 14:22:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18994741]
+[2023-07-22 14:22:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-22 14:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ninjakiwi-api
+[2023-07-22 14:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hserv
+[2023-07-22 14:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ninjakiwi-api
+[2023-07-22 14:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FJUtils
+[2023-07-22 14:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: remotior-sensus
+[2023-07-22 14:22:51] INFO root fetch - processPackages [ninjakiwi-api]: New version: [1.2.0] Old Version: [1.1.0a0]
+[2023-07-22 14:22:51] INFO root fetch - processPackages [ninjakiwi-api]: New version: [1.2.0] Old Version: [1.1.0a0]
+[2023-07-22 14:22:51] INFO root fetch - processPackages [remotior-sensus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 14:22:51] INFO root fetch - processPackages [hserv]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-22 14:22:51] INFO root fetch - processPackages [FJUtils]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-22 14:22:51] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/4c/53/957cc962a9d19ae94b447f4b42385bddb4880d2d35ae545b4a8299fedc47/ninjakiwi_api-1.1.0a0.tar.gz
+[2023-07-22 14:22:51] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/4c/53/957cc962a9d19ae94b447f4b42385bddb4880d2d35ae545b4a8299fedc47/ninjakiwi_api-1.1.0a0.tar.gz
+[2023-07-22 14:22:51] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/2d/82/4f0f8be3b8f3c4f00b90027ff3c32958918221be17a5ad7c3cf298d4af04/remotior_sensus-0.0.8.tar.gz
+[2023-07-22 14:22:51] INFO root fetch - processPackages [hserv]: Downloading https://files.pythonhosted.org/packages/95/a4/9b01afa9b2f8fb26fc057e3c48c6c838a9e04b80ed52292f40a61237defe/hserv-0.0.7.tar.gz
+[2023-07-22 14:22:51] INFO root fetch - processPackages [FJUtils]: Downloading https://files.pythonhosted.org/packages/01/8b/4cff2d42fe6ae96cd3fba27dd35000adc4033f266ce693bff25d81312939/FJUtils-0.0.5.tar.gz
+[2023-07-22 14:22:52] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/e4/c8/0c6054910848b2651da24ecb17a3d9ab9a62b4c844a98797ec686eaac17b/remotior_sensus-0.0.9.tar.gz
+[2023-07-22 14:22:52] INFO root fetch - processPackages [hserv]: Downloading https://files.pythonhosted.org/packages/9f/97/d8511f768e13ac8ca7d84ab918e76587aab375e986729bc04db791d2367e/hserv-0.0.8.tar.gz
+[2023-07-22 14:22:52] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/38/56/c127186258dba2e3161fb6f912484a6917ea9bdb147c7ff2b21885238823/ninjakiwi_api-1.2.0.tar.gz
+[2023-07-22 14:22:52] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/38/56/c127186258dba2e3161fb6f912484a6917ea9bdb147c7ff2b21885238823/ninjakiwi_api-1.2.0.tar.gz
+[2023-07-22 14:22:52] INFO root fetch - processPackages [hserv]: executing diffoscope
+[2023-07-22 14:22:52] INFO root fetch - processPackages [hserv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hserv-0.0.7.tar.gz tmp/hserv-0.0.8.tar.gz --markdown 20230722/h/hserv/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-22 14:22:52] INFO root fetch - processPackages [remotior-sensus]: executing diffoscope
+[2023-07-22 14:22:52] INFO root fetch - processPackages [remotior-sensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotior_sensus-0.0.8.tar.gz tmp/remotior_sensus-0.0.9.tar.gz --markdown 20230722/r/remotior-sensus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 14:22:52] INFO root fetch - processPackages [ninjakiwi-api]: executing diffoscope
+[2023-07-22 14:22:52] INFO root fetch - processPackages [ninjakiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjakiwi_api-1.1.0a0.tar.gz tmp/ninjakiwi_api-1.2.0.tar.gz --markdown 20230722/n/ninjakiwi-api/1.1.0a0-1.2.0/diff.md --exclude *.pyd
+[2023-07-22 14:22:52] INFO root fetch - processPackages [ninjakiwi-api]: executing diffoscope
+[2023-07-22 14:22:52] INFO root fetch - processPackages [ninjakiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjakiwi_api-1.1.0a0.tar.gz tmp/ninjakiwi_api-1.2.0.tar.gz --markdown 20230722/n/ninjakiwi-api/1.1.0a0-1.2.0/diff.md --exclude *.pyd
+[2023-07-22 14:22:52] INFO root fetch - processPackages [FJUtils]: Downloading https://files.pythonhosted.org/packages/ea/4d/c18665a71c03bdeb02036824947d3c6a1ada9993e4765b7d44350b8ebc33/FJUtils-0.0.6.tar.gz
+[2023-07-22 14:22:52] INFO root fetch - processPackages [FJUtils]: executing diffoscope
+[2023-07-22 14:22:52] INFO root fetch - processPackages [FJUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FJUtils-0.0.5.tar.gz tmp/FJUtils-0.0.6.tar.gz --markdown 20230722/F/FJUtils/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-22 14:22:53] INFO root fetch - processPackages [hserv]: Remove: archive file [/home/abi/fetcher/tmp/hserv-0.0.7.tar.gz]
+[2023-07-22 14:22:53] INFO root fetch - processPackages [hserv]: Remove: archive file [/home/abi/fetcher/tmp/hserv-0.0.8.tar.gz]
+[2023-07-22 14:22:53] INFO root fetch - main [MainThread]: End processing [hserv]: success
+[2023-07-22 14:22:53] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-1.1.0a0.tar.gz]
+[2023-07-22 14:22:53] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-1.2.0.tar.gz]
+[2023-07-22 14:22:53] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api]: success
+[2023-07-22 14:22:53] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api]: success
+[2023-07-22 14:22:53] INFO root fetch - processPackages [FJUtils]: Remove: archive file [/home/abi/fetcher/tmp/FJUtils-0.0.5.tar.gz]
+[2023-07-22 14:22:53] INFO root fetch - processPackages [FJUtils]: Remove: archive file [/home/abi/fetcher/tmp/FJUtils-0.0.6.tar.gz]
+[2023-07-22 14:22:53] INFO root fetch - main [MainThread]: End processing [FJUtils]: success
+[2023-07-22 14:22:53] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.8.tar.gz]
+[2023-07-22 14:22:53] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.9.tar.gz]
+[2023-07-22 14:22:53] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
+[2023-07-22 14:22:53] INFO root fetch - main [MainThread]: Store serial: [18994756]
