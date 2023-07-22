@@ -8708,3 +8708,48 @@
 [2023-07-22 05:50:34] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.0.99.tar.gz]
 [2023-07-22 05:50:34] INFO root fetch - main [MainThread]: End processing [ruff]: success
 [2023-07-22 05:50:34] INFO root fetch - main [MainThread]: Store serial: [18992566]
+[2023-07-22 05:55:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992566]
+[2023-07-22 05:55:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-22 05:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-it-sdi-channel
+[2023-07-22 05:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ifastapi
+[2023-07-22 05:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-l10n-italy
+[2023-07-22 05:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-22 05:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyglove
+[2023-07-22 05:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easystockplot
+[2023-07-22 05:55:43] WARNING root fetch - processPackages [easystockplot]: Skipping, unable to determine old version
+[2023-07-22 05:55:43] INFO root fetch - main [MainThread]: End processing [easystockplot] error
+[2023-07-22 05:55:43] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.5.9] Old Version: [0.3.9.5.8]
+[2023-07-22 05:55:43] WARNING root fetch - processPackages [odoo-addon-l10n-it-sdi-channel]: Skipping, unable to determine old version
+[2023-07-22 05:55:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-sdi-channel] error
+[2023-07-22 05:55:43] INFO root fetch - processPackages [pyglove]: New version: [0.4.1.dev20230721] Old Version: [0.4.1.dev20230720]
+[2023-07-22 05:55:43] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/21/6e/85e4db6e7a86e328ca897d70fb99ccd90cbf5415e27978a881293bb72d67/nonebot_plugin_stable_diffusion_diao-0.3.9.5.8.tar.gz
+[2023-07-22 05:55:43] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: New version: [16.0.20230721.0] Old Version: [16.0.20230414.0]
+[2023-07-22 05:55:43] INFO root fetch - processPackages [ifastapi]: New version: [0.0.3.9] Old Version: [0.0.3.8]
+[2023-07-22 05:55:43] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/bb/21/594ecc59aeb890d31a476051eccbe37b4b6f1b946707e28c28ce38852f53/pyglove-0.4.1.dev20230720.tar.gz
+[2023-07-22 05:55:43] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/7a/e5/e35771d094325b6c306e9d8785431127bf0e9e18ce7c75d57420ffbe4251/nonebot_plugin_stable_diffusion_diao-0.3.9.5.9.tar.gz
+[2023-07-22 05:55:43] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/a8/11/5a35f40c9d75bc9ec53cd57c13113fb6630f3e35df5a166e4922bf1ab54c/pyglove-0.4.1.dev20230721.tar.gz
+[2023-07-22 05:55:43] INFO root fetch - processPackages [ifastapi]: Downloading https://files.pythonhosted.org/packages/39/71/e9b22e00e5ee2cb98e0ad32c822147aac92b234aad1035ee68c07b58d469/ifastapi-0.0.3.8-py3-none-any.whl
+[2023-07-22 05:55:43] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/c4/ff/7b7dc3bc1e4fd930c32369566ef0f143cdd5d3df87f11197cbfe9cc703e3/odoo_addons_oca_l10n_italy-16.0.20230414.0-py3-none-any.whl
+[2023-07-22 05:55:44] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-22 05:55:44] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.1.dev20230720.tar.gz tmp/pyglove-0.4.1.dev20230721.tar.gz --markdown 20230722/p/pyglove/0.4.1.dev20230720-0.4.1.dev20230721/diff.md --exclude *.pyd
+[2023-07-22 05:55:44] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-22 05:55:44] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.8.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.9.tar.gz --markdown 20230722/n/nonebot-plugin-stable-diffusion-diao/0.3.9.5.8-0.3.9.5.9/diff.md --exclude *.pyd
+[2023-07-22 05:55:44] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/86/53/724c190ba2678437de784f5b8220b4cb6ca6f08b001e8af01c8f22279891/odoo_addons_oca_l10n_italy-16.0.20230721.0-py3-none-any.whl
+[2023-07-22 05:55:44] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: executing diffoscope
+[2023-07-22 05:55:44] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_italy-16.0.20230414.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_italy-16.0.20230721.0-py3-none-any.whl.zip --markdown 20230722/o/odoo-addons-oca-l10n-italy/16.0.20230414.0-16.0.20230721.0/diff.md --exclude *.pyd
+[2023-07-22 05:55:44] INFO root fetch - processPackages [ifastapi]: Downloading https://files.pythonhosted.org/packages/3c/e9/3248af3fdd2dfccdd2dbb4c804618988a400945810ace08b894ec8f675e6/ifastapi-0.0.3.9-py3-none-any.whl
+[2023-07-22 05:55:44] INFO root fetch - processPackages [ifastapi]: executing diffoscope
+[2023-07-22 05:55:44] INFO root fetch - processPackages [ifastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifastapi-0.0.3.8-py3-none-any.whl.zip tmp/ifastapi-0.0.3.9-py3-none-any.whl.zip --markdown 20230722/i/ifastapi/0.0.3.8-0.0.3.9/diff.md --exclude *.pyd
+[2023-07-22 05:55:44] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.8.tar.gz]
+[2023-07-22 05:55:44] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.9.tar.gz]
+[2023-07-22 05:55:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-22 05:55:45] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_italy-16.0.20230414.0-py3-none-any.whl.zip]
+[2023-07-22 05:55:45] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_italy-16.0.20230721.0-py3-none-any.whl.zip]
+[2023-07-22 05:55:45] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-italy]: success
+[2023-07-22 05:55:45] INFO root fetch - processPackages [ifastapi]: Remove: archive file [/home/abi/fetcher/tmp/ifastapi-0.0.3.8-py3-none-any.whl.zip]
+[2023-07-22 05:55:45] INFO root fetch - processPackages [ifastapi]: Remove: archive file [/home/abi/fetcher/tmp/ifastapi-0.0.3.9-py3-none-any.whl.zip]
+[2023-07-22 05:55:45] INFO root fetch - main [MainThread]: End processing [ifastapi]: success
+[2023-07-22 05:55:45] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230720.tar.gz]
+[2023-07-22 05:55:45] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230721.tar.gz]
+[2023-07-22 05:55:45] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-22 05:55:45] INFO root fetch - main [MainThread]: Store serial: [18992582]
