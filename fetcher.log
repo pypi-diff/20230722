@@ -9718,3 +9718,75 @@
 [2023-07-22 07:49:56] INFO root fetch - processPackages [odoo12-addon-website-google-tag-manager]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_google_tag_manager-12.0.1.0.0.99.dev7-py3-none-any.whl.zip]
 [2023-07-22 07:49:56] INFO root fetch - main [MainThread]: End processing [odoo12-addon-website-google-tag-manager]: success
 [2023-07-22 07:49:56] INFO root fetch - main [MainThread]: Store serial: [18992942]
+[2023-07-22 07:55:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18992942]
+[2023-07-22 07:55:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-22 07:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bentoctl
+[2023-07-22 07:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bioconsertinc
+[2023-07-22 07:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smol
+[2023-07-22 07:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swiftly-windows
+[2023-07-22 07:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chrs
+[2023-07-22 07:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skillshare-downloader
+[2023-07-22 07:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irisml-tasks
+[2023-07-22 07:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OneOnOne
+[2023-07-22 07:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: huhk
+[2023-07-22 07:55:05] INFO root fetch - processPackages [OneOnOne]: New version: [0.6921] Old Version: [0.692]
+[2023-07-22 07:55:05] INFO root fetch - processPackages [swiftly-windows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 07:55:05] INFO root fetch - processPackages [bioconsertinc]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-22 07:55:05] WARNING root fetch - processPackages [skillshare-downloader]: Skipping, unable to determine old version
+[2023-07-22 07:55:05] INFO root fetch - main [MainThread]: End processing [skillshare-downloader] error
+[2023-07-22 07:55:05] INFO root fetch - processPackages [irisml-tasks]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-22 07:55:05] INFO root fetch - processPackages [bentoctl]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-07-22 07:55:05] INFO root fetch - processPackages [huhk]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-07-22 07:55:05] WARNING root fetch - processPackages [chrs]: Skipping, unable to determine old version
+[2023-07-22 07:55:05] INFO root fetch - main [MainThread]: End processing [chrs] error
+[2023-07-22 07:55:05] INFO root fetch - processPackages [swiftly-windows]: Downloading https://files.pythonhosted.org/packages/3c/76/0e32afa5916f47dd99509566836673d9087e2f5672efe382d289448eac62/swiftly-windows-0.0.8.tar.gz
+[2023-07-22 07:55:05] INFO root fetch - processPackages [smol]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-22 07:55:05] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/c8/60/1bd68011c1ba254546f1c31811473adf3ec0bb142670505f42530b87583c/OneOnOne-0.692.tar.gz
+[2023-07-22 07:55:05] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/b4/78/994083643dead69cecbeb3b922620d52fd6c59623acabc4587abe2673fea/huhk-1.7.1.tar.gz
+[2023-07-22 07:55:05] INFO root fetch - processPackages [bioconsertinc]: Downloading https://files.pythonhosted.org/packages/fe/9d/831b59815e7e32d55316e36d33e10059d4f49419693a7a7091693eb72f56/bioconsertinc-2.0.1-cp39-cp39-win_amd64.whl
+[2023-07-22 07:55:05] INFO root fetch - processPackages [bentoctl]: Downloading https://files.pythonhosted.org/packages/0f/0b/8756ed3944e638e4a7067780ea6498aa84a5a78e9ade2ae8344a5d694299/bentoctl-0.3.4.tar.gz
+[2023-07-22 07:55:05] INFO root fetch - processPackages [irisml-tasks]: Downloading https://files.pythonhosted.org/packages/f9/c3/617dc10d3d86277422b1376712fbcae45013c1fe00a777e78eee45fb1f31/irisml-tasks-0.0.8.tar.gz
+[2023-07-22 07:55:05] INFO root fetch - processPackages [swiftly-windows]: Downloading https://files.pythonhosted.org/packages/9b/27/a1cc64bc554f73c065719b011101ed5b604c821e9d802e867a71cfcec97c/swiftly-windows-0.0.9.tar.gz
+[2023-07-22 07:55:05] INFO root fetch - processPackages [smol]: Downloading https://files.pythonhosted.org/packages/84/47/3901542f990a31ad98ff46d9bcfa8fe41317e7a08f741f8db297456bec29/smol-0.4.0.tar.gz
+[2023-07-22 07:55:05] INFO root fetch - processPackages [swiftly-windows]: executing diffoscope
+[2023-07-22 07:55:05] INFO root fetch - processPackages [swiftly-windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-windows-0.0.8.tar.gz tmp/swiftly-windows-0.0.9.tar.gz --markdown 20230722/s/swiftly-windows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 07:55:05] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/28/e8/e6a62afa9cc555c7d38da86860ccf46d2edc0cf0ed4083d8d87029d6badc/huhk-1.7.2.tar.gz
+[2023-07-22 07:55:05] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/5b/2d/c044736b65f18fc66cfa7c79732ef3a7d59be75199bb2be6c93c267c61ba/OneOnOne-0.6921.tar.gz
+[2023-07-22 07:55:05] INFO root fetch - processPackages [bioconsertinc]: Downloading https://files.pythonhosted.org/packages/58/7b/3b826e738bd30ea97370d2a9ddd8130b3d742503b9168cbab6ba27d44933/bioconsertinc-2.0.2.tar.gz
+[2023-07-22 07:55:06] INFO root fetch - processPackages [bentoctl]: Downloading https://files.pythonhosted.org/packages/9a/c8/7339bce6a743730aa9b0c395438cce62ce593bdbf6df535eaac8f685f3e3/bentoctl-0.4.0.tar.gz
+[2023-07-22 07:55:06] INFO root fetch - processPackages [irisml-tasks]: Downloading https://files.pythonhosted.org/packages/75/98/971cdf4f2e7e1a8cbd90c669ad60ca4117884f745d742a5d9911b79bef87/irisml-tasks-0.0.9.tar.gz
+[2023-07-22 07:55:06] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-22 07:55:06] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.7.1.tar.gz tmp/huhk-1.7.2.tar.gz --markdown 20230722/h/huhk/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-07-22 07:55:06] INFO root fetch - processPackages [irisml-tasks]: executing diffoscope
+[2023-07-22 07:55:06] INFO root fetch - processPackages [irisml-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-0.0.8.tar.gz tmp/irisml-tasks-0.0.9.tar.gz --markdown 20230722/i/irisml-tasks/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-22 07:55:06] INFO root fetch - processPackages [bioconsertinc]: executing diffoscope
+[2023-07-22 07:55:06] INFO root fetch - processPackages [bioconsertinc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioconsertinc-2.0.1-cp39-cp39-win_amd64.whl.zip tmp/bioconsertinc-2.0.2.tar.gz --markdown 20230722/b/bioconsertinc/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-22 07:55:06] INFO root fetch - processPackages [bentoctl]: executing diffoscope
+[2023-07-22 07:55:06] INFO root fetch - processPackages [bentoctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bentoctl-0.3.4.tar.gz tmp/bentoctl-0.4.0.tar.gz --markdown 20230722/b/bentoctl/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-07-22 07:55:06] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-22 07:55:06] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.692.tar.gz tmp/OneOnOne-0.6921.tar.gz --markdown 20230722/O/OneOnOne/0.692-0.6921/diff.md --exclude *.pyd
+[2023-07-22 07:55:06] INFO root fetch - processPackages [swiftly-windows]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-windows-0.0.8.tar.gz]
+[2023-07-22 07:55:06] INFO root fetch - processPackages [swiftly-windows]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-windows-0.0.9.tar.gz]
+[2023-07-22 07:55:06] INFO root fetch - main [MainThread]: End processing [swiftly-windows]: success
+[2023-07-22 07:55:07] INFO root fetch - processPackages [bioconsertinc]: Remove: archive file [/home/abi/fetcher/tmp/bioconsertinc-2.0.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-22 07:55:07] INFO root fetch - processPackages [bioconsertinc]: Remove: archive file [/home/abi/fetcher/tmp/bioconsertinc-2.0.2.tar.gz]
+[2023-07-22 07:55:07] INFO root fetch - main [MainThread]: End processing [bioconsertinc]: success
+[2023-07-22 07:55:07] INFO root fetch - processPackages [smol]: Downloading https://files.pythonhosted.org/packages/31/41/c20cd0841d0044c50f1fcc79b031e64a01577dc7208bd6e8ac1f24d2b956/smol-0.4.1.tar.gz
+[2023-07-22 07:55:07] INFO root fetch - processPackages [bentoctl]: Remove: archive file [/home/abi/fetcher/tmp/bentoctl-0.3.4.tar.gz]
+[2023-07-22 07:55:07] INFO root fetch - processPackages [bentoctl]: Remove: archive file [/home/abi/fetcher/tmp/bentoctl-0.4.0.tar.gz]
+[2023-07-22 07:55:07] INFO root fetch - main [MainThread]: End processing [bentoctl]: success
+[2023-07-22 07:55:07] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.7.1.tar.gz]
+[2023-07-22 07:55:07] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.7.2.tar.gz]
+[2023-07-22 07:55:07] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-07-22 07:55:07] INFO root fetch - processPackages [irisml-tasks]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-0.0.8.tar.gz]
+[2023-07-22 07:55:07] INFO root fetch - processPackages [irisml-tasks]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-0.0.9.tar.gz]
+[2023-07-22 07:55:07] INFO root fetch - main [MainThread]: End processing [irisml-tasks]: success
+[2023-07-22 07:55:07] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.692.tar.gz]
+[2023-07-22 07:55:07] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6921.tar.gz]
+[2023-07-22 07:55:07] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-22 07:55:08] INFO root fetch - processPackages [smol]: executing diffoscope
+[2023-07-22 07:55:08] INFO root fetch - processPackages [smol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230722:/home/abi/fetcher/20230722:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smol-0.4.0.tar.gz tmp/smol-0.4.1.tar.gz --markdown 20230722/s/smol/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-22 07:55:17] INFO root fetch - processPackages [smol]: Remove: archive file [/home/abi/fetcher/tmp/smol-0.4.0.tar.gz]
+[2023-07-22 07:55:17] INFO root fetch - processPackages [smol]: Remove: archive file [/home/abi/fetcher/tmp/smol-0.4.1.tar.gz]
+[2023-07-22 07:55:17] INFO root fetch - main [MainThread]: End processing [smol]: success
+[2023-07-22 07:55:17] INFO root fetch - main [MainThread]: Store serial: [18993009]
